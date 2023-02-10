@@ -1,0 +1,20 @@
+/* Holidays groups list component style sheet. */
+.mainHeadingUnderLine {
+    width: 9%;
+    color: #306778;
+    border-top: 1.5px solid #306778;
+    opacity: unset !important;
+}
+
+.newHolidayGroupBtn {
+    width: 11.625rem;
+    height: 3rem;
+}
+
+.newWord {
+    font-size: 1.125rem;
+}
+
+.paginationContainer {
+    margin-top: 2.25rem;
+}

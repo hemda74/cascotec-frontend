@@ -1,0 +1,29 @@
+/* Edit Site Discard changes  Modal style sheet */
+.modalWidth {
+    min-width: 39.313rem;
+    max-width: 39.313rem;
+    min-height: 31.75rem;
+    max-height: 31.75rem;
+}
+.iconContainer {
+    margin-top: 5.625rem;
+    margin-bottom: 5.625rem;
+    width: 8.654rem;
+    height: 8.654rem;
+    background-color: #FEF9EA;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+.headerContainer {
+    margin-top: 2.625rem;
+    color: #306778;
+}
+
+.btnContainer {
+    width: 17.375rem;
+    height: 3.25rem;
+}

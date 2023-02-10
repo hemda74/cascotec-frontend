@@ -1,0 +1,10 @@
+/* Orgnaization detail site nav link component */
+.siteNavLink {
+    padding-bottom: 0.65rem;
+}
+
+.activeLink {
+    border-bottom: 4px solid #306778;
+    color: #306778 !important;
+    font-weight: bold;
+}

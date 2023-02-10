@@ -1,0 +1,19 @@
+.aboutHeader{
+    background: url("../public/imagess/aboutheadimage.jpg")  center center;
+    padding: 10rem 0;
+  }
+  .objectiveCard{
+     width: 65rem; 
+    height: 15rem;
+    margin-top: -4rem !important;
+    margin: auto;
+    border-radius: 3rem;
+    padding-top: 3rem;
+    box-shadow: 0px 30px 40px -20px #8787b2;
+
+  }
+  .visionCard{
+    max-width: 29rem;
+    box-shadow: 0px 30px 40px -20px #8787b2;
+    padding: 5rem;
+  }

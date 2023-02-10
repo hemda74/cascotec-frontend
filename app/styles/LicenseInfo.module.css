@@ -1,0 +1,11 @@
+/* License info page style sheet */
+.logoContainer {
+    min-height: 7rem;
+    max-height: 7rem;
+    min-width: 7rem;
+    max-width: 7rem;
+}
+
+.tenantNameContainer {
+    margin-top: 1.625rem;
+}

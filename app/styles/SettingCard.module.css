@@ -1,0 +1,38 @@
+/* itr admin settings card css module */
+/* settings card container */
+.cardContainer {
+    margin-top: 1.5rem;
+    z-index: 99;
+    right: 13.625rem;
+}
+/* settings card */
+.settingsCard {
+    max-width: 450px;
+    min-width: 450px;
+}
+
+.settingsList {
+    box-shadow: unset !important;
+
+}
+
+/* settings list items */
+.settingsList li {
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-color: #E5EAEF !important;
+    border-radius: unset !important;
+    -webkit-border-radius: unset !important;
+    -moz-border-radius: unset !important;
+    -ms-border-radius: unset !important;
+    -o-border-radius: unset !important;
+}
+/* localitzation btn located in settings card */
+.localtizationBtn, .localtizationLangs {
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+};

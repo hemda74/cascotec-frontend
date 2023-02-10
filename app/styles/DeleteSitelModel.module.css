@@ -1,0 +1,28 @@
+/* Delete Department Modal style sheet */
+.modalWidth {
+    min-width: 39.313rem;
+    max-width: 39.313rem;
+    min-height: 38.438rem;
+    max-height: 38.438rem;
+}
+.iconContainer {
+    margin-top: 5.625rem;
+    margin-bottom: 5.625rem;
+    width: 8.5rem;
+    height: 8.5rem;
+    background-color: #FFE4E2;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+.headerContainer {
+    margin-top: 2.625rem;
+}
+
+.btnContainer {
+    width: 17.375rem;
+    height: 3.25rem;
+}

@@ -1,0 +1,18 @@
+.navLink{
+    color: black;
+}
+.navLink:hover{
+    color: #85CDFD;
+
+}
+.searchIcon{
+    color:  #85CDFD;
+}
+.navItem{
+    margin-top: 1rem;
+}
+@media (max-width: 978px) {
+    .navItem{
+        margin-top: 0;
+    }
+}

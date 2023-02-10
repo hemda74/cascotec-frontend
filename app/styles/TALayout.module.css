@@ -1,0 +1,7 @@
+/* Tenant admin layout */
+.mainContainer {
+    background-image: url('../public/header-background.svg');
+    background-repeat: no-repeat;
+    background-position-y: -75px;
+    background-size: contain;
+   }

@@ -1,0 +1,304 @@
+/* * Customizable bootstrap classes*/
+.myPrimary {
+    background-color: #3C84AB!important;
+    color: #ffffff !important;
+}
+
+
+    .myPrimary:hover {
+        background-color: #245670 !important;
+        color: #ffffff !important;
+    }
+
+    .myPrimary:focus {
+        border: 1px solid #362FD9 !important;
+    }
+
+.myPrimary-outline {
+    background-color: #ffffff !important;
+    color: #3C84AB !important;
+    border: 1px solid #362fd9 !important;
+}
+
+    .myPrimary-outline:hover {
+        background-color: #362fd9 !important;
+        color: #ffffff !important;
+    }
+
+    .myPrimary-outline:focus {
+        border: 1px solid  #362fd9 !important;
+    }
+
+.myPrimary-outline-active {
+    background-color: #3C84AB !important;
+    color: #ffffff !important;
+}
+
+.mySecondary {
+    background-color: #2d6c8e;
+    color: #ffffff !important;
+}
+
+    .mySecondary:hover {
+        color: #ffffff;
+    }
+
+    .mySecondary:focus {
+        border: 1px solid #7b7bc4;
+    }
+
+.mySecondary-outline {
+    background-color: #ffffff;
+    color:#8181d8;
+    border: 1px solid #eae3ea;
+}
+
+    .mySecondary-outline:hover {
+        background-color: #7a7ad2;
+        color: #ffffff;
+    }
+
+    .mySecondary-outline:focus {
+        border: 1px solid #7a7adb;
+    }
+
+.mySuccess {
+    background-color: #00DE97;
+    color: #ffffff;
+}
+
+    .mySuccess:hover {
+        background-color: #00b37a;
+        color: #ffffff;
+    }
+
+    .mySuccess:focus {
+        border: 1px solid #00ffae;
+    }
+
+.mySuccess-outline {
+    background-color: #ffffff;
+    color: #00DE97;
+    border: 1px solid #00DE97;
+}
+
+    .mySuccess-outline:hover {
+        background-color: #00DE97;
+        color: #ffffff;
+    }
+
+    .mySuccess-outline:focus {
+        border: 1px solid #00ffae;
+    }
+
+.myInfo {
+    background-color: #1187AB;
+    color: #ffffff;
+}
+
+    .myInfo:hover {
+        background-color: #0e6e8b;
+        color: #ffffff;
+    }
+
+    .myInfo:focus {
+        border: 1px solid #15a5d1;
+    }
+
+.myInfo-outline {
+    background-color: #ffffff;
+    color: #1187AB;
+    border: 1px solid #1187AB;
+}
+
+    .myInfo-outline:hover {
+        background-color: #1187AB;
+        color: #ffffff;
+    }
+
+    .myInfo-outline:focus {
+        border: 1px solid #15a5d1;
+    }
+
+.myInfo-outline-active {
+    background-color: #1187AB;
+    color: #ffffff;
+}
+
+.myInfo-outline-active:hover {
+    background-color: #1187AB;
+    color: #ffffff;
+}
+
+.myWarning {
+    background-color: #E24338;
+    color: #ffffff;
+}
+
+    .myWarning:hover {
+        background-color: #c9281d;
+        color: #ffffff;
+    }
+
+    .myWarning:focus {
+        border: 1px solid #e96c63;
+    }
+
+.myWarning-outline {
+    background-color: #ffffff;
+    color: #E24338;
+    border: 1px solid #e96c63;
+}
+
+    .myWarning-outline:hover {
+        background-color: #E24338;
+        color: #ffffff;
+    }
+
+    .myWarning-outline:focus {
+        border: 1px solid #e96c63;
+    }
+
+.myDanger {
+    background-color: #AB113E;
+    color: #ffffff;
+}
+
+    .myDanger:hover {
+        background-color: #8b0e33;
+        color: #ffffff;
+    }
+
+    .myDanger:focus {
+        border: 1px solid #d1154d;
+    }
+
+.myDanger-outline {
+    background-color: #ffffff;
+    color: #AB113E;
+    border: 1px solid #AB113E;
+}
+
+    .myDanger-outline:hover {
+        background-color: #AB113E;
+        color: #ffffff;
+    }
+
+    .myDanger-outline:focus {
+        border: 1px solid #d1154d;
+    }
+
+.myDisabledBtn {
+    background-color: #E2E0E0;
+    color: #757575;
+}
+
+    .myDisabledBtn:hover {
+        background-color: #E2E0E0;
+        color: #757575;
+    }
+
+    .myDisabledBtn:focus {
+        border: 1px solid #E2E0E0;
+    }
+
+.myPrimary-Text {
+    color: #306778;
+}
+.myPrimaryLight-Text {
+    color: #1DABF2;
+}
+
+.mySecondary-Text {
+    color: #eae3ea;
+}
+
+.mySuccess-Text {
+    color: #00DE97;
+}
+.mySuccessLight-Text {
+    color: #46D68C;
+}
+
+.myInfo-Text {
+    color: #1187AB;
+}
+
+.myWarning-Text {
+    color: #E24338;
+}
+
+.myWarninglight-Text {
+    color: #F3B10E;
+}
+.myDanger-Text {
+    color: #AB113E;
+}
+
+.myText-muted:hover {
+    color: #ffffff !important;
+}
+
+.myText-gray {
+    color: #757575;
+}
+
+.myPrimary-bg {
+    background-color: #306778;
+}
+
+.mySecondary-bg {
+    background-color: #eae3ea;
+}
+
+.mySuccess-bg {
+    background-color: #4acf9c;
+}
+
+.myInfo-bg {
+    background-color: #1187AB;
+}
+
+.myWarning-bg {
+    background-color: #E24338;
+}
+
+.myDanger-bg {
+    background-color: #AB113E;
+}
+
+.myGray-bg {
+    background-color: #d9d9d9;
+}
+
+.myBody-bg {
+    background-color: #F6F6F6;
+}
+
+.mylightPrimary-bg {
+    background-color: #D8E9EE;
+}
+
+.myLightGray-bg {
+    background-color: #EBECED !important;
+}
+.myLightDanger-bg {
+    background-color: #EED8D8;
+}
+.myDisabled-bg {
+    background-color: #e9ecef;
+}
+.myPrimary-border {
+    border-bottom: 2px solid #306778 !important;
+}
+.left-none {
+    left: unset !important;
+}
+.myShadow-lg {
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.20) !important;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.20) !important;
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.20) !important;
+}
+.myBoxShadow-none {
+    box-shadow: none !important;
+}
