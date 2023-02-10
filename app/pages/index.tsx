@@ -55,7 +55,7 @@ const Login: NextPage = () => {
   return (
     <>
       <Head>
-        <title>TicoSys | Login</title>
+        <title>CASCO | Home</title>
       </Head>
    <NavBar/>
       
