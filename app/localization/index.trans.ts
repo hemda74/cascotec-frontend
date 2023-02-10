@@ -47,6 +47,61 @@ const indexTrans: translataionContainer = {
         en:'Stakeholders Advisory Committee',
         ar:'اللجنة الاستشارية للجهات ذات العلاقة'
     },
+    AccreditedBodiesNav:{
+        en:'Accredited Bodies',
+        ar:'الجهات المعتمدة',
+    },
+    ServicesNav:{
+        en:'Services',
+        ar:'خدماتنا'
+    },
+    CoursesNav:{
+        en:'Courses',
+        ar:'الكورسات'
+    },
+    DocumentsNav:{
+        en:'Documents',
+        ar:'وثائق المركز'
+    },
+    ContactUsNav:{
+        en:'Contact Us',
+        ar:'تواصل معنا '
+    },
+    MediaCenterNav:{
+        en:'Media Center',
+        ar:'المركز الاعلامي'
+    },
+    NewsNav:{
+        en:'News',
+        ar:'الاخبار'
+    },
+    GalleryNav:{
+        en:'Gallery',
+        ar:'معرض الصور'
+    },
+    EducationalBookletsNav:{
+        en:'Educational Booklets',
+        ar:'منشورات توعوية'
+    },
+    VisualPresentationsNav:{
+        en:'Visual Presentations',
+        ar:'عروض مرئية'
+    },
+    EventsNav:{
+        en:'Events',
+        ar:'الفعاليات'
+    },
+
+
+
+
+
+
+
+
+
+
+
     // Login page
     welcomeBack: {
         en: 'Welcome back',

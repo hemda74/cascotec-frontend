@@ -1,14 +1,10 @@
 .navLink{
     color: black;
-    font-size: large;
 
 }
 .navLink:hover{
     color: #85CDFD;
-
 }
-.navLink2{
-font-size: large;}
 .navLink2:hover{
     color: #85CDFD;
 
@@ -29,6 +25,10 @@ font-size: large;}
 .ulDropDown{
     text-align: center;
     min-width:20rem;
+}
+.ulDropDown2{
+    text-align: center;
+    min-width:15rem;
 }
 @media (max-width: 978px) {
     .navItem{
