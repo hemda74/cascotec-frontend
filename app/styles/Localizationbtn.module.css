@@ -1,9 +1,6 @@
 /* localication Btn at Login page */
 .localizationBtn {
-    padding-top: 0.336rem;
-    padding-bottom: 0.336rem;
-    padding-left: 1.797rem;
-    padding-right: 1.797rem;
+    margin-top: -1rem;
     color: white;
     border: 2px solid #f8f9fa !important;
     border-radius: 5px !important;

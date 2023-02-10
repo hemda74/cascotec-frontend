@@ -5,11 +5,22 @@
     color: #85CDFD;
 
 }
+.navLink2:hover{
+    color: #85CDFD;
+
+}
 .searchIcon{
     color:  #85CDFD;
 }
 .navItem{
     margin-top: 1rem;
+}
+.navItem2{
+    margin-top: 0.5rem;
+}
+.navLink2{
+    color: black;
+    display: inline;
 }
 @media (max-width: 978px) {
     .navItem{

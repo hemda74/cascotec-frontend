@@ -7,17 +7,33 @@ type translataionContainer ={
 const indexTrans: translataionContainer = {
     // localization button in login page
     langs: {
-        en: 'AR',
-        ar: 'EN'
+        en: 'ع',
+        ar: 'E'
     },
     // NavBar
     HomeNav:{
         en:"Home",
-        ar:"الرئيسيه"
+        ar:"الرئيسية"
     },
     AboutCascoNav:{
         en:"About CASCO",
         ar:"عن المركز"
+    },
+    AboutUsNav:{
+        en:'About Us',
+        ar:'من نحن'
+    },
+    BoardOfDirectorsNav:{
+        en:'Board Of Directors',
+        ar:'مجلس الادارة'
+    },
+    DirectorMangerNav:{
+        en:'Director Manger',
+        ar:'المدير العام'
+    },
+    OrganizationalStructureNav:{
+        en:'Organizational Structure',
+        ar:'الهيكل التنظيمي'
     },
 
     // Login page
@@ -25,9 +41,9 @@ const indexTrans: translataionContainer = {
         en: 'Welcome back',
         ar: 'مرحبًا بعودتك'
     },
-    loginToYourAccount: {
-        en: 'Login To Your Account',
-        ar: 'تسجيل الدخول إلى حسابك'
+    login: {
+        en: 'Login',
+        ar: 'تسجيل الدخول'
     },
     email: {
         en: 'Email',

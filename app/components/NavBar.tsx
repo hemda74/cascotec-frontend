@@ -5,6 +5,7 @@ import logo from '../public/logo.png'
 import Link from 'next/link';
 import {AiOutlineSearch} from 'react-icons/ai'
 import LocalizationBtn from './LocalizationBtn';
+import LoginBtn from './LoginBtn';
 const NavBar = () => {
   return (
     //design nav
@@ -13,7 +14,7 @@ const NavBar = () => {
     <div className={`container-fluid d-flex justify-content-between align-items-center ms-4 `}>
         <Link href={'/'} className="navbar-brand  ">
             <a><Image
-                alt="trash icon"
+                alt="casco logo"
                 src={logo}
                 width={200}
                 height={90}
@@ -25,31 +26,67 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav m-auto ">
-                <li className={`nav-item  ${styles.navItem}`}>
+                <li className={`nav-item ms-4 ${styles.navItem}`}>
                     <Link href={'/'}  className={`nav-link`} id="link"><a><p className={`${styles.navLink}`} data-trans="HomeNav">Home</p></a></Link>
-                </li>  
+                </li> 
+                <li className={`nav-item dropdown ms-4 ${styles.navItem2} `}>
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <p className={`${styles.navLink2}`} data-trans="AboutCascoNav">About CASCO</p>
+                    </a>
+                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li className={`nav-item ms-4  ${styles.navItem}`}>
+                            <Link href={'/about'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutUsNav">About Us</p></a></Link>
+                        </li>
+                        <li className={`nav-item ms-4  ${styles.navItem}`}>
+                            <Link href={'/board-of-directors'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
+                        </li>
+                        <li className={`nav-item ms-4  ${styles.navItem}`}>
+                            <Link href={'/director-manger'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                        </li>
+                        <li className={`nav-item ms-4  ${styles.navItem}`}>
+                            <Link href={'/organizational-structure'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="OrganizationalStructureNav">Organizational Structure</p></a></Link>
+                        </li>
+                        <li className={`nav-item ms-4  ${styles.navItem}`}>
+                            <Link href={'/director-manger'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                        </li>
+                        <li className={`nav-item ms-4  ${styles.navItem}`}>
+                            <Link href={'/director-manger'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                        </li>
+                        <li className={`nav-item ms-4  ${styles.navItem}`}>
+                            <Link href={'/director-manger'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                        </li>
+                    </ul>
+                </li>
+                <li className={`nav-item ms-4 ${styles.navItem}`}>
+                    <Link href={'/about'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutCascoNav">About CASCO</p></a></Link>
+                </li>
+                <li className={`nav-item ms-4 ${styles.navItem}`}>
+                    <Link href={'/about'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutCascoNav">About CASCO</p></a></Link>
+                </li>
+                <li className={`nav-item ms-4 ${styles.navItem}`}>
+                    <Link href={'/about'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutCascoNav">About CASCO</p></a></Link>
+                </li>
                 <li className={`nav-item ms-4  ${styles.navItem}`}>
-                    <Link href={'/about'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutCascoNav">About CASCO</p></a></Link>
-                </li>
-                <li className={`nav-item ms-4 ${styles.navItem}`}>
-                    <Link href={'/about'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutCascoNav">About CASCO</p></a></Link>
-                </li>
-                <li className={`nav-item ms-4 ${styles.navItem}`}>
-                    <Link href={'/about'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutCascoNav">About CASCO</p></a></Link>
-                </li>
-                <li className={`nav-item ms-4 ${styles.navItem}`}>
-                    <Link href={'/about'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutCascoNav">About CASCO</p></a></Link>
-                </li>
-                <li className={`nav-item ms-4 ${styles.navItem}`}>
                     <Link href={'/about'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutCascoNav">About CASCO</p></a></Link>
                 </li>
                 <li className={`nav-item ms-4 ${styles.navItem}`}>
                     <Link href={'/about'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutCascoNav">About CASCO</p></a></Link>
                 </li>      
                 <li className={`nav-item ms-4 mt-0 ${styles.navItem}`}>
-                    <LocalizationBtn/>
+                    
                 </li>     
             </ul>
+            <div className="d-flex">
+            <span className={`${styles.searchIcon} me-3 ms-3 mt-3`}>
+              <AiOutlineSearch size={30}/>
+              </span>
+              <div className='me-3 ms-3'>
+            <LoginBtn />
+            </div>
+            
+                        <LocalizationBtn/>
+            
+            </div>
           </div>
     </div>
  </nav>
