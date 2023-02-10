@@ -33,27 +33,27 @@ const NavBar = () => {
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <p className={`${styles.navLink2}`} data-trans="AboutCascoNav">About CASCO</p>
                     </a>
-                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li className={`nav-item ms-4  ${styles.navItem}`}>
+                    <ul className={`dropdown-menu ${styles.ulDropDown}  `} aria-labelledby="navbarDropdown">
+                        <li className={`nav-item   ${styles.navItem}`}>
                             <Link href={'/about'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutUsNav">About Us</p></a></Link>
                         </li>
-                        <li className={`nav-item ms-4  ${styles.navItem}`}>
-                            <Link href={'/board-of-directors'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
+                        <li className={`nav-item  ${styles.navItem}`}>
+                            <Link href={'/board-of-directors'}  className={`nav-link`} id="link"><a><p className={`${styles.navLink}`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
                         </li>
-                        <li className={`nav-item ms-4  ${styles.navItem}`}>
-                            <Link href={'/director-manger'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                        <li className={`nav-item   ${styles.navItem}`}>
+                            <Link href={'/director-manger'}  className={`nav-link`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
                         </li>
-                        <li className={`nav-item ms-4  ${styles.navItem}`}>
-                            <Link href={'/organizational-structure'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="OrganizationalStructureNav">Organizational Structure</p></a></Link>
+                        <li className={`nav-item  ${styles.navItem}`}>
+                            <Link href={'/organizational-structure'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="OrganizationalStructureNav">Organizational Structure</p></a></Link>
                         </li>
-                        <li className={`nav-item ms-4  ${styles.navItem}`}>
-                            <Link href={'/director-manger'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                        <li className={`nav-item   ${styles.navItem}`}>
+                            <Link href={'establishment-agreement'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="CASCOEstablishmentAgreementNav">CASCO Establishment Agreement</p></a></Link>
                         </li>
-                        <li className={`nav-item ms-4  ${styles.navItem}`}>
-                            <Link href={'/director-manger'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                        <li className={`nav-item   ${styles.navItem}`}>
+                            <Link href={'/rights-and-duties'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="CASCORightsAndDutiesNav">CASCO’s Rights And Duties</p></a></Link>
                         </li>
-                        <li className={`nav-item ms-4  ${styles.navItem}`}>
-                            <Link href={'/director-manger'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                        <li className={`nav-item `}>
+                            <Link href={'/stakeholdersadvisorycommittee'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="StakeholdersAdvisoryCommitteeNav">Stakeholders Advisory Committee</p></a></Link>
                         </li>
                     </ul>
                 </li>

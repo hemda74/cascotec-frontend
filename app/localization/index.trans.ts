@@ -35,7 +35,18 @@ const indexTrans: translataionContainer = {
         en:'Organizational Structure',
         ar:'الهيكل التنظيمي'
     },
-
+    CASCOEstablishmentAgreementNav:{
+        en:'CASCO Establishment Agreement',
+        ar:'اتفاقية انشاء المركز'    
+    },
+    CASCORightsAndDutiesNav:{
+        en:'CASCO’s Rights And Duties',
+        ar:'الحقوق و الواجبات'
+    },
+    StakeholdersAdvisoryCommitteeNav:{
+        en:'Stakeholders Advisory Committee',
+        ar:'اللجنة الاستشارية للجهات ذات العلاقة'
+    },
     // Login page
     welcomeBack: {
         en: 'Welcome back',
