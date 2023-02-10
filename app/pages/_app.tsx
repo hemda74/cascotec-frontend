@@ -8,7 +8,7 @@ import { store } from '../app/store';
 import transScript from '../helper/transScript';
 import indexTrans from '../localization/index.trans';
 import { NextPage } from 'next';
-import AuthGard from '../authentication/AuthGard';
+
 
 // here we export the alias of next page with layout as optional.
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
