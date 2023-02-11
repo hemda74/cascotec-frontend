@@ -12,7 +12,7 @@ const NavBar = () => {
 <>
   <nav className={`navbar navbar-expand-lg sticky-top bg-white ${styles.navBar}`}>
     <div className={`container-fluid d-flex justify-content-between align-items-center ms-4 `}>
-        <Link href={'/'} className="navbar-brand  ">
+        <Link href={'/'} className="navbar-brand ">
             <a><Image
                 alt="casco logo"
                 src={logo}

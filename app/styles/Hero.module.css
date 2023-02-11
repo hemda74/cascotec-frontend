@@ -1,7 +1,7 @@
 .landHead {
     width: 100%;
     height: 80vh;
-    background: url("../public/imagess/heroimage.jpg") top left;
+    background: url("../public/login-background-image.jpg") top left;
     background-size: cover;
     position: relative;
   }

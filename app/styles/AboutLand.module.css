@@ -17,7 +17,20 @@
 .aboutBody{
     text-align: center;
     padding-top:  18% ;
-    margin-bottom: -18rem;
+    margin-bottom: -35rem;
+}
+.aboutCasco{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.aboutCascoText{
+    margin-top: 0rem;
+}
+.aboutCasco span{
+    font-size: larger;
+}
+.imageHolder{
+    z-index: -1;
 }
 .whoWeAre{
     font-size: .8888888889rem;
@@ -27,13 +40,18 @@
     display: block;
     line-height: 1.6666666667rem;
 }
+.aboutCascoLink{
+    color:  #be1f24 !important; 
+    font-size: 1rem;
+    cursor: pointer !important;
+    z-index: 5;
+}
 
 @media (min-width:480px) and (max-width:770px) {
     .aboutBody{
         text-align: center;
         margin-bottom: 0;
-        margin-bottom: -8.6rem;
-        /* margin-left: 3rem; */
+        margin-bottom: -23rem;
     }
     .whoWeAre{
         font-size: .5rem;
@@ -43,15 +61,19 @@
         display: block;
         line-height: 1.6666666667rem;
     }
-    
+    .aboutCasco{
+        margin-top: 0rem;
+    }
+    .aboutCascoText{
+        font-size: smaller;
+    }
 }
 @media (max-width: 480px) {
     .aboutBody{
         text-align: center;
         padding-top:  25% ;
         margin-bottom: 0;
-        /* margin-left: 1.87rem; */
-        margin-bottom: -6.5rem;
+        margin-bottom: -13rem;
     }
     .whoWeAre{
         font-size: .5rem;
@@ -60,5 +82,31 @@
         text-transform: uppercase;
         display: block;
         line-height: 1.6666666667rem;
+    }
+    .aboutCasco{
+        margin-top: -0.4rem;
+    }
+    .aboutCasco span{
+        font-size: smaller;
+    }
+    .aboutCascoText {
+        font-size: 0.77rem;
+    }
+    .aboutCascoText4 {
+        display: none;
+    }
+    .aboutCascoText3{
+        display: none;
+    }
+    .aboutCascoText2{
+        display: none;
+    }
+}
+@media (min-width:770px) and (max-width:1024px) {
+    .aboutBody{
+        text-align: center;
+        padding-top:  25% ;
+        margin-bottom: 0;
+        margin-bottom: -29rem;
     }
 }
