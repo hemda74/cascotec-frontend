@@ -95,17 +95,17 @@ const NavBar = () => {
                     <Link href={'/contact'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="ContactUsNav">Contact Us</p></a></Link>
                 </li>        
             </ul>
-            <div className="d-flex">
-                <span className={`${styles.searchIcon} me-3 ms-3 mt-3`}>
-                    <AiOutlineSearch size={30}/>
-                </span>
-                <div className='me-3 ms-3'>
-                    <LoginBtn />
-                </div>
-                    <LocalizationBtn/>
-                </div>
           </div>
     </div>
+    <div className="d-flex">
+        <span className={`${styles.searchIcon} me-3 ms-3 mt-3`}>
+            <AiOutlineSearch size={30}/>
+        </span>
+        <div className='me-3 ms-3'>
+            <LoginBtn />
+        </div>
+            <LocalizationBtn/>
+        </div>
  </nav>
 </>
   );

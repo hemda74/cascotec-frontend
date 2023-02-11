@@ -34,6 +34,7 @@
         margin-top: 0;
     }
     .navItem2{
-        margin-top: 1rem;
+        margin-top: -.50rem;
+        margin-bottom: 0.4rem;
     }
 }

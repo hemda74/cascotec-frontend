@@ -13,7 +13,9 @@ const AboutLand = () => {
                         <div className={`${styles.aboutHolder}`}>
                             <div className={`col-12 ${styles.aboutBody}`}>
                                 <span className={`${styles.whoWeAre}`}>Who We Are</span>
-                                <span className='fs-6 fw-semibold '>About CASCO</span>
+                                <div className={``}>
+                                    <span className={`fs-6 fw-semibold `}>About CASCO</span>
+                                </div>
                             </div>
                                 <Image src ={about} className={`${styles.imageHolder}`}  alt='about image'/>
                         </div>
