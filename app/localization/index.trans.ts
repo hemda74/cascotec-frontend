@@ -126,6 +126,10 @@ const indexTrans: translataionContainer = {
         en:'and the Pacific to gain international recognition.',
         ar:'والمحيط الهادئ يحصل على الاعتراف الدولي.'
     },
+    LearnMoreAbout:{
+        en:'Learn More',
+        ar:'اعرف المزيد'
+    },
 
 
 

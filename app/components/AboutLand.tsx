@@ -24,7 +24,7 @@ const AboutLand = () => {
                                      <p data-trans="AboutCascoText4" className={`${styles.aboutCascoText4}`}>and the Pacific to gain international recognition.</p>
                                 </div>
                                 <div>
-                                   <Link href={'/about/about-us'} id='link'><a> <p className={`${styles.aboutCascoLink}`}>Learn More</p></a></Link>
+                                   <Link href={'/about/about-us'} id='link'><a> <p className={`${styles.aboutCascoLink}`} data-trans="LearnMoreAbout">Learn More</p></a></Link>
                                 </div>
                             </div>
                                 <Image src ={about} className={`${styles.imageHolder}`}  alt='about image'/>

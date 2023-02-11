@@ -73,7 +73,7 @@
         text-align: center;
         padding-top:  25% ;
         margin-bottom: 0;
-        margin-bottom: -13rem;
+        margin-bottom: -12rem;
     }
     .whoWeAre{
         font-size: .5rem;
@@ -101,6 +101,11 @@
     .aboutCascoText2{
         display: none;
     }
+    .aboutCascoLink{
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+    }
+    
 }
 @media (min-width:770px) and (max-width:1024px) {
     .aboutBody{
