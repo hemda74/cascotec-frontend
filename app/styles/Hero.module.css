@@ -63,7 +63,7 @@
     }
   }
   
-  @media (max-height: 500px) {
+  @media (max-height: 500px) and (max-width: 480px)  {
     .landHead  {
       height: 60vh;
     }
