@@ -1,0 +1,66 @@
+.aboutHolder{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.aboutContent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+}
+.aboutBody{
+    text-align: center;
+    padding-top:  18% ;
+    margin-bottom: -18rem;
+    /* margin-left: 6rem; */
+    /* margin-top:-48rem ;
+    margin-left:22rem ; */
+}
+.whoWeAre{
+    font-size: .8888888889rem;
+    font-weight: 700;
+    color: #be1f24;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1.6666666667rem;
+}
+@media (min-width:480px) and (max-width:770px) {
+    .aboutBody{
+        text-align: center;
+        margin-bottom: 0;
+        margin-bottom: -8.6rem;
+        /* margin-left: 3rem; */
+    }
+    .whoWeAre{
+        font-size: .5rem;
+        font-weight: 700;
+        color: #be1f24;
+        text-transform: uppercase;
+        display: block;
+        line-height: 1.6666666667rem;
+    }
+    
+}
+@media (max-width: 480px) {
+    .aboutBody{
+        text-align: center;
+        padding-top:  28% ;
+        margin-bottom: 0;
+        /* margin-left: 1.87rem; */
+        margin-bottom: -6rem;
+    }
+    .whoWeAre{
+        font-size: .5rem;
+        font-weight: 700;
+        color: #be1f24;
+        text-transform: uppercase;
+        display: block;
+        line-height: 1.6666666667rem;
+    }
+}

@@ -91,7 +91,16 @@ const indexTrans: translataionContainer = {
         en:'Events',
         ar:'الفعاليات'
     },
-
+// home page 
+// hero section in home page
+    CompanyName:{
+        en:'Welcome to CASCO',
+        ar:'مرحبا في كاسكو'
+    },
+    CompanyNamesubtitle:{
+        en:'For Accreditation Certificates',
+        ar: 'للاستشارات والتدريب'
+    },
 
 
 

@@ -17,6 +17,8 @@ import deleteCookie from '../helper/deleteCookie';
 import getCookie from '../helper/getCookie';
 import TANavBar from '../components/TANavBar';
 import NavBar from '../components/NavBar';
+import Hero from '../components/Hero';
+import AboutLand from '../components/AboutLand';
 
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
@@ -55,12 +57,11 @@ const Login: NextPage = () => {
   return (
     <>
       <Head>
-        <title>CASCO | Home</title>
+        <title>CASCO</title>
       </Head>
    <NavBar/>
-      
-     
-  
+   <Hero/>
+   <AboutLand/>
     </>
   );
 };

@@ -1,0 +1,75 @@
+.landHead {
+    width: 100%;
+    height: 80vh;
+    background: url("../public/imagess/heroimage.jpg") top left;
+    background-size: cover;
+    position: relative;
+  }
+  .landHead:before {
+    content: "";
+    background: rgba(14, 14, 14, 0.441);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .landCont {
+    position: relative;
+  }
+  .landQuet1 {
+    color: #247cf0 ;
+  }
+  .landQuet2 {
+    display:block;
+    text-decoration: none;
+    color: #000000;
+    }
+  .getStart {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 0.7rem 1.7rem;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  
+  }
+  .getStart:hover {
+    background: #247cf0;
+  }
+  @media (min-width: 1024px) {
+    .landHead {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .landHead {
+      height: 100vh;
+    }
+    .landQuet1{
+      text-align: center;
+      margin: auto;
+    }
+  
+    .landQuet2 {
+      font-size: 1rem;
+      line-height: 1.4rem;
+      margin-bottom: 1.9rem;
+    }
+  }
+  
+  @media (max-height: 500px) {
+    .landHead  {
+      height: 120vh;
+    }
+      .landQuet1{
+      text-align: center;
+      margin: auto;
+    }
+  }
+  
