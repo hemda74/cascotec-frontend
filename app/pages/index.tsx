@@ -19,6 +19,7 @@ import TANavBar from '../components/TANavBar';
 import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import AboutLand from '../components/AboutLand';
+import Services from '../components/ServicesComp';
 
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
@@ -58,10 +59,11 @@ const Login: NextPage = () => {
     <>
       <Head>
         <title>CASCO</title>
-      </Head>
+   </Head>
    <NavBar/>
    <Hero/>
    <AboutLand/>
+   <Services/>
     </>
   );
 };

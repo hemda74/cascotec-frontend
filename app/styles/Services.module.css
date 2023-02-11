@@ -1,0 +1,37 @@
+.aboutSectoin{
+    background: #f1f6fe;
+    padding-top: 2rem;
+}
+.servicesTitle{
+    font-size: .8888888889rem;
+    font-weight: 700;
+    color: #be1f24;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1.6666666667rem;
+}
+.aboutCont{
+    padding: 30px 0 25px ;
+    width: 60%;
+    position: relative;
+    text-align: center;
+    background: #ffff;
+    border-radius: 3rem;
+  }
+      .ulAbout {
+      list-style: none;
+      padding: 0;
+    }
+    .liAbout {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 35px;
+    }
+    .liAbout:first-child {
+      margin-top: 35px;
+    }
+    .spanAbout {
+      padding: 1.3rem;
+      margin-top: 3rem !important;
+      border-radius: 5px;
+     }
