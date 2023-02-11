@@ -96,8 +96,7 @@ const NavBar = () => {
                 </li>        
             </ul>
           </div>
-    </div>
-    <div className="d-flex">
+          <div className="d-flex">
         <span className={`${styles.searchIcon} me-3 ms-3 mt-3`}>
             <AiOutlineSearch size={30}/>
         </span>
@@ -106,6 +105,7 @@ const NavBar = () => {
         </div>
             <LocalizationBtn/>
         </div>
+    </div>
  </nav>
 </>
   );
