@@ -20,6 +20,7 @@ import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import AboutLand from '../components/AboutLand';
 import Services from '../components/ServicesComp';
+import Footer from '../components/Footer';
 
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
@@ -64,6 +65,7 @@ const Login: NextPage = () => {
    <Hero/>
    <AboutLand/>
    <Services/>
+   <Footer/>
     </>
   );
 };

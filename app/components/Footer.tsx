@@ -17,11 +17,11 @@ const Footer = () => {
                             width={220}
                             height={50}
                         />         
-                        <p className="mt-4 fs-5">
+                        <p className="mt-4 fs-5" data-trans='CascoTitleFooter'>
                             CASCO
-                            <br />
-                            All Your Needs About Books
-                        </p>
+                            </p>    
+                          <p data-trans='CascoSubTitleFooter'>All Your Needs About Books</p>
+                        
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-2 pt-3">

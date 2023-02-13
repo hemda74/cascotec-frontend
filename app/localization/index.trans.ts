@@ -130,6 +130,36 @@ const indexTrans: translataionContainer = {
         en:'Learn More',
         ar:'اعرف المزيد'
     },
+    // services section
+    servicesTitle:{
+        en:'SERVICES',
+        ar:'الخدمات'
+    },
+    servicesSubTitle:{
+        en:'Accreditation made simple for you',
+        ar:'الاعتمادات تكون اسهل لالجلكم'
+    },
+    servicesbrief:{
+        en:'The services we offer foster mutual confidence between service providers and consumers',
+        ar:'الخدمات اللتي نقدمها لتكون اسهل من خلالنا'
+    },
+    servicesHalal:{
+        en:'Accreditation of HALAL Certification Bodies',
+        ar:'اعتمادات شهادات الحلال'
+    },
+    servicesHalalbrief:{
+        en:'CASCO Accreditation Center provides accreditation services in the scheme of Halal Certification according to the standard GSO 2055-2:2015.',
+        ar:'اعتمادات شهادات الحلال اعتمادات شهادات الحلال اعتمادات شهادات الحلال'
+    },
+    // footer 
+    CascoTitleFooter:{
+        en:'CASCO',
+        ar:'كاسكو'
+    },
+    CascoSubTitleFooter:{
+        en:'All Your Needs About Books',
+        ar:'الخدمات اللتي نقدماها '
+    },
 
 
 

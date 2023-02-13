@@ -17,8 +17,8 @@ const Services = () => {
             <div className="row mt-3 d-flex justify-content-center">
                 <div className="col-lg-5 pt-4 me-0 content d-flex flex-column justify-content-center">
                 <p className={`fs-5 fw-bold`} data-trans='servicesHalal'>Accreditation of HALAL Certification Bodies</p>
-                <p className="text-black-50 " data-trans='servicesbrief'>
-                     GCC Accreditation Center provides accreditation services in the scheme of Halal Certification according to the standard GSO 2055-2:2015.
+                <p className="text-black-50 " data-trans='servicesHalalbrief'>
+                     CASCO Accreditation Center provides accreditation services in the scheme of Halal Certification according to the standard GSO 2055-2:2015.
                     </p>
                  </div>
                  <div className="col-1"></div>
