@@ -1,12 +1,13 @@
 .navLink{
     color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .navLink:hover{
     color: #85CDFD;
 }
 .navLink2:hover{
     color: #85CDFD;
-
 }
 .searchIcon{
     color:  #85CDFD;
@@ -16,18 +17,35 @@
 }
 .navItem2{
     margin-top: 0.5rem;
+    
 }
 .navLink2{
     color: black;
     display: inline;
 }
 .ulDropDown{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
     text-align: center;
-    min-width:20rem;
+    display: none;
+    float: left;
+    min-width: 17rem;
+    padding: 0.5rem 0;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
 }
+.rtl .dropdown-menu-right { text-align: right; }
 .ulDropDown2{
+    min-width:12rem;
     text-align: center;
-    min-width:15rem;
 }
 @media (max-width: 978px) {
     .navItem{

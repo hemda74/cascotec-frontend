@@ -152,18 +152,67 @@ const indexTrans: translataionContainer = {
         ar:'اعتمادات شهادات الحلال اعتمادات شهادات الحلال اعتمادات شهادات الحلال'
     },
     // footer 
-    CascoTitleFooter:{
+    aboutCascoFooter:{
+        en:'Trust in the Conformity Assessment Bodies',
+        ar:'الثقة في جهات التحقق من المطابقة'
+    },
+    supportFooter:{
+        en:'Support',
+        ar:'الدعم'
+    },
+    ContactUsFooter:{
+        en:'Contact Us',
+        ar:'تواصل معنا'
+    },
+    LinksFooter:{
+        en:'Links',
+        ar:'روابط'
+    },
+    ServicesFooter:{
+        en:'Services',
+        ar:'خدماتنا'
+    },
+    AccreditedBodiesFooter:{
+        en:'Accredited Bodies',
+        ar:'الجهات المعتمدة'
+    },
+    CoursesFooter:{
+        en:'Courses',
+        ar:'الكورسات'
+    },
+    DocumentsFooter:{
+        en:'DocumentsFooter',
+        ar:'وثائق المركز'
+    },
+    NewsletterSubscriptionFooter:{
+        en:'Newsletter Subscription',
+        ar:'النشرة الإخبارية'
+    },
+    NewsletterSubscriptionFooterberif:{
+        en:'Join our mailing list and receive our latest updates, recent CABs, training programs and etc. straight to your inbox',
+        ar:'انضم إلى قائمتنا البريدية واحصل على آخر تحديثاتنا ، وأحدث برامج المركز، وبرامج التدريب وما إلى ذلك مباشرة إلى صندوق الوارد الخاص بك'
+    },
+    CreatedByFooter:{
+        en:'Created By',
+        ar:' التطوير بواسطة'
+    },
+    AhmedHemdan:{
+        en:'Ahmed Hemdan',
+        ar:'احمد حمدان'
+    },
+    CascoCopyright:{
+        en:'Copyright &copy; 2023',
+        ar:'حقوق النشر 2023'
+    },
+    Cascocopyright:{
         en:'CASCO',
         ar:'كاسكو'
     },
-    CascoSubTitleFooter:{
-        en:'All Your Needs About Books',
-        ar:'الخدمات اللتي نقدماها '
+    CascoCopyrightAll:{
+        en:'All Rights Reserved',
+        ar:'جميع الحقوق محفوظة'
     },
-
-
-
-
+   
 
 
 

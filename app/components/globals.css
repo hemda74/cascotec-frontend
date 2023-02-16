@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Cairo', sans-serif !important;
+}
+
+a {
+  color: #1187AB !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/* login container background image */
+#login-holder {
+  background-image: url('../public/login-background-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/* backdrop Effect for login background */
+#login-holder-backdrop {
+  background-color: rgba(0, 0, 0, 0.34);
+}
+/* Customize bootstrap Checkbox */
+.form-check-input:checked {
+  background-color: #12B28C !important;
+  border-color: #12B28C !important;
+}
+.form-check-input:focus {
+  border-color: #2eeabe !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(14 139 110 / 25%) !important;
+}
+/* customized Domain Select used in login page */
+.domain-select-conatiner {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.domain-select-conatiner * {
+  color: #757575;
+}
+.domain-select {
+  background-color: #F8F8F8 !important;
+  padding: 1.125rem 2.25rem 1.125rem 0.75rem !important;
+  border: 0 !important;
+  margin-left: 0 !important;
+}
+.domain-select:focus {
+  outline: none !important;
+  border-color: #ced4da !important;
+  box-shadow: none !important;
+}
+.domain-select-Icon {
+  border: 0 !important;
+  background-color: #F8F8F8 !important;
+  padding-right: 0.75rem !important;
+  padding-left: 0.75rem !important;
+}
+.domain-select-list{
+ list-style: none;
+ margin-bottom: 0;
+ padding-left: 0;
+}
+
+.domain-select-dropdown {
+  transform: translate(0px, 59px) !important;
+  -webkit-transform: translate(0px, 59px) !important;
+  -moz-transform: translate(0px, 59px) !important;
+  -ms-transform: translate(0px, 59px) !important;
+  -o-transform: translate(0px, 59px) !important;
+}
+.domain-select-selected {
+  background-color: #F8F8F8 !important;
+}
+.domain-select-selected::after {
+  inset-block-end: 10px !important;
+}
+.domain-dropdown-item:hover {
+  background-color: #F8F8F8 !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */
+/* Scroll bar customize */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(136, 136, 136, 0.5);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background-image: url('../public/icons/up-and-down-icon.svg');
+  
+}

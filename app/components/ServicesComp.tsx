@@ -2,8 +2,6 @@ import React from 'react';
 import halal from '../public/imagess/halal.jpg';
 import Image from 'next/image';
 import styles  from '../styles/Services.module.css';
-import {BiStore} from 'react-icons/bi';
-import{BsBookFill} from'react-icons/bs';
 const Services = () => {
   return (
     <>
