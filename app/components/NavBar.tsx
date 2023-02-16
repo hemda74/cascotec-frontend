@@ -35,7 +35,7 @@ const NavBar = () => {
                     </a>
                     <ul className={`dropdown-menu ${styles.ulDropDown}  `} aria-labelledby="navbarDropdown">
                         <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/about/about-us'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutUsNav">About Us</p></a></Link>
+                            <Link href={'/about'}  className={`nav-link  ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AboutUsNav">About Us</p></a></Link>
                         </li>
                         <li className={`nav-item  ${styles.navItem}`}>
                             <Link href={'/about/board-of-directors'}  className={`nav-link`} id="link"><a><p className={`${styles.navLink}`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
