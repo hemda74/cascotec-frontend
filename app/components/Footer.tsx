@@ -59,15 +59,11 @@ const Footer = () => {
                                     <span className={`input-group-text ${styels.subsIcon}`}><BsFillArrowUpRightCircleFill/></span>
                                 </div>
                             <div className={`m-auto mt-2`}>
-                                {/* <a href="https://twitter.com/AhmedHemdan72"  rel="noopener noreferrer" className={` me-3 ms-3 ${styels.footerA}`}>< BsTwitter size={25}/></a> 
-                                <a href="https://www.facebook.com/profile.php?id=100009361588650" rel="noopener noreferrer" className={`me-3 ms-3 ${styels.footerA}`}>< BsFacebook size={25}/></a>
-                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820'  rel="noopener noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsLinkedin size={25}/></a>
-                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820' rel="noopener noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsInstagram size={25}/></a>
-                                <a href="https://github.com/hemda74" rel="noopener noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsYoutube size={25}/></a> */}
-           <a href="https://twitter.com/AhmedHemdan72"  className="m-3" >< BsTwitter size={25}/></a>
-                                <a href="https://www.facebook.com/profile.php?id=100009361588650"  className="m-3">< BsFacebook size={25}/></a>
-                                <a href="https://www.linkedin.com/in/ahmed-hemdan-695408201/" className="m-3"> <BsLinkedin size={25}/></a>
-                                <a href="https://github.com/hemda74"  className="m-3"> <BsGithub size={25}/></a>
+                                <a href="https://twitter.com/AhmedHemdan72"  rel="noreferrer" className={` me-3 ms-3 ${styels.footerA}`}>< BsTwitter size={25}/></a> 
+                                <a href="https://www.facebook.com/profile.php?id=100009361588650" rel="noreferrer" className={`me-3 ms-3 ${styels.footerA}`}>< BsFacebook size={25}/></a>
+                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820'  rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsLinkedin size={25}/></a>
+                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820' rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsInstagram size={25}/></a>
+                                <a href="https://github.com/hemda74" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsYoutube size={25}/></a> 
                             </div>
                         </div>
                     </div>
