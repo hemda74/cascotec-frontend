@@ -75,7 +75,7 @@ const Footer = () => {
                     <div className='m-auto'>
                         <span data-trans="CreatedByFooter">Created By</span> 
                         <span >
-                                <a href="https://portoflio-six.vercel.app/" target="_blank" className={`me-1 ms-1 ${styels.footerAhmed}` } data-trans="AhmedHemdan"><span>Ahmed Hemdan</span></a>
+                            <a href="https://portoflio-six.vercel.app/" target="_blank" rel="noreferrer" className={`me-1 ms-1 ${styels.footerAhmed}` } data-trans="AhmedHemdan"><span>Ahmed Hemdan</span></a>
                         </span>
                     </div>
                     <div className="copyright m-auto" >
