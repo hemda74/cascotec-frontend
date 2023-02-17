@@ -64,11 +64,9 @@ const Footer = () => {
                                 <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820'  rel="noopener noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsLinkedin size={25}/></a>
                                 <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820' rel="noopener noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsInstagram size={25}/></a>
                                 <a href="https://github.com/hemda74" rel="noopener noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsYoutube size={25}/></a> */}
-                                <Link href="https://twitter.com/AhmedHemdan72" passHref>
-  <a target="_blank" rel="noopener noreferrer">
-  < BsFacebook size={25}/>
-  </a>
-</Link>
+   <a href="https://www.kaiostech.com/store/" target="_blank" rel="noreferrer">
+  KaiStore
+</a>
                             </div>
                         </div>
                     </div>
