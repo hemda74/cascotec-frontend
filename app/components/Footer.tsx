@@ -18,7 +18,7 @@ const Footer = () => {
                             width={220}
                             height={90}
                         />         
-                        <p className={`mt-4 ${styels.companybrief}`} data-trans="aboutCascoFooter">
+                        <p className={`mt-4 text-black ms-3 me-3  ${styels.companybrief}`} data-trans="aboutCascoFooter">
                         Trust in the Conformity Assessment Bodies
                         </p>
                     </div>
@@ -59,11 +59,11 @@ const Footer = () => {
                                     <span className={`input-group-text ${styels.subsIcon}`}><BsFillArrowUpRightCircleFill/></span>
                                 </div>
                             <div className={`m-auto mt-2`}>
-                                <a href="https://twitter.com/AhmedHemdan72"  rel="noreferrer" className={` me-3 ms-3 ${styels.footerA}`}>< BsTwitter size={25}/></a> 
-                                <a href="https://www.facebook.com/profile.php?id=100009361588650" rel="noreferrer" className={`me-3 ms-3 ${styels.footerA}`}>< BsFacebook size={25}/></a>
-                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820'  rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsLinkedin size={25}/></a>
-                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820' rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsInstagram size={25}/></a>
-                                <a href="https://github.com/hemda74" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsYoutube size={25}/></a> 
+                                <a href="https://twitter.com/AhmedHemdan72"  target="_blank" rel="noreferrer" className={` me-3 ms-3 ${styels.footerA}`}>< BsTwitter size={25}/></a> 
+                                <a href="https://www.facebook.com/profile.php?id=100009361588650" target="_blank" rel="noreferrer" className={`me-3 ms-3 ${styels.footerA}`}>< BsFacebook size={25}/></a>
+                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820'  target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsLinkedin size={25}/></a>
+                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820' target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsInstagram size={25}/></a>
+                                <a href="https://github.com/hemda74" target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsYoutube size={25}/></a> 
                             </div>
                         </div>
                     </div>
