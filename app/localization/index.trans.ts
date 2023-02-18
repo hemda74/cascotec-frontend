@@ -212,7 +212,126 @@ const indexTrans: translataionContainer = {
         en:'All Rights Reserved',
         ar:'جميع الحقوق محفوظة'
     },
-   
+    Ourobjective:{
+        en:'Our Objective',
+        ar:'هدفنا'
+    },
+    OurobjectiveP:{
+        en:'The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.',
+        ar:'تهدف مجموعة كاسكو إلى تعزيز مكانتها وتحقيق أهدافها وتعزيز بنيتها التحتية من خلال تبني أفضل الممارسات المعترف بها عالميًا والشراكة مع الكيانات الدولية في قطاع الاعتماد والتصديق.'
+    },
+    OurVision:{
+        en:'Our Vision',
+        ar:'رؤيتنا'
+    },
+    OurVisionP:{
+        en:'Creating a Safer World Together Committed to ensuring project integrity, managing risks, and maximizing client performance to build a better and safer world for all.',
+        ar:'خلق عالم أكثر أمانًا معًا ملتزمون بضمان سلامة المشروعات وإدارة المخاطر وتعظيم أداء العميل لبناء عالم أفضل وأكثر أمانًا للجميع.'
+    },
+    OurMission:{
+        en:'Our Mission',
+        ar:'مهمتنا'
+    },
+    OurMissionP:{
+        en:'Comprehensive Project Consultation Our expert team identifies, evaluates, and controls risks related to quality, health and safety, and the environment throughout the entire project life cycle.',
+        ar:'استشارة شاملة حول المشروع يقوم فريق الخبراء لدينا بتحديد ومراقبة المخاطر المتعلقة بالجودة والصحة والسلامة والبيئة و الاغذية طوال دورة حياة المشروع بأكملها.'
+    },
+    SUCCESSINDICATORS:{
+        en:'SUCCESSINDICATORS',
+        ar:'مؤشرات النجاح'
+    },
+    OurAchievements:{
+        en:'OurAchievements',
+        ar:'إنجازات المركز'
+    },
+    AccreditedBodiesAbout:{
+        en:'Accredited Bodies',
+        ar:'جهة معتمدة'
+    },
+    AssessorsandExperts:{
+        en:'Assessors and Experts',
+        ar:'مقيمين وخبراء'
+    },
+    Traineesduring2022:{
+        en:'Trainees during 2022',
+        ar:'المتدربين خلال عام 2022'
+    },
+    CASCOAgreements:{
+        en:'CASCOAgreements',
+        ar:'اتفاقيات المركز'
+    },
+    Ethics:{
+        en:'Ethics are central to CASCO’s actions',
+        ar:'تعتبر الأخلاق أساسية في أعمال كاسكو '
+    },
+    EthicsP:{
+        en:"Central to CASCO's Actions: Ethics, Integrity, and Responsibility Ethics is a cornerstone of CASCO's actions, and compliance with local and international laws and regulations is crucial to the Group's standards. This fundamental principle ensures the Group's integrity and maintains its reputation. CASCO is committed to ethics and transparency, reflected in its Code of Ethics which is binding for all employees globally. Every company within the Group is responsible for implementing and enforcing the Code of Ethics, considering the obligations and specificities of its business activities and location. An annual message is sent to all employees to remind them of the existence of the Code of Ethics. A reporting mechanism is available for all employees and individuals to report any illegal activities or threats to public interest. The Ethics Committee is responsible for enforcing the Code of Ethics, receiving reports of unethical behavior, and ensuring compliance with anti-corruption laws.",
+        ar:"مركزية أعمال CASCO: الأخلاق والنزاهة والمسؤولية •	الأخلاق هي حجر الزاوية في إجراءات  مجموعة كاسكو ، والامتثال للقوانين واللوائح المحلية والدولية أمر بالغ الأهمية لمعايير المجموعة. يضمن هذا المبدأ الأساسي نزاهة المجموعة ويحافظ على سمعتها. •	تلتزم كاسكو بالأخلاق والشفافية ، وهو ما ينعكس في مدونة الأخلاقيات الملزمة لجميع الموظفين على مستوى كل شركة داخل المجموعة مسؤولة عن تنفيذ وتطبيق مدونة الأخلاقيات ، مع مراعاة التزامات وخصوصيات أنشطتها التجارية والتقنية وموقعها.    •	يتم إرسال رسالة سنوية إلى جميع الموظفين لتذكيرهم بوجود مدونة الأخلاق.•	تتوفر آلية إبلاغ لجميع الموظفين والأفراد للإبلاغ عن أي أنشطة غير قانونية أو تهديدات للمصلحة العامة.•	لجنة الأخلاقيات هي المسؤولة عن تطبيق مدونة الأخلاقيات ، وتلقي التقارير عن السلوك غير الأخلاقي ، وضمان الامتثال لقوانين مكافحة الفساد."
+    },
+    budget:{
+        en:'The budget of CASCO',
+        ar:'ميزانية كاسكو'
+    },
+    budgetP:{
+        en:'CASCO shall have a separate budget, funded by the following sources',
+        ar:'يجب أن يكون لشركة كاسكو ميزانية منفصلة ، ممولة من المصادر التالية:'
+    },
+    budgetP1:{
+        en:'Fees charged by CASCO in exchange for its services.',
+        ar:'الرسوم التي تتقاضاها كاسكو مقابل خدماتها.'
+    },
+    budgetP2:{
+        en:'Financial contributions from Member States',
+        ar:'المساهمات المالية من حاملى الاسهم'
+    },
+    budgetP3:{
+        en:'Grants and donations that do not compromise the independence and impartiality of CASCO, approved by the Board of Directors.',
+        ar:'المنح والتبرعات التي لا تمس استقلالية وحيادية شركة كاسكو ، والتي وافق عليها مجلس الإدارة.'
+    },
+    budgetP4:{
+        en:'Other sources determined by the Board of Directors.',
+        ar:'مصادر أخرى يحددها مجلس الإدارة.'
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

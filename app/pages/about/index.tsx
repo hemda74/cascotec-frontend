@@ -1,4 +1,5 @@
 import React, { ReactElement } from 'react'
+import Head from 'next/head';
 import About from '../../components/AboutPage1'
 import ViewerLayout from '../../layouts/ViewerLayout';
 import { NextPageWithLayout } from '../_app';
@@ -7,7 +8,12 @@ type Props = {};
 
 const index:NextPageWithLayout = (props:Props) => {
   return (
+    <>
+    <Head>
+        <title>CASCO | About Us</title>
+   </Head>
     <About/>
+    </>
   )
 }
 // adding Layout
