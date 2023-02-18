@@ -7,7 +7,7 @@ import {TbUsers} from 'react-icons/tb'
 import logoobjective from '../public/imagess/logoobjective.png';
 import gsoLogo from '../public/imagess/GSO-Logo-300x93.png';
 import {TfiCheck} from 'react-icons/tfi'
-const About  = () => {
+const About = () => {
   return (
     <>
         <div className={` row `} >
@@ -126,8 +126,7 @@ const About  = () => {
                 </div>
             </div>
         </div>
-    </>
-        
+    </>     
   )
 }
 

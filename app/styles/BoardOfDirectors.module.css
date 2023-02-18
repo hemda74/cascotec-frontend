@@ -1,0 +1,84 @@
+.cardOne {
+    width: 25rem;
+    height: 25rem;
+    position: relative;
+    outline: .5em solid #f5f5f5;
+    background: url('../public/imagess/mohamedhamdy.jpg');
+    margin: auto;
+   }
+   
+   .cardOne::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    background-color: rgba(80, 64, 44, 0);
+    transition: background-color 1s;
+   }
+   
+   .cardInfo {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding: 1.5em;
+    text-align: center;
+    transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+   }
+   
+   .cardBio {
+    padding: 1.8em;
+    text-align: center;
+    transform: translate(100%,40%);
+    color: #fff;
+    transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+   }
+   
+   .cardBioP {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5em;
+   }
+   
+   
+   /*Text*/
+   .CardTitle {
+    font-size: 1.3em;
+    font-weight: bold;
+   }
+   
+   /* .cardTitle::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+   
+    background-color: #000;
+   } */
+   
+   .cardSubTitle {
+    font-weight: 400;
+    line-height: 1em;
+   }
+   
+   
+   
+   /*Hover*/
+   .cardOne:hover::before {
+    background-color: rgba(80, 64, 44, 0.25);
+   }
+   
+   .cardOne:hover .cardInfo {
+    transform: translateX(100%);
+    color: #fff;
+   }
+   
+   .cardOne:hover .cardBio {
+    transform: translate(0,90%);
+    opacity: 1;
+   }
+   
+   
+   
