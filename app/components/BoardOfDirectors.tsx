@@ -35,10 +35,10 @@ const BoardOfDirectors = () => {
               </div>
               <div className={`${styles.teamInfo}`}>
                 <div className={`${styles.socialMedia}`}>
-                <a href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></a>
-                <a href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></a>
-                <a href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></a>
-                <a href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></a>
+                <Link href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></Link>
+                <Link href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></Link>
+                <Link href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></Link>
+                <Link href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></Link>
                 </div>
                 <div className={`${styles.nameTitle}`}>
                     <h4>Mohamed Hamdy</h4>
@@ -56,10 +56,10 @@ const BoardOfDirectors = () => {
                 <figcaption className={`${styles.figCaption}`}>
                   <p className='fs-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.</p>
                   <ul className={`list-unstyled m-0 p-0 ${styles.figcaptionUl}`}>
-                    <li className={`${styles.figcaptionUlLi}`}><a href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></a></li>
-                    <li className={`${styles.figcaptionUlLi}`}><a href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></a></li>
-                    <li className={`${styles.figcaptionUlLi}`}><a href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></a></li>
-                    <li className={`${styles.figcaptionUlLi}`}><a href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></a></li>
+                    <li className={`${styles.figcaptionUlLi}`}><Link href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></Link></li>
+                    <li className={`${styles.figcaptionUlLi}`}><Link href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></Link></li>
+                    <li className={`${styles.figcaptionUlLi}`}><Link href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></Link></li>
+                    <li className={`${styles.figcaptionUlLi}`}><Link href="/" className={`${styles.socialMediaLink}`}>< BsFacebook size={25} className={`${styles.iconI}`}/></Link></li>
                   </ul>
                 </figcaption>
               </figure>
