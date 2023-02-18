@@ -97,7 +97,7 @@ const About = () => {
                     The Ethics Committee is responsible for enforcing the Code of Ethics, receiving reports of unethical behavior, and ensuring compliance with anti-corruption laws.
                 </p>
                 <div className={` d-flex justify-content-around align-items-center`}>
-                <Image  src={gsoLogo}/>
+                <Image  src={gsoLogo} alt={'hello'}/>
                 </div>
             </div>
                 <div className={`card-body col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-3 ${styles.ethicCard2}`}>
