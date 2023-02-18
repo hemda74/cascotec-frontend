@@ -89,12 +89,12 @@ const About = () => {
             <div className={`card-body col-xl-12 col-lg-12 col-md-12 col-sm-12 ${styles.ethicCard}`}>
                 <span className='fs-4 fw-bold' data-trans="Ethics">Ethics are central to CASCO’s actions</span>
                 <br/>
-                <p className='mt-3'data-trans="EthicsP">Central to CASCO's Actions: Ethics, Integrity, and Responsibility
+                <p className='mt-3'data-trans="EthicsP">{`Central to CASCO's Actions: Ethics, Integrity, and Responsibility
                     Ethics is a cornerstone of CASCO's actions, and compliance with local and international laws and regulations is crucial to the Group's standards. This fundamental principle ensures the Group's integrity and maintains its reputation.
                     CASCO is committed to ethics and transparency, reflected in its Code of Ethics which is binding for all employees globally. Every company within the Group is responsible for implementing and enforcing the Code of Ethics, considering the obligations and specificities of its business activities and location.
                     An annual message is sent to all employees to remind them of the existence of the Code of Ethics.
                     A reporting mechanism is available for all employees and individuals to report any illegal activities or threats to public interest.
-                    The Ethics Committee is responsible for enforcing the Code of Ethics, receiving reports of unethical behavior, and ensuring compliance with anti-corruption laws.
+                    The Ethics Committee is responsible for enforcing the Code of Ethics, receiving reports of unethical behavior, and ensuring compliance with anti-corruption laws.`}
                 </p>
                 <div className={` d-flex justify-content-around align-items-center`}>
                 <Image  src={gsoLogo} alt={'hello'}/>
