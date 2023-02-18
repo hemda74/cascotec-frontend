@@ -49,7 +49,7 @@ const BoardOfDirectors = () => {
             </a>
           </div>
           <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
-         <a href='https://www.linkedin.com/in/ahmed-hemdan-695408201/' target="_blank" rel="noreferrer">
+         <Link href='https://www.linkedin.com/in/ahmed-hemdan-695408201/' target="_blank" rel="noreferrer">
           <div className={`${styles.teamMember2}`}>
               <figure className={`${styles.teamMemberFigure}`}>
                 <Image src={mohamed} alt="" className="img-responsive"/>
@@ -68,7 +68,7 @@ const BoardOfDirectors = () => {
               <p>Creative Director</p>
               </div>
             </div>
-            </a>
+            </Link>
             </div>
             </div>
             </div>
