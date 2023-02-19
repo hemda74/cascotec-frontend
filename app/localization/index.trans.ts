@@ -253,8 +253,8 @@ const indexTrans: translataionContainer = {
         ar:'مقيمين وخبراء'
     },
     Traineesduring2022:{
-        en:'Trainees during 2022',
-        ar:'المتدربين خلال عام 2022'
+        en:"2022's Trainees",
+        ar:'متدربين  2022'
     },
     CASCOAgreements:{
         en:'CASCOAgreements',
@@ -264,9 +264,13 @@ const indexTrans: translataionContainer = {
         en:'Ethics are central to CASCO’s actions',
         ar:'تعتبر الأخلاق أساسية في أعمال كاسكو '
     },
-    EthicsP:{
-        en:"Central to CASCO's Actions: Ethics, Integrity, and Responsibility Ethics is a cornerstone of CASCO's actions, and compliance with local and international laws and regulations is crucial to the Group's standards. This fundamental principle ensures the Group's integrity and maintains its reputation. CASCO is committed to ethics and transparency, reflected in its Code of Ethics which is binding for all employees globally. Every company within the Group is responsible for implementing and enforcing the Code of Ethics, considering the obligations and specificities of its business activities and location. An annual message is sent to all employees to remind them of the existence of the Code of Ethics. A reporting mechanism is available for all employees and individuals to report any illegal activities or threats to public interest. The Ethics Committee is responsible for enforcing the Code of Ethics, receiving reports of unethical behavior, and ensuring compliance with anti-corruption laws.",
-        ar:"مركزية أعمال CASCO: الأخلاق والنزاهة والمسؤولية •	الأخلاق هي حجر الزاوية في إجراءات  مجموعة كاسكو ، والامتثال للقوانين واللوائح المحلية والدولية أمر بالغ الأهمية لمعايير المجموعة. يضمن هذا المبدأ الأساسي نزاهة المجموعة ويحافظ على سمعتها. •	تلتزم كاسكو بالأخلاق والشفافية ، وهو ما ينعكس في مدونة الأخلاقيات الملزمة لجميع الموظفين على مستوى كل شركة داخل المجموعة مسؤولة عن تنفيذ وتطبيق مدونة الأخلاقيات ، مع مراعاة التزامات وخصوصيات أنشطتها التجارية والتقنية وموقعها.    •	يتم إرسال رسالة سنوية إلى جميع الموظفين لتذكيرهم بوجود مدونة الأخلاق.•	تتوفر آلية إبلاغ لجميع الموظفين والأفراد للإبلاغ عن أي أنشطة غير قانونية أو تهديدات للمصلحة العامة.•	لجنة الأخلاقيات هي المسؤولة عن تطبيق مدونة الأخلاقيات ، وتلقي التقارير عن السلوك غير الأخلاقي ، وضمان الامتثال لقوانين مكافحة الفساد."
+    EthicsP1:{
+        en:"Central to CASCO's Actions: Ethics, Integrity, and Responsibility Ethics is a cornerstone of CASCO's actions, and compliance with local and international laws and regulations is crucial to the Group's standards. This fundamental principle ensures the Group's integrity and maintains its reputation. CASCO is committed to ethics and transparency, reflected in its Code of Ethics which is binding for all employees globally",
+        ar:"الأخلاق هي حجر الزاوية في إجراءات  مجموعة كاسكو ، والامتثال للقوانين واللوائح المحلية والدولية أمر بالغ الأهمية لمعايير المجموعة. يضمن هذا المبدأ الأساسي نزاهة المجموعة ويحافظ على سمعتها.	تلتزم كاسكو بالأخلاق والشفافية ، وهو ما ينعكس في مدونة الأخلاقيات الملزمة لجميع الموظفين على مستوى كل شركة داخل المجموعة مسؤولة عن تنفيذ وتطبيق مدونة الأخلاقيات ، مع مراعاة التزامات وخصوصيات أنشطتها التجارية والتقنية وموقعها."
+    },
+    EthicsP2:{
+        en:"Every company within the Group is responsible for implementing and enforcing the Code of Ethics, considering the obligations and specificities of its business activities and location.An annual message is sent to all employees to remind them of the existence of the Code of Ethics.A reporting mechanism is available for all employees and individuals to report any illegal activities or threats to public interest.The Ethics Committee is responsible for enforcing the Code of Ethics, receiving reports of unethical behavior, and ensuring compliance with anti-corruption laws.",
+        ar:"يتم إرسال رسالة سنوية إلى جميع الموظفين لتذكيرهم بوجود مدونة الأخلاق.تتوفر آلية إبلاغ لجميع الموظفين والأفراد للإبلاغ عن أي أنشطة غير قانونية أو تهديدات للمصلحة العامة.لجنة الأخلاقيات هي المسؤولة عن تطبيق مدونة الأخلاقيات ، وتلقي التقارير عن السلوك غير الأخلاقي ، وضمان الامتثال لقوانين مكافحة الفساد."
     },
     budget:{
         en:'The budget of CASCO',

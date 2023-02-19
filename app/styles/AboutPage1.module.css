@@ -15,14 +15,12 @@
   }
   .visionCard{
     max-width: 35rem;
-    box-shadow: 0px 30px 40px -20px #8787b2;
-    padding: 5rem;
-    border-radius: 3rem;
+    /* box-shadow: 0px 30px 40px -20px #8787b2; */
+    padding: 3rem;
   }
   .itemCheckTage{
     margin-bottom: 0.8333333333rem;
     display: flex;
-    padding-left: 1.3333333333rem;
     position: relative;
     font-size: .8888888889rem;
     font-weight: 400;
@@ -33,42 +31,48 @@
   }
   .ethicCard{
     max-width: 60rem;
-    box-shadow: 0px 10px 20px 10px #8787b2;
-    padding: 5rem;
-    border-radius: 3rem;
   }
   .ethicCard2{
     margin-top: 3rem;
-    max-width: 70rem;
+    position: relative;
+    max-width: 80rem;
+    margin: auto;
     box-shadow: 0px 30px 40px -20px #8787b2;
     padding-bottom: 1rem;
     padding-top: 5rem;
     padding-right: 0.25rem;
     background:url('../public//imagess/budget_center.jpg');
-    border-radius: 3rem;
+    border-radius: 1rem;
   }
   .ethicCard3{
-    /* margin-top: 5rem; */
-    max-width: 30rem;
+    width: 50.2777777778rem;
+    max-width: 60%;
+    margin-top: auto;
     margin-left: auto;
     margin-bottom: 0;
     box-shadow: 0px 30px 40px -20px #8787b2;
-    padding: 2rem;
-    background: #ffff;
-    border-radius: 3rem;
+    padding: 1rem;
+    background: #ffff;  
+    border-radius: 1rem;
   }
   .ethicCard4{
     margin-right: auto;
   }
+  .ethicCard5{
+    margin-top: 7rem;
+  }
+  .editIcon{
+    padding-left: 8rem;
+    padding-right: 10rem;
+  }
   .ctA {
     margin-top: 3rem;
-    background: linear-gradient(rgba(122, 163, 210, 0.9), rgba(65, 129, 240, 0.9));
+    background: linear-gradient(rgba(122, 163, 210, 0.9), rgba(29, 94, 205, 0.9));
     background-size: cover;
     padding: 120px 0;
   }
   .iconsColor{
     color: #fff;
-    margin-right: 3rem;
   }
   .ctaBtn {
     font-weight: 500;
@@ -81,22 +85,9 @@
     margin: 10px;
     color: #fff;
   }
-  
-  .cta .cta-btn:hover {
-    background: #47b2e4;
-    border: 2px solid #47b2e4;
-  }
-  
-  @media (max-width: 1024px) {
-    .ctA {
-      background-attachment: scroll;
+  @media (max-width: 480px) {
+    .ethicCard5{
+      margin-top: 1rem;
     }
   }
   
-  @media (min-width: 769px) {
-    .ctA .cta-btn-container {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-    }
-  }

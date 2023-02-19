@@ -43,12 +43,13 @@ const NavBar = () => {
                         <li className={`nav-item   ${styles.navItem}`}>
                             <Link href={'/about/director-manger'}  className={`nav-link`} id="link"><a><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
                         </li>
-                        <li className={`nav-item  ${styles.navItem}`}>
+                        {/* commented till need  */}
+                        {/* <li className={`nav-item  ${styles.navItem}`}>
                             <Link href={'/about/organizational-structure'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="OrganizationalStructureNav">Organizational Structure</p></a></Link>
                         </li>
                         <li className={`nav-item   ${styles.navItem}`}>
                             <Link href={'/about/aboutestablishment-agreement'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="CASCOEstablishmentAgreementNav">CASCO Establishment Agreement</p></a></Link>
-                        </li>
+                        </li> */}
                         <li className={`nav-item   ${styles.navItem}`}>
                             <Link href={'/about/rights-and-duties'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="CASCORightsAndDutiesNav">CASCO’s Rights And Duties</p></a></Link>
                         </li>

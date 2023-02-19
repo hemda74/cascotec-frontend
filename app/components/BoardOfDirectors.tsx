@@ -9,10 +9,10 @@ const BoardOfDirectors = () => {
     <>
    <section id="team" className={`${styles.boardOfDirc}`}>
       <div  className="container" data-aos="fade-up">
-        <div className={`section-header text-center mt-5 ${styles.sectionHeader}`}>
+        {/* <div className={`section-header text-center mt-5 ${styles.sectionHeader}`}>
           <span className={`fs-3  ${styles.sctionTitle}`} >Our Team</span>
           <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
-        </div>
+        </div> */}
         <div className="row gy-5">
         <div className="col-xl-4 col-md-6 d-flex">
         <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
