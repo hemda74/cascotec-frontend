@@ -22,6 +22,11 @@ import AboutLand from '../components/AboutLand';
 import Services from '../components/ServicesComp';
 import Footer from '../components/Footer';
 import About from '../components/AboutPage1';
+import {Poppins} from '@next/font/google'
+const poppins=Poppins({
+  subsets:['latin'],
+  weight:['300','700'],
+});
 
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
@@ -60,13 +65,18 @@ const Login: NextPage = () => {
   return (
     <>
       <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet"></link>
         <title>CASCO</title>
    </Head>
+   <main className={poppins.className}>
    <NavBar/>
    <Hero/>
    <AboutLand/>
    <Services/>
    <Footer/>
+   </main>
    </>
   );
 };

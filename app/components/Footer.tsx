@@ -8,7 +8,7 @@ import {BsFacebook,BsTwitter,BsLinkedin,BsGithub,BsFillArrowUpRightCircleFill, B
 const Footer = () => {
   return (
     <footer>
-        <div className={`container-fluied mt-3 pt-5 pb-3  ${styels.footerCont}`}>
+        <div className={`container-fluied mt-3 pt-5 pb-5  ${styels.footerCont}`}>
             <div className="row d-flex justify-content-center ms-2 me-2">
                 <div className="col-md-6 col-lg-2 ms-3 me-3  ">
                     <div className="info">
