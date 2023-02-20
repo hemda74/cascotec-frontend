@@ -10,6 +10,7 @@ import egypt from '../public/imagess/egypt.png'
 import bahreen from '../public/imagess/bahreen.png'
 import kuwiat from '../public/imagess/kuwait.png'
 import oman from '../public/imagess/oman.png'
+import hh from '../public/imagess/kuawdfghjkl_ait-removebg-preview.png'
 const BoardOfDirectors = () => {
   return (
     <>
@@ -29,7 +30,7 @@ const BoardOfDirectors = () => {
                               <p className='fs-5' data-trans='BusinessDevelopmentManager'>Business Development Manager</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={oman}  className={`${styles.flagImage}`} />
+                            <Image src={hh}  className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>

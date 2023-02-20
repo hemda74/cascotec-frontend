@@ -381,13 +381,47 @@ const indexTrans: translataionContainer = {
         en:'Architectural Graphic Director',
         ar:'مديرة الجرافيك المعماري'
     },
-    Thedirectorgeneralisresponsiblefor:{
+    /////////////////////< The director general1 >/////////////////////////
+    DirectorManger:{
+        en:'Director General',
+        ar:'المدير العام'
+    },
+    Thedirectorgeneral1:{
         en:'The director general is responsible for:-',
         ar:'مهام ومسؤوليات المدير العام :-'
     },
-
-
-
+    Thedirectorgeneral2:{
+        en:'Ensuring appropriate representation at national, regional and international levels',
+        ar:'ضمان التمثيل المناسب على المستويات الوطنية والإقليمية والدولية'
+    },
+    Thedirectorgeneral3:{
+        en:'Signing mutual recognition arrangements',
+        ar:'توقيع اتفاقيات الاعتراف المتبادل'
+    },
+    Thedirectorgeneral4:{
+        en:'Supporting GAC presence in regional and international institutions in accordance with relevant laws and regulations, international standards and conventions',
+        ar:'دعم حضور المركز في المؤسسات الإقليمية والدولية وفقا للقوانين واللوائح ذات الصلة، والمعايير والاتفاقيات الدولية'
+    },
+    Thedirectorgeneral5:{
+        en:'Develop relationships with stakeholders of accreditation activity',
+        ar:'تطوير العلاقات مع أصحاب العلاقة بنشاط الاعتماد'
+    },
+    Thedirectorgeneral6:{
+        en:'Head of evaluation teams for the accreditation of laboratories, inspection bodies, Halal certification bodies, and product certification bodies',
+        ar:'رئيس فرق التقييم لاعتماد المختبرات وجهات التفتيش وجهات اصدار شهادات الحلال وجهات اصدار شهادات المنتجات'
+    },
+    Thedirectorgeneral7:{
+        en:'A peer reviewer in each of the International Organization for Accreditation of Asia and the Pacific Countries (APAC) and the International Organization of Accreditation Bodies for Halal Certification Issuers (IHAF)',
+        ar:'مقيم نظراء في كل من المنظمة الدولية للاعتماد لدول آسيا والمحيط الهادي APAC و المنظمة الدولية لجهات اعتماد الجهات المصدرة لشهادات الحلال IHAF'
+    },
+    Thedirectorgeneral8:{
+        en:'Vice President of the Arab Regional Accreditation Agency (ARAC).',
+        ar:'نائب رئيس الجهاز الإقليمي العربي للاعتماد ARAC'
+    },
+    Thedirectorgeneral9:{
+        en:'An international trainer and certification expert since 2015',
+        ar:'مدرب دولي وخبير اعتماد منذ 2015'
+    },
 
 
 

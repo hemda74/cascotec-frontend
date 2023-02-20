@@ -33,15 +33,10 @@
 }
 .itemCheckTage{
   margin-bottom: 0.8333333333rem;
-  display: flex;
-  align-items: flex-start;
-  /* position: relative; */
   font-size: .8888888889rem;
   font-weight: 400;
   color: #252e3e;
-  line-height: 1.6666666667rem;
-  margin-bottom: 0;
-
+  line-height: 2rem;
 }
 @media (max-width: 978px) {
   .cardImage {

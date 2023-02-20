@@ -116,25 +116,25 @@ const About = () => {
                     <span className='fs-4 fw-bold' data-trans="budget">The budget of CASCO</span>
                     <p className='mt-3 fs-5'data-trans="budgetP">CASCO shall have a separate budget, funded by the following sources</p>
                     <ul className='-list-unstyled'>
-                        <li className={styles.itemCheckTage}>
-                            <FcCheckmark size={28} className='mt-1 me-2'/>
-                            <p data-trans="budgetP1" className='me-4 ms-4  fs-6'>Fees charged by CASCO in exchange for its services.</p>
+                    <li className={`${styles.itemCheckTage} d-flex`}>
+                    <FcCheckmark size={28} className='flex-start'/>
+                            <span data-trans="budgetP1" className='me-4 ms-4  fs-6'>Fees charged by CASCO in exchange for its services.</span>
                         </li>	
                         <li className={styles.itemCheckTage}>
                             <FcCheckmark size={28} className='mt-1 me-2'/>
-                            <p data-trans="budgetP2" className='me-4 ms-4  fs-6'>Financial contributions from Member States</p>
+                            <span data-trans="budgetP2" className='me-4 ms-4  fs-6'>Financial contributions from Member States</span>
                         </li>
-                        <li className={styles.itemCheckTage}>
-                            <FcCheckmark size={32} className=' ms-1 me-2'/>
-                            <p data-trans="budgetP3" className='me-4 ms-4  fs-6'>Grants and donations that do not compromise the independence and impartiality of CASCO, approved by the Board of Directors.</p>
-                        </li>
-                        <li className={styles.itemCheckTage}>
-                            <FcCheckmark size={28} className='mt-1 me-2'/>
-                                <p data-trans="budgetP4" className='me-4 ms-4  fs-6'>Other sources determined by the Board of Directors.</p>
+                        <li className={`${styles.itemCheckTage} d-flex`}>
+                    <FcCheckmark size={28} className='flex-start'/>
+                            <span data-trans="budgetP3" className='me-4 ms-4  fs-6'>Grants and donations that do not compromise the independence and impartiality of CASCO, approved by the Board of Directors.</span>
                         </li>
                         <li className={styles.itemCheckTage}>
                             <FcCheckmark size={28} className='mt-1 me-2'/>
-                                <p data-trans="budgetP4" className='me-4 ms-4  fs-6'>Other sources determined by the Board of Directors.</p>
+                                <span data-trans="budgetP4" className='me-4 ms-4  fs-6'>Other sources determined by the Board of Directors.</span>
+                        </li>
+                        <li className={`${styles.itemCheckTage} d-flex`}>
+                            <FcCheckmark size={28} className='flex-start'/>
+                                <span data-trans="budgetP4" className='me-4 ms-4  fs-6'>Other sources determined by the Board of Directors.</span>
                         </li>
                     </ul>
             </div>

@@ -1,7 +1,8 @@
 .navLink{
     color: black;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-weight: 500;
 }
 .navLink:hover{
     color: #85CDFD;
@@ -17,11 +18,11 @@
 }
 .navItem2{
     margin-top: 0.5rem;
-    
 }
 .navLink2{
     color: black;
     display: inline;
+    font-weight: 500;
 }
 .ulDropDown{
     z-index: 1000;
