@@ -5,9 +5,6 @@ import Logo from '../components/Logo';
 import logo from '../public/logo.png'
 import Link from 'next/link';
 import Image from 'next/image';
-import InputEmail from '../components/InputEmail';
-import InputPassword from '../components/InputPassword';
-import DomainSelect from '../components/DomainSelect';
 import { useAppDispatch, useAppSelector } from '../app/hooks';
 import { userLogin, userDataSelector } from '../features/user';
 import LocalizationBtn from '../components/LocalizationBtn';
@@ -15,19 +12,12 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import deleteCookie from '../helper/deleteCookie';
 import getCookie from '../helper/getCookie';
-import TANavBar from '../components/TANavBar';
 import NavBar from '../components/NavBar';
 import Hero from '../components/Hero';
 import AboutLand from '../components/AboutLand';
 import Services from '../components/ServicesComp';
 import Footer from '../components/Footer';
 import About from '../components/AboutPage1';
-import {Poppins} from '@next/font/google'
-const poppins=Poppins({
-  subsets:['latin'],
-  weight:['300','700'],
-});
-
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -70,13 +60,11 @@ const Login: NextPage = () => {
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet"></link>
         <title>CASCO</title>
    </Head>
-   <main className={poppins.className}>
    <NavBar/>
    <Hero/>
    <AboutLand/>
    <Services/>
    <Footer/>
-   </main>
    </>
   );
 };

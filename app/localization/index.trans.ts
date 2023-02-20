@@ -296,13 +296,95 @@ const indexTrans: translataionContainer = {
         en:'Other sources determined by the Board of Directors.',
         ar:'مصادر أخرى يحددها مجلس الإدارة.'
     },
-
-
-
-
-
-
-
+////////////////////< Board of Directors >//////////////////////////////////
+    BoardofDirectors:{
+        en:'Board of Directors',
+        ar:'مجلس الإدارة'
+    },
+    MrAhmedMahrous:{
+        en:'Mr.Ahmed Mahrous',
+        ar:'السيد أحمد محروس'
+    },
+    BusinessDevelopmentManager:{
+        en:'Business Development Manager',
+        ar:'مدير تطوير الأعمال'
+    },
+    MrMostafaFarag:{
+        en:'Mr.Mostafa Farag',
+        ar:'السيد مصطفى فرج'
+    },
+    ChiefFinancialOfficerCFO:{
+        en:'ChiefFinancialOfficer(CFO)',
+        ar:'المدير المالي (CFO)'
+    },
+    MsJihadMohamed:{
+        en:'Ms. Jihad Mohamed',
+        ar:'السيدة جهاد محمد'
+    },
+    ChiefOperationsOfficerCFO:{
+        en:'Chief Operations Officer (CFO)',
+        ar:'مدير العمليات (CFO)'
+    },
+    MrsEsraaAbdelHafez:{
+        en:'Mrs. Esraa Abdel Hafez',
+        ar:'السيدة اسراء عبد الحافظ'
+    },
+    HumanResourcesDirector:{
+        en:'Human Resources Director',
+        ar:'مدير الموارد البشرية'
+    },
+    DrAhmedBedawi:{
+        en:'Dr. Ahmed Bedawi',
+        ar:'د. أحمد بدوي'
+    },
+    TrainingAcademyManager:{
+        en:'Training Academy Manager',
+        ar:'مدير أكاديمية التدريب'
+    },
+    ProfDrAbdelrhamanFarahat:{
+        en:'Prof. Dr. Abdelrhaman Farahat',
+        ar:'أ.د. عبد الرحمن فرحات'
+    },
+    TechnicalSchemeManager:{
+        en:'Technical Scheme Manager',
+        ar:'مدير البرنامج الفني'
+    },
+    ProfDrMagdyElMahdy:{
+        en:'Prof. Dr. Magdy ElMahdy',
+        ar:'الأستاذ الدكتور مجدي المهدى'
+    },
+    ChiefInspectorOfficerCIO:{
+        en:'Chief Inspector Officer (CIO)',
+        ar:'رئيس المفتشين (CIO)'
+    },
+    DrFred:{
+        en:'Dr. Fred',
+        ar:'د. فريد'
+    },
+    InformationSecurityBCMDirector:{
+        en:'Information Security & BCM Director',
+        ar:'مدير أمن وسلامة المعلومات'
+    },
+    ShehabAlAref:{
+        en:'Shehab Al Aref',
+        ar:'شهاب العارف'
+    },
+    DigitalTransformationDirector:{
+        en:'Digital Transformation Director',
+        ar:'مدير التحول الرقمي'
+    },
+    DinaMohi:{
+        en:'Dina Mohi',
+        ar:'دينا محي'
+    },
+    ArchitecturalGraphicDirector:{
+        en:'Architectural Graphic Director',
+        ar:'مديرة الجرافيك المعماري'
+    },
+    Thedirectorgeneralisresponsiblefor:{
+        en:'The director general is responsible for:-',
+        ar:'مهام ومسؤوليات المدير العام :-'
+    },
 
 
 
@@ -346,6 +428,7 @@ const indexTrans: translataionContainer = {
     welcomeBack: {
         en: 'Welcome back',
         ar: 'مرحبًا بعودتك'
+
     },
     login: {
         en: 'Login',
