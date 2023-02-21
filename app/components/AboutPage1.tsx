@@ -132,10 +132,6 @@ const About = () => {
                             <FcCheckmark size={28} className='mt-1 me-2'/>
                                 <span data-trans="budgetP4" className='me-4 ms-4  fs-6'>Other sources determined by the Board of Directors.</span>
                         </li>
-                        <li className={`${styles.itemCheckTage} d-flex`}>
-                            <FcCheckmark size={28} className='flex-start'/>
-                                <span data-trans="budgetP4" className='me-4 ms-4  fs-6'>Other sources determined by the Board of Directors.</span>
-                        </li>
                     </ul>
             </div>
         </div>

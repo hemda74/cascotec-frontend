@@ -42,7 +42,7 @@ const Book = (props:Props) => {
                 </li>
                 <li className={`${styles.itemCheckTage} d-flex`}>
                     <p><FcCheckmark size={28} className=''/></p>
-                    <span data-trans="Thedirectorgeneral7" className='me-3 ms-3 text-start fs-6'>A peer reviewer in each of the International Organization for Accreditation of Asia and the Pacific Countries (APAC) and the International Organization of Accreditation Bodies for Halal Certification Issuers (IHAF)</span>
+                    <p data-trans="Thedirectorgeneral7" className='me-3 ms-3 text-center fs-6'>A peer reviewer in each of the International Organization for Accreditation of Asia and the Pacific Countries (APAC) and the International Organization of Accreditation Bodies for Halal Certification Issuers (IHAF)</p>
                 </li>
                 <li className={`${styles.itemCheckTage} d-flex`}>
                     <p><FcCheckmark size={28} className=''/></p>
