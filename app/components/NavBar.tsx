@@ -44,10 +44,10 @@ const NavBar = () => {
                             <Link href={'/about/director-manger'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
                         </li>
                         {/* commented till need  */}
-                        {/* <li className={`nav-item  ${styles.navItem}`}>
-                            <Link href={'/about/organizational-structure'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="OrganizationalStructureNav">Organizational Structure</p></a></Link>
+                         <li className={`nav-item  ${styles.navItem}`}>
+                            <Link href={'/about/our-values'}  className={`nav-link `} id="link"><a  className='d-flex'><p className={`${styles.navLink}`}data-trans="OurValuesNav">Our Values</p></a></Link>
                         </li>
-                        <li className={`nav-item   ${styles.navItem}`}>
+                        {/*<li className={`nav-item   ${styles.navItem}`}>
                             <Link href={'/about/aboutestablishment-agreement'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="CASCOEstablishmentAgreementNav">CASCO Establishment Agreement</p></a></Link>
                         </li> */}
                         <li className={`nav-item   ${styles.navItem}`}>

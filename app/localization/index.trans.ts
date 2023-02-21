@@ -28,12 +28,12 @@ const indexTrans: translataionContainer = {
         ar:'مجلس الادارة'
     },
     DirectorMangerNav:{
-        en:'Director Manger',
+        en:'Director General',
         ar:'المدير العام'
     },
-    OrganizationalStructureNav:{
-        en:'Organizational Structure',
-        ar:'الهيكل التنظيمي'
+    OurValuesNav:{
+        en:'Our Values',
+        ar:'قيمنا'
     },
     CASCOEstablishmentAgreementNav:{
         en:'CASCO Establishment Agreement',
