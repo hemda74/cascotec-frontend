@@ -20,17 +20,14 @@
   }
   .itemCheckTage{
     margin-bottom: 0.8333333333rem;
-    display: flex;
-    position: relative;
     font-size: .8888888889rem;
     font-weight: 400;
     color: #252e3e;
-    line-height: 1.6666666667rem;
-    margin-bottom: 0;
-
+    line-height: 2rem;
   }
   .ethicCard{
     max-width: 60rem;
+    padding: 3rem;
   }
   .ethicCard2{
     margin-top: 3rem;
@@ -40,7 +37,7 @@
     box-shadow: 0px 30px 40px -20px #8787b2;
     padding-bottom: 1rem;
     padding-top: 5rem;
-    padding-right: 0.25rem;
+    padding-right: 0.2rem;
     background:url('../public//imagess/budget_center.jpg');
     border-radius: 1rem;
   }
@@ -60,6 +57,7 @@
   }
   .ethicCard5{
     margin-top: 7rem;
+    padding: 3rem;
   }
   .editIcon{
     padding-left: 8rem;

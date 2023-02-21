@@ -30,7 +30,7 @@ const BoardOfDirectors = () => {
                               <p className='fs-5' data-trans='BusinessDevelopmentManager'>Business Development Manager</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={hh}  className={`${styles.flagImage}`} />
+                            <Image src={oman}  className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>

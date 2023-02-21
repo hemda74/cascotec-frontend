@@ -50,36 +50,36 @@ const About = () => {
                 {/* <div className={` d-flex col-lg-6 cta-btn-container text-center row ${styles.ctaBtn}`}> */}
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start align-items-start flex-wrap">
                     <div className={` d-flex col-lg-6 col-sm-12 justify-content-center align-items-center`}>
-                        <span className={`${styles.iconsColor}`}>
-                        <GiShakingHands  size={50}/>
-                        </span>
+                        <p className={`${styles.iconsColor}`}>
+                        <GiShakingHands  size={60}/>
+                        </p>
                         <div className='mt-2'>
                         <p className=' text-white fs-4 fw-bold me-3 ms-3'>311</p>
                         <small className=' text-white me-3 ms-3' data-trans="AccreditedBodiesAbout">Accredited Bodies</small>
                         </div>
                     </div>
                     <div className={` d-flex col-lg-6 col-sm-12 justify-content-center align-items-center`}>
-                        <span className={`${styles.iconsColor}`}>
-                        <GiShakingHands   size={50}/>
-                        </span>
+                        <p className={`${styles.iconsColor}`}>
+                        <GiShakingHands  size={60}/>
+                        </p>
                         <div className='mt-2'>
                         <span className=' text-white fs-4 fw-bold ms-3 me-3'>1784</span>
                         <small className='mt-2 text-white d-block mb-4 ms-3 me-3' data-trans="AssessorsandExperts">AssessorsandExperts</small>
                         </div>
                     </div>
-                    <div className={`d-flex col-lg-6  justify-content-center align-items-center ${styles.editIcon}`}>
-                        <span className={`${styles.iconsColor} `}>
-                        <GiShakingHands  size={50}/>
-                        </span>
+                    <div className={`d-flex col-lg-6 d-flex justify-content-center align-items-center`}>
+                        <p className={`${styles.iconsColor} text-start `}>
+                        <GiShakingHands  size={60}/>
+                        </p>
                         <div className='mt-2'>
-                        <p className=' text-white fs-4 fw-bold ms-3 me-3'>777</p>
-                        <small className=' text-white ms-3 me-3' data-trans="Traineesduring2022">2022's Trainees</small>
+                        <p className=' text-white fs-4 fw-bold text-start ms-3 me-3'>777</p>
+                        <small className=' text-white ms-3 me-3 text-start' data-trans="Traineesduring2022">2022's Trainees</small>
                         </div>
                     </div>
                     <div className={` col-lg-6 d-flex justify-content-center align-items-center`}>
-                        <span className={`${styles.iconsColor}`}>
-                        <GiShakingHands size={50}/>
-                        </span>
+                        <p className={`${styles.iconsColor}`}>
+                        <GiShakingHands size={60}/>
+                        </p>
                         <div className='mt-2 ms-3 me-3'>
                         <p className=' fs-4 text-white fw-bold'>31</p>
                         <small className='text-white' data-trans="CASCOAgreements">CASCO Agreements</small>
@@ -91,14 +91,14 @@ const About = () => {
       <div className="ethicsCasco ">
       <div className="row mx-0 mt-5 d-flex justify-content-around align-items-center">
             <div className="col-lg-2"></div>
-            <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12 ${styles.ethicCard}`}>
+            <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12  ${styles.ethicCard}`}>
             <h4 className='fs-4 fw-bold' data-trans="Ethics">Ethics are central to CASCO’s actions</h4>
                 <p className='mt-3 ' data-trans='EthicsP1'>
                     {`Central to CASCO's Actions: Ethics, Integrity, and Responsibility Ethics is a cornerstone of CASCO's actions, and compliance with local and international laws and regulations is crucial to the Group's standards. This fundamental principle ensures the Group's integrity and maintains its reputation. CASCO is committed to ethics and transparency, reflected in its Code of Ethics which is binding for all employees globally.`}
                 </p>
             </div>
             <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12 ${styles.ethicCard5}`}>
-                <p className=' 'data-trans="EthicsP1" >{`Every company within the Group is responsible for implementing and enforcing the Code of Ethics, considering the obligations and specificities of its business activities and location.
+                <p className=' 'data-trans="EthicsP2" >{`Every company within the Group is responsible for implementing and enforcing the Code of Ethics, considering the obligations and specificities of its business activities and location.
                     An annual message is sent to all employees to remind them of the existence of the Code of Ethics.
                     A reporting mechanism is available for all employees and individuals to report any illegal activities or threats to public interest.
                     The Ethics Committee is responsible for enforcing the Code of Ethics, receiving reports of unethical behavior, and ensuring compliance with anti-corruption laws.
@@ -117,19 +117,19 @@ const About = () => {
                     <p className='mt-3 fs-5'data-trans="budgetP">CASCO shall have a separate budget, funded by the following sources</p>
                     <ul className='-list-unstyled'>
                     <li className={`${styles.itemCheckTage} d-flex`}>
-                    <FcCheckmark size={28} className='flex-start'/>
+                    <p><FcCheckmark size={28} className=''/></p>
                             <span data-trans="budgetP1" className='me-4 ms-4  fs-6'>Fees charged by CASCO in exchange for its services.</span>
                         </li>	
-                        <li className={styles.itemCheckTage}>
-                            <FcCheckmark size={28} className='mt-1 me-2'/>
+                        <li className={`${styles.itemCheckTage} d-flex`}>
+                            <p><FcCheckmark size={28} className=''/></p>
                             <span data-trans="budgetP2" className='me-4 ms-4  fs-6'>Financial contributions from Member States</span>
                         </li>
                         <li className={`${styles.itemCheckTage} d-flex`}>
-                    <FcCheckmark size={28} className='flex-start'/>
+                            <p><FcCheckmark size={28} className=''/></p>
                             <span data-trans="budgetP3" className='me-4 ms-4  fs-6'>Grants and donations that do not compromise the independence and impartiality of CASCO, approved by the Board of Directors.</span>
                         </li>
-                        <li className={styles.itemCheckTage}>
-                            <FcCheckmark size={28} className='mt-1 me-2'/>
+                        <li className={`${styles.itemCheckTage} d-flex`}>
+                            <p><FcCheckmark size={28} className=''/></p>
                                 <span data-trans="budgetP4" className='me-4 ms-4  fs-6'>Other sources determined by the Board of Directors.</span>
                         </li>
                     </ul>
