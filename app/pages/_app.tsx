@@ -8,6 +8,7 @@ import { store } from '../app/store';
 import transScript from '../helper/transScript';
 import indexTrans from '../localization/index.trans';
 import { NextPage } from 'next';
+import Head from 'next/head';
 
 
 // here we export the alias of next page with layout as optional.
@@ -38,11 +39,19 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
    }
    });
   return (
-    <Provider store={store}>
+    <>
+    <Head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  </Head>
+
+        <Provider store={store}>
       {/* <AuthGard> */}
       {getLayout(<Component {...pageProps} />)}
       {/* </AuthGard> */}
     </Provider>
+    </>
   );
 }
 

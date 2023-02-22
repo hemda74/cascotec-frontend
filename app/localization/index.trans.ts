@@ -216,6 +216,15 @@ const indexTrans: translataionContainer = {
         en:'Our Objective',
         ar:'هدفنا'
     },
+    //////////////////// < About Us > //////////////////////////
+    routeAboutUs:{
+        en:'Home > About CASCO > About Us',
+        ar:' الرئيسية  >  عن كاسكو  > عن الشركة'
+    },
+    AboutUsTitle:{
+        en:'About Us',
+        ar:'عن الشركة'
+    },
     OurobjectiveP:{
         en:'The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.',
         ar:'تهدف مجموعة كاسكو إلى تعزيز مكانتها وتحقيق أهدافها وتعزيز بنيتها التحتية من خلال تبني أفضل الممارسات المعترف بها عالميًا والشراكة مع الكيانات الدولية في قطاع الاعتماد والتصديق.'
@@ -297,6 +306,10 @@ const indexTrans: translataionContainer = {
         ar:'مصادر أخرى يحددها مجلس الإدارة.'
     },
 ////////////////////< Board of Directors >//////////////////////////////////
+routeBordofDirctors:{
+    en:'Home  >  About Us  >  Board of Directors',
+    ar:' الرئيسية  >  عن كاسكو  >  مجلس الإدارة'
+},
     BoardofDirectors:{
         en:'Board of Directors',
         ar:'مجلس الإدارة'
@@ -382,6 +395,10 @@ const indexTrans: translataionContainer = {
         ar:'مديرة الجرافيك المعماري'
     },
     /////////////////////< The director general1 >/////////////////////////
+    routeDirctorGeneral:{
+        en:'Home > About Us > Director General',
+        ar:' الرئيسية  >  عن كاسكو  >  المدير العام'
+    },
     DirectorManger:{
         en:'Director General',
         ar:'المدير العام'
@@ -411,8 +428,8 @@ const indexTrans: translataionContainer = {
         ar:'رئيس فرق التقييم لاعتماد المختبرات وجهات التفتيش وجهات اصدار شهادات الحلال وجهات اصدار شهادات المنتجات'
     },
     Thedirectorgeneral7:{
-        en:'A peer reviewer in each of the International Organization for Accreditation of Asia and the Pacific Countries (APAC) and the International Organization of Accreditation Bodies for Halal Certification Issuers (IHAF)',
-        ar:'مقيم نظراء في كل من المنظمة الدولية للاعتماد لدول آسيا والمحيط الهادي APAC و المنظمة الدولية لجهات اعتماد الجهات المصدرة لشهادات الحلال IHAF'
+        en:'A peer reviewer in each of the International Organization for Accreditation of Asia and the Pacific Countries (APAC) and the International Organization',
+        ar:'مقيم نظراء في كل من المنظمة الدولية للاعتماد لدول آسيا والمحيط الهادي APAC و المنظمة الدولية'
     },
     Thedirectorgeneral8:{
         en:'Vice President of the Arab Regional Accreditation Agency (ARAC).',
@@ -422,7 +439,15 @@ const indexTrans: translataionContainer = {
         en:'An international trainer and certification expert since 2015',
         ar:'مدرب دولي وخبير اعتماد منذ 2015'
     },
-
+//////////////////////////////////////////
+routeourvalues:{
+    en:'Home > About Us > Our Values',
+    ar:' الرئيسية  >  عن كاسكو  >  قيمنا'
+},
+ourValuesTitle:{
+    en:'Our Values',
+    ar:'قيمنا'
+},
 
 
 

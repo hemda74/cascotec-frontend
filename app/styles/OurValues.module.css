@@ -1,0 +1,65 @@
+.titleWord{
+  margin-top: -10rem;
+  margin-bottom: 10rem;
+}
+ /* Team Section */
+ .boardOfDirc{
+    background: none;
+    padding-bottom: 1rem;
+    margin-top: -10.5rem;
+ }
+  /* third card */
+  .teamMember2{
+    margin: 15px 0;
+    padding: 0;
+  }
+  .teamMemberFigure{
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  .figcaptionUl{
+    visibility: visible;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+  }
+  .figCaption{
+    color: transparent;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 996;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+  .teamMember2 .teamMemberFigure:hover figCaption{
+    visibility: visible;
+    color: #fff;
+    background: rgba(98, 141, 222, 0.523);   
+    height: 100%;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+  .flagImage{
+    vertical-align: middle;
+    visibility: visible;
+    color: #fff;
+    background: rgba(98, 141, 222, 0.523);   
+    height: 100%;
+    z-index: -1;
+  }

@@ -11,6 +11,10 @@ import {TfiCheck} from 'react-icons/tfi'
 const About = () => {
   return (
     <>
+        <div className={`text-center ${styles.titleWord}`}>
+            <h6 className="text-white fw-semibold mb-4" data-trans="routeAboutUs">{`Home > About CASCO > About Us`}</h6>
+            <h2 className={`text-white fw-bold mb-5 `} data-trans="AboutUsTitle">About Us</h2>
+          </div>
         <div className={`row`} >
             <div className="col-3">
             </div>
@@ -72,8 +76,8 @@ const About = () => {
                         <GiShakingHands  size={60}/>
                         </p>
                         <div className='mt-2'>
-                        <p className=' text-white fs-4 fw-bold text-start ms-3 me-3'>777</p>
-                        <small className=' text-white ms-3 me-3 text-start' data-trans="Traineesduring2022">2022's Trainees</small>
+                        <span className=' text-white fs-4 fw-bold text-start ms-3 me-3'>777</span>
+                        <small className=' text-white ms-3 me-3 d-block mb-4 text-start' data-trans="Traineesduring2022">2022's Trainees</small>
                         </div>
                     </div>
                     <div className={` col-lg-6 d-flex justify-content-center align-items-center`}>
@@ -81,7 +85,7 @@ const About = () => {
                         <GiShakingHands size={60}/>
                         </p>
                         <div className='mt-2 ms-3 me-3'>
-                        <p className=' fs-4 text-white fw-bold'>31</p>
+                        <p className=' text-white fs-4 fw-bold mb-1 ms-3 me-3'>31</p>
                         <small className='text-white' data-trans="CASCOAgreements">CASCO Agreements</small>
                         </div>
                     </div>

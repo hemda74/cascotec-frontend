@@ -3,8 +3,7 @@ import React, { ReactElement } from 'react'
 import Head from 'next/head';
 import ViewerLayout from '../../layouts/ViewerLayout';
 import { NextPageWithLayout } from '../_app';
-import BoardOfDirectors from '../../components/BoardOfDirectors';
-import Book from '../../components/Book';
+import DriectorGeneral from '../../components/DriectorGeneral';
 type Props = {};
 // dymmy data for ui till handle working with api
 
@@ -14,7 +13,7 @@ const directormanger:NextPageWithLayout = (props:Props) => {
     <Head>
         <title>CASCO | Director Manger</title>
     </Head>
-    <Book/>
+    <DriectorGeneral/>
     </>
   )
 }

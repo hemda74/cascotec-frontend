@@ -10,13 +10,15 @@ import egypt from '../public/imagess/egypt.png'
 import bahreen from '../public/imagess/bahreen.png'
 import kuwiat from '../public/imagess/kuwait.png'
 import oman from '../public/imagess/oman.png'
-import hh from '../public/imagess/kuawdfghjkl_ait-removebg-preview.png'
 const BoardOfDirectors = () => {
   return (
     <>
    <section id="team" className={`${styles.boardOfDirc}`}>
       <div  className="container" data-aos="fade-up">
-        <div className="text-center"><h2 className="text-white fw-bold mb-5" data-trans="BoardofDirectors">Board of Directors</h2></div>
+        <div className="text-center">
+          <h6 className="text-white fw-semibold mb-5" data-trans="routeBordofDirctors">{`Home > About Us > Board of Directors`}</h6>
+          <h2 className="text-white fw-bold mb-5" data-trans="BoardofDirectors">Board of Directors</h2>
+          </div>
         <div className="row gy-5">
           <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
