@@ -96,7 +96,7 @@ const About = () => {
       <div className="row mx-0 mt-5 d-flex justify-content-around align-items-center">
             <div className="col-lg-2"></div>
             <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12  ${styles.ethicCard}`}>
-            <h4 className='fs-4 fw-bold' data-trans="Ethics">Ethics are central to CASCO’s actions</h4>
+            <h4 className='fs-4 fw-bold' data-trans="Ethics">{`Ethics are central to CASCO’s actions`}</h4>
                 <p className='mt-3 ' data-trans='EthicsP1'>
                     {`Central to CASCO's Actions: Ethics, Integrity, and Responsibility Ethics is a cornerstone of CASCO's actions, and compliance with local and international laws and regulations is crucial to the Group's standards. This fundamental principle ensures the Group's integrity and maintains its reputation. CASCO is committed to ethics and transparency, reflected in its Code of Ethics which is binding for all employees globally.`}
                 </p>
@@ -118,7 +118,7 @@ const About = () => {
             <div className={`card-body col-xl-12 col-lg-12 col-md-12 col-sm-12 mb-3 ${styles.ethicCard2}`}>                   
              <div className={`${styles.ethicCard3}`}>
                     <span className='fs-4 fw-bold' data-trans="budget">The budget of CASCO</span>
-                    <p className='mt-3 fs-5'data-trans="budgetP">CASCO shall have a separate budget, funded by the following sources</p>
+                    <p className='mt-3 fs-5'data-trans="budgetP">{`CASCO shall have a separate budget, funded by the following sources`}</p>
                     <ul className='-list-unstyled'>
                     <li className={`${styles.itemCheckTage} d-flex`}>
                     <p><FcCheckmark size={28} className=''/></p>
