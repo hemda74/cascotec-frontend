@@ -77,7 +77,7 @@ const About = () => {
                         </p>
                         <div className='mt-2'>
                         <span className=' text-white fs-4 fw-bold text-start ms-3 me-3'>777</span>
-                        <small className=' text-white ms-3 me-3 d-block mb-4 text-start' data-trans="Traineesduring2022">2022's Trainees</small>
+                        <small className=' text-white ms-3 me-3 d-block mb-4 text-start' data-trans="Traineesduring2022">{`2022's Trainees`}</small>
                         </div>
                     </div>
                     <div className={` col-lg-6 d-flex justify-content-center align-items-center`}>
