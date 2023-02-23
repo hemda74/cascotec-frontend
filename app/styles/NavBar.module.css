@@ -42,9 +42,11 @@
 @media (max-width: 978px) {
     .navItem{
         margin-top: 0;
+        margin-left: auto;
     }
     .navItem2{
         margin-top: -.50rem;
         margin-bottom: 0.4rem;
+        margin-left: auto;
     }
 }
