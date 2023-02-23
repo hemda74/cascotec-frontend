@@ -2,7 +2,15 @@
     margin-top: -10rem;
     margin-bottom: 10rem;
   }
+  .biggerCircle{
+    padding-top: 0.5rem;
+    width: 3rem;
+    border-radius: 50% ;
+    border: solid 1px #05a9f5 ;
+    height: 3rem;
+  }
   .numbersCircle {
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;  

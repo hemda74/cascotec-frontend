@@ -27,7 +27,7 @@ const About = () => {
                     </div>
                     <div className={`col-lg-5  m-auto`}>
                         <span className="card-title fs-4 fw-bold mt-3" data-trans='Ourobjective'>Our Objective</span> 
-                        <p className="card-text mt-3 fs-5" data-trans="OurobjectiveP">The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.</p>
+                        <p className="card-text mt-3 fs-5" data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
                     </div>
                 </div>
             </div>
@@ -36,11 +36,11 @@ const About = () => {
             <div className="col-lg-3"></div>
             <div className={`card-body col-xl-3 col-lg-3 col-md-6 col-sm-12 ${styles.visionCard}`}>
                 <span className='fs-4 fw-bold' data-trans="OurVision">Our Vision</span>
-                <p className='mt-3 fs-5' data-trans='OurVisionP' >Creating a Safer World Together Committed to ensuring project integrity, managing risks, and maximizing client performance to build a better and safer world for all.</p>
+                <p className='mt-3 fs-5' data-trans='OurVisionP' >{`Creating a Safer World Together Committed to ensuring project integrity, managing risks, and maximizing client performance to build a better and safer world for all.`}</p>
             </div>
             <div className={`card-body col-xl-3 col-lg-3 col-md-6 col-sm-12 ${styles.visionCard}`}>
                 <span className='fs-4 fw-bold' data-trans="OurMission">Our Mission</span>
-                <p className='mt-3 fs-5'data-trans="OurMissionP" >Comprehensive Project Consultation Our expert team identifies, evaluates, and controls risks related to quality, health and safety, and the environment throughout the entire project life cycle.</p>
+                <p className='mt-3 fs-5'data-trans="OurMissionP" >{`Comprehensive Project Consultation Our expert team identifies, evaluates, and controls risks related to quality, health and safety, and the environment throughout the entire project life cycle.`}</p>
             </div>
             <div className="col-lg-3"></div>
         </div>
@@ -122,19 +122,19 @@ const About = () => {
                     <ul className='-list-unstyled'>
                     <li className={`${styles.itemCheckTage} d-flex`}>
                     <p><FcCheckmark size={28} className=''/></p>
-                            <span data-trans="budgetP1" className='me-4 ms-4  fs-6'>Fees charged by CASCO in exchange for its services.</span>
+                            <span data-trans="budgetP1" className='me-4 ms-4  fs-6'>{`Fees charged by CASCO in exchange for its services.`}</span>
                         </li>	
                         <li className={`${styles.itemCheckTage} d-flex`}>
                             <p><FcCheckmark size={28} className=''/></p>
-                            <span data-trans="budgetP2" className='me-4 ms-4  fs-6'>Financial contributions from Member States</span>
+                            <span data-trans="budgetP2" className='me-4 ms-4  fs-6'>{`Financial contributions from Member States`}</span>
                         </li>
                         <li className={`${styles.itemCheckTage} d-flex`}>
                             <p><FcCheckmark size={28} className=''/></p>
-                            <span data-trans="budgetP3" className='me-4 ms-4  fs-6'>Grants and donations that do not compromise the independence and impartiality of CASCO, approved by the Board of Directors.</span>
+                            <span data-trans="budgetP3" className='me-4 ms-4  fs-6'>{`Grants and donations that do not compromise the independence and impartiality of CASCO, approved by the Board of Directors.`}</span>
                         </li>
                         <li className={`${styles.itemCheckTage} d-flex`}>
                             <p><FcCheckmark size={28} className=''/></p>
-                                <span data-trans="budgetP4" className='me-4 ms-4  fs-6'>Other sources determined by the Board of Directors.</span>
+                                <span data-trans="budgetP4" className='me-4 ms-4  fs-6'>{`Other sources determined by the Board of Directors.`}</span>
                         </li>
                     </ul>
             </div>

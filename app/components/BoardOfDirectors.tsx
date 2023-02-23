@@ -32,7 +32,7 @@ const BoardOfDirectors = () => {
                               <p className='fs-5' data-trans='BusinessDevelopmentManager'>Business Development Manager</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={oman}  className={`${styles.flagImage}`} />
+                            <Image src={oman} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
@@ -52,7 +52,7 @@ const BoardOfDirectors = () => {
                               <p className='fs-5' data-trans="ChiefFinancialOfficerCFO">Chief Financial Officer (CFO)</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={ksa}  className={`${styles.flagImage}`} />
+                            <Image src={ksa} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
@@ -72,7 +72,7 @@ const BoardOfDirectors = () => {
                               <p className='fs-5' data-trans="ChiefOperationsOfficerCFO">Chief Operations Officer (CFO)</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={uae}  className={`${styles.flagImage}`} />
+                            <Image src={uae} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
@@ -80,7 +80,7 @@ const BoardOfDirectors = () => {
                 </a>
             </Link>
           </div>
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex">
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>
@@ -92,7 +92,7 @@ const BoardOfDirectors = () => {
                                 <p className='fs-5' data-trans="HumanResourcesDirector">Human Resources Director</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={egypt}  className={`${styles.flagImage}`} />
+                            <Image src={egypt} alt=""  className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
@@ -112,7 +112,7 @@ const BoardOfDirectors = () => {
                                 <p className='fs-5' data-trans="TrainingAcademyManager">Training Academy Manager</p>
                               </div>
                               <div className='d-flex justify-content-end'>
-                            <Image src={qater}  className={`${styles.flagImage}`} />
+                            <Image src={qater} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
@@ -132,7 +132,7 @@ const BoardOfDirectors = () => {
                                 <p className='fs-5' data-trans="TechnicalSchemeManager">Technical Scheme Manager</p>
                               </div>
                               <div className='d-flex justify-content-end'>
-                            <Image src={ksa}  className={`${styles.flagImage}`} />
+                            <Image src={ksa} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
@@ -152,7 +152,7 @@ const BoardOfDirectors = () => {
                               <p className='fs-5' data-trans="ChiefInspectorOfficerCIO">Chief Inspector Officer (CIO)</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={egypt}  className={`${styles.flagImage}`} />
+                            <Image src={egypt} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
@@ -172,7 +172,7 @@ const BoardOfDirectors = () => {
                               <p className='fs-5' data-trans="InformationSecurityBCMDirector">Information Security & BCM Director</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={bahreen}  className={`${styles.flagImage}`} />
+                            <Image src={bahreen} alt=""  className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
@@ -192,7 +192,7 @@ const BoardOfDirectors = () => {
                               <p className='fs-5'data-trans="DigitalTransformationDirector">Digital Transformation Director</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={kuwiat}  className={`${styles.flagImage}`} />
+                            <Image src={kuwiat}  alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
@@ -212,7 +212,7 @@ const BoardOfDirectors = () => {
                             <p className='fs-5'data-trans="ArchitecturalGraphicDirector">Architectural Graphic Director</p>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={uae}  className={`${styles.flagImage}`} />
+                            <Image src={uae}  alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>

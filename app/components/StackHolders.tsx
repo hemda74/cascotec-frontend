@@ -17,14 +17,15 @@ const StackHolders = () => {
                     <div className="row ">
                         <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12 d-block">
                             <div className={`${styles.itemOne}`}>
-                                <span className={`mb-4 ${styles.numbersCircle}`}  data-trans="LeadershipthroughExample">1</span>
-                                <p className='fs-5' data-trans="LeadershipthroughExampleb1">{`"Commitment" > highlights our employees' dedication to maintaining high standards in their daily work, taking extra steps to reduce the risk for clients, collaborating with and supporting coworkers, and making a positive impact to create a safer world.`}</p>
-                                <p className='fs-5' data-trans="LeadershipthroughExampleb2">{`"Excellence" > embodies our ongoing pursuit of excellence by continuously enhancing our abilities and staying ahead of the curve in our field.`}</p>
+                                <div className={`${styles.biggerCircle}`}>
+                                <span className={` ${styles.numbersCircle}`}>1</span>
+                                </div>
+                                <p className='fs-5' >{`"Commitment" > highlights our employees' dedication to maintaining high standards in their daily work, taking extra steps to reduce the risk for clients, collaborating with and supporting coworkers, and making a positive impact to create a safer world.`}</p>
                             </div>
                         </div>
-                        </div>
-                        </div>
-                        </div>
+                    </div>
+                </div>
+          </div>
     </section>
     </>
   )

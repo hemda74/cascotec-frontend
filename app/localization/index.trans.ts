@@ -501,7 +501,15 @@ routeBordofDirctors:{
         en:'Stakeholders Advisory Committee',
         ar:'اللجنة الاستشارية للجهات ذات العلاقة'
     },
-
+    Responsibilitiesofthecommittee:{
+        en:'Responsibilities of the committee',
+        ar:'اختصاصات اللجنة الاستشارية'
+    },
+    Responsibilitiesofthecommitteeb1:{
+        en:'The committee is in charge of the implementation of the following tasks and functions',
+        ar:'تعمل اللجنة الاستشارية لتنفيذ المهام والاختصاصات التالية:'
+    },
+    
 
 
 
