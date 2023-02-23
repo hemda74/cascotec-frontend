@@ -1,0 +1,15 @@
+.titleWord{
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+  }
+  .numbersCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  background: #05a9f5;
+  height: 2rem;
+  color: #fff;
+  width: 2rem;
+  border-radius: 50%;
+  
+  }

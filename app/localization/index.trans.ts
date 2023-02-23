@@ -492,8 +492,15 @@ routeBordofDirctors:{
         en:`Together with social responsibility, it reflects our shared mission and our commitment to ensuring the safety and well-being of individuals both within the company and in society as a whole.`,
         ar:'إلى جانب المسؤولية الاجتماعية ، فهي تعكس مهمتنا المشتركة والتزامنا بضمان سلامة ورفاهية الأفراد داخل الشركة وفي المجتمع ككل.'
     },
-
-
+    /////////////////////////////< StakeholdersAdvisoryCommittee >////////////////////////////////////////
+    routeStakeholdersAdvisoryCommittee:{
+        en:'Home > About CASCO > Stakeholders Advisory Committee',
+        ar:'الرئيسية  >  عن كاسكو  > اللجنة الاستشارية للجهات ذات العلاقة'
+    },
+    StakeholdersAdvisoryCommitteeTitle:{
+        en:'Stakeholders Advisory Committee',
+        ar:'اللجنة الاستشارية للجهات ذات العلاقة'
+    },
 
 
 
