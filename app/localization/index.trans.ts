@@ -439,15 +439,59 @@ routeBordofDirctors:{
         en:'An international trainer and certification expert since 2015',
         ar:'مدرب دولي وخبير اعتماد منذ 2015'
     },
-//////////////////////////////////////////
-routeourvalues:{
-    en:'Home > About Us > Our Values',
-    ar:' الرئيسية  >  عن كاسكو  >  قيمنا'
-},
-ourValuesTitle:{
-    en:'Our Values',
-    ar:'قيمنا'
-},
+//////////////////< Our Values >////////////////////////
+    routeourvalues:{
+        en:'Home > About Us > Our Values',
+        ar:' الرئيسية  >  عن كاسكو  >  قيمنا'
+    },
+    ourValuesTitle:{
+        en:'Our Values',
+        ar:'قيمنا'  
+    },
+    Ourcorporatevalues:{
+        en:'Our corporate values',
+        ar:'قيم شركتنا'
+    },
+    LeadershipthroughExample:{
+        en:'Leadership through Example',
+        ar:'القيادة من خلال المثال'    
+    },
+    LeadershipthroughExampleb1:{
+        en:`"Commitment" > highlights our employees' dedication to maintaining high standards in their daily work, taking extra steps to reduce the risk for clients, collaborating with and supporting coworkers, and making a positive impact to create a safer world.`,
+        ar:'الالتزام" > الضوء على تفاني موظفينا في الحفاظ على معايير عالية في عملهم اليومي ، واتخاذ خطوات إضافية لتقليل المخاطر على العملاء ، والتعاون مع زملائهم في العمل ودعمهم ، وإحداث تأثير إيجابي لخلق عالم أكثر أمانًا.'
+    },
+    LeadershipthroughExampleb2:{
+        en:`"Excellence" > embodies our ongoing pursuit of excellence by continuously enhancing our abilities and staying ahead of the curve in our field.`,
+        ar:'"التميز" يجسد سعينا المستمر للتميز من خلال تعزيز قدراتنا باستمرار والبقاء في الطليعة في مجالنا.'    
+    },
+    EntrepreneurshipInnovation:{
+        en:'Entrepreneurship & Innovation',
+        ar:'ريادة الأعمال والابتكار'
+    },        
+    EntrepreneurshipInnovationb1:{
+        en:'Embracing risk with an entrepreneurial mindset: Agile and Dependable',
+        ar:'تقبل المخاطر بعقلية ريادة الأعمال: رشاقة ويمكن الاعتماد عليها'
+    },
+    EntrepreneurshipInnovationb2:{
+        en:'We continuously seek improvement, and, through cross-disciplinary collaboration, we unlock new possibilities and create innovative solutions that bring added value and differentiation. We inspire our clients to strive for greater speed and progress so they can secure the future success of their businesses.',
+        ar:'نسعى باستمرار إلى التحسين ، ومن خلال التعاون متعدد التخصصات ، نطلق العنان لإمكانيات جديدة ونخلق حلولًا مبتكرة تحقق قيمة مضافة وتميزًا. نحن نلهم عملائنا للسعي لتحقيق سرعة أكبر وتقدم أكبر حتى يتمكنوا من تأمين النجاح المستقبلي لأعمالهم.'
+    },
+    AccountabilitySocialResponsibility:{
+        en:`Accountability & Social Responsibility`,
+        ar:'المساءلة والمسؤولية الاجتماعية'
+    },
+    AccountabilitySocialResponsibilityb1:{
+        en:`Being Proactive: Managing Risk, Encouraging Sustainability and Green Development, Addressing Urban Growth.`,
+        ar:'أن تكون استباقيًا: إدارة المخاطر ، وتشجيع الاستدامة والتنمية الخضراء ، ومعالجة النمو الحضري'
+    },
+    AccountabilitySocialResponsibilityb2:{
+        en:`Accountability represents a promise of quality for our clients and ensures that our solutions are designed for long-term success.`,
+        ar:'تمثل المساءلة وعدًا بالجودة لعملائنا وتضمن أن حلولنا مصممة لتحقيق النجاح على المدى الطويل.'
+    },
+    AccountabilitySocialResponsibilityb3:{
+        en:`Together with social responsibility, it reflects our shared mission and our commitment to ensuring the safety and well-being of individuals both within the company and in society as a whole.`,
+        ar:'إلى جانب المسؤولية الاجتماعية ، فهي تعكس مهمتنا المشتركة والتزامنا بضمان سلامة ورفاهية الأفراد داخل الشركة وفي المجتمع ككل.'
+    },
 
 
 
