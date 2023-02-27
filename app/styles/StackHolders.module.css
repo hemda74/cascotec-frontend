@@ -14,10 +14,43 @@
     display: flex;
     justify-content: center;
     align-items: center;  
-  background: #05a9f5;
-  height: 2rem;
-  color: #fff;
-  width: 2rem;
-  border-radius: 50%;
+    background: #05a9f5;
+    height: 2rem;
+    color: #fff;
+    width: 2rem;
+    border-radius: 50%;
   
   }
+  .ctA {
+    margin-top: 3rem;
+    background: linear-gradient(rgba(122, 163, 210, 0.9), rgba(29, 94, 205, 0.9));
+    background-size: cover;
+    padding: 120px 0;
+  }
+  .navLink{
+    background: transparent;
+    border: none;
+    width: 15rem;
+  }
+  .navLink:hover{
+    color: #2a06f3 !important;
+  }
+  .ulLi{
+    margin-top: 0rem;
+    color: #fff;
+  }
+  @media (max-width: 480px) {
+  .listContainer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  }
+  .listinnerContainer1{
+    width: 10% !important;
+    text-align: start;
+  }
+  .listinnerContainer2{
+    width: 40%;
+    padding: 0;
+  }
+}

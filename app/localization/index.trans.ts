@@ -509,10 +509,91 @@ routeBordofDirctors:{
         en:'The committee is in charge of the implementation of the following tasks and functions',
         ar:'تعمل اللجنة الاستشارية لتنفيذ المهام والاختصاصات التالية:'
     },
-    
-
-
-
+    Examininganddiscussingsubjects:{
+        en:'Examining and discussing subjects related to the accreditation activities of the CASCO Group and providing relevant recommendations.',
+        ar:'دراسة ومناقشة الموضوعات المتعلقة بأنشطة الاعتماد لمجموعة كاسكو وتقديم التوصيات ذات الصلة.'
+    },
+    Assessingthepolicies:{
+        en:'Assessing the policies and strategies of the CASCO Group and offering opinions and recommendations to the General Director.',
+        ar:'تقييم سياسات واستراتيجيات مجموعة كاسكو وتقديم الآراء والتوصيات إلى المدير العام.'
+    },
+    Evaluatingtheplans:{
+        en:'Evaluating the plans and programs proposed by the General Director of the CASCO Group and making recommendations accordingly.',
+        ar:' تقييم الخطط والبرامج المقترحة من قبل المدير العام لمجموعة كاسكو وتقديم التوصيات وفقًا لذلك.'
+    },
+    Reviewannualreports:{
+        en:'Review annual reports on the activities and achievements of the CASCO Group and provide opinions and recommendations.',
+        ar:'مراجعة التقارير السنوية عن أنشطة وإنجازات مجموعة كاسكو وإبداء الآراء والتوصيات.'
+    },
+    Compositionofthe:{
+        en:'Composition of the stakeholders advisory committee',
+        ar:'تكوين اللجنة الاستشارية للجهات ذات العلاقة'
+    },
+    TheAdvisory:{
+        en:'The Advisory Committee is composed of 3 groups of interested parties represented as follows',
+        ar:'تتكون اللجنة الاستشارية من ثلاث مجموعات للجهات ذات العلاقة بالاعتماد، كما يلي:'
+    },
+    Governmentauthorities:{
+        en:'Government authorities',
+        ar:'الجهات الحكومية'
+    },
+    ConformityAssessmentBodies:{
+        en:'Conformity Assessment Bodies',
+        ar:'جهات تقويم المطابقة'
+    },
+    GCCorganizationsIndustryandconsumers:{
+        en:'GCC organizations, Industry and consumers',
+        ar:'المستفيدون من خدمات الاعتماد'
+    },
+    Onerepresentativeofagovernment:{
+        en:'One representative of a government authority (ministry) in each of the Member States (7 members).',
+        ar:"ممثل واحد عن الجهات المختصة في كل من الدول الأعضاء (7 أعضاء)."
+    },
+    Onerepresentativefromtheconformity:{
+        en:'One representative from the conformity assessment bodies accredited by the GAC (up to 6 members)',
+        ar:'ستة ممثلين لجهات تقويم المطابقة المعتمدة من المركز يمثلون كل النشاطات المعتمدة.'
+    },
+    Onerepresentativefromtheconformity2:{
+        en:'One representative from the conformity assessment bodies associations.',
+        ar:'ممثل واحد عن تجمعات جهات تقويم المطابقة.'
+    },
+    Onerepresentative1:{
+        en:'One representative of the chambers of commerce and industry of the Member States',
+        ar:'ممثل واحد عن إتحاد الغرف التجارية والصناعية في الدول الأعضاء.'
+    },
+    Onerepresentative2:{
+        en:'One representative of the consumer protection organizations',
+        ar:'ممثل واحد عن الجمعيات الأهلية لحماية المستهلك في الدول الأعضاء.'
+    },
+    Onerepresentative3:{
+        en:'One representative of the Secretariat-general of the Cooperation Council',
+        ar:'ممثل واحد عن الأمانة العامة لمجلس التعاون على أن يكون من لجنة الاتحاد الجمركي.'
+    },
+    Onerepresentative4:{
+        en:'One representative of the GCC Standardization Organization',
+        ar:'ممثل واحد عن الأمانة العامة لهيئة التقييس لدول مجلس التعاون.'
+    },
+    Onerepresentative5:{
+        en:'One representative of the regional metrology organization GULFMET',
+        ar:'ممثل واحد عن التجمع الخليجي للمترولوجيا.'
+    },
+    Onerepresentative6:{
+        en:'One representative from NGOs representing beneficiaries of conformity assessment activities',
+        ar:'ممثل واحد عن الجهات الأهلية الممثلة للمستفيدين من أنشطة تقويم المطابقة.'
+    },
+    Onerepresentative7:{
+        en:'One representative of the General Direction of the GCC accreditation Center.',
+        ar:'ممثل واحد عن الإدارة العامة للمركز.'
+    },
+/////////////////////////////////////////// < Rights And Duties > //////////////////////////////////////////////////
+    routeCASCORightsAndDuties:{
+        en:'Home > About CASCO > Rights And Duties',
+        ar:' الرئيسية  >  عن كاسكو  > الحقوق والواجبات'
+    },
+    CASCORightsAndDuties:{
+        en:`CASCO’s Rights And Duties`,
+        ar:'الحقوق والواجبات'
+    },
 
 
 
