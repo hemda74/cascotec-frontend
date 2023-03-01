@@ -93,7 +93,7 @@ const NavBar = () => {
                     </ul>
                 </li>  
                 <li className={`nav-item ms-4 ${styles.navItem}`}>
-                    <Link href={'/contact'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="ContactUsNav">Contact Us</p></a></Link>
+                    <Link href={'/contact-us'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="ContactUsNav">Contact Us</p></a></Link>
                 </li>        
             </ul>
             <div className="d-flex">

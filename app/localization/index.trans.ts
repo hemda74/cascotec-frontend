@@ -646,8 +646,15 @@ routeBordofDirctors:{
         en:'To provide information about suitable ways to obtain tractability of measurement results in relation to the scope for which accreditation is provided. This is detailed in the Technical Note TN 2.0.',
         ar:'توفير معلومات حول الطرق المناسبة للحصول على إمكانية تتبع نتائج القياس فيما يتعلق بالنطاق الذي يتم تقديم الاعتماد من أجله. هذا مفصل في الدليل الفني TN 2.0.'
     },
-
-
+//////////////////////////////////////< Contact Us >////////////////////////////////////////////////////////////////////////
+    routeContactUs:{
+        en:'Home > Contact Us',
+        ar:'الرئيسية  > تواصل معنا'
+    },
+    ContactUs:{
+        en:'Contact Us',
+        ar:'تواصل معنا'
+    },
 
 
 
