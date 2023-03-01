@@ -82,7 +82,7 @@ const ContactUs = () => {
                 <div className={`error-message ${styles.errorMassage}`}></div>
                 <div className={`sent-message ${styles.sentMassage}`}>Your message has been sent. Thank you!</div>
               </div>
-              <div className="text-center"><button className=' myInfo p-2 rounded ' type="submit">Send Message</button></div>
+              <div className="text-center"><button className={`myInfo p-2 rounded ${styles.btnClass} `} type="submit">Send Message</button></div>
             </form>
           </div>
         </div>

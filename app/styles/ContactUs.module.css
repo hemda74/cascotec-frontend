@@ -116,6 +116,9 @@
     padding: 10px 12px;
     resize: none;
   }
+  .btnClass{
+    border: solid 1px;
+  }
     
   @-webkit-keyframes animate-loading {
     0% {
