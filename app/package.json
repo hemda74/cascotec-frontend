@@ -11,6 +11,7 @@
   "dependencies": {
     "@next/font": "^13.1.6",
     "@reduxjs/toolkit": "^1.8.5",
+    "@sendgrid/mail": "^7.7.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "next": "12.2.5",
