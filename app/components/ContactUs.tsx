@@ -16,33 +16,30 @@ const ContactUs = () => {
         <div className="section-header">
         <div className="row mx-0 d-flex justify-content-around align-items-center">
             <div className="col-lg-3"></div>
-            <div className={`card-body col-xl-6 col-lg-6 col-md-12 col-sm-12 p-4 d-flex justify-content-center align-items-center`}>
-            <div className={`col-lg-6 col-sm-12 justify-content-center align-items-center`}>
+            <div className={`card-body col-xl-6 col-lg-6 col-md-12 col-sm-12 p-4 d-flex justify-content-center align-items-center ${styles.cardBobyIcons}`}>
+            <div className={`col-lg-6 col-sm-12 justify-content-center align-items-center row ${styles.firstIcons}`}>
                         <p className={`${styles.iconsColor}`}>
                         <BsFillTelephoneFill  size={33}/>
                         </p>
-                        <div className='  '>
                         <p className=''>+20 112 1900 466</p>
-                        </div>
                         <p className={`${styles.iconsColor}`}>
                         <FiMail  size={30}/>
                         </p>
-                        <div className=''>
-                        <p className='mt-0'>info@casco.com</p>
-                        </div>
+                        <p className='mt-0 me-2'>info@casco.com</p>
+                        
                     </div>
-                    <div className="col-lg-5"></div>
-                    <div className={` col-lg-4 col-sm-12 justify-content-center align-items-center`}>
+                    <div className="col-lg-2"></div>
+                    <div className={` row col-lg-6 col-sm-12 col-md-6 justify-content-center align-items-center`}>
+                    <div className=' col-sm-12'>
                     <p className={`${styles.iconsColor}`}>
                         <FaFax  size={30}/>
                         </p>
-                        <div className='  '>
                         <p className=''>+20 112 1900 466</p>
                         </div>
+                        <div className=' col-sm-12'>
                         <p className={`${styles.iconsColor2}`}>
                         <FaMapMarkerAlt  size={35} />
                         </p>
-                        <div className='  '>
                         <p className=''>Kingdom of Saudia Arabia P.O.Box 85245 Riyadh 11691</p>
                         </div>
                     </div>             
