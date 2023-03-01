@@ -9,7 +9,7 @@ const rad:NextPageWithLayout = (props:Props) => {
   return (
     <>
     <Head>
-        <title>CASCO's Rights And Duties | CASCO</title>
+        <title>{`CASCO's Rights And Duties | CASCO`}</title>
     </Head>
     <main>
       <RightsAndDuties/>
