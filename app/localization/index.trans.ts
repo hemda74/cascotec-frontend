@@ -594,7 +594,58 @@ routeBordofDirctors:{
         en:`CASCO’s Rights And Duties`,
         ar:'الحقوق والواجبات'
     },
-
+    CASCOSRIGHTSANDDUTIES:{
+        en:`CASCO'S RIGHTS AND DUTIES`,
+        ar:'حقوق و واجبات المركز'
+    },
+    CASCOSRights:{
+        en:`CASCO'S Rights`,
+        ar:'حقوق المركز'
+    },
+    ritghs1:{
+        en:'GAC has the right to decline, withdraw, suspend or even reduce scope of its accredited CAB which doesn’t comply with the requirements of the accreditation criteria including applicable laws/regulation, or when it is found have falsified information or documents and when there’s clear evidence of its fraudulent behavior.',
+        ar:'يحق لـلمركز رفض أو سحب أو تعليق أو حتى تقليل نطاق اعتماد الجهة المعتمده الذي لا يتوافق مع متطلبات ومعايير الاعتماد بما في ذلك القوانين / اللوائح المعمول بها ، أو عندما يتم العثور على معلومات أو مستندات مزورة وعندما يكون هناك دليل واضح على سلوكها الاحتيالي.'
+    },
+    ritghs2:{
+        en:'To not accept the application from CAB that doesn’t provide required information & documents, and doesn’t cooperate to a level necessary to meet the timelines, or when found to be scam or fraudulent.',
+        ar:'عدم قبول الطلب من الجهة التي لا تتوفر لديها المعلومات أو المستندات المطلوبة أو تلك التي لا تتعاون إلى المستوى الضروري للوفاء بالجداول الزمنية للتقييم.'
+    },
+    ritghs3:{
+        en:'To change type of assessment, frequency of assessment and conduct unannounced assessment as result of previous assessment outcome, due to complaint or appeals or sourced information which impacts the image of GAC or affects integrity and competence of the CAB.',
+        ar:'تغيير نوع التقييم أو تكرار التقييم أو إجراء تقييم غير مُعلن نتيجة لنتائج التقييم السابقة أو بسبب شكوى أو طعون أو معلومات واردة للمركز والتي تؤثر على صورة المركز أو تؤثر على نزاهة وكفاءة الجهة المعتمدة.'
+    },
+    ritghs4:{
+        en:'To assess the management system of the CAB and require any document and access to location and facilities in relation to the scope of accreditation during the accreditation cycle of the CAB.',
+        ar:'تقييم نظام إدارة الجهة والمطالبة بأي وثيقة والوصول إلى الموقع والمرافق فيما يتعلق بنطاق الاعتماد خلال فترة الاعتماد من المركز.'
+    },
+    CASCOsduties:{
+        en:'CASCO’s duties',
+        ar:'واجبات المركز '
+    },
+    duiets1:{
+        en:'To timely plan and conduct due assessments for the CABs to determine its competence',
+        ar:'التخطيط في الوقت المناسب وإجراء التقييمات الواجبة لجهات تقييم المطابقة لتحديد كفاءتها'
+    },
+    duiets2:{
+        en:'To ensure confidentiality of CAB’s information and their documents unless required by the law/regulation to disclose it in a way required.',
+        ar:'ضمان سرية معلومات جهات تقويم المطابقة ووثائقها ما لم يطلب القانون / اللائحة الكشف عنها بالطرق النظامية.'
+    },
+    duiets3:{
+        en:'GAC will make publicly available information about the current status of the accreditations that it has granted to the CABs, this information is updated regularly and in line with ISO/IEC 17011 requirements.',
+        ar:`يتيح المركز للجمهور المعلومات حول الوضع الحالي للاعتمادات التي منحها إلى جهات تقويم المطابقة، ويتم تحديث هذه المعلومات بانتظام وبما يتماشى مع متطلبات ISO / IEC 17011.`
+    },
+    duiets4:{
+        en:'To ensure impartiality of its services',
+        ar:'ضمان حيادية خدماته'
+    },
+    duiets5:{
+        en:'To inform its accredited CABs about any changes in the accreditation requirements and timelines as applicable, to ensure the implementation of changes it could be covered through next due assessment or by asking CABs to provide some immediate evidences of implementation.',
+        ar:'إبلاغ جهات تقييم المطابقة المعتمده بالتغييرات في متطلبات الاعتماد والجداول الزمنية حسب الاقتضاء، لضمان تنفيذ التغييرات التي يمكن تغطيتها من خلال التقييم التالي الواجب أو عن طريق مطالبة الجهات بتقديم بعض الأدلة الفورية للتنفيذ.'
+    },
+    duiets6:{
+        en:'To provide information about suitable ways to obtain tractability of measurement results in relation to the scope for which accreditation is provided. This is detailed in the Technical Note TN 2.0.',
+        ar:'توفير معلومات حول الطرق المناسبة للحصول على إمكانية تتبع نتائج القياس فيما يتعلق بالنطاق الذي يتم تقديم الاعتماد من أجله. هذا مفصل في الدليل الفني TN 2.0.'
+    },
 
 
 
