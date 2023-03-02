@@ -8,4 +8,7 @@
     -ms-border-radius: 5px !important;
     -o-border-radius: 5px !important;
 }
+.containerLogin{
+    background: url('../public/login-background-image.jpg');
+}
 

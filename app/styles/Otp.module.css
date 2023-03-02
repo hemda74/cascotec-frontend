@@ -27,3 +27,6 @@
 .localizationBtn:hover {
     color: black;
 }
+.otpContainer{
+    background:url('../public/login-background-image.jpg') ;
+}

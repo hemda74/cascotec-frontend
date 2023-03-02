@@ -8,7 +8,7 @@ const LoginBtn = (props: Props) => {
   return (
     <Link
       type="button"
-      className={`btn d-flex align-items-center justify-content-center `} href={''}>
+      className={`btn d-flex align-items-center justify-content-center `} href={'/login'}>
       <span className={` myPrimary d-flex rounded fw-semibold align-items-center justify-content-center ${styles.newWord} ${styles.newOpHourBtn} ` } data-trans="login">
         Login
       </span>
