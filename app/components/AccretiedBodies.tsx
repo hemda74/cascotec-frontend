@@ -3,14 +3,23 @@ import styles from '../styles/AccretiedBodies.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import mohamed from '../public/imagess/mohamedhamdy.jpg'
-import oman from '../public/imagess/oman.png'
-import kuwait from '../public/imagess/kuwait.png'
+import oman from '../public/imagess/accretied flags/oman.png'
+import kuwait from '../public/imagess/accretied flags/kuwait.png'
 import bahreen from '../public/imagess/accretied flags/bahreen.png'
-import qater from '../public/imagess/qater.png'
-import egypt from '../public/imagess/egypt.png'
-import uae from '../public/imagess/uae.png'
+import qater from '../public/imagess/accretied flags/qater.png'
+import egypt from '../public/imagess/accretied flags/egypt.png'
+import uae from '../public/imagess/accretied flags/uae.png'
 import halal from '../public/imagess/halal.png'
-import ksa from '../public/imagess/ksa.png'
+import ksa from '../public/imagess/accretied flags/ksa.png'
+import accrimage from'../public/imagess/accrimage2.png'
+import acceitedimage3 from '../public/imagess/acceitedimage3.jpg'
+import accerimge6 from '../public/imagess/accerimge6.jpg'
+import acceitedimage4 from '../public/imagess/accretedimage4.png'
+import accerimge5 from '../public/imagess/accerimge5.jpg'
+import accerimage6 from '../public/imagess/accerimage6.jpg'
+import EditSiteDiscardChangesModal from './EditSiteDiscardChangesModal'
+
+
 const AccretiedBodies = () => {
   return (
     <>
@@ -52,10 +61,10 @@ const AccretiedBodies = () => {
                     </select>
                   </div>
                 <div className={`col-md-6 col-lg-2 col-sm-6 col-xl-2 form-group mt-3 mt-4 ${styles.formGroup}`}>
-                <input type="date" name="from_date" className={`form-control datepicker from_date ${styles.dateInput}`} value="" autoComplete="off"/>            
+                <input type="date" name="from_date" className={`form-control datepicker from_date ${styles.dateInput}`} defaultValue="2020-01-01" autoComplete="off"/>            
                 </div>
                 <div className={`col-md-6 col-lg-2 col-sm-6 col-xl-2 form-group mt-3 mt-4 ${styles.formGroup}`}>
-                <input type="date" name="from_date" className={`form-control datepicker from_date ${styles.dateInput}`} value="" autoComplete="off"/>            
+                <input type="date" name="from_date" className={`form-control datepicker from_date ${styles.dateInput}`} defaultValue="2030-01-01" autoComplete="off"/>            
                 </div>
               
               <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group mt-4 ${styles.formGroup}`}>
@@ -326,16 +335,19 @@ const AccretiedBodies = () => {
         </div>
       </div>
       <div className={`row gy-5  container justify-content-center align-items-center m-auto ${styles.formConatiner}`}>
-          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" data-aos="zoom-in" data-aos-delay="200">
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#EditSiteDiscardChangesModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={halal} height={900} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-start`}>
-                            <div className='mt-5'>
-                              <p className='' data-trans="MrAhmedMahrous">Mr. Ahmed Mahrous</p>
-                              <p className='' data-trans='BusinessDevelopmentManager'>Business Development Manager</p>
+                          <Image src={halal} height={1900} alt="" className="img-responsive p-4 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>World Halal Trust</p>
+                              <p className='fs-5 fw-semibold mt-1'>HPC 0069</p>
+                              <p className="fs-6 ">bahreen</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
                             </div>
                             <div className='d-flex justify-content-end'>
                             <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
@@ -344,118 +356,89 @@ const AccretiedBodies = () => {
                         </figure>
                     </div>
                 </a>
-            </Link>
-          </div>
-          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" data-aos="zoom-in" data-aos-delay="200">
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
-                    <div className={`${styles.teamMember2}`}>
-                        <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={mohamed} height={250} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-center`}>
-                            <div className='mt-5'>
-                              <p className='fs-3' data-trans="MrMostafaFarag">Mr. Mostafa Farag</p>
-                              <p className='fs-5' data-trans="ChiefFinancialOfficerCFO">Chief Financial Officer (CFO)</p>
-                            </div>
-                            <div className='d-flex justify-content-end'>
-                            <Image src={ksa} alt="" className={`${styles.flagImage}`} />
-                            </div>
-                          </figcaption>
-                        </figure>
-                    </div>
-                </a>
-            </Link>
           </div>
           <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#EditSiteDiscardChangesModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={mohamed} height={250} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-center`}>
-                           <div className='mt-5'>
-                              <p className='fs-3' data-trans="MsJihadMohamed">Ms. Jihad Mohamed</p>
-                              <p className='fs-5' data-trans="ChiefOperationsOfficerCFO">Chief Operations Officer (CFO)</p>
+                          <Image src={accrimage} height={1500} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={uae} alt="" className={`${styles.flagImage}`} />
+                            <Image src={oman} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
                     </div>
                 </a>
-            </Link>
+            
           </div>
-          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex">
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#EditSiteDiscardChangesModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={mohamed} height={250} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-center`}>
-                            <div className='mt-5'>
-                                <p className='fs-3' data-trans="MrsEsraaAbdelHafez">Mrs. Esraa Abdel Hafez</p>
-                                <p className='fs-5' data-trans="HumanResourcesDirector">Human Resources Director</p>
+                          <Image src={acceitedimage3} height={450} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={egypt} alt=""  className={`${styles.flagImage}`} />
+                            <Image src={oman} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
                     </div>
                 </a>
-            </Link>
+          
           </div>
-          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" data-aos="zoom-in" data-aos-delay="200">
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#EditSiteDiscardChangesModal">                
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={mohamed} height={250} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-center`}>
-                            <div className='mt-5'>
-                                <p className='fs-3' data-trans="DrAhmedBedawi">Dr. Ahmed Bedawi</p>
-                                <p className='fs-5' data-trans="TrainingAcademyManager">Training Academy Manager</p>
-                              </div>
-                              <div className='d-flex justify-content-end'>
-                            <Image src={qater} alt="" className={`${styles.flagImage}`} />
+                          <Image src={accerimage6} height={350} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={oman} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
                     </div>
                 </a>
-            </Link>
+           
           </div>
-          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" data-aos="zoom-in" data-aos-delay="200">
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#EditSiteDiscardChangesModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={mohamed} height={250} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-center`}>
-                            <div className='mt-5'>
-                                <p className='fs-3' data-trans="ProfDrAbdelrhamanFarahat">Prof. Dr. Abdelrhaman Farahat</p>
-                                <p className='fs-5' data-trans="TechnicalSchemeManager">Technical Scheme Manager</p>
-                              </div>
-                              <div className='d-flex justify-content-end'>
-                            <Image src={ksa} alt="" className={`${styles.flagImage}`} />
-                            </div>
-                          </figcaption>
-                        </figure>
-                    </div>
-                </a>
-            </Link>
-          </div>
-          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" data-aos="zoom-in" data-aos-delay="200">
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
-                    <div className={`${styles.teamMember2}`}>
-                        <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={mohamed} height={250} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-center`}>
-                           <div className='mt-5'>
-                              <p className='fs-3' data-trans="ProfDrMagdyElMahdy">Prof Dr. Magdy El Mahdy</p>
-                              <p className='fs-5' data-trans="ChiefInspectorOfficerCIO">Chief Inspector Officer (CIO)</p>
+                          <Image src={acceitedimage4} height={620} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
                             </div>
                             <div className='d-flex justify-content-end'>
                             <Image src={egypt} alt="" className={`${styles.flagImage}`} />
@@ -464,69 +447,39 @@ const AccretiedBodies = () => {
                         </figure>
                     </div>
                 </a>
-            </Link>
+            
           </div>
-          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" data-aos="zoom-in" data-aos-delay="200">
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex">
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#EditSiteDiscardChangesModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={mohamed} height={250} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-center`}>
-                           <div className='mt-5'>
-                              <p className='fs-3' data-trans="DrFred">Dr. Fred</p>
-                              <p className='fs-5' data-trans="InformationSecurityBCMDirector">Information Security & BCM Director</p>
+                          <Image src={accerimge5} height={250} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
                             </div>
                             <div className='d-flex justify-content-end'>
-                            <Image src={bahreen} alt=""  className={`${styles.flagImage}`} />
+                            <Image src={uae} alt="" className={`${styles.flagImage}`} />
                             </div>
                           </figcaption>
                         </figure>
                     </div>
                 </a>
-            </Link>
           </div>
-          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" data-aos="zoom-in" data-aos-delay="200">
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
-                    <div className={`${styles.teamMember2}`}>
-                        <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={mohamed} height={250} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-center`}>
-                          <div className='mt-5'>
-                              <p className='fs-3'data-trans="ShehabAlAref">Shehab Al Aref</p>
-                              <p className='fs-5'data-trans="DigitalTransformationDirector">Digital Transformation Director</p>
-                            </div>
-                            <div className='d-flex justify-content-end'>
-                            <Image src={kuwait}  alt="" className={`${styles.flagImage}`} />
-                            </div>
-                          </figcaption>
-                        </figure>
-                    </div>
-                </a>
-            </Link>
-          </div>
-          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" data-aos="zoom-in" data-aos-delay="200">
-              <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
-                <a>
-                    <div className={`${styles.teamMember2}`}>
-                        <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={mohamed} height={250} alt="" className="img-responsive rounded"/>
-                          <figcaption className={`${styles.figCaption} text-center`}>
-                            <div className='mt-5'>
-                            <p className='fs-3'data-trans="DinaMohi">Dina Mohi</p>
-                            <p className='fs-5'data-trans="ArchitecturalGraphicDirector">Architectural Graphic Director</p>
-                            </div>
-                            <div className='d-flex justify-content-end'>
-                            <Image src={uae}  alt="" className={`${styles.flagImage}`} />
-                            </div>
-                          </figcaption>
-                        </figure>
-                    </div>
-                </a>
-            </Link>
-          </div>
-            </div>
+        </div>
+        <div className={` d-flex justify-content-end color-red ${styles.deleteButton}`}>
+                                            <a  data-bs-toggle="modal"
+                                                    data-bs-target="#EditSiteDiscardChangesModal">
+                                                    
+                                                    
+                                            </a>
+                                        </div>
+                                        <EditSiteDiscardChangesModal/>
     </>
   )
 }
