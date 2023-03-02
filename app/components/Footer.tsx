@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styels from '../styles/Footer.module.css'
 import logo from '../public/logo.png'
-import {BsFacebook,BsTwitter,BsLinkedin,BsGithub,BsFillArrowUpRightCircleFill, BsYoutube, BsInstagram} from 'react-icons/bs';
+import {BsFacebook,BsTwitter,BsLinkedin,BsFillArrowUpRightCircleFill, BsYoutube, BsInstagram} from 'react-icons/bs';
 // footer Component design
 const Footer = () => {
   return (
@@ -28,7 +28,7 @@ const Footer = () => {
                     <div className="links">
                        <span className=" me-5 fs-5 fw-bold" data-trans="supportFooter">Support</span>
                        <ul className="list-unstyled ln-lg mt-3">
-                            <li><Link href="/" className={`nav-link fs-6`} id="link"><a className={`${styels.footerLink}`} data-trans="ContactUsFooter">Contact Us</a></Link></li>
+                            <li><Link href="/contact-us" className={`nav-link fs-6`} id="link"><a className={`${styels.footerLink}`} data-trans="ContactUsFooter">Contact Us</a></Link></li>
                         </ul>
                     </div>
                 </div>
