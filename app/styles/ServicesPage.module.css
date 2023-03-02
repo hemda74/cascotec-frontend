@@ -1,0 +1,19 @@
+/* Contact Section*/
+.titleWord{
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+  }
+  .accreditationThumbnail{
+    background: #f9f9f9;
+    padding: 2rem;
+  }
+  .accreditationThumbnail2{
+    background: #f9f9f9;
+    padding: 2rem;
+  }
+  .btnContainer{
+    padding: 1rem;
+    background: #ecc0c0;
+    color: #fff;
+    border-radius: 1rem;
+  }
