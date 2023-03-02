@@ -17,9 +17,7 @@ import accerimge6 from '../public/imagess/accerimge6.jpg'
 import acceitedimage4 from '../public/imagess/accretedimage4.png'
 import accerimge5 from '../public/imagess/accerimge5.jpg'
 import accerimage6 from '../public/imagess/accerimage6.jpg'
-import EditSiteDiscardChangesModal from './EditSiteDiscardChangesModal'
-
-
+import AccrediedsModal from './AccrediedsModal'
 const AccretiedBodies = () => {
   return (
     <>
@@ -337,7 +335,7 @@ const AccretiedBodies = () => {
       <div className={`row gy-5  container justify-content-center align-items-center m-auto ${styles.formConatiner}`}>
           <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
           <a  data-bs-toggle="modal"
-                                                    data-bs-target="#EditSiteDiscardChangesModal">
+                                                    data-bs-target="#AccrediedsModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
                           <Image src={halal} height={1900} alt="" className="img-responsive p-4 rounded"/>
@@ -359,7 +357,7 @@ const AccretiedBodies = () => {
           </div>
           <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
           <a  data-bs-toggle="modal"
-                                                    data-bs-target="#EditSiteDiscardChangesModal">
+                                                    data-bs-target="#AccrediedsModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
                           <Image src={accrimage} height={1500} alt="" className="img-responsive p-5 rounded"/>
@@ -382,7 +380,7 @@ const AccretiedBodies = () => {
           </div>
           <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
           <a  data-bs-toggle="modal"
-                                                    data-bs-target="#EditSiteDiscardChangesModal">
+                                                    data-bs-target="#AccrediedsModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
                           <Image src={acceitedimage3} height={450} alt="" className="img-responsive p-5 rounded"/>
@@ -405,7 +403,7 @@ const AccretiedBodies = () => {
           </div>
           <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
           <a  data-bs-toggle="modal"
-                                                    data-bs-target="#EditSiteDiscardChangesModal">                
+                                                    data-bs-target="#AccrediedsModal">                
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
                           <Image src={accerimage6} height={350} alt="" className="img-responsive p-5 rounded"/>
@@ -428,7 +426,7 @@ const AccretiedBodies = () => {
           </div>
           <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
           <a  data-bs-toggle="modal"
-                                                    data-bs-target="#EditSiteDiscardChangesModal">
+                                                    data-bs-target="#AccrediedsModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
                           <Image src={acceitedimage4} height={620} alt="" className="img-responsive p-5 rounded"/>
@@ -451,7 +449,143 @@ const AccretiedBodies = () => {
           </div>
           <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex">
           <a  data-bs-toggle="modal"
-                                                    data-bs-target="#EditSiteDiscardChangesModal">
+            data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={accerimge5} height={250} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={uae} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={halal} height={1900} alt="" className="img-responsive p-4 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>World Halal Trust</p>
+                              <p className='fs-5 fw-semibold mt-1'>HPC 0069</p>
+                              <p className="fs-6 ">bahreen</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={accrimage} height={1500} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={oman} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+            
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={acceitedimage3} height={450} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={oman} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#AccrediedsModal">                
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={accerimage6} height={350} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={oman} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+           
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                                                    data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={acceitedimage4} height={620} alt="" className="img-responsive p-5 rounded"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className='mt-1 me-2 ms-2'>
+                              <p className='fs-5 fw-bold'>Racing Forensic Laboratory</p>
+                              <p className='fs-5 fw-semibold mt-1'>ATL 0151</p>
+                              <p className="fs-6 mt-1">oman</p>
+                              <small className='d-block mt-2'>Initial Accreditation Date </small><small>29 Jan 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>29 Jan 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={egypt} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+            
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex">
+          <a  data-bs-toggle="modal"
+            data-bs-target="#AccrediedsModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
                           <Image src={accerimge5} height={250} alt="" className="img-responsive p-5 rounded"/>
@@ -472,14 +606,8 @@ const AccretiedBodies = () => {
                 </a>
           </div>
         </div>
-        <div className={` d-flex justify-content-end color-red ${styles.deleteButton}`}>
-                                            <a  data-bs-toggle="modal"
-                                                    data-bs-target="#EditSiteDiscardChangesModal">
-                                                    
-                                                    
-                                            </a>
-                                        </div>
-                                        <EditSiteDiscardChangesModal/>
+      
+                                        <AccrediedsModal/>
     </>
   )
 }
