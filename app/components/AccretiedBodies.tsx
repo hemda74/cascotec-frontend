@@ -29,7 +29,7 @@ const AccretiedBodies = () => {
         <div className="row gy-5 gx-lg-5">
           <div className={`col-lg-12 ${styles.contactCard}`}>
             <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
-            <p> 500  Accretied </p>
+            <p>500  Accretied </p>
               <div className="row">
                 <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6  form-group mt-4 ${styles.formGroup}`}>
                   <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Your Name" required/>
@@ -165,14 +165,14 @@ const AccretiedBodies = () => {
     <option value="GY">Guyana</option>
     <option value="HT">Haiti</option>
     <option value="HM">Heard Island and Mcdonald Islands</option>
-    <option value="VA">Holy See (Vatican City State)</option>
+    <option value="VA">{`Holy See (Vatican City State)`}</option>
     <option value="HN">Honduras</option>
     <option value="HK">Hong Kong</option>
     <option value="HU">Hungary</option>
     <option value="IS">Iceland</option>
     <option value="IN">India</option>
     <option value="ID">Indonesia</option>
-    <option value="IR">Iran, Islamic Republic of</option>
+    <option value="IR">{`Iran, Islamic Republic of`}</option>
     <option value="IQ">Iraq</option>
     <option value="IE">Ireland</option>
     <option value="IM">Isle of Man</option>
@@ -185,12 +185,12 @@ const AccretiedBodies = () => {
     <option value="KZ">Kazakhstan</option>
     <option value="KE">Kenya</option>
     <option value="KI">Kiribati</option>
-    <option value="KP">Korea, Democratic People's Republic of</option>
-    <option value="KR">Korea, Republic of</option>
+    <option value="KP">{`Korea, Democratic People's Republic of`}</option>
+    <option value="KR">{`Korea, Republic of`}</option>
     <option value="XK">Kosovo</option>
     <option value="KW">Kuwait</option>
     <option value="KG">Kyrgyzstan</option>
-    <option value="LA">Lao People's Democratic Republic</option>
+    <option value="LA">{`Lao People's Democratic Republic`}</option>
     <option value="LV">Latvia</option>
     <option value="LB">Lebanon</option>
     <option value="LS">Lesotho</option>
@@ -200,7 +200,7 @@ const AccretiedBodies = () => {
     <option value="LT">Lithuania</option>
     <option value="LU">Luxembourg</option>
     <option value="MO">Macao</option>
-    <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+    <option value="MK">{`Macedonia, the Former Yugoslav Republic of`}</option>
     <option value="MG">Madagascar</option>
     <option value="MW">Malawi</option>
     <option value="MY">Malaysia</option>
@@ -213,8 +213,8 @@ const AccretiedBodies = () => {
     <option value="MU">Mauritius</option>
     <option value="YT">Mayotte</option>
     <option value="MX">Mexico</option>
-    <option value="FM">Micronesia, Federated States of</option>
-    <option value="MD">Moldova, Republic of</option>
+    <option value="FM">{`Micronesia, Federated States of`}</option>
+    <option value="MD">{`Moldova, Republic of`}</option>
     <option value="MC">Monaco</option>
     <option value="MN">Mongolia</option>
     <option value="ME">Montenegro</option>
@@ -239,7 +239,7 @@ const AccretiedBodies = () => {
     <option value="OM">Oman</option>
     <option value="PK">Pakistan</option>
     <option value="PW">Palau</option>
-    <option value="PS">Palestinian Territory, Occupied</option>
+    <option value="PS">{`Palestinian Territory, Occupied`}</option>
     <option value="PA">Panama</option>
     <option value="PG">Papua New Guinea</option>
     <option value="PY">Paraguay</option>
@@ -288,11 +288,11 @@ const AccretiedBodies = () => {
     <option value="SE">Sweden</option>
     <option value="CH">Switzerland</option>
     <option value="SY">Syrian Arab Republic</option>
-    <option value="TW">Taiwan, Province of China</option>
+    <option value="TW">{`Taiwan, Province of China`}</option>
     <option value="TJ">Tajikistan</option>
-    <option value="TZ">Tanzania, United Republic of</option>
+    <option value="TZ">{`Tanzania, United Republic of`}</option>
     <option value="TH">Thailand</option>
-    <option value="TL">Timor-Leste</option>
+    <option value="TL">{`Timor-Leste`}</option>
     <option value="TG">Togo</option>
     <option value="TK">Tokelau</option>
     <option value="TO">Tonga</option>
@@ -313,8 +313,8 @@ const AccretiedBodies = () => {
     <option value="VU">Vanuatu</option>
     <option value="VE">Venezuela</option>
     <option value="VN">Viet Nam</option>
-    <option value="VG">Virgin Islands, British</option>
-    <option value="VI">Virgin Islands, U.s.</option>
+    <option value="VG">{`Virgin Islands, British`}</option>
+    <option value="VI">{`Virgin Islands, U.s.`}</option>
     <option value="WF">Wallis and Futuna</option>
     <option value="EH">Western Sahara</option>
     <option value="YE">Yemen</option>
