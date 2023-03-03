@@ -60,11 +60,7 @@ const AccrediedsModal = (props: Props) => {
                     <div className="actions">
                         <a target="_blank"  rel="noreferrer" href="https://api.gac.org.sa/public/uploads/cab_request/certificates/vSGcxUuVPTxz5aulhHsbnv5m5v2w3kQsj7pvndUYj2fo2qSScH7UFO3HDGOD1gEiLYdqkcxOIysNfMz1.pdf" className="btn btn_icon grey">
                         <AiFillEye/>
-                        </a>
-                          <a download="new" data-type="2" className="btn btn_icon theme"  data-file="../public/HPC 0069.pdf" data-name="AC 10.11 v1.2 Accreditation certificate ACL0021.pdf">
-                            <AiOutlineDownload/>
-                          </a> 
-                          <a href="../public/HPC 0069.pdf" download="newfilename"> </a>
+                        </a>                      
                     </div>
                 </div>
             </div>
