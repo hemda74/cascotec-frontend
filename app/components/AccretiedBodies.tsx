@@ -95,7 +95,7 @@ const AccretiedBodies = () => {
     <option value="BM">Bermuda</option>
     <option value="BT">Bhutan</option>
     <option value="BO">Bolivia</option>
-    <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+    <option value="BQ">{`Bonaire, Sint Eustatius and Saba`}</option>
     <option value="BA">Bosnia and Herzegovina</option>
     <option value="BW">Botswana</option>
     <option value="BV">Bouvet Island</option>
@@ -115,14 +115,14 @@ const AccretiedBodies = () => {
     <option value="CL">Chile</option>
     <option value="CN">China</option>
     <option value="CX">Christmas Island</option>
-    <option value="CC">Cocos (Keeling) Islands</option>
+    <option value="CC">{`Cocos (Keeling) Islands`}</option>
     <option value="CO">Colombia</option>
     <option value="KM">Comoros</option>
     <option value="CG">Congo</option>
-    <option value="CD">Congo, Democratic Republic of the Congo</option>
+    <option value="CD">{`Congo, Democratic Republic of the Congo`}</option>
     <option value="CK">Cook Islands</option>
     <option value="CR">Costa Rica</option>
-    <option value="CI">Cote D'Ivoire</option>
+    <option value="CI">{`Cote D'Ivoire`}</option>
     <option value="HR">Croatia</option>
     <option value="CU">Cuba</option>
     <option value="CW">Curacao</option>
