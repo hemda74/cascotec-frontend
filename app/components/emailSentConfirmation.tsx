@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 // Otp page is used when user ente his email to reset his password where OTP
 // code can be found in his email address.
-const emailSentConfirmation: NextPage = () => {
+const EmailSentConfirmation: NextPage = () => {
   // decalring a counter state used en resend btn logic.
   const [counter, setCounter] = useState(0);
 
@@ -98,4 +98,4 @@ const emailSentConfirmation: NextPage = () => {
   );
 };
 
-export default emailSentConfirmation;
+export default EmailSentConfirmation;
