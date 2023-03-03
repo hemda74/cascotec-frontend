@@ -14,7 +14,7 @@ import UserService from '../servcies/UserService';
 import getCookie from '../helper/getCookie';
 import deleteCookie from '../helper/deleteCookie';
 
-const mfa_login: NextPage = () => {
+const Mfalogin: NextPage = () => {
   // Assigning useRouter to a variable to use it.
   const router = useRouter();
   // declaring 2 states to handle post request responses.
@@ -131,4 +131,4 @@ const mfa_login: NextPage = () => {
   );
 };
 
-export default mfa_login;
+export default Mfalogin;

@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 // Otp page is used when user ente his email to reset his password where OTP
 // code can be found in his email address.
-const EmailSentConfirmation: NextPage = () => {
+const emailSentConfirmation: NextPage = () => {
   // decalring a counter state used en resend btn logic.
   const [counter, setCounter] = useState(0);
 
@@ -30,12 +30,12 @@ const EmailSentConfirmation: NextPage = () => {
   return (
     <>
       <Head>
-        <title>CASCO | OTP</title>
+        <title>TicoSys | OTP</title>
       </Head>
       <div>
         <div
           id="login-holder"
-          className={`container-fluid vh-100 overflow-hidden p-0 ${styles.otpContainer}`}>
+          className="container-fluid vh-100 overflow-hidden p-0">
           <div
             id="login-holder-backdrop"
             className="row align-items-center vh-100">
@@ -98,4 +98,4 @@ const EmailSentConfirmation: NextPage = () => {
   );
 };
 
-export default EmailSentConfirmation;
+export default emailSentConfirmation;

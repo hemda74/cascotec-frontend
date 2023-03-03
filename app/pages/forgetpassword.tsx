@@ -12,7 +12,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/router';
 import validateEmail from '../helper/validateEmail';
 
-const forgetpassword: NextPage = () => {
+const Forgetpassword: NextPage = () => {
   // Assigning useRouter to a variable to use it.
   const router = useRouter();
   // declaring 2 states to handle post request responses.
@@ -126,4 +126,4 @@ const forgetpassword: NextPage = () => {
   );
 };
 
-export default forgetpassword;
+export default Forgetpassword;
