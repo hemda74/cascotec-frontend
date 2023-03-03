@@ -37,6 +37,7 @@ const AccrediedsModal = (props: Props) => {
                 src={uae}
                 width={33}
                 height={33}
+                alt='countryflage'
                 />
                   <span className='me-1 mt-1 '>
                     Emirates
