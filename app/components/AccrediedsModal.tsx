@@ -44,22 +44,22 @@ const AccrediedsModal = (props: Props) => {
                   </span>
               </div>
               <div className={`${styles.itemDownload} d-flex justify-content-between`}>
-                    <span className="title">Certificates</span>
+                    <span className="title mt-2">Certificates</span>
                     <div className="actions">
                         <a target="_blank" href="https://api.gac.org.sa/public/uploads/cab_request/certificates/vSGcxUuVPTxz5aulhHsbnv5m5v2w3kQsj7pvndUYj2fo2qSScH7UFO3HDGOD1gEiLYdqkcxOIysNfMz1.pdf" rel="noreferrer" className="btn btn_icon grey">
-                            <AiFillEye/>
+                           <span className={`${styles.iconColor}`}>
+                            <AiFillEye size={30}/>
+                            </span>
                         </a>
-                        <a download="new" data-type="2"  className="btn btn_icon theme"  data-file="../public/HPC 0069.pdf" data-name="AC 10.11 v1.2 Accreditation certificate ACL0021.pdf">
-                            <AiOutlineDownload/>
-                        </a> 
-                          <a href="../public/HPC 0069.pdf"  download="newfilename"> </a>
                     </div>
                 </div>
-                <div className={`${styles.itemDownload2} d-flex    justify-content-between`}>
-                    <span className="title">Scope</span>
+                <div className={`${styles.itemDownload} d-flex    justify-content-between`}>
+                    <span className="title mt-2">Scope</span>
                     <div className="actions">
                         <a target="_blank"  rel="noreferrer" href="https://api.gac.org.sa/public/uploads/cab_request/certificates/vSGcxUuVPTxz5aulhHsbnv5m5v2w3kQsj7pvndUYj2fo2qSScH7UFO3HDGOD1gEiLYdqkcxOIysNfMz1.pdf" className="btn btn_icon grey">
-                        <AiFillEye/>
+                        <span className={`${styles.iconColor}`}>
+                        <AiFillEye size={30}/>
+                        </span>
                         </a>                      
                     </div>
                 </div>
