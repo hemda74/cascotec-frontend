@@ -1,15 +1,15 @@
 import React, { ReactElement } from 'react'
 import Head from 'next/head';
-import ViewerLayout from './../layouts/ViewerLayout';
-import { NextPageWithLayout } from './_app';
-import Courses from '../components/Courses';
+import ViewerLayout from '../../layouts/ViewerLayout';
+import { NextPageWithLayout } from '../_app';
+import Courses from '../../components/Courses';
 type Props = {};
 // dymmy data for ui till handle working with api
 const courses:NextPageWithLayout = (props:Props) => {
   return (
     <>
     <Head>
-        <title>Contact Us | CASCO</title>
+        <title>Courses | CASCO</title>
     </Head>
     <main>
       <Courses/>

@@ -1,3 +1,4 @@
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -8,7 +9,70 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --color-default: #1a1f24;
+  --color-default-rgb: 26, 31, 36;
 
+  /* Defult links color */
+  --color-links: #3279fc;
+  --color-links-hover: #4797ff;
+
+  /* Primay colors */
+  --color-primary: #3279fc;
+  --color-primary-light: #4797ff;
+  --color-primary-dark: #1c61e2;
+
+  --color-primary-rgb: 50, 121, 252;
+  --color-primary-light-rgb: 71, 151, 255;
+  --color-primary-dark-rgb: 28, 97, 226;
+
+  /* Secondary colors */
+  --color-secondary: #5670a0;
+  --color-secondary-light: #6e87b6;
+  --color-secondary-dark: #3b5380;
+
+  --color-secondary-rgb: 86, 112, 160;
+  --color-secondary-light-rgb: 110, 135, 182;
+  --color-secondary-dark-rgb: 59, 83, 128;
+
+  /* General colors */
+  --color-blue: #0d6efd;
+  --color-blue-rgb: 13, 110, 253;
+
+  --color-indigo: #6610f2;
+  --color-indigo-rgb: 102, 16, 242;
+
+  --color-purple: #6f42c1;
+  --color-purple-rgb: 111, 66, 193;
+
+  --color-pink: #f3268c;
+  --color-pink-rgb: 243, 38, 140;
+
+  --color-red: #df1529;
+  --color-red-rgb: 223, 21, 4;
+
+  --color-orange: #fd7e14;
+  --color-orange-rgb: 253, 126, 20;
+
+  --color-yellow: #ffc107;
+  --color-yellow-rgb: 255, 193, 7;
+
+  --color-green: #059652;
+  --color-green-rgb: 5, 150, 82;
+
+  --color-teal: #20c997;
+  --color-teal-rgb: 32, 201, 151;
+
+  --color-cyan: #0dcaf0;
+  --color-cyan-rgb: 13, 202, 240;
+
+  --color-white: #ffffff;
+  --color-white-rgb: 255, 255, 255;
+
+  --color-gray: #6c757d;
+  --color-gray-rgb: 108, 117, 125;
+
+  --color-black: #000000;
+  --color-black-rgb: 0, 0, 0;
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
     #16abff33 0deg,

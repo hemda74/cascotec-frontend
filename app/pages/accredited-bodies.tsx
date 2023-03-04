@@ -2,7 +2,7 @@ import React, { ReactElement } from 'react'
 import Head from 'next/head';
 import ViewerLayout from './../layouts/ViewerLayout';
 import { NextPageWithLayout } from './_app';
-import AccretiedBodies from '../components/AccretiedBodies';
+import AccretiedBodies from '../components/AccrediedsBodies';
 type Props = {};
 // dymmy data for ui till handle working with api
 const Accredtied:NextPageWithLayout = (props:Props) => {

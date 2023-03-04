@@ -11,7 +11,6 @@
   .SearchButton{
     padding: 0.8rem 1.5rem 0.8rem ;
     border: none;
-
   }
   .searchCard{
     box-shadow: 0px 30px 40px -10px #8787b2;
@@ -70,7 +69,7 @@
 .teamMember2 .teamMemberFigure:hover figCaption{
   visibility: visible;
   color: #fff;
-  background: rgba(98, 141, 222, 0.523);   
+  background: rgba(59, 60, 61, 0.523);   
   height: 100%;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
@@ -82,6 +81,5 @@
   visibility: visible;
   color: #fff;
   background: rgba(98, 141, 222, 0.523);   
-  
   z-index: -1;
 }

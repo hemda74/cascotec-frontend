@@ -2,4 +2,144 @@
 .titleWord{
     margin-top: -10rem;
     margin-bottom: 10rem;
+}
+  .coursesCard
+{
+    box-shadow: 0px 30px 30px -20px #8787b2;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+    background: #ffff;
+    display: flex;
+    margin-top: -8rem;
+}
+  .coursesHead{
+   margin-top: auto;
+   margin-bottom: auto;
+   text-align: end;
+   margin-left: 2rem;
+   margin-right: 2rem;
   }
+  .cardSubTitle{
+    color: rgb(7, 142, 215);
+  }
+  .cardImage{
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+  .searchCard{
+    box-shadow: 0px 30px 20px -20px #d7d7ef;
+    border-radius: 1rem;
+    padding: 2rem 3rem 2rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+  }
+  .SearchButton{
+    padding: 0.8rem 1.5rem 0.8rem ;
+    border: none;
+  }
+  .formConatiner{
+    margin-top:5rem;
+  }
+/* plog postes */
+.postBox {
+  transition: 0.3s;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.postImage {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+.figCaption{
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 996;
+  color: #fff;
+  bottom: auto;
+  left: 5%;
+  top: 10%;
+  width: 90%;
+  height: 0%;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.postBox .postTitleFigre:hover figCaption{
+  visibility: visible;
+  color: #fff !important;
+  background: rgba(82, 81, 81, 0.523);   
+  height: 30%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.postTitle {
+  font-size: 24px;
+  color: var(--color-secondary);
+  font-weight: 700;
+  margin: 15px 0 0 0;
+  position: relative;
+  transition: 0.3s;
+}
+.iconDate{
+  margin-top: 0.5rem;
+  color: var(--color-secondary);
+}
+
+.recent-blog-posts .post-box p {
+  margin: 15px 0 0 0;
+  color: rgba(var(--color-secondary-dark-rgb), 0.7);
+}
+
+.recent-blog-posts .post-box .readmore {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1;
+  transition: 0.3s;
+  margin-top: 15px;
+}
+
+.recent-blog-posts .post-box .readmore i {
+  line-height: 0;
+  margin-left: 4px;
+  font-size: 18px;
+}
+
+.recent-blog-posts .post-box:hover .post-title {
+  color: var(--color-primary);
+}
+
+.recent-blog-posts .post-box:hover .post-img img {
+  transform: scale(1.1);
+}
+
+  @media (max-width: 480px)
+{
+    .coursesCard{
+      display: flex;
+      flex-direction: column;
+    }
+    .cardImage{
+      margin: 0;
+    }
+    .coursesHead{
+      text-align: center;
+  }
+}
+  
