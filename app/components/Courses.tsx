@@ -33,7 +33,7 @@ const Courses = () => {
         <div className="row gy-5 gx-lg-5">
           <div className={`col-lg-12 ${styles.contactCard}`}>
             <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
-            <p>25  Upcoming Course </p>
+                <p>25  Upcoming Course </p>
               <div className="row">
                 <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6  form-group  ${styles.formGroup}`}>
                   <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
@@ -62,17 +62,6 @@ const Courses = () => {
 
                   <div className={`form-group d-flex justify-content-between mt-4 ${styles.formGroup}`}>
                     <div className='col-md-4 col-lg-4 col-sm-6 col-xs-6'>
-                    <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
-                        <option>All</option>
-                        <option>2023</option>
-                        <option>2022</option>
-                        <option>2021</option>
-                        <option>2020</option>
-                        <option>2019</option>
-                        <option>2018</option>
-                        <option>2017</option>
-                        <option>2016</option>
-                    </select>
                     </div>
                     <div><button className={` myInfo  rounded ${styles.SearchButton}`} type="submit"> Search </button></div>
                   </div>

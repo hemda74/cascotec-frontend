@@ -3,7 +3,6 @@ type translataionContainer ={
         [key:string]: string;
     };
 };
-
 const indexTrans: translataionContainer = {
     // localization button in login page
     langs: {
