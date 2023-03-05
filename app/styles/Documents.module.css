@@ -6,3 +6,29 @@
     padding: 0.8rem 1.5rem 0.8rem ;
     border: none;
   }
+  .filterButton{
+    padding: 0.4rem 1rem 0.5rem ;
+    border: none;
+    color: black;
+    background: #eee;
+  }
+  .fileDownloader{
+    background: rgb(9,216,231);
+    background: linear-gradient(90deg, rgba(9,216,231,0.3686815790769433) 0%, rgba(5,222,237,0.22302331577162116) 50%, rgba(8,227,242,0.24823339980523462) 100%);    border-radius: 0.5rem;
+    padding: 0rem;
+  }
+  .accreditationType{
+    display: block;
+    line-height: 1.8rem;
+  }
+  .changeLog{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: solid 1px #ccc;
+  }
+  .accordionItemHead{
+    background: #b2e2f79d;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  
