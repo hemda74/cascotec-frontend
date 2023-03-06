@@ -22,37 +22,20 @@ const News = () => {
    <div className="row gy-5 gx-lg-5">
      <div className={`col-lg-12 ${styles.contactCard}`}>
        <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
-           <p>25  Upcoming Course </p>
-         <div className="row">
-           <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6  form-group  ${styles.formGroup}`}>
-             <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
-           </div>
-           <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group   ${styles.formGroup}`}>
+         <div className="row justify-content-between">
+         <div className={` d-flex col-md-4 col-lg-4 col-sm-6 col-xs-6 col-xl-2 form-group   ${styles.formGroup}`}>
+         <label className='mt-1 me-1 ms-1'><small>Sortedby:</small></label>      
                <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
-                   <option>Select All</option>
-                   <option>Testing Lap</option>
-                   <option>Calibration Lab</option>
-                   <option>Medical Lab</option>
-                   <option>Mangment System Cetifcation</option>
-                   <option>Halal Product Certification</option>
-                   <option>Inspection Body</option>
-                   <option>Prof Testing Provider</option>
-                   <option>Product Certification</option>
-                   <option>Personnel Certification Body</option>
-                   <option>Reference Material Producer</option>
+                   <option>Most Recent</option>
+                   <option>Title</option>
                </select>
              </div>
-           <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group  ${styles.formGroup}`}>
-               <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
-                   <option>Upcoming Trainings</option>
-                   <option>Pervious Trainings</option>
-               </select>                
-             </div>
-
+           <div className={`col-md-4 col-lg-2 col-xl-2 col-sm-6 col-xs-6  form-group  ${styles.formGroup}`}>
+             <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
+           </div>
              <div className={`form-group d-flex justify-content-between mt-4 ${styles.formGroup}`}>
                <div className='col-md-4 col-lg-4 col-sm-6 col-xs-6'>
                </div>
-               <div><button className={` myInfo  rounded ${styles.SearchButton}`} type="submit"> Search </button></div>
              </div>
              </div>
        </form>
@@ -64,111 +47,111 @@ const News = () => {
            <div className="col-lg-4 p-3" >
                <div className={`${styles.postBox}`}>
                    <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>                        
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>                
                </div>
            </div>
            <div className="col-lg-4 p-3" >
                <div className={`${styles.postBox}`}>
-                   <div className={`${styles.postImage}`}><Image src={newsthree} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>                      
+                   <div className={`${styles.postImage}`}><Image src={newsthree} className="img-fluid" alt=""/></div> 
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>               
                </div>
            </div>
            <div className="col-lg-4 p-3" >
                <div className={`${styles.postBox}`}>
-                   <div className={`${styles.postImage}`}><Image src={newstwo} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>                       
+                   <div className={`${styles.postImage}`}><Image src={newstwo} className="img-fluid" alt=""/></div>   
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>                     
                </div>
            </div>
            <div className="col-lg-4 p-3" >
                <div className={`${styles.postBox}`}>
-                   <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>                      
-               </div>
-           </div>
-           <div className="col-lg-4 p-3" >
-               <div className={`${styles.postBox}`}>
-                   <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>
-               </div>
-           </div>
-           <div className="col-lg-4 p-3" >
-               <div className={`${styles.postBox}`}>
-                   <div className={`${styles.postImage}`}><Image src={newsthree} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>
-               </div>
-           </div>
-           <div className="col-lg-4 p-3" >
-               <div className={`${styles.postBox}`}>
-                   <div className={`${styles.postImage}`}><Image src={newstwo} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>                        
+                   <div className={`${styles.postImage}`}><Image src={newsone}  className="img-fluid" alt=""/></div>                
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
                </div>
            </div>
            <div className="col-lg-4 p-3" >
                <div className={`${styles.postBox}`}>
                    <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>                      
-               </div>
-           </div>
-           <div className="col-lg-4 p-3" >
-               <div className={`${styles.postBox}`}>
-                   <div className={`${styles.postImage}`}><Image src={newstwo} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>                       
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
                </div>
            </div>
            <div className="col-lg-4 p-3" >
                <div className={`${styles.postBox}`}>
                    <div className={`${styles.postImage}`}><Image src={newsthree} className="img-fluid" alt=""/></div>
-                   <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                   <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
-                   <figcaption className={`${styles.figCaption}`}>
-                       <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
-                   </figcaption>
-                   </figure>                        
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
+               </div>
+           </div>
+           <div className="col-lg-4 p-3" >
+               <div className={`${styles.postBox}`}>
+                   <div className={`${styles.postImage}`}><Image src={newstwo} className="img-fluid" alt=""/></div> 
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>                         
+               </div>
+           </div>
+           <div className="col-lg-4 p-3" >
+               <div className={`${styles.postBox}`}>
+                   <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/></div>                   
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
+               </div>
+           </div>
+           <div className="col-lg-4 p-3" >
+               <div className={`${styles.postBox}`}>
+                   <div className={`${styles.postImage}`}><Image src={newstwo} className="img-fluid" alt=""/></div>                    
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
+               </div>
+           </div>
+           <div className="col-lg-4 p-3" >
+               <div className={`${styles.postBox}`}>
+                   <div className={`${styles.postImage}`}><Image src={newsthree} className="img-fluid" alt=""/></div>                      
+                   <div className="meta">
+                <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
+              </div>   
+              <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
+              <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
+              <Link href={'/news/bolg-post-images'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
                </div>
            </div>
        </div>
