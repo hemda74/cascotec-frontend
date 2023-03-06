@@ -76,19 +76,19 @@ const NavBar = () => {
                     </a>
                     <ul className={`dropdown-menu ${styles.ulDropDown2}`} aria-labelledby="navbarDropdown">
                         <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/media-center/News'}  className={`nav-link  ${styles.navLink}`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="NewsNav">News</p></a></Link>
+                            <Link href={'/news'}  className={`nav-link  ${styles.navLink}`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="NewsNav">News</p></a></Link>
                         </li>
                         <li className={`nav-item  ${styles.navItem}`}>
-                            <Link href={'/media-center/gallery'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="GalleryNav">Gallery</p></a></Link>
+                            <Link href={'/gallery'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="GalleryNav">Gallery</p></a></Link>
                         </li>
                         <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/media-center/educational-booklets'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="EducationalBookletsNav">Educational Booklets</p></a></Link>
+                            <Link href={'/educational-booklets'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="EducationalBookletsNav">Educational Booklets</p></a></Link>
                         </li>
                         <li className={`nav-item  ${styles.navItem}`}>
-                            <Link href={'/media-center/visual-presentations'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="VisualPresentationsNav">Visual Presentations</p></a></Link>
+                            <Link href={'/visual-presentations'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="VisualPresentationsNav">Visual Presentations</p></a></Link>
                         </li>
                         <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/media-center/events'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink}`} data-trans="EventsNav">Events</p></a></Link>
+                            <Link href={'/events'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink}`} data-trans="EventsNav">Events</p></a></Link>
                         </li>
                     </ul>
                 </li>  

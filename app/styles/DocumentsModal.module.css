@@ -1,0 +1,50 @@
+/* Edit Site Discard changes  Modal style sheet */
+.modalWidth { 
+   position: relative;
+    width: auto;
+    max-width: 30rem;
+}
+.itemDownload{
+    padding:0.5rem 2rem 0.1rem;
+    border-radius: 0.8rem;
+    width: 91%;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: solid 1px #ccc;
+}
+.iconColor{
+color: #19afef;
+}
+
+.iconContainer {
+     margin-top: 1.625rem; 
+    margin-bottom: 0rem;
+    width: 8.654rem;
+    height: 8.654rem;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+.headerContainer {
+    margin-top: 2.625rem;
+    color: #306778;
+}
+.btnContainer {
+    width: 17.375rem;
+    height: 3.25rem;
+}
+.imageConutry{
+    margin-top: 1rem;
+    padding: 0.3rem 0.5rem;
+    background: #dbe7ec;
+    border-radius:2rem ;
+}
+@media (max-width: 480px) {
+    /* .modalWidth {
+      width: 15rem;
+    } */
+  }
+  
