@@ -73,7 +73,7 @@ const NewsDetails = () => {
                 <div className='mt-5 mb-5'>
                     <p className='fs-5'>Related Photos</p>
                     <div className="row mx-0">				
-                                                        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
+                    <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
                     <div className="card_gallery shadow_none gallery">
                         <Image className='rounded' src={nd2} alt="image 1"/>
                     </div>

@@ -1,0 +1,214 @@
+/* Contact Section*/
+.titleWord{
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+  }
+  .accreditationThumbnail{
+    background: #f9f9f9;
+    padding: 5rem;
+    margin-left: 3rem;
+    border-radius: 2rem;
+    margin-right: 3rem;
+  }
+  .accreditationThumbnail2{
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  .accreditationThumbnail2div{
+    margin-left: -6rem;
+    margin-right: -6rem;
+  }
+  .btnContainer{
+    padding: 1rem;
+    background: #0b8bd0;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 1rem;
+  }
+/* Contact Section*/
+.titleWord{
+  margin-top: -10rem;
+  margin-bottom: 10rem;
+}
+.coursesCard
+{
+  box-shadow: 0px 30px 30px -20px #8787b2;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  background: #ffff;
+  display: flex;
+  margin-top: -8rem;
+}
+.coursesHead{
+ margin-top: auto;
+ margin-bottom: auto;
+ text-align: end;
+ margin-left: 2rem;
+ margin-right: 2rem;
+}
+.cardSubTitle{
+  color: rgb(7, 142, 215);
+}
+.cardImage{
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+.searchCard{
+  border-radius: 1rem;
+}
+.SearchButton{
+  padding: 0.8rem 1.5rem 0.8rem ;
+  border: none;
+}
+.formConatiner{
+  margin-top:5rem;
+}
+/* plog postes */
+.postBox {
+transition: 0.3s;
+height: 100%;
+overflow: hidden;
+position: relative;
+display: flex;
+padding: 0.4rem;
+background: #f9f9f9;
+flex-direction: column;
+}
+
+.postImage {
+overflow: hidden;
+width: 100%;
+position: relative;
+border-radius: 10px;
+}
+.postTitle {
+font-size: 24px;
+color: #0b8bd0;
+font-weight: 700;
+margin: 15px 0 0 0;
+position: relative;
+transition: 0.3s;
+}
+.iconDate{
+margin-top: 0.5rem;
+color: var(--color-secondary);
+}
+
+.recent-blog-posts .post-box p {
+margin: 15px 0 0 0;
+color: rgba(var(--color-secondary-dark-rgb), 0.7);
+}
+
+.recent-blog-posts .post-box .readmore {
+display: flex;
+align-items: center;
+font-weight: 600;
+line-height: 1;
+transition: 0.3s;
+margin-top: 15px;
+}
+
+.recent-blog-posts .post-box .readmore i {
+line-height: 0;
+margin-left: 4px;
+font-size: 18px;
+}
+
+.spanReadMore{
+  color:#0b8bd0;
+}
+
+@media (max-width: 480px)
+{
+  .coursesCard{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardImage{
+    margin: 0;
+  }
+  .coursesHead{
+    text-align: center;
+}
+}
+
+/*///////////////////*/
+ .memberImg {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .team .team-member .social {
+    position: absolute;
+    left: 0;
+    top: -18px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team .team-member .social a {
+    transition: color 0.3s;
+    color: var(--color-white);
+    background: var(--color-primary);
+    margin: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  .team .team-member .social a i {
+    line-height: 0;
+    font-size: 16px;
+  }
+  
+  .team .team-member .social a:hover {
+    background: var(--color-primary-light);
+  }
+  
+  .team .team-member .social i {
+    font-size: 18px;
+    margin: 0 2px;
+  }
+  
+  .memberInfo {
+    padding: 30px 15px;
+    text-align: center;
+    box-shadow: 0px 2px 15px rgba(var(--color-black-rgb), 0.1);
+    background: var(--color-white);
+    margin: -8rem 20px 0 20px;
+    position: relative;
+    border-radius: 8px;
+  }
+  
+  .teamMember .memberInfo h4 {
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: var(--color-secondary);
+  }
+  
+  .teamMember span {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-gray);
+  }
+  
+  .teamMember .memberInfo p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--color-gray);
+  }
+  
+  
