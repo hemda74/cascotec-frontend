@@ -1,0 +1,26 @@
+.mainDiv{
+    margin-bottom: 22%;
+}
+.navCont{
+    background: #a0b7c576;
+}
+.navCont2{
+    margin-top: 2rem;
+    border-top: solid 2px #0b9df8 ;
+    border-bottom: solid 2px #0b9df8 ;
+}
+.liIcons{
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    background: #bbe4fe;
+}
+.iconsHolders{
+    color: #0075be;
+}
+.mainImage{
+    border-radius: 1.1111111111rem;
+    width: 10%;
+    margin: auto !important;
+    box-shadow: 0 0.3333333333rem 2.2222222222rem rgb(0 0 0 / 16%);
+    margin: 2.7777777778rem 0;
+}

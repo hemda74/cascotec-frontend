@@ -1,8 +1,8 @@
 import React, { ReactElement } from 'react'
 import Head from 'next/head';
-import ViewerLayout from '../layouts/ViewerLayout';
-import { NextPageWithLayout } from './_app';
-import Gallery from '../components/Gallery';
+import ViewerLayout from '../../layouts/ViewerLayout';
+import { NextPageWithLayout } from '../_app';
+import Gallery from '../../components/Gallery';
 type Props = {};
 // dymmy data for ui till handle working with api
 const gallery:NextPageWithLayout = (props:Props) => {

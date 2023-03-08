@@ -5,7 +5,6 @@ import Link from 'next/link'
 import gone from '../public/imagess/newsone.jpg'
 import gtwo from '../public/imagess/newstwo.jpg'
 import gthree from '../public/imagess/newsthree.jpg'
-import g4 from '../public/imagess/g4.jpg'
 import g5 from '../public/imagess/g5.jpg'
 const Gallery = () => {
   return (
@@ -47,61 +46,69 @@ const Gallery = () => {
    <section id="team" className="team">
       <div className="container">
         <div className="row gy-5">
-
-
           <div className="col-xl-4 col-md-6 d-flex" >
             <div className={`${styles.teamMember}`}>
               <div className={`${styles.memberImg}`}>
                 <Image src={gtwo} className="img-fluid" alt=""/>
               </div>
+              <Link href={'gallery/id'}>
               <div className={`${styles.memberInfo}`}>
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+              <span className=' fw-bold'>The 2nd GCC Conference for Laboratory Proficiency</span>
+                <small>31 jan,2023</small>
               </div>
+              </Link>
             </div>
           </div>
           <div className="col-xl-4 col-md-6 d-flex" >
             <div className={`${styles.teamMember}`}>
               <div className={`${styles.memberImg}`}>
-                <Image src={gtwo} className="img-fluid" alt=""/>
+                <Image src={gone} className="img-fluid" alt=""/>
               </div>
+              <Link href={'gallery/id'}>
               <div className={`${styles.memberInfo}`}>
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+              <span className=' fw-bold'>The 2nd GCC Conference for Laboratory Proficiency</span>
+                <small>31 jan,2023</small>
               </div>
+              </Link>
             </div>
           </div>
           <div className="col-xl-4 col-md-6 d-flex" >
             <div className={`${styles.teamMember}`}>
               <div className={`${styles.memberImg}`}>
-                <Image src={gtwo} className="img-fluid" alt=""/>
+                <Image src={gthree} className="img-fluid" alt=""/>
               </div>
+              <Link href={'gallery/id'}>
               <div className={`${styles.memberInfo}`}>
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+              <span className=' fw-bold'>The 2nd GCC Conference for Laboratory Proficiency</span>
+                <small>31 jan,2023</small>
               </div>
+              </Link>
             </div>
           </div>
           <div className="col-xl-4 col-md-6 d-flex" >
             <div className={`${styles.teamMember}`}>
               <div className={`${styles.memberImg}`}>
-                <Image src={gtwo} className="img-fluid" alt=""/>
+                <Image src={gthree} className="img-fluid" alt=""/>
               </div>
+              <Link href={'gallery/id'}>
               <div className={`${styles.memberInfo}`}>
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+              <span className=' fw-bold'>The 2nd GCC Conference for Laboratory Proficiency</span>
+                <small>31 jan,2023</small>
               </div>
+              </Link>
             </div>
           </div>
           <div className="col-xl-4 col-md-6 d-flex" >
             <div className={`${styles.teamMember}`}>
               <div className={`${styles.memberImg}`}>
-                <Image src={gtwo} className="img-fluid" alt=""/>
+                <Image src={g5} className="img-fluid" alt=""/>
               </div>
+              <Link href={'gallery/id'}>
               <div className={`${styles.memberInfo}`}>
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+              <span className=' fw-bold'>The 2nd GCC Conference for Laboratory Proficiency</span>
+                <small>31 jan,2023</small>
               </div>
+              </Link>
             </div>
           </div>
           </div>
