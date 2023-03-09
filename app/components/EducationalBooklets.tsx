@@ -20,7 +20,7 @@ return(
                           <p>1 Educational booklets</p>
                       </div>
                       <div className={`col-md-4 col-lg-2 col-sm-6 col-xs-6  form-group  ${styles.formGroup}`}>
-                          <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Your Name" required/>
+                          <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
                       </div>
                   </div>
               </form>
@@ -39,7 +39,7 @@ return(
                                         <p className="title">Why use an Accredited Laboratory? </p>
                                         <small className="text-black-50">25 May, 2022</small>
                                     </div>
-                                    <a href='/HPC 0069.pdf' className='' download>
+                                    <a href='/HPC 0069.pdf'  download>
                               <div className={`${styles.fileDownloader}`}>
                                 <div className="inner_file_downloader mt-5 d-flex p-2 ">
                                   <div className={ ` ms-3 me-3 ${styles.iconHolder}`}>
@@ -51,7 +51,7 @@ return(
                                 </div>
                               </div>
                             </a>
-                                </div>
+                          </div>
                             </div>
             </div>
         </div>
