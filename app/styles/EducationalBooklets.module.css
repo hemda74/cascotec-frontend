@@ -1,0 +1,43 @@
+/* Contact Section*/
+.titleWord{
+    margin-top: -10rem;
+    margin-bottom: 10rem;
+}
+  .coursesHead{
+   margin-top: auto;
+   margin-bottom: auto;
+   text-align: end;
+   margin-left: 2rem;
+   margin-right: 2rem;
+  }
+  .cardSubTitle{
+    color: rgb(7, 142, 215);
+  }
+  .cardImage{
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+  .searchCard{
+    border-radius: 1rem;
+    padding: 2rem 3rem 2rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+  }
+  .SearchButton{
+    padding: 0.8rem 1.5rem 0.8rem ;
+    border: none;
+  }
+  .formConatiner{
+    margin-top:5rem;
+  }
+  .fileDownloader{
+    background: rgb(9,216,231);
+    background: linear-gradient(90deg, rgba(9,216,231,0.3686815790769433) 0%, rgba(5,222,237,0.22302331577162116) 50%, rgba(8,227,242,0.24823339980523462) 100%);    border-radius: 0.5rem;
+    padding: 0rem;
+  }
+  .eduBooklet{
+    background: #ffff;
+    border-radius: 1rem;
+    box-shadow: 0px 20px 30px -20px #8787b2;
+    padding: 2rem;
+  }
