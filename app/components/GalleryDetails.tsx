@@ -1,16 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
-import nd1 from '../public/imagess/nd1.jpg'
 import nd2 from '../public/imagess/nd2.jpg'
 import nd3 from '../public/imagess/nd3.jpg'
 import styles from '../styles/GalleryDetails.module.css'
-import {BsFacebook,BsTwitter,BsLinkedin} from 'react-icons/bs';
-import {CgCalendarDates} from 'react-icons/cg'
+import Footer from './Footer';
+
 const NewsDetails = () => {
   return (
     <>
-        <div className={`vh-100 ${styles.mainDiv}`}>
+    <div className={`vh-100 ${styles.mainCont}`}>   
+         <div className={` ${styles.mainDiv}`}>
             <nav className={`navbar navbar-expand-lg ${styles.navCont}`}>
                 <div className={`container `}>
                     <a className="navbar-brand" href="#">Album details</a>
@@ -38,31 +38,55 @@ const NewsDetails = () => {
             </nav>
             <div className="container mt-4">
                <span className='fs-3 mt-3 fw-bold'>The Gulf Accreditation Center concluded its participation in Expo 2020 Dubai</span> 
-                <div className={`mt-4`}>
-                    <Image src={nd1} className={`rounded ${styles.mainImage} `} alt="The Gulf Accreditation Center concluded its participation in Expo 2020 Dubai"/>
-                <p className='mt-5'>The Gulf Accreditation Center concluded its participation in Expo2020 Dubai, in the Pavilion of the Cooperation Council for the Arab States of the Gulf, with the establishment of the second accreditation bureau and a symposium on the role of accreditation in water quality and sustainability of water resources, in the presence of a number of people interested in conformity and quality affairs.</p>
-                </div>
                 <div className='mt-5 mb-5'>
-                    <p className='fs-5'>Related Photos</p>
                     <div className="row mx-0">				
-                    <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                     <div className="card_gallery shadow_none gallery">
                         <Image className='rounded' src={nd2} alt="image 1"/>
                     </div>
-                </div>
-                    <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
-                    <div className="card_gallery shadow_none gallery">
-                        <Image src={nd3} className='rounded' alt="image 2"/>
                     </div>
-                </div>
-                                                        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
-                    <div className="card_gallery shadow_none gallery">
-                        <Image className='rounded' src={nd2} alt="image 3"/>
+                        <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                        <div className="card_gallery shadow_none gallery">
+                            <Image src={nd3} className='rounded' alt="image 2"/>
+                        </div>
                     </div>
-                </div>
+                        <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                        <div className="card_gallery shadow_none gallery">
+                            <Image className='rounded' src={nd2} alt="image 3"/>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                    <div className="card_gallery shadow_none gallery">
+                        <Image className='rounded' src={nd2} alt="image 1"/>
+                    </div>
+                    </div>
+                        <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                        <div className="card_gallery shadow_none gallery">
+                            <Image src={nd3} className='rounded' alt="image 2"/>
+                        </div>
+                    </div>
+                        <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                        <div className="card_gallery shadow_none gallery">
+                            <Image className='rounded' src={nd2} alt="image 3"/>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                    <div className="card_gallery shadow_none gallery">
+                        <Image className='rounded' src={nd2} alt="image 1"/>
+                    </div>
+                    </div>
+                        <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                        <div className="card_gallery shadow_none gallery">
+                            <Image src={nd3} className='rounded' alt="image 2"/>
+                        </div>
+                    </div>                    
                     </div>
                 </div>
             </div>
+            <div className={`${styles.footerStyle}`}>
+        <Footer/>
+        </div>
+        </div>
         </div>
     </>
   )

@@ -7,10 +7,12 @@ import nd3 from '../public/imagess/nd3.jpg'
 import styles from '../styles/NewsDetails.module.css'
 import {BsFacebook,BsTwitter,BsLinkedin} from 'react-icons/bs';
 import {CgCalendarDates} from 'react-icons/cg'
+import Footer from './Footer';
 const NewsDetails = () => {
   return (
     <>
-        <div className={`vh-100 ${styles.mainDiv}`}>
+        <div className={`vh-100 ${styles.mainCont}`}>   
+         <div className={` ${styles.mainDiv}`}>
             <nav className={`navbar navbar-expand-lg ${styles.navCont}`}>
                 <div className={`container `}>
                     <a className="navbar-brand" href="#">News details</a>
@@ -70,7 +72,7 @@ const NewsDetails = () => {
                     <Image src={nd1} className={`rounded ${styles.mainImage} `} alt="The Gulf Accreditation Center concluded its participation in Expo 2020 Dubai"/>
                 <p className='mt-5'>The Gulf Accreditation Center concluded its participation in Expo2020 Dubai, in the Pavilion of the Cooperation Council for the Arab States of the Gulf, with the establishment of the second accreditation bureau and a symposium on the role of accreditation in water quality and sustainability of water resources, in the presence of a number of people interested in conformity and quality affairs.</p>
                 </div>
-                <div className='mt-5 mb-5'>
+                <div className='mt-5 '>
                     <p className='fs-5'>Related Photos</p>
                     <div className="row mx-0">				
                     <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
@@ -88,10 +90,14 @@ const NewsDetails = () => {
                         <Image className='rounded' src={nd2} alt="image 3"/>
                     </div>
                 </div>
-                                                                            </div>
+                    </div>
                 </div>
             </div>
+       <div className={`${styles.footerStyle}`}>
+        <Footer/>
         </div>
+    </div>
+    </div>
     </>
   )
 }

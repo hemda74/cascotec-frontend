@@ -1,5 +1,7 @@
 .mainDiv{
-    margin-bottom: 22%;
+    padding-bottom:60px;   /* Height of the footer */
+    min-height:100%;
+    position:relative;
 }
 .navCont{
     background: #a0b7c576;
@@ -23,4 +25,10 @@
     margin: auto !important;
     box-shadow: 0 0.3333333333rem 2.2222222222rem rgb(0 0 0 / 16%);
     margin: 2.7777777778rem 0;
+}
+.footerStyle{
+    bottom: 0;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
