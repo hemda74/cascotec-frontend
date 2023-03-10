@@ -27,7 +27,7 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav m-auto ">
                 <li className={`nav-item ms-4 ${styles.navItem}`}>
-                    <Link href={'/'}  className={`nav-link`} id="link"><a><p className={`${styles.navLink}`} data-trans="HomeNav">Home</p></a></Link>
+                    <Link href={'/'}  className={`nav-link`} id="link"><a><span className={`${styles.navLink}`} data-trans="HomeNav">Home</span></a></Link>
                 </li> 
                 <li className={`nav-item dropdown ms-4 ${styles.navItem2} `}>
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -35,31 +35,28 @@ const NavBar = () => {
                     </a>
                     <ul className={`dropdown-menu ${styles.ulDropDown}  `} aria-labelledby="navbarDropdown">
                         <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/about'}  className={`nav-link  ${styles.navLink}`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="AboutUsNav">About Us</p></a></Link>
+                            <Link href={'/about'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="AboutUsNav">About Us</p></a></Link>
                         </li>
                         <li className={`nav-item  ${styles.navItem}`}>
-                            <Link href={'/about/board-of-directors'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
+                            <Link href={'/about/board-of-directors'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
                         </li>
                         <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/about/director-manger'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                            <Link href={'/about/director-manger'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
                         </li>
                         {/* commented till need  */}
                          <li className={`nav-item  ${styles.navItem}`}>
-                            <Link href={'/about/our-values'}  className={`nav-link `} id="link"><a  className='d-flex'><p className={`${styles.navLink}`}data-trans="OurValuesNav">Our Values</p></a></Link>
+                            <Link href={'/about/our-values'}  className={`nav-link `} id="link"><a  className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="OurValuesNav">Our Values</p></a></Link>
                         </li>
-                        {/*<li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/about/aboutestablishment-agreement'}  className={`nav-link `} id="link"><a><p className={`${styles.navLink}`}data-trans="CASCOEstablishmentAgreementNav">CASCO Establishment Agreement</p></a></Link>
-                        </li> */}
                         <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/about/rights-and-duties'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="CASCORightsAndDutiesNav">CASCO’s Rights And Duties</p></a></Link>
+                            <Link href={'/about/rights-and-duties'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="CASCORightsAndDutiesNav">CASCO’s Rights And Duties</p></a></Link>
                         </li>
                         <li className={`nav-item `}>
-                            <Link href={'/about/stakeholders-advisory-committee'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="StakeholdersAdvisoryCommitteeNav">Stakeholders Advisory Committee</p></a></Link>
+                            <Link href={'/about/stakeholders-advisory-committee'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="StakeholdersAdvisoryCommitteeNav">Stakeholders Advisory Committee</p></a></Link>
                         </li>
                     </ul>
                 </li>
                 <li className={`nav-item ms-4 ${styles.navItem}`}>
-                    <Link href={'/accredited-bodies'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="AccreditedBodiesNav">Accredited Bodies</p></a></Link>
+                    <Link href={'/accredited-bodies'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><span className={`${styles.navLink}`}data-trans="AccreditedBodiesNav">Accredited Bodies</span></a></Link>
                 </li>
                 <li className={`nav-item ms-4 ${styles.navItem}`}>
                     <Link href={'/services'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="ServicesNav">Services</p></a></Link>
