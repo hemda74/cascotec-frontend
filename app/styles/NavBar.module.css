@@ -3,11 +3,11 @@
     display: inline;
     font-weight: 500;
 }
-.navLink:hover{
-    color: #85CDFD;
+ .navItem:hover{
+    background: #85CDFD;
 }
 .navLink2:hover{
-    color: #85CDFD;
+    background: #85CDFD;
 }
 .searchIcon{
     color:  #85CDFD;

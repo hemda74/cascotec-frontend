@@ -5,7 +5,7 @@ import{GiShakingHands,GiRead} from 'react-icons/gi'
 import {FaRegAddressCard} from 'react-icons/fa'
 import {FcCheckmark} from 'react-icons/fc'
 import {RiBookmark3Line} from 'react-icons/ri'
-import logoobjective from '../public/imagess/logoobjective.png';
+import card_objective from '../public/imagess/card_objective.jpg';
 import gsoLogo from '../public/imagess/GSO-Logo-300x93.png';
 import {TfiCheck} from 'react-icons/tfi'
 const About = () => {
@@ -15,34 +15,30 @@ const About = () => {
             <h6 className="text-white fw-semibold mb-4" data-trans="routeAboutUs">{`Home > About CASCO > About Us`}</h6>
             <h2 className={`text-white fw-bold mb-5 `} data-trans="AboutUsTitle">About Us</h2>
           </div>
-        <div className={`row`} >
-            <div className="col-3">
-            </div>
-            <div className={`col-lg-6 `}>
+          <div className={`row`} >
+            <div className={`col-lg-8 m-auto `}>
                 <div className={` row ${styles.objectiveCard2}`} >
-                    <div className="col-1">
+                    <div className={`col-lg-6  ${styles.objImageDiv}`}>
+                        <Image src={card_objective} className={`${styles.objImage} `} alt=""/>
                     </div>
-                    <div className="col-lg-4">
-                        <Image src={logoobjective} className={` ${styles.cardImage} mb-3 `} alt=""/>
-                    </div>
-                    <div className={`col-lg-5  m-auto`}>
-                        <span className="card-title fs-4 fw-bold mt-3" data-trans='Ourobjective'>Our Objective</span> 
-                        <p className="card-text mt-3 fs-5" data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                    <div className={`col-lg-6 mt-5 me-3 ms-3 p-5 `}>
+                        <span className="card-title fs-4 fw-bold " data-trans='Ourobjective'>Our Objective</span> 
+                        <p className="card-text   " data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
                     </div>
                 </div>
             </div>
         </div>
         <div className="row mx-0 mt-5 d-flex justify-content-around align-items-center">
-            <div className="col-lg-3"></div>
-            <div className={`card-body col-xl-3 col-lg-3 col-md-6 col-sm-12 ${styles.visionCard}`}>
+            <div className="col-lg-2"></div>
+            <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12 ${styles.visionCard}`}>
                 <span className='fs-4 fw-bold' data-trans="OurVision">Our Vision</span>
-                <p className='mt-3 fs-5' data-trans='OurVisionP' >{`Creating a Safer World Together Committed to ensuring project integrity, managing risks, and maximizing client performance to build a better and safer world for all.`}</p>
+                <p className='mt-3 ' data-trans='OurVisionP' >{`Creating a Safer World Together Committed to ensuring project integrity, managing risks, and maximizing client performance to build a better and safer world for all.`}</p>
             </div>
-            <div className={`card-body col-xl-3 col-lg-3 col-md-6 col-sm-12 ${styles.visionCard}`}>
+            <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12 ${styles.visionCard}`}>
                 <span className='fs-4 fw-bold' data-trans="OurMission">Our Mission</span>
-                <p className='mt-3 fs-5'data-trans="OurMissionP" >{`Comprehensive Project Consultation Our expert team identifies, evaluates, and controls risks related to quality, health and safety, and the environment throughout the entire project life cycle.`}</p>
+                <p className='mt-3 'data-trans="OurMissionP" >{`Comprehensive Project Consultation Our expert team identifies, evaluates, and controls risks related to quality, health and safety, and the environment throughout the entire project life cycle.`}</p>
             </div>
-            <div className="col-lg-3"></div>
+            <div className="col-lg-2"></div>
         </div>
         {/* achivments section */}
         <div className={`${styles.ctA}`}>
@@ -92,7 +88,7 @@ const About = () => {
                 </div>
             </div>
       </div>
-      <div className="ethicsCasco ">
+      <div className="ethicsCasco">
       <div className="row mx-0 mt-5 d-flex justify-content-around align-items-center">
             <div className="col-lg-2"></div>
             <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12  ${styles.ethicCard}`}>

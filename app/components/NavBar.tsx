@@ -98,9 +98,7 @@ const NavBar = () => {
                     <AiOutlineSearch size={30}/>
                 </span>
                 <div className='me-3 ms-3'>
-                    
                     <LoginBtn />
-            
                 </div>
                     <LocalizationBtn/>
             </div>
