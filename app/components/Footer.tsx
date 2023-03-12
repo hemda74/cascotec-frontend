@@ -18,7 +18,7 @@ const Footer = () => {
                             width={220}
                             height={90}
                         />         
-                        <p className={`mt-4 text-black ms-3 me-3  ${styels.companybrief}`} data-trans="aboutCascoFooter">
+                        <p className={`mt-4 text-black ms-3 me-3   ${styels.companybrief}`} data-trans="aboutCascoFooter">
                         Trust in the Conformity Assessment Bodies
                         </p>
                     </div>
@@ -87,6 +87,6 @@ const Footer = () => {
         </div>
     </div>
 </footer>
-    )
+)
 }
 export default Footer;

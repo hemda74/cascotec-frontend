@@ -9,6 +9,11 @@ const indexTrans: translataionContainer = {
         en: 'ع',
         ar: 'E'
     },
+    //////////////< Titles >////////////////////
+    CASCOTitle:{
+        en:'CASCO',
+        ar:'كاسكو'
+    },
     // NavBar
     HomeNav:{
         en:"Home",

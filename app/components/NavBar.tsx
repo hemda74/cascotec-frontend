@@ -6,6 +6,7 @@ import Link from 'next/link';
 import {AiOutlineSearch} from 'react-icons/ai'
 import LocalizationBtn from './LocalizationBtn';
 import LoginBtn from './LoginBtn';
+import SearchModal from './SearchModal';
 const NavBar = () => {
   return (
     //design nav
@@ -34,24 +35,24 @@ const NavBar = () => {
                     <p className={`${styles.navLink2}`} data-trans="AboutCascoNav">About CASCO</p>
                     </a>
                     <ul className={`dropdown-menu ${styles.ulDropDown}  `} aria-labelledby="navbarDropdown">
-                        <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/about'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="AboutUsNav">About Us</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
+                            <Link href={'/about'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="AboutUsNav">About Us</p></a></Link>
                         </li>
-                        <li className={`nav-item  ${styles.navItem}`}>
-                            <Link href={'/about/board-of-directors'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
+                            <Link href={'/about/board-of-directors'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
                         </li>
-                        <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/about/director-manger'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
+                            <Link href={'/about/director-manger'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
                         </li>
                         {/* commented till need  */}
-                         <li className={`nav-item  ${styles.navItem}`}>
-                            <Link href={'/about/our-values'}  className={`nav-link `} id="link"><a  className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="OurValuesNav">Our Values</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
+                            <Link href={'/about/our-values'}  className={`nav-link `} id="link"><a  className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="OurValuesNav">Our Values</p></a></Link>
                         </li>
-                        <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/about/rights-and-duties'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="CASCORightsAndDutiesNav">CASCO’s Rights And Duties</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
+                            <Link href={'/about/rights-and-duties'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="CASCORightsAndDutiesNav">CASCO’s Rights And Duties</p></a></Link>
                         </li>
-                        <li className={`nav-item `}>
-                            <Link href={'/about/stakeholders-advisory-committee'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} me-2 ms-2`}data-trans="StakeholdersAdvisoryCommitteeNav">Stakeholders Advisory Committee</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
+                            <Link href={'/about/stakeholders-advisory-committee'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} d-inline me-4 ms-4 mt-2 mb-2`}data-trans="StakeholdersAdvisoryCommitteeNav">Stakeholders Advisory Committee</p></a></Link>
                         </li>
                     </ul>
                 </li>
@@ -67,25 +68,25 @@ const NavBar = () => {
                 <li className={`nav-item ms-4  ${styles.navItem}`}>
                     <Link href={'/documents'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a><p className={`${styles.navLink}`}data-trans="DocumentsNav">Documents</p></a></Link>
                 </li>
-                <li className={`nav-item dropdown ms-4 ${styles.navItem2} `}>
+                <li className={`nav-item dropdown ms-4 ${styles.navItem2}`}>
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <p className={`${styles.navLink2}`} data-trans="MediaCenterNav">Media Center</p>
                     </a>
                     <ul className={`dropdown-menu ${styles.ulDropDown2}`} aria-labelledby="navbarDropdown">
-                        <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/news'}  className={`nav-link  ${styles.navLink}`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="NewsNav">News</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} mt-2 ms-2 me-2`}>
+                            <Link href={'/news'}  className={`nav-link  ${styles.navLink}`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2 `}data-trans="NewsNav">News</p></a></Link>
                         </li>
-                        <li className={`nav-item  ${styles.navItem}`}>
-                            <Link href={'/gallery'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="GalleryNav">Gallery</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
+                            <Link href={'/gallery'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="GalleryNav">Gallery</p></a></Link>
                         </li>
-                        <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/educational-booklets'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="EducationalBookletsNav">Educational Booklets</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
+                            <Link href={'/educational-booklets'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} d-inline me-4 ms-4 mt-2 mb-2`}data-trans="EducationalBookletsNav">Educational Booklets</p></a></Link>
                         </li>
-                        <li className={`nav-item  ${styles.navItem}`}>
-                            <Link href={'/visual-presentations'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink}`}data-trans="VisualPresentationsNav">Visual Presentations</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
+                            <Link href={'/visual-presentations'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} d-inline me-4 ms-4 mt-2 mb-2`}data-trans="VisualPresentationsNav">Visual Presentations</p></a></Link>
                         </li>
-                        <li className={`nav-item   ${styles.navItem}`}>
-                            <Link href={'/events'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink}`} data-trans="EventsNav">Events</p></a></Link>
+                        <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2 mb-2`}>
+                            <Link href={'/events'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`} data-trans="EventsNav">Events</p></a></Link>
                         </li>
                     </ul>
                 </li>  
@@ -94,9 +95,13 @@ const NavBar = () => {
                 </li>        
             </ul>
             <div className="d-flex">
-                <span className={`${styles.searchIcon} me-3 ms-3 mt-3`}>
-                    <AiOutlineSearch size={30}/>
-                </span>
+                    <span className={`${styles.searchIcon} me-3 ms-3 mt-3`}>
+                    <a data-bs-toggle="modal"
+                data-bs-target="#SearchModal">
+                        <AiOutlineSearch size={33}/>
+                        </a>
+                    </span>
+            
                 <div className='me-3 ms-3'>
                     <LoginBtn />
                 </div>
@@ -105,6 +110,7 @@ const NavBar = () => {
         </div>
     </div>
  </nav>
+ <SearchModal/>
 </>
   );
 }

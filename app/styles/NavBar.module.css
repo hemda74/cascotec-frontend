@@ -3,14 +3,25 @@
     display: inline;
     font-weight: 500;
 }
+.navLink:hover{
+    color: #1086d5;
+}
+.navItemDropDown{
+    border-radius: 0.5rem;
+}
+.navItemDropDown:hover{
+    background: #8fcef8a4;
+    color: #047fd2;
+}
  .navItem:hover{
-    background: #85CDFD;
+    color: #85CDFD;
 }
 .navLink2:hover{
-    background: #85CDFD;
+    color: #0682d4;
 }
 .searchIcon{
-    color:  #85CDFD;
+    color: #0677c3; 
+    cursor: pointer;
 }
 .navItem{
     margin-top: 1rem;
@@ -25,7 +36,7 @@
 }
 .ulDropDown{
     z-index: 1000;
-    min-width: 17rem;
+    min-width: 20rem;
     padding: 0.5rem 0;
     margin: 0.125rem 0 0;
     font-size: 1rem;
@@ -35,18 +46,15 @@
 }
 .rtl .dropdown-menu-right { text-align: right; }
 .ulDropDown2{
-    min-width:12rem;
-    /* text-align: center; */
+    min-width:13rem;
 }
 @media (max-width: 978px) {
     .navItem{
         margin-top: 0;
-        
+        margin-bottom: 0.5rem;
     }
     .navItem2{
-        padding-left: 0.5rem;
-        margin-top: -.50rem;
-        margin-bottom: 0.4rem;
-        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
     }
 }

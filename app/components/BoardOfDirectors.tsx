@@ -20,7 +20,7 @@ const BoardOfDirectors = () => {
           <h2 className="text-white fw-bold mb-5" data-trans="BoardofDirectors">Board of Directors</h2>
           </div>
         <div className="row gy-5">
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex" >
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>
@@ -40,7 +40,7 @@ const BoardOfDirectors = () => {
                 </a>
             </Link>
           </div>
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex" >
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>
@@ -60,7 +60,7 @@ const BoardOfDirectors = () => {
                 </a>
             </Link>
           </div>
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex" >
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>
@@ -100,7 +100,7 @@ const BoardOfDirectors = () => {
                 </a>
             </Link>
           </div>
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex" >
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>
@@ -120,7 +120,7 @@ const BoardOfDirectors = () => {
                 </a>
             </Link>
           </div>
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex" >
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>
@@ -140,7 +140,7 @@ const BoardOfDirectors = () => {
                 </a>
             </Link>
           </div>
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex" >
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>
@@ -160,7 +160,7 @@ const BoardOfDirectors = () => {
                 </a>
             </Link>
           </div>
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex" >
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>
@@ -180,7 +180,7 @@ const BoardOfDirectors = () => {
                 </a>
             </Link>
           </div>
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex" >
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>
@@ -200,7 +200,7 @@ const BoardOfDirectors = () => {
                 </a>
             </Link>
           </div>
-          <div className="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+          <div className="col-xl-4 col-md-6 d-flex" >
               <Link href={`https://www.linkedin.com/in/ahmed-hemdan-695408201/`} target="_blank" rel="noreferrer">
                 <a>
                     <div className={`${styles.teamMember2}`}>

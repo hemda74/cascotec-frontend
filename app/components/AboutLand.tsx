@@ -1,11 +1,11 @@
 import React from 'react'
-
 import  styles  from '../styles/AboutLand.module.css'
 import about from '../public/imagess/about.png'
 import Image from 'next/image'
 import Link from 'next/link'
 const AboutLand = () => {
   return (
+    <>
     <div className="container">
         <div className={`row justify-content-center `}>   
             <div className={`col-sm-12 col-xl-8 col-md-8 ${styles.aboutHolder}`}>
@@ -34,6 +34,7 @@ const AboutLand = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

@@ -1,8 +1,9 @@
 /* Edit Site Discard changes  Modal style sheet */
-.modalWidth {
+.modalWidth { 
     position: relative;
     width: auto;
-    max-width: 35rem;
+    max-width: 100%;
+    padding:  10rem;
 }
 .itemDownload{
     padding:0.5rem 2rem 0.1rem;
@@ -41,6 +42,13 @@ color: #19afef;
     padding: 0.3rem 0.5rem;
     background: #dbe7ec;
     border-radius:2rem ;
+}
+.searchInput{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 25rem;
+    height: 3rem;
 }
 @media (max-width: 480px) {
     /* .modalWidth {
