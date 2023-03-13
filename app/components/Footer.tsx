@@ -61,7 +61,7 @@ const Footer = () => {
                                 </div>
                             <div className={` mt-2 ${styels.iconsSocial}`}>
                                 <a href="https://twitter.com/AhmedHemdan72"  target="_blank" rel="noreferrer" className={` me-3 ms-3 ${styels.footerA}`}>< BsTwitter size={15}/></a> 
-                                <a href="https://www.facebook.com/profile.php?id=100009361588650" target="_blank" rel="noreferrer" className={`me-3 ms-3 ${styels.footerA}`}>< BsFacebook size={14}/></a>
+                                <a href="https://www.facebook.com/profile.php?id=100009361588650" target="_blank" rel="noreferrer" className={`me-3 ms-3 ${styels.footerA}`}>< BsFacebook size={15}/></a>
                                 <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820'  target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsLinkedin size={14}/></a>
                                 <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820' target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsInstagram size={14}/></a>
                                 <a href="https://github.com/hemda74" target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsYoutube size={16}/></a> 
