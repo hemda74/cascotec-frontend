@@ -3,18 +3,14 @@
     margin-top: -10rem;
     margin-bottom: 10rem;
   }
+  .spanHead{
+    color: var(--color-primary);
+  }
    .visionCard{
     margin-top: 1.3rem;
     margin-left: 2rem;
     margin-right: 2rem;
   } 
-/*   
-   .sectionHead{
-    /* max-width: 30rem; */
-    /* background: url("../public/imagess/logoobjective2.png") no-repeat ;
-    background-size:cover;
-  } 
-   */
   .ctA {
     margin-top: 3rem;
     background: linear-gradient(rgba(122, 163, 210, 0.9), rgba(29, 94, 205, 0.9));
