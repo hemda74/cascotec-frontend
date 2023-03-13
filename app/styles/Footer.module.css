@@ -6,21 +6,24 @@
     color: #000 !important;
     font-size: 1rem;
     font-weight: 500;
+    padding: 0;
     color: #666d78;
 }
 .footerA{
-    font-size: 1rem;
-    font-weight: 600;
-    color: #666d78;
+    background: #a6c1f6;
+    padding: 0.2rem 0.4rem 0.2rem;
+    border-radius: 0.5rem;
+    color: #1a63d7 ;
 }
 .footerA:hover{
-    color: #1a63d7 !important;
+    color: #FFF !important;
 }
 .footerAhmed1{
     color: #555;
     font-size: 1rem;
     font-weight: 600;
     color: #666d78;
+   flex-wrap: wrap;
 }
 .footerAhmed{
     color: #555;
@@ -44,4 +47,22 @@
 .subsIcon{
     color: #082149 !important;
     cursor: pointer;
+    border: none;
+    border-radius: 0;
+}
+.emailInput{
+    border-radius: 0;
+}
+.iconsSocial{
+    display: inline-flex;
+}
+.copyRightsDiv{
+    margin: auto;
+}
+@media (max-width: 480px){
+.copyRightsDiv
+{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 }

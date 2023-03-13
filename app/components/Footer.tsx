@@ -4,13 +4,14 @@ import Link from 'next/link';
 import styels from '../styles/Footer.module.css'
 import logo from '../public/logo.png'
 import {BsFacebook,BsTwitter,BsLinkedin,BsFillArrowUpRightCircleFill, BsYoutube, BsInstagram} from 'react-icons/bs';
+import { icons } from 'react-icons/lib';
 // footer Component design
 const Footer = () => {
   return (
     <footer>
         <div className={`container-fluied mt-3 pt-5 pb-5  ${styels.footerCont}`}>
             <div className="row d-flex justify-content-center ms-2 me-2">
-                <div className="col-md-6 col-lg-2 ms-3 me-3  ">
+                <div className="col-md-6 col-lg-3   ">
                     <div className="info">
                         <Image
                             alt="trash icon"
@@ -18,52 +19,52 @@ const Footer = () => {
                             width={220}
                             height={90}
                         />         
-                        <p className={`mt-4 text-black ms-3 me-3   ${styels.companybrief}`} data-trans="aboutCascoFooter">
+                        <small className={`mt-4 text-black  d-inline-block ${styels.companybrief}`} data-trans="aboutCascoFooter">
                         Trust in the Conformity Assessment Bodies
-                        </p>
-                    </div>
-                </div>
-                <div className="col-md-6 col-lg-1 pt-3">
-                                     {/* handel links for other routes */}
-                    <div className="links">
-                       <span className=" me-5 fs-5 fw-bold" data-trans="supportFooter">Support</span>
-                       <ul className="list-unstyled ln-lg mt-3">
-                            <li><Link href="/contact-us" className={`nav-link fs-6`} id="link"><a className={`${styels.footerLink}`} data-trans="ContactUsFooter">Contact Us</a></Link></li>
-                        </ul>
+                        </small>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-2 pt-3">
+                                     {/* handel links for other routes */}
+                    <div className="links">
+                       <span className="  fs-6 fw-bold" data-trans="supportFooter">Support</span>
+                       <ul className="list-unstyled ln-lg p-0 mt-3">
+                            <li><Link href="/contact-us" className={`nav-link fs-6`} id="link"><a className={`${styels.footerLink}`} data-trans="ContactUsFooter"><small>Contact Us</small></a></Link></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="col-md-6 col-lg-3 pt-3">
                     {/* handel links for other pages */}
                     <div className="links ">
-                        <span className=" fs-5 me-5 fw-bold" data-trans="LinksFooter">Links</span>
-                        <ul className="list-unstyled ln-lg mt-3 ">
+                        <span className=" fs-5  fw-bold p-0 " data-trans="LinksFooter">Links</span>
+                        <ul className="list-unstyled ln-lg mt-3 p-0 ">
                             <li><Link className={`nav-link mt-2`}href={'/services'}><a className={`${styels.footerLink}`} data-trans="ServicesFooter">Services</a></Link></li>
-                            <li className='mt-2'><Link className={`nav-link `}href={'/accredited-bodies'}><a className={`${styels.footerLink}`}data-trans="AccreditedBodiesFooter">Accredited Bodies</a></Link></li>
-                            <li className='mt-2'><Link className={`nav-link`}href={'/courses'}><a className={`${styels.footerLink}`} data-trans="CoursesFooter">Courses</a></Link></li>
-                            <li className='mt-2'><Link className={`nav-link`}href={'documents'}><a className={`${styels.footerLink}`} data-trans="DocumentsFooter">Documents</a></Link></li>
+                            <li className='mt-2'><Link className={`nav-link `}href={'/accredited-bodies'}><a className={`${styels.footerLink}`}data-trans="AccreditedBodiesFooter"><small>Accredited Bodies</small></a></Link></li>
+                            <li className='mt-2'><Link className={`nav-link`}href={'/courses'}><a className={`${styels.footerLink}`} data-trans="CoursesFooter"><small>Courses</small></a></Link></li>
+                            <li className='mt-2'><Link className={`nav-link`}href={'documents'}><a className={`${styels.footerLink}`} data-trans="DocumentsFooter"><small> Documents</small></a></Link></li>
                         </ul>    
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-3 pt-2">
                     <div className="contact">
                         <div className="">
-                            <span className=" fw-bold fs-5" data-trans='NewsletterSubscriptionFooter'>
+                            <small className=" fw-bold fs-5" data-trans='NewsletterSubscriptionFooter'>
                             Newsletter Subscription
-                            </span>
-                            <p className="ln-lg mt-3 fw-semibold" data-trans='NewsletterSubscriptionFooterberif'>
-                            Join our mailing list and receive our latest updates, recent CABs, training programs and etc. straight to your inbox</p>
+                            </small>
+                            <small className="ln-lg mt-3 mb-3 fw-semibold d-inline-block" data-trans='NewsletterSubscriptionFooterberif'>
+                            Join our mailing list and receive our latest updates, recent CABs, training programs and etc. straight to your inbox</small>
                             <div className="form-group">
                                 <div className="form-group">
-                                    <div className="input-group mb-3">
-                                    <input type="email" className="form-control" aria-label="" placeholder='Your Email Adrress...'/>
-                                    <span className={`input-group-text ${styels.subsIcon}`}><BsFillArrowUpRightCircleFill/></span>
+                                    <div className="input-group mb-1">
+                                    <input type="email" className={`form-control ${styels.emailInput}`} aria-label="" placeholder='Your Email Adrress...'/>
+                                    <span className={`input-group-text  ${styels.subsIcon}`}><BsFillArrowUpRightCircleFill/></span>
                                 </div>
-                            <div className={`m-auto mt-2`}>
-                                <a href="https://twitter.com/AhmedHemdan72"  target="_blank" rel="noreferrer" className={` me-3 ms-3 ${styels.footerA}`}>< BsTwitter size={25}/></a> 
-                                <a href="https://www.facebook.com/profile.php?id=100009361588650" target="_blank" rel="noreferrer" className={`me-3 ms-3 ${styels.footerA}`}>< BsFacebook size={25}/></a>
-                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820'  target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsLinkedin size={25}/></a>
-                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820' target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsInstagram size={25}/></a>
-                                <a href="https://github.com/hemda74" target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsYoutube size={25}/></a> 
+                            <div className={` mt-2 ${styels.iconsSocial}`}>
+                                <a href="https://twitter.com/AhmedHemdan72"  target="_blank" rel="noreferrer" className={` me-3 ms-3 ${styels.footerA}`}>< BsTwitter size={15}/></a> 
+                                <a href="https://www.facebook.com/profile.php?id=100009361588650" target="_blank" rel="noreferrer" className={`me-3 ms-3 ${styels.footerA}`}>< BsFacebook size={14}/></a>
+                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820'  target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsLinkedin size={14}/></a>
+                                <a href='https://www.linkedin.com/in/ahmed-hemdan-69540820' target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsInstagram size={14}/></a>
+                                <a href="https://github.com/hemda74" target="_blank" rel="noreferrer" className={`me-3 ms-3  ${styels.footerA}`}> <BsYoutube size={16}/></a> 
                             </div>
                         </div>
                     </div>
@@ -71,17 +72,17 @@ const Footer = () => {
             </div>
         </div>
         <hr className='mt-3'/>
-            <div className={`mt-1  d-flex justify-content-center ${styels.footerAhmed1}`}>
-                    <div className='m-auto'>
-                        <span data-trans="CreatedByFooter">Created By</span> 
-                        <span >
-                            <a href="https://portoflio-six.vercel.app/" target="_blank" rel="noreferrer" className={`me-1 ms-1 ${styels.footerAhmed}` } data-trans="AhmedHemdan"><span>Ahmed Hemdan</span></a>
-                        </span>
-                    </div>
-                    <div className="copyright m-auto" >
+            <div className={`mt-1  d-flex justify-content-between ${styels.footerAhmed1}`}>
+            <p className={`  ${styels.copyRightsDiv}`}>
                         <span data-trans="CascoCopyright">&copy; Copyright 2023</span>
                          <span data-trans="CascoCopyrightAll" className='ms-1 me-1'>. All Rights Reserved</span>
                          <span className={`${styels.footerAhmed} me-2 ms-2 `} data-trans='Cascocopyright'>CASCO</span>
+                    </p>
+                    <div className={`  ${styels.copyRightsDiv}`}>
+                        <span data-trans="CreatedByFooter">Created By</span> 
+                        <span >
+                            <a href="https://portoflio-six.vercel.app/" target="_blank" rel="noreferrer" className={` ${styels.footerAhmed}`} data-trans="AhmedHemdan"><span>Ahmed Hemdan</span></a>
+                        </span>
                     </div>
             </div>
         </div>
