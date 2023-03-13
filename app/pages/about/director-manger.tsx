@@ -11,7 +11,7 @@ const directormanger:NextPageWithLayout = (props:Props) => {
   return (
     <>
     <Head>
-        <title>CASCO | Director Manger</title>
+        <title>CASCO | Director General</title>
     </Head>
     <DriectorGeneral/>
     </>

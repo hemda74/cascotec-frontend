@@ -33,11 +33,29 @@
 }
 .itemCheckTage{
   margin-bottom: 0.8333333333rem;
+  display: flex;
+  padding-right: 1.3333333333rem;
+  position: relative;
   font-size: .8888888889rem;
   font-weight: 400;
   color: #252e3e;
-  line-height: 2rem;
+  line-height: 1.6666666667rem;
+  margin-bottom: 0;
 }
+.itemCheckTage::after{
+  content: "";
+  position: absolute;
+  width: 0.6666666667rem;
+  height: 0.6666666667rem;
+  right: 0;
+  top: 0.5555555556rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.driectorGeneralText{
+  display: inline-flex !important;
+}
+
 @media (max-width: 978px) {
   .cardImage {
     padding:0;
