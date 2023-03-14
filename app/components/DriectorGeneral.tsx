@@ -17,9 +17,9 @@ const DriectorGeneral = (props:Props) => {
         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-3 mb-3">
             <Image src={metaeb}   className={` ${styles.cardImage} rounded `} alt=""/>
         </div>
-        <div className={`${styles.ethicCard3} col-lg-8 col-md-8 col-sm-12 mt-5 mb-3`}>
+        <div className={`${styles.ethicCard3} col-lg-7 col-md-8 col-sm-12 mt-5 mb-3`}>
             <span className='fs-4 fw-bold m-5 ' data-trans="Thedirectorgeneral1">The director general is responsible for:-</span>
-            <ul className='list-unstyled'>
+            <ul className='list-unstyled mt-3'>
                 <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
                     <FcCheckmark size={20} className=''/>
                     <span data-trans="Thedirectorgeneral2" className='me-4 ms-4 '>{`Ensuring appropriate representation at national, regional and international levels`}</span>
@@ -28,11 +28,11 @@ const DriectorGeneral = (props:Props) => {
                     <FcCheckmark size={20} className=''/>
                     <span data-trans="Thedirectorgeneral3" className='me-4 ms-4  '>{`Signing mutual recognition arrangements`}</span>
                 </li>
-                <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
+                <li className={`${styles.itemCheckTage} mt-2 mb-0 d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
-                    <p  className='ms-3 me-3 text-start '  data-trans="Thedirectorgeneral4">{`Supporting GAC presence in regional and international institutions in accordance with relevant laws and regulations, international standards and conventions`}</p>
+                    <p  className='ms-4 me-4 '  data-trans="Thedirectorgeneral4">{`Supporting GAC presence in regional and international institutions in accordance with relevant laws and regulations, international standards and conventions`}</p>
                 </li>
-                <li className={`${styles.itemCheckTage} d-flex`}>
+                <li className={`${styles.itemCheckTage} mt-0 d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
                     <span data-trans="Thedirectorgeneral5" className='me-4 ms-4 '>{`Develop relationships with stakeholders of accreditation activity`}</span>
                 </li>
@@ -40,17 +40,17 @@ const DriectorGeneral = (props:Props) => {
                     <p><FcCheckmark size={20} className=''/></p>
                     <span data-trans="Thedirectorgeneral6" className='me-4 ms-4'>{`Head of evaluation teams for the accreditation of laboratories, inspection bodies, Halal certification bodies, and product certification bodies`}</span>
                 </li>
-                <li className={`${styles.itemCheckTage} d-flex`}>
+                <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
-                    <span data-trans="Thedirectorgeneral7" className='me-4 ms-4 text-start '>{`A peer reviewer in each of the International Organization for Accreditation of Asia and the Pacific Countries (APAC) and the International Organization`}</span>
+                    <span data-trans="Thedirectorgeneral7" className='me-4 ms-4  '>{`A peer reviewer in each of the International Organization for Accreditation of Asia and the Pacific Countries (APAC) and the International Organization`}</span>
                 </li>
                 <li className={`${styles.itemCheckTage} d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
-                    <span data-trans="Thedirectorgeneral8" className='me-4 ms-4 text-stert '>{`Vice President of the Arab Regional Accreditation Agency (ARAC).`}</span>
+                    <span data-trans="Thedirectorgeneral8" className='me-4 ms-4 '>{`Vice President of the Arab Regional Accreditation Agency (ARAC).`}</span>
                 </li>
                 <li className={`${styles.itemCheckTage} d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
-                    <span data-trans="Thedirectorgeneral9" className='me-4 ms-4 text-start '>An international trainer and certification expert since 2015</span>
+                    <span data-trans="Thedirectorgeneral9" className='me-4 ms-4 '>{`An international trainer and certification expert since 2015`}</span>
                 </li>
             </ul>
         </div>
