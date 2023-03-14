@@ -12,7 +12,7 @@ const stakeholdersadvisorycommittee:NextPageWithLayout = (props:Props) => {
         <title>stakeholders advisory committee | CASCO</title>
     </Head>
     <main>
-      <StackHolders/>
+      <StackHolders />
     </main>
     </>
   )

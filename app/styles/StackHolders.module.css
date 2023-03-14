@@ -19,14 +19,36 @@
     color: #fff;
     width: 2rem;
     border-radius: 50%;
-  
   }
   .ctA {
-    margin-top: 3rem;
-    background: linear-gradient(rgba(122, 163, 210, 0.9), rgba(29, 94, 205, 0.9));
+    margin-top: 4rem;
+    background: linear-gradient(rgb(158, 200, 248), rgb(85, 144, 247));
     background-size: cover;
     padding: 120px 0;
+    margin-bottom: 3rem;
   }
+  .titleStackH{
+    color: #2a06f3;
+  }
+
+  .listGroupItem{
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+  }
+  /* .listGroupItem{
+    content: "";
+    width: 0.4444444444rem;
+    height: 0.4444444444rem;
+    border-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+    right: -1rem;
+    top: 0.5555555556rem;
+  } */
   .navLink{
     background: transparent;
     border: none;
