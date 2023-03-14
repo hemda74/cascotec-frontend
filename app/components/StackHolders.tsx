@@ -34,7 +34,7 @@ const StackHolders = () => {
                     </div>
                     <small className='pt-3' data-trans="Evaluatingtheplans">{`Evaluating the plans and programs proposed by the General Director of the CASCO Group and making recommendations accordingly.`}</small>
                 </div>
-                <div className="col-lg-2 col-md-6 col-sm-12 col-xs-12 d-block">
+                <div className="col-lg-2 col-md-6 col-sm-12 col-xs-12 d-block me-2 ms-0">
                     <div className={`${styles.itemOne}`}>
                         <div className={`${styles.biggerCircle}`}>
                         <span className={` ${styles.numbersCircle}`}>4</span>
@@ -79,7 +79,9 @@ const StackHolders = () => {
                                     <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative4">{`One representative of the GCC Standardization Organization`}</li>
                                     <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative5">{`One representative of the regional metrology organization GULFMET`}</li>
                                     <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative6">{`One representative from NGOs representing beneficiaries of conformity assessment activities`}</li>
-                                    <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative7">{`One representative of the General Direction of the GCC accreditation Center.`} </li>  </ul>       </div>
+                                    <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative7">{`One representative of the General Direction of the GCC accreditation Center.`} </li> 
+                                </ul>       
+                            </div>
                         </div>
                     </div>
                 </div>
