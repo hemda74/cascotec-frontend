@@ -30,7 +30,6 @@
   .titleStackH{
     color: #2a06f3;
   }
-
   .listGroupItem{
     background: none;
     border: none;
@@ -39,16 +38,6 @@
     margin: 0;
     text-align: start;
   }
-  /* .listGroupItem{
-    content: "";
-    width: 0.4444444444rem;
-    height: 0.4444444444rem;
-    border-radius: 100%;
-    background-color: #fff;
-    position: absolute;
-    right: -1rem;
-    top: 0.5555555556rem;
-  } */
   .navLink{
     background: transparent;
     border: none;
@@ -72,7 +61,7 @@
     text-align: start;
   }
   .listinnerContainer2{
-    width: 40%;
+    width: 50%;
     padding: 0;
   }
 }
