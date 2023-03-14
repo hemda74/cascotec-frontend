@@ -93,5 +93,4 @@ const StackHolders = () => {
 </>
   )
 }
-
 export default StackHolders
