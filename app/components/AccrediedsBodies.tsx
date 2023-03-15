@@ -3,6 +3,7 @@ import styles from '../styles/AccretiedBodies.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
 import image1 from '../public/images/accretied_bodies/first_images/8.jpg'
+import image2 from '../public/images/accretied_bodies/first_images/2.png'
 import oman from '../public/imagess/accretied flags/oman.png'
 import kuwait from '../public/imagess/accretied flags/kuwait.png'
 import bahreen from '../public/imagess/accretied flags/bahreen.png'
@@ -322,13 +323,189 @@ const AccretiedBodies = () => {
           </div>
         </div>
       </div>
-      <div className={`row gy-5 col-lg-8 container justify-content-center align-items-center m-auto ${styles.formConatiner}`}>
+      <div className={` gy-5 col-lg-8  container row  m-auto ${styles.cardsContianr} `}>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12" >
+          <a  data-bs-toggle="modal"
+                data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={image1}  alt="" className=" img-fluid"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
+                              <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
+                              <span className='text-white fs-6 d-block fw-semibold mt-1'>HPC 0069</span>
+                              <span  className="text-white">bahreen</span>
+                              <small className='d-block mt-1'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div>
           <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
           <a  data-bs-toggle="modal"
                 data-bs-target="#AccrediedsModal">
                     <div className={`${styles.teamMember2}`}>
                         <figure className={`${styles.teamMemberFigure}`}>
-                          <Image src={image1} height={1200} width={900} alt="" className=" img-fluid"/>
+                          <Image src={image1}  alt="" className=" img-fluid"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
+                              <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
+                              <span className='text-white fs-6 d-block fw-semibold mt-1'>HPC 0069</span>
+                              <span  className="text-white">bahreen</span>
+                              <small className='d-block mt-1'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={image1}  alt="" className=" img-fluid"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
+                              <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
+                              <span className='text-white fs-6 d-block fw-semibold mt-1'>HPC 0069</span>
+                              <span  className="text-white">bahreen</span>
+                              <small className='d-block mt-1'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={image1}  alt="" className=" img-fluid"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
+                              <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
+                              <span className='text-white fs-6 d-block fw-semibold mt-1'>HPC 0069</span>
+                              <span  className="text-white">bahreen</span>
+                              <small className='d-block mt-1'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={image2}  alt="" className=" img-fluid"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
+                              <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
+                              <span className='text-white fs-6 d-block fw-semibold mt-1'>HPC 0069</span>
+                              <span  className="text-white">bahreen</span>
+                              <small className='d-block mt-1'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div>
+          {/* <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex m-auto" >
+          <a  data-bs-toggle="modal"
+                data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={image1}  alt="" className=" img-fluid"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
+                              <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
+                              <span className='text-white fs-6 d-block fw-semibold mt-1'>HPC 0069</span>
+                              <span  className="text-white">bahreen</span>
+                              <small className='d-block mt-1'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div> */}
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={image1}  alt="" className=" img-fluid"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
+                              <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
+                              <span className='text-white fs-6 d-block fw-semibold mt-1'>HPC 0069</span>
+                              <span  className="text-white">bahreen</span>
+                              <small className='d-block mt-1'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={image1}  alt="" className=" img-fluid"/>
+                          <figcaption className={`${styles.figCaption}  d-flex `}>
+                            <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
+                              <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
+                              <span className='text-white fs-6 d-block fw-semibold mt-1'>HPC 0069</span>
+                              <span  className="text-white">bahreen</span>
+                              <small className='d-block mt-1'>Initial Accreditation Date </small><small>20 Feb 2023</small>
+                              <small className='d-block mt-1'>Expairy Date </small><small>20 Feb 2027</small>
+                            </div>
+                            <div className='d-flex justify-content-end'>
+                            <Image src={bahreen} alt="" className={`${styles.flagImage}`} />
+                            </div>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </a>
+          </div>
+          <div className="col-xl-3 col-md-6 col-sm-12 col-xs-12 d-flex" >
+          <a  data-bs-toggle="modal"
+                data-bs-target="#AccrediedsModal">
+                    <div className={`${styles.teamMember2}`}>
+                        <figure className={`${styles.teamMemberFigure}`}>
+                          <Image src={image1}  alt="" className=" img-fluid"/>
                           <figcaption className={`${styles.figCaption}  d-flex `}>
                             <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
                               <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
