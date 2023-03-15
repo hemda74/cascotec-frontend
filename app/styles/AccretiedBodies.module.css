@@ -25,16 +25,12 @@
   padding-bottom: 1rem;
   margin-top: -10.5rem;
 }
-/* third card */
-.teamMember2{
-  margin: 15px 0;
-  padding: 0;
-}
+
 .teamMemberFigure{
   position: relative;
   overflow: hidden;
-  width: 18rem;
-  height: 20rem;
+  width: 14rem;
+  height: 17rem;
   box-shadow: 0px 25px 25px -10px #8787b2;
   border-radius: 0.5rem;
   padding: 1rem 3rem 1rem;
@@ -76,9 +72,13 @@
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
+.accretiedCaption{
+z-index: -1;
+}
 .flagImage{
   vertical-align: middle;
   visibility: visible;
+  z-index: 999;
   color: #fff;
   background: rgba(98, 141, 222, 0.523);   
   z-index: -1;

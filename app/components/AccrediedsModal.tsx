@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from '../styles/AccredtiedBodiesModal.module.css';
 import WarningIcon from '../public/icons/warning-therid-icon.svg'
-import accrimage from'../public/imagess/accrimage2.png'
+// import accrimage from'../public/imagess/accrimage2.png'
 import uae from '../public/imagess/accretied flags/uae.png'
 import {AiFillEye, AiOutlineDownload} from 'react-icons/ai'
 type Props = {};
@@ -23,11 +23,11 @@ const AccrediedsModal = (props: Props) => {
             <div className="d-flex flex-column align-items-start col-sm-12">
               <div
                 className={`d-flex align-items-center  justify-content-start ${styles.iconContainer}`}>
-                <Image
+                {/* <Image
                   alt="Warning Icon"
                   src={accrimage}
                   className="me-2 mb-0 mt-0 ms-2"
-                />
+                /> */}
               </div>
               <p className="fs-5 me-2 ms-2 fw-semibold">Arab Shipbuilding and Repair Yard (ASRY)</p>
               <small className=' text-black-50 me-2 ms-2'>ACL 0021</small>
