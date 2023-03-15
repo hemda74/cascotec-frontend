@@ -18,15 +18,15 @@ const DriectorGeneral = (props:Props) => {
             <Image src={metaeb}   className={` ${styles.cardImage} rounded `} alt=""/>
         </div>
         <div className={`${styles.ethicCard3} col-lg-7 col-md-8 col-sm-12 mt-5 mb-3`}>
-            <span className='fs-4 fw-bold m-5 ' data-trans="Thedirectorgeneral1">The director general is responsible for:-</span>
+            <span className='fs-4 fw-bold m-2    d-block' data-trans="Thedirectorgeneral1">The director general is responsible for:-</span>
             <ul className='list-unstyled mt-3'>
                 <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
-                    <FcCheckmark size={20} className=''/>
-                    <span data-trans="Thedirectorgeneral2" className='me-4 ms-4 '>{`Ensuring appropriate representation at national, regional and international levels`}</span>
+                    <p><FcCheckmark size={20} className=''/></p>
+                    <span data-trans="Thedirectorgeneral2" className='me-4 ms-4'>{`Ensuring appropriate representation at national, regional and international levels`}</span>
                 </li>	
                 <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
-                    <FcCheckmark size={20} className=''/>
-                    <span data-trans="Thedirectorgeneral3" className='me-4 ms-4  '>{`Signing mutual recognition arrangements`}</span>
+                    <p><FcCheckmark size={20} className=''/></p>
+                    <span data-trans="Thedirectorgeneral3" className='me-4 ms-4 '>{`Signing mutual recognition arrangements`}</span>
                 </li>
                 <li className={`${styles.itemCheckTage} mt-2 mb-0 d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
