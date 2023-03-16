@@ -18,6 +18,7 @@ import AboutLand from '../components/AboutLand';
 import Services from '../components/ServicesComp';
 import Footer from '../components/Footer';
 import About from '../components/AboutPage1';
+import Companies from '../components/Companies';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -61,6 +62,7 @@ const Login: NextPage = () => {
    <Hero/>
    <AboutLand/>
    <Services/>
+   <Companies/>
    <Footer/>
    </>
   );

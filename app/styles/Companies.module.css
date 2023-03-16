@@ -1,0 +1,14 @@
+.clients {
+    padding: 0 0 60px 0;
+  }
+  
+  .clients .swiper-slide img {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  
+  .clients .swiper-slide img:hover {
+    filter: none;
+    opacity: 1;
+  }
+  
