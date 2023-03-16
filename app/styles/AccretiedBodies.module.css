@@ -3,9 +3,11 @@
     margin-bottom: 10rem;
   }
   .dateInput{
-    background-image: url('../public/date-picker-icon.svg');
+    background-image: url('../public/icons/calendar-icon.svg');
     background-repeat: no-repeat;
     background-position: right 10px center;
+    color: black;
+   z-index: 55;
     background-size: 1rem;
   }
   .SearchButton{

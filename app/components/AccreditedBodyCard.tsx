@@ -35,7 +35,7 @@ const AccreditedBodyCard = (props:Props) => {
                         </div>
                     </a>
               </div>
-              <AccrediedsModal/>
+              <AccrediedsModal  />
     </>
   )
 }

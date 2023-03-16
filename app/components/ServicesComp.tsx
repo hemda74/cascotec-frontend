@@ -1,5 +1,5 @@
 import React from 'react';
-import halal from '../public/images/accretied_bodies/first_images/9.jpg';
+import halal from '../public/images/accretied_bodies/first_images/10.png' ;
 import Image from 'next/image';
 import styles  from '../styles/Services.module.css';
 const Services = () => {
