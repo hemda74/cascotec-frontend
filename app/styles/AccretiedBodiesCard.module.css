@@ -92,10 +92,60 @@ z-index: -1;
   display: flex ;
   margin: auto;
 }
+@media (max-width: 770px) {
+  .teamMemberFigure{
+    position: relative;
+    overflow: hidden;
+    width: 18rem;
+    height: 16rem;
+    box-shadow: 0px 20px 30px -15px #8787b2;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    margin-right: 3rem;
+    margin-left: 1rem;
+  }
+  .cardImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: none;
+    margin: 2.5rem;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 75%;
+    max-width: 75%;
+    min-height: 75%;
+    max-height: 75%;
+  }
+}
+
 @media (max-width: 480px) {
   .teamMemberFigure{
-  width: 200%;
+  width: 90%;
   margin-left: 2rem;
   margin-right: 2rem;
+  }
+  .cardImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: none;
+    margin: 2rem;
+    display: block;
+    width: 0;
+    height: 0;
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 80%;
+    max-height: 80%;
   }
 }
