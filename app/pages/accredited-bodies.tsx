@@ -16,7 +16,7 @@ const dummyData = {
       accredtied_body_country_image:'/images/accretied_bodies/accretied_flags/egypt.png',
     },
     {
-      accredtied_body_image:'/images/accretied_bodies/first_images/2.png',  
+      accredtied_body_image:'/images/accretied_bodies/first_images/4.png',  
       accredtied_body_id: 1,
       accredtied_body_Country:'KSA',
       accredtied_body_From:'02/Feb/2023',
@@ -40,7 +40,7 @@ const dummyData = {
       accredtied_body_country_image:'/images/accretied_bodies/accretied_flags/bahreen.png',
     },
     {
-      accredtied_body_image:'/images/accretied_bodies/first_images/10.png',
+      accredtied_body_image:'/images/accretied_bodies/first_images/4.png',
       accredtied_body_id: 3,
       accredtied_body_Country:'Bahreen',
       accredtied_body_From:'02/Feb/2023',

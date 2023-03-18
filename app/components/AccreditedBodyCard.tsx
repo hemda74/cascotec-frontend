@@ -16,9 +16,11 @@ const AccreditedBodyCard = (props:Props) => {
      <div className={`col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4  `} >
               <a  data-bs-toggle="modal"
                     data-bs-target="#AccrediedsModal">
-                        <div className={`${styles.teamMember2}`}>
-                            <figure className={`${styles.teamMemberFigure}`}>
-                              <Image src={props.accredtied_body_image} layout='fill' alt="" className=" p-5"/>
+                        <div className={`${styles.teamMember2} `}>
+                            <figure className={`${styles.teamMemberFigure} `}>
+                              <div className={`${styles.cardImage}`}>
+                              <Image src={props.accredtied_body_image} layout='fill' alt="" className={`${styles.cardImage} p-5 `}/>
+                              </div>
                               <figcaption className={`${styles.figCaption}  d-flex `}>
                                 <div className={`mt-1 me-2 ms-2 ${styles.accretiedCaption}`}>
                                   <span className='text-white fs-6 d-block fw-bold'>World Halal Trust</span>
