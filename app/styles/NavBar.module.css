@@ -36,21 +36,22 @@
 }
 .ulDropDown{
     z-index: 1000;
-    min-width: 18rem;
-    padding: 0 0;
+    min-width: 14.9rem;
+    padding: 0.3rem 0;
     margin: 0.1rem 0 0;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: #212529;
     list-style: none;
     border-radius: 0.25rem;
-    
 }
 .ulDropDownBigWord{
+    margin-top: 1rem;
     overflow:hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-size: 1rem;
+    font-size:1rem;
     display: block;
+    width: 100%;
     min-width: 1px;
 }
 .rtl .dropdown-menu-right { text-align: right;}
@@ -62,10 +63,10 @@
         color: black;
         display: block;
         font-weight: 500;
-        font-size: 0.7rem;
+        font-size: 0.65rem;
     }
     .navLink2{
-        font-size: 0.7rem;
+        font-size: 0.65rem;
         color: black;
         display: block;
         font-weight: 500;
@@ -77,16 +78,6 @@
     }
     .navItem2{
         margin-top: 0.5rem;
-    }
-    .ulDropDown{
-        z-index: 1000;
-        min-width: 12rem;
-        padding: 0 0;
-        margin: 0.1rem 0 0;
-        font-size: 0.8rem;
-        color: #212529;
-        list-style: none;
-        border-radius: 0.25rem;
     }
 }
 @media (max-width: 978px) {
