@@ -10,7 +10,6 @@
   padding-bottom: 1rem;
   margin-top: -10.5rem;
 }
-
 .teamMemberFigure{
   position: relative;
   overflow: hidden;
@@ -75,7 +74,7 @@ z-index: -1;
 }
 @media (max-width: 480px) {
   .teamMemberFigure{
-  width: 150%;
+  width: 200%;
   margin-left: 2rem;
   margin-right: 2rem;
   }
