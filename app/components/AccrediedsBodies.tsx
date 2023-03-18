@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../styles/AccretiedBodies.module.css'
-
 import AccreditedBodyCard from './AccreditedBodyCard'
 
 type Props = {
@@ -12,11 +11,12 @@ type Accredieds_Body = {
 const AccretiedBodies = (props: Props) => {
   return (
     <>
+    <section className={` container ${styles.mainSection}`}>
      <div className={`text-center ${styles.titleWord}`}>
         <h6 className="text-white fw-semibold mb-4" >{`Home > Accredited Bodies`}</h6>
         <h2 className={`text-white fw-bold mb-5 `} >Accredited Bodies</h2>
     </div>
-    <div className={` container ${styles.formConatiner}`}>
+    <div className={` container mb-5 ${styles.formConatiner}`}>
         <div className="row gy-5 gx-lg-5">
           <div className={`col-lg-10 m-auto ${styles.contactCard}`}>
             <form action="forms/contact.php" method="post" role="form" className={`  ${styles.searchCard}`}>
@@ -320,7 +320,10 @@ const AccretiedBodies = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className={` col-xl-8 col-lg-10 col-md-12  container row  m-auto ${styles.cardsContianr} `}>
+      
+      <div className={` container mt-5 ${styles.formConatiner}`}>
+        <div className="row gy-5 gx-lg-5">
+          <div className={`col-lg-10 m-auto row `}>
           {props.accredtied_bodies.map(
             (accredited_body:Accredieds_Body,index:number)=>(
               <AccreditedBodyCard
@@ -334,7 +337,9 @@ const AccretiedBodies = (props: Props) => {
             ) 
           )}
         </div>
-     
+        </div>
+        </div>
+        </section>
     </>
   )
 }
