@@ -79,6 +79,14 @@ const dummyData = {
       accredtied_body_To:'02/Jan/2028',
       accredtied_body_country_image:'/images/accretied_bodies/accretied_flags/bahreen.png',
     },
+    {
+      accredtied_body_image:'/images/accretied_bodies/first_images/5.jpg',
+      accredtied_body_id: 3,
+      accredtied_body_Country:'Bahreen',
+      accredtied_body_From:'02/Feb/2023',
+      accredtied_body_To:'02/Jan/2028',
+      accredtied_body_country_image:'/images/accretied_bodies/accretied_flags/bahreen.png',
+    },
   ],
 };
 const Accredtied:NextPageWithLayout = (props:Props) => {

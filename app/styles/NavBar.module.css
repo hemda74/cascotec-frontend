@@ -1,6 +1,6 @@
 .navLink{
     color: black;
-    display: inline;
+    display: block;
     font-weight: 500;
 }
 .navLink:hover{
@@ -31,22 +31,54 @@
 }
 .navLink2{
     color: black;
-    display: inline;
+    display: block;
     font-weight: 500;
 }
 .ulDropDown{
     z-index: 1000;
-    min-width: 20rem;
-    padding: 0.5rem 0;
-    margin: 0.125rem 0 0;
-    font-size: 1rem;
+    min-width: 14.9rem;
+    padding: 0.3rem 0;
+    margin: 0.1rem 0 0;
+    font-size: 0.8rem;
     color: #212529;
     list-style: none;
     border-radius: 0.25rem;
 }
-.rtl .dropdown-menu-right { text-align: right; }
+.ulDropDownBigWord{
+    margin-top: 1rem;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:1rem;
+    display: block;
+    width: 100%;
+    min-width: 1px;
+}
+.rtl .dropdown-menu-right { text-align: right;}
 .ulDropDown2{
     min-width:13rem;
+}
+@media (max-width:1025px){
+    .navLink{
+        color: black;
+        display: block;
+        font-weight: 500;
+        font-size: 0.7rem;
+    }
+    .navLink2{
+        font-size: 0.7rem;
+        color: black;
+        display: block;
+        font-weight: 500;
+    }
+    .navItem{
+        margin-top: 1rem;
+        margin-left: 0.5rem ;
+        margin-right: 0.2rem !important;
+    }
+    .navItem2{
+        margin-top: 0.5rem;
+    }
 }
 @media (max-width: 978px) {
     .navItem{

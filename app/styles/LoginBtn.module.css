@@ -8,3 +8,14 @@
     text-align: center;
     cursor: pointer;
 }
+@media (max-width:1025px){
+    .newOpHourBtn {
+        width: 4.5rem;
+        height: 2.8rem;
+        margin-top: 0.65rem;
+        margin-right: 0.3rem;
+        margin-left: 0.3rem;
+        text-align: center;
+        cursor: pointer;
+    }   
+}

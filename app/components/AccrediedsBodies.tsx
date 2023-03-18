@@ -320,7 +320,7 @@ const AccretiedBodies = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className={` gy-5 col-lg-8  container row  m-auto ${styles.cardsContianr} `}>
+      <div className={` col-xl-8 col-lg-10 col-md-12  container row  m-auto ${styles.cardsContianr} `}>
           {props.accredtied_bodies.map(
             (accredited_body:Accredieds_Body,index:number)=>(
               <AccreditedBodyCard
