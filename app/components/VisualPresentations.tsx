@@ -11,7 +11,7 @@ return(
       <h6 className="text-white fw-semibold mb-4" >{`Home > Educational Booklets`}</h6>
       <h2 className={`text-white fw-bold mb-5 `} >Educational Booklets</h2>
     </div>
-    <div className={` container  `}>
+    <div className={` container mt-5 mb-5 `}>
         <div className="row gy-5 gx-lg-5 ">
            <div className={`col-lg-10 m-auto row `}>
                 <form action="forms/contact.php" method="post" role="form" >
@@ -25,7 +25,7 @@ return(
                   </div>
               </form>
           </div>
-          <div className={` container  `}>
+          <div className={` container mt-5  `}>
         <div className="row gy-5 gx-lg-5">
           <div className={`col-lg-10 m-auto row `}>
           <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
