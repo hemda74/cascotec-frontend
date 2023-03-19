@@ -3,19 +3,19 @@
   margin-bottom: 10rem;
 }
 .itemOne{
-  border: solid 1px rgba(78, 75, 247, 0.945);
+  border: solid 1px #ccc;;
   padding: 2.5rem;
   min-height: 38rem;
   margin-bottom: 1rem;
 }
 .itemTwo{
-  border: solid 1px rgba(78, 75, 247, 0.945);
+  border: solid 1px #ccc;;
   padding: 2.5rem;
   min-height: 38rem;
   margin-bottom: 1rem;
 }
 .itemThree{
-  border: solid 1px rgba(78, 75, 247, 0.945);
+  border: solid 1px #ccc;
   padding: 2rem;
   min-height: 38rem;
   margin-bottom: 1rem;
