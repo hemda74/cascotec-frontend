@@ -58,8 +58,16 @@ margin-left: 6rem;
 .searchCard{
 border-radius: 1rem;
 }
+.searchInput{
+  border-color: #fff;
+}
+.searchInput:focus {
+  border-color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 .SearchButton{
-padding: 0.8rem 1.5rem 0.8rem ;
+padding: 0.4rem 0.8rem 0.4rem ;
 border: none;
 }
 .formConatiner{

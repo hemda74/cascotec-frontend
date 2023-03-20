@@ -6,7 +6,7 @@ import event1 from '../public/images/events/event1.jpg'
 import event2 from '../public/images/events/event2.jpg'
 import { CgCalendarDates } from 'react-icons/cg'
 import { FaMapMarkerAlt } from 'react-icons/fa'
-import { AiFillClockCircle } from 'react-icons/ai'
+import { AiFillClockCircle, AiOutlineSearch } from 'react-icons/ai'
 const Events = () => {
   return (
     <>
@@ -17,20 +17,13 @@ const Events = () => {
    <div className={` container col-xl-8 col-lg-10 col-md-12 mt-5 mb-4 ${styles.formConatiner}`}>
         <div className="row gy-5 gx-lg-5">
             <div className={`col-lg-12 ${styles.contactCard}`}>
-                <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
-                    <div className="row justify-content-between">
-                        <div className={` d-flex col-md-4 col-lg-3 col-sm-6 col-xs-6 col-xl-3 mb-3 form-group   ${styles.formGroup}`}>
-                            <label className='mt-1 me-1 ms-1'><small>Sortedby:</small></label>      
-                            <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
-                                <option>Most Recent</option>
-                                <option>Title</option>
-                            </select>
-                        </div>
-                        <div className={`col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-6   form-group  ${styles.formGroup}`}>
-                            <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
-                        </div>
-                    </div>
-                </form>
+            <div className='d-flex align-items-center justify-content-center '>
+              <form className={`d-flex align-items-center justify-content-center`}>
+                  <span className=" my-2 my-sm-0 text-black-50" ><AiOutlineSearch size={25}/></span>
+                  <input className={`form-control me-sm-2 ${styles.searchInput}`} type="search" placeholder="Search"/>
+                  <button className={` myInfo  rounded ${styles.SearchButton}`} type="submit"> Search </button>
+                    </form>
+              </div>
             </div>
         </div>
    </div>
