@@ -1,10 +1,12 @@
 import React from 'react'
-import styles from '../styles/News.module.css'
+import styles from '../styles/Events.module.css'
 import Image from 'next/image'
-import Link from 'next/link'
-import newsone from '../public/imagess/newsone.jpg'
-import newstwo from '../public/imagess/newstwo.jpg'
 import newsthree from '../public/imagess/newsthree.jpg'
+import event1 from '../public/images/events/event1.jpg'
+import event2 from '../public/images/events/event2.jpg'
+import { CgCalendarDates } from 'react-icons/cg'
+import { FaMapMarkerAlt } from 'react-icons/fa'
+import { AiFillClockCircle } from 'react-icons/ai'
 const Events = () => {
   return (
     <>
@@ -17,14 +19,14 @@ const Events = () => {
             <div className={`col-lg-12 ${styles.contactCard}`}>
                 <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
                     <div className="row justify-content-between">
-                        <div className={` d-flex col-md-4 col-lg-3 col-sm-6 col-xs-6 col-xl-3 form-group   ${styles.formGroup}`}>
+                        <div className={` d-flex col-md-4 col-lg-3 col-sm-6 col-xs-6 col-xl-3 mb-3 form-group   ${styles.formGroup}`}>
                             <label className='mt-1 me-1 ms-1'><small>Sortedby:</small></label>      
                             <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
                                 <option>Most Recent</option>
                                 <option>Title</option>
                             </select>
                         </div>
-                        <div className={`col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-6  form-group  ${styles.formGroup}`}>
+                        <div className={`col-md-4 col-lg-3 col-xl-3 col-sm-6 col-xs-6   form-group  ${styles.formGroup}`}>
                             <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
                         </div>
                     </div>
@@ -32,117 +34,75 @@ const Events = () => {
             </div>
         </div>
    </div>
-   <div className="container col-xl-8 col-lg-10 col-md-12">
+   <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
         <div className="row">
             <div className="col-lg-4 col-md-6 p-3" >
                 <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/>
+                    <div className={`${styles.postImage}`}><Image src={newsthree} className="img-fluid" alt=""/>
                     </div>
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>
-                            {`Tue, December 12,2023`}
-                        </small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>
-                        GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>                
-                </div>
-            </div>
-            <div className="col-lg-4 col-md-6 p-3" >
-               <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newsthree} className="img-fluid" alt=""/>
-                    </div> 
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>               
+                    <figure className={`  mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>GCC Accreditation Center Diwaniya</span>
+                    </figure>
+                    <span className={`${styles.iconDate} mt-4`}>
+                        <CgCalendarDates size={25}/>
+                        <small className='text-black me-1 ms-1 mt-4'>04 Sep.2023 - 08 Sep.2023</small>
+                    </span>
+                    <span className={`${styles.iconDate} mt-3`}>
+                        <AiFillClockCircle size={20}/>
+                        <small className='text-black me-2 ms-2 mt-4'>11:00 AM - 03:00 PM</small>
+                    </span>
+                    <span className={`${styles.iconDate} mt-3`}>
+                        <FaMapMarkerAlt size={20} className='mb-1 '/>
+                        <small className='text-black me-2 ms-2 pt-3'>Dubai</small>
+                    </span>
                 </div>
             </div>
             <div className="col-lg-4 col-md-6 p-3" >
                 <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newstwo} className="img-fluid" alt=""/></div>   
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>                     
-                </div>
-            </div>
-            <div className="col-lg-4 col-md-6 p-3" >
-               <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newsone}  className="img-fluid" alt=""/></div>                
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
-                </div>
-            </div>
-            <div className="col-lg-4 col-md-6 p-3" >
-                <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/></div>
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
-                </div>
-            </div>
-             <div className="col-lg-4 col-md-6 p-3" >
-               <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newsthree} className="img-fluid" alt=""/>
-                    </div> 
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>               
+                    <div className={`${styles.postImage}`}><Image src={event2} className="img-fluid" alt=""/>
+                    </div>
+                    <figure className={`  mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>GCC Accreditation Center Diwaniya</span>
+                    </figure>
+                    <span className={`${styles.iconDate} mt-4`}>
+                        <CgCalendarDates size={25}/>
+                        <small className='text-black me-1 ms-1 mt-4'>04 Sep.2023 - 08 Sep.2023</small>
+                    </span>
+                    <span className={`${styles.iconDate} mt-3`}>
+                        <AiFillClockCircle size={20}/>
+                        <small className='text-black me-2 ms-2 mt-4'>11:00 AM - 03:00 PM</small>
+                    </span>
+                    <span className={`${styles.iconDate} mt-3`}>
+                        <FaMapMarkerAlt size={20} className='mb-1 '/>
+                        <small className='text-black me-2 ms-2 pt-3'>Dubai</small>
+                    </span>
                 </div>
             </div>
             <div className="col-lg-4 col-md-6 p-3" >
                 <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newstwo} className="img-fluid" alt=""/></div>   
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>                     
-                </div>
-            </div>
-            <div className="col-lg-4 col-md-6 p-3" >
-               <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newsone}  className="img-fluid" alt=""/></div>                
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
-                </div>
-            </div>
-            <div className="col-lg-4 col-md-6 p-3" >
-                <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/></div>
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>    
+                    <div className={`${styles.postImage}`}><Image src={event1} className="img-fluid" alt=""/>
+                    </div>
+                    <figure className={`  mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>GCC Accreditation Center Diwaniya</span>
+                    </figure>
+                    <span className={`${styles.iconDate} mt-4`}>
+                        <CgCalendarDates size={25}/>
+                        <small className='text-black me-1 ms-1 mt-4'>04 Sep.2023 - 08 Sep.2023</small>
+                    </span>
+                    <span className={`${styles.iconDate} mt-3`}>
+                        <AiFillClockCircle size={20}/>
+                        <small className='text-black me-2 ms-2 mt-4'>11:00 AM - 03:00 PM</small>
+                    </span>
+                    <span className={`${styles.iconDate} mt-3`}>
+                        <FaMapMarkerAlt size={20} className='mb-1 '/>
+                        <small className='text-black me-2 ms-2 pt-3'>Dubai</small>
+                    </span>
                 </div>
             </div>
         </div>
     </div>
-   </>
-  )
+</>
+)
 }
 
 export default Events;

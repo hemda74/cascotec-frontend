@@ -85,7 +85,7 @@ border-radius: 10px;
 }
 .postTitle {
 font-size: 24px;
-color: #0b8bd0;
+color: var(--color-secondary);
 font-weight: 700;
 margin: 15px 0 0 0;
 position: relative;
