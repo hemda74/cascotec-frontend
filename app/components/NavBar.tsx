@@ -18,7 +18,7 @@ const NavBar = () => {
                 alt="casco logo"
                 src={logo}
                 width={150}
-                height={80}
+                height={70}
                 />
             </a>
         </Link>
@@ -52,7 +52,7 @@ const NavBar = () => {
                             <Link href={'/about/rights-and-duties'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="CASCORightsAndDutiesNav">CASCO’s Rights And Duties</p></a></Link>
                         </li>
                         <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
-                            <Link href={'/about/stakeholders-advisory-committee'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} d-inline me-4 ms-4 mt-2 mb-2`}data-trans="StakeholdersAdvisoryCommitteeNav">Stakeholders Advisory Committee</p></a></Link>
+                            <Link href={'/about/stakeholders-advisory-committee'}  className={`nav-link `} id="link"><a className='d-flex'><p className={`${styles.navLink} d-inline me-4 ms-4 mt-2 mb-2`} data-trans="StakeholdersAdvisoryCommitteeNav">Stakeholders Advisory Committee</p></a></Link>
                         </li>
                     </ul>
                 </li>
@@ -93,15 +93,15 @@ const NavBar = () => {
                     <Link href={'/contact-us'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a className={`${styles.navLink}`}data-trans="ContactUsNav">Contact Us</a></Link>
                 </li>        
             </ul>
-            <div className="d-flex">
-                    <span className={`${styles.searchIcon} me-1 ms-1 mt-3`}>
+            <div className={`d-flex me-4 ms-4`}>
+                    <span className={`${styles.searchIcon} me-2 ms-2 mt-3`}>
                     <a data-bs-toggle="modal"
                 data-bs-target="#SearchModal">
                         <AiOutlineSearch size={30}/>
                         </a>
                     </span>
             
-                <div className='me-1 ms-1'>
+                <div className='me-3 ms-3'>
                     <LoginBtn />
                 </div>
                     <LocalizationBtn/>
