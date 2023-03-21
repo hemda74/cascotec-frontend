@@ -50,17 +50,17 @@
     }
     .accreditationThumbnailImage{
       background: #f9f9f9;
-      width: 90%;
+      width: 100%;
       margin: 0;
       border-radius: 0.5rem;
     }
     .accreditationThumbnailFirst{
       background: #f9f9f9;
-      width: 100%;
-      padding-top: 2rem;
-      border-radius: 2rem;
-      padding-bottom: 3rem;
-      margin: 0;
+    width: 85%;
+    padding: 1rem 1rem 2rem 2rem;
+    border-radius: 0.2rem;
+    margin: -2.1rem 1.5rem 1rem;
+      
     }
     .accreditationThumbnail2div{
       margin-top: 1rem;
@@ -71,11 +71,10 @@
     }
     .accreditationThumbnailSecond{
       background: #f9f9f9;
-      width: 100%;
-      padding-top: 2rem;
-      border-radius: 2rem;
-      padding-bottom: 3rem;
-      margin: 0;
+    width: 85%;
+    padding: 1rem 1rem 2rem 2rem;
+    border-radius: 0.2rem;
+    margin: -3rem 1.5rem 1rem;
     }
     .accreditationThumbnail2div{
       margin-top: 1rem;
