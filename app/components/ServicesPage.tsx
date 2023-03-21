@@ -22,15 +22,35 @@ const ServicesPage = () => {
             </div>
             <div className={`${styles.accreditationThumbnailFirst}`}>
                 <span className='fs-4  fw-bold '>Accreditation of Testing Laboratories</span>
-                <p className='mb-5 pb-5 mt-4'>GCC Accreditation Center provides accreditation services in the scheme of Testing Laboratories according to ISO/IEC 17025:2017 General requirements for the competence of testing and calibration laboratories. </p>
-                <Link href="/login" target="_blank" className='mt-5'><span className={`${styles.btnContainer}`}>Apply now</span></Link>
+                <p className='mb-5 pb-4 mt-4'>GCC Accreditation Center provides accreditation services in the scheme of Testing Laboratories according to ISO/IEC 17025:2017 General requirements for the competence of testing and calibration laboratories. </p>
+                <Link href="/login" target="_blank" className='mt-3'><span className={`${styles.btnContainer}`}>Apply now</span></Link>
             </div>
         </div>
         <div className={`${styles.cardccreditation2} d-flex mt-5 mb-5`}>
             <div className={`${styles.accreditationThumbnailSecond} `}>
                 <span className='fs-4  fw-bold '>Accreditation of Testing Laboratories</span>
-                <p className='mb-5 pb-5 mt-4'>GCC Accreditation Center provides accreditation services in the scheme of Testing Laboratories according to ISO/IEC 17025:2017 General requirements for the competence of testing and calibration laboratories. </p>
-                <Link href="/login" target="_blank" className='mt-5'><span className={`${styles.btnContainer} `}>Apply now</span></Link>
+                <p className='mb-5 pb-4 mt-4'>GCC Accreditation Center provides accreditation services in the scheme of Testing Laboratories according to ISO/IEC 17025:2017 General requirements for the competence of testing and calibration laboratories. </p>
+                <Link href="/login" target="_blank" className='mt-3'><span className={`${styles.btnContainer} `}>Apply now</span></Link>
+            </div>
+            <div className={` mt-5 ${styles.accreditationThumbnail2div}`}>
+                <Image className={`${styles.accreditationThumbnailImage}`}src={servicesimage} width={400} height={400} alt=""/>
+            </div>
+        </div>
+        <div className={`${styles.cardccreditation} d-flex mt-5 mb-5`}>
+            <div className={` mt-5  ${styles.accreditationThumbnail2div}`}>
+                <Image className={`${styles.accreditationThumbnailImage}`}src={servicesimage} width={450} height={450} alt=""/>
+            </div>
+            <div className={`${styles.accreditationThumbnailFirst}`}>
+                <span className='fs-4  fw-bold '>Accreditation of Testing Laboratories</span>
+                <p className='mb-5 pb-4 mt-4'>GCC Accreditation Center provides accreditation services in the scheme of Testing Laboratories according to ISO/IEC 17025:2017 General requirements for the competence of testing and calibration laboratories. </p>
+                <Link href="/login" target="_blank" className='mt-3'><span className={`${styles.btnContainer}`}>Apply now</span></Link>
+            </div>
+        </div>
+        <div className={`${styles.cardccreditation2} d-flex mt-5 mb-5`}>
+            <div className={`${styles.accreditationThumbnailSecond} `}>
+                <span className='fs-4  fw-bold '>Accreditation of Testing Laboratories</span>
+                <p className='mb-5 pb-4 mt-4'>GCC Accreditation Center provides accreditation services in the scheme of Testing Laboratories according to ISO/IEC 17025:2017 General requirements for the competence of testing and calibration laboratories. </p>
+                <Link href="/login" target="_blank" className='mt-3'><span className={`${styles.btnContainer} `}>Apply now</span></Link>
             </div>
             <div className={` mt-5 ${styles.accreditationThumbnail2div}`}>
                 <Image className={`${styles.accreditationThumbnailImage}`}src={servicesimage} width={400} height={400} alt=""/>
