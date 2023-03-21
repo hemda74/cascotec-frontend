@@ -77,7 +77,8 @@
         margin-right: 0.2rem !important;
     }
     .navItem2{
-        margin-top: -0.5rem;
+        margin-top: -1rem;
+        margin-bottom: -1rem;
     }
 }
 @media (max-width: 978px) {
