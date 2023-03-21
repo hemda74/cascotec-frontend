@@ -32,7 +32,7 @@ const Events = () => {
    </div>
    <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
         <div className="row">
-            <div className="col-lg-4 col-md-6 p-3" >
+            <div className="col-lg-4 col-md-6 p-3">
                 <div className={`${styles.postBox}`}>
                     <div className={`${styles.postImage}`}><Image src={newsthree} className="img-fluid" alt=""/>
                     </div>
