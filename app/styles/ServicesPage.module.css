@@ -3,26 +3,76 @@
     margin-top: -10rem;
     margin-bottom: 10rem;
   }
-  .accreditationThumbnail{
+  .accreditationThumbnailFirst{
     background: #f9f9f9;
-    padding: 5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
     margin-left: 3rem;
+    padding-top: 2rem;
+    border-radius: 2rem;
+    margin-right: 3rem;
+    padding-bottom: 3rem;
+  }
+  .accreditationThumbnailSecond{
+    background: #f9f9f9;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    margin-left: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
     border-radius: 2rem;
     margin-right: 3rem;
   }
-  .accreditationThumbnail2{
+  .accreditationThumbnailImage{
     background: #f9f9f9;
-    padding: 2rem;
-    border-radius: 1rem;
+    padding: 3rem;
+    border-radius: 0.5rem;
   }
   .accreditationThumbnail2div{
     margin-left: -6rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem ;
     margin-right: -6rem;
   }
   .btnContainer{
     padding: 1rem;
-    background: #0b8bd0;
+    background: #0b8bd0c1;
     cursor: pointer;
     color: #fff;
     border-radius: 1rem;
+  }
+  .subtitleWord{
+    color: #0b8bd0;
+  }
+  @media (max-width: 480px) {
+    .cardccreditation{
+      flex-direction: column;
+    }
+    .accreditationThumbnailImage{
+      background: #f9f9f9;
+      width: 90%;
+      margin: auto;
+      border-radius: 0.5rem;
+    }
+    .accreditationThumbnailFirst{
+      background: #f9f9f9;
+      width: 100%;
+      padding-top: 2rem;
+      border-radius: 2rem;
+      padding-bottom: 3rem;
+    }
+    .accreditationThumbnail2div{
+      margin-top: 1rem;
+      margin-bottom: 2rem ;
+    }
+    .cardccreditation2{
+      flex-direction: column-reverse;
+    }
+    .accreditationThumbnailSecond{
+      background: #f9f9f9;
+      width: 100%;
+      padding-top: 2rem;
+      border-radius: 2rem;
+      padding-bottom: 3rem;
+    }
   }
