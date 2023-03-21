@@ -121,15 +121,11 @@ line-height: 1;
 transition: 0.3s;
 margin-top: 15px;
 }
-
 .recent-blog-posts .post-box .readmore i {
 line-height: 0;
 margin-left: 4px;
 font-size: 18px;
 }
-
-
-
 @media (max-width: 480px)
 {
 .coursesCard{
