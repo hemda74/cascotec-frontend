@@ -14,10 +14,8 @@ const Courses = () => {
             <h6 className="text-white fw-semibold mb-4" >{`Home > Courses`}</h6>
             <h2 className={`text-white fw-bold mb-5 `} >Courses</h2>
         </div>
-        <div className={` container `}>
+        <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
             <div className="row ">
-            <div className="col-3">
-            </div>
                <div className={`col-lg-12  justify-content-between ${styles.coursesCard}`}>
                     <div className={` ${styles.cardImage} `}>
                         <Image src={courses} width={300} height={300}  alt=""/>
@@ -29,7 +27,7 @@ const Courses = () => {
                </div>
             </div>
         </div>
-        <div className={` container ${styles.formConatiner}`}>
+        <div className={` container col-xl-8 col-lg-10 col-md-12 mb-5 ${styles.formConatiner}`}>
         <div className="row gy-5 gx-lg-5">
           <div className={`col-lg-12 ${styles.contactCard}`}>
             <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
@@ -70,9 +68,9 @@ const Courses = () => {
           </div>
         </div>
         </div>
-        <div className="container">
+        <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
             <div className="row">
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
