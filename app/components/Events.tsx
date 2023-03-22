@@ -18,14 +18,13 @@ const Events = () => {
         <div className="row gy-5 gx-lg-5">
             <div className={`col-lg-12 `}>
             <div className={`d-flex align-items-center justify-content-center  `}>
-              <form >
+              <form>
                 <div className={`d-flex align-items-center justify-content-center  ${styles.cardSubTitle} `}>
                   <span className=" my-2 my-sm-0 text-black-50" ><AiOutlineSearch size={25}/></span>
                   <input className={`form-control me-2 ${styles.searchInput}`} type="search" placeholder="Search"/>
                   <button className={` myInfo  rounded ${styles.SearchButton}`} type="submit"> Search </button>
                   </div>
                     </form>
-                    
               </div>
             </div>
         </div>
