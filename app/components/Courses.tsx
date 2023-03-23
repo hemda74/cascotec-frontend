@@ -71,6 +71,7 @@ const Courses = () => {
         <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
             <div className="row">
                 <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -78,15 +79,18 @@ const Courses = () => {
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
-                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={25}/>
+                        </figure>                        
+                        <span className={`${styles.iconDate}`}><CgCalendarDates size={25}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={25} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -103,8 +107,10 @@ const Courses = () => {
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -119,8 +125,10 @@ const Courses = () => {
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -137,8 +145,10 @@ const Courses = () => {
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -154,8 +164,10 @@ const Courses = () => {
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -173,8 +185,10 @@ const Courses = () => {
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -189,8 +203,10 @@ const Courses = () => {
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -207,8 +223,10 @@ const Courses = () => {
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -223,8 +241,10 @@ const Courses = () => {
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
-                <div className="col-lg-4 p-3" >
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
@@ -241,6 +261,7 @@ const Courses = () => {
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
+                    </Link>
                 </div>
             </div>
         </div>
