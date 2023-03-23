@@ -2,16 +2,17 @@
 .modalWidth {
     position: relative;
     width: auto;
-    max-width: 35rem;
+    max-width: 30rem;
+    border-radius: 3rem;
 }
 .itemDownload{
-    padding:0.5rem 2rem 0.1rem;
+    padding:0.2rem 1rem 0rem;
     border-radius: 0.8rem;
-    width: 91%;
+    width: 95%;
     margin: auto;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    border: solid 1px #ccc;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border: solid 1px #eee;
 }
 .iconColor{
 color: #19afef;

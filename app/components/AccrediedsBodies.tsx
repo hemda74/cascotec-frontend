@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from '../styles/AccretiedBodies.module.css'
 import AccreditedBodyCard from './AccreditedBodyCard'
-
 type Props = {
   [key: string]: any;
 };
@@ -319,7 +318,7 @@ const AccretiedBodies = (props: Props) => {
             </form>
           </div>
         </div>
-      </div>
+    </div>
       
       <div className={` container mt-5 ${styles.formConatiner}`}>
         <div className="row gy-5 gx-lg-5">
@@ -339,7 +338,7 @@ const AccretiedBodies = (props: Props) => {
         </div>
         </div>
         </div>
-        </section>
+        </section>  
     </>
   )
 }
