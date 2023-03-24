@@ -27,11 +27,12 @@ const Courses = () => {
                </div>
             </div>
         </div>
-        <div className={` container col-xl-8 col-lg-10 col-md-12 mb-5 ${styles.formConatiner}`}>
+        <div className={` container col-xl-8 col-lg-10 col-md-12  ${styles.formConatiner}`}>
+        <span className={`me-3 ms-3`} >25  Upcoming Course </span>
         <div className="row gy-5 gx-lg-5">
-          <div className={`col-lg-12 ${styles.contactCard}`}>
+          <div className={`col-lg-12 m-0 `}>
             <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
-                <p>25  Upcoming Course </p>
+               
               <div className="row">
                 <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6  form-group  ${styles.formGroup}`}>
                   <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
@@ -68,7 +69,7 @@ const Courses = () => {
           </div>
         </div>
         </div>
-        <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
+        <div className={`container col-xl-8 col-lg-10 col-md-12 ${styles.coursesConainer} ` }>
             <div className="row">
                 <div className="col-lg-4 col-md-6 p-1" >
                     <Link href={'/courses/1'}>
@@ -80,10 +81,10 @@ const Courses = () => {
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
                         </figure>                        
-                        <span className={`${styles.iconDate}`}><CgCalendarDates size={25}/>
+                        <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
-                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={25} className='mb-1'/>
+                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
@@ -99,11 +100,11 @@ const Courses = () => {
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
                         </figure>                        <span className={`${styles.iconDate}`}>
-                            <CgCalendarDates size={25}/>
+                            <CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}>
-                            <FaMapMarkerAlt size={25} className='mb-1'/>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
@@ -118,10 +119,10 @@ const Courses = () => {
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
-                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={25}/>
+                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
-                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={25} className='mb-1'/>
+                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
@@ -137,11 +138,11 @@ const Courses = () => {
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
                         </figure>                        <span className={`${styles.iconDate}`}>
-                            <CgCalendarDates size={25}/>
+                            <CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}>
-                            <FaMapMarkerAlt size={25} className='mb-1'/>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
@@ -157,10 +158,10 @@ const Courses = () => {
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
                         </figure>
-                                                <span className={`${styles.iconDate}`}><CgCalendarDates size={25}/>
+                                                <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
-                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={25} className='mb-1'/>
+                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
@@ -177,11 +178,11 @@ const Courses = () => {
                         </figcaption>
                         </figure>
                         <span className={`${styles.iconDate}`}>
-                            <CgCalendarDates size={25}/>
+                            <CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}>
-                            <FaMapMarkerAlt size={25} className='mb-1'/>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
@@ -196,10 +197,10 @@ const Courses = () => {
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
-                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={25}/>
+                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
-                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={25} className='mb-1'/>
+                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
@@ -215,11 +216,11 @@ const Courses = () => {
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
                         </figure>                        <span className={`${styles.iconDate}`}>
-                            <CgCalendarDates size={25}/>
+                            <CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}>
-                            <FaMapMarkerAlt size={25} className='mb-1'/>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
@@ -234,10 +235,10 @@ const Courses = () => {
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
-                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={25}/>
+                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
-                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={25} className='mb-1'/>
+                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
@@ -253,11 +254,11 @@ const Courses = () => {
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
                         </figure>                        <span className={`${styles.iconDate}`}>
-                            <CgCalendarDates size={25}/>
+                            <CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}>
-                            <FaMapMarkerAlt size={25} className='mb-1'/>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
                         </span>
                     </div>
