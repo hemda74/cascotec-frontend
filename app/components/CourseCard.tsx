@@ -82,16 +82,16 @@ const CourseCard = () => {
       </div>
       </div>
     </div>
-    {/* <div className="container col-xl-2 col-lg-2 col-md-2 m-0 p-0  ">
+     <div className={`container col-xl-2 col-lg-2 col-md-3 ${styles.navLinks} `}>
     <div className="navbar m-0 p-0 ">
   <div className="container m-0 p-0 ">
-    <a className="nav-link m-0 p-0" href="#">Navbar</a>
+    <a className={`nav-link m-0 p-0`} href="#">Navbar</a>
     <a className="nav-link" href="#">Features</a>
         <a className="nav-link" href="#">Pricing</a>
         </div>
           </div>
             </div>
-            <hr/> */}
+            <hr/> 
     <div className="container col-xl-8 col-lg-8 col-md-12 mb-5">
         <div className="row">
             <div className="col-lg-8 col-md-6 p-3">
