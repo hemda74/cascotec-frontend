@@ -1,15 +1,15 @@
 import React, { ReactElement } from 'react'
 import Head from 'next/head';
-import ViewerLayout from '../../layouts/ViewerLayout';
+import CourseLayout from '../../layouts/CourseLayout';
 import { NextPageWithLayout } from '../_app';
 import CourseCard from '../../components/CourseCard';
 type Props = {};
 // dymmy data for ui till handle working with api
-const ourvalues:NextPageWithLayout = (props:Props) => {
+const Course:NextPageWithLayout = (props:Props) => {
   return (
     <>
     <Head>
-        <title>Courses | CASCO</title>
+        <title>Course Details | CASCO</title>
     </Head>
     <main>
       <CourseCard/>
@@ -18,6 +18,6 @@ const ourvalues:NextPageWithLayout = (props:Props) => {
   )
 }
 // adding Layout
-ourvalues.getLayout = function getLayout(ourvalues: ReactElement) {
-return <ViewerLayout childern={ourvalues}></ViewerLayout>;}
-export default ourvalues;
+Course.getLayout = function getLayout(Course: ReactElement) {
+return <CourseLayout childern={Course}></CourseLayout>;}
+export default Course;
