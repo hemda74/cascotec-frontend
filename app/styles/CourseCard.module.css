@@ -1,7 +1,7 @@
 /* Course Card Style */
 .titleWord{
     margin-top: -23rem;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
 .timeSegment{
     display: flex;
@@ -23,7 +23,43 @@
     width: 22rem;
 
   }
-  .navLinks{
-    margin: 0;
+  .Courselinks{
+    display: flex;
+    width: 100%;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .Courselinks1Div{
+    flex: 0 0 100%;
+    max-width: 100%;
     padding: 0;
+  }
+  .anchorLink{
+    font-size: .8888888889rem;
+    font-weight: 600;
+    color: #666d78;
+    line-height: 1.6666666667rem;
+    padding: 0;
+  }
+  .lineLinks{
+    margin-top: 0.2rem;
+  }
+  .courseDetailes{
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    background: #f8f8f9;
+  }
+  .iconHolder{
+    padding: 0.39rem 0.75rem;
+    margin: 0 0.5rem  0 0.5rem ;
+    border-radius: 50%;
+    border: #ddd solid 1px;
+  }
+  .iconHolder2{
+    margin: 0 0.5rem  0 0.5rem ;
+    padding: 0.35rem 0.65rem  ;
+    border-radius: 50%;
+    border: #ddd solid 1px;
   }
