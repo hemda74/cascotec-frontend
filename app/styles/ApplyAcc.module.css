@@ -1,0 +1,21 @@
+.mainContanier {
+    margin-top: 3rem;
+    background: linear-gradient(rgba(122, 163, 210, 0.9), rgba(29, 94, 205, 0.9));
+    background-size: cover;
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  .SearchButton{
+    padding: 1rem 1.5rem 1rem ;
+    border: none;
+    background: #ffff;
+  }
+  .SearchButton:hover{
+    background: linear-gradient(rgba(122, 163, 210, 0.9), rgba(29, 94, 205, 0.9));
+  }
+  .SearchButton span{
+    color: rgb(6, 93, 199);
+  }

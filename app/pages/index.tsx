@@ -19,6 +19,8 @@ import Services from '../components/ServicesComp';
 import Footer from '../components/Footer';
 import About from '../components/AboutPage1';
 import Companies from '../components/Companies';
+import ApplyAcc from '../components/ApplyAcc';
+import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -62,6 +64,8 @@ const Login: NextPage = () => {
    <Hero/>
    <AboutLand/>
    <Services/>
+   <ApplyAcc/>
+   <CoursesSectionHomePage/>
    <Companies/>
    <Footer/>
    </>
