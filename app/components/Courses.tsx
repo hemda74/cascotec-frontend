@@ -97,7 +97,7 @@ const Courses = () => {
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
                         <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
-                            <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
+                            <span className='m-auto fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
                         </figure>                        <span className={`${styles.iconDate}`}>
                             <CgCalendarDates size={20}/>
@@ -114,12 +114,13 @@ const Courses = () => {
                     <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
+                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
-                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
+                        </figure>                       
+                         <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1'> 04-06Sep.2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
@@ -132,8 +133,8 @@ const Courses = () => {
                     <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>
-                        <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
+                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
@@ -152,8 +153,8 @@ const Courses = () => {
                     <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
+                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
@@ -171,8 +172,8 @@ const Courses = () => {
                     <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>
-                        <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
+                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
@@ -192,8 +193,8 @@ const Courses = () => {
                     <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
+                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
@@ -210,8 +211,8 @@ const Courses = () => {
                     <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
+                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
@@ -230,8 +231,8 @@ const Courses = () => {
                     <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
+                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>
@@ -248,8 +249,8 @@ const Courses = () => {
                     <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
+                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={` mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fs-5 fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>

@@ -88,14 +88,14 @@
   visibility: visible;
   color: #fff !important;
   background: rgba(82, 81, 81, 0.523);   
-  height: 30%;
+  height: 35%;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .postTitle {
-  font-size: 24px;
+  font-size: 1.2rem;
   color: var(--color-secondary);
   font-weight: 700;
   margin: 15px 0 0 0;
