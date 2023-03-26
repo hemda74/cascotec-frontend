@@ -22,6 +22,7 @@ import Companies from '../components/Companies';
 import ApplyAcc from '../components/ApplyAcc';
 import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 import Recogention from '../components/Recogention';
+import NewsHomePage from '../components/NewsHomePage';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -69,6 +70,7 @@ const Login: NextPage = () => {
    <CoursesSectionHomePage/>
    <Recogention/>
    <Companies/>
+   <NewsHomePage/>
    <Footer/>
    </>
   );

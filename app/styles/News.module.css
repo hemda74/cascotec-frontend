@@ -1,4 +1,4 @@
-/* Contact Section*/
+/* News Section*/
 .titleWord{
     margin-top: -10rem;
     margin-bottom: 10rem;
@@ -95,27 +95,6 @@ transition: 0.3s;
 margin-top: 0.5rem;
 color: var(--color-secondary);
 }
-
-.recent-blog-posts .post-box p {
-margin: 15px 0 0 0;
-color: rgba(var(--color-secondary-dark-rgb), 0.7);
-}
-
-.recent-blog-posts .post-box .readmore {
-display: flex;
-align-items: center;
-font-weight: 600;
-line-height: 1;
-transition: 0.3s;
-margin-top: 15px;
-}
-
-.recent-blog-posts .post-box .readmore i {
-line-height: 0;
-margin-left: 4px;
-font-size: 18px;
-}
-
 .spanReadMore{
   color:#0b8bd0;
 }

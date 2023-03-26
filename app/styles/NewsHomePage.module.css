@@ -1,0 +1,32 @@
+.postBox {
+    transition: 0.3s;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    padding: 0.4rem;
+    background: #f9f9f9;
+    flex-direction: column;
+    }
+    
+    .postImage {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    }
+    .postTitle {
+    font-size: 24px;
+    color: #0b8bd0;
+    font-weight: 700;
+    margin: 15px 0 0 0;
+    position: relative;
+    transition: 0.3s;
+    }
+    .iconDate{
+    margin-top: 0.5rem;
+    color: var(--color-secondary);
+    }
+    .spanReadMore{
+      color:#0b8bd0;
+    }
