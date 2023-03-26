@@ -21,6 +21,7 @@ import About from '../components/AboutPage1';
 import Companies from '../components/Companies';
 import ApplyAcc from '../components/ApplyAcc';
 import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
+import Recogention from '../components/Recogention';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -66,6 +67,7 @@ const Login: NextPage = () => {
    <Services/>
    <ApplyAcc/>
    <CoursesSectionHomePage/>
+   <Recogention/>
    <Companies/>
    <Footer/>
    </>
