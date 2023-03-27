@@ -1,0 +1,73 @@
+.sectionAssessorCab{
+    position: relative;
+    padding-bottom: 3.8888888889rem;
+}
+.innerAssessorCab{
+    background: url('../public/images/home_page/assesorofcab_background.png'),#3b4351;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3.8888888889rem 0;
+}
+.headAssessorCab{
+font-size: 2.6666666667rem;
+font-weight: 700;
+color: #fdf3f3;
+padding-bottom: 3.8888888889rem;
+margin-bottom: 3.8888888889rem;
+text-align: center;
+}
+.bodyAssessorCab{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.innerContainer {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.cardCertificate{
+position: relative;
+border-radius: 1.1111111111rem;
+padding: 1.6666666667rem 2.2222222222rem;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.cardCertificate::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%),url('../public/images/home_page/recogention.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+    border-radius: 1.1111111111rem;
+}
+.workspaceItem::after {
+    background-image: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%),url('../public/images/home_page/assessor_workspace_bg.jpg');
+}
+@media (min-width: 768px)
+{
+.innerContainer {
+    max-width: 720px;
+}
+
+.cardCertificate {
+    margin-bottom: 0.6666666667rem;
+}
+}
+@media (min-width: 576px)
+{
+.innerContainer {
+    max-width: 540px;
+}
+}
