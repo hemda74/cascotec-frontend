@@ -22,7 +22,8 @@ import Companies from '../components/Companies';
 import ApplyAcc from '../components/ApplyAcc';
 import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 import Recogention from '../components/Recogention';
-import NewsHomePage from '../components/NewsHomePage';
+import Slider from "../components/Slider";
+import AssessorOrCAB from '../components/AssessorOrCAB';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -69,8 +70,9 @@ const Login: NextPage = () => {
    <ApplyAcc/>
    <CoursesSectionHomePage/>
    <Recogention/>
+   <AssessorOrCAB/>
    <Companies/>
-   <NewsHomePage/>
+   <Slider/>
    <Footer/>
    </>
   );

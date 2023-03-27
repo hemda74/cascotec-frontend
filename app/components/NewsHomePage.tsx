@@ -1,72 +1,272 @@
-import React from 'react'
-import styles from '../styles/NewsHomePage.module.css'
-import Image from 'next/image'
-import Link from 'next/link'
-import newsone from '../public/imagess/newsone.jpg'
-import newstwo from '../public/imagess/newstwo.jpg'
-import newsthree from '../public/imagess/newsthree.jpg'
-const NewsHomePage = () => {
-  return (
-    <>
-    <div className="container col-xl-8 col-lg-10 col-md-12">
-    <div id="carouselExample" className="carousel slide">
-  <div className="carousel-inner">
-    <div className="carousel-item active w-50">
-    <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/>
-                    </div>
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>
-                            {`Tue, December 12,2023`}
-                        </small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>
-                        GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>                
-                </div>
-    </div>
-    <div className="carousel-item w-50">
-    <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newsone} className="img-fluid" alt=""/>
-                    </div>
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>
-                            {`Tue, December 12,2023`}
-                        </small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>
-                        GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>                
-                </div>
-    </div>
-    <div className="carousel-item w-50">
-    <div className={`${styles.postBox}`}>
-                    <div className={`${styles.postImage}`}><Image src={newstwo} className="img-fluid" alt=""/></div>   
-                    <div className="meta">
-                        <small className={`${styles.postDate}`}>{`Tue, December 12,2023`}</small>
-                    </div>   
-                    <span className={` fs-5  ${styles.postTitle}`}>GCC Accreditation Center Director General meeting with the Undersecretary of ...</span>
-                    <p className='mt-3'>GCC Accreditation Center Director General, H.E Eng. Mutib Al-Mizani, was honored to meet with H.E Mr. Salem bin Muslim Al-Busaidi, Undersecretary ...</p>
-                    <Link href={'/news/id'} className="readmore stretched-link"><a><span className={`${styles.spanReadMore}`}>{`Read More`}</span></a></Link>                     
-                </div>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-<div className='ms-5 me-5'><a href={'/courses'}> <button className={`myInfo-outline m-auto  ${styles.SearchButton}`}>VIEW ALL</button></a></div>
+ // 
+ import React, { useState, useEffect } from "react";
 
-    </>
-  )
-}
+// import dynamic from "next/dynamic";
+// import "owl.carousel/dist/assets/owl.carousel.css";
+// import "owl.carousel/dist/assets/owl.theme.default.css";
+// let productsp = [
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+//   {
+//     id: 1,
+//     name: "Product Number 1",
+//     brand: "Brand Name",
+//     url: "products-number-1",
+//     price: 100,
+//   },
+// ];
 
-export default NewsHomePage
+
+// // This is for Next.js. On Rect JS remove this line
+// const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+//   ssr: false,
+// });
+
+// // This is for React JS, Remove this for Next.js
+// // import OwlCarousel from 'react-owl-carousel';
+
+// const Slider = () => {
+  
+//   const options = {
+//     margin: 30,
+//     responsiveClass: true,
+//     nav: true,
+//     dots: true,
+//     autoplay: false,
+//     smartSpeed: 1000,
+//     navClass: ["owl-prev", "owl-next"],
+//     navText: [
+//       '<i class="fas fa-angle-left"></i>',
+//       '<i class="fas fa-angle-right"></i>',
+//     ],
+//     responsive: {
+//       0: {
+//         items: 1,
+//       },
+//       400: {
+//         items: 1,
+//       },
+//       600: {
+//         items: 2,
+//       },
+//       700: {
+//         items: 3,
+//       },
+//       1000: {
+//         items: 4,
+//       },
+//     },
+//   };
+
+//   return (
+//     <div className="row no-gutters">
+//       <div
+//         className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-3 pb-2 bg-white"
+//         id="owl-carousel-products"
+//       >
+//         <h3 className="text-center">
+//           <span className="heading float-left w-100">Featured Products</span>
+//         </h3>
+//         <ul id="owl-carousel-ul" className="owl-carousel owl-loaded owl-drag">
+//           <OwlCarousel
+//             className="owl-theme"
+//             loop
+//             margin={4}
+//             nav={true}
+//             navText={[
+//               '<img src="/images/Arrow_left.png" />',
+//               '<img src="/images/Arrow_right.png" />',
+//             ]}
+//             dots={false}
+//             animateIn={true}
+//             {...options}
+//           >
+//             {productsp && productsp.length > 0
+//               ? productsp.map((product) => {
+//                   return (
+//                     <>
+//                       <div
+//                         id="featuredProducts"
+//                         className="item float-left w-100"
+//                         key={product.name}
+//                       >
+//                         <div className="productListing col-lg-5th col-md-4 col-sm-6 col-xs-12">
+//                           <a href={product.url}>
+//                             <a className="product float-left">
+//                               <span className="image text-center">
+//                                 <img
+//                                   id={"img" + product.id}
+//                                   src="/images/product.jpg"
+//                                   alt={product.name}
+//                                   title={product.name}
+//                                 />
+//                               </span>
+//                               <span className="w-100 text-center mt-1 ">
+//                                 <h5 className="brand text-capitalize float-left">
+//                                   {product.brand}
+//                                 </h5>
+//                                 <span className="name">{product.name}</span>
+//                                 <strong className="itemPrice p-0">
+//                                   Price: {product.price}
+//                                 </strong>
+//                               </span>
+//                             </a>
+//                           </a>
+//                         </div>
+//                       </div>
+//                     </>
+//                   );
+//                 })
+//               : ""}
+//           </OwlCarousel>
+//         </ul>
+//       </div>
+//     </div>
+//   );
+// };
+// export default Slider;
