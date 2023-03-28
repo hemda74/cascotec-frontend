@@ -71,8 +71,10 @@ const Login: NextPage = () => {
    <CoursesSectionHomePage/>
    <Recogention/>
    <AssessorOrCAB/>
-   <Companies/>
+   {/* <Companies/> */}
+   <div className=''>
    <Slider/>
+   </div>
    <Footer/>
    </>
   );

@@ -8,6 +8,7 @@
     background-position: center;
     background-size: cover;
     padding: 3.8888888889rem 0;
+    z-index: -1;
 }
 .headAssessorCab{
 font-size: 2.6666666667rem;
@@ -22,21 +23,20 @@ text-align: center;
     bottom: 0;
     right: 0;
     left: 0;
-}
-.innerContainer {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
+    
+ }
+
 .cardCertificate{
-position: relative;
-border-radius: 1.1111111111rem;
-padding: 1.6666666667rem 2.2222222222rem;
-display: flex;
-justify-content: space-between;
-align-items: center;}
+    position: relative;
+    border-radius: 1.1111111111rem;
+    padding: 1.6666666667rem 2.2222222222rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 999;
+   
+}
 
 .cardCertificate::after {
     content: "";
@@ -49,13 +49,13 @@ align-items: center;}
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: 0;
+    z-index: -1;
     border-radius: 1.1111111111rem;
 }
 .workspaceItem::after {
     background-image: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%),url('../public/images/home_page/assessor_workspace_bg.jpg');
 }
-@media (min-width: 768px)
+@media (max-width: 768px)
 {
 .innerContainer {
     max-width: 720px;
@@ -63,11 +63,19 @@ align-items: center;}
 
 .cardCertificate {
     margin-bottom: 0.6666666667rem;
-}
-}
-@media (min-width: 576px)
+  
+}}
+@media (max-width: 576px)
 {
+    .mainDivContainer{
+        padding-top: 50rem;
+         flex-wrap: wrap; 
+    }  
 .innerContainer {
     max-width: 540px;
+}
+.cardCertificate {
+    margin-bottom: 0.6666666667rem;
+    
 }
 }
