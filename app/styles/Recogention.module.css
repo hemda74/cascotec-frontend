@@ -1,17 +1,17 @@
 .sectionRecogention{
-    position: relative;
     padding: 6.0555555556rem 0;
+    position: relative;
 }
-.conaninerRecogention{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.conaninerRecogention::after {
-    content: "";
-    position: absolute;
+ .conaninerRecogention{
+    background-image: linear-gradient(90deg, #cae5ee 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%),url('../public/images/home_page/recogention.jpg');
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+} 
+/* .conaninerRecogention::after {
+    
     left: 0;
     right: 0;
     background-image: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%),url('../public/images/home_page/recogention.jpg');
@@ -21,7 +21,7 @@
     top: 0;
     bottom: 0;
     z-index: -1;
-}
+} */
 .cardRecognition{
     border-radius: 1.1111111111rem;
     padding: 2.2222222222rem;
@@ -30,9 +30,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right bottom;
-    max-width: 40rem;
-    margin-left: -20rem !important;
-    min-width: 40rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    max-width: 45%;
+    min-width: 45%;
 }
 .card_Recognition span{
     font-size: 1.7777777778rem;
@@ -56,13 +57,13 @@
     margin-right: 1.6666666667rem;
     margin-bottom: 1.1111111111rem;
 }
-@media (min-width: 768px)
+@media (max-width: 768px)
 {
     .conaninerRecogention {
     max-width: 720px;
     }
 }
-@media (min-width: 576px)
+@media (max-width: 576px)
 {
     .mainDivRecogention {
         flex: 0 0 100%;
@@ -71,4 +72,18 @@
     .conaninerRecogention {
     max-width: 540px;
     }
+    .cardRecognition{
+        border-radius: 1.1111111111rem;
+        padding: 2.2222222222rem;
+        box-shadow: -1.1111111111rem 1.6666666667rem 2.2222222222rem rgba(0,0,0,.05);
+        background-image: url('../public/images//home_page/recogention_inner_image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    
 }

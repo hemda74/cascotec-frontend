@@ -72,9 +72,9 @@ const Login: NextPage = () => {
    <Recogention/>
    <AssessorOrCAB/>
    {/* <Companies/> */}
-   <div className=''>
+   
    <Slider/>
-   </div>
+   
    <Footer/>
    </>
   );
