@@ -4,18 +4,19 @@ import styles from '../styles/AccreditedBodiesCompaines.module.css'
 export default class SwipeToSlide extends Component {
   render() {
     const settings = {
-      className: "center",
-      infinite: true,
-      centerPadding: "50px",
-      slidesToShow: 5,
-      swipeToSlide: true,
-      dots: false,
-      infinite: true,
-      slidesToShow: 8,
-      slidesToScroll: 2,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      pauseOnHover: true,
+        className: "center",
+        infinite: true,
+        centerPadding: "50px",
+        slidesToShow: 5,
+        swipeToSlide: true,
+        dots: false,
+        infinite: true,
+        slidesToShow: 8,
+        speed:500,
+        slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true,
       responsive: [
         {
           breakpoint: 1024,
