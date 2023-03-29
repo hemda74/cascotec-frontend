@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import styles from '../styles/AccreditedBodiesCompaines.module.css'
-export default class SwipeToSlide extends Component {
-  render() {
+const SwipeToSlide = (props) => { 
     const settings = {
       className: "center",
       infinite: true,
@@ -109,4 +108,5 @@ export default class SwipeToSlide extends Component {
       </div>
     );
   }
-}
+
+export default  SwipeToSlide
