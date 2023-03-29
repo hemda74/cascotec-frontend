@@ -8,6 +8,7 @@ import image4 from '../public/images/home_page/sevices_section/image4.jpg'
 import image5 from '../public/images/home_page/sevices_section/image5.jpg'
 import image6 from '../public/images/home_page/sevices_section/image6.jpg'
 import image7 from '../public/images/home_page/sevices_section/image7.jpg'
+import Image from 'next/image'
 export default class AppendDots extends Component {
   render() {
     const settings = {
