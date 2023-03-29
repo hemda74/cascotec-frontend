@@ -52,58 +52,58 @@ export default class SwipeToSlide extends Component {
       <div className="mt-3">
         <Slider {...settings}>
         <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image1.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image1.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`}src="/images/home_page/Companies_Section/image2.png"/>
+            <img className={`${styles.imageDiv}`}src="/images/home_page/Companies_Section/image2.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image3.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image3.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image4.jpg"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image4.jpg" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image5.jpg"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image5.jpg" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image6.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image6.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image7.jpg"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image7.jpg" alt=" " />
           </div>
           <div className="">
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image8.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image8.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image9.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image9.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image1.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image1.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`}src="/images/home_page/Companies_Section/image2.png"/>
+            <img className={`${styles.imageDiv}`}src="/images/home_page/Companies_Section/image2.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image3.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image3.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image4.jpg"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image4.jpg" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image5.jpg"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image5.jpg" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image6.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image6.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image7.jpg"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image7.jpg" alt=" " />
           </div>
           <div className="">
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image8.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image8.png" alt=" " />
           </div>
           <div className={``}>
-            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image9.png"/>
+            <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image9.png" alt=" " />
           </div>
         </Slider>
       </div>

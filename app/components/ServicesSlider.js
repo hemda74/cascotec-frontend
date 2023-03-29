@@ -1,12 +1,19 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import styles from '../styles/Services.module.css'
+import image1 from '../public/images/home_page/sevices_section/image1.jpg'
+import image2 from '../public/images/home_page/sevices_section/image2.jpg'
+import image3 from '../public/images/home_page/sevices_section/image3.jpg'
+import image4 from '../public/images/home_page/sevices_section/image4.jpg'
+import image5 from '../public/images/home_page/sevices_section/image5.jpg'
+import image6 from '../public/images/home_page/sevices_section/image6.jpg'
+import image7 from '../public/images/home_page/sevices_section/image7.jpg'
 export default class AppendDots extends Component {
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
-      speed: 500,
+      speed: 0,
       slidesToShow: 1,
       slidesToScroll: 1,
       appendDots: dots => (
@@ -41,7 +48,7 @@ export default class AppendDots extends Component {
                     </p>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <img src="../public/images/home_page/sevices_section/image1.jpg" alt=""/>
           </div>
           <div>
             <h3>2</h3>
