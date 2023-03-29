@@ -11,12 +11,12 @@ const AssessorOrCAB = () => {
                 </div>
                 <div className={`${styles.bodyAssessorCab}  `}>
                     <div className={`container ${styles.innerContainer} `}>
-                        <div className={`d-flex justify-content-between  ${styles.mainDivContainer}`}>
-                             <div className={`col-md-6 col-sm-12 col-xl-6 col-lg-6 ${styles.cardCertificate} `}>
+                        <div className={`row justify-content-center  ${styles.mainDivContainer}`}>
+                             <div className={`col-md-6 col-sm-12 col-xl-6 col-xs-12 col-lg-6 ${styles.cardCertificate} me-lg-4 ms-lg-4 `}>
                                             <img src="/images/home_page/assessor-illustration.png" alt=""/>
                                             <button className={`myInfo p-2 rounded ${styles.btnClass} `} type="submit">Send Message</button>
                                     </div>
-                                        <div className={` col-md-6 col-sm-12 col-xl-6 col-lg-6 ${styles.cardCertificate}`}>
+                                        <div className={` col-md-6 col-sm-12 col-xs-12 col-xl-6 col-lg-6 ${styles.cardCertificate2}`}>
                                         <img src="/images/home_page/cab-illustration.png" alt=""/>
                                             <button className={`myInfo p-2 rounded ${styles.btnClass} `} type="submit">Send Message</button>
                                         </div>

@@ -1,6 +1,7 @@
 .sectionAssessorCab{
     position: relative;
     padding-bottom: 3.8888888889rem;
+    margin-bottom: 5rem;
 }
 .innerAssessorCab{
     background: url('../public/images/home_page/assesorofcab_background.png'),#3b4351;
@@ -23,22 +24,43 @@ text-align: center;
     bottom: 0;
     right: 0;
     left: 0;
-    
  }
-
 .cardCertificate{
     position: relative;
     border-radius: 1.1111111111rem;
-    padding: 1.6666666667rem 2.2222222222rem;
+    padding: 1.5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     z-index: 999;
-   
+    width: 38%;
+}
+.cardCertificate2{
+    position: relative;
+    border-radius: 1.1111111111rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    width: 38%;
 }
 
 .cardCertificate::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%),url('../public/images/home_page/assessor_workspace_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    border-radius: 1.1111111111rem;
+}
+.cardCertificate2::after {
     content: "";
     position: absolute;
     left: 0;
@@ -52,30 +74,40 @@ text-align: center;
     z-index: -1;
     border-radius: 1.1111111111rem;
 }
-.workspaceItem::after {
-    background-image: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%),url('../public/images/home_page/assessor_workspace_bg.jpg');
-}
 @media (max-width: 768px)
 {
-.innerContainer {
-    max-width: 720px;
+    .innerContainer {
+        max-width: 720px;
+    }
+    .cardCertificate {
+        margin-bottom: 0.6666666667rem;
+        width: 100%;
+        margin-top: 14rem;
+    }
+    .cardCertificate2 {
+        margin-bottom: 0.6666666667rem;
+        width: 100%;
+        margin-bottom: -11rem;
+    
+    }
+    .mainDivContainer{
+        flex-wrap: wrap; 
+    }  
 }
-
-.cardCertificate {
-    margin-bottom: 0.6666666667rem;
-  
-}}
 @media (max-width: 576px)
 {
+    .sectionAssessorCab{
+        position: relative;
+        padding-bottom: 3.8888888889rem;
+        margin-bottom:15rem;
+    }
     .mainDivContainer{
-        padding-top: 50rem;
-         flex-wrap: wrap; 
+        flex-wrap: wrap; 
     }  
-.innerContainer {
-    max-width: 540px;
-}
-.cardCertificate {
-    margin-bottom: 0.6666666667rem;
-    
-}
+    .innerContainer {
+        max-width: 540px;
+    }
+    .cardCertificate {
+        margin-bottom: 0.6666666667rem;   
+    }
 }
