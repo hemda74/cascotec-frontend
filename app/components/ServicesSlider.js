@@ -48,7 +48,7 @@ export default class AppendDots extends Component {
                     </p>
         <Slider {...settings}>
           <div>
-            <img src="../public/images/home_page/sevices_section/image1.jpg" alt=""/>
+            <Image src="../public/images/home_page/sevices_section/image1.jpg" alt=""/>
           </div>
           <div>
             <h3>2</h3>
