@@ -24,7 +24,7 @@ import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 import Recogention from '../components/Recogention';
 // import Slider from "../components/Slider";
 import AssessorOrCAB from '../components/AssessorOrCAB';
-import Services2 from '../components/Services2';
+// import Services2 from '../components/Services2';
 import ServicesSlider from '../components/ServicesSlider';
 import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines'
 import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl'
