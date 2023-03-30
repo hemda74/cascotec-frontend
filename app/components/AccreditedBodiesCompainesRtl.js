@@ -7,7 +7,6 @@ const SwipeToSlide = (props) => {
       className: "center",
       infinite: true,
       centerPadding: "50px",
-      slidesToShow: 5,
       swipeToSlide: true,
       dots: false,
       infinite: true,

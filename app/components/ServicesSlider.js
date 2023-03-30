@@ -1,73 +1,265 @@
+// import React, { Component } from "react";
+// import Slider from "react-slick";
+// import styles from '../styles/Services.module.css'
+// import image1 from '../public/images/home_page/sevices_section/image1.jpg'
+// import image2 from '../public/images/home_page/sevices_section/image2.jpg'
+// import image3 from '../public/images/home_page/sevices_section/image3.jpg'
+// import image4 from '../public/images/home_page/sevices_section/image4.jpg'
+// import image5 from '../public/images/home_page/sevices_section/image5.jpg'
+// import image6 from '../public/images/home_page/sevices_section/image6.jpg'
+// import image7 from '../public/images/home_page/sevices_section/image7.jpg'
+// export default class AppendDots extends Component {
+//   render() {
+//     const settings = {
+//       dots: true,
+//       infinite: true,
+//       speed: 0,
+//       slidesToShow: 1,
+//       slidesToScroll: 1,
+//       appendDots: dots => (
+//         <div
+//           style={{
+//             backgroundColor: "#ddd",
+//             borderRadius: "10px",
+//             padding: "10px",
+            
+//           }}
+//         >
+//           <ul style={{ margin: "0px" }}> {dots} </ul>
+//         </div>
+//       ),
+//       customPaging: i => (
+//         <div
+//           style={{
+//             width: "30px",
+//             color: "blue",
+//             border: "1px blue solid"
+//           }}
+//         >
+//           {i + 1}
+//         </div>
+//       )
+//     };
+//     return (
+//        <div className={`row m-auto `}>
+//        <div className="col-sm-12">
+//        <div className={`${styles.ServiceSction}`} >
+//          <div className=" text-center ">
+        
+//         <Slider {...settings}>
+//           <div>
+//             <span>1</span>
+//           </div>
+//           <div>
+//             <span>2</span>
+//           </div>
+//           <div>
+//             <span>3</span>
+//           </div>
+//           <div>
+//             <span>4</span>
+//           </div>
+//           <div>
+//             <span>5</span>
+//           </div>
+//           <div>
+//             <span>6</span>
+//           </div>
+//         </Slider>
+//       </div>
+//        </div>
+//        </div>
+//        </div>
+//     );
+//   }
+// }
+/////////////////////////////////////
 import React, { Component } from "react";
 import Slider from "react-slick";
 import styles from '../styles/Services.module.css'
-import image1 from '../public/images/home_page/sevices_section/image1.jpg'
-import image2 from '../public/images/home_page/sevices_section/image2.jpg'
-import image3 from '../public/images/home_page/sevices_section/image3.jpg'
-import image4 from '../public/images/home_page/sevices_section/image4.jpg'
-import image5 from '../public/images/home_page/sevices_section/image5.jpg'
-import image6 from '../public/images/home_page/sevices_section/image6.jpg'
-import image7 from '../public/images/home_page/sevices_section/image7.jpg'
 import Image from 'next/image'
-export default class AppendDots extends Component {
-  render() {
-    const settings = {
-      dots: false,
-      infinite: true,
-      speed: 0,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      appendDots: dots => (
-        <div
-          style={{
-            backgroundColor: "#ddd",
-            borderRadius: "10px",
-            padding: "1px",
-          }}
-        >
-          <ul style={{ margin: "0px" }}> {dots} </ul>
-        </div>
-      ),
-      customPaging: i => (
-        <div
-          style={{
-            width: "30px",
-            color: "blue",
-            border: "1px blue solid"
-          }}
-        >
-          {i + 1}
-        </div>
-      )
+import image1 from '../public/images/home_page/sevices_section/image1.jpg';
+import image2 from '../public/images/home_page/sevices_section/image2.jpg';
+import image3 from '../public/images/home_page/sevices_section/image3.jpg';
+import image4 from '../public/images/home_page/sevices_section/image4.jpg';
+import image5 from '../public/images/home_page/sevices_section/image5.jpg';
+import image6 from '../public/images/home_page/sevices_section/image6.jpg';
+import image7 from '../public/images/home_page/sevices_section/image7.jpg';
+export default class AsNavFor extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      nav1: null,
+      nav2: null
     };
+  }
+
+  componentDidMount() {
+    this.setState({
+      nav1: this.slider1,
+      nav2: this.slider2
+    });
+  }
+
+  render() {
+    const settings_first_slider = {
+      speed:0,
+      //  rtl: true,
+    }
+    const settings = {
+    rtl: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 1,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 3,
+          initialSlide: 1,
+          dots: false
+        }
+      }
+    ]
+  }
     return (
-      <div className={` text-center ${styles.serviceSection}`}>
-        <span className={`${styles.servicesTitle}`} data-trans='servicesTitle'>SERVICES</span>
-                <span className={`fs-4 fw-bold`} data-trans='servicesSubTitle'>Accreditation made simple for you</span>
-                     <p className="text-black-50 mt-2" data-trans='servicesbrief'>
-                     The services we offer foster mutual confidence between service providers and consumers
-                    </p>
-        <Slider {...settings}>
-          <div>
-            <img src="../public/images/home_page/sevices_section/image1.jpg" alt=""/>
+      <div className={`row   `}>
+      
+              <div className="col-sm-12">
+              <div className={`${styles.ServiceSction}`} >
+              <div className=" m-auto col-xl-8 col-lg-10 col-md-12">
+                <div className=" text-center ">
+      <div>
+        
+        <Slider
+        {...settings_first_slider}
+          asNavFor={this.state.nav2}
+          ref={slider => (this.slider1 = slider)}
+        >
+          <div className={` d-flex ${styles.mainCard}`} >
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+                  <Image src={image1} className={`${styles.objImage} `} width={550} height={450} alt=""/>
+              </div>
+              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+              </div>
           </div>
-          <div>
-            <h3>2</h3>
+          <div className={` d-flex  ${styles.mainCard}`} >
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+                  <Image src={image2} className={`${styles.objImage} `} width={550} height={450} alt=""/>
+              </div>
+              <div className={`  col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+              </div>
           </div>
-          <div>
-            <h3>3</h3>
+          <div className={` d-flex ${styles.mainCard}`} >
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+                  <Image src={image3} className={`${styles.objImage} `} width={550} height={450} alt=""/>
+              </div>
+              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+              </div>
           </div>
-          <div>
-            <h3>4</h3>
+          <div className={` d-flex ${styles.mainCard}`} >
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+                  <Image src={image4} className={`${styles.objImage} `} width={550} height={450} alt=""/>
+              </div>
+              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+              </div>
           </div>
-          <div>
-            <h3>5</h3>
+          <div className={` d-flex ${styles.mainCard}`} >
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+                  <Image src={image5} className={`${styles.objImage} `} width={550} height={450} alt=""/>
+              </div>
+              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+              </div>
           </div>
-          <div>
-            <h3>6</h3>
+          <div className={` d-flex ${styles.mainCard}`} >
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+                  <Image src={image6} className={`${styles.objImage} `} width={550} height={450} alt=""/>
+              </div>
+              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+              </div>
+          </div>
+          <div className={` d-flex ${styles.mainCard}`} >
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+                  <Image src={image7} className={`${styles.objImage} `} width={550} height={450} alt=""/>
+              </div>
+              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+              </div>
+          </div>
+        </Slider>
+{/* Second Slider */}
+        <Slider
+        {...settings}
+          asNavFor={this.state.nav1}
+          ref={slider => (this.slider2 = slider)}
+          slidesToShow={3}
+          swipeToSlide={true}
+          focusOnSelect={true}
+        >
+          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3  `}>
+          <Image src={image1} className={`${styles.objImage} `} width={50} height={250} alt=""/>
+          <span className="fw-bold">hello</span>
+          </div>
+          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
+          <Image src={image2} className={`${styles.objImage} `} width={50} height={250} alt=""/>
+          <span className="fw-bold">hello</span>
+          </div>
+          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
+          <Image src={image3} className={`${styles.objImage} `} width={50} height={250} alt=""/>
+          <span className="fw-bold">hello</span>
+          </div>
+          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
+          <Image src={image4} className={`${styles.objImage} `} width={50} height={250} alt=""/>
+          <span className="fw-bold">hello</span>
+          </div>
+          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
+          <Image src={image5} className={`${styles.objImage} `} width={50} height={250} alt=""/>
+          <span className="fw-bold">hello</span>
+          </div>
+          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
+          <Image src={image6} className={`${styles.objImage} `} width={50} height={250} alt=""/>
+          <span className="fw-bold">hello</span>
+          </div>
+          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
+          <Image src={image7} className={`${styles.objImage} `} width={50} height={250} alt=""/>
+          <span className="fw-bold">hello</span>
           </div>
         </Slider>
       </div>
+      </div>
+      </div>
+      </div>
+      </div>
+12   </div>
     );
   }
 }
