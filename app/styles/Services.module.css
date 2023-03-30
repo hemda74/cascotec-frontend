@@ -25,6 +25,7 @@
   z-index: -1;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -10%;
 }
 .itemContent{
   z-index: -1;
@@ -48,11 +49,14 @@
     margin-bottom: 1.6666666667rem;
 }
 .secondContainer{
-  background: #f9f9f9;
+  margin-top: 0rem;
+  background: #fff;
   border-radius: 1.5rem;
+  max-width: 15rem;
+  padding: 1rem 1rem 2rem 1rem;
 }
 .secondContainer:hover{
-  border: #2186ec solid 1px ;
+  border: #2186ec solid 0.5px ;
 }
 .objImageDiv{
   margin-left: 0rem;

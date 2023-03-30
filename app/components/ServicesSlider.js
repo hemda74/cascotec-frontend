@@ -112,7 +112,7 @@ export default class AsNavFor extends Component {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 7,
           slidesToScroll: 2,
           infinite: true,
           dots: false
@@ -140,7 +140,6 @@ export default class AsNavFor extends Component {
   }
     return (
       <div className={`row   `}>
-      
               <div className="col-sm-12">
               <div className={`${styles.ServiceSction}`} >
               <div className=" m-auto col-xl-8 col-lg-10 col-md-12">
@@ -221,37 +220,37 @@ export default class AsNavFor extends Component {
         {...settings}
           asNavFor={this.state.nav1}
           ref={slider => (this.slider2 = slider)}
-          slidesToShow={3}
+          slidesToShow={4}
           swipeToSlide={true}
           focusOnSelect={true}
         >
-          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3  `}>
-          <Image src={image1} className={`${styles.objImage} `} width={50} height={250} alt=""/>
-          <span className="fw-bold">hello</span>
+          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
+          <Image src={image1} className={`${styles.objImage} `} width={180} height={250} alt=""/>
+          <span className="fw-bold mt-4">hello</span>
           </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
-          <Image src={image2} className={`${styles.objImage} `} width={50} height={250} alt=""/>
-          <span className="fw-bold">hello</span>
+          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
+          <Image src={image2} className={`${styles.objImage} `} width={180} height={250} alt=""/>
+          <span className="fw-bold mt-4">hello</span>
           </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
-          <Image src={image3} className={`${styles.objImage} `} width={50} height={250} alt=""/>
-          <span className="fw-bold">hello</span>
+          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
+          <Image src={image3} className={`${styles.objImage} `} width={180} height={250} alt=""/>
+          <span className="fw-bold mt-4">hello</span>
           </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
-          <Image src={image4} className={`${styles.objImage} `} width={50} height={250} alt=""/>
-          <span className="fw-bold">hello</span>
+          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
+          <Image src={image4} className={`${styles.objImage} `} width={180} height={250} alt=""/>
+          <span className="fw-bold mt-4">hello</span>
           </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
-          <Image src={image5} className={`${styles.objImage} `} width={50} height={250} alt=""/>
-          <span className="fw-bold">hello</span>
+          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
+          <Image src={image5} className={`${styles.objImage} `} width={180} height={250} alt=""/>
+          <span className="fw-bold mt-4">hello</span>
           </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
-          <Image src={image6} className={`${styles.objImage} `} width={50} height={250} alt=""/>
-          <span className="fw-bold">hello</span>
+          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
+          <Image src={image6} className={`${styles.objImage} `} width={180} height={250} alt=""/>
+          <span className="fw-bold mt-4">hello</span>
           </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column me-3 ms-3 p-3 `}>
-          <Image src={image7} className={`${styles.objImage} `} width={50} height={250} alt=""/>
-          <span className="fw-bold">hello</span>
+          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
+          <Image src={image7} className={`${styles.objImage} `} width={180} height={250} alt=""/>
+          <span className="fw-bold mt-4">hello</span>
           </div>
         </Slider>
       </div>
@@ -259,7 +258,7 @@ export default class AsNavFor extends Component {
       </div>
       </div>
       </div>
-12   </div>
-    );
+   </div>
+   );
   }
 }
