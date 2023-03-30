@@ -139,13 +139,12 @@ export default class AsNavFor extends Component {
     ]
   }
     return (
-      <div className={`row   `}>
+      <div className={`row`}>
               <div className="col-sm-12">
               <div className={`${styles.ServiceSction}`} >
               <div className=" m-auto col-xl-8 col-lg-10 col-md-12">
                 <div className=" text-center ">
       <div>
-        
         <Slider
         {...settings_first_slider}
           asNavFor={this.state.nav2}
@@ -225,32 +224,32 @@ export default class AsNavFor extends Component {
           focusOnSelect={true}
         >
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image1} className={`${styles.objImage} `} width={180} height={250} alt=""/>
-          <span className="fw-bold mt-4">hello</span>
+          <Image src={image1} className={`${styles.objImage} `} width={170} height={210} alt=""/>
+          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image2} className={`${styles.objImage} `} width={180} height={250} alt=""/>
-          <span className="fw-bold mt-4">hello</span>
+          <Image src={image2} className={`${styles.objImage} `} width={170} height={210} alt=""/>
+          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image3} className={`${styles.objImage} `} width={180} height={250} alt=""/>
-          <span className="fw-bold mt-4">hello</span>
+          <Image src={image3} className={`${styles.objImage} `} width={170} height={210} alt=""/>
+          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image4} className={`${styles.objImage} `} width={180} height={250} alt=""/>
-          <span className="fw-bold mt-4">hello</span>
+          <Image src={image4} className={`${styles.objImage} `} width={170} height={210} alt=""/>
+          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image5} className={`${styles.objImage} `} width={180} height={250} alt=""/>
-          <span className="fw-bold mt-4">hello</span>
+          <Image src={image5} className={`${styles.objImage} `} width={170} height={210} alt=""/>
+          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image6} className={`${styles.objImage} `} width={180} height={250} alt=""/>
-          <span className="fw-bold mt-4">hello</span>
+          <Image src={image6} className={`${styles.objImage} `} width={170} height={210} alt=""/>
+          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image7} className={`${styles.objImage} `} width={180} height={250} alt=""/>
-          <span className="fw-bold mt-4">hello</span>
+          <Image src={image7} className={`${styles.objImage} `} width={170} height={210} alt=""/>
+          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
           </div>
         </Slider>
       </div>

@@ -18,16 +18,14 @@ import AboutLand from '../components/AboutLand';
 import Services from '../components/ServicesComp';
 import Footer from '../components/Footer';
 import About from '../components/AboutPage1';
-import Companies from '../components/Companies';
 import ApplyAcc from '../components/ApplyAcc';
 import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 import Recogention from '../components/Recogention';
-// import Slider from "../components/Slider";
 import AssessorOrCAB from '../components/AssessorOrCAB';
-// import Services2 from '../components/Services2';
 import ServicesSlider from '../components/ServicesSlider';
 import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines'
 import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl'
+import NewsHomePage from '../components/NewsHomePage';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -77,6 +75,7 @@ const Login: NextPage = () => {
    <AccreditedBodiesCompaines/>
    <AccreditedBodiesCompainesRtl/>
    <AssessorOrCAB/>
+   <NewsHomePage/>
    <Footer/>
    </>
   );

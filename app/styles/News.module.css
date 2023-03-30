@@ -98,6 +98,13 @@ color: var(--color-secondary);
 .spanReadMore{
   color:#0b8bd0;
 }
+.SearchButton{
+  border-radius: 0.4rem;
+  margin-top: 1.5rem !important;
+  padding: 0.7rem 1.5rem;
+  font-weight: 700;
+  border:  solid 1px var(--color-secondary);
+}
 
 @media (max-width: 480px)
 {
