@@ -36,8 +36,8 @@ export default class NewsHomePage extends Component {
       infinite: true,
       slidesToShow: 3,
       slidesToScroll: 1,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />,
+      // nextArrow: <SampleNextArrow />,
+      // prevArrow: <SamplePrevArrow />,
       responsive: [
         {
           breakpoint: 1024,

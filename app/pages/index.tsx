@@ -26,6 +26,7 @@ import ServicesSlider from '../components/ServicesSlider';
 import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines'
 import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl'
 import NewsHomePage from '../components/NewsHomePage';
+import Steps from '../components/Steps';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -69,6 +70,7 @@ const Login: NextPage = () => {
    <Hero/>
    <AboutLand/>
    <ServicesSlider/>
+   <Steps/>
    <ApplyAcc/>
    <CoursesSectionHomePage/>
    <Recogention/>

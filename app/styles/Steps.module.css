@@ -1,0 +1,163 @@
+.SectionBeCertified{
+    padding: 2.7777777778rem 0;
+}
+.innerContainer {
+   margin: auto;
+}
+.sectionServicesHead{
+    text-align: center;
+}
+.spanFeature{
+    font-size: .8888888889rem;
+    font-weight: 700;
+    color: #1f3fbe;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1.6666666667rem;
+}
+.headingFeature{
+    font-size: 1.7777777778rem;
+    font-weight: 700;
+    color: #252e3e;
+    line-height: 2.7777777778rem;
+    margin-bottom: 1.1111111111rem;
+}
+.SectionBeCertified .pargraphFeature{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.6666666667rem;
+}
+.pargraphFeature{
+    font-size: 1.1111111111rem;
+    font-weight: 600;
+    color: #666d78;
+    line-height: 1.8333333333rem;
+}
+.sectionServicesHead.infoGraph .listCheckTage{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.listCheckTage{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.itemCkeckTage{    
+    padding: 0.2222222222rem 1rem;
+    border: 2px solid #e9e9e9;
+    border-radius: 1.3888888889rem;
+    margin: 0.1111111111rem 0.3888888889rem;
+}
+.listCheckTage .itemCkeckTage{
+    margin-bottom: 0.8333333333rem;
+    display: flex;
+    padding-left: 1.3333333333rem;
+    position: relative;
+    font-size: .8888888889rem;
+    font-weight: 400;
+    color: #252e3e;
+    line-height: 1.6666666667rem;
+    margin-bottom: 0;
+}
+.listCheckTage .itemCkeckTage::after{
+    content: "";
+    position: absolute;
+    width: 0.6666666667rem;
+    height: 0.6666666667rem;
+    left:0.5555555556rem ;
+    background-image: url('../public/images/home_page/steps_section/selection-single.svg');
+    top: 0.9555555556rem;
+    padding: 0.1rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.listCheckTage .itemCkeckTage .spanSteps{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #252e3e;
+    line-height: 1.8333333333rem;
+    padding: 0.2rem;
+}
+.listCheckTage .itemCkeckTage p{
+    font-size: .8888888889rem;
+    font-weight: 400;
+    color: #252e3e;
+    line-height: 1.6666666667rem;
+    margin-bottom: 0
+}
+.listCheckTage .itemCkeckTage:last-child{
+    margin-bottom: 0;
+}
+.cirtifiedGraph{
+    padding: 4.4444444444rem 0 5.5555555556rem;
+    background-image: url('../public/images/home_page/steps_section/cirtified-bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: -8.5rem;
+}
+.itemsList{
+    margin-right: -4.4444444444rem;
+    margin-left: 4.4444444444rem;
+    /* background-image: url('../public/images/home_page/steps_section/connector.svg'); */
+    background-position: top 7.2222222222rem right 4.4444444444rem;
+    background-repeat: no-repeat;
+    background-size: 8.8888888889rem;
+}
+.itemsList>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.SectionBeCertified.infoGraph .cirtifiedGraph .item{
+    padding-bottom: 8.3333333333rem;
+    width: 33.3333333333%;
+    position: relative;
+}
+.SectionBeCertified.infoGraph .cirtifiedGraph .item>div{
+    width: 13.8888888889rem;
+}
+.SectionBeCertified.infoGraph .cirtifiedGraph .item .imgContainer{
+    position: relative;
+    padding: 0 1.1111111111rem;
+    margin-bottom: 1.3888888889rem;
+    display: inline-block;
+}
+.SectionBeCertified.infoGraph .cirtifiedGraph .item .imgContainer img{
+    height: 7.9444444rem;
+}
+.number{
+    position: absolute;
+    width: 2.2222222222rem;
+    height: 2.2222222222rem;
+    background-color: #217cc7;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 1.0555555556rem;
+    line-height: 2.2222222222rem;
+    text-align: center;
+    font-weight: 600;
+    transform: translateY(50%);
+}
+.SectionBeCertified.infoGraph .cirtifiedGraph .item h4{
+    font-size: 1.1111111111rem;
+    font-weight: 700;
+    line-height: 2.0555555556rem;
+    margin: 0;
+}
+.SectionBeCertified.infoGraph .cirtifiedGraph .item p{
+    font-size: .8888888889rem;
+    line-height: 1.5rem;
+}
+@media (max-width: 480px){
+}
