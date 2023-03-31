@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import styles from '../styles/News.module.css'
+import styles from '../styles/NewsHomePage.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import newsone from '../public/imagess/newsone.jpg'
@@ -69,7 +69,8 @@ export default class NewsHomePage extends Component {
       ]
     };
     return (
-      <div className="container col-xl-8 col-lg-10 col-md-12">
+      <div className={`${styles.mainDiv}`}>
+      <div className={`container col-xl-8 col-lg-10 col-md-12`}>
         <div className="row">
         <Slider {...settings}>
         <div className="col-lg-4 col-md-6 p-3" >
@@ -150,6 +151,7 @@ export default class NewsHomePage extends Component {
         </Slider>
       </div>
       <div className='text-center'><a href={'/courses'}> <button className={`myInfo-outline m-auto  ${styles.SearchButton}`}>VIEW ALL</button></a></div>
+      </div>
       </div>
     );
   }

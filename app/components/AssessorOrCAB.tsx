@@ -3,6 +3,7 @@ import styles from '../styles/AssessorOrCAB.module.css'
 const AssessorOrCAB = () => {
   return (
 <>
+    <div className={`${styles.mainDiv}`}>
     <div className="row">
         <div className="col-sm-12">
             <section className={`${styles.sectionAssessorCab}`}>
@@ -25,6 +26,7 @@ const AssessorOrCAB = () => {
                 </div>
             </section>
         </div>
+    </div>
     </div>
 </>
   )

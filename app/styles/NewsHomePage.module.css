@@ -1,32 +1,125 @@
+/* News Section*/
+.titleWord{
+  margin-top: -10rem;
+  margin-bottom: 10rem;
+}
+.accreditationThumbnail{
+  background: #f9f9f9;
+  padding: 5rem;
+  margin-left: 3rem;
+  border-radius: 2rem;
+  margin-right: 3rem;
+}
+.accreditationThumbnail2{
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.accreditationThumbnail2div{
+  margin-left: -6rem;
+  margin-right: -6rem;
+}
+.btnContainer{
+  padding: 1rem;
+  background: #0b8bd0;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 1rem;
+}
+/* Contact Section*/
+.titleWord{
+margin-top: -10rem;
+margin-bottom: 10rem;
+}
+.coursesCard
+{
+box-shadow: 0px 30px 30px -20px #8787b2;
+padding: 0.5rem;
+border-radius: 1rem;
+border: none;
+background: #ffff;
+display: flex;
+margin-top: -8rem;
+}
+.coursesHead{
+margin-top: auto;
+margin-bottom: auto;
+text-align: end;
+margin-left: 2rem;
+margin-right: 2rem;
+}
+.cardSubTitle{
+color: rgb(7, 142, 215);
+}
+.cardImage{
+margin-right: 6rem;
+margin-left: 6rem;
+}
+.searchCard{
+border-radius: 1rem;
+}
+.SearchButton{
+padding: 0.8rem 1.5rem 0.8rem ;
+border: none;
+}
+.formConatiner{
+margin-top:5rem;
+}
+/* plog postes */
 .postBox {
-    transition: 0.3s;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    padding: 0.4rem;
-    background: #f9f9f9;
-    flex-direction: column;
-    }
-    
-    .postImage {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-    border-radius: 10px;
-    }
-    .postTitle {
-    font-size: 24px;
-    color: #0b8bd0;
-    font-weight: 700;
-    margin: 15px 0 0 0;
-    position: relative;
-    transition: 0.3s;
-    }
-    .iconDate{
-    margin-top: 0.5rem;
-    color: var(--color-secondary);
-    }
-    .spanReadMore{
-      color:#0b8bd0;
-    }
+transition: 0.3s;
+height: 100%;
+overflow: hidden;
+position: relative;
+display: flex;
+padding: 0.4rem;
+background: #f9f9f9;
+flex-direction: column;
+}
+
+.postImage {
+overflow: hidden;
+width: 100%;
+position: relative;
+border-radius: 10px;
+}
+.postTitle {
+font-size: 24px;
+color: #0b8bd0;
+font-weight: 700;
+margin: 15px 0 0 0;
+position: relative;
+transition: 0.3s;
+}
+.iconDate{
+margin-top: 0.5rem;
+color: var(--color-secondary);
+}
+.spanReadMore{
+color:#0b8bd0;
+}
+.SearchButton{
+border-radius: 0.4rem;
+margin-top: 1.5rem !important;
+padding: 0.7rem 1.5rem;
+font-weight: 700;
+border:  solid 1px var(--color-secondary);
+}
+.mainDiv{
+  padding: 2.7777777778rem 0;
+    margin: 0;
+}
+@media (max-width: 480px)
+{
+.coursesCard{
+  display: flex;
+  flex-direction: column;
+}
+.cardImage{
+  margin: 0;
+}
+.coursesHead{
+  text-align: center;
+}
+}
+
