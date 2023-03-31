@@ -86,7 +86,7 @@ const Steps = () => {
 												</div>
 												<div>
 													<h4>Initial Assessment</h4>
-													<p>Assigned assessment team conducts the initial assessment</p>
+													<p>{`Assigned assessment team conducts the initial assessment`}</p>
 												</div>
 											</div>
 										</div>
@@ -100,7 +100,7 @@ const Steps = () => {
 												</div>
 												<div>
 													<h4>Decision Making Process</h4>
-													<p>Accreditation decision committee and accreditation decision manager reviews the assessment's deliverables &amp; make accreditation decision issuance of accreditation.</p>
+													<p>{`Accreditation decision committee and accreditation decision manager reviews the assessment's deliverables &amp; make accreditation decision issuance of accreditation.`}</p>
 												</div>
 											</div>
 										</div>
@@ -113,7 +113,7 @@ const Steps = () => {
 
 												<div>
 													<h4>Outcomes of the Assessment</h4>
-													<p>Assessment reports, the nonconformity cases, scope of accreditation, corrective action evidence, assessment team recommendation on accreditation, etc.</p>
+													<p>{`Assessment reports, the nonconformity cases, scope of accreditation, corrective action evidence, assessment team recommendation on accreditation, etc.`}</p>
 												</div>
 											</div>
 										</div>
@@ -125,7 +125,7 @@ const Steps = () => {
 												</div>
 												<div>
 													<h4>Closure of Findings</h4>
-													<p>CAB submits corrective action evidence for closure of findings within allowed time limit</p>
+													<p>{`CAB submits corrective action evidence for closure of findings within allowed time limit`}</p>
 												</div>
 											</div>
 										</div>
