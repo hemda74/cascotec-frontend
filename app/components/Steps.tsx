@@ -10,14 +10,14 @@ const Steps = () => {
 					<div className={`col-xl-9 col-lg-10 col-md-12 ${styles.innerContainer2}`}>
                     	<div className="row justify-content-center">
                         	<div className="col-md-8">
-                            	<div className={`${styles.sectionServicesHead}`}>
+                            	<div className={`${styles.sectionServicesHead} `}>
                                 	<span className={`${styles.spanFeature}`}>Be Certified</span>
-                                	<div className="row justify-content-center">
-                                    	<div className="col-md-9">
+                                	<div className="row justify-content-center ">
+                                    	<div className="">
                                         	<h4 className={`${styles.headingFeature}`}>The significance of accreditation and the process of obtaining it</h4>
                                     	</div>
 									</div>
-                                	<p className={`${styles.pargraphFeature}`}>The significance of accreditation is in its ability to be a dependable means of international trade through mutual acknowledgment between countries and economic</p>
+                                	<p className={`${styles.pargraphFeature}` }>The significance of accreditation is in its ability to be a dependable means of international trade through mutual acknowledgment between countries and economic</p>
                                 	<ul className={`${styles.listCheckTage}`}>
 										<li className="mt-3">
 											<div className={`${styles.itemCkeckTage}`}>
@@ -51,7 +51,7 @@ const Steps = () => {
                 	</div>
 					<div className={` col-10   ${styles.cirtifiedGraph}  `}>
 						<div className="row justify-content-center  ">
-							<div className="col-xl-9  ">
+							<div className="col-xl-11  ">
 								<div className={` row   ${styles.itemsList}`}>
 									<div className={`top col-12 row `}>
 										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12  `}>
