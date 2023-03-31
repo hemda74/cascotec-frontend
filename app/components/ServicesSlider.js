@@ -1,79 +1,3 @@
-// import React, { Component } from "react";
-// import Slider from "react-slick";
-// import styles from '../styles/Services.module.css'
-// import image1 from '../public/images/home_page/sevices_section/image1.jpg'
-// import image2 from '../public/images/home_page/sevices_section/image2.jpg'
-// import image3 from '../public/images/home_page/sevices_section/image3.jpg'
-// import image4 from '../public/images/home_page/sevices_section/image4.jpg'
-// import image5 from '../public/images/home_page/sevices_section/image5.jpg'
-// import image6 from '../public/images/home_page/sevices_section/image6.jpg'
-// import image7 from '../public/images/home_page/sevices_section/image7.jpg'
-// export default class AppendDots extends Component {
-//   render() {
-//     const settings = {
-//       dots: true,
-//       infinite: true,
-//       speed: 0,
-//       slidesToShow: 1,
-//       slidesToScroll: 1,
-//       appendDots: dots => (
-//         <div
-//           style={{
-//             backgroundColor: "#ddd",
-//             borderRadius: "10px",
-//             padding: "10px",
-            
-//           }}
-//         >
-//           <ul style={{ margin: "0px" }}> {dots} </ul>
-//         </div>
-//       ),
-//       customPaging: i => (
-//         <div
-//           style={{
-//             width: "30px",
-//             color: "blue",
-//             border: "1px blue solid"
-//           }}
-//         >
-//           {i + 1}
-//         </div>
-//       )
-//     };
-//     return (
-//        <div className={`row m-auto `}>
-//        <div className="col-sm-12">
-//        <div className={`${styles.ServiceSction}`} >
-//          <div className=" text-center ">
-        
-//         <Slider {...settings}>
-//           <div>
-//             <span>1</span>
-//           </div>
-//           <div>
-//             <span>2</span>
-//           </div>
-//           <div>
-//             <span>3</span>
-//           </div>
-//           <div>
-//             <span>4</span>
-//           </div>
-//           <div>
-//             <span>5</span>
-//           </div>
-//           <div>
-//             <span>6</span>
-//           </div>
-//         </Slider>
-//       </div>
-//        </div>
-//        </div>
-//        </div>
-//     );
-//   }
-// }
-/////////////////////////////////////
 import React, { Component } from "react";
 import Slider from "react-slick";
 import styles from '../styles/Services.module.css'
@@ -121,8 +45,8 @@ export default class AsNavFor extends Component {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 3,
+          slidesToScroll: 7,
           initialSlide: 1,
           dots: false
         }
@@ -131,7 +55,7 @@ export default class AsNavFor extends Component {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 3,
+          slidesToScroll: 7,
           initialSlide: 1,
           dots: false
         }
@@ -150,16 +74,16 @@ export default class AsNavFor extends Component {
           asNavFor={this.state.nav2}
           ref={slider => (this.slider1 = slider)}
         >
-          <div className={` d-flex ${styles.mainCard}`} >
+          <div className={` row ${styles.mainCard}`} >
               <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
-                  <Image src={image1} className={`${styles.objImage} `} width={550} height={450} alt=""/>
+                  <Image src={image1} className={`${styles.objImage} `} width={450} height={450} alt=""/>
               </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+              <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
                   <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
                   <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
               </div>
           </div>
-          <div className={` d-flex  ${styles.mainCard}`} >
+          <div className={` row  ${styles.mainCard}`} >
               <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
                   <Image src={image2} className={`${styles.objImage} `} width={550} height={450} alt=""/>
               </div>
@@ -168,25 +92,25 @@ export default class AsNavFor extends Component {
                   <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
               </div>
           </div>
-          <div className={` d-flex ${styles.mainCard}`} >
+          <div className={` row ${styles.mainCard}`} >
               <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
                   <Image src={image3} className={`${styles.objImage} `} width={550} height={450} alt=""/>
               </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+              <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
                   <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
                   <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
               </div>
           </div>
-          <div className={` d-flex ${styles.mainCard}`} >
+          <div className={` row ${styles.mainCard}`} >
               <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
                   <Image src={image4} className={`${styles.objImage} `} width={550} height={450} alt=""/>
               </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+              <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
                   <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
                   <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
               </div>
           </div>
-          <div className={` d-flex ${styles.mainCard}`} >
+          <div className={` row ${styles.mainCard}`} >
               <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
                   <Image src={image5} className={`${styles.objImage} `} width={550} height={450} alt=""/>
               </div>
@@ -195,7 +119,7 @@ export default class AsNavFor extends Component {
                   <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
               </div>
           </div>
-          <div className={` d-flex ${styles.mainCard}`} >
+          <div className={` row ${styles.mainCard}`} >
               <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
                   <Image src={image6} className={`${styles.objImage} `} width={550} height={450} alt=""/>
               </div>
@@ -204,7 +128,7 @@ export default class AsNavFor extends Component {
                   <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
               </div>
           </div>
-          <div className={` d-flex ${styles.mainCard}`} >
+          <div className={` row ${styles.mainCard}`} >
               <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
                   <Image src={image7} className={`${styles.objImage} `} width={550} height={450} alt=""/>
               </div>

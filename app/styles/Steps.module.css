@@ -102,6 +102,7 @@
     background-repeat: no-repeat;
     text-align: center;
     margin-left: -8.5rem;
+   
 }
 .itemsList{
     margin-right: -4.4444444444rem;
@@ -111,15 +112,14 @@
     background-repeat: no-repeat;
     background-size: 8.8888888889rem;
 }
-.itemsList>div {
+.top {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .SectionBeCertified.infoGraph .cirtifiedGraph .item{
-    padding-bottom: 8.3333333333rem;
-    width: 33.3333333333%;
-    position: relative;
+    padding-bottom: 3.3333333333rem;
+  
 }
 .SectionBeCertified.infoGraph .cirtifiedGraph .item>div{
     width: 13.8888888889rem;
@@ -134,13 +134,13 @@
     height: 7.9444444rem;
 }
 .number{
-    position: absolute;
+    
     width: 2.2222222222rem;
     height: 2.2222222222rem;
     background-color: #217cc7;
     border-radius: 50%;
     color: #fff;
-    position: absolute;
+    
     bottom: 0;
     left: 0;
     font-size: 1.0555555556rem;
@@ -159,5 +159,14 @@
     font-size: .8888888889rem;
     line-height: 1.5rem;
 }
-@media (max-width: 480px){
-}
+ @media (max-width: 480px){
+    .cirtifiedGraph{
+        padding: 4.4444444444rem 0 5.5555555556rem;
+        background-image: url('../public/images/home_page/steps_section/cirtified-bg.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+        margin: 0;
+    }
+} 
