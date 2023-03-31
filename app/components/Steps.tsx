@@ -19,27 +19,27 @@ const Steps = () => {
 									</div>
                                 	<p className={`${styles.pargraphFeature}`}>The significance of accreditation is in its ability to be a dependable means of international trade through mutual acknowledgment between countries and economic</p>
                                 	<ul className={`${styles.listCheckTage}`}>
-										<li>
+										<li className="mt-3">
 											<div className={`${styles.itemCkeckTage}`}>
 												<span className={styles.spanSteps}>Designing</span>
 											</div>
 										</li>
-										<li>
+										<li className="mt-3">
 											<div className={`${styles.itemCkeckTage}`}>
 												<span className={styles.spanSteps}>Manufacturing</span>
 											</div>
 										</li>
-										<li>
+										<li className="mt-3">
 											<div className={`${styles.itemCkeckTage}`}>
 												<span className={styles.spanSteps}>Producing</span>
 											</div>
 										</li>
-										<li>
+										<li className="mt-3">
 											<div className={`${styles.itemCkeckTage}`}>
 												<span className={styles.spanSteps}>Testing</span>
 											</div>
 										</li>
-										<li>
+										<li className="mt-3">
 											<div className={`${styles.itemCkeckTage}`}>
 												<span className={styles.spanSteps}>Inspecting</span>
 											</div>
@@ -52,9 +52,9 @@ const Steps = () => {
 					<div className={` col-10   ${styles.cirtifiedGraph}  `}>
 						<div className="row justify-content-center  ">
 							<div className="col-xl-9  ">
-								<div className={` row  ${styles.itemsList}`}>
-									<div className={`top col-12 row`}>
-										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 `}>
+								<div className={` row m-auto  ${styles.itemsList}`}>
+									<div className={`top col-12 row `}>
+										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12  `}>
 											<div>
 												<div className={`${styles.imgContainer}`}>
 													<img src="https://gac.org.sa/wp-content/uploads/2022/09/1.svg" alt="" />

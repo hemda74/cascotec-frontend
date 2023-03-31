@@ -49,7 +49,7 @@ export default class SwipeToSlide extends Component {
       ]
     };
     return (
-      <div>
+      <div className={`${styles.mainDiv}`}>
         <div className="fs-3 text-center fw-bold  mb-5 ">More than <span className={`${styles.spanNumber}`}>320</span> accredited bodies choose GAC</div>
         <Slider {...settings}>
         <div className={``}>

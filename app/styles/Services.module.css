@@ -6,6 +6,10 @@
   background-color: #f9f9f9;
   padding: 5.5555555556rem 0;
 }
+.mainDiv{
+    padding: 2.7777777778rem 0;
+    margin: 0;
+}
 .mainCard{
   /* box-shadow: -1.1111111111rem 1.6666666667rem 2.2222222222rem rgba(0,0,0,.05);
   border-radius:1rem ;

@@ -3,7 +3,9 @@ import React from 'react'
 const FlagesSection = () => {
   return (
     <>
-    <div className="row"><div className="col-sm-12"><section className="section_about">
+    <div className="row">
+		<div className="col-sm-12">
+			<section className="section_about">
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-xl-8 col-lg-10 col-md-12">
@@ -25,7 +27,9 @@ const FlagesSection = () => {
 						</div>
 					</div>
 				</div>
-			</section></div></div>
+			</section>
+		</div>
+	</div>
     </>
   )
 }

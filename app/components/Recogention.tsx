@@ -3,7 +3,7 @@ import styles from '../styles/Recogention.module.css'
 const Recogention = () => {
   return (
     <>
-        <div  className="">
+        <div  className={`${styles.mainSection}`}>
             <div  className={` ${styles.mainDivRecogention}`}>
                 <section className={`${styles.sectionRecogention}`}>
                     <div className={`${styles.conaninerRecogention}`}>

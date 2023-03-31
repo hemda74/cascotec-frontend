@@ -63,7 +63,7 @@ export default class AsNavFor extends Component {
     ]
   }
     return (
-      <div className={`row`}>
+      <div className={`row ${styles.mainDiv}`}>
               <div className="col-sm-12">
               <div className={`${styles.ServiceSction}`} >
               <div className=" m-auto col-xl-8 col-lg-10 col-md-12">

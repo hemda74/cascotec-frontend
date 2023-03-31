@@ -66,9 +66,10 @@ const Login: NextPage = () => {
       <Head>
       <title>CASCO</title>
    </Head>
+   <main className='m-0 p-0'>
    <NavBar/>
    <Hero/>
-   <AboutLand/>
+   {/* <AboutLand/> */}
    <ServicesSlider/>
     <Steps/> 
    <ApplyAcc/>
@@ -79,7 +80,9 @@ const Login: NextPage = () => {
    <AssessorOrCAB/>
    <NewsHomePage/>
    <Footer/>
+   </main>
    </>
+   
   );
 };
 

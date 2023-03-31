@@ -1,8 +1,9 @@
 .SectionBeCertified{
     padding: 2.7777777778rem 0;
+    margin: 0;
 }
 .innerContainer {
-   margin: auto;
+   margin:auto;
 }
 .sectionServicesHead{
     text-align: center;
@@ -168,5 +169,8 @@
         background-repeat: no-repeat;
         text-align: center;
         margin: 0;
+    }
+    .itemsList{
+        padding: 3rem;
     }
 } 

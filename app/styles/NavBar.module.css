@@ -1,3 +1,7 @@
+.navBar{
+    padding: 0.2777777778rem 0;
+    margin: 0;
+}
 .navLink{
     color: black;
     display: block;

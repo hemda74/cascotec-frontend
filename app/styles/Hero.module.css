@@ -4,6 +4,8 @@
     background: url("../public/login-background-image.jpg") top left;
     background-size: cover;
     position: relative;
+    padding: 2.7777777778rem 0;
+    margin: 0;
   }
   .landHead:before {
     content: "";
