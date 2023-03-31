@@ -52,7 +52,7 @@ const Steps = () => {
 					<div className={` col-10   ${styles.cirtifiedGraph}  `}>
 						<div className="row justify-content-center  ">
 							<div className="col-xl-9  ">
-								<div className={` row m-auto  ${styles.itemsList}`}>
+								<div className={` row   ${styles.itemsList}`}>
 									<div className={`top col-12 row `}>
 										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12  `}>
 											<div>
