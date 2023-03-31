@@ -27,6 +27,7 @@ import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines'
 import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl'
 import NewsHomePage from '../components/NewsHomePage';
 import Steps from '../components/Steps';
+import FlagesSection from '../components/FlagesSection';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -69,9 +70,9 @@ const Login: NextPage = () => {
    <main className='m-0 p-0'>
    <NavBar/>
    <Hero/>
-   {/* <AboutLand/> */}
+   <FlagesSection/>
    <ServicesSlider/>
-    <Steps/> 
+   <Steps/> 
    <ApplyAcc/>
    <CoursesSectionHomePage/>
    <Recogention/>

@@ -1,0 +1,82 @@
+
+.sectionAbout .sectionAboutInner {
+    position: relative;
+    margin-top: 2.7777777778rem;
+    margin-bottom: 8.3333333333rem
+}
+
+.sectionAbout .sectionAboutInner .bgImageHolder img {
+    width: 100%;
+    min-height: 250px
+}
+
+.sectionAbout .sectionAboutInner .sectionAboutContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex
+}
+.sectionAbout .sectionAboutInner .sectionAboutContent .sectionAboutBody {
+    padding: 10% 18%;
+    margin: auto
+}
+
+.sectionAbout .sectionAboutInner .sectionAboutBody {
+    text-align: center
+}
+
+.sectionAbout .sectionAboutInner .sectionAboutBody h4 {
+    margin-bottom: .5555555556rem
+}
+
+.sectionAbout .sectionAboutInner .sectionAboutBody p {
+    margin-bottom: 1.1111111111rem
+}
+
+.sectionAbout .sectionAboutInner .sectionAboutBody a {
+    color: var(--color-secondary);
+    font-size: .8888888889rem;
+    font-weight: 700
+}
+.spanFeature{
+    color: var(--color-secondary);
+    font-size: 1rem;
+    font-weight: 700
+}
+.sectionAbout .sectionAboutInner .sectionAboutBody a img {
+    margin-left: .4444444444rem;
+    height: .6111111111rem;
+    width: .3888888889rem
+}
+
+.sectionAbout .sectionAboutInner .sectionAboutBody a:hover {
+    color: var(--color-secondary);
+}
+
+@media(max-width: 767px) {
+    .sectionAbout .sectionAboutInner {
+        min-height:auto;
+        margin: 2.7777777778rem 0
+    }
+}
+
+.sectionAbout .sectionAboutInner .pargraphFeature {
+    overflow: hidden
+}
+
+@media(max-width: 767px) {
+    .sectionAbout .sectionAboutInner .pargraphFeature {
+        max-height:5.5rem;
+        
+    }
+}
+
+@media(max-width: 560px) {
+    .sectionAbout .sectionAboutInner .pargraphFeature {
+        max-height:3.6666666667rem;
+        line-height: 2rem;
+    }
+}
