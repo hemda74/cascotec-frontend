@@ -23,8 +23,8 @@ import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 import Recogention from '../components/Recogention';
 import AssessorOrCAB from '../components/AssessorOrCAB';
 import ServicesSlider from '../components/ServicesSlider';
-import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines'
-import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl'
+// import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines'
+// import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl'
 import NewsHomePage from '../components/NewsHomePage';
 import Steps from '../components/Steps';
 const Login: NextPage = () => {
