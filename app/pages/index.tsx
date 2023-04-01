@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styles from '../styles/NavBar.module.css';
+import styles from '../styles/Main.module.css'
 import Logo from '../components/Logo';
 import logo from '../public/logo.png'
 import Link from 'next/link';
@@ -67,7 +67,7 @@ const Login: NextPage = () => {
       <Head>
       <title>CASCO</title>
    </Head>
-   <main className='m-0 p-0'>
+   <main className={`${styles.bodyContainer}`}>
    <NavBar/>
    <Hero/>
    <FlagesSection/>
