@@ -26,9 +26,8 @@
     margin: 2.7777777778rem 0;
 }
 .footerStyle{
-    position:absolute;
+   position:absolute;
    bottom:0;
    width:100%;
    height:60px;   /* Height of the footer */
-   
 }

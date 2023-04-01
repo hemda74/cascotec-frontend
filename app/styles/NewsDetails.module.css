@@ -1,3 +1,4 @@
+
 .mainDiv{
     padding-bottom:60px;   /* Height of the footer */
     min-height:100%;
@@ -21,14 +22,13 @@
 }
 .mainImage{
     border-radius: 1.1111111111rem;
-    width: 10%;
     margin: auto !important;
     box-shadow: 0 0.3333333333rem 2.2222222222rem rgb(0 0 0 / 16%);
     margin: 2.7777777778rem 0;
 }
 .footerStyle{
-    bottom: 0;
     position:absolute;
     bottom:0;
     width:100%;
-}
+    height:60px;   /* Height of the footer */
+ }

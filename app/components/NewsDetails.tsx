@@ -54,7 +54,7 @@ const NewsDetails = () => {
                             <li className="me-2 ms-2 mt-1">
                             <span className="active" aria-current="page">Share:</span>
                             </li>
-                            <li className={`${styles.liIcons} `}>
+                            <li className={`${styles.liIcons} d-flex`}>
                             <Link className="" href={'/news'}><span className={`${styles.iconsHolders}`}><BsTwitter/></span></Link>
                             </li>
                             <li className={` me-1 ms-1 ${styles.liIcons}`}>
@@ -68,26 +68,32 @@ const NewsDetails = () => {
                         </div>
                     </div>
                 </nav>
-                <div className={`mt-4`}>
-                    <Image src={nd1} className={`rounded ${styles.mainImage} `} alt="The Gulf Accreditation Center concluded its participation in Expo 2020 Dubai"/>
-                <p className='mt-5'>The Gulf Accreditation Center concluded its participation in Expo2020 Dubai, in the Pavilion of the Cooperation Council for the Arab States of the Gulf, with the establishment of the second accreditation bureau and a symposium on the role of accreditation in water quality and sustainability of water resources, in the presence of a number of people interested in conformity and quality affairs.</p>
+                <div className={`mt-4 d-block `}>
+                    <Image src={nd1}  className={`rounded  ${styles.mainImage} `} alt="The Gulf Accreditation Center concluded its participation in Expo 2020 Dubai"/>
                 </div>
+                <p className='mt-5 '>The Gulf Accreditation Center concluded its participation in Expo2020 Dubai, in the Pavilion of the Cooperation Council for the Arab States of the Gulf, with the establishment of the second accreditation bureau and a symposium on the role of accreditation in water quality and sustainability of water resources, in the presence of a number of people interested in conformity and quality affairs.</p>
                 <div className='mt-5 '>
                     <p className='fs-5'>Related Photos</p>
                     <div className="row mx-0">				
                     <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
-                    <div className="card_gallery shadow_none gallery">
-                        <Image className='rounded' src={nd2} alt="image 1"/>
+                    <div className="">
+                        <Link href={'/news/images'}>
+                            <Image className='rounded' src={nd2} alt="image 1"/>
+                            </Link>
                     </div>
                 </div>
-                                                        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
+                    <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
                     <div className="card_gallery shadow_none gallery">
+                    <Link href={'/news/images'}>
                         <Image src={nd3} className='rounded' alt="image 2"/>
+                        </Link>
                     </div>
                 </div>
-                                                        <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
+                    <div className="col-xl-2 col-lg-2 col-md-4 col-sm-12">
                     <div className="card_gallery shadow_none gallery">
+                    <Link href={'/news/images'}>
                         <Image className='rounded' src={nd2} alt="image 3"/>
+                        </Link>
                     </div>
                 </div>
                     </div>
