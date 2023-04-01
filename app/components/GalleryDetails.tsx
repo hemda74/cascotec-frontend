@@ -9,8 +9,8 @@ import Footer from './Footer';
 const NewsDetails = () => {
   return (
     <>
-    <div className={`vh-100 ${styles.mainCont}`}>   
-         <div className={` ${styles.mainDiv}`}>
+    <div className={` ${styles.mainCont}`}>   
+         <div className={` vh-100 ${styles.mainDiv}`}>
             <nav className={`navbar navbar-expand-lg ${styles.navCont}`}>
                 <div className={`container `}>
                     <a className="navbar-brand" href="#">Album details</a>
@@ -83,7 +83,7 @@ const NewsDetails = () => {
                     </div>
                 </div>
             </div>
-            <div className={`${styles.footerStyle}`}>
+            <div className={`${styles.footerStyle} `}>
         <Footer/>
         </div>
         </div>

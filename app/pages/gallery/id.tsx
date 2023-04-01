@@ -5,7 +5,7 @@ const bolgpostimages = () => {
   return (
 <>
 <NavBar/>
-<div className='vh-100'>
+<div className=''>
 <GalleryDetails/>
 </div>
 </>  )
