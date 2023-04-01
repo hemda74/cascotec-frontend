@@ -19,7 +19,7 @@ const SearchModal = (props: Props) => {
             <div className="d-flex justify-content-between  col-sm-12">
             <button type="button" className="btn-close fs-3 p-5" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-              <div className='d-flex align-items-center justify-content-center '>
+              <div className={`d-flex align-items-center justify-content-center ${styles.modalContent}`}>
               <form className="d-flex align-items-center justify-content-center">
                   <button className="btn my-2 my-sm-0" type="submit"><AiOutlineSearch size={33}/></button>
                   <input className={`form-control me-sm-2 ${styles.searchInput}`} type="search" placeholder="Search"/>
