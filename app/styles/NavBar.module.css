@@ -6,7 +6,7 @@
     color: black;
     display: block;
     font-weight: 500;
-    font-size: .7777777778rem;
+    font-size: .9rem;
 }
 .navLink:hover{
     color: #1086d5;
@@ -38,7 +38,7 @@
     color: black;
     display: block;
     font-weight: 500;
-    font-size: .7777777778rem;
+    font-size: .9rem;
 }
 .ulDropDown{
     z-index: 1000;
