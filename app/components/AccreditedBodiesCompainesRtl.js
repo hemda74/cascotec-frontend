@@ -11,11 +11,12 @@ const SwipeToSlide = (props) => {
       dots: false,
       infinite: true,
       slidesToShow: 8,
-      speed:500,
+      speed:2000,
       slidesToScroll: 2,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 0,
       pauseOnHover: true,
+      lazyLoad: true,
       rtl: true,
       responsive: [
         {

@@ -13,11 +13,12 @@ export default class SwipeToSlide extends Component {
         dots: false,
         infinite: true,
         slidesToShow: 8,
-        speed:500,
+        speed:1500,
         slidesToScroll: 2,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 5000,
         pauseOnHover: true,
+        lazyLoad: true,
       responsive: [
         {
           breakpoint: 1024,

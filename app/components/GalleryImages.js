@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import g1 from '../public/images/gallery_section/g1.jpg'
+import g2 from '../public/images/gallery_section/g2.jpg'
+import g3 from '../public/images/gallery_section/g3.jpg'
+import g4 from '../public/images/gallery_section/g4.jpg'
+import g5 from '../public/images/gallery_section/g5.jpg'
+import Image from "next/image";
 
 export default class AppendDots extends Component {
   render() {
@@ -33,17 +39,18 @@ export default class AppendDots extends Component {
       )
     };
     return (
+      <div className="container">
       <div className="m-auto">
         <h2>Append Dots</h2>
         <Slider {...settings}>
           <div>
-            <h3>1</h3>
+            <Image src={g1} width={900} height={900} alt=""/>
           </div>
           <div>
-            <h3>2</h3>
+          <Image src={g2}  alt=""/>
           </div>
           <div>
-            <h3>3</h3>
+          <Image src={g3}  alt=""/>
           </div>
           <div>
             <h3>4</h3>
@@ -55,6 +62,7 @@ export default class AppendDots extends Component {
             <h3>6</h3>
           </div>
         </Slider>
+      </div>
       </div>
     );
   }
