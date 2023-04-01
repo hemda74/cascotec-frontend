@@ -7,62 +7,71 @@ import g4 from '../public/images/gallery_section/g4.jpg'
 import g5 from '../public/images/gallery_section/g5.jpg'
 import Image from "next/image";
 
-export default class AppendDots extends Component {
-  render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 0,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      appendDots: dots => (
-        <div
-          style={{
-            backgroundColor: "#ddd",
-            borderRadius: "10px",
-            padding: "10px"
-          }}
-        >
-          <ul style={{ margin: "0px" }}> {dots} </ul>
-        </div>
-      ),
-      customPaging: i => (
-        <div
-          style={{
-            width: "30px",
-            color: "blue",
-            border: "1px blue solid"
-          }}
-        >
-          {i + 1}
-        </div>
-      )
+export default class AsNavFor extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      nav1: null,
+      nav2: null
     };
+  }
+
+  componentDidMount() {
+    this.setState({
+      nav1: this.slider1,
+      nav2: this.slider2
+    });
+  }
+
+  render() {
     return (
-      <div className="container">
-      <div className="m-auto">
-        <h2>Append Dots</h2>
-        <Slider {...settings}>
+      <div>
+        <h2>Slider Syncing (AsNavFor)</h2>
+        <h4>First Slider</h4>
+        <Slider
+          asNavFor={this.state.nav2}
+          ref={slider => (this.slider1 = slider)}
+        >
           <div>
-            <Image src={g1} width={900} height={900} alt=""/>
+              <Image src={g1} alt=""/>
           </div>
           <div>
-          <Image src={g2}  alt=""/>
+              <Image src={g2} alt=""/>
           </div>
           <div>
-          <Image src={g3}  alt=""/>
+              <Image src={g3} alt=""/>
           </div>
           <div>
-            <h3>4</h3>
+              <Image src={g4} alt=""/>
           </div>
           <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
+              <Image src={g5} alt=""/>
           </div>
         </Slider>
-      </div>
+        <h4>Second Slider</h4>
+        <Slider
+          asNavFor={this.state.nav1}
+          ref={slider => (this.slider2 = slider)}
+          slidesToShow={3}
+          swipeToSlide={true}
+          focusOnSelect={true}
+        >
+          <div>
+              <Image src={g1} alt=""/>
+          </div>
+          <div>
+              <Image src={g2} alt=""/>
+          </div>
+          <div>
+              <Image src={g3} alt=""/>
+          </div>
+          <div>
+              <Image src={g4} alt=""/>
+          </div>
+          <div>
+              <Image src={g5} alt=""/>
+          </div>
+        </Slider>
       </div>
     );
   }
