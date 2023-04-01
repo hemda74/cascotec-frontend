@@ -1,6 +1,6 @@
 .footerCont{
     background: #e2ebf8;
-    padding:  0 3rem 0;
+    padding:  0 2rem 0;
 }
 .footerLink{
     color: #000 !important;
@@ -50,6 +50,7 @@
     border: none;
     border-radius: 0;
 }
+
 .emailInput{
     border-radius: 0;
 }

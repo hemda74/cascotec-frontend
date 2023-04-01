@@ -55,9 +55,9 @@ const Footer = () => {
                             Join our mailing list and receive our latest updates, recent CABs, training programs and etc. straight to your inbox</small>
                             <div className="form-group">
                                 <div className="form-group">
-                                    <div className="input-group mb-1">
+                                    <div className={`input-group mb-1 `}>
                                     <input type="email" className={`form-control ${styels.emailInput}`} aria-label="" placeholder='Your Email Adrress...'/>
-                                    <span className={`input-group-text  ${styels.subsIcon}`}><BsFillArrowUpRightCircleFill/></span>
+                                    <span className={`input-group-text ${styels.subsIcon}`}><BsFillArrowUpRightCircleFill/></span>
                                 </div>
                             <div className={` mt-2 ${styels.iconsSocial}`}>
                                 <a href="https://twitter.com/AhmedHemdan72"  target="_blank" rel="noreferrer" className={` me-3 ms-3 ${styels.footerA}`}>< BsTwitter size={15}/></a> 
@@ -76,11 +76,11 @@ const Footer = () => {
             <p className={`  ${styels.copyRightsDiv}`}>
                         <span data-trans="CascoCopyright">&copy; Copyright 2023</span>
                          <span data-trans="CascoCopyrightAll" className='ms-1 me-1'>. All Rights Reserved</span>
-                         <span className={`${styels.footerAhmed} me-2 ms-2 `} data-trans='Cascocopyright'>CASCO</span>
+                         <span className={`${styels.footerAhmed} me-1 ms-1 `} data-trans='Cascocopyright'>CASCO</span>
                     </p>
                     <div className={`  ${styels.copyRightsDiv}`}>
                         <span data-trans="CreatedByFooter">Created By</span> 
-                        <span >
+                        <span className='me-1 ms-1'>
                             <a href="https://portoflio-six.vercel.app/" target="_blank" rel="noreferrer" className={` ${styels.footerAhmed}`} data-trans="AhmedHemdan"><span>Ahmed Hemdan</span></a>
                         </span>
                     </div>
