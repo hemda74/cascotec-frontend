@@ -3,11 +3,11 @@
     padding-top: 2rem;
 }
 .ServiceSction{
-  background-color: #f9f9f9;
+  background-color: #fcfcfc3b;
   padding: 5.5555555556rem 0;
 }
 .mainDiv{
-    padding: 2.7777777778rem 0;
+  padding: 2.7777777778rem 0;
     margin: 0;
 }
 .mainCard{
@@ -20,7 +20,7 @@
   background-size: cover;
   background-position: center;
   background: #ffff; */
-  background-image: linear-gradient(90deg, #cae5ee 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%);
+  /* background-image: linear-gradient(90deg, #cae5ee 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%); */
   padding: 5%;
   background-repeat: no-repeat;
   background-position: center;
@@ -29,7 +29,9 @@
   z-index: -1;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: -10%;
+  margin-bottom: 3%;
+  box-shadow: -12.1111111111rem -15.6666666667rem 10.2222222222rem #f9f9f9;
+
 }
 .itemContent{
   z-index: -1;
