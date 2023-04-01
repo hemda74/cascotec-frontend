@@ -17,7 +17,7 @@ import Hero from '../components/Hero';
 import AboutLand from '../components/AboutLand';
 import Services from '../components/ServicesComp';
 import Footer from '../components/Footer';
-import About from '../components/AboutPage1';
+
 import ApplyAcc from '../components/ApplyAcc';
 import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 import Recogention from '../components/Recogention';

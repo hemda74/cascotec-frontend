@@ -2,6 +2,7 @@ import React, { ReactElement } from 'react'
 import Head from 'next/head';
 import About from '../../components/AboutPage1'
 import ViewerLayout from '../../layouts/ViewerLayout';
+import styles from '../../styles/Main.module.css'
 import { NextPageWithLayout } from '../_app';
 type Props = {};
 // dymmy data for ui till handle working with api
@@ -12,7 +13,9 @@ const index:NextPageWithLayout = (props:Props) => {
     <Head>
         <title>CASCO | About Us</title>
    </Head>
+   <main >
     <About/>
+    </main>
     </>
   )
 }

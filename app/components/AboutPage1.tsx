@@ -9,6 +9,7 @@ import gsoLogo from '../public/imagess/GSO-Logo-300x93.png';
 const About = () => {
   return (
     <>
+    <div className={`${styles.bodyContainer}`}></div>
         <div className={`text-center ${styles.titleWord}`}>
             <h6 className="text-white fw-semibold mb-4" data-trans="routeAboutUs">{`Home > About CASCO > About Us`}</h6>
             <h2 className={`text-white fw-bold mb-5 `} data-trans="AboutUsTitle">About Us</h2>
@@ -21,7 +22,7 @@ const About = () => {
                     </div>
                     <div className={`col-lg-6 mt-5 me-3 ms-3 p-5 `}>
                         <span className="card-title fs-4 fw-bold " data-trans='Ourobjective'>Our Objective</span> 
-                        <p className="card-text   " data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                        <p className="card-text" data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
                     </div>
                 </div>
             </div>
