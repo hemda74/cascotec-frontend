@@ -1,6 +1,5 @@
 .aboutSectoin{
     background: #f9f9f9;
-    padding-top: 2rem;
 }
 .ServiceSction{
   background-color: #fcfcfc3b;
@@ -26,11 +25,13 @@
   background-position: center;
   background-size: cover;
   position: relative;
-  z-index: -1;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 3%;
-  box-shadow: -12.1111111111rem -15.6666666667rem 10.2222222222rem #f9f9f9;
+  -webkit-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+-moz-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
 
 }
 .itemContent{

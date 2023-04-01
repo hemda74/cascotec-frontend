@@ -28,7 +28,7 @@ export default class AsNavFor extends Component {
   render() {
     const settings_first_slider = {
       speed:0,
-      //  rtl: true,
+      slidesToScroll: 7,
     }
     const settings = {
     rtl: true,

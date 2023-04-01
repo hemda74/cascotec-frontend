@@ -26,7 +26,7 @@ const NewsDetails = () => {
                             <a className=" active" aria-current="page" href={'/'}>{`Home >`}</a>
                             </li>
                             <li className="me-2 ms-2">
-                            <Link className="" href={'/news'}>{`Gallery >`}</Link>
+                            <Link className="" href={'/gallery'}>{`Gallery >`}</Link>
                             </li>
                             <li className="me-2 ms-2">
                             <a className="" href="#">Gallery Details</a>
@@ -42,42 +42,58 @@ const NewsDetails = () => {
                     <div className="row mx-0">				
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                     <div className="card_gallery shadow_none gallery">
+                    <Link className="" href={'/gallery/images'}>
                         <Image className='rounded' src={nd2} alt="image 1"/>
+                        </Link>
                     </div>
                     </div>
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                         <div className="card_gallery shadow_none gallery">
+                        <Link className="" href={'/gallery/images'}>
                             <Image src={nd3} className='rounded' alt="image 2"/>
+                            </Link>
                         </div>
                     </div>
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                         <div className="card_gallery shadow_none gallery">
+                        <Link className="" href={'/gallery/images'}>
                             <Image className='rounded' src={nd2} alt="image 3"/>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                     <div className="card_gallery shadow_none gallery">
+                    <Link className="" href={'/gallery/images'}>
                         <Image className='rounded' src={nd2} alt="image 1"/>
+                        </Link>
                     </div>
                     </div>
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                         <div className="card_gallery shadow_none gallery">
+                        <Link className="" href={'/gallery/images'}>
                             <Image src={nd3} className='rounded' alt="image 2"/>
+                            </Link>
                         </div>
                     </div>
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                         <div className="card_gallery shadow_none gallery">
+                        <Link className="" href={'/gallery/images'}>
                             <Image className='rounded' src={nd2} alt="image 3"/>
+                            </Link>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                     <div className="card_gallery shadow_none gallery">
+                    <Link className="" href={'/gallery/images'}>
                         <Image className='rounded' src={nd2} alt="image 1"/>
+                        </Link>
                     </div>
                     </div>
                         <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12">
                         <div className="card_gallery shadow_none gallery">
+                        <Link className="" href={'/gallery/images'}>
                             <Image src={nd3} className='rounded' alt="image 2"/>
+                            </Link>
                         </div>
                     </div>                    
                     </div>
