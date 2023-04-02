@@ -18,7 +18,7 @@ const About = () => {
             <div className={`col-lg-8 m-auto `}>
                 <div className={` row ${styles.objectiveCard2}`} >
                     <div className={`col-lg-6  ${styles.objImageDiv}`}>
-                        <Image src={card_objective} className={`${styles.objImage} `} alt=""/>
+                        <Image src={card_objective} className={`${styles.objImage} `} alt="" />
                     </div>
                     <div className={`col-lg-6 mt-5 me-3 ms-3 p-5 `}>
                         <span className="card-title fs-4 fw-bold " data-trans='Ourobjective'>Our Objective</span> 
@@ -40,7 +40,7 @@ const About = () => {
             <div className="col-lg-2"></div>
         </div>
         {/* achivments section */}
-        <div className={`${styles.ctA}`}>
+        {/* <div className={`${styles.ctA}`}>
             <div className="row">
                 <div className="col-lg-5 ms-2 text-lg-center mt-5">
                     <p className='fs-6 fw-semibold text-white me-2 ms-2' data-trans='SUCCESSINDICATORS'>SUCCESS INDICATORS</p>
@@ -85,7 +85,51 @@ const About = () => {
                     </div>
                 </div>
             </div>
-      </div>
+      </div> */}
+      <section className={`${styles.sectionOurAchievements}`}><div className="row"><div className="col-sm-12"><div className="container">
+            <div className="row justify-content-center">
+                <div className="col-xl-8 col-lg-10 col-md-12">
+                    <div className={`${styles.innerSectionOurAchievements}`}>
+                        <div className="col-xl-4 col-lg-4 col-md-12">
+                            <span className={`${styles.spanFeature}`}>Success indicators</span>
+                            <h4 className={`${styles.headFeature}`}>Our achievements</h4>
+                        </div>
+                        <div className={`${styles.featuresBoxes} col-xl-8 col-lg-8 col-md-12`}>
+                            <div className={`${styles.featuresBoxesInner}`}>
+                                <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
+					                <img src="https://gac.org.sa/wp-content/uploads/2022/05/accredited-bodies-ic2.png" alt=""/>
+						                <div className={`${styles.itemFeaturesBoxContent}`}>
+							            <h4>324</h4>
+							            <p>Accredited bodies</p>
+						            </div>
+				                </div>
+                                <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
+					<img src="https://gac.org.sa/wp-content/uploads/2022/05/assessors-and-experts-ic2.png" alt=""/>
+                    <div className={`${styles.itemFeaturesBoxContent}`}>
+							<h4>1785</h4>
+							<p>Assessors and experts</p>
+						</div>
+				</div>
+                <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
+					<img src="https://gac.org.sa/wp-content/uploads/2022/05/trainees-ic2.png" alt=""/>
+                    <div className={`${styles.itemFeaturesBoxContent}`}>
+							<h4>666</h4>
+							<p>Trainees during 2022</p>
+						</div>
+				</div>
+                <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
+					<img src="https://gac.org.sa/wp-content/uploads/2022/05/agreements_ic.png" alt=""/>
+                    <div className={`${styles.itemFeaturesBoxContent}`}>
+							<h4>37</h4>
+							<p>CASCO agreements</p>
+						</div>
+				</div> 
+                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div></div></div></section>
       <div className="ethicsCasco">
       <div className="row mx-0 mt-5 d-flex justify-content-around align-items-center">
             <div className="col-lg-2"></div>

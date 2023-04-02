@@ -87,12 +87,70 @@
     padding-left: 8rem;
     padding-right: 10rem;
   }
+  /*   our achivment section   */
+  .sectionOurAchievements{
+    background: linear-gradient(rgba(138, 181, 230, 0.9), rgba(73, 131, 232, 0.9));
+    padding: 4.4444444444rem 0;
+  }
+  .innerSectionOurAchievements{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .spanFeature{
+    font-size: .8888888889rem;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1.6666666667rem;
+  }
+  .headFeature{
+    line-height: 2.7777777778rem;
+    color: #fff;
+    font-size: 1.7777777778rem;
+    font-weight: 700;  
+  }
+  .featuresBoxes{
+  position: relative;
+  flex: 1 1 auto;
+  }
+  .featuresBoxesInner{
+    border-radius: 0.5555555556rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1.1111111111rem 1.1111111111rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .itemFeatures{
+    display: flex;
+    align-items: center;
+    padding: 1.1111111111rem 1.6666666667rem;
+  }
+  .itemFeaturesBoxContent h4{
+    font-size: 1.5555555556rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 2.8888888889rem;
+  }
+  .itemFeaturesBoxContent p{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f7f9fd;
+  }
+  /*      end section        */
+  
   .ctA {
     margin-top: 3rem;
     background: linear-gradient(rgba(122, 163, 210, 0.9), rgba(29, 94, 205, 0.9));
     background-size: cover;
     padding: 120px 0;
   }
+
   .iconsColor{
     color: #fff;
   }
