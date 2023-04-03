@@ -2,14 +2,12 @@
 .sectionAbout .sectionAboutInner {
     position: relative;
     margin-top: 2.7777777778rem;
-    margin-bottom: 8.3333333333rem
+    margin-bottom: 0.3333333333rem
 }
-
 .sectionAbout .sectionAboutInner .bgImageHolder img {
     width: 100%;
     min-height: 250px
 }
-
 .sectionAbout .sectionAboutInner .sectionAboutContent {
     position: absolute;
     top: 0;

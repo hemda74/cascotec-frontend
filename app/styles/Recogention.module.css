@@ -1,6 +1,6 @@
 .mainSection{
-    padding: 2.7777777778rem 0;
-    margin: 0;
+    padding: 0.7777777778rem 0;
+    margin: -6rem 0 -5rem  0;
 }
 .sectionRecogention{
     padding: 6.0555555556rem 0;
@@ -13,19 +13,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
-} 
-/* .conaninerRecogention::after {
-    
-    left: 0;
-    right: 0;
-    background-image: linear-gradient(90deg, #ffffff 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%),url('../public/images/home_page/recogention.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
-} */
+}
 .cardRecognition{
     border-radius: 1.1111111111rem;
     padding: 2.2222222222rem;

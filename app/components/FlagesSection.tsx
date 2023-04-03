@@ -1,12 +1,11 @@
 import React from 'react'
 import styles from '../styles/FlagesSection.module.css'
-import {BsArrowUpRightCircle} from 'react-icons/bs'
 const FlagesSection = () => {
   return (
     <>
     <div className="row">
 		<div className="col-sm-12">
-			<section className={` ${styles.sectionAbout} d-block`}>
+			<section className={`${styles.sectionAbout} d-block`}>
 				<div className="container">
 					<div className="row justify-content-center">
 						<div className="col-xl-8 col-lg-10 col-md-12">
