@@ -4,14 +4,17 @@ import styles from '../styles/AboutPage1.module.css'
 import{GiShakingHands} from 'react-icons/gi'
 import {FcCheckmark} from 'react-icons/fc'
 import card_objective from '../public/imagess/card_objective.jpg';
-import gsoLogo from '../public/imagess/GSO-Logo-300x93.png';
-
+import Link from 'next/link'
 const About = () => {
   return (
     <>
     <div className={`${styles.bodyContainer}`}></div>
         <div className={`text-center ${styles.titleWord}`}>
-            <h6 className="text-white fw-semibold mb-4" data-trans="routeAboutUs">{`Home > About CASCO > About Us`}</h6>
+                <div className={`container `}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
+                    <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About US`}</a></Link>
+                </div>
             <h2 className={`text-white fw-bold mb-5 `} data-trans="AboutUsTitle">About Us</h2>
           </div>
           <div className={`row m-auto container p-0 `} >

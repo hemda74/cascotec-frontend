@@ -1,11 +1,16 @@
 import React from 'react'
 import styles from '../styles/OurValues.module.css'
+import Link from 'next/link'
 const OurValues = () => {
   return (
    <>
       <section id="team" className={` `}>
         <div className={`text-center ${styles.titleWord}`}>
-          <h6 className="text-white fw-semibold mb-4" data-trans="routeourvalues">{`Home > About CASCO > Our Value`}</h6>
+            <div className={`container mb-4`}>
+                <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
+                <Link href={"/our-values"}><a className="text-white fw-semibold mb-4" >{` > Our Values`}</a></Link>
+            </div>
           <h2 className={`text-white fw-bold mb-5 `} data-trans="ourValuesTitle">Our Value</h2>
         </div>
          <div className="values">

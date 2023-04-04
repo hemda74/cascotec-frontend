@@ -16,7 +16,11 @@ const BoardOfDirectors = () => {
    <section id="team" className={`${styles.boardOfDirc}`}>
       <div  className="container" data-aos="fade-up">
         <div className="text-center">
-          <h6 className="text-white fw-semibold mb-3" data-trans="routeBordofDirctors">{`Home > About Us > Board of Directors`}</h6>
+        <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
+                    <Link href={"/board-of-directors"}><a className="text-white fw-semibold mb-4">{` > Board Of Board Of Directors`}</a></Link>
+                </div>
           <h2 className="text-white fw-bold mb-5" data-trans="BoardofDirectors">Board of Directors</h2>
           </div>
           <div className={`container ${styles.imgsHolder}`}>

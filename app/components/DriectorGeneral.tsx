@@ -2,6 +2,7 @@ import Image from 'next/image';
 import metaeb from '../public/imagess/Eng.Moteb-2.jpg'
 import styles  from '../styles/DriectorGeneral.module.css';
 import React from 'react';
+import Link from 'next/link';
 import { FcCheckmark } from 'react-icons/fc';
 type Props = {
 }
@@ -10,7 +11,11 @@ const DriectorGeneral = (props:Props) => {
   return (
  <>
     <div className={`text-center ${styles.titleWord}`}>
-    <h6 className="text-white fw-semibold mb-5" data-trans="routeDirctorGeneral">{`Home > About Us > Director General`}</h6>
+    <div className={`container mb-4`}>
+        <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+        <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
+        <Link href={"/director-general"}><a className="text-white fw-semibold mb-4">{` > Director General`}</a></Link>
+        </div>
       <h2 className={`text-white fw-bold mb-5 `} data-trans="DirectorManger">Director General</h2>
     </div>
     <div className={` container row m-auto `} >

@@ -14,7 +14,7 @@ const RightsAndDuties = () => {
         <div className={`container mb-4`}>
                 <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
                 <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
-                <Link href={"/rights-and-duties"}><a className="text-white fw-semibold mb-4" >{` > Rights And Duties`}</a></Link>
+                <Link href={"/about/rights-and-duties"}><a className="text-white fw-semibold mb-4" >{` > Rights And Duties`}</a></Link>
             </div>
             <h2 className={`text-white fw-bold  `} data-trans="CASCORightsAndDuties">{`CASCO’s Rights And Duties`}</h2>
         </div>

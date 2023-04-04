@@ -1,13 +1,16 @@
 import React from 'react'
-import { GiShakingHands } from 'react-icons/gi'
+import Link from 'next/link'
 import styles from '../styles/StackHolders.module.css'
 const StackHolders = () => {
   return (
 <>
     <section>
         <div className={`text-center ${styles.titleWord}`}>
-          <h6 className="text-white fw-semibold mb-4" data-trans="routeStakeholdersAdvisoryCommittee">{`Home > About CASCO > Stakeholders Advisory Committee`}</h6>
-          <h2 className={`text-white fw-bold mb-5 `} data-trans="StakeholdersAdvisoryCommitteeTitle">Stakeholders Advisory Committee</h2>
+        <div className={`container mb-4`}>
+                <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
+                <Link href={"/about/stakeholders-advisory-committee"}><a className="text-white fw-semibold mb-4" >{` > Stakeholders Advisory Committee`}</a></Link>
+            </div>          <h2 className={`text-white fw-bold mb-5 `} data-trans="StakeholdersAdvisoryCommitteeTitle">Stakeholders Advisory Committee</h2>
         </div>
         <div className="container">
             <div className="section-header text-center">
