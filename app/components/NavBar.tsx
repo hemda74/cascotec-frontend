@@ -42,7 +42,7 @@ const NavBar = () => {
                             <Link href={'/about/board-of-directors'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
                         </li>
                         <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
-                            <Link href={'/about/director-manger'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
+                            <Link href={'/about/director-general'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>
                         </li>
                         {/* commented till need  */}
                         <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
