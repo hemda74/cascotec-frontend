@@ -5,20 +5,19 @@ import Image from 'next/image'
 export default class SwipeToSlide extends Component {
   render() {
     const settings = {
-        className: "center",
-        infinite: true,
-        centerPadding: "50px",
-        slidesToShow: 5,
-        swipeToSlide: true,
-        dots: false,
-        infinite: true,
-        slidesToShow: 8,
-        speed:1500,
-        slidesToScroll: 2,
-        autoplay: true,
-        autoplaySpeed: 5000,
-        pauseOnHover: true,
-        lazyLoad: true,
+      className: "center",
+      infinite: true,
+      centerPadding: "50px",
+      swipeToSlide: true,
+      dots: false,
+      infinite: true,
+      slidesToShow: 8,
+      speed:5000,
+      slidesToScroll: 2,
+      autoplay: true,
+      autoplaySpeed: 0,
+      pauseOnHover: true,
+      lazyLoad: true,
       responsive: [
         {
           breakpoint: 1024,

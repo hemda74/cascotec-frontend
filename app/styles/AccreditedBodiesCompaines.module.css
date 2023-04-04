@@ -3,11 +3,11 @@
     margin: 0;
 }
 .imageDiv{
-    width: 10rem;
+    width: 8.5rem;
     height: 10rem;
     border-radius: 0.5555555556rem;
     background-color: #f8f8f9;
-    padding: 2.1111111111rem 0;
+    padding: 2.7111111111rem 0;
 }
 .spanNumber{
     color: var(--color-secondary);

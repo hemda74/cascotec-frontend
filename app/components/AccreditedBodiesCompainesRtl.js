@@ -11,7 +11,7 @@ const SwipeToSlide = (props) => {
       dots: false,
       infinite: true,
       slidesToShow: 8,
-      speed:2000,
+      speed:5000,
       slidesToScroll: 2,
       autoplay: true,
       autoplaySpeed: 0,
