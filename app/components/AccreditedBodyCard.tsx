@@ -14,7 +14,8 @@ type Props = {
 const AccreditedBodyCard = (props:Props) => {
   return (
     <>
-     <div className={`col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4  `} >
+     <div className={`col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4 ${styles.mainCardDiv}`}>
+      <div className={``}>
      <a  data-bs-toggle="modal"
                     data-bs-target="#AccrediedsModal">
                         <div className={`${styles.teamMember2}`}>
@@ -38,6 +39,7 @@ const AccreditedBodyCard = (props:Props) => {
                             </figure>
                         </div>
                     </a>
+                    </div>
               </div>
     <AccrediedsModal/>
     </>
