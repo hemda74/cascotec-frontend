@@ -1,8 +1,5 @@
 /* News Section*/
-.titleWord{
-  margin-top: -10rem;
-  margin-bottom: 10rem;
-}
+
 .accreditationThumbnail{
   background: #f9f9f9;
   padding: 5rem;
@@ -106,7 +103,7 @@ font-weight: 700;
 border:  solid 1px var(--color-secondary);
 }
 .mainDiv{
-  padding: 2.7777777778rem 0;
+  padding: 0.7777777778rem 0;
     margin: 0;
 }
 @media (max-width: 480px)
