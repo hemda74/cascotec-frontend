@@ -4,7 +4,9 @@
     margin-bottom: 10rem;
   }
   .spanHead{
-    color: var(--color-primary);
+    color: var(--color-secondary);
+    font-weight: 600;
+    
   }
    .visionCard{
     margin-top: 1.3rem;
@@ -29,11 +31,20 @@
       -moz-columns: 2;
       columns: 2;
       list-style-position: inside;
+      padding: 0;
+      margin: 0;
   }
   
   @media (max-width: 480px) {
     .dutesList{
       margin-top: 1rem;
     }
+    .ulClass{
+      list-style-type: disc;
+      -webkit-columns: 1;
+      -moz-columns: 1;
+      columns: 1;
+      list-style-position: inside;
+  }
   }
   
