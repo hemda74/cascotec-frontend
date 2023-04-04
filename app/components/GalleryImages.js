@@ -6,7 +6,7 @@ import g3 from '../public/images/gallery_section/g3.jpg'
 import g4 from '../public/images/gallery_section/g4.jpg'
 import g5 from '../public/images/gallery_section/g5.jpg'
 import Image from "next/image";
-
+import styles from '../styles/GalleryImages.module.css'
 export default class AsNavFor extends Component {
   constructor(props) {
     super(props);
@@ -25,51 +25,49 @@ export default class AsNavFor extends Component {
 
   render() {
     return (
-      <div>
-        <h2>Slider Syncing (AsNavFor)</h2>
-        <h4>First Slider</h4>
+      <div className={`bg-dark ${styles.galleryMainDiv}`}>
+        
         <Slider
           asNavFor={this.state.nav2}
           ref={slider => (this.slider1 = slider)}
         >
           <div>
-              <Image src={g1} alt=""/>
+              <Image src={g1} width={1500} height={800} alt=""/>
           </div>
           <div>
-              <Image src={g2} alt=""/>
+              <Image src={g2} width={1500} height={800} alt=""/>
           </div>
           <div>
-              <Image src={g3} alt=""/>
+              <Image src={g3} width={1500} height={800} alt=""/>
           </div>
           <div>
-              <Image src={g4} alt=""/>
+              <Image src={g4} width={1500} height={800} alt=""/>
           </div>
           <div>
-              <Image src={g5} alt=""/>
+              <Image src={g5} width={1500} height={800} alt=""/>
           </div>
         </Slider>
-        <h4>Second Slider</h4>
         <Slider
           asNavFor={this.state.nav1}
           ref={slider => (this.slider2 = slider)}
-          slidesToShow={3}
+          slidesToShow={4}
           swipeToSlide={true}
           focusOnSelect={true}
         >
-          <div>
-              <Image src={g1} alt=""/>
+          <div className={` bg-dark ${styles.secondContainer}`}>
+              <Image src={g1} width={500} height={300} alt=""/>
           </div>
-          <div>
-              <Image src={g2} alt=""/>
+          <div className={` ${styles.secondContainer}`}>
+              <Image src={g2} width={500} height={300} alt=""/>
           </div>
-          <div>
-              <Image src={g3} alt=""/>
+          <div className={` ${styles.secondContainer}`}>
+              <Image src={g3} width={500} height={300} alt=""/>
           </div>
-          <div>
-              <Image src={g4} alt=""/>
+          <div className={` ${styles.secondContainer}`}>
+              <Image src={g4} width={500} height={300} alt=""/>
           </div>
-          <div>
-              <Image src={g5} alt=""/>
+          <div className={` ${styles.secondContainer}`}>
+              <Image src={g5} width={500} height={300} alt=""/>
           </div>
         </Slider>
       </div>

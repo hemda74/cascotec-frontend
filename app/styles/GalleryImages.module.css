@@ -1,0 +1,26 @@
+.galleryMainDiv{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.secondContainer{
+
+    margin: 2rem 0rem  2rem 0;
+    border-radius: 0.5rem;
+    max-width: 95%;
+    background: #000;
+    max-height: 95%;
+  }
+  .secondContainer:hover{
+    border: #2186ec solid 0.5px ;
+  }
+@media (max-width: 480px)
+{
+.secondContainer{
+  margin-left: 0.3rem;
+  border-radius: 0.5rem;
+  max-width: 15rem;
+}
+}
