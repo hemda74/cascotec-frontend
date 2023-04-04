@@ -29,6 +29,7 @@ export default class AsNavFor extends Component {
     const settings_first_slider = {
       speed:0,
       slidesToScroll: 7,
+      
     }
     const settings = {
     rtl: true,
@@ -37,9 +38,9 @@ export default class AsNavFor extends Component {
         breakpoint: 1024,
         settings: {
           slidesToShow: 7,
-          slidesToScroll: 2,
+          slidesToScroll: 7,
           infinite: true,
-          dots: false
+          dots: true
         }
       },
       {
@@ -48,7 +49,8 @@ export default class AsNavFor extends Component {
           slidesToShow: 3,
           slidesToScroll: 7,
           initialSlide: 1,
-          dots: false
+          infinite: true,
+          dots: true
         }
       },
       {
@@ -57,7 +59,8 @@ export default class AsNavFor extends Component {
           slidesToShow: 1,
           slidesToScroll: 7,
           initialSlide: 1,
-          dots: false
+          infinite: true,
+          dots: true
         }
       }
     ]
@@ -75,7 +78,7 @@ export default class AsNavFor extends Component {
           ref={slider => (this.slider1 = slider)}
         >
           <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
                   <Image src={image1} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
               </div>
               <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
@@ -83,8 +86,8 @@ export default class AsNavFor extends Component {
                   <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
               </div>
           </div>
-          <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+          <div className={` d-flex ${styles.mainCard} `} >
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
                   <Image src={image2} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
               </div>
               <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
@@ -93,7 +96,7 @@ export default class AsNavFor extends Component {
               </div>
           </div>
           <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
                   <Image src={image3} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
               </div>
               <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
@@ -102,16 +105,16 @@ export default class AsNavFor extends Component {
               </div>
           </div>
           <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
                   <Image src={image4} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
               </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+              <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  p-5 ${styles.itemContent}`}>
                   <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
                   <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
               </div>
           </div>
           <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
                   <Image src={image5} className={`${styles.objImage} `} width={550} height={450} alt=""/>
               </div>
               <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
@@ -120,7 +123,7 @@ export default class AsNavFor extends Component {
               </div>
           </div>
           <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
                   <Image src={image6} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
               </div>
               <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
@@ -129,7 +132,7 @@ export default class AsNavFor extends Component {
               </div>
           </div>
           <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12`}>
+              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
                   <Image src={image7} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
               </div>
               <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
@@ -148,33 +151,33 @@ export default class AsNavFor extends Component {
           swipeToSlide={true}
           focusOnSelect={true}
         >
-          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
+          <div className={` ${styles.secondContainer} d-flex flex-column`}>
           <Image src={image1} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
+          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
+          <div className={` ${styles.secondContainer} d-flex flex-column`}>
           <Image src={image2} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
+          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
           <Image src={image3} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
+          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
           <Image src={image4} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
+          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
           <Image src={image5} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
+          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
           <Image src={image6} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
+          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
           <Image src={image7} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-5 text-start">Accreditation of Inspection Bodies</span>
+          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
         </Slider>
       </div>

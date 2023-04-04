@@ -20,7 +20,7 @@ const About = () => {
                     <div className={`col-lg-6 p-0  `}>
                         <Image src={card_objective} className={`${styles.objImage} `} alt="" />
                     </div>
-                    <div className={`col-lg-6 p-5 d-flex flex-column justify-content-center align-items-start   `}>
+                    <div className={`col-lg-6 p-5 d-flex flex-column justify-content-center align-items-start`}>
                         <h4 className="fw-bold" data-trans='Ourobjective'>Our Objective</h4> 
                         <p className={`${styles.objectiveCardText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
                     </div>

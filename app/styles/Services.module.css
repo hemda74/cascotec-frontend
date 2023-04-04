@@ -2,36 +2,25 @@
     background: #f9f9f9;
 }
 .ServiceSction{
-  background-color: #fcfcfc3b;
+  background-color: #f9f9f9;
   padding: 1.5555555556rem 0;
 }
 .mainDiv{
   padding: 0.7777777778rem 0;
     margin: 0;
+    background: #f9f9f9;;
+    
 }
 .mainCard{
-  /* box-shadow: -1.1111111111rem 1.6666666667rem 2.2222222222rem rgba(0,0,0,.05);
-  border-radius:1rem ;
-  min-height: 350px;
-  border: none;
-  background: linear-gradient(90deg, #ffffff 50%, rgba(255, 255, 255, 0) 100%);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background: #ffff; */
-  /* background-image: linear-gradient(90deg, #cae5ee 0%, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.6) 100%); */
-  padding: 5%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 3%;
-  -webkit-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
--moz-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+  border-radius: 0.9rem;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   z-index: 1;
+   -webkit-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+   -moz-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+   box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
 
 }
 .itemContent{
@@ -40,7 +29,7 @@ box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0rem 2rem 0 2rem;
+  margin: 0 ;
 }
 .itemTitle{
   font-size: 1.3333333333rem;
@@ -50,17 +39,20 @@ box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
   z-index: -1;
 }
 .itemText{
-  font-size: .8888888889rem;
+    font-size: .8888888889rem;
     font-weight: 600;
     color: #666d78;
     margin-bottom: 1.6666666667rem;
 }
 .secondContainer{
-  margin: 0 2rem  2rem 0;
+  margin: 2rem 0rem  2rem 0;
   background: #fff;
-  border-radius: 1.5rem;
-  max-width: 15rem;
-  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  
+  max-width: 95%;
+  max-height: 95%;
+  padding: 0.8rem 0.8rem 1rem 0.8rem;
+  box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
 }
 .secondContainer:hover{
   border: #2186ec solid 0.5px ;
@@ -74,7 +66,7 @@ box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
   height: 100%;
   width: 150%;
   margin: auto;
-  border-radius: 1rem;
+  border-radius: 0.1rem;
 }
 .divImage{
   width:100%;
@@ -125,4 +117,12 @@ box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
   max-width: 15rem;
   padding: 1rem 0.8rem 1rem 1rem;
 }
+.mainCard{
+  box-shadow: 0 0.8333333333rem 0 0.7111111111rem rgba(0,0,0,.1);
+  border: none;
+  border-radius: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+} 
 }
