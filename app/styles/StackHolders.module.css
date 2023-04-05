@@ -22,13 +22,13 @@
   }
   .ctA {
     margin-top: 4rem;
-    background: linear-gradient(rgb(158, 200, 248), rgb(85, 144, 247));
+    background: var(--color-secondary);
     background-size: cover;
     padding: 120px 0;
     margin-bottom: 3rem;
   }
   .titleStackH{
-    color: #2a06f3;
+    color: #eee;;
   }
   .listGroupItem{
     background: none;
@@ -46,7 +46,7 @@
     width: 100%;
 }
   .navLink:hover{
-    color: #2a06f3 !important;
+    color: #eee !important;
   }
   .ulLi{
     margin-top: 0rem;
