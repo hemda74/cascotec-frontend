@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/Events.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 import newsthree from '../public/imagess/newsthree.jpg'
 import event1 from '../public/images/events/event1.jpg'
 import event2 from '../public/images/events/event2.jpg'
@@ -10,8 +11,10 @@ import { AiFillClockCircle, AiOutlineSearch } from 'react-icons/ai'
 const Events = () => {
   return (
     <>
-   <div className={`text-center ${styles.titleWord}`}>
-       <h6 className="text-white fw-semibold mb-4" >{`Home > Events`}</h6>
+   <div className={`text-center ${styles.titleWord}`}><div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/events"}><a className="text-white fw-semibold mb-4">{` > Events`}</a></Link>
+                </div>
        <h2 className={`text-white fw-bold mb-5 `} >Events</h2>
    </div>
    <div className={` container col-xl-8 col-lg-10 col-md-12 mt-5 mb-4 ${styles.formConatiner}`}>

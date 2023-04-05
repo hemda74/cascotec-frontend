@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
 import styles from '../styles/Documents.module.css'
-import servicesimage from '../public/imagess/servicesimage.jpg'
 import {CiFilter} from 'react-icons/ci'
 import {VscFilePdf} from 'react-icons/vsc'
 import {SlReload} from 'react-icons/sl'
@@ -12,7 +10,10 @@ const Documents = () => {
   return (
 <>
     <div className={`text-center ${styles.titleWord}`}>
-        <h6 className="text-white fw-semibold mb-4">{`Home > Documents`}</h6>
+    <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/documents"}><a className="text-white fw-semibold mb-4">{` > Documents`}</a></Link>
+                </div>
         <h2 className={`text-white fw-bold mb-5 `}>Documents</h2>
     </div>
     <div className={` container `}>

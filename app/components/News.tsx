@@ -9,7 +9,10 @@ const News = () => {
   return (
     <>
    <div className={`text-center ${styles.titleWord}`}>
-       <h6 className="text-white fw-semibold mb-4" >{`Home > News`}</h6>
+   <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/news"}><a className="text-white fw-semibold mb-4">{` > News`}</a></Link>
+                </div>
        <h2 className={`text-white fw-bold mb-5 `} >News</h2>
    </div>
    <div className={` container col-xl-8 col-lg-10 col-md-12 mt-5 mb-4 ${styles.formConatiner}`}>

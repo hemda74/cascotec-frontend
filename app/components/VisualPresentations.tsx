@@ -8,7 +8,10 @@ const VisualPresentations= () => {
 return(
 <>
     <div className={`text-center ${styles.titleWord}`}>
-      <h6 className="text-white fw-semibold mb-4" >{`Home > Visual Presentations`}</h6>
+    <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/visual-presentations"}><a className="text-white fw-semibold mb-4">{` > Visual Presentations`}</a></Link>
+                </div>
       <h2 className={`text-white fw-bold mb-5 `} >Visual Presentations</h2>
     </div>
     <div className={` container mt-5 mb-5 `}>

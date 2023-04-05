@@ -7,7 +7,10 @@ const ServicesPage = () => {
   return (
 <>
     <div className={`text-center ${styles.titleWord}`}>
-        <h6 className="text-white fw-semibold mb-4">{`Home > Services`}</h6>
+    <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/services"}><a className="text-white fw-semibold mb-4">{` > Services`}</a></Link>
+                </div>
         <h2 className={`text-white fw-bold mb-5 `}>Services</h2>
     </div>
     <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">

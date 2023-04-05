@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styles from '../styles/AccretiedBodies.module.css'
 import AccreditedBodyCard from './AccreditedBodyCard'
 type Props = {
@@ -12,8 +13,11 @@ const AccretiedBodies = (props: Props) => {
     <>
     <section className={` container ${styles.mainSection}`}>
      <div className={`text-center ${styles.titleWord}`}>
-        <h6 className="text-white fw-semibold mb-4" >{`Home > Accredited Bodies`}</h6>
-        <h2 className={`text-white fw-bold mb-5 `} >Accredited Bodies</h2>
+     <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/accredited-bodies"}><a className="text-white fw-semibold mb-4">{` > Accredited Bodies`}</a></Link>
+                </div>
+        <h2 className={`text-white fw-bold mb-4 `} >Accredited Bodies</h2>
     </div>
     <div className={` container mb-5 ${styles.formConatiner}`}>
         <div className="row gy-5 gx-lg-5">

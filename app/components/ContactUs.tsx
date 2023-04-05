@@ -3,13 +3,17 @@ import { BsFillTelephoneFill } from 'react-icons/bs'
 import {BiWorld} from 'react-icons/bi'
 import {FiMail} from 'react-icons/fi'
 import styles from '../styles/ContactUs.module.css'
+import Link from 'next/link'
 import { FaFax, FaMapMarkerAlt } from 'react-icons/fa'
 const ContactUs = () => {
   return (
    <>
      <section id="contact" className="contact">
      <div className={`text-center ${styles.titleWord}`}>
-          <h6 className="text-white fw-semibold mb-4" data-trans="routeContactUs">{`Home > Contact Us`}</h6>
+     <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/contact-us"}><a className="text-white fw-semibold mb-4">{` > Contact Us`}</a></Link>
+                </div>
           <h2 className="text-white fw-bold mb-5" data-trans="ContactUs">Contact Us</h2>
           </div>
           <div className="container col-xl-10 col-lg-12 col-md-12 mb-5">

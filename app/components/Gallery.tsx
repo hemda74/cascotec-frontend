@@ -10,7 +10,10 @@ const Gallery = () => {
   return (
     <>
     <div className={`text-center ${styles.titleWord}`}>
-       <h6 className="text-white fw-semibold mb-4" >{`Home > Gallery`}</h6>
+    <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/gallery"}><a className="text-white fw-semibold mb-4">{` > Gallery`}</a></Link>
+                </div>
        <h2 className={`text-white fw-bold mb-5 `} >Gallery</h2>
    </div>
    <div className={` container `}>

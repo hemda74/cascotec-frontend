@@ -8,7 +8,10 @@ const EducationalBooklets= () => {
 return(
 <>
     <div className={`text-center ${styles.titleWord}`}>
-      <h6 className="text-white fw-semibold mb-4" >{`Home > Educational Booklets`}</h6>
+    <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/educational-booklets"}><a className="text-white fw-semibold mb-4">{` > Educational Booklets`}</a></Link>
+                </div>
       <h2 className={`text-white fw-bold mb-5 `} >Educational Booklets</h2>
     </div>
     <div className={` container`}>

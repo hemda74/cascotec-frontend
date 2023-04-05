@@ -22,14 +22,14 @@ const NewsDetails = () => {
                         </ul>
                         <span className="navbar-text">
                         <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
-                            <li className="me-2 ms-2">
-                            <a className=" active" aria-current="page" href={'/'}>{`Home >`}</a>
+                            <li className="me-1 ms-1">
+                            <a className=" active" aria-current="page" href={'/'}><small>{`Home >`}</small></a>
                             </li>
-                            <li className="me-2 ms-2">
-                            <Link className="" href={'/gallery'}>{`Gallery >`}</Link>
+                            <li className="me-1 ms-1">
+                            <a className="" href={'/gallery'}><small>{`Gallery >`}</small></a>
                             </li>
-                            <li className="me-2 ms-2">
-                            <a className="" href="#">Gallery Details</a>
+                            <li className="me-1 ms-1">
+                            <a className="" href="#"><small>Gallery Details</small></a>
                             </li>
                         </ul>
                         </span>
