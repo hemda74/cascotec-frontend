@@ -50,7 +50,7 @@ const AccretiedBodies = (props: Props) => {
                   <input type="date" name="from_date" className={`form-control datepicker from_date ${styles.dateInput}`} defaultValue="2030-01-01" autoComplete="off"/>            
                 </div>
                 <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group mt-4 ${styles.formGroup}`}>
-                  <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
+                  <select  className={`form-select ${styles.formControl}`} >
                     <option>Country</option>
                     <option value="AF">Afghanistan</option>
                     <option value="AX">Aland Islands</option>

@@ -185,7 +185,7 @@ const indexTrans: translataionContainer = {
         ar:'الكورسات'
     },
     DocumentsFooter:{
-        en:'DocumentsFooter',
+        en:'Documents',
         ar:'وثائق المركز'
     },
     NewsletterSubscriptionFooter:{

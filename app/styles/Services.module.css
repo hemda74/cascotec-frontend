@@ -6,21 +6,21 @@
   padding: 1.5555555556rem 0;
 }
 .mainDiv{
-  padding: 0.7777777778rem 0;
+    padding: 0.7777777778rem 0;
     margin: 0;
     /* background: #f9f9f9;; */
-    
 }
 .mainCard{
-  border-radius: 0.9rem;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   position: relative;
-   z-index: 1;
-
-
-}
+    border-radius: 0.9rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+    -moz-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+    box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+  }
 .itemContent{
   z-index: -1;
   display: flex;

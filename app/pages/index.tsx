@@ -25,6 +25,7 @@ import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompaine
 import NewsHomePage from '../components/NewsHomePage';
 import Steps from '../components/Steps';
 import FlagesSection from '../components/FlagesSection';
+import WhatsLink from '../components/WhatsLink';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -65,6 +66,7 @@ const Login: NextPage = () => {
       <title>CASCO</title>
    </Head>
    <main className={`${styles.bodyContainer}`}>
+    <WhatsLink/>
    <NavBar/>
    <Hero/>
    <FlagesSection/>

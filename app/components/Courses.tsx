@@ -38,15 +38,15 @@ const Courses = () => {
             <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
                
               <div className="row">
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6  form-group  ${styles.formGroup}`}>
+                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 mt-2 form-group  ${styles.formGroup}`}>
                   <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
                 </div>
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group   ${styles.formGroup}`}>
+                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-12 form-group mt-2  ${styles.formGroup}`}>
                   <div  className={` ${styles.formControl}`}   >
                    <Example/>
                    </div>
                   </div>
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group  ${styles.formGroup}`}>
+                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group mt-2 ${styles.formGroup}`}>
                     <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
                         <option>Upcoming Trainings</option>
                         <option>Pervious Trainings</option>
@@ -84,7 +84,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-lg-4 col-md-6 col-sm-12  p-1" >
                     <Link href={'/courses/1'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>

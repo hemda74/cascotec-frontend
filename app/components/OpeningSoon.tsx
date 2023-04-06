@@ -11,7 +11,7 @@ const OpeningSoon = (props: Props) => {
           <div className="">
             <div className="d-flex flex-column justify-content-center align-items-center w-80">
               <h1 className="fw-bold">
-              Will
+              Coming Soon
               </h1>
               <h3 className="myPrimary-Text">
                  {`This page is under Construction.`}

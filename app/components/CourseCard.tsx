@@ -164,7 +164,7 @@ const CourseCard = () => {
         </div>
              <div className="col-xl-3 col-lg-3 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0">
                             <div className={`${styles.courseDetailes}`}>
-                                <ul className="list_wideger_desc list-unstyled ">
+                                <ul className="list_wideger_desc list-unstyled p-0 ">
                                 <li className={`d-flex mt-2 ${styles.liDiv}`}>
                                           <div className={`${styles.iconHolder}`}>
                                                 <img src="/images/courses_section/calendar.svg" alt=""/>

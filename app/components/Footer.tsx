@@ -41,7 +41,7 @@ const Footer = () => {
                             <li><Link className={`nav-link mt-2`}href={'/services'}><a className={`${styels.footerLink}`} data-trans="ServicesFooter">Services</a></Link></li>
                             <li className='mt-2'><Link className={`nav-link `}href={'/accredited-bodies'}><a className={`${styels.footerLink}`}data-trans="AccreditedBodiesFooter"><small>Accredited Bodies</small></a></Link></li>
                             <li className='mt-2'><Link className={`nav-link`}href={'/courses'}><a className={`${styels.footerLink}`} data-trans="CoursesFooter"><small>Courses</small></a></Link></li>
-                            <li className='mt-2'><Link className={`nav-link`}href={'documents'}><a className={`${styels.footerLink}`} data-trans="DocumentsFooter"><small> Documents</small></a></Link></li>
+                            <li className='mt-2'><Link className={`nav-link`}href={'documents'}><a className={`${styels.footerLink}`} data-trans="DocumentsFooter"><small>Documents</small></a></Link></li>
                         </ul>    
                     </div>
                 </div>
