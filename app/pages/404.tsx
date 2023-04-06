@@ -18,7 +18,7 @@ const FourOhFour: NextPage = (props: Props) => {
                 Page Not Found
               </h1>
               <h3 className="myPrimary-Text" data-trans="fourOhfourMsg">
-                 Looks Like this page doesn't Exist.
+                 {`Looks Like this page doesn't Exist.`}
               </h3>
             </div>
           </div>
