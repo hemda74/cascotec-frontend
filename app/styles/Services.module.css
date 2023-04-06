@@ -8,7 +8,7 @@
 .mainDiv{
   padding: 0.7777777778rem 0;
     margin: 0;
-    background: #f9f9f9;;
+    /* background: #f9f9f9;; */
     
 }
 .mainCard{
@@ -18,9 +18,7 @@
    background-size: cover;
    position: relative;
    z-index: 1;
-   -webkit-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
-   -moz-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
-   box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+
 
 }
 .itemContent{
@@ -117,11 +115,12 @@
   padding: 1rem 0.8rem 1rem 1rem;
 }
 .mainCard{
-  box-shadow: 0 0.8333333333rem 0 0.7111111111rem rgba(0,0,0,.1);
+  /* box-shadow: 0 0.8333333333rem 0 0.7111111111rem rgba(0,0,0,.1); */
   border: none;
   border-radius: 1rem;
   width: 100%;
   display: flex;
+  margin-bottom: -5rem;
   flex-direction: column;
 } 
 }

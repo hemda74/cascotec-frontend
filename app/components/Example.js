@@ -5,7 +5,7 @@ import { components } from "react-select";
 import styles from '../styles/Courses.module.css'
 const Option = (props) => {
   return (
-    <div className={` form-group   ${styles.formGroup}`}>
+    <div className={`${styles.formGroup}`}>
       <components.Option {...props}>
         <input
           type="checkbox"

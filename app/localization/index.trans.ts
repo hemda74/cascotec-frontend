@@ -970,8 +970,8 @@ routeBordofDirctors:{
     },
     // ==== 404 Page ===
     fourOhfourNotFound: {
-        en: '404 Not Found',
-        ar: '404 غير موجود'
+        en: 'Page Not Found',
+        ar: 'صفحة غير موجود'
     },
     fourOhfourMsg: {
         en: "Woops. Looks Like this page doesn't Exist.",

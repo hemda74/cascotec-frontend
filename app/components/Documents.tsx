@@ -57,7 +57,7 @@ const Documents = () => {
                   <div className={`form-group d-flex justify-content-between mt-4 ${styles.formGroup}`}>
                     <div className='col-md-4 col-lg-4 col-sm-6 col-xs-6'>
                     </div>
-                    <div><button className={` myInfo  rounded ${styles.SearchButton}`} type="submit"> Search </button></div>
+                    <div><button className={` myInfo rounded ${styles.SearchButton}`} type="submit"> Search </button></div>
                   </div>
                   </div>
             </form>
