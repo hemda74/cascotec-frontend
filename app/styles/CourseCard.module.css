@@ -52,14 +52,20 @@
     background: #f8f8f9;
   }
   .iconHolder{
-    padding: 0.39rem 0.75rem;
-    margin: 0 0.5rem  0 0.5rem ;
-    border-radius: 50%;
-    border: #ddd solid 1px;
+    margin-right: 0.6666666667rem;
+    border: 1px solid #e9eaec;
+    border-radius: 2.7777777778rem;
+    padding: 0.3333333333rem 0.5555555556rem;
   }
-  .iconHolder2{
-    margin: 0 0.5rem  0 0.5rem ;
+  .liDiv{
+    margin-bottom: 1.1111111111rem;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  /* .iconHolder2{
+    margin: 0 0.5rem  0 0rem ;
     padding: 0.35rem 0.65rem  ;
     border-radius: 50%;
     border: #ddd solid 1px;
-  }
+  } */

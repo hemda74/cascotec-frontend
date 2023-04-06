@@ -107,7 +107,7 @@ const CourseCard = () => {
       </div>
       </div>
     </div>
-    <div className={`container ${styles.Courselinks}`}>
+    {/* <div className={`container ${styles.Courselinks}`}>
             <div className="row justify-content-center">
                 <div className="col-xl-8 col-lg-10 col-md-12">
                     <div className="row mx-0">
@@ -121,11 +121,12 @@ const CourseCard = () => {
                     </div>
                 </div>
             </div>
-        </div>
-    <hr className={`${styles.lineLinks}`}/> 
+        </div> 
+    <hr className={`${styles.lineLinks}`}/>
+    */} 
     <div className="container col-xl-8 col-lg-8 col-md-12 mb-5">
         <div className="row">
-            <div className="col-lg-8 col-md-6 p-3">
+            <div className="col-lg-8 col-md-12 p-3">
             <Image src={courseimage} className="img-fluid" alt=""/>
             <div className="description" id='description'>
                   <span className='fs-5 fw-bold'>Description</span>
@@ -161,21 +162,20 @@ const CourseCard = () => {
                 </ul>
             </div>
         </div>
-             <div className="col-xl-3 col-lg-3 col-md-12 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0">
+             <div className="col-xl-3 col-lg-3 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0">
                             <div className={`${styles.courseDetailes}`}>
                                 <ul className="list_wideger_desc list-unstyled ">
-                                    <li className="d-flex d-flex">
+                                <li className={`d-flex mt-2 ${styles.liDiv}`}>
                                           <div className={`${styles.iconHolder}`}>
-                                                <BsFillCalendar2CheckFill size={18} className={'pt-1'} />
+                                                <img src="/images/courses_section/calendar.svg" alt=""/>
                                             </div>
                                           <div className="row">
                                               <small className="text-black-50">Schedule</small>
                                               <small className="fw-bold mt-1">22 - 24 May, 2023</small>
                                           </div>
-                                      </li>					
-                                      <li className="d-flex mt-2">
+                                      </li>					<li className={`d-flex mt-2 ${styles.liDiv}`}>
                                           <div className={`${styles.iconHolder}`}>
-                                                <AiFillClockCircle size={18} className={'pt-1'} />
+                                          <img src="/images/courses_section/clock-fill2.svg" alt=""/>
                                           </div>
                                           <div className="row">
                                             <small className="text-black-50">Estimated Time</small>
@@ -183,18 +183,18 @@ const CourseCard = () => {
                                           </div>
                                     </li>
 																		
-									                                    <li className="d-flex mt-2">
-                                        <div className={`${styles.iconHolder2}`}>
-                                            <HiMapPin size={21} className={'pt-1'}/>
+                                    <li className={`d-flex mt-2 ${styles.liDiv}`}>
+                                        <div className={`${styles.iconHolder}`}>
+                                        <img src="/images/courses_section/pin-2.svg" alt=""/>
                                         </div>
                                         <div className="row">
                                             <small className="text-black-50">Venue</small>
                                             <small className="fw-bold mt-1">Muscat</small>
                                         </div>
                                     </li>					
-									                                    <li className="d-flex mt-2">
+									                                    <li className={`d-flex mt-2 ${styles.liDiv}`}>
                                         <div className={`${styles.iconHolder}`}>
-                                                  <TbWorld size={20} className={'pt-1'}/>
+                                        <img src="/images/courses_section/online_ic.svg" alt=""/>
                                         </div>
                                         <div className="row ">
                                             <small className="text-black-50">Training Language</small>

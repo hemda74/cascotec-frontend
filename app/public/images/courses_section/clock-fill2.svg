@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="clock-fill" transform="translate(-94 -366)">
+    <rect id="container" width="20" height="20" transform="translate(94 366)" fill="none"/>
+    <path id="clock" d="M10.333,2a8.333,8.333,0,1,0,8.333,8.333A8.333,8.333,0,0,0,10.333,2Z" transform="translate(93.667 365.667)" fill="#7c828b"/>
+    <path id="clock-2" data-name="clock" d="M14.415,11.528l-1.748-1.009V6.833a.833.833,0,0,0-1.667,0V11a.833.833,0,0,0,.417.722l2.165,1.25a.833.833,0,0,0,.833-1.444Z" transform="translate(92.167 365.001)" fill="#e9eaec"/>
+  </g>
+</svg>

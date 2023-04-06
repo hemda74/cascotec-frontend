@@ -55,7 +55,7 @@
   .postBox .postTitleFigre:hover figCaption{
     visibility: visible;
     color: #fff !important;
-    background: rgba(82, 81, 81, 0.523);   
+    background: rgba(33, 30, 30, 0.603);  
     height: 35%;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;

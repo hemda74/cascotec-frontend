@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="calendar-fill" transform="translate(-798 -278)">
+    <rect id="container" width="20" height="20" transform="translate(798 278)" fill="none"/>
+    <path id="calendar-alt" d="M14.888,2.531h-.758V1.766a.758.758,0,1,0-1.516,0v.766H6.549V1.766a.758.758,0,1,0-1.516,0v.766H4.274A2.286,2.286,0,0,0,2,4.829v10.72a2.286,2.286,0,0,0,2.274,2.3H14.888a2.286,2.286,0,0,0,2.274-2.3V4.829A2.286,2.286,0,0,0,14.888,2.531Zm.758,4.594H3.516v-2.3a.762.762,0,0,1,.758-.766h.758v.766a.758.758,0,1,0,1.516,0V4.063h6.065v.766a.758.758,0,1,0,1.516,0V4.063h.758a.762.762,0,0,1,.758.766Z" transform="translate(798.527 278.685)" fill="#7c828b"/>
+    <g id="Group_9251" data-name="Group 9251" transform="translate(803.56 288.874)">
+      <ellipse id="Ellipse_167" data-name="Ellipse 167" cx="0.758" cy="0.766" rx="0.758" ry="0.766" transform="translate(3.79 3.063)" fill="#e9eaec"/>
+      <ellipse id="Ellipse_168" data-name="Ellipse 168" cx="0.758" cy="0.766" rx="0.758" ry="0.766" transform="translate(7.581 3.063)" fill="#e9eaec"/>
+      <ellipse id="Ellipse_169" data-name="Ellipse 169" cx="0.758" cy="0.766" rx="0.758" ry="0.766" transform="translate(7.581)" fill="#e9eaec"/>
+      <ellipse id="Ellipse_170" data-name="Ellipse 170" cx="0.758" cy="0.766" rx="0.758" ry="0.766" transform="translate(3.79)" fill="#e9eaec"/>
+      <ellipse id="Ellipse_171" data-name="Ellipse 171" cx="0.758" cy="0.766" rx="0.758" ry="0.766" transform="translate(0)" fill="#e9eaec"/>
+      <ellipse id="Ellipse_172" data-name="Ellipse 172" cx="0.758" cy="0.766" rx="0.758" ry="0.766" transform="translate(0 3.063)" fill="#e9eaec"/>
+    </g>
+  </g>
+</svg>

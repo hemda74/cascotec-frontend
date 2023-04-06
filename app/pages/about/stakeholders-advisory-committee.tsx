@@ -3,7 +3,7 @@ import React, { ReactElement } from 'react'
 import Head from 'next/head';
 import ViewerLayout from '../../layouts/ViewerLayout';
 import { NextPageWithLayout } from '../_app';
-import styles from '../../styles/Main.module.css'
+import Example from '../../components/Example'
 type Props = {};
 // dymmy data for ui till handle working with api
 const stakeholdersadvisorycommittee:NextPageWithLayout = (props:Props) => {
@@ -13,7 +13,8 @@ const stakeholdersadvisorycommittee:NextPageWithLayout = (props:Props) => {
         <title>stakeholders advisory committee | CASCO</title>
     </Head>
     <main>
-      <StackHolders />
+      <Example/>
+       <StackHolders /> 
     </main>
     </>
   )

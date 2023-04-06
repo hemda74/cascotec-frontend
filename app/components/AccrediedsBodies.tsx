@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import styles from '../styles/AccretiedBodies.module.css'
 import AccreditedBodyCard from './AccreditedBodyCard'
+import Example from './Example'
 type Props = {
   [key: string]: any;
 };
@@ -29,7 +30,7 @@ const AccretiedBodies = (props: Props) => {
                   <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Your Name" required/>
                 </div>
                 <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group mt-4 ${styles.formGroup}`}>
-                    <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
+                    <select  className={`form-select ${styles.formControl}`}   >
                         <option>Acrredited</option>
                         <option>Suspended</option>
                         <option>Withdrawn</option>
@@ -38,19 +39,9 @@ const AccretiedBodies = (props: Props) => {
                     </select>                
                   </div>
                   <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group mt-4  ${styles.formGroup}`}>
-                    <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
-                        <option>Select All</option>
-                        <option>Testing Lap</option>
-                        <option>Calibration Lab</option>
-                        <option>Medical Lab</option>
-                        <option>Mangment System Cetifcation</option>
-                        <option>Halal Product Certification</option>
-                        <option>Inspection Body</option>
-                        <option>Prof Testing Provider</option>
-                        <option>Product Certification</option>
-                        <option>Personnel Certification Body</option>
-                        <option>Reference Material Producer</option>
-                    </select>
+                  <div  className={` ${styles.formControl}`}   >
+                   <Example/>
+                   </div>
                   </div>
                 <div className={`col-md-6 col-lg-2 col-sm-6 col-xl-2 form-group mt-3 mt-4 ${styles.formGroup}`}>
                 <input type="date" name="from_date" className={`form-control datepicker from_date ${styles.dateInput}`} defaultValue="2020-01-01" autoComplete="off"/>            

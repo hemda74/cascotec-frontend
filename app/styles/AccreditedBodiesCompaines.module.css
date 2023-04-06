@@ -2,12 +2,18 @@
     padding: 2.7777777778rem 0;
     margin: 0;
 }
+.bigDiv{
+    width: 189.167px !important;
+    margin-left:0 3rem;
+    border-radius: 0.55rem;
+    background-color: #f3f3fb;
+    padding: 2.1rem 0;
+}
 .imageDiv{
-    width: 8.5rem;
-    height: 10rem;
-    border-radius: 0.5555555556rem;
-    background-color: #f8f8f9;
-    padding: 2.7111111111rem 0;
+    width: 80%;
+    height: 4.7rem;
+    margin: auto;
+    display: block;
 }
 .spanNumber{
     color: var(--color-secondary);
