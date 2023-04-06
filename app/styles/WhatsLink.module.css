@@ -1,0 +1,22 @@
+.mainDiv{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1.1111111111rem;
+    z-index: 9999;
+    padding: 0.8rem;
+    border-radius: 50%;
+    background: #13f195;
+}
+.iconStyle{
+    overflow: hidden;
+    vertical-align: middle;
+    color: #fff;
+}
+.secondDiv{
+    display: none;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+}
