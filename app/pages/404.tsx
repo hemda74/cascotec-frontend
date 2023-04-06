@@ -1,17 +1,14 @@
 import React from 'react';
 import type { NextPage } from 'next';
-import Link from 'next/link';
 import Image from 'next/image';
 import FourOhFourImage from '../public/404.svg'
-
 type Props = {};
-
 // a customized 404 page.
 const FourOhFour: NextPage = (props: Props) => {
   return (
     <>
       <div className="container d-flex align-items-center justify-content-center ">
-        <div className="vh-90 align-items-center justify-content-center">
+        <div className="vh-100 align-items-center justify-content-center">
           <div className="">
             <div className="d-flex flex-column justify-content-center align-items-center w-80">
               <h1 className="fw-bold " data-trans="fourOhfourNotFound">
