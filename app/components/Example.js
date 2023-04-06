@@ -35,7 +35,7 @@ export default class Example extends Component {
   render() {
     return (
       <div
-        class={` form-group   ${styles.formGroup}`}
+        className={` form-group   ${styles.formGroup}`}
         data-toggle="popover"
         data-trigger="focus"
         data-content="Please selecet account(s)"
