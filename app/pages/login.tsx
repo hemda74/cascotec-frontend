@@ -60,7 +60,7 @@ const Login: NextPage = () => {
         <div
           id="login-holder-backdrop"
           className=" container d-flex align-items-center justify-content-center mt-5 ">
-          <div className="col-lg-5 col-sm-12 col-md-8 col-sl-4">
+          <div className="col-xl-5 col-lg-5 col-md-8 col-sm-12 col-xs-12">
             <div className="card border-primary">
               <div className="card-body p-0">
               <div className="d-flex align-items-center justify-content-between mt-3 me-5 ms-5">

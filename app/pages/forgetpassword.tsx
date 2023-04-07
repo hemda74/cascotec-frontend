@@ -47,18 +47,20 @@ const Forgetpassword: NextPage = () => {
       <div>
         <div
           id="login-holder"
-          className={`container-fluid vh-100 overflow-hidden p-0 ${styles.otpContainer}`}>
+          className={`container-fluid vh-100  overflow-hidden p-0 ${styles.otpContainer}`}>
           <div
             id="login-holder-backdrop"
-            className="row align-items-center vh-100">
-            <div className="col-4 d-block"></div>
-            <div className="col-4">
-              <div className="card border-primary">
-                <div className="card-body p-0">
-                  <div className="d-flex align-items-center justify-content-center mt-3">
-                    {/* width and height */}
-                    {Logo(164.08, 66.86)}
-                  </div>
+            className=" container  d-flex align-items-center justify-content-center mt-5 ">
+          <div className="col-xl-5 col-lg-5 col-md-8 col-sm-12 col-xs-12">
+            <div className="card mt-5 border-primary">
+              <div className="card-body  p-0">
+              <div className="d-flex align-items-center justify-content-between mt-3 me-5 ms-5">
+                  {/* width and height */}
+                  {Logo(200, 100)}
+                <div className={``}>
+                 <LocalizationBtn />
+                 </div>
+                 </div>
                   <div className="d-flex flex-column pe-5 ps-5 pt-3">
                     <span
                       className="fw-semibold fs-3 text-center mt-4"
@@ -78,7 +80,7 @@ const Forgetpassword: NextPage = () => {
                       data-trans="enterYourEmailAddress">
                       Enter Your Email Address
                     </span>
-                    <div className="form-group mb-5">
+                    <div className="form-group ">
                       <div>{InputEmail({ placeholder: true })}</div>
                       {isError && (
                         <span
@@ -95,7 +97,7 @@ const Forgetpassword: NextPage = () => {
                         onClick={() => handleSendVerfCode()}
                         disabled={isPending}>
                         {!isPending && (
-                          <span data-trans="sendVerficationCode">
+                          <span className='text-white' data-trans="sendVerficationCode">
                             Send Verfication Code
                           </span>
                         )}
@@ -114,10 +116,6 @@ const Forgetpassword: NextPage = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-2 d-block"></div>
-            <div className="col-2 d-flex justify-content-center vh-100">
-              <LocalizationBtn />
             </div>
           </div>
         </div>
