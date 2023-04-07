@@ -53,9 +53,7 @@ const Login: NextPage = () => {
       <Head>
         <title>CASCO | Login</title>
       </Head>
-      <div className={` d-flex justify-content-center ${styles.localizationBtnDiv} `}>
-            <LocalizationBtn />
-          </div>
+      
       <div
         id="login-holder"
         className={`container-fluid d-flex align-items-center justify-content-center vh-100  ${styles.containerLogin}`}> 
@@ -65,10 +63,13 @@ const Login: NextPage = () => {
           <div className="col-lg-5 col-sm-12 col-md-8 col-sl-4">
             <div className="card border-primary">
               <div className="card-body p-0">
-              <div className="d-flex align-items-center justify-content-center mt-3">
+              <div className="d-flex align-items-center justify-content-between mt-3 me-5 ms-5">
                   {/* width and height */}
                   {Logo(200, 100)}
-                </div>
+                <div className={``}>
+                 <LocalizationBtn />
+                 </div>
+                 </div>
                 <div className="d-flex flex-column pe-5 ps-5 pt-3">
                   <span className="fs-6" >
                     Welcome back
