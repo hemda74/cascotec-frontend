@@ -53,19 +53,21 @@ const Login: NextPage = () => {
       <Head>
         <title>CASCO | Login</title>
       </Head>
+      <div className={` d-flex justify-content-center ${styles.localizationBtnDiv} `}>
+            <LocalizationBtn />
+          </div>
       <div
         id="login-holder"
-        className={`container-fluid vh-100 overflow-hidden p-0 ${styles.containerLogin}`}>
+        className={`container-fluid d-flex align-items-center justify-content-center vh-100  ${styles.containerLogin}`}> 
         <div
           id="login-holder-backdrop"
-          className="row align-items-center vh-100">
-          <div className="col-4 d-block"></div>
-          <div className="col-4">
+          className=" container d-flex align-items-center justify-content-center mt-5 ">
+          <div className="col-lg-5 col-sm-12 col-md-8 col-sl-4">
             <div className="card border-primary">
               <div className="card-body p-0">
-                <div className="d-flex align-items-center justify-content-center mt-3">
+              <div className="d-flex align-items-center justify-content-center mt-3">
                   {/* width and height */}
-                  {Logo(164.08, 66.86)}
+                  {Logo(200, 100)}
                 </div>
                 <div className="d-flex flex-column pe-5 ps-5 pt-3">
                   <span className="fs-6" >
@@ -88,8 +90,8 @@ const Login: NextPage = () => {
                       <InputPassword />
                     </div>
                   </div>
-                  <div className="d-flex justify-content-between">
-                    <Link href="forgetpassword">
+                  <div className="d-flex justify-content-between flex-wrap">
+                    <Link className='' href="forgetpassword">
                       <a>
                         <span >
                           forget password?
@@ -133,17 +135,13 @@ const Login: NextPage = () => {
                         handleUserRedirect();
                       }}
                       disabled={pending}>
-                      {!pending && <span >Login Now</span>}
-                      {pending && <span>Loading...</span>}
+                      {!pending && <span className='text-white' >Login Now</span>}
+                      {pending && <span className='text-white'>Loading...</span>}
                     </button>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-2 d-block"></div>
-          <div className="col-2 d-flex justify-content-center vh-100">
-            <LocalizationBtn />
           </div>
         </div>
       </div>

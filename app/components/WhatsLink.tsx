@@ -5,11 +5,10 @@ const WhatsLink = () => {
   return (
     <>
     <div className={`${styles.mainDiv}`}>
-        <a href="https://gac.org.sa/en/contact-us">
+        <a href="https://wa.me/01028485872">
            <BsWhatsapp size={30} className={`${styles.iconStyle}`}/>
         </a>
         <div className={`tooltip fade bs-tooltip-top show ${styles.secondDiv}`}>
-            <div className="tooltip-inner">Contact Us</div>
             </div>
     </div>
     </>

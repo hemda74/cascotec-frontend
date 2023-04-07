@@ -49,7 +49,7 @@
 .postBox {
   transition: 0.3s;
   height: 95%;
-  width: 100% !important;
+  width: 80% !important;
   margin: 1rem;
   max-width: 20rem;
   overflow: hidden;
@@ -77,9 +77,9 @@
   z-index: 996;
   color: #fff;
   bottom: auto;
-  left: 5%;
+  left: 3%;
   top: 10%;
-  width: 90%;
+  width: 80%;
   height: 0%;
   overflow: hidden;
   visibility: hidden;
@@ -93,6 +93,7 @@
   color: #fff !important;
   background: rgba(33, 30, 30, 0.603);   
   height: 35%;
+  width: 95%;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -102,7 +103,7 @@
   font-size: 1.2rem;
   color: var(--color-secondary);
   font-weight: 700;
-  margin: 15px 0 0 0;
+  margin: 1rem 0 0 0;
   position: relative;
   transition: 0.3s;
 }

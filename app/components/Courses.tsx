@@ -38,15 +38,15 @@ const Courses = () => {
             <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
                
               <div className="row">
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 mt-2 form-group  ${styles.formGroup}`}>
+                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 mt-3 form-group  ${styles.formGroup}`}>
                   <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
                 </div>
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-12 form-group mt-2  ${styles.formGroup}`}>
+                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-12 form-group mt-3  ${styles.formGroup}`}>
                   <div  className={` ${styles.formControl}`}   >
                    <Example/>
                    </div>
                   </div>
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group mt-2 ${styles.formGroup}`}>
+                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group mt-3 ${styles.formGroup}`}>
                     <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
                         <option>Upcoming Trainings</option>
                         <option>Pervious Trainings</option>
@@ -89,7 +89,7 @@ const Courses = () => {
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>
                         <figure className={`  mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` fs-5 mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
+                        <span className={` fs-5 ${styles.postTitle}`}>Mandatory documents for inter accreditation organizations IHAF -AIF</span>
                         <figcaption className={`${styles.figCaption}`}>
                             <span className='m-auto fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
                         </figcaption>

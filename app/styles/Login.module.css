@@ -12,4 +12,15 @@
 .containerLogin{
     background: url('../public/login-background-image.jpg');
 }
-
+.localizationBtnDiv{
+    margin-top: 0rem;
+    margin-left: 6rem;
+    
+}
+@media (max-width: 480px)
+{
+    .localizationBtnDiv{
+        margin-top: -50rem;
+        
+    }   
+}
