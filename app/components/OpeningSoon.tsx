@@ -1,7 +1,7 @@
 import React from 'react';
 import type { NextPage } from 'next';
 import Image from 'next/image';
-import FourOhFourImage from '../public/404.svg'
+import soon from '../public/soon.svg'
 type Props = {};
 // a customized 404 page.
 const FourOhFour: NextPage = (props: Props) => {
@@ -11,18 +11,18 @@ const FourOhFour: NextPage = (props: Props) => {
         <div className="vh-100 align-items-center justify-content-center">
           <div className="">
             <div className="d-flex flex-column justify-content-center align-items-center w-80">
-              <h1 className="fw-bold " data-trans="fourOhfourNotFound">
-                Page Not Found
+              <h1 className="fw-bold " >
+                Page Under Construction
               </h1>
-              <h3 className="myPrimary-Text" data-trans="fourOhfourMsg">
-                 {`Looks Like this page doesn't Exist.`}
-              </h3>
+              <h4 className="myPrimary-Text mt-3" >
+                 {`Sorry. this page is under construction`}
+              </h4>
             </div>
           </div>
           <div className=" d-flex align-items-center justify-content-center ">
             <Image
-              alt="FourOhFourShape"
-              src={FourOhFourImage}
+              alt="ComingSoonImage"
+              src={soon}
               width={350}
               height={350}
             />
