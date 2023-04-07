@@ -12,7 +12,7 @@ type Accredieds_Body = {
 const AccretiedBodies = (props: Props) => {
   return (
     <>
-    <section className={` container ${styles.mainSection}`}>
+    <section className={`container ${styles.mainSection}`}>
      <div className={`text-center ${styles.titleWord}`}>
      <div className={`container mb-4`}>
                     <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
