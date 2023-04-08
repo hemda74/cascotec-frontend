@@ -17,7 +17,7 @@ export default class SwipeToSlide extends Component {
       autoplay: true,
       autoplaySpeed: 0,
       pauseOnHover: true,
-      lazyLoad: true,
+      
       responsive: [
         {
           breakpoint: 1024,
