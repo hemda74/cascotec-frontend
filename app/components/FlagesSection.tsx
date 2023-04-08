@@ -17,7 +17,7 @@ const FlagesSection = () => {
 								<div className={`${styles.sectionAboutContent}`}>
 									<div className={`${styles.sectionAboutBody}`}>
 										<span className={`${styles.spanFeature}`}>Who are we</span>
-										<h4 className={`${styles.headingFeature} fw-bold mt-2 `}>About GAC</h4>
+										<h4 className={`${styles.headingFeature} fw-bold mt-2 `}>About CASCO</h4>
 										<p className={`${styles.pargraphFeature}`}>The GCC Accreditation Center is one of the most visible successes of the Gulf Cooperation Council countries, as it is the first and fastest multi-economy accreditation agency in the Middle East, Asia, and the Pacific to gain international recognition.</p>
 										<Link href="/about" title="About us">Learn more
 										</Link>
