@@ -5,349 +5,64 @@ import {CiFilter} from 'react-icons/ci'
 import {VscFilePdf} from 'react-icons/vsc'
 import {SlReload} from 'react-icons/sl'
 import DocumentsModal from './DocumentsModal'
-
-const Documents = () => {
+import DocumentCard from './DocumentCard'
+type Props = {
+  [key: string]: any;
+};
+type Document_Data = {
+  [key: string]: any;
+};
+const Documents = (props: Props) => {
   return (
 <>
     <div className={`text-center ${styles.titleWord}`}>
-    <div className={`container mb-4`}>
-                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
-                    <Link href={"/documents"}><a className="text-white fw-semibold mb-4">{` > Documents`}</a></Link>
-                </div>
+        <div className={`container mb-4`}>
+            <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+            <Link href={"/documents"}><a className="text-white fw-semibold mb-4">{` > Documents`}</a></Link>
+        </div>
         <h2 className={`text-white fw-bold mb-5 `}>Documents</h2>
     </div>
-    <div className={` container `}>
-        <div className="row ">
-              <div className="col-3"></div>
-        </div>
-    </div>
-        <div className={` container ${styles.formConatiner}`}>
-        <div className="row gy-5 gx-lg-5">
-          <div className={`col-lg-12 ${styles.contactCard}`}>
-            <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
-            <div className=" d-flex justify-content-between">
-            <p>25  Upcoming Course </p>
-            <button className={`rounded mb-3  ${styles.filterButton}`} type="submit">Filter<CiFilter/></button>
-            </div>
-              <div className="row">
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6  form-group  ${styles.formGroup}`}>
-                  <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
-                </div>
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group   ${styles.formGroup}`}>
-                    <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
-                        <option>Select All</option>
-                        <option>Testing Lap</option>
-                        <option>Calibration Lab</option>
-                        <option>Medical Lab</option>
-                        <option>Mangment System Cetifcation</option>
-                        <option>Halal Product Certification</option>
-                        <option>Inspection Body</option>
-                        <option>Prof Testing Provider</option>
-                        <option>Product Certification</option>
-                        <option>Personnel Certification Body</option>
-                        <option>Reference Material Producer</option>
-                    </select>
-                  </div>
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 form-group  ${styles.formGroup}`}>
-                    <select  className={`form-select ${styles.formControl}`}  id="site-holidayes-input" >
-                        <option>Upcoming Trainings</option>
-                        <option>Pervious Trainings</option>
-                    </select>                
-                  </div>
-                  <div className={`form-group d-flex justify-content-between mt-4 ${styles.formGroup}`}>
-                    <div className='col-md-4 col-lg-4 col-sm-6 col-xs-6'>
+    <div className={` container pe-4 ps-4`}>
+        <div className="row justify-content-center">
+            <div className='col-xl-8 col-lg-10 col-md-12 col-sm-12 col-xs-12'>
+                <div className={`col-lg-12 ${styles.contactCard}`}>
+                    <div className=" d-flex justify-content-between">
+                        <small className='mt-2 text-black-50'>25 Document</small>
+                        <button className={`rounded mb-3 ${styles.filterButton}`} type="submit"><small>Filter</small><CiFilter size={15}/></button>
                     </div>
-                    <div><button className={` myInfo rounded ${styles.SearchButton}`} type="submit"> Search </button></div>
-                  </div>
-                  </div>
-            </form>
-          </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div className="container">
+        <div className="row justify-content-center">
+            <div className='col-xl-8 col-lg-10 col-md-12 col-sm-12 col-xs-12'>
+                <div className="accordion" id="accordionPanelsStayOpenExample">
+                  {/* passing props to inner card for each document */}
+                {props.ducoments.map 
+                  (
+                    (document_Data:Document_Data,index:number)=>(
+                      <DocumentCard
+                      key={index}
+                      document_name={document_Data.document_name}
+                      document_pdf={document_Data.document_pdf}
+                      document_id={document_Data.document_id}
+                      document_issued_date={document_Data.document_issued_date}
+                      document_category={document_Data.document_category}
+                      document_sub_category={document_Data.document_sub_category}
+                      document_accrediation_type={document_Data.document_accrediation_type}
+                      document_changelog={document_Data.document_changelog}
+                      document_for_Code={document_Data.document_for_Code}
+                      document_version={document_Data.document_version}
+                      />
+                    ) 
+                  )
+                }
+                </div>
+            </div>
         </div>
-        <div className="container mt-5">
-            <div className="row">  
-            <div className="accordion" id="accordionPanelsStayOpenExample">
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="panelsStayOpen-headingOne">
-      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-      AC 1.0 Introduction and Flowchart
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-      <div className="accordion-body">
-      <div className="content_card">
-                        <div className="row mx-0">
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className="accredited_bodies_code text-black-50">Version</small>
-                            <p className="accredited_bodies_desc mt-2">7.1</p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className=" text-black-50 accredited_bodies_code">
-                              Accreditation type
-                            </small>
-                            <small className={`${styles.accreditationType} mt-2`}>
-                              Calibration Lab,Halal Product Certification
-                              ,Inspection Body
-                              ,Management System Certification
-                              ,Medical Lab
-                              ,Personnel Certification Body
-                              ,Product Certification
-                              ,Prof Testing Provider
-                              ,Reference Material Producer,Testing Lab
-                            </small>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className=" accredited_bodies_code text-black-50">
-                              Category
-                            </small>
-                            <p className="mt-2 accredited_bodies_desc">
-                              Internal Document
-                            </p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className="accredited_bodies_code text-black-50">
-                              Subcategory
-                            </small>
-                            <p className="accredited_bodies_desc mt-2">
-                              Procedures
-                            </p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <p className="accredited_bodies_code">
-                              Issued date
-                            </p>
-                            <p className="accredited_bodies_desc">
-                              Oct 20, 2021
-                            </p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <p className="accredited_bodies_code">
-                              Recent actions
-                            </p>
-                            <p className="accredited_bodies_desc">
-                              Oct 20, 2021
-                            </p>
-                          </div>
-                        </div>
-                        <div className="row mx-0 mt-3">
-                          <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                            <a href='/HPC 0069.pdf' download>
-                              <div className={`${styles.fileDownloader}`}>
-                                <div className="inner_file_downloader d-flex ">
-                                  <div className={ `mt-3 ms-3 me-3 ${styles.iconHolder}`}>
-                                      <VscFilePdf size={30}/>
-                                  </div>
-                                <div className="  ms-4 me-4">
-                                    <p className=' text-black mt-3'>Download</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                          <a data-bs-toggle="modal"
-                              data-bs-target="#DocumentsModal">
-                            <button className={` btn ${styles.changeLog}`} >
-                              <small >
-                              <SlReload className='me-1 ms-1'/>
-                              Changelog</small>
-                            </button>
-                            </a>
-                          </div>
-                        </div>
-                      </div>       
-                      </div>
     </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-      AC 1.0 Introduction and Flowchart
-
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-      <div className="accordion-body">
-      <div className="content_card">
-                        <div className="row mx-0">
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className="accredited_bodies_code text-black-50">Version</small>
-                            <p className="accredited_bodies_desc mt-2">7.1</p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className=" text-black-50 accredited_bodies_code">
-                              Accreditation type
-                            </small>
-                            <small className={`${styles.accreditationType} mt-2`}>
-                              Calibration Lab,Halal Product Certification
-                              ,Inspection Body
-                              ,Management System Certification
-                              ,Medical Lab
-                              ,Personnel Certification Body
-                              ,Product Certification
-                              ,Prof Testing Provider
-                              ,Reference Material Producer,Testing Lab
-                            </small>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className=" accredited_bodies_code text-black-50">
-                              Category
-                            </small>
-                            <p className="mt-2 accredited_bodies_desc">
-                              Internal Document
-                            </p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className="accredited_bodies_code text-black-50">
-                              Subcategory
-                            </small>
-                            <p className="accredited_bodies_desc mt-2">
-                              Procedures
-                            </p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <p className="accredited_bodies_code">
-                              Issued date
-                            </p>
-                            <p className="accredited_bodies_desc">
-                              Oct 20, 2021
-                            </p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <p className="accredited_bodies_code">
-                              Recent actions
-                            </p>
-                            <p className="accredited_bodies_desc">
-                              Oct 20, 2021
-                            </p>
-                          </div>
-                        </div>
-                        <div className="row mx-0 mt-3">
-                          <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                            <a href='/HPC 0069.pdf' download>
-                              <div className={`${styles.fileDownloader}`}>
-                                <div className="inner_file_downloader d-flex ">
-                                  <div className={ `mt-3 ms-3 me-3 ${styles.iconHolder}`}>
-                                      <VscFilePdf size={30}/>
-                                  </div>
-                                <div className="  ms-4 me-4">
-                                    <p className=' text-black mt-3'>Download</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                            <a data-bs-toggle="modal"
-                              data-bs-target="#DocumentsModal">
-                            <button className={` btn ${styles.changeLog}`} >
-                              <small >
-                              <SlReload className='me-1 ms-1'/>
-                              Changelog</small>
-                            </button>
-                            </a>
-                          </div>
-                        </div>
-                      </div> 
-      </div>
-    </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="panelsStayOpen-headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-      AC 1.0 Introduction and Flowchart
-
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-      <div className="accordion-body">
-      <div className="content_card">
-                        <div className="row mx-0">
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className="accredited_bodies_code text-black-50">Version</small>
-                            <p className="accredited_bodies_desc mt-2">7.1</p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className=" text-black-50 accredited_bodies_code">
-                              Accreditation type
-                            </small>
-                            <small className={`${styles.accreditationType} mt-2`}>
-                              Calibration Lab,Halal Product Certification
-                              ,Inspection Body
-                              ,Management System Certification
-                              ,Medical Lab
-                              ,Personnel Certification Body
-                              ,Product Certification
-                              ,Prof Testing Provider
-                              ,Reference Material Producer,Testing Lab
-                            </small>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className=" accredited_bodies_code text-black-50">
-                              Category
-                            </small>
-                            <p className="mt-2 accredited_bodies_desc">
-                              Internal Document
-                            </p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <small className="accredited_bodies_code text-black-50">
-                              Subcategory
-                            </small>
-                            <p className="accredited_bodies_desc mt-2">
-                              Procedures
-                            </p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <p className="accredited_bodies_code">
-                              Issued date
-                            </p>
-                            <p className="accredited_bodies_desc">
-                              Oct 20, 2021
-                            </p>
-                          </div>
-                          <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-                            <p className="accredited_bodies_code">
-                              Recent actions
-                            </p>
-                            <p className="accredited_bodies_desc">
-                              Oct 20, 2021
-                            </p>
-                          </div>
-                        </div>
-                        <div className="row mx-0 mt-3">
-                          <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                            <a href='/HPC 0069.pdf' download>
-                              <div className={`${styles.fileDownloader}`}>
-                                <div className="inner_file_downloader d-flex ">
-                                  <div className={ `mt-3 ms-3 me-3 ${styles.iconHolder}`}>
-                                      <VscFilePdf size={30}/>
-                                  </div>
-                                <div className="  ms-4 me-4">
-                                    <p className=' text-black mt-3'>Download</p>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                          </div>
-                          <div className="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                          <a data-bs-toggle="modal"
-                              data-bs-target="#DocumentsModal">
-                            <button className={` btn ${styles.changeLog}`} >
-                              <small >
-                              <SlReload className='me-1 ms-1'/>
-                              Changelog</small>
-                            </button>
-                            </a>
-                          </div>
-                        </div>
-                      </div>       </div>
-    </div>
-  </div>
-</div>
-        </div>
-      </div>
-      <DocumentsModal/>
+ 
 </>
   )
 }

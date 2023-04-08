@@ -19,6 +19,9 @@ const AccrediedsModal = (props: Props) => {
       <div
         className={`modal-dialog modal-lg modal-dialog-centered ${styles.modalWidth}`}>
         <div className="modal-content">
+        <div className="modal-header">
+        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
           <div className="modal-body p-0">
             <div className="d-flex flex-column align-items-start col-sm-12">
               <div
