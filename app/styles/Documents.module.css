@@ -6,6 +6,16 @@
     padding: 0.8rem 1.5rem 0.8rem ;
     border: none;
   }
+  .accordionItemHead{
+    font-size: 1rem;
+    border: none;
+    background: #FFF !important;
+  }
+  .accordionItem{
+    border: #ccc solid 1px !important;
+    border-radius: 0.25rem !important;
+    margin-top: 1rem;
+  }
   .filterButton{
     padding: 0.4rem 1rem 0.5rem ;
     border: none;
@@ -13,8 +23,7 @@
     background: #eee;
   }
   .fileDownloader{
-    background: rgb(9,216,231);
-    background: linear-gradient(90deg, rgba(9,216,231,0.3686815790769433) 0%, rgba(5,222,237,0.22302331577162116) 50%, rgba(8,227,242,0.24823339980523462) 100%);    border-radius: 0.5rem;
+    background: linear-gradient(90deg, rgba(9, 142, 231, 0.169) 0%, rgba(5, 144, 237, 0.123) 50%, rgba(8, 129, 242, 0.148) 100%);    border-radius: 0.5rem;
     padding: 0rem;
   }
   .accreditationType{
