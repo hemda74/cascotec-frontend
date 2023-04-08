@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import styles from '../styles/FlagesSection.module.css'
 const FlagesSection = () => {
   return (
@@ -18,8 +19,8 @@ const FlagesSection = () => {
 										<span className={`${styles.spanFeature}`}>Who are we</span>
 										<h4 className={`${styles.headingFeature} fw-bold mt-2 `}>About GAC</h4>
 										<p className={`${styles.pargraphFeature}`}>The GCC Accreditation Center is one of the most visible successes of the Gulf Cooperation Council countries, as it is the first and fastest multi-economy accreditation agency in the Middle East, Asia, and the Pacific to gain international recognition.</p>
-										<a href="/about" title="About us">Learn more
-										</a>
+										<Link href="/about" title="About us">Learn more
+										</Link>
 									</div>
 								</div>
 							</div>
