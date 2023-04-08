@@ -36,7 +36,7 @@ const AccrediedsModal = (props: Props) => {
               <small className=' text-black-50 me-2 ms-2'>ACL 0021</small>
               <div className={`d-flex ${styles.imageConutry} me-2 ms-2`}>
                   <Image
-                    className=' p-2'
+                    className='p-2'
                     src={uae}
                     width={33}
                     height={33}
