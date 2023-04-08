@@ -5,7 +5,7 @@ const WhatsLink = () => {
   return (
     <>
     <div className={`${styles.mainDiv}`}>
-        <a href="https://wa.me/01028485872">
+        <a href="https://wa.me/+201028485872">
            <BsWhatsapp size={30} className={`${styles.iconStyle}`}/>
         </a>
         <div className={`tooltip fade bs-tooltip-top show ${styles.secondDiv}`}>
