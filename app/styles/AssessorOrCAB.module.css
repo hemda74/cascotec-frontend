@@ -49,7 +49,6 @@ text-align: center;
     z-index: 999;
     width: 38%;
 }
-
 .cardCertificate::after {
     content: "";
     position: absolute;

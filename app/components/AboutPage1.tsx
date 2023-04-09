@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import styles from '../styles/AboutPage1.module.css'
-import{GiShakingHands} from 'react-icons/gi'
 import {FcCheckmark} from 'react-icons/fc'
 import card_objective from '../public/imagess/card_objective.jpg';
 import Link from 'next/link'

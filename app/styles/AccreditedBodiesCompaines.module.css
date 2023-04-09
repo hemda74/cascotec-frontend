@@ -4,13 +4,13 @@
 }
 .bigDiv{
     width: 189.167px !important;
-    margin-left:0 3rem;
+    margin-left: 3rem;
     border-radius: 0.55rem;
     background-color: #f3f3fb;
     padding: 2.1rem 0;
 }
 .imageDiv{
-    width: 80%;
+    width: 60%;
     height: 4.7rem;
     margin: auto;
     display: block;

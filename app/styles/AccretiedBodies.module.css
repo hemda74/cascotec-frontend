@@ -15,7 +15,8 @@
     border: none;
   }
   .searchCard{
-    box-shadow: 0px 30px 40px -20px #8787b2;
+    box-shadow: 0 1rem 1rem rgba(0,0,0,.175) !important;
+
     border-radius: 1rem;
     padding: 1rem 3rem 1rem;
     margin-bottom: 3rem;
