@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 import styles from '../styles/AccreditedBodiesCompaines.module.css'
-import Image from 'next/image'
 const SwipeToSlide = (props) => { 
     const settings = {
       className: "center",
@@ -78,8 +77,6 @@ const SwipeToSlide = (props) => {
           <div className={`${styles.bigDiv}`}> 
               <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image9.png" alt=" " />
           </div>
-        
-          
         </Slider>
       </div>
     );

@@ -3,10 +3,6 @@ import styles from '../styles/CourseCard.module.css'
 import Image from 'next/image'
 import courseimage from '../public/imagess/coursesimage.png'
 import { useEffect, useState } from "react";
-import {HiMapPin} from 'react-icons/hi2'
-import {AiFillClockCircle} from 'react-icons/ai'
-import {BsFillCalendar2CheckFill} from 'react-icons/bs' 
-import {TbWorld} from 'react-icons/tb'
 const CourseCard = () => {
   const [partyTime, setPartyTime] = useState(false);
   const [days, setDays] = useState(0);
@@ -107,23 +103,6 @@ const CourseCard = () => {
       </div>
       </div>
     </div>
-    {/* <div className={`container ${styles.Courselinks}`}>
-            <div className="row justify-content-center">
-                <div className="col-xl-8 col-lg-10 col-md-12">
-                    <div className="row mx-0">
-                        <div className={`col-12 ${styles.Courselinks1Div}`}>
-                            <ul className={`sticky_links d-flex m-0 p-0 list-unstyled ${styles.stickyLinks}`}>
-                                <li><a href="#description" className={`${styles.anchorLink} me-1 ms-1`}>Description</a></li>
-                                <li><a href="#outline" className={`${styles.anchorLink} me-1 ms-1 `}>Outline</a></li>
-                                <li><a href="#audience" className={`${styles.anchorLink} me-1 ms-1`}>Audience</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    <hr className={`${styles.lineLinks}`}/>
-    */} 
     <div className="container col-xl-8 col-lg-8 col-md-12 mb-5">
         <div className="row">
             <div className="col-lg-8 col-md-12 p-3">
