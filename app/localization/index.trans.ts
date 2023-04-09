@@ -221,9 +221,13 @@ const indexTrans: translataionContainer = {
         ar:'هدفنا'
     },
     //////////////////// < About Us > //////////////////////////
-    routeAboutUs:{
-        en:'Home > About CASCO > About Us',
-        ar:' الرئيسية  >  عن كاسكو  > عن الشركة'
+    homepageurl:{
+        en:'Home',
+        ar:'الرئيسية'
+    },
+    aboutpageurl:{
+        en:' > About CASCO',
+        ar:' > عن كاسكو'
     },
     AboutUsTitle:{
         en:'About Us',

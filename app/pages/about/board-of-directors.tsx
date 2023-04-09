@@ -4,9 +4,6 @@ import ViewerLayout from '../../layouts/ViewerLayout';
 import { NextPageWithLayout } from '../_app';
 import BoardOfDirectors from '../../components/BoardOfDirectors';
 type Props = {};
-// dymmy data for ui till handle working with api
-
-
 const boardofdirectors:NextPageWithLayout = (props:Props) => {
   return (
    <>

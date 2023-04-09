@@ -144,7 +144,7 @@ const ContactUs = () => {
                   </div>
                   <div className={`col-md-6 form-group mt-4 ${styles.formGroup}`}>
                   <select  className={`form-select ${styles.formControl}`} >
-                    <option>your Country</option>
+                    <option>Your Country</option>
                     <option value="AF">Afghanistan</option>
                     <option value="AX">Aland Islands</option>
                     <option value="AL">Albania</option>
