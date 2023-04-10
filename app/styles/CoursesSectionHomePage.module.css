@@ -1,6 +1,7 @@
 .sectionCoursesHead{
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding:0.7777777778rem 0;
+    background: #f9f9f9;
   }
   .spanFeature{
     font-weight: 700;
@@ -21,7 +22,7 @@
     position: relative;
     cursor: pointer;
     display: flex;  
-    background: #f9f9f9;
+    background: #fff;
     flex-direction: column;
     padding-bottom: 2rem;
   }

@@ -57,7 +57,7 @@ const Steps = () => {
 										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12  `}>
 											<div>
 												<div className={`${styles.imgContainer}`}>
-													<img src="https://gac.org.sa/wp-content/uploads/2022/09/1.svg" alt="" />
+													<img src="/images/home_page/steps_section/steps_images/1.svg" alt="" />
 													<label className={`${styles.number}`}>1</label>
 												</div>
 												<div>
@@ -69,7 +69,7 @@ const Steps = () => {
 										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12`}>
 											<div>
 												<div className={`${styles.imgContainer}`}>
-													<img src="https://gac.org.sa/wp-content/uploads/2022/09/2.svg" alt="" />
+													<img src="/images/home_page/steps_section/steps_images/2.svg" alt="" />
 													<label className={`${styles.number}`}>2</label>
 												</div>
 												<div>
@@ -81,7 +81,7 @@ const Steps = () => {
 										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12`}>
 											<div>
 												<div className={`${styles.imgContainer}`}>
-													<img src="https://gac.org.sa/wp-content/uploads/2022/09/3.svg" alt="" />
+													<img src="/images/home_page/steps_section/steps_images/3.svg" alt="step_image" />
 													<label className={`${styles.number}`}>3</label>
 												</div>
 												<div>
@@ -95,7 +95,7 @@ const Steps = () => {
 									<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 `}>
 											<div>
 												<div className={`${styles.imgContainer}`}>
-													<img src="https://gac.org.sa/wp-content/uploads/2022/09/6.svg" alt="" />
+													<img src="/images/home_page/steps_section/steps_images/6.svg" alt="" />
 													<label className={`${styles.number}`}>6</label>
 												</div>
 												<div>
@@ -107,7 +107,7 @@ const Steps = () => {
 										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 `}>
 											<div>
 												<div className={`${styles.imgContainer}`}>
-													<img src="https://gac.org.sa/wp-content/uploads/2022/09/5.svg" alt="" />
+													<img src="/images/home_page/steps_section/steps_images/5.svg" alt="" />
 													<label className={`${styles.number}`}>5</label>
 												</div>
 
@@ -120,7 +120,7 @@ const Steps = () => {
 										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 `}>
 											<div>
 												<div className={`${styles.imgContainer}`}>
-													<img src="https://gac.org.sa/wp-content/uploads/2022/09/4.svg" alt="" />
+													<img src="/images/home_page/steps_section/steps_images/4.svg" alt="" />
 													<label className={`${styles.number}`}>4</label>
 												</div>
 												<div>

@@ -72,13 +72,13 @@ const Login: NextPage = () => {
    <FlagesSection/>
    <ServicesSlider/>
    <Steps/> 
-   <ApplyAcc/>
+   {/* <ApplyAcc/> */}
    <CoursesSectionHomePage/>
-   <Recogention/>
-   <AccreditedBodiesCompaines/> 
-   <AccreditedBodiesCompainesRtl/>
-   <AssessorOrCAB/>
-   <NewsHomePage/>
+   {/* <Recogention/> */}
+   {/* <AccreditedBodiesCompaines/>  */}
+   {/* <AccreditedBodiesCompainesRtl/> */}
+   {/* <AssessorOrCAB/> */}
+   {/* <NewsHomePage/> */}
    <Footer/>
    </main>
    </>

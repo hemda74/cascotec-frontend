@@ -11,7 +11,7 @@ const CourseCard = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("03/25/2024 23:50:05");
+    const target = new Date("06/01/2023 09:00:00");
 
     const interval = setInterval(() => {
       const now = new Date();

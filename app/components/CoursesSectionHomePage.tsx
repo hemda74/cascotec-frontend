@@ -20,7 +20,7 @@ const CoursesSectionHomePage = () => {
                                         <span className={`${styles.spanFeature}`}>Courses</span>
                                         <p  className="fw-bold fs-4 mt-2">Find your perfect program</p>
                                         <p className={` ${styles.cousesParageph}`}>The GCC was distinguished by providing courses, seminars, and training programs via online technology in line with the circumstances that may arise, and in keeping with the progress and development of information technology. In addition, we offer offline courses.</p>
-                                        <img src="https://gac.org.sa/wp-content/uploads/2022/10/section_courses.png" className="img_blog" alt="" />
+                                        <img src="/images/home_page/section_courses/section_courses.png" className="img_blog" alt="course_image" />
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-8 col-md-12">
@@ -29,7 +29,7 @@ const CoursesSectionHomePage = () => {
                                     <Link href={'/courses/1'}>
                                     <div className={`${styles.postBox} p-1 `}>
                                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                                        <figure className={`  mt-5 ${styles.postTitleFigre}`}>
+                                        <figure className={`mt-5 ${styles.postTitleFigre}`}>
                                         <span className={` mt-5 ${styles.postTitle}`}>Mandatory documents for international accreditation organizations IHAF -AIF</span>
                                         <figcaption className={`${styles.figCaption}`}>
                                             <span className='m-auto  fw-semibold text-white'>General Requirements for Halal Cosmetics and Personal care.Packaging for Halal Cosmetics and Personal care.Informative Data Halal Cosmetics and Personal care.</span>
