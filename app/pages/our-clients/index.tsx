@@ -3,6 +3,7 @@ import Head from 'next/head';
 import ViewerLayout from '../../layouts/ViewerLayout';
 import { NextPageWithLayout } from '../_app';
 import AccretiedBodies from '../../components/AccrediedsBodies';
+import OpeningSoon from '../../components/OpeningSoon';
 type Props = {};
 // dymmy data for ui till handle working with api
 const dummyData = {
@@ -100,19 +101,20 @@ const dummyData = {
     },
   ],
 };
-const Accredtied:NextPageWithLayout = (props:Props) => {
+const Accredtied = (props:Props) => {
   return (
     <>
     <Head>
         <title>Accredtied Bodies | CASCO</title>
     </Head>
     <main>
-      <AccretiedBodies accredtied_bodies={dummyData.accredtied_bodies} />
+      {/* <AccretiedBodies accredtied_bodies={dummyData.accredtied_bodies} /> */}
+      <OpeningSoon/>
     </main>
     </>
   )
 }
 // adding Layout
-Accredtied.getLayout = function getLayout(Accredtied: ReactElement) {
-return <ViewerLayout childern={Accredtied}></ViewerLayout>;}
+// Accredtied.getLayout = function getLayout(Accredtied: ReactElement) {
+// return <ViewerLayout childern={Accredtied}></ViewerLayout>;}
 export default Accredtied;

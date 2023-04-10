@@ -39,7 +39,7 @@ const Footer = () => {
                         <span className=" fs-5  fw-bold p-0 " data-trans="LinksFooter">Links</span>
                         <ul className="list-unstyled ln-lg mt-3 p-0 ">
                             <li><Link className={`nav-link mt-2`}href={'/services'}><a className={`${styels.footerLink}`} data-trans="ServicesFooter">Services</a></Link></li>
-                            <li className='mt-2'><Link className={`nav-link `}href={'/accredited-bodies'}><a className={`${styels.footerLink}`}data-trans="AccreditedBodiesFooter"><small>Accredited Bodies</small></a></Link></li>
+                            <li className='mt-2'><Link className={`nav-link `}href={'/our-clients'}><a className={`${styels.footerLink}`}data-trans="AccreditedBodiesFooter"><small>Our Clients</small></a></Link></li>
                             <li className='mt-2'><Link className={`nav-link`}href={'/courses'}><a className={`${styels.footerLink}`} data-trans="CoursesFooter"><small>Courses</small></a></Link></li>
                             <li className='mt-2'><Link className={`nav-link`}href={'documents'}><a className={`${styels.footerLink}`} data-trans="DocumentsFooter"><small>Documents</small></a></Link></li>
                         </ul>    
@@ -76,7 +76,7 @@ const Footer = () => {
             <p className={`  ${styels.copyRightsDiv}`}>
                         <span data-trans="CascoCopyright">&copy; Copyright 2023</span>
                          <span data-trans="CascoCopyrightAll" className='ms-1 me-1'>. All Rights Reserved</span>
-                         <span className={`${styels.footerAhmed} me-1 ms-1 `} data-trans='Cascocopyright'>CASCO</span>
+                         <span className={`${styels.footerAhmed} me-1 ms-1`} data-trans='Cascocopyright'>CASCO</span>
                     </p>
                     <div className={`  ${styels.copyRightsDiv}`}>
                         <span data-trans="CreatedByFooter">Created By</span> 

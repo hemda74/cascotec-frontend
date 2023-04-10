@@ -57,7 +57,7 @@ const NavBar = () => {
                     </ul>
                 </li>
                 <li className={`nav-item ms-3 ${styles.navItem}`}>
-                    <Link href={'/accredited-bodies'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a className={`${styles.navLink}`}data-trans="AccreditedBodiesNav">Accredited Bodies</a></Link>
+                    <Link href={'/our-clients'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a className={`${styles.navLink}`}data-trans="AccreditedBodiesNav">Our Clients</a></Link>
                 </li>
                 <li className={`nav-item ms-3 ${styles.navItem}`}>
                     <Link href={'/services'}  className={`nav-link text-black pb-0 mb-0 ${styles.navLink}`} id="link"><a className={`${styles.navLink}`}data-trans="ServicesNav">Services</a></Link>

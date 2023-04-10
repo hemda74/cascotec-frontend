@@ -15,10 +15,10 @@ const AccretiedBodies = (props: Props) => {
     <section className={`container ${styles.mainSection}`}>
         <div className={`text-center ${styles.titleWord}`}>
             <div className={`container mb-4`}>
-              <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
-              <Link href={"/accredited-bodies"}><a className="text-white fw-semibold mb-4">{` > Accredited Bodies`}</a></Link>
+              <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
+              <Link href={"/accredited-bodies"}><a className="text-white fw-semibold mb-4" data-trans="ourclientsnav">{` > Our Clients`}</a></Link>
             </div>
-            <h2 className={`text-white fw-bold mb-4 `} >Accredited Bodies</h2>
+            <h2 className={`text-white fw-bold mb-4 `} data-trans="AccreditedBodiesNav">Our Clients</h2>
         </div>
         <div className={` container mb-5 ${styles.formConatiner}`}>
             <div className="row gy-5 gx-lg-5">

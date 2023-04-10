@@ -52,8 +52,8 @@ const indexTrans: translataionContainer = {
         ar:'اللجنة الاستشارية للجهات ذات العلاقة'
     },
     AccreditedBodiesNav:{
-        en:'Accredited Bodies',
-        ar:'الجهات المعتمدة',
+        en:'Our Clients',
+        ar:'عملائنا',
     },
     ServicesNav:{
         en:'Services',
@@ -177,8 +177,8 @@ const indexTrans: translataionContainer = {
         ar:'خدماتنا'
     },
     AccreditedBodiesFooter:{
-        en:'Accredited Bodies',
-        ar:'الجهات المعتمدة'
+        en:'Our Clients',
+        ar:'عملائنا'
     },
     CoursesFooter:{
         en:'Courses',
@@ -664,8 +664,11 @@ routeBordofDirctors:{
         ar:'تواصل معنا'
     },
 
-
-
+/////////////////////////////////////////////////our Cients//////////////////////////////////////////////////////////////////////////////
+    ourclientsnav:{
+        en:' > Our Clients',
+        ar:' > عملائنا'    
+    },
 
 
 

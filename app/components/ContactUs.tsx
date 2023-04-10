@@ -46,8 +46,7 @@ const ContactUs = () => {
                     </div>   
                     </div>          
             </div>
-            <div className="col-lg-4 col-md-6 p-3 " >
-            
+            <div className="col-lg-4 col-md-6 p-3 " > 
             <div className={`  ${styles.firstIcons}`}>
             <p className={`fs-4 mb-4 ${styles.postTitle}`}>KSA Branch</p>
                         <p className={`${styles.iconsColor}`}>
