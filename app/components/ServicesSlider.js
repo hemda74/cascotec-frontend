@@ -38,10 +38,15 @@ export default class AsNavFor extends Component {
         breakpoint: 1024,
         settings: {
           slidesToShow: 5,
-          slidesToScroll: 1,
           initialSlide: 1,
           infinite: true,
-          dots: true
+          dots: true,
+          speed:1000,
+      slidesToScroll: 3,
+      autoplay: true,
+      autoplaySpeed: 22000,
+      pauseOnHover: true,
+      lazyLoad: true,
         }
       },
       {
@@ -51,27 +56,48 @@ export default class AsNavFor extends Component {
           slidesToScroll: 1,
           initialSlide: 1,
           infinite: true,
-          dots: true
+          dots: true,
+          speed:1000,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      pauseOnHover: true,
+      lazyLoad: true,
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToScroll: 7,
           initialSlide: 1,
           infinite: true,
-          dots: true
+          dots: true,
+          speed:1000,
+      slidesToScroll: 7,
+      autoplay: true,
+      autoplaySpeed: 0,
+      pauseOnHover: true,
+      lazyLoad: true,
         }
       }
     ]
   }
     return (
-      <div className={`row ${styles.mainDiv}`}>
+      <div className={`row ${styles.mainDiv} mt-3`}>
               <div className="col-sm-12">
               <div className={`${styles.ServiceSction}`} >
               <div className=" m-auto col-xl-8 col-lg-10 col-md-12">
                 <div className=" text-center ">
+                <div className={`${styles.sectionServicesHead} `}>
+                                	<span className={`${styles.spanFeature}`}>Be Certified</span>
+                                	<div className="row justify-content-center ">
+                                    	<div className="">
+                                        	<h4 className={`${styles.headingFeature}`}>The significance of accreditation and the process of obtaining it</h4>
+                                    	</div>
+									</div>
+                                	<p className={`${styles.pargraphFeature}` }>The significance of accreditation is in its ability to be a dependable means of international trade through mutual acknowledgment between countries and economic</p>
+                                  </div>
       <div>
         <Slider
         {...settings_first_slider}
@@ -153,31 +179,31 @@ export default class AsNavFor extends Component {
           focusOnSelect={true}
         >
           <div className={` ${styles.secondContainer} d-flex flex-column`}>
-          <Image src={image1} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+              <Image src={image1} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
           <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column`}>
-          <Image src={image2} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+              <Image src={image2} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
           <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image3} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+              <Image src={image3} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
           <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image4} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+              <Image src={image4} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
           <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image5} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+              <Image src={image5} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
           <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image6} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+              <Image src={image6} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
           <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
           <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-          <Image src={image7} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+              <Image src={image7} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
           <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
           </div>
         </Slider>

@@ -1,12 +1,12 @@
 export const selectOptions = [
-    { value: "testlap", label: "Testing Lap" },
-    { value: "blue", label: "Calibration Lab" },
-    { value: "purple", label: "Medical Lab" },
-    { value: "red", label: "Mangment System Cetifcation" },
-    { value: "orange", label: "Halal Product Certification" },
-    { value: "yellow", label: "Inspection Body" },
-    { value: "green", label: "Prof Testing Provider" },
-    { value: "forest", label: "Product Certification" },
-    { value: "slate", label: "Personnel Certification Body" },
-    { value: "silver", label: "Reference Material Producer" }
+    { value: "TestingLap", label: "Testing Lap" },
+    { value: "CalibrationLab", label: "Calibration Lab" },
+    { value: "MedicalLab", label: "Medical Lab" },
+    { value: "MangmentSystemCetifcation", label: "Mangment System Cetifcation" },
+    { value: "HalalProductCertification", label: "Halal Product Certification" },
+    { value: "InspectionBody", label: "Inspection Body" },
+    { value: "ProfTestingProvider", label: "Prof Testing Provider" },
+    { value: "ProductCertification", label: "Product Certification" },
+    { value: "PersonnelCertificationBody", label: "Personnel Certification Body" },
+    { value: "ReferenceMaterialProducer", label: "Reference Material Producer" }
   ];
