@@ -42,11 +42,11 @@ export default class AsNavFor extends Component {
           infinite: true,
           dots: true,
           speed:1000,
-      slidesToScroll: 3,
-      autoplay: true,
-      autoplaySpeed: 22000,
-      pauseOnHover: true,
-      lazyLoad: true,
+          slidesToScroll: 3,
+          autoplay: true,
+          autoplaySpeed: 22000,
+          pauseOnHover: true,
+          lazyLoad: true,
         }
       },
       {
@@ -58,11 +58,11 @@ export default class AsNavFor extends Component {
           infinite: true,
           dots: true,
           speed:1000,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      pauseOnHover: true,
-      lazyLoad: true,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          pauseOnHover: true,
+          lazyLoad: true,
         }
       },
       {
@@ -74,11 +74,11 @@ export default class AsNavFor extends Component {
           infinite: true,
           dots: true,
           speed:1000,
-      slidesToScroll: 7,
-      autoplay: true,
-      autoplaySpeed: 0,
-      pauseOnHover: true,
-      lazyLoad: true,
+          slidesToScroll: 7,
+          autoplay: true,
+          autoplaySpeed: 0,
+          pauseOnHover: true,
+          lazyLoad: true,
         }
       }
     ]

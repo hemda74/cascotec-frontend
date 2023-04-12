@@ -1,8 +1,8 @@
 import React, { ReactElement } from 'react'
 import Head from 'next/head';
-import ViewerLayout from '../../layouts/ViewerLayout';
-import { NextPageWithLayout } from '../_app';
-import BoardOfDirectors from '../../components/BoardOfDirectors';
+import ViewerLayout from '../../../layouts/ViewerLayout';
+import { NextPageWithLayout } from '../../_app';
+import BoardOfDirectors from '../../../components/BoardOfDirectors';
 type Props = {};
 const boardofdirectors:NextPageWithLayout = (props:Props) => {
   return (

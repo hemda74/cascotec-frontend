@@ -4,26 +4,32 @@ import styles  from '../styles/DriectorGeneral.module.css';
 import React from 'react';
 import Link from 'next/link';
 import { FcCheckmark } from 'react-icons/fc';
-type Props = {
-}
-// design for DriectorGeneral detailes 
-const DriectorGeneral = (props:Props) => {
+    type Props = {
+        name:string;
+        title:string;
+        imaage:string;
+        responsible:any;
+        width:number,
+        height:number,
+    };
+// design for DriectorRole detailes 
+const DriectorRole = (props:Props) => {
   return (
  <>
     <div className={`text-center ${styles.titleWord}`}>
     <div className={`container mb-4`}>
-        <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
-        <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
-        <Link href={"/director-general"}><a className="text-white fw-semibold mb-4">{` > Director General`}</a></Link>
+                        <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
+                        <Link href={"/about"}><a className="text-white fw-semibold mb-4" data-trans="AboutCascoNav2">{` > About CASCO`}</a></Link>
+                        <Link href={"/about/board-of-directors"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{` > Board Of Directors`}</a></Link>
         </div>
-      <h2 className={`text-white fw-bold mb-5 `} data-trans="DirectorManger">Director General</h2>
+      <h2 className={`text-white fw-bold mb-5 `}>{props.name}</h2>
     </div>
-    <div className={` container row m-auto `} >
+    <div className={`container row m-auto `} >
         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-3 mb-3">
-            <Image src={metaeb}   className={` ${styles.cardImage} rounded `} alt=""/>
+            <Image src={props.imaage} className={`${styles.cardImage} rounded`} width={props.width} height={props.height}   alt=""/>
         </div>
         <div className={`${styles.ethicCard3} col-lg-7 col-md-8 col-sm-12 mt-5 mb-3`}>
-            <span className='fs-4 fw-bold m-2    d-block' data-trans="Thedirectorgeneral1">The director general is responsible for:-</span>
+            <span className='fs-4 fw-bold m-2 d-block' data-trans="Thedirectorgeneral1">The director general is responsible for:-</span>
             <ul className='list-unstyled mt-3'>
                 <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
@@ -63,4 +69,4 @@ const DriectorGeneral = (props:Props) => {
  </>
   )
 }
-export default DriectorGeneral;
+export default DriectorRole;
