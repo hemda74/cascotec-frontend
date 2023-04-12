@@ -663,9 +663,61 @@ routeBordofDirctors:{
         en:'Contact Us',
         ar:'تواصل معنا'
     },
+    EgyptBranch:{
+        en:'Egypt Branch',
+        ar:'فرع مصر'
+    },
     egyptadress:{
         en:'61 Al Falki, Bab Al Louq, Abdeen, Cairo Governorate 11513, Egypt',
         ar:'61 الفلكي, باب اللوق, عابدين , القاهرة 11513, مصر'
+    },
+    UAEBranch:{
+        en:'UAE Branch',
+        ar:'فرع الإمارات'
+    },
+    uaeadress:{
+        en:'Floor #14 flat #1401 Victoria Building 31 new al taawun road Sharjah - UAE. land Mark Oriana Hospital',
+        ar:'دور 14 مكتب 1401 مبنى فيكتوريا رقم 31 طريق التعاون الجديد الشارقة الإمارات'
+    },
+    KSABranch:{
+        en:'KSA Branch',
+        ar:'فرع السعودية'
+    },
+    ksaAdress:{
+        en:'KSA - Riyadh - Mosa Bin Nasser St. Borj Alnamer - office No: 506',
+        ar:'مكتب 506 , برج الانامر, شارع موسى بن نصير, الرياض , السعودية'
+    },
+    pleasefillform:{
+        en:'Please fill out the form below, and one of our representatives will contact you within 24 hours.',
+        ar:'يرجى ملء النموذج أدناه ، وسيتصل بك أحد ممثلينا في غضون 24 ساعة.'
+    },
+    Contactoption:{
+        en:'Contact',
+        ar:'اتصل بنا'
+    },
+    Inquiryoption:{
+        en:'Inquiry',
+        ar:'استفسار'
+    },
+    ComplaintsSeggestionsoption:{
+        en:'Complaints & Seggestions',
+        ar:'الشكاوى والمقترحات'
+    },
+    TechnicalSupportoption:{
+        en:'Technical Support',
+        ar:'الدعم الفني'
+    },
+    Subject:{
+        en:'Subject',
+        ar:'الموضوع'
+    },
+    Message:{
+        en:'Message',
+        ar:'رسالتك'
+    },
+    sendmessage:{
+        en:'Send Message',
+        ar:'إرسال'
     },
 /////////////////////////////////////////////////our Cients//////////////////////////////////////////////////////////////////////////////
     ourclientsnav:{

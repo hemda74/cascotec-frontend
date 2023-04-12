@@ -67,19 +67,19 @@ const Login: NextPage = () => {
    </Head>
    <main className={`${styles.bodyContainer}`}>
     <WhatsLink/>
-   <NavBar/>
-   <Hero/>
-   <FlagesSection/>
-   <ServicesSlider/>
-   <Steps/> 
+    <NavBar/>
+    <Hero/>
+    <FlagesSection/>
+    <ServicesSlider/>
+    <Steps/> 
     <ApplyAcc/> 
-   <CoursesSectionHomePage/>
+    <CoursesSectionHomePage/>
     <Recogention/> 
     <AccreditedBodiesCompaines/>  
     <AccreditedBodiesCompainesRtl/>
     <AssessorOrCAB/> 
     <NewsHomePage/> 
-   <Footer/>
+    <Footer/>
    </main>
    </>
    
