@@ -314,10 +314,14 @@ const indexTrans: translataionContainer = {
         ar:'مصادر أخرى يحددها مجلس الإدارة.'
     },
 ////////////////////< Board of Directors >//////////////////////////////////
-routeBordofDirctors:{
-    en:'Home  >  About Us  >  Board of Directors',
-    ar:' الرئيسية  >  عن كاسكو  >  مجلس الإدارة'
-},
+    BoardOfDirectorsNav2:{
+        en:' > Board Of Directors',
+        ar:' > مجلس الإدارة'
+    },
+    AboutCascoNav2:{
+    en:" > About CASCO",
+    ar:" > عن كاسكو"
+    },
     BoardofDirectors:{
         en:'Board of Directors',
         ar:'مجلس الإدارة'
