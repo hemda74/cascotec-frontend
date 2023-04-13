@@ -406,6 +406,14 @@ const indexTrans: translataionContainer = {
         en:'Architectural Graphic Director',
         ar:'مديرة الجرافيك المعماري'
     },
+    AhmedHammad:{
+        en:'Dr .Ahmed Hammad',
+        ar:'د .احمد حماد'
+    },
+    DrKossai:{
+        en:'Dr .Kossai',
+        ar:'د. قسي'
+    },
     /////////////////////< The director general1 >/////////////////////////
     routeDirctorGeneral:{
         en:'Home > About Us > Director General',
@@ -728,8 +736,11 @@ const indexTrans: translataionContainer = {
         en:' > Our Clients',
         ar:' > عملائنا'    
     },
-
-
+////////////////////////////// driector general/////////////////////////////////////////
+    Responsibilities:{
+        en:'Roles and Responsibilities',
+        ar:'المهام والمسؤلويات'
+    },
 
 
 
