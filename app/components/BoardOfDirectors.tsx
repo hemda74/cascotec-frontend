@@ -37,12 +37,12 @@ const BoardOfDirectors = () => {
                     <h2 className="text-white fw-bold mb-5" data-trans="BoardofDirectors">Our Team</h2>
                 </div>
                 <div className={`container ${styles.imgsHolder}`}>
-                    <div className="row gy-5 col-lg-9 m-auto justify-content-center">
+                    <div className="row col-lg-9 m-auto justify-content-center">
                         <div className="col-xl-4 col-md-6 d-flex" >
                                 <a>
                                     <div className={`${styles.teamMember2}`}>
                                         <figure className={`${styles.teamMemberFigure}`}>
-                                          <Image src={ahmed_mahrous} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                          <Image src={ahmed_mahrous} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                               <div className='mt-5'>
                                                   <p className='fs-3' data-trans="MrAhmedMahrous">Mr. Ahmed Mahrous</p>
@@ -60,7 +60,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={badwy} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={badwy} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3' data-trans="DrAhmedBedawi">Dr. Ahmed Bedawi</p>
@@ -79,7 +79,7 @@ const BoardOfDirectors = () => {
                             <a>
                                 <div className={`${styles.teamMember2}`}>
                                     <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={mostafa} height={500} width={400} alt="" className=" rounded"/>
+                                        <Image src={mostafa} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                         <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3' data-trans="MrMostafaFarag">Mr. Mostafa Farag</p>
@@ -97,7 +97,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                          <Image src={abdelrahman} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                          <Image src={abdelrahman} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3' data-trans="ProfDrAbdelrhamanFarahat">Prof. Dr. Abdelrhaman Farahat</p>
@@ -115,7 +115,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={hammad} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={hammad} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3'>Dr.Ahmed Hammad</p>
@@ -133,7 +133,7 @@ const BoardOfDirectors = () => {
                             <a>
                                 <div className={`${styles.teamMember2}`}>
                                     <figure className={`${styles.teamMemberFigure}`}>
-                                    <Image src={jihad} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                    <Image src={jihad} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                     <figcaption className={`${styles.figCaption} text-center`}>
                                         <div className='mt-5'>
                                         <p className='fs-3' data-trans="MsJihadMohamed">Ms. Jihad Mohamed</p>
@@ -151,7 +151,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={sheif} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={sheif} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3'>Dr .Shrief Galal </p>
@@ -169,7 +169,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={mai} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={mai} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3'>Dr.Mai Tag</p>
@@ -187,7 +187,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={hossam} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={hossam} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3'>Dr.Mohamed Hossam</p>
@@ -205,7 +205,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={ahmed_abdo} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={ahmed_abdo} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3'>Dr.Ahmed Abdo</p>
@@ -223,7 +223,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={ahmed_abdelazim} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={ahmed_abdelazim} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3'>Dr.Ahmed Abdelaziem</p>
@@ -241,7 +241,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={mossad} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={mossad} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3'>Dr.Mohamed Mosaad</p>
@@ -259,7 +259,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={kossai} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={kossai} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3'>Dr.Kossai</p>
@@ -277,7 +277,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                            <Image src={mohamed} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                            <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                             <figcaption className={`${styles.figCaption} text-center`}>
                                               <div className='mt-5'>
                                                   <p className='fs-3' data-trans="ProfDrMagdyElMahdy">Prof Dr. Magdy El Mahdy</p>
@@ -295,7 +295,7 @@ const BoardOfDirectors = () => {
                                 <a>
                                     <div className={`${styles.teamMember2}`}>
                                         <figure className={`${styles.teamMemberFigure}`}>
-                                            <Image src={mohamed} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                            <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                             <figcaption className={`${styles.figCaption} text-center`}>
                                                 <div className='mt-5'>
                                                     <p className='fs-3' data-trans="DrFred">Dr. Fred</p>
@@ -314,7 +314,7 @@ const BoardOfDirectors = () => {
                                 <a>
                                     <div className={`${styles.teamMember2}`}>
                                         <figure className={`${styles.teamMemberFigure}`}>
-                                            <Image src={mohamed} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                            <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                             <figcaption className={`${styles.figCaption} text-center`}>
                                                 <div className='mt-5'>
                                                     <p className='fs-3'data-trans="ShehabAlAref">Shehab Al Aref</p>
@@ -332,7 +332,7 @@ const BoardOfDirectors = () => {
                                 <a>
                                     <div className={`${styles.teamMember2}`}>
                                         <figure className={`${styles.teamMemberFigure}`}>
-                                            <Image src={mohamed} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                            <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                             <figcaption className={`${styles.figCaption} text-center`}>
                                                 <div className='mt-5'>
                                                     <p className='fs-3'data-trans="DinaMohi">Dina Mohi</p>
@@ -350,7 +350,7 @@ const BoardOfDirectors = () => {
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={mohamed} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                         <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
                                                 <p className='fs-3' data-trans="MrsEsraaAbdelHafez">Mrs. Esraa Abdel Hafez</p>

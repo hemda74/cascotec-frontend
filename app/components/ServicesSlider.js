@@ -83,136 +83,135 @@ export default class AsNavFor extends Component {
       }
     ]
   }
-    return (
-      <div className={`row ${styles.mainDiv} mt-3`}>
-              <div className="col-sm-12">
-              <div className={`${styles.ServiceSction}`} >
-              <div className=" m-auto col-xl-8 col-lg-10 col-md-12">
-                <div className=" text-center ">
-                <div className={`${styles.sectionServicesHead} `}>
-                                	<span className={`${styles.spanFeature}`}>Be Certified</span>
-                                	<div className="row justify-content-center ">
-                                    	<div className="">
-                                        	<h4 className={`${styles.headingFeature}`}>The significance of accreditation and the process of obtaining it</h4>
-                                    	</div>
-									</div>
-                                	<p className={`${styles.pargraphFeature}` }>The significance of accreditation is in its ability to be a dependable means of international trade through mutual acknowledgment between countries and economic</p>
+  return (
+        <div className={`row ${styles.mainDiv} mt-3`}>
+            <div className="col-sm-12">
+                <div className={`${styles.ServiceSction}`}>
+                    <div className="m-auto col-xl-8 col-lg-10 col-md-12">
+                        <div className="text-center">
+                            <div className={`${styles.sectionServicesHead}`}>
+                                  <span className={`${styles.spanFeature}`}>Our Services</span>
+                                  <div className="row justify-content-center">
+                                      <div className="">
+                                          <h4 className={`${styles.headingFeature}`}>Professionalism in providing technical consulting services for obtaining accreditations and upgrading quality infrastructure to comply with legislative, mandatory, and technical regulations is crucial.</h4>
+                                      </div>
                                   </div>
-      <div>
-        <Slider
-        {...settings_first_slider}
-          asNavFor={this.state.nav2}
-          ref={slider => (this.slider1 = slider)}
-        >
-          <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                  <Image src={image1} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
-              </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
-                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
-                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
-              </div>
-          </div>
-          <div className={` d-flex ${styles.mainCard} `} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
-                  <Image src={image2} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
-              </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
-                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
-                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
-              </div>
-          </div>
-          <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
-                  <Image src={image3} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
-              </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
-                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
-                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
-              </div>
-          </div>
-          <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                  <Image src={image4} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
-              </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  p-5 ${styles.itemContent}`}>
-                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
-                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
-              </div>
-          </div>
-          <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                  <Image src={image5} className={`${styles.objImage} `} width={550} height={450} alt=""/>
-              </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
-                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
-                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
-              </div>
-          </div>
-          <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                  <Image src={image6} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
-              </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
-                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
-                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
-              </div>
-          </div>
-          <div className={` d-flex ${styles.mainCard}`} >
-              <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
-                  <Image src={image7} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
-              </div>
-              <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
-                  <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
-                  <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
-              </div>
-          </div>
-         
-        </Slider>
-{/* Second Slider */}
-        <Slider
-        {...settings}
-          asNavFor={this.state.nav1}
-          ref={slider => (this.slider2 = slider)}
-          slidesToShow={4}
-          swipeToSlide={true}
-          focusOnSelect={true}
-        >
-          <div className={` ${styles.secondContainer} d-flex flex-column`}>
-              <Image src={image1} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
-          </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column`}>
-              <Image src={image2} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
-          </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-              <Image src={image3} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
-          </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-              <Image src={image4} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
-          </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-              <Image src={image5} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
-          </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-              <Image src={image6} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
-          </div>
-          <div className={` ${styles.secondContainer} d-flex flex-column   `}>
-              <Image src={image7} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-          <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
-          </div>
-        </Slider>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-   </div>
+                                  <p className={`${styles.pargraphFeature}`}>Our services aim to enhance mutual trust between conformity assessment providers and consumers, as well as raise awareness of the importance of accreditation in strengthening the quality infrastructure worldwide.</p>
+                            </div>
+                            <div>
+                              <Slider
+                              {...settings_first_slider}
+                                asNavFor={this.state.nav2}
+                                ref={slider => (this.slider1 = slider)}
+                              >
+                                  <div className={`d-flex ${styles.mainCard}`}>
+                                      <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
+                                          <Image src={image1} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
+                                      </div>
+                                      <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                                          <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                                          <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                                      </div>
+                                  </div>
+                                  <div className={`d-flex ${styles.mainCard}`}>
+                                      <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
+                                          <Image src={image2} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
+                                      </div>
+                                      <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                                          <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                                          <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                                      </div>
+                                  </div>
+                                  <div className={`d-flex ${styles.mainCard}`}>
+                                      <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
+                                          <Image src={image3} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
+                                      </div>
+                                      <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                                          <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                                          <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                                      </div>
+                                  </div>
+                                  <div className={`d-flex ${styles.mainCard}`}>
+                                      <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
+                                          <Image src={image4} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
+                                      </div>
+                                      <div className={`  col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12  p-5 ${styles.itemContent}`}>
+                                          <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                                          <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                                      </div>
+                                  </div>
+                                  <div className={`d-flex ${styles.mainCard}`}>
+                                      <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
+                                          <Image src={image5} className={`${styles.objImage} `} width={550} height={450} alt=""/>
+                                      </div>
+                                      <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                                          <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                                          <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                                      </div>
+                                  </div>
+                                  <div className={`d-flex ${styles.mainCard}`}>
+                                      <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
+                                          <Image src={image6} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
+                                      </div>
+                                      <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                                          <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                                          <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                                      </div>
+                                  </div>
+                                  <div className={`d-flex ${styles.mainCard}`}>
+                                      <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
+                                          <Image src={image7} className={`${styles.objImage}  `} width={550} height={450} alt=""/>
+                                      </div>
+                                      <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
+                                          <span className={` ${styles.itemTitle} fs-3 fw-bold  `} data-trans='Ourobjective'>Our Objective</span> 
+                                          <p className={` ${styles.itemText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                                      </div>
+                                  </div>
+                              </Slider>
+                              {/* Second Slider */}
+                              <Slider
+                              {...settings}
+                                asNavFor={this.state.nav1}
+                                ref={slider => (this.slider2 = slider)}
+                                slidesToShow={4}
+                                swipeToSlide={true}
+                                focusOnSelect={true}
+                              >
+                                  <div className={` ${styles.secondContainer} d-flex flex-column`}>
+                                      <Image src={image1} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+                                      <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
+                                  </div>
+                                  <div className={` ${styles.secondContainer} d-flex flex-column`}>
+                                      <Image src={image2} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+                                      <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
+                                  </div>
+                                  <div className={`${styles.secondContainer} d-flex flex-column`}>
+                                      <Image src={image3} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
+                                  </div>
+                                  <div className={`${styles.secondContainer} d-flex flex-column`}>
+                                      <Image src={image4} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
+                                  </div>
+                                  <div className={`${styles.secondContainer} d-flex flex-column`}>
+                                      <Image src={image5} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
+                                  </div>
+                                  <div className={`${styles.secondContainer} d-flex flex-column`}>
+                                      <Image src={image6} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
+                                  </div>
+                                  <div className={`${styles.secondContainer} d-flex flex-column`}>
+                                      <Image src={image7} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <span className="fw-bold mt-3 text-start">Accreditation of Inspection Bodies</span>
+                                  </div>
+                              </Slider>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
    );
   }
 }

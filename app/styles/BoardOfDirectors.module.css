@@ -39,20 +39,22 @@
     height: 0;
     overflow: hidden;
     visibility: hidden;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
   }
   .teamMember2 .teamMemberFigure:hover figCaption{
     visibility: visible;
     color: #fff;
     background: rgba(98, 141, 222, 0.523);   
-    height: 100%;
-    -webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
+    height: 99%;
+    margin-bottom: 0.3rem;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    border-radius: 1.5rem;
   }
   .flagImage{
     vertical-align: middle;
@@ -61,4 +63,8 @@
     background: rgba(98, 141, 222, 0.523);   
     height: 100%;
     z-index: -1;
+    border-radius: 1.5rem;
+  }
+  .imgStyle{
+    border-radius: 1.5rem;
   }
