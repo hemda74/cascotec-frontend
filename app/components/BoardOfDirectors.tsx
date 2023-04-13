@@ -32,9 +32,9 @@ const BoardOfDirectors = () => {
                     <div className={`container mb-4`}>
                         <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
                         <Link href={"/about"}><a className="text-white fw-semibold mb-4" data-trans="AboutCascoNav2">{` > About CASCO`}</a></Link>
-                        <Link href={"/about/board-of-directors"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{` > Board Of Directors`}</a></Link>
+                        <Link href={"/about/our-team"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{` > Our Team`}</a></Link>
                     </div>
-                    <h2 className="text-white fw-bold mb-5" data-trans="BoardofDirectors">Board of Directors</h2>
+                    <h2 className="text-white fw-bold mb-5" data-trans="BoardofDirectors">Our Team</h2>
                 </div>
                 <div className={`container ${styles.imgsHolder}`}>
                     <div className="row gy-5 col-lg-9 m-auto justify-content-center">
@@ -57,61 +57,6 @@ const BoardOfDirectors = () => {
                                 </a>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                            <a>
-                                <div className={`${styles.teamMember2}`}>
-                                    <figure className={`${styles.teamMemberFigure}`}>
-                                    <Image src={jihad} height={500} width={400} alt="" className="img-responsive rounded"/>
-                                    <figcaption className={`${styles.figCaption} text-center`}>
-                                        <div className='mt-5'>
-                                        <p className='fs-3' data-trans="MsJihadMohamed">Ms. Jihad Mohamed</p>
-                                        <p className='fs-5' data-trans="ChiefOperationsOfficerCFO">Chief Operations Officer (CFO)</p>
-                                        </div>
-                                        <div className='d-flex justify-content-end'>
-                                        {/* <Image src={uae} alt="" className={`${styles.flagImage}`} /> */}
-                                        </div>
-                                    </figcaption>
-                                    </figure>
-                                </div>
-                            </a>
-                        </div>
-                        <div className="col-xl-4 col-md-6 d-flex" >
-                            <a>
-                                <div className={`${styles.teamMember2}`}>
-                                    <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={mostafa} height={500} width={400} alt="" className=" rounded"/>
-                                        <figcaption className={`${styles.figCaption} text-center`}>
-                                            <div className='mt-5'>
-                                                <p className='fs-3' data-trans="MrMostafaFarag">Mr. Mostafa Farag</p>
-                                                <p className='fs-5' data-trans="ChiefFinancialOfficerCFO">Chief Financial Officer (CFO)</p>
-                                            </div>
-                                            <div className='d-flex justify-content-end'>
-                                                {/* <Image src={ksa} alt="" className={`${styles.flagImage}`} /> */}
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </a>
-                        </div>
-                        <div className="col-xl-4 col-md-6 d-flex">
-                              <a>
-                                  <div className={`${styles.teamMember2}`}>
-                                      <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={mohamed} height={500} width={400} alt="" className="img-responsive rounded"/>
-                                        <figcaption className={`${styles.figCaption} text-center`}>
-                                            <div className='mt-5'>
-                                                <p className='fs-3' data-trans="MrsEsraaAbdelHafez">Mrs. Esraa Abdel Hafez</p>
-                                                <p className='fs-5' data-trans="HumanResourcesDirector">Human Resources Director</p>
-                                            </div>
-                                            <div className='d-flex justify-content-end'>
-                                                {/* <Image src={egypt} alt=""  className={`${styles.flagImage}`} /> */}
-                                            </div>
-                                        </figcaption>
-                                      </figure>
-                                  </div>
-                              </a>
-
-                        </div>
-                        <div className="col-xl-4 col-md-6 d-flex" >
                               <a>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
@@ -129,6 +74,24 @@ const BoardOfDirectors = () => {
                                   </div>
                               </a>
 
+                        </div>  
+                        <div className="col-xl-4 col-md-6 d-flex" >
+                            <a>
+                                <div className={`${styles.teamMember2}`}>
+                                    <figure className={`${styles.teamMemberFigure}`}>
+                                        <Image src={mostafa} height={500} width={400} alt="" className=" rounded"/>
+                                        <figcaption className={`${styles.figCaption} text-center`}>
+                                            <div className='mt-5'>
+                                                <p className='fs-3' data-trans="MrMostafaFarag">Mr. Mostafa Farag</p>
+                                                <p className='fs-5' data-trans="ChiefFinancialOfficerCFO">Chief Financial Officer (CFO)</p>
+                                            </div>
+                                            <div className='d-flex justify-content-end'>
+                                                {/* <Image src={ksa} alt="" className={`${styles.flagImage}`} /> */}
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </a>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
                               <a>
@@ -165,6 +128,24 @@ const BoardOfDirectors = () => {
                                       </figure>
                                   </div>
                               </a>
+                        </div>
+                        <div className="col-xl-4 col-md-6 d-flex" >
+                            <a>
+                                <div className={`${styles.teamMember2}`}>
+                                    <figure className={`${styles.teamMemberFigure}`}>
+                                    <Image src={jihad} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                    <figcaption className={`${styles.figCaption} text-center`}>
+                                        <div className='mt-5'>
+                                        <p className='fs-3' data-trans="MsJihadMohamed">Ms. Jihad Mohamed</p>
+                                        <p className='fs-5' data-trans="ChiefOperationsOfficerCFO">Chief Operations Officer (CFO)</p>
+                                        </div>
+                                        <div className='d-flex justify-content-end'>
+                                        {/* <Image src={uae} alt="" className={`${styles.flagImage}`} /> */}
+                                        </div>
+                                    </figcaption>
+                                    </figure>
+                                </div>
+                            </a>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
                               <a>
@@ -364,6 +345,24 @@ const BoardOfDirectors = () => {
                                         </figure>
                                     </div>
                                 </a>
+                        </div>
+                        <div className="col-xl-4 col-md-6 d-flex">
+                              <a>
+                                  <div className={`${styles.teamMember2}`}>
+                                      <figure className={`${styles.teamMemberFigure}`}>
+                                        <Image src={mohamed} height={500} width={400} alt="" className="img-responsive rounded"/>
+                                        <figcaption className={`${styles.figCaption} text-center`}>
+                                            <div className='mt-5'>
+                                                <p className='fs-3' data-trans="MrsEsraaAbdelHafez">Mrs. Esraa Abdel Hafez</p>
+                                                <p className='fs-5' data-trans="HumanResourcesDirector">Human Resources Director</p>
+                                            </div>
+                                            <div className='d-flex justify-content-end'>
+                                                {/* <Image src={egypt} alt=""  className={`${styles.flagImage}`} /> */}
+                                            </div>
+                                        </figcaption>
+                                      </figure>
+                                  </div>
+                              </a>
                         </div>
                     </div>
                 </div>

@@ -39,7 +39,7 @@ const NavBar = () => {
                             <Link href={'/about'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="AboutUsNav">About Us</p></a></Link>
                         </li>
                         <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
-                            <Link href={'/about/board-of-directors'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="BoardOfDirectorsNav">Board Of Directors</p></a></Link>
+                            <Link href={'/about/our-team'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="BoardOfDirectorsNav">Our Team</p></a></Link>
                         </li>
                         <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
                             <Link href={'/about/director-general'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="DirectorMangerNav">Director Manger</p></a></Link>

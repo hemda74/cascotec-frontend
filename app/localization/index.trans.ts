@@ -28,8 +28,8 @@ const indexTrans: translataionContainer = {
         ar:'من نحن'
     },
     BoardOfDirectorsNav:{
-        en:'Board Of Directors',
-        ar:'مجلس الادارة'
+        en:'Our Team',
+        ar:'فريقنا'
     },
     DirectorMangerNav:{
         en:'Director General',
@@ -315,16 +315,16 @@ const indexTrans: translataionContainer = {
     },
 ////////////////////< Board of Directors >//////////////////////////////////
     BoardOfDirectorsNav2:{
-        en:' > Board Of Directors',
-        ar:' > مجلس الإدارة'
+        en:' > Our Team',
+        ar:' > فريقنا'
     },
     AboutCascoNav2:{
     en:" > About CASCO",
     ar:" > عن كاسكو"
     },
     BoardofDirectors:{
-        en:'Board of Directors',
-        ar:'مجلس الإدارة'
+        en:'Our Team',
+        ar:'فريقنا'
     },
     MrAhmedMahrous:{
         en:'Mr.Ahmed Mahrous',
