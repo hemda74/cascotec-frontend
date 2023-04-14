@@ -17,8 +17,8 @@ const FlagesSection = () => {
 								<div className={`${styles.sectionAboutContent}`}>
 									<div className={`${styles.sectionAboutBody}`}>
 										<span className={`${styles.spanFeature}`}>Who are we</span>
-										<h4 className={`${styles.headingFeature} fw-bold mt-2 `}>About CASCO</h4>
-										<p className={`${styles.pargraphFeature}`}>The GCC Accreditation Center is one of the most visible successes of the Gulf Cooperation Council countries, as it is the first and fastest multi-economy accreditation agency in the Middle East, Asia, and the Pacific to gain international recognition.</p>
+										<h4 className={`${styles.headingFeature} fw-bold mt-2`} data-trans="AboutCASCOAbout">About CASCO</h4>
+										<h6 className={`${styles.pargraphFeature}`} data-trans="AboutCascoText">{`CASCO For Assessment Services Co. helps certification bodies adopt and adhere to international standards through streamlined processes and expert training. CASCO provides independent technical assessments to ensure compliance with product standards and simplify the implementation and maintenance of these standards.`}</h6>
 										<Link href="/about" title="About us">Learn more
 										</Link>
 									</div>

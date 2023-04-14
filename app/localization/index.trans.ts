@@ -116,20 +116,8 @@ const indexTrans: translataionContainer = {
         ar:'عن كاسكو'
     },
     AboutCascoText:{
-        en:'The GCC Accreditation Center is one of the most visible successes',
-        ar:'مركز الاعتماد الخليجي أحد أبرز النجاحات '
-    },
-    AboutCascoText2:{
-        en:'of the Gulf Cooperation Council countries,',
-        ar:'التي حققتها دول مجلس التعاون الخليجي'
-    },
-    AboutCascoText3:{
-        en:'as it is the first and fastest multi-economy accreditation agency in the Middle East, Asia,',
-        ar:'حيث أنه أول وأسرع جهاز اعتماد متعدد الاقتصادات في الشرق الأوسط وآسيا'
-    },
-    AboutCascoText4:{
-        en:'and the Pacific to gain international recognition.',
-        ar:'والمحيط الهادئ يحصل على الاعتراف الدولي.'
+        en:'CASCO For Assessment Services Co. helps certification bodies adopt and adhere to international standards through streamlined processes and expert training. CASCO provides independent technical assessments to ensure compliance with product standards and simplify the implementation and maintenance of these standards.',
+        ar:'تساعد شركة كاسو لخدمات التقييم الجهات المانحة في تبني المعايير الدولية والالتزام بها من خلال عمليات مبسطة وتدريب الخبراء. تقدم كاسكو تقييمات فنية مستقلة لضمان الامتثال لمعايير المنتج وتبسيط تنفيذ وصيانة هذه المعايير.'
     },
     LearnMoreAbout:{
         en:'Learn More',
