@@ -14,7 +14,7 @@ const indexTrans: translataionContainer = {
         en:'CASCO',
         ar:'كاسكو'
     },
-    // NavBar
+    /////////////////////////////< NavBar >/////////////////////////////////////////////
     HomeNav:{
         en:"Home",
         ar:"الرئيسية"
@@ -95,7 +95,8 @@ const indexTrans: translataionContainer = {
         en:'Events',
         ar:'الفعاليات'
     },
-// home page 
+    /////////////////////////////< NavBar >/////////////////////////////////////////////
+
 // hero section in home page
     CompanyName:{
         en:'Welcome to CASCO',
@@ -105,7 +106,7 @@ const indexTrans: translataionContainer = {
         en:'For Accreditation Certificates',
         ar: 'للاستشارات والتدريب'
     },
-    // about section
+        /////////////////////////////< About Section Home Page >/////////////////////////////////////////////
     WhoWeAreAbout:{
         en:'Who We Are',
         ar:'من نحن'
@@ -134,27 +135,132 @@ const indexTrans: translataionContainer = {
         en:'Learn More',
         ar:'اعرف المزيد'
     },
-    // services section
+    /////////////////////////////////// services sectio//////////////////////////////////////////////////
     servicesTitle:{
-        en:'SERVICES',
-        ar:'الخدمات'
+        en:'OUR SERVICES',
+        ar:'خدماتنا'
     },
     servicesSubTitle:{
-        en:'Accreditation made simple for you',
-        ar:'الاعتمادات تكون اسهل لالجلكم'
+        en:'Professionalism in providing technical consulting services for obtaining accreditations and upgrading quality infrastructure to comply with legislative, mandatory, and technical regulations is crucial.',
+        ar:'الاحترافية في تقديم خدمات الاستشارات الفنية للحصول على الاعتمادات ورفع البنية التحتية للجودة والتطابق مع المتطلبات التشريعية والالزامية واللوائح الفنية المُصدرة .'
     },
     servicesbrief:{
-        en:'The services we offer foster mutual confidence between service providers and consumers',
-        ar:'الخدمات اللتي نقدمها لتكون اسهل من خلالنا'
+        en:'Our services aim to enhance mutual trust between conformity assessment providers and consumers, as well as raise awareness of the importance of accreditation in strengthening the quality infrastructure worldwide.',
+        ar:'تعمل الخدمات التي نقدمها على تعزيز الثقة المتبادلة بين مقدمي خدمات التحقق من المطابقة والمستهلكين وكذلك رفع الوعي بأهمية الاعتماد تعزيزا للبنية التحتية للجودة فى جميع أنحاء العالم.'
     },
-    servicesHalal:{
-        en:'Accreditation of HALAL Certification Bodies',
-        ar:'اعتمادات شهادات الحلال'
+    Services1:{
+        en:'Laboratory Testing Consultation',
+        ar:'استشارة مختبرات الاختبار'
     },
-    servicesHalalbrief:{
-        en:'CASCO Accreditation Center provides accreditation services in the scheme of Halal Certification according to the standard GSO 2055-2:2015.',
-        ar:'اعتمادات شهادات الحلال اعتمادات شهادات الحلال اعتمادات شهادات الحلال'
+    ServicesBrief1:{
+        en:'At CASCO, we provide consultation services in the field of testing laboratories, in accordance with the international standard ISO/IEC 17025:2017.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال مختبرات الفحص، وذلك وفقًا للمواصفة القياسية الدولية ISO/IEC 17025:2017.'
     },
+    Services2:{
+        en:'Calibration Laboratory Consultation',
+        ar:'استشارة مختبرات المعايرة'
+    },
+    ServicesBrief2:{
+        en:'At CASCO, we provide consultation services in the field of calibration laboratories, in accordance with the international standard ISO/IEC 17025:2017.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال مختبرات المعايرة، وذلك وفقًا للمواصفة القياسية الدولية ISO/IEC 17025:2017.'
+    },
+    Services3:{
+        en:'Inspection Certification Body Consultation',
+        ar:'استشارة جهات التفتيش'
+    },
+    ServicesBrief3:{
+        en:'At CASCO, we provide consultation services in the field of inspection body accreditation, in accordance with the international standard ISO/IEC 17020:2012.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال اعتماد جهات التفتيش، وذلك وفقًا للمواصفة القياسية الدولية ISO/IEC 17020:2012.'
+    },
+    Services4:{
+        en:'Product Certification Body Consultation',
+        ar:'استشارة جهات منح الشهادات للمنتجات'
+    },
+    ServicesBrief4:{
+        en:'At CASCO, we provide consultation services in the field of product certification body accreditation, in accordance with the international standard ISO/IEC 17065:2012.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال منح الشهادات للمنتجات، وذلك وفقًا للمواصفة القياسية الدولية ISO/IEC 17065:2012.'
+    },
+    Services5:{
+        en:'Management System Certification Body Consultation',
+        ar:'استشارة الجهات المانحة لشهادات النظم الإدارية'
+    },
+    ServicesBrief5:{
+        en:'At CASCO, we provide consultation services in the field of management system certification body accreditation, in accordance with the international standard ISO/IEC 17021-1:2015.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال منح شهادات النظم الإدارية، وذلك وفقًا للمواصفة القياسية الدولية ISO/IEC 17021-1:2015.'
+    },
+    Services6:{
+        en:'Medical Laboratory Consultation',
+        ar:'استشارة المختبرات الطبية'
+    },
+    ServicesBrief6:{
+        en:'At CASCO, we provide consultation services in the field of medical laboratories, in accordance with the international standard ISO 15189:2012.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال المختبرات الطبية، وذلك وفقًا للمواصفة القياسية الدولية ISO 15189:2012.'
+    },
+    Services7:{
+        en:'Halal Certification Consultation',
+        ar:'استشارة الجهات المانحة لشهادات الحلال'
+    },
+    ServicesBrief7:{
+        en:'At CASCO, we provide consultation services in the field of halal certification, in accordance with the international standard GSO 2055-2:2021.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال منح شهادات الحلال، وذلك وفقًا للمواصفة القياسية الدولية GSO 2055-2:2021.'
+    },
+    Services8:{
+        en:'Personal Certification Consultation',
+        ar:'استشارة جهات منح الشهادات للأفراد'
+    },
+    ServicesBrief8:{
+        en:'At CASCO, we provide consultation services in the field of Personal certification, in accordance with the international standard ISO/IEC 17024:2012.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال منح الشهادات للأفراد، وذلك وفقًا للمواصفة القياسية الدولية ISO/IEC 17024:2012.'
+    },
+    Services9:{
+        en:'Consultation for Proficiency Testing Providers',
+        ar:'استشارة الجهات المزودة لاختبارات الكفاءة'
+    },
+    ServicesBrief9:{
+        en:'At CASCO, we provide consulting services in the field of proficiency testing providers in accordance with the international standard ISO/IEC 17043:2010.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال الجهات المزودة لاختبارات الكفاءة، وذلك وفقًا للمواصفة القياسية الدولية ISO/IEC 17043:2010.'
+    },
+    Services10:{
+        en:'Technical Consultation for Notification Purposes',
+        ar:'استشارة فنية لأغراض التعيين'
+    },
+    ServicesBrief10:{
+        en:`At CASCO, we offer technical consulting services for evaluation processes aimed at qualifying for notification by certifying authorities for products conformity certificates listed in the Gulf technical regulations GCC Standardization Organization "GSO", such as the regulations for children's toys (BD-131704-01) , low voltage electrical devices (BD-142004-01) , and more.`,
+        ar:'نقدم في شركة كاسكو خدمات استشارية في عمليات التقييم الفني بغرض التأهيل للحصول على التعيين للجهات المانحة لشهادات مطابقة المنتجات الواردة في اللوائح الفنية الخليجية وذلك وفقا للائحة لعب الاطفال و لائحة الأجهزة الكهربائية منخفضة الجهد وغيرها.'
+    },
+    Services11:{
+        en:'Consultation for Obtaining BRCGS Certification ',
+        ar:'استشارة الحصول على شهادة تجار التجزئة بالمملكة المتحدة British Retail Consortium  -BRCGS '
+    },
+    ServicesBrief11:{
+        en:'At CASCO, we provide consultation services for qualification processes to obtain BRCGS Food Safety and BRCGS Packaging Material certifications.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في عمليات التأهيل للحصول على شهادة BRCGS Food Safety وBRCGS Packaging Material  '
+    },
+    Services12:{
+        en:'Consultation for Obtaining Forest Stewardship Council (FSC) Certification ',
+        ar:'استشارة الحصول على اعتماد إدارة الغابات FSC - Forest Stewardship Council'
+    },
+    ServicesBrief12:{
+        en:'At CASCO, we offer consulting services in the field of responsible forest management to ensure that wood products originating from forests are managed in a responsible and sustainable manner, in accordance with the international standard of the Forest Stewardship Council (FSC), Programme for the Endorsement of Forest Certification (PEFC), Keurhout, and the European Union Timber Regulation (EU TR).',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال إدارة الغابات الطمأنينة للعامة بأن منتجات الأخشاب الناشئة من الغابات تدار بطريقة مسؤولة ومستدامة ، وذلك وفقًا للمواصفة القياسية الدولية لمجلس الإشراف على الغابات (FSC) ومجلس PEFC (برنامج للتصديق على أنظمة اعتماد الغابات) و Keurhout ولائحة الأخشاب في الاتحاد الأوروبي (EU TR).'
+    },
+    Services13:{
+        en:'Consultation for Obtaining FSSC 22000 Scheme Certification',
+        ar:'استشارة الحصول على شهادة FSSC 22000 Scheme'
+    },
+    ServicesBrief13:{
+        en:'At CASCO, we provide consulting services in the field of FSSC 22000 - Food and Feed Safety Management System and Quality Management System accreditation, in compliance with ISO 22000/9001 requirements, the Basic Requirements for Sector Program, and additional program requirements as applicable, according to the FSSC 22000 Version 6.0 international standard for obtaining GFSI (Global Food Safety Initiative) accreditation.',
+        ar:'نقدم في شركة كاسكو خدمات استشارية في مجال FSSC 22000 - اعتماد نظام سلامة الأغذية والأعلاف وأنظمة إدارة الجودة بما يتوافق مع متطلبات ISO22000 / 9001 ومتطلبات برنامج المتطلبات الأساسية للقطاع ومتطلبات البرنامج الإضافية تبعا ، وذلك وفقًا للمواصفة القياسية الدولية  FSSC 22000 Version 6.0 للحصول على مصادقة GFSI.'
+    },
+    Services14:{
+        en:'ESG Report Service',
+        ar:'خدمة تقارير ESG'
+    },
+    ServicesBrief14:{
+        en:'CASCO offers a low-cost and credible ESG report service for businesses in the Gulf region, leveraging our team of highly experienced advisors with in-depth knowledge of ESG standards, regulations, and best practices across all major jurisdictions.',
+        ar:'تقدم شركة كاسكو خدمة تقارير ESG بتكلفة منخفضة وموثوقة للشركات في منطقة الخليج، باستخدام فريق مستشارين ذوي خبرة عالية يتمتعون بمعرفة عميقة بمعايير ESG واللوائح وأفضل الممارسات في جميع الولايات الرئيسية'
+    },
+
     // footer 
     aboutCascoFooter:{
         en:'Trust in the Conformity Assessment Bodies',
