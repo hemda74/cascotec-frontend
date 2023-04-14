@@ -82,7 +82,6 @@ const Login: NextPage = () => {
     <Footer/>
    </main>
    </>
-   
   );
 };
 

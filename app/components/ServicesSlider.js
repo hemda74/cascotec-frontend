@@ -29,18 +29,10 @@ export default class AsNavFor extends Component {
   }
 
   render() {
-    let rtlsilder= false;
-    let lang = localStorage.getItem('lang');
-      if (lang === 'en') {
-        rtlsilder=false;
-      } else if (lang === 'ar') {
-        rtlsilder=true;
-      };
+   
     const settings_first_slider = {
       speed:0,
       slidesToScroll: 14,
-   
-      
     }
     const settings = {
     responsive: [
