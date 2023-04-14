@@ -34,21 +34,21 @@ const mostafa_farag:NextPageWithLayout = (props:Props) => {
                   <ul className='list-unstyled mt-3'>
                       <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
                           <p><FcCheckmark size={20} className=''/></p>
-                          <span data-trans="Thedirectorgeneral2" className='me-4 ms-4'>{`Ensuring appropriate representation at national, regional and international levels`}</span>
+                          <span  className='me-4 ms-4'>{`brings over 15 years of experience in finance and accounting, specializing in financial planning and analysis, budgeting, and corporate strategy.`}</span>
                       </li>	
                       <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
                           <p><FcCheckmark size={20} className=''/></p>
-                          <span data-trans="Thedirectorgeneral3" className='me-4 ms-4 '>{`Signing mutual recognition arrangements`}</span>
+                          <span  className='me-4 ms-4 '>{`held various senior finance positions in leading multinational companies, where he successfully managed complex financial operations and contributed to the growth and profitability of the businesses.`}</span>
                       </li>
                       <li className={`${styles.itemCheckTage} mt-2 mb-0 d-flex`}>
                           <p><FcCheckmark size={20} className=''/></p>
-                          <p  className='ms-4 me-4 '  data-trans="Thedirectorgeneral4">{`Supporting GAC presence in regional and international institutions in accordance with relevant laws and regulations, international standards and conventions`}</p>
+                          <span  className='ms-4 me-4 '  >{` oversees all financial aspects of our company, including budgeting, forecasting, financial reporting, and risk management. He works closely with our leadership team to develop and implement strategic plans that align with our business objectives and drive sustainable growth`}</span>
                       </li>
                       <li className={`${styles.itemCheckTage} mt-0 d-flex`}>
                           <p><FcCheckmark size={20} className=''/></p>
-                          <span data-trans="Thedirectorgeneral5" className='me-4 ms-4 '>{`Develop relationships with stakeholders of accreditation activity`}</span>
+                          <span  className='me-4 ms-4 '>{`Mostafa's expertise and leadership have been instrumental in guiding our company through significant financial challenges and ensuring our long-term success. We are proud to have him on our team and look forward to his continued contributions to our company's growth and success.`}</span>
                       </li>
-                      <li className={`${styles.itemCheckTage} d-flex`}>
+                      {/* <li className={`${styles.itemCheckTage} d-flex`}>
                           <p><FcCheckmark size={20} className=''/></p>
                           <span data-trans="Thedirectorgeneral6" className='me-4 ms-4'>{`Head of evaluation teams for the accreditation of laboratories, inspection bodies, Halal certification bodies, and product certification bodies`}</span>
                       </li>
@@ -63,7 +63,7 @@ const mostafa_farag:NextPageWithLayout = (props:Props) => {
                       <li className={`${styles.itemCheckTage} d-flex`}>
                           <p><FcCheckmark size={20} className=''/></p>
                           <span data-trans="Thedirectorgeneral9" className='me-4 ms-4 '>{`An international trainer and certification expert since 2015`}</span>
-                      </li>
+                      </li> */}
                   </ul>
               </div>
           </div>    
