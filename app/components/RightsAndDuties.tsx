@@ -18,33 +18,33 @@ const RightsAndDuties = () => {
             </div>
             <h2 className={`text-white fw-bold  `} data-trans="CASCORightsAndDuties">{`CASCO’s Rights And Duties`}</h2>
         </div>
-        <div className="container col-lg-9 col-xl-9 col-md-12 col-sm-12 col-xs-12">
+        <div className="container col-lg-10 col-xl-10 col-md-12 col-sm-12 col-xs-12">
             <div className="row mx-0 d-flex justify-content-center align-items-center ">
                 
        
-            <div className="row   d-flex justify-content-around align-items-center">
+            <div className="row d-flex justify-content-around align-items-center">
             <div className={`card-body mb-4 `}>
                     <span className={`${styles.spanHead}`} data-trans="CASCOSRIGHTSANDDUTIES">{`CASCO'S RIGHTS AND DUTIES`}</span>
                     <h4 className='fw-bold  mt-2' data-trans="CASCOSRights">{`CASCO'S Rights`}</h4>
                 </div>
                 <div className={`card-body`}>
                     <ul className={`${styles.ulClass}`}>
-                        <li className={`${styles.itemCheckTage} col-sm-12 d-flex`}>
+                        <li className={`${styles.itemCheckTage} col-sm-12 mb-4 d-flex`}>
                             <p><FcCheckmark size={20} className=''/></p>
-                            <span  className='me-2 ms-2' data-trans='ritghs1'>{`GAC has the right to decline, withdraw, suspend or even reduce scope of its accredited CAB which doesn’t comply with the requirements of the accreditation criteria including applicable laws/regulation, or when it is found have falsified information or documents and when there’s clear evidence of its fraudulent behavior.`}</span>
+                            <span  className='me-2 ms-2' data-trans='ritghs1'>{`CASCO has the right to reject the accreditation request of an entity that does not cooperate in applying the accreditation requirements and standards, including applicable laws and regulations, or when fraudulent information or documents are found and when there is clear evidence of fraudulent behaviour.`}</span>
                         </li>
-                        <li className={`${styles.itemCheckTage} d-flex mt-4`}>
+                        <li className={`${styles.itemCheckTage} d-flex mb-4`}>
                             <p><FcCheckmark size={20} className=''/></p>
-                            <span  className='me-2 ms-2' data-trans='ritghs2'>{`To not accept the application from CAB that doesn’t provide required information & documents, and doesn’t cooperate to a level necessary to meet the timelines, or when found to be scam or fraudulent.`}</span>
+                            <span  className='me-2 ms-2' data-trans='ritghs2'>{`The request from an entity that does not have the required information or documents or that does not cooperate to the necessary level to meet the qualification schedules will not be accepted.`}</span>
                         </li>
-                        <li className={`${styles.itemCheckTage} d-flex mt-4`}>
+                        <li className={`${styles.itemCheckTage} d-flex`}>
                             <p><FcCheckmark size={20} className=''/></p>
-                            <span  className='me-2 ms-2' data-trans='ritghs3'>{`To change type of assessment, frequency of assessment and conduct unannounced assessment as result of previous assessment outcome, due to complaint or appeals or sourced information which impacts the image of GAC or affects integrity and competence of the CAB.`}</span>
+                            <span  className='me-2 ms-2' data-trans='ritghs3'>{`The top management or their delegates' failure to purchase technical specifications, technical regulations, or legal requirements to complete the technical qualification stages will result in disqualification.`}</span>
                         </li>
-                        <li className={`${styles.itemCheckTage} d-flex mt-4`}>
+                        {/* <li className={`${styles.itemCheckTage} d-flex mt-4`}>
                             <p><FcCheckmark size={20} className=''/></p>
                             <span data-trans='ritghs4' className='me-2 ms-2'>{`To assess the management system of the CAB and require any document and access to location and facilities in relation to the scope of accreditation during the accreditation cycle of the CAB.`}</span>
-                        </li>
+                        </li> */}
                     </ul>          
                 </div>
                 </div>

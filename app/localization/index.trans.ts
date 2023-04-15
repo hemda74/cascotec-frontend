@@ -717,21 +717,21 @@ const indexTrans: translataionContainer = {
         ar:'حقوق المركز'
     },
     ritghs1:{
-        en:'GAC has the right to decline, withdraw, suspend or even reduce scope of its accredited CAB which doesn’t comply with the requirements of the accreditation criteria including applicable laws/regulation, or when it is found have falsified information or documents and when there’s clear evidence of its fraudulent behavior.',
-        ar:'يحق لـلمركز رفض أو سحب أو تعليق أو حتى تقليل نطاق اعتماد الجهة المعتمده الذي لا يتوافق مع متطلبات ومعايير الاعتماد بما في ذلك القوانين / اللوائح المعمول بها ، أو عندما يتم العثور على معلومات أو مستندات مزورة وعندما يكون هناك دليل واضح على سلوكها الاحتيالي.'
+        en:'CASCO has the right to reject the accreditation request of an entity that does not cooperate in applying the accreditation requirements and standards, including applicable laws and regulations, or when fraudulent information or documents are found and when there is clear evidence of fraudulent behaviour.',
+        ar:'يحق لشركة كاسكو رفض تأهيل الجهة طالبة الاعتماد الذي لا تتعاون فى تطبيق متطلبات ومعايير الاعتماد بما في ذلك القوانين / اللوائح المعمول بها ، أو عندما يتم العثور على معلومات أو مستندات مزورة وعندما يكون هناك دليل واضح على سلوكها الاحتيالي.'
     },
     ritghs2:{
-        en:'To not accept the application from CAB that doesn’t provide required information & documents, and doesn’t cooperate to a level necessary to meet the timelines, or when found to be scam or fraudulent.',
-        ar:'عدم قبول الطلب من الجهة التي لا تتوفر لديها المعلومات أو المستندات المطلوبة أو تلك التي لا تتعاون إلى المستوى الضروري للوفاء بالجداول الزمنية للتقييم.'
+        en:'The request from an entity that does not have the required information or documents or that does not cooperate to the necessary level to meet the qualification schedules will not be accepted.',
+        ar:'عدم قبول الطلب من الجهة التي لا تتوفر لديها المعلومات أو المستندات المطلوبة أو تلك التي لا تتعاون إلى المستوى الضروري للوفاء بالجداول الزمنية للتأهيل.'
     },
     ritghs3:{
-        en:'To change type of assessment, frequency of assessment and conduct unannounced assessment as result of previous assessment outcome, due to complaint or appeals or sourced information which impacts the image of GAC or affects integrity and competence of the CAB.',
-        ar:'تغيير نوع التقييم أو تكرار التقييم أو إجراء تقييم غير مُعلن نتيجة لنتائج التقييم السابقة أو بسبب شكوى أو طعون أو معلومات واردة للمركز والتي تؤثر على صورة المركز أو تؤثر على نزاهة وكفاءة الجهة المعتمدة.'
+        en:`The top management or their delegates' failure to purchase technical specifications, technical regulations, or legal requirements to complete the technical qualification stages will result in disqualification.`,
+        ar:'عدم التزام الادارة العليا أو مفوضيهم بشراء مواصفات فنية او لوائح فنية او متطلبات قانونية لأستكمال مراحل التأهيل الفني '
     },
-    ritghs4:{
-        en:'To assess the management system of the CAB and require any document and access to location and facilities in relation to the scope of accreditation during the accreditation cycle of the CAB.',
-        ar:'تقييم نظام إدارة الجهة والمطالبة بأي وثيقة والوصول إلى الموقع والمرافق فيما يتعلق بنطاق الاعتماد خلال فترة الاعتماد من المركز.'
-    },
+    // ritghs4:{
+    //     en:'To assess the management system of the CAB and require any document and access to location and facilities in relation to the scope of accreditation during the accreditation cycle of the CAB.',
+    //     ar:'تقييم نظام إدارة الجهة والمطالبة بأي وثيقة والوصول إلى الموقع والمرافق فيما يتعلق بنطاق الاعتماد خلال فترة الاعتماد من المركز.'
+    // },
     CASCOsduties:{
         en:'CASCO’s duties',
         ar:'واجبات المركز '
