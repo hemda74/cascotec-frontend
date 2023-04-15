@@ -29,7 +29,7 @@ const ContactUs = () => {
                     <p className={`${styles.iconsColor}`}>
                         <FiMail  size={30}/>
                     </p>
-                    <p className='mt-0 me-2'>info@casco.com</p>
+                    <p className='mt-0 me-2'>info@cascotec.com</p>
                     <div className={``}>
                       {/* <div className=' col-sm-12'>
                       <p className={`${styles.iconsColor}`}>
