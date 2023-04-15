@@ -70,11 +70,12 @@
   }
   .itemCheckTage{
     font-weight: 300;
-    margin-top: -0.6rem;
+    margin-top: -0.5rem;
   }
   .itemCheckTage2{
+    margin-top: -0.4rem;
     font-weight: 300;
-    margin-top: -0.7rem;
+    margin-bottom: 0.8rem;
     display: inline-flex ;
   }
   .ethicCard{
@@ -209,5 +210,15 @@
       display: flex;
       flex-direction: column;
     } 
+    .itemCheckTage{
+      font-weight: 300;
+      margin-top: 0rem;
+    }
+    .itemCheckTage2{
+      font-weight: 300;
+      margin-bottom: 0.5rem;
+      display: inline-flex ;
+    }
+
   }
   

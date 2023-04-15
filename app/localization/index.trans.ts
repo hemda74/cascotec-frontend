@@ -328,24 +328,24 @@ const indexTrans: translataionContainer = {
         ar:'عن الشركة'
     },
     OurobjectiveP:{
-        en:'The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.',
-        ar:'تهدف مجموعة كاسكو إلى تعزيز مكانتها وتحقيق أهدافها وتعزيز بنيتها التحتية من خلال تبني أفضل الممارسات المعترف بها عالميًا والشراكة مع الكيانات الدولية في قطاع الاعتماد والتصديق.'
+        en:`CASCO, aims to assist clients in achieving technical specifications compliance, using recommended global practices and collaborating with international bodies in the field of accreditation. Our services aim to enhance our client's position and empower their structure while increasing their awareness of the importance of accreditation for conformity assessment bodies.`,
+        ar:' يهدف كاسكو إلى تعزيز الثقة في مخرجات جهات التحقق من المطابقة العاملة في الدول الأعضاء، والتي تتوافق مع الممارسات والمواصفات الدولية المعتمدة في هذا المجال، وتوفير الاستشارات اللازمة للعملاء بغية تعزيز قدراتهم الفنية وتحسين أدائهم في مجالات الاعتماد والتحقق من المطابقة. ويهدف كاسكو كذلك إلى زيادة الوعي بأهمية الاعتماد والتحقق من المطابقة، ودورهما الحاسم في تعزيز جودة المنتجات والخدمات، ودعم عمليات النمو والتنمية في المنطقة.'
     },
     OurVision:{
         en:'Our Vision',
         ar:'رؤيتنا'
     },
     OurVisionP:{
-        en:'Creating a Safer World Together Committed to ensuring project integrity, managing risks, and maximizing client performance to build a better and safer world for all.',
-        ar:'خلق عالم أكثر أمانًا معًا ملتزمون بضمان سلامة المشروعات وإدارة المخاطر وتعظيم أداء العميل لبناء عالم أفضل وأكثر أمانًا للجميع.'
+        en:`Our vision is to become the leading company in the field of qualification and provision of consulting services to all entities that seek accreditation in technical Standards, by offering innovative and effective solutions that meet our customer's needs, and by committing to excellence, quality, and customer satisfaction.`,
+        ar:'نسعى لأن نصبح الشركة الرائدة في مجال التأهيل وتقديم الخدمات الاستشارية لجميع الجهات التي ترغب في الحصول على الاعتماد في المواصفات الفنية، وذلك من خلال تقديم حلول مبتكرة وفعالة تلبي احتياجات عملائنا، والالتزام بالتميز والجودة ورضا العملاء.'
     },
     OurMission:{
         en:'Our Mission',
         ar:'مهمتنا'
     },
     OurMissionP:{
-        en:'Comprehensive Project Consultation Our expert team identifies, evaluates, and controls risks related to quality, health and safety, and the environment throughout the entire project life cycle.',
-        ar:'استشارة شاملة حول المشروع يقوم فريق الخبراء لدينا بتحديد ومراقبة المخاطر المتعلقة بالجودة والصحة والسلامة والبيئة و الاغذية طوال دورة حياة المشروع بأكملها.'
+        en:'We, at CASCO, strive to provide high-quality and professional consulting services to all entities that seek accreditation and implementation of technical Standards, in order to improve their performance and achieve growth and success.',
+        ar:'نحن شركة "كاسكو" نسعى لتقديم خدمات استشارية عالية الجودة والمهنية لجميع الجهات التي ترغب في الحصول على الاعتماد وتطبيق المواصفات الفنية، بما يساهم في تحسين أدائها وتحقيق نموها ونجاحها.'
     },
     SUCCESSINDICATORS:{
         en:'SUCCESSINDICATORS',
@@ -388,24 +388,24 @@ const indexTrans: translataionContainer = {
         ar:'ميزانية كاسكو'
     },
     budgetP:{
-        en:'CASCO shall have a separate budget, funded by the following sources',
-        ar:'يجب أن يكون لشركة كاسكو ميزانية منفصلة ، ممولة من المصادر التالية:'
+        en:`"CASCO Group" was founded with a clear vision to provide high-quality and professional consulting services to all entities that seek accreditation and application of technical specifications. Based on this vision, the company's available budget is funded from the following sources:`,
+        ar:'تأسست شركة "كاسكو" برؤية واضحة لتقديم خدمات استشارية عالية الجودة والمهنية لجميع الجهات التي ترغب في الحصول على الاعتماد وتطبيق المواصفات الفنية. وبناء على هذه الرؤية، فإن الميزانية المتاحة للشركة تمول من المصادر التالية:'
     },
     budgetP1:{
-        en:'Fees charged by CASCO in exchange for its services.',
-        ar:'الرسوم التي تتقاضاها كاسكو مقابل خدماتها.'
+        en:'The revenues and fees earned by the company for the services provided to its clients.',
+        ar:'العوائد والرسوم التي تجنيها الشركة عن الخدمات المقدمة لعملائها.'
     },
     budgetP2:{
-        en:'Financial contributions from Member States',
-        ar:'المساهمات المالية من حاملى الاسهم'
+        en:'The funds allocated to the company by member states.',
+        ar:'الأموال التي تخصصها للشركة الدول الأعضاء.'
     },
     budgetP3:{
-        en:'Grants and donations that do not compromise the independence and impartiality of CASCO, approved by the Board of Directors.',
-        ar:'المنح والتبرعات التي لا تمس استقلالية وحيادية شركة كاسكو ، والتي وافق عليها مجلس الإدارة.'
+        en:`Other resources determined by management do not conflict with the company's strategic objectives and vision.`,
+        ar:'الموارد الأخرى التي تحددها الإدارة والتي لا تتعارض مع الأهداف والرؤية الاستراتيجية للشركة.'
     },
     budgetP4:{
-        en:'Other sources determined by the Board of Directors.',
-        ar:'مصادر أخرى يحددها مجلس الإدارة.'
+        en:`The company's mission is to provide innovative and effective solutions to its clients and to achieve growth and success in all entities it works with. The company relies on its independent budget to meet its financial needs and enable it to achieve these goals.`,
+        ar:'تتمثل مهمة الشركة في تقديم حلول مبتكرة وفعالة لعملائها، وتحقيق النمو والنجاح في جميع الجهات التي تعمل معها. وتعتمد الشركة على الميزانية المستقلة لتلبية احتياجاتها المالية وتمكينها من تحقيق هذه الأهداف.'
     },
 ////////////////////< Board of Directors >//////////////////////////////////
     BoardOfDirectorsNav2:{

@@ -23,7 +23,7 @@ const About = () => {
                     </div>
                     <div className={`col-lg-6 p-5 d-flex flex-column justify-content-center align-items-start`}>
                         <h4 className="fw-bold" data-trans='Ourobjective'>Our Objective</h4> 
-                        <p className={`${styles.objectiveCardText}`} data-trans="OurobjectiveP">{`The CASCO Group aims to enhance its standing, accomplish its objectives, and reinforce its infrastructure by adopting best practices recognized globally and partnering with international entities in the accreditation sector.`}</p>
+                        <p className={`${styles.objectiveCardText}`} data-trans="OurobjectiveP">{`CASCO, aims to assist clients in achieving technical specifications compliance, using recommended global practices and collaborating with international bodies in the field of accreditation. Our services aim to enhance our client's position and empower their structure while increasing their awareness of the importance of accreditation for conformity assessment bodies.`}</p>
                     </div>
                 </div>
             </div>
@@ -34,11 +34,11 @@ const About = () => {
                 <div className="row">
                     <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12 ${styles.visionCard}`}>
                         <span className='fs-4 fw-bold' data-trans="OurVision">Our Vision</span>
-                        <p className={`${styles.objectiveCardText}`} data-trans='OurVisionP' >{`Creating a Safer World Together Committed to ensuring project integrity, managing risks, and maximizing client performance to build a better and safer world for all.`}</p>
+                        <p className={`${styles.objectiveCardText}`} data-trans='OurVisionP'>{`Our vision is to become the leading company in the field of qualification and provision of consulting services to all entities that seek accreditation in technical Standards, by offering innovative and effective solutions that meet our customer's needs, and by committing to excellence, quality, and customer satisfaction.`}</p>
                     </div>
                     <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12 ${styles.visionCard}`}>
                         <span className='fs-4 fw-bold' data-trans="OurMission">Our Mission</span>
-                        <p className={`${styles.objectiveCardText}`} data-trans="OurMissionP" >{`Comprehensive Project Consultation Our expert team identifies, evaluates, and controls risks related to quality, health and safety, and the environment throughout the entire project life cycle.`}</p>
+                        <p className={`${styles.objectiveCardText}`} data-trans="OurMissionP" >{`We, at CASCO, strive to provide high-quality and professional consulting services to all entities that seek accreditation and implementation of technical Standards, in order to improve their performance and achieve growth and success.`}</p>
                     </div>
                 </div>
             </div>
@@ -147,22 +147,22 @@ const About = () => {
     <div className={`container col-xl-8 col-lg-8 col-md-10 col-sm-12 col-xs-12 mb-5 ${styles.ethicCard2}`}>                  
         <div className={`${styles.budgetCard}`}>
             <span className='fs-4 fw-bold' data-trans="budget">The budget of CASCO</span>
-            <p className='mt-1 fs-5'data-trans="budgetP">{`CASCO shall have a separate budget, funded by the following sources`}</p>
+            <p className='mt-1 fs-6'data-trans="budgetP">{`"CASCO Group" was founded with a clear vision to provide high-quality and professional consulting services to all entities that seek accreditation and application of technical specifications. Based on this vision, the company's available budget is funded from the following sources:`}</p>
             <ul className='list-unstyled m-0 p-0'>
-                <li className={`${styles.itemCheckTage} d-flex`}>
-                    <p><FcCheckmark size={15} className=''/></p>
+                <li className={`${styles.itemCheckTage} d-flex mb-2`}>
+                    <p><FcCheckmark size={16} className='mb-2'/></p>
                     <small data-trans="budgetP1" className='me-2 ms-2'>{`Fees charged by CASCO in exchange for its services.`}</small>
                 </li>	
-                <li className={`${styles.itemCheckTage} d-flex`}>
-                    <p><FcCheckmark size={15} className=''/></p>
+                <li className={`${styles.itemCheckTage}  d-flex`}>
+                    <p><FcCheckmark size={15} className='mb-2'/></p>
                     <small data-trans="budgetP2" className='me-2 ms-2'>{`Financial contributions from Member States`}</small>
                 </li>
-                <li className={`${styles.itemCheckTage2} d-flex  `}>
-                    <p><FcCheckmark size={15} className=''/></p>
+                <li className={`${styles.itemCheckTage2}  d-flex`}>
+                    <p><FcCheckmark size={15} className='mb-2'/></p>
                     <small data-trans="budgetP3" className='me-2 ms-2 '>{`Grants and donations that do not compromise the independence and impartiality of CASCO, approved by the Board of Directors.`}</small>
                 </li>
-                <li className={`${styles.itemCheckTage} mt-1  d-flex`}>
-                    <p><FcCheckmark size={15} className=''/></p>
+                <li className={`${styles.itemCheckTage}  d-flex`}>
+                    <p><FcCheckmark size={15} className='mb-0'/></p>
                     <small data-trans="budgetP4" className='me-2 mt-1 ms-2'>{`Other sources determined by the Board of Directors.`}</small>
                 </li>
             </ul>
