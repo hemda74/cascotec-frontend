@@ -159,7 +159,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                                 </div>
                               <div className="row">
                                   <small className="text-black-50">Schedule</small>
-                                  <small className="fw-bold mt-1">01 - 02 Jun, 2023</small>
+                                  <small className="fw-bold mt-1">01 - 03 Jun, 2023</small>
                               </div>
                         </li>
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>
@@ -168,7 +168,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                             </div>
                             <div className="row">
                                 <small className="text-black-50">Estimated Time</small>
-                                <small className="fw-bold mt-1">2 Days</small>
+                                <small className="fw-bold mt-1">3 Days</small>
                             </div>
                         </li>
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>

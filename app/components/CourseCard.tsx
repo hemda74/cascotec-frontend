@@ -49,62 +49,62 @@ const CourseCard = () => {
             (
                 <>
                   <div className="d-flex m-auto">
-            <div className="d-flex m-auto">
-              <div className={`${styles.timeSegment}`}>
-                <small className="text-white fw-senibold">0</small>
-                <small className="text-white fw-senibold">Days</small>
-              </div>
-              <div className={`${styles.timeSegment}`}>
-                <small className="text-white fw-senibold">0</small>
-                <small className="text-white fw-senibold">Hrs</small>
-              </div>
-              <div className={`${styles.timeSegment}`}>
-                <small className="text-white fw-senibold">0</small>
-                <small className="text-white fw-senibold">Mins</small>
-              </div>
-              <div className={`${styles.timeSegment}`}>
-                <small className="text-white fw-senibold">0</small>
-                <small className="text-white fw-senibold">Secs</small>
-              </div>
-            </div>
-                    </div>  
+                      <div className="d-flex m-auto">
+                        <div className={`${styles.timeSegment}`}>
+                          <small className="text-white fw-senibold">0</small>
+                          <small className="text-white fw-senibold">Days</small>
+                        </div>
+                        <div className={`${styles.timeSegment}`}>
+                          <small className="text-white fw-senibold">0</small>
+                          <small className="text-white fw-senibold">Hrs</small>
+                        </div>
+                        <div className={`${styles.timeSegment}`}>
+                          <small className="text-white fw-senibold">0</small>
+                          <small className="text-white fw-senibold">Mins</small>
+                        </div>
+                        <div className={`${styles.timeSegment}`}>
+                          <small className="text-white fw-senibold">0</small>
+                          <small className="text-white fw-senibold">Secs</small>
+                        </div>
+                      </div>
+                  </div>  
                 </>
-            ) : (
+            ) : 
+            (
                 <>
-                  <div className="d-flex m-auto">
-            <div className="d-flex m-auto">
-              <div className={`${styles.timeSegment}`}>
-                <small className="text-white fw-senibold">{days}</small>
-                <small className="text-white fw-senibold">Days</small>
-              </div>
-              <div className={`${styles.timeSegment}`}>
-                <small className="text-white fw-senibold">{hours}</small>
-                <small className="text-white fw-senibold">Hrs</small>
-              </div>
-              <div className={`${styles.timeSegment}`}>
-                <small className="text-white fw-senibold">{minutes}</small>
-                <small className="text-white fw-senibold">Mins</small>
-              </div>
-              <div className={`${styles.timeSegment}`}>
-                <small className="text-white fw-senibold">{seconds}</small>
-                <small className="text-white fw-senibold">Secs</small>
-              </div>
-            </div>
+                    <div className="d-flex m-auto">
+                        <div className="d-flex m-auto">
+                          <div className={`${styles.timeSegment}`}>
+                            <small className="text-white fw-senibold">{days}</small>
+                            <small className="text-white fw-senibold">Days</small>
+                          </div>
+                          <div className={`${styles.timeSegment}`}>
+                            <small className="text-white fw-senibold">{hours}</small>
+                            <small className="text-white fw-senibold">Hrs</small>
+                          </div>
+                          <div className={`${styles.timeSegment}`}>
+                            <small className="text-white fw-senibold">{minutes}</small>
+                            <small className="text-white fw-senibold">Mins</small>
+                          </div>
+                          <div className={`${styles.timeSegment}`}>
+                            <small className="text-white fw-senibold">{seconds}</small>
+                            <small className="text-white fw-senibold">Secs</small>
+                          </div>
+                        </div>
                     </div>
                 </>
       )}
     </div>
-    <div className={`${styles.enrollDiv} d-flex m-auto `}>
-      <button className={`mySuccess rounded fw-bold ${styles.enrollButton}`} type="submit">Enroll Now</button>
-      
-      <div className='d-flex me-4 ms-4'>
-        <span className='fw-bold fs-4'>4500</span>
-        <span className=' me-2 ms-2'>SAR</span>
-      </div>
-      </div>
+    {/* <div className={`${styles.enrollDiv} d-flex m-auto `}>
+        <button className={`mySuccess rounded fw-bold ${styles.enrollButton}`} type="submit">Enroll Now</button>
+        <div className='d-flex me-4 ms-4'>
+            <span className='fw-bold fs-4'>4500</span>
+            <span className=' me-2 ms-2'>SAR</span>
+        </div>
+      </div> */}
     </div>
     <div className="container col-xl-8 col-lg-8 col-md-12 mb-5">
-        <div className="row">
+        <div className="row pt-4">
             <div className="col-lg-8 col-md-12 p-3">
             <Image src={courseimage} className="img-fluid" alt=""/>
             <div className="description" id='description'>
