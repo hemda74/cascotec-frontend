@@ -123,7 +123,24 @@ const indexTrans: translataionContainer = {
         en:'Learn More',
         ar:'اعرف المزيد'
     },
-    /////////////////////////////////// services sectio//////////////////////////////////////////////////
+    /////////////////////////////////// services page //////////////////////////////////////////////////
+    ServicesNav2:{
+        en:' > Services',
+        ar:' > خدماتنا'
+    },
+    Applynow:{
+        en:'Apply now',
+        ar:'قدم الان'
+    },
+
+
+
+
+
+
+
+
+    /////////////////////////////////// services section //////////////////////////////////////////////////
     servicesTitle:{
         en:'OUR SERVICES',
         ar:'خدماتنا'

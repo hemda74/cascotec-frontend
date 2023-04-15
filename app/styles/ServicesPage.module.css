@@ -35,11 +35,11 @@
     margin-right: -6rem;
   }
   .btnContainer{
-    padding: 1rem;
+    padding: 0.6rem;
     background: #0b8bd0c1;
     cursor: pointer;
     color: #fff;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
   }
   .subtitleWord{
     color: #0b8bd0;
