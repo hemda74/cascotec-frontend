@@ -34,7 +34,7 @@ const NavBar = () => {
                     <a  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"
                    className={`nav-link dropdown-toggle ${styles.navLink2}`} data-trans="AboutCascoNav">About CASCO
                     </a>
-                    <ul className={`dropdown-menu dropdown-menu-right ${styles.ulDropDown}`} aria-labelledby="navbarDropdown">
+                    <ul className={`dropdown-menu ${styles.ulDropDown}`} aria-labelledby="navbarDropdown">
                         <li className={`nav-item ${styles.navItemDropDown} ms-2 me-2`}>
                             <Link href={'/about'}  className={`nav-link`} id="link"><a className='d-flex'><p className={`${styles.navLink} me-4 ms-4 mt-2 mb-2`}data-trans="AboutUsNav">About Us</p></a></Link>
                         </li>
