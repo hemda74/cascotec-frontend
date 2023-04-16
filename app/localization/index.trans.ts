@@ -96,8 +96,7 @@ const indexTrans: translataionContainer = {
         ar:'الفعاليات'
     },
     /////////////////////////////< NavBar >/////////////////////////////////////////////
-
-// hero section in home page
+    // hero section in home page
     CompanyName:{
         en:'Welcome to CASCO',
         ar:'مرحبا في كاسكو'

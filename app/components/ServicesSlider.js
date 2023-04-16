@@ -119,7 +119,7 @@ export default class AsNavFor extends Component {
                                       </div>
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
-                                      <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
+                                      <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
                                           <Image src={image2} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 ${styles.itemContent}`}>
