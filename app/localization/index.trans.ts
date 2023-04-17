@@ -257,7 +257,55 @@ const indexTrans: translataionContainer = {
         ar:'تقدم شركة كاسكو خدمة تقارير ESG بتكلفة منخفضة وموثوقة للشركات في منطقة الخليج، باستخدام فريق مستشارين ذوي خبرة عالية يتمتعون بمعرفة عميقة بمعايير ESG واللوائح وأفضل الممارسات في جميع الولايات الرئيسية'
     },
 /////////////////////////////////////////////< steps section home page >//////////////////////////////////////////////////////
-    
+    step1Title:{
+        en:'Apply For the requested Standard.',
+        ar:'التقدم بطلب للحصول على المواصفة المطلوبة'
+    },
+    step2Title:{
+        en:'Gap Assessment.',
+        ar:'تقييم الفجوة:'
+    },
+    step3Title:{
+        en:'Conducting Training.',
+        ar:' تقديم التدريب:'
+    },
+    step4Title:{
+        en:' Documentation cycle.',
+        ar:'دورة الوثائق:'
+    },
+    step5Title:{
+        en:'Internal Audit / MRM.',
+        ar:'المراجعة الداخلية /   مراجعة الإدارة',
+       
+    },
+    step6Title:{
+        en:'Accreditation Body Visit.',
+        ar:'زيارة هيئة الاعتماد:'
+    },
+    step1:{
+        en:'Apply For the requested Standard. Submitting an application form through the website or email.',
+        ar:'تقديم نموذج الطلب عبر الموقع الإلكتروني أو البريد الإلكتروني.'
+    },
+    step2:{
+        en:'Determining the Current status of the CBs with Desired Stanrad.',
+        ar:'تحديد الوضع الحالي للجهات المانحة المعتمدة مع المعيار المطلوب.'
+    },
+    step3:{
+        en:'Providing the required Awareness training for CBs Staff.',
+        ar:'توفير التدريب اللازم لزيادة الوعي لدى فريق المؤسسات الاستشارية المعتمدة.'
+    },
+    step4:{
+        en:'Carrying out all procedures, Forms, SOPs and technical Schemes.',
+        ar:'القيام بأنشاء جميع الإجراءات والنماذج والإجراءات القياسية والمخططات الفنية.'
+    },
+    step5:{
+        en:'Ensuring that the management system is effective by conducting internal audits and MRM.',
+        ar:'ضمان فعالية نظام الإدارة من خلال إجراء التدقيقات الداخلية و مراجعة الادارة العليا.'
+    },
+    step6:{
+        en:'Preparing for AB site visit assessment and closing out all raised improvement Areas.',
+        ar:'التحضير لزيارة هيئة الاعتماد للتقييم وإغلاق جميع المناطق التي تحتاج إلى تحسين ان وجد.'
+    },
 
 
 
