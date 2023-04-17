@@ -3,7 +3,18 @@ import styles from '../styles/Courses.module.css'
 import Link from 'next/link'
 import {CgCalendarDates} from 'react-icons/cg'
 import {FaMapMarkerAlt} from 'react-icons/fa'
-const CourseComponent = () => {
+type Props={
+    course_id:0,
+    course_title:string,
+    course_title_ar:string,
+    course_image:string,
+    course_vanue:string,
+    course_vanue_ar:string,
+    course_date:string,
+    couesre_date_ar:string,
+    course_link:string,
+}
+const CourseComponent = (props:Props) => {
   return (
     <div className="col-lg-4 col-md-6 p-1" >
         <Link href={'/courses/1'}>

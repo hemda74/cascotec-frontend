@@ -8,10 +8,11 @@ import courses from '../public/images/courses-section.svg'
 import {CgCalendarDates} from 'react-icons/cg'
 import {FaMapMarkerAlt} from 'react-icons/fa'
 import Example from './Example'
+import CourseComponent from './CourseComponent'
 type Props = {
     [key: string]: any;
   };
-  type Course = {
+  type Courses = {
     [key: string]: any;
   };
 const Courses = (props:Props) => {
@@ -71,7 +72,22 @@ const Courses = (props:Props) => {
         </div> */}
         <div className={`container col-xl-8 col-lg-10 col-md-12 ${styles.coursesConainer}`}>
             <div className="row">
-               
+            {props.courses.map(
+                      (courses:Courses,index:number)=>(
+                        <CourseComponent
+                        key={index}
+                        course_id={courses.course_id}
+                        course_title={courses.course_title}
+                        course_title_ar={courses.course_title_ar}
+                        course_image={courses.course_image}
+                        course_vanue={courses.course_vanue}
+                        course_vanue_ar={courses.course_vanue_ar}
+                        course_date={courses.course_date}
+                        couesre_date_ar={courses.couesre_date_ar} 
+                        course_link={courses.course_link}
+                        />
+                      ) 
+                    )}
             </div>
         </div>
     </>

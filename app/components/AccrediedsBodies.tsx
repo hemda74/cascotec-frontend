@@ -317,7 +317,7 @@ const AccretiedBodies = (props: Props) => {
         {/* Display Accredited Bodies */}
         <div className={`container mt-5 ${styles.formConatiner}`}>
             <div className="row gy-5 gx-lg-5">
-                <div className={`col-lg-10 m-auto row `}>
+                <div className={`col-lg-10 m-auto row`}>
                     {props.accredtied_bodies.map(
                       (accredited_body:Accredieds_Body,index:number)=>(
                         <AccreditedBodyCard
