@@ -72,7 +72,7 @@ const Courses = (props:Props) => {
         </div> */}
         <div className={`container col-xl-8 col-lg-10 col-md-12 ${styles.coursesConainer}`}>
             <div className="row">
-            {props.courses.map(
+            {/* {props.courses.map(
                       (courses:Courses,index:number)=>(
                         <CourseComponent
                         key={index}
@@ -87,7 +87,7 @@ const Courses = (props:Props) => {
                         course_link={courses.course_link}
                         />
                       ) 
-                    )}
+                    )} */}
             </div>
         </div>
     </>
