@@ -26,13 +26,13 @@ const Courses = (props:Props) => {
             <h2 className={`text-white fw-bold mb-5 `} >Courses</h2>
         </div>
         <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
-            <div className="row ">
-               <div className={`col-lg-12  justify-content-between ${styles.coursesCard}`}>
+            <div className="row">
+               <div className={`col-lg-12 justify-content-between ${styles.coursesCard}`}>
                     <div className={` ${styles.cardImage} `}>
                         <Image src={courses} width={300} height={300}  alt=""/>
                     </div>
-                    <div className={`  ${styles.coursesHead}`}>
-                        <span className="card-title  fw-semibold mt-3" >COURSES</span> 
+                    <div className={`${styles.coursesHead}`}>
+                        <span className="card-title fw-semibold mt-3" >COURSES</span> 
                         <span className={`card-text fs-4 fw-semibold d-block mt-3 ${styles.cardSubTitle}`}>{`Find your perfect program`}</span>
                     </div>
                </div>

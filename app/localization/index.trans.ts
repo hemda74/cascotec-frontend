@@ -131,14 +131,6 @@ const indexTrans: translataionContainer = {
         en:'Apply now',
         ar:'قدم الان'
     },
-
-
-
-
-
-
-
-
     /////////////////////////////////// services section //////////////////////////////////////////////////
     servicesTitle:{
         en:'OUR SERVICES',
@@ -264,8 +256,26 @@ const indexTrans: translataionContainer = {
         en:'CASCO offers a low-cost and credible ESG report service for businesses in the Gulf region, leveraging our team of highly experienced advisors with in-depth knowledge of ESG standards, regulations, and best practices across all major jurisdictions.',
         ar:'تقدم شركة كاسكو خدمة تقارير ESG بتكلفة منخفضة وموثوقة للشركات في منطقة الخليج، باستخدام فريق مستشارين ذوي خبرة عالية يتمتعون بمعرفة عميقة بمعايير ESG واللوائح وأفضل الممارسات في جميع الولايات الرئيسية'
     },
+/////////////////////////////////////////////< steps section home page >//////////////////////////////////////////////////////
+    
 
-    // footer 
+
+
+
+//////////////////////////////////////////////< Appaly For Accrideation >//////////////////////////////////////////////////////////////
+    Readytobeaccredited:{
+        en:'Ready to be Digital Transformation with iCASCO?',
+        ar:'هل أنت مستعد للتحول الرقمي مع iCASCO؟'
+    },
+    CASCOGroupprovidesaccreditation:{
+        en:'CASCO provides an iCASCO ERP SaaS system  for ISO 17000 Family that helps all Certification Bodies (CBs) to manage the certification process flow easily and efficiently COC, SASO, SABER, NAFSA and SFDA.',
+        ar:'توفر CASCO نظام iCASCO ERP SaaS لعائلة ISO 17000 الذي يساعد جميع البنوك المركزية على إدارة تدفق عملية الاعتماد بسهولة وكفاءة COC و SASO و SABER و NAFSA و SFDA.'
+    },
+    APPLYFORACCREDITATION:{
+        en:'APPLY NOW',
+        ar:'تقدم الان'
+    },
+// footer 
     aboutCascoFooter:{
         en:'Trust in the Conformity Assessment Bodies',
         ar:'الثقة في جهات التحقق من المطابقة'
