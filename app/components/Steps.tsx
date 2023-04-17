@@ -14,10 +14,10 @@ const Steps = () => {
                                 	<span className={`${styles.spanFeature}`}>Be Certified</span>
                                 	<div className="row justify-content-center ">
                                     	<div className="">
-                                        	<h4 className={`${styles.headingFeature}`}>The significance of accreditation and the process of obtaining it</h4>
+										<p className={`${styles.pargraphFeature}`}>{`CASCO recognizes the importance of accreditation in global trade as it provides a reliable means of mutual recognition between countries and economies. Accreditation ensures that products and services meet international standards and boosts the reputation and competitiveness of businesses. CASCO helps clients in the accreditation process to meet requirements and enjoy the benefits of recognition.`}</p>
                                     	</div>
 									</div>
-                                	<p className={`${styles.pargraphFeature}` }>The significance of accreditation is in its ability to be a dependable means of international trade through mutual acknowledgment between countries and economic</p>
+                                	{/* <p className={`${styles.pargraphFeature}`}>The significance of accreditation is in its ability to be a dependable means of international trade through mutual acknowledgment between countries and economic</p> */}
                                 	<ul className={`${styles.listCheckTage}`}>
 										<li className="mt-3">
 											<div className={`${styles.itemCkeckTage}`}>
