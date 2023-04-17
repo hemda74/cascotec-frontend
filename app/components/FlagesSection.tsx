@@ -12,7 +12,7 @@ const FlagesSection = () => {
 						<div className="col-xl-8 col-lg-10 col-md-12">
 							<div className={`${styles.sectionAboutInner}`}>
 									<div className={`${styles.bgImageHolder}`}>
-										<img src="/images/home_page/about.png" alt="" />
+										<img src="../public/images/home_page/Flags.svg" alt="" />
 									</div>
 								<div className={`${styles.sectionAboutContent}`}>
 									<div className={`${styles.sectionAboutBody}`}>
