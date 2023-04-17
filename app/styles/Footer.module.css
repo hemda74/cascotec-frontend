@@ -1,6 +1,7 @@
 .footerCont{
-    background: #e2ebf8;
+    background: #cfddfa71; 
     padding:  0 2rem 0;
+    
 }
 .footerLink{
     color: #000 !important;
@@ -10,7 +11,7 @@
     color: #666d78;
 }
 .footerA{
-    background: #a6c1f6;
+    background:#76b2fc93 ;
     padding: 0.2rem 0.4rem 0.2rem;
     border-radius: 0.5rem;
     color: #1a63d7 ;

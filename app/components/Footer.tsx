@@ -59,11 +59,11 @@ const Footer = () => {
                                     <span className={`input-group-text ${styels.subsIcon}`}><BsFillArrowUpRightCircleFill/></span>
                                 </div>
                             <div className={` mt-2 ${styels.iconsSocial}`}>
-                                <Link href="/" className={` me-3 ms-3 ${styels.footerA}`}> <BsTwitter size={15}/></Link> 
-                                <Link href="/" className={` me-3 ms-3 ${styels.footerA}`}> <BsFacebook size={15}/></Link>
-                                <Link href='/' className={` me-3 ms-3 ${styels.footerA}`}> <BsLinkedin size={14}/></Link>
-                                <Link href='/' className={` me-3 ms-3 ${styels.footerA}`}> <BsInstagram size={14}/></Link>
-                                <Link href="/" className={` me-3 ms-3 ${styels.footerA}`}> <BsYoutube size={16}/></Link> 
+                                <Link href={"/"}><a className={` me-3 ms-3 ${styels.footerA}`}> <BsTwitter size={15}/></a></Link> 
+                                <Link href={"/"}><a className={` me-3 ms-3 ${styels.footerA}`}> <BsFacebook size={15}/></a></Link>
+                                <Link href={'/'}><a className={` me-3 ms-3 ${styels.footerA}`}> <BsLinkedin size={14}/></a></Link>
+                                <Link href={'/'}><a className={` me-3 ms-3 ${styels.footerA}`}> <BsInstagram size={14}/></a></Link>
+                                <Link href={"/"}><a className={` me-3 ms-3 ${styels.footerA}`}><BsYoutube size={16}/></a></Link> 
                             </div>
                         </div>
                     </div>
