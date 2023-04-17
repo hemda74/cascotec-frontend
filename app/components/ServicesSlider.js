@@ -176,7 +176,7 @@ export default class AsNavFor extends Component {
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
                                           <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
-                                      <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
+                                      <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services8'>Personal Certification Consultation</span> 
                                           <p className={` ${styles.itemText}`} data-trans="ServicesBrief8">{`At CASCO, we provide consultation services in the field of Personal certification, in accordance with the international standard ISO/IEC 17024:2012.`}</p>
                                       </div>
@@ -185,9 +185,9 @@ export default class AsNavFor extends Component {
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
                                           <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
-                                      <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
+                                      <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services9'>Consultation for Proficiency Testing Providers</span> 
-                                          <p className={` ${styles.itemText}`} data-trans="ServicesBrief9">{`At CASCO, we provide consulting services in the field of proficiency testing providers in accordance with the international standard ISO/IEC 17043:2010.`}</p>
+                                          <p className={`${styles.itemText}`} data-trans="ServicesBrief9">{`At CASCO, we provide consulting services in the field of proficiency testing providers in accordance with the international standard ISO/IEC 17043:2010.`}</p>
                                       </div>
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
@@ -203,18 +203,18 @@ export default class AsNavFor extends Component {
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
                                           <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
-                                      <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
-                                          <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services11'>Consultation for Obtaining BRCGS Certification </span> 
-                                          <p className={` ${styles.itemText}`} data-trans="ServicesBrief11">{`At CASCO, we provide consultation services for qualification processes to obtain BRCGS Food Safety and BRCGS Packaging Material certifications.`}</p>
+                                      <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
+                                          <span className={`${styles.itemTitle} fs-3 fw-bold`} data-trans='Services11'>Consultation for Obtaining BRCGS Certification</span> 
+                                          <p className={`${styles.itemText}`} data-trans="ServicesBrief11">{`At CASCO, we provide consultation services for qualification processes to obtain BRCGS Food Safety and BRCGS Packaging Material certifications.`}</p>
                                       </div>
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
                                           <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
-                                      <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
-                                          <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services12'>Consultation for Obtaining Forest Stewardship Council (FSC) Certification </span> 
-                                          <p className={` ${styles.itemText}`} data-trans="ServicesBrief12">{`At CASCO, we offer consulting services in the field of responsible forest management to ensure that wood products originating from forests are managed in a responsible and sustainable manner, in accordance with the international standard of the Forest Stewardship Council (FSC), Programme for the Endorsement of Forest Certification (PEFC), Keurhout, and the European Union Timber Regulation (EU TR).`}</p>
+                                      <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
+                                          <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services12'>Consultation for Obtaining Forest Stewardship Council (FSC) Certification</span> 
+                                          <p className={`${styles.itemText}`} data-trans="ServicesBrief12">{`At CASCO, we offer consulting services in the field of responsible forest management to ensure that wood products originating from forests are managed in a responsible and sustainable manner, in accordance with the international standard of the Forest Stewardship Council (FSC), Programme for the Endorsement of Forest Certification (PEFC), Keurhout, and the European Union Timber Regulation (EU TR).`}</p>
                                       </div>
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>

@@ -4,45 +4,95 @@
     margin-bottom: 10rem;
   }
   .accreditationThumbnailFirst{
-    background: #f9f9f9;
-    padding-right: 4rem;
-    padding-left: 4rem;
-    margin-left: 3rem;
-    padding-top: 2rem;
-    border-radius: 2rem;
-    margin-right: 3rem;
-    padding-bottom: 3rem;
+    background: #f2f3f5;;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: -1rem;
+    padding-top: 3rem;
+    border-radius: 0.5rem;
+    margin-right: -1rem;
   }
   .accreditationThumbnailSecond{
-    background: #f9f9f9;
-    padding-right: 4rem;
-    padding-left: 4rem;
-    margin-left: 3rem;
-    padding-bottom: 3rem;
+    background: #f2f3f5;;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: -1rem;
     padding-top: 3rem;
-    border-radius: 2rem;
-    margin-right: 3rem;
-  }
-  .accreditationThumbnailImage{
-    background: #f9f9f9;
-    padding: 3rem;
     border-radius: 0.5rem;
+    margin-right: -1rem;
   }
   .accreditationThumbnail2div{
-    margin-left: -6rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem ;
-    margin-right: -6rem;
+  position: relative;
+  }
+  .accreditationThumbnail2div img{
+    width: 15.1666666667rem;
+    height: 15.1111111111rem;
+    border-radius: 0.5555555556rem;
+    margin-bottom: 1.5rem;
   }
   .btnContainer{
     padding: 0.6rem;
-    background: #0b8bd0c1;
+    background: #0b8bd0a5;
     cursor: pointer;
     color: #fff;
     border-radius: 0.5rem;
   }
   .subtitleWord{
     color: #0b8bd0;
+  }
+  .serviceTitle{
+    font-size: 1.3333333333rem;
+    font-weight: 700;
+    color: #252e3e;
+    line-height: 2.5rem;
+    margin-bottom: 0.5555555556rem;
+  }
+  .servicepargraph{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #515865;
+    line-height: 1.6666666667rem;
+    margin-bottom: 3.3888888889rem;
+  }
+  .card_accreditation{
+    border-radius: 0.5555555556rem;
+    padding: 1.6666666667rem 0;
+    margin-top: 3.3333333333rem;
+    margin-bottom: 4.4444444444rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .accreditationThumbnail::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.01);
+    border-radius: 0.5555555556rem;
+    z-index: -1;
+  }
+  .cardAccreditationContent{
+    padding: 1.6666666667rem 2.7777777778rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+  .cardAccreditationContent::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 10.5555555556rem;
+    background-color: #f2f3f5;
+    z-index: -1;
+    border-radius: 1.1111111111rem;
   }
   @media (max-width: 480px) {
     .cardccreditation{
@@ -56,10 +106,10 @@
     }
     .accreditationThumbnailFirst{
       background: #f9f9f9;
-    width: 85%;
-    padding: 1rem 1rem 2rem 2rem;
-    border-radius: 0.2rem;
-    margin: -2.1rem 1.5rem 1rem;
+        width: 85%;
+        padding: 1rem 1rem 2rem 2rem;
+        border-radius: 0.2rem;
+        margin: -2.1rem 1.5rem 1rem;
       
     }
     .accreditationThumbnail2div{
@@ -71,10 +121,10 @@
     }
     .accreditationThumbnailSecond{
       background: #f9f9f9;
-    width: 85%;
-    padding: 1rem 1rem 2rem 2rem;
-    border-radius: 0.2rem;
-    margin: -3rem 1.5rem 1rem;
+      width: 85%;
+      padding: 1rem 1rem 2rem 2rem;
+      border-radius: 0.2rem;
+      margin: -3rem 1.5rem 1rem;
     }
     .accreditationThumbnail2div{
       margin-top: 1rem;
