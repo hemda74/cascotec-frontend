@@ -92,31 +92,6 @@ const Steps = () => {
 										</div>
 									</div>
 									<div className="bottom col-12 row">
-									<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 `}>
-											<div>
-												<div className={`${styles.imgContainer}`}>
-													<img src="/images/home_page/steps_section/steps_images/6.svg" alt="" />
-													<label className={`${styles.number}`}>6</label>
-												</div>
-												<div>
-													<h4 data-trans="step6Title">{``}</h4>
-													<p data-trans="step6">{`Preparing for AB site visit assessment and closing out all raised improvement Areas.`}</p>
-												</div>
-											</div>
-										</div>
-										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 `}>
-											<div>
-												<div className={`${styles.imgContainer}`}>
-													<img src="/images/home_page/steps_section/steps_images/5.svg" alt="" />
-													<label className={`${styles.number}`}>5</label>
-												</div>
-
-												<div>
-													<h4 data-trans="step5Title">{``}</h4>
-													<p data-trans="step5">{`Ensuring that the management system is effective by conducting internal audits and MRM.`}</p>
-												</div>
-											</div>
-										</div>
 										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 `}>
 											<div>
 												<div className={`${styles.imgContainer}`}>
@@ -126,6 +101,31 @@ const Steps = () => {
 												<div>
 													<h4 data-trans="step4Title">{``}</h4>
 													<p data-trans="step4">{`Carrying out all procedures, Forms, SOPs and technical Schemes.`}</p>
+												</div>
+											</div>
+										</div>
+										<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 `}>
+												<div>
+													<div className={`${styles.imgContainer}`}>
+														<img src="/images/home_page/steps_section/steps_images/5.svg" alt="" />
+														<label className={`${styles.number}`}>5</label>
+													</div>
+
+													<div>
+														<h4 data-trans="step5Title">{`step5Title:`}</h4>
+														<p data-trans="step5">{`Ensuring that the management system is effective by conducting internal audits and MRM.`}</p>
+													</div>
+												</div>
+											</div>
+											<div className={`${styles.item} col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 `}>
+											<div>
+												<div className={`${styles.imgContainer}`}>
+													<img src="/images/home_page/steps_section/steps_images/6.svg" alt="" />
+													<label className={`${styles.number}`}>6</label>
+												</div>
+												<div>
+													<h4 data-trans="step6Title">{``}</h4>
+													<p data-trans="step6">{`Preparing for AB site visit assessment and closing out all raised improvement Areas.`}</p>
 												</div>
 											</div>
 										</div>

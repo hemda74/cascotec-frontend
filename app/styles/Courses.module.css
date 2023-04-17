@@ -1,18 +1,19 @@
 /* Courses Section*/
-.titleWord{
-    margin-top: -10rem;
-    margin-bottom: 10rem;
-}
+  .titleWord
+  {
+      margin-top: -10rem;
+      margin-bottom: 10rem;
+  }
   .coursesCard
-{
-    box-shadow: 10px 30px 20px -30px #8787b2;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    border: none;
-    background: #ffff;
-    display: flex;
-    margin-top: -8rem;
-}
+  {
+    box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
+      padding: 0.5rem;
+      border-radius: 1rem;
+      border: none;
+      background: #ffff;
+      display: flex;
+      margin-top: -8rem;
+  }
   .coursesHead{
    margin-top: auto;
    margin-bottom: auto;
@@ -20,7 +21,8 @@
    margin-left: 2rem;
    margin-right: 2rem;
   }
-  .cardSubTitle{
+  .cardSubTitle
+  {
     color: rgb(7, 142, 215);
   }
   .cardImage{
@@ -30,10 +32,10 @@
   .searchCard{
     box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
     border-radius: 0.6rem;
-     padding: 2rem 3rem 2rem; 
+    padding: 2rem 3rem 2rem; 
     margin-top: 3.5rem;
     width: 103% !important;
-     margin-bottom: -2rem; 
+    margin-bottom: -2rem; 
   }
   .SearchButton{
     padding: 0.8rem 1.5rem 0.8rem ;
@@ -46,109 +48,109 @@
     margin-bottom: 5rem;
   }
 /* plog postes */
-.postBox {
-  transition: 0.3s;
-  height: 95%;
-  width: 80% !important;
-  margin: 1rem;
-  max-width: 20rem;
-  overflow: hidden;
-  padding: 0.5rem;
-  position: relative;
-  cursor: pointer;
-  display: flex;  
-  background: #fff;
-  box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
-  flex-direction: column;
-}
-.postImage {
-  overflow: hidden;
-  width: 100%;
-  position: relative;
-  border-radius: 10px;
-}
-.figCaption{
-  color: transparent;
-  background-color: transparent;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  z-index: 996;
-  color: #fff;
-  bottom: auto;
-  left: 3%;
-  top: 10%;
-  width: 80%;
-  height: 0%;
-  overflow: hidden;
-  visibility: hidden;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-.postBox .postTitleFigre:hover figCaption{
-  visibility: visible;
-  color: #fff !important;
-  background: rgba(33, 30, 30, 0.603);   
-  height: 35%;
-  width: 95%;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-.postTitle {
-  font-size: 1.2rem;
-  color: var(--color-secondary);
-  font-weight: 700;
-  margin: 1rem 0 0 0;
-  position: relative;
-  transition: 0.3s;
-}
-.iconDate{
-  margin-top: 0.5rem;
-  color: var(--color-secondary);
-}
-.dateCourse{
-  margin-top: -0.5rem;
-}
-.coursesConainer{
-  margin-top: 4rem;
-}
-  @media (max-width: 480px)
-{
-  .searchCard{
+  .postBox {
+    transition: 0.3s;
+    height: 95%;
+    width: 80% !important;
+    margin: 1rem;
+    max-width: 20rem;
+    overflow: hidden;
+    padding: 0.5rem;
+    position: relative;
+    cursor: pointer;
+    display: flex;  
+    background: #fff;
     box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
-    border-radius: 0.6rem;
-     padding: 2rem 3rem 2rem; 
-    margin-top: 3.5rem;
-    width: 100% !important;
-     margin-bottom: -2rem; 
+    flex-direction: column;
   }
-    .coursesCard{
-      display: flex;
-      flex-direction: column;
-    }
-    .cardImage{
-      margin: 0;
-    }
-    .coursesHead{
-      text-align: center;
-    }
-    .postBox {
-      transition: 0.3s;
-      height: 95%;
-      width: 100% !important;
-      overflow: hidden;
-      position: relative;
-      cursor: pointer;
-      display: flex;  
-      margin: auto;
-      background: #f9f9f9;
+  .postImage {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+  }
+  .figCaption{
+    color: transparent;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 996;
+    color: #fff;
+    bottom: auto;
+    left: 3%;
+    top: 10%;
+    width: 80%;
+    height: 0%;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .postBox .postTitleFigre:hover figCaption{
+    visibility: visible;
+    color: #fff !important;
+    background: rgba(33, 30, 30, 0.603);   
+    height: 35%;
+    width: 95%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .postTitle {
+    font-size: 1.2rem;
+    color: var(--color-secondary);
+    font-weight: 700;
+    margin: 1rem 0 0 0;
+    position: relative;
+    transition: 0.3s;
+  }
+  .iconDate{
+    margin-top: 0.5rem;
+    color: var(--color-secondary);
+  }
+  .dateCourse{
+    margin-top: -0.5rem;
+  }
+  .coursesConainer{
+    margin-top: 4rem;
+  }
+    @media (max-width: 480px)
+  {
+    .searchCard{
       box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
-      flex-direction: column;
+      border-radius: 0.6rem;
+      padding: 2rem 3rem 2rem; 
+      margin-top: 3.5rem;
+      width: 100% !important;
+      margin-bottom: -2rem; 
     }
-}
-  
+      .coursesCard{
+        display: flex;
+        flex-direction: column;
+      }
+      .cardImage{
+        margin: 0;
+      }
+      .coursesHead{
+        text-align: center;
+      }
+      .postBox {
+        transition: 0.3s;
+        height: 95%;
+        width: 100% !important;
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+        display: flex;  
+        margin: auto;
+        background: #f9f9f9;
+        box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
+        flex-direction: column;
+      }
+  }
+    
