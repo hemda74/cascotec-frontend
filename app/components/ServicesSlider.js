@@ -77,9 +77,9 @@ export default class AsNavFor extends Component {
           initialSlide: 1,
           infinite: true,
           dots: true,
-          speed:10000,
+          speed:1000,
           autoplay: true,
-          autoplaySpeed: 0,
+          autoplaySpeed: 2000,
           pauseOnHover: true,
           lazyLoad: true,
          
