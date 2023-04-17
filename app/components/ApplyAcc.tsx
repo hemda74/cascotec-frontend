@@ -5,7 +5,7 @@ import styles from '../styles/ApplyAcc.module.css'
   return (
     <>
         <div className={`${styles.mainContanier}`}>
-            <span className='fw-bold fs-3 text-white' data-trans="Readytobeaccredited">
+            <span className='fw-bold fs-3 text-white text-center' data-trans="Readytobeaccredited">
             Ready to be Digital Transformation with iCASCO?
             </span>
             <span className='fs-6 mt-3 fw-semibold text-white text-center' data-trans="CASCOGroupprovidesaccreditation">
