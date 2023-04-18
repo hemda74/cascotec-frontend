@@ -39,7 +39,7 @@ const BoardOfDirectors = () => {
                 <div className={`container ${styles.imgsHolder}`}>
                     <div className="row col-lg-9 m-auto justify-content-center">
                         <div className="col-xl-4 col-md-6 d-flex" >
-                                <a>
+                                <Link href={'/about/director-general'}>
                                     <div className={`${styles.teamMember2}`}>
                                         <figure className={`${styles.teamMemberFigure}`}>
                                           <Image src={ahmed_mahrous} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -54,7 +54,7 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                         </figure>
                                     </div>
-                                </a>
+                                </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
                               <a>

@@ -8,9 +8,7 @@
   text-align: center;
   border-radius: 3rem;
 }
-.cardImage{
-  width:80%;
-  height:100%; 
+.cardImage{ 
   background: #ffff;
   padding: 5rem;
   align-self: center;
