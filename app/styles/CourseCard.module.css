@@ -12,6 +12,9 @@
     width: 3rem;
     background: var(--color-cyan);
 }
+.courseDetailesMain{
+  margin: 4rem 0 3rem 0;
+}
 .enrollButton{
     padding: 0.4rem 3rem 0.4rem ;
     border: none;

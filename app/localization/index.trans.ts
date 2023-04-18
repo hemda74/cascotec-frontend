@@ -592,8 +592,8 @@ const indexTrans: translataionContainer = {
         ar:'المدير العام'
     },
     Thedirectorgeneral1:{
-        en:'The director general is responsible for:-',
-        ar:'مهام ومسؤوليات المدير العام :-'
+        en:'Bio :-',
+        ar:'السيرة الذاتية :-'
     },
     Thedirectorgeneral2:{
         en:'Ensuring appropriate representation at national, regional and international levels',
@@ -904,13 +904,109 @@ const indexTrans: translataionContainer = {
         en:' > Our Clients',
         ar:' > عملائنا'    
     },
-////////////////////////////// driector general/////////////////////////////////////////
-    Responsibilities:{
-        en:'Roles and Responsibilities',
-        ar:'المهام والمسؤلويات'
+////////////////////////////// Courses Page /////////////////////////////////////////
+    COURSES:{
+        en:'COURSES',
+        ar:'الدورات التدريبية'
     },
 
-
+    course1:{
+        en:'Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018',
+        ar:'متطلبات إدارة سلامة الغذاء وفقاً للمواصفة القياسية الدولية ISO 22000:2018'
+    },
+    course2:{
+        en:'General Requirement For Halal Products Certification According To GCC Standard GSO2055-2:2021 And International Standard ISO/IEC17065',
+        ar:'المتطلبات العامة للحصول على شهادة المنتجات الحلال وفقًا للمواصفة الخليجية GSO2055-2:2021 والمواصفة الدولية ISO/IEC17065'
+    },
+    course3:{
+        en:'ISO/IEC 17065:2012 Certification Requirements',
+        ar:'متطلبات شهادة ISO/IEC 17065:2012'
+    },
+    course4:{
+        en:'Understanding ISO/IEC 17025:2017 for Testing and Calibration Laboratories',
+        ar:'فهم المواصفة ISO/IEC 17025:2017 للمختبرات الخاصة بالاختبار والمعايرة'
+    },
+    coursedate1jun:{
+        en:'01-Jun-2023',
+        ar:'01-يونيو-2023'
+    },
+    Egypt:{
+        en:'Egypt',
+        ar:'مصر'
+    },
+    UAE:{
+        en:'UAE',
+        ar:'الامارات'
+    },
+    KSA:{
+        en:'KSA',
+        ar:'السعودية'
+    },
+    ////////////////////////////////////< course 1 page >/////////////////////////////////////////////////////////////////////
+    Days:{
+        en:'Days',
+        ar:'ايام'
+    },
+    Hrs:{
+        en:'Hrs',
+        ar:'ساعات'
+    },
+    Mins:{
+        en:'Mins',
+        ar:'دقائق'
+    },
+    Secs:{
+        en:'Secs',
+        ar:'ثواني'
+    },
+    Schedule:{
+        en:'Schedule',
+        ar:'التاريخ'
+    },
+    EstimatedTime:{
+        en:'EstimatedTime',
+        ar:'مدة الدورة'
+    },
+    Days2:{
+        en:'2 Days',
+        ar:'يومان'
+    },
+    Days3:{
+        en:'3 Days',
+        ar:'3 ايام'
+    },
+    Venue:{
+        en:'Venue',
+        ar:'مقر الدورة'
+    },
+    TrainingLanguage:{
+        en:'Training Language',
+        ar:'لغة التدرب'
+    },
+    Arabic:{
+        en:'Arabic',
+        ar:'العربية'
+    },
+    Description:{
+        en:'Description',
+        ar:'وصف الدورة'
+    },
+    TRAININGPROGRAM:{
+        en:'TRAINING PROGRAM INTRODUCTION:',
+        ar:'وصف البرنامج التدريبي:'
+    },
+    OutLine:{
+        en:'Course Outlines:',
+        ar:'الخطوط العريضة للدورة:'
+    },
+    Audience:{
+        en:'Audience',
+        ar:'الجمهور المستهدف:'
+    },
+    course1Desc:{
+        en:`This course is designed to provide an understanding of Food Safety Management Systems (FSMS) and their role in ensuring the safety and quality of food products. It covers the key principles of FSMS, including risk-based approaches, hazard analysis, control measures, and validation, surveillance and verification. The course also covers the broader context of food companies, including the expectations of interested parties, leadership, and performance and improvement.`,
+        ar:`تم تصميم هذه الدورة لتوفير فهم لأنظمة إدارة سلامة الأغذية (FSMS) ودورها في ضمان سلامة وجودة المنتجات الغذائية. ويغطي المبادئ الرئيسية لنظام إدارة سلامة الأغذية ، بما في ذلك النهج القائمة على المخاطر ، وتحليل المخاطر ، وتدابير التحكم ، والمصادقة ، والمراقبة والتحقق. تغطي الدورة أيضًا السياق الأوسع لشركات الأغذية ، بما في ذلك توقعات الأطراف المعنية والقيادة والأداء والتحسين.`
+    },
 
 
 

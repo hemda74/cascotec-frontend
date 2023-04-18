@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image'
 import styles from '../../styles/CourseCard.module.css'
 import CourseLayout from '../../layouts/CourseLayout';
+import Link from "next/link"
 import { NextPageWithLayout } from '../_app';
 import courseimage from '../../public/imagess/coursesimage.png'
 
@@ -49,11 +50,14 @@ const Course:NextPageWithLayout = (props:Props) => {
     <Head>
         <title>Course Details | CASCO</title>
     </Head>
-
+    
     <div className={`text-center row ${styles.titleWord}`}>
-        <h6 className="text-white col-12 fw-semibold mb-4" >{`Home > Courses`}</h6>
-        <h3 className={`text-white col-lg-5 m-auto fw-bold mb-4 `} >An Internal Auditor For Management Systems According To ISO 19011 For The Accreditation Requirement Requirements For Bodies Certifying Halal In Accordance With: GSO 2055-2</h3>
-        <div className={'mb-3'}>
+    <div className={`container mb-4`}>
+                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+                    <Link href={"/courses"}><a className="text-white fw-semibold mb-4">{` > Courses`}</a></Link>
+                </div>
+        <h3 className={`text-white col-lg-5 m-auto fw-bold mb-5`}data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</h3>
+        <div className={''}>
             {partyTime ? 
             (
                 <>
@@ -85,19 +89,19 @@ const Course:NextPageWithLayout = (props:Props) => {
                         <div className="d-flex m-auto">
                           <div className={`${styles.timeSegment}`}>
                             <small className="text-white fw-senibold">{days}</small>
-                            <small className="text-white fw-senibold">Days</small>
+                            <small className="text-white fw-senibold" data-trans="Days">Days</small>
                           </div>
                           <div className={`${styles.timeSegment}`}>
                             <small className="text-white fw-senibold">{hours}</small>
-                            <small className="text-white fw-senibold">Hrs</small>
+                            <small className="text-white fw-senibold" data-trans="Hrs">Hrs</small>
                           </div>
                           <div className={`${styles.timeSegment}`}>
                             <small className="text-white fw-senibold">{minutes}</small>
-                            <small className="text-white fw-senibold">Mins</small>
+                            <small className="text-white fw-senibold" data-trans="Mins">Mins</small>
                           </div>
                           <div className={`${styles.timeSegment}`}>
                             <small className="text-white fw-senibold">{seconds}</small>
-                            <small className="text-white fw-senibold">Secs</small>
+                            <small className="text-white fw-senibold" data-trans="Secs">Secs</small>
                           </div>
                         </div>
                     </div>
@@ -114,26 +118,23 @@ const Course:NextPageWithLayout = (props:Props) => {
     </div>
     <div className="container col-xl-8 col-lg-8 col-md-12 mb-5">
         <div className="row pt-4">
-            <div className="col-lg-8 col-md-12 p-3">
+            <div className={`col-lg-8 col-md-12 p-3 ${styles.courseDetailesMain}`}>
                 <Image src={courseimage} className="img-fluid" alt=""/>
             <div className="description" id='description'>
-                <span className='fs-5 fw-bold'>Description</span>
-                <p className='mt-4 mb-3 text-black-50'>TRAINING PROGRAM INTRODUCTION:</p>
-                <small className='text-black-50 mt-3 d-inline-block'>{`The standard ISO/IEC 17020:2012 is the international criterion recognized all around the world. It is made for inspection bodies to follow a quality system that aims to provide confidence in inspection procedures. It also improves the body’s ability to produce inspection reports in accordance with the international standards.`}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{`The standard is also considered the basic criterion for international accreditation bodies. It is used to accredit inspection bodies and ensure their technical efficiency, which allows the inspection reports to be accepted among different bodies`}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{`This training program is organized in keeping with GAC’s role in accrediting inspection bodies, raising awareness about the importance of accreditation and providing knowledge about the accreditation requirements for inspection bodies according to ISO/IEC 17020:2012 and ILAC’s requirements.`}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{`The training program will , which will include lectures, group discussions and case studies. GCC Accreditation Center provides participants with the program’s material and grants them certificates of participation`}</small>
-            </div>
+                <span className='fs-5 fw-bold' data-trans="Description">Description</span>
+                <p className='mt-4 mb-2 text-black-50' data-trans="TRAININGPROGRAM">TRAINING PROGRAM INTRODUCTION:</p>
+                <small className='text-black-50 mt-2 d-inline-block' data-trans="course1Desc">{`This course is designed to provide an understanding of Food Safety Management Systems (FSMS) and their role in ensuring the safety and quality of food products. It covers the key principles of FSMS, including risk-based approaches, hazard analysis, control measures, and validation, surveillance and verification. The course also covers the broader context of food companies, including the expectations of interested parties, leadership, and performance and improvement.`}</small>
+              </div>
             <div className="outline mt-4" id='outline'>
-                <span className='fs-5 fw-bold d-block'>Outline</span>
-                <small className='text-black-50 mt-3 d-inline-block'>{`1.Introducing the concept of inspection and its different classifications.`}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{`2.Preparing workers in inspection bodies and increasing their abilities to meet the requirements of ISO/IEC 17020:2012.`}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{`3.Understanding the international requirements for inspection bodies.`}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{`4.Providing participants with knowledge and skills to establish a system for quality management that is in accordance with the international requirements.`}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{`5.Providing participants with the opportunity to exchange skills and knowledge and getting to know the latest international standards and modifications through case  studies and discussions`}</small>
+                <span className='fs-5 fw-bold d-block' data-trans="OutLine">Course Outlines:</span>
+                <small className='text-black-50 mt-3 d-inline-block'>{`The site of FSMS in quality systems`}</small>
+                <small className='text-black-50 mt-3 d-inline-block'>{``}</small>
+                <small className='text-black-50 mt-3 d-inline-block'>{``}</small>
+                <small className='text-black-50 mt-3 d-inline-block'>{``}</small>
+                <small className='text-black-50 mt-3 d-inline-block'>{``}</small>
              </div>
              <div className="audience mt-4" id='audience'>
-                <span className='fs-5 fw-bold d-block'>Audience</span>
+                <span className='fs-5 fw-bold d-block' data-trans="Audience">Audience</span>
                 <ul>
                   <li className='text-black-50'>
                       <small className='text-black-50 mt-3 d-inline-block'>{`Those who work in different inspection bodies.`}</small>
@@ -150,7 +151,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                 </ul>
             </div>
             </div>
-            <div className="col-xl-3 col-lg-3 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0">
+            <div className={`col-xl-3 col-lg-3 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0 ${styles.courseDetailesMain}`}>
                 <div className={`${styles.courseDetailes}`}>
                     <ul className="list_wideger_desc list-unstyled p-0 ">
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>
@@ -158,8 +159,8 @@ const Course:NextPageWithLayout = (props:Props) => {
                                     <img src="/images/courses_section/calendar.svg" alt=""/>
                                 </div>
                               <div className="row">
-                                  <small className="text-black-50">Schedule</small>
-                                  <small className="fw-bold mt-1">01 - 02 Jun, 2023</small>
+                                  <small className="text-black-50" data-trans="Schedule">Schedule</small>
+                                  <small className="fw-bold mt-1" data-trans="coursedate1jun">01-Jun-2023</small>
                               </div>
                         </li>
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>
@@ -167,8 +168,8 @@ const Course:NextPageWithLayout = (props:Props) => {
                                 <img src="/images/courses_section/clock-fill2.svg" alt=""/>
                             </div>
                             <div className="row">
-                                <small className="text-black-50">Estimated Time</small>
-                                <small className="fw-bold mt-1">2 Days</small>
+                                <small className="text-black-50" data-trans="EstimatedTime">Estimated Time</small>
+                                <small className="fw-bold mt-1" data-trans="Days2">2 Days</small>
                             </div>
                         </li>
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>
@@ -176,8 +177,8 @@ const Course:NextPageWithLayout = (props:Props) => {
                                 <img src="/images/courses_section/pin-2.svg" alt=""/>
                             </div>
                             <div className="row">
-                                <small className="text-black-50">Venue</small>
-                                <small className="fw-bold mt-1">Egypt</small>
+                                <small className="text-black-50" data-trans="Venue">Venue</small>
+                                <small className="fw-bold mt-1" data-trans="Egypt">Egypt</small>
                             </div>
                         </li>					
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>
@@ -185,8 +186,8 @@ const Course:NextPageWithLayout = (props:Props) => {
                                 <img src="/images/courses_section/online_ic.svg" alt=""/>
                             </div>
                             <div className="row ">
-                                <small className="text-black-50">Training Language</small>
-                                <small className="fw-bold mt-1">Arabic</small>
+                                <small className="text-black-50" data-trans="TrainingLanguage">Training Language</small>
+                                <small className="fw-bold mt-1" data-trans="Arabic">Arabic</small>
                             </div>
                         </li>
                     </ul>
