@@ -15,10 +15,9 @@ const Course:NextPageWithLayout = (props:Props) => {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-
+/////////////// add counter section ///////////////////////
   useEffect(() => {
     const target = new Date("06/01/2023 09:00:00");
-
     const interval = setInterval(() => {
       const now = new Date();
       var difference = target.getTime() - now.getTime();
@@ -50,13 +49,12 @@ const Course:NextPageWithLayout = (props:Props) => {
     <Head>
         <title>Course Details | CASCO</title>
     </Head>
-    
     <div className={`text-center row ${styles.titleWord}`}>
-    <div className={`container mb-4`}>
-                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
-                    <Link href={"/courses"}><a className="text-white fw-semibold mb-4">{` > Courses`}</a></Link>
-                </div>
-        <h3 className={`text-white col-lg-5 m-auto fw-bold mb-5`}data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</h3>
+        <div className={`container mb-4`}>
+            <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+            <Link href={"/courses"}><a className="text-white fw-semibold mb-4">{` > Courses`}</a></Link>
+        </div>
+        <h3 className={`text-white col-lg-5 m-auto fw-bold mb-5`} data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</h3>
         <div className={''}>
             {partyTime ? 
             (
@@ -124,7 +122,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                     <span className='fs-5 fw-bold' data-trans="Description">Description</span>
                     <p className='mt-4 mb-2 text-black-50' data-trans="TRAININGPROGRAM">TRAINING PROGRAM INTRODUCTION:</p>
                     <small className='text-black-50 mt-2 d-inline-block' data-trans="course1Desc">{`This course is designed to provide an understanding of Food Safety Management Systems (FSMS) and their role in ensuring the safety and quality of food products. It covers the key principles of FSMS, including risk-based approaches, hazard analysis, control measures, and validation, surveillance and verification. The course also covers the broader context of food companies, including the expectations of interested parties, leadership, and performance and improvement.`}</small>
-                  </div>
+                </div>
                 <div className="outline mt-4" id='outline'>
                     <span className='fs-5 fw-bold d-block' data-trans="OutLine">Course Outlines:</span>
                     <small className='text-black-50 mt-3 d-block' data-trans="course1outline1">{`The site of FSMS in quality systems`}</small>
@@ -172,16 +170,16 @@ const Course:NextPageWithLayout = (props:Props) => {
                     <small className='text-black-50 mt-3 d-block' data-trans="course1objctive5">{``}</small>
                     <small className='text-black-50 mt-3 d-block' data-trans="course1objctive6">{``}</small>
                     <small className='text-black-50 mt-3 d-block' data-trans="course1objctive7">{``}</small>
-                  </div>
-                  <div className="audience mt-4" id='audience'>
-                      <span className='fs-5 fw-bold d-block' data-trans="Audience">Audience</span>
-                          <small className='text-black-50 mt-3 d-block' data-trans="course1audiance2">{``}</small>
-                          <small className='text-black-50 mt-3 d-block' data-trans="course1audiance3">{``}</small>
-                          <small className='text-black-50 mt-3 d-block' data-trans="course1audiance4">{``}</small>
-                          <small className='text-black-50 mt-3 d-block' data-trans="course1audiance5">{``}</small>
-                          <small className='text-black-50 mt-3 d-block' data-trans="course1audiance6">{``}</small>
-                          <small className='text-black-50 mt-3 d-block' data-trans="course1audiance7">{``}</small>
-                  </div>
+                </div>
+                <div className="audience mt-4" id='audience'>
+                    <span className='fs-5 fw-bold d-block' data-trans="Audience">Audience</span>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course1audiance2">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course1audiance3">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course1audiance4">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course1audiance5">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course1audiance6">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course1audiance7">{``}</small>
+                </div>
             </div>
             <div className={`col-xl-3 col-lg-3 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0 ${styles.courseDetailesMain}`}>
                 <div className={`${styles.courseDetailes}`}>
