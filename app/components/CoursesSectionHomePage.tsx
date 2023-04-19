@@ -45,7 +45,7 @@ const CoursesSectionHomePage = () => {
                                             <div className={`${styles.postBox} p-1`}>
                                                 <div className={`${styles.postImage}`}><Image src={courseimage} className="d-block" alt="course_image"/></div>
                                                 <figure className={`mt-5 ${styles.postTitleFigre}`}>
-                                                <span className={`${styles.postTitle}`}>Food Safety Management Requirements in Accordance with International Standard ISO 22000:2018</span>
+                                                <span className={`${styles.postTitle}`} data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</span>
                                                 </figure>                        
                                                 <span className={`${styles.iconDate}`}><CgCalendarDates size={25}/>
                                                     <span className='text-black me-1 ms-1 mt-1'>01-02 Jun.2023</span>
