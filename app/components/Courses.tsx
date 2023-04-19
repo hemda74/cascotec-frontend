@@ -22,11 +22,11 @@ const Courses = () => {
             <div className="row ">
                <div className={`col-lg-12  justify-content-between ${styles.coursesCard}`}>
                     <div className={`${styles.cardImage}`}>
-                        <Image src={courses}  alt=""/>
+                        <Image src={courses} width={1200} height={1200}  alt=""/>
                     </div>
                     <div className={`${styles.coursesHead}`}>
-                        <span className="card-title fw-semibold mt-3" data-trans="COURSES">COURSES</span> 
-                        <span className={`card-text fs-4 fw-semibold mb-3 d-block mt-3 ${styles.cardSubTitle}`}>{`Find your perfect program`}</span>
+                        <span className={` ms-auto fs-4 fw-semibold mb-3 ${styles.cardSubTitle}`}  data-trans="COURSES">COURSES</span> 
+                        <span className="fw-semibold d-block mt-3" data-trans="cousesParageph">{``}</span>
                     </div>
                </div>
             </div>
@@ -82,7 +82,7 @@ const Courses = () => {
                     </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12  p-1" >
-                    <Link href={'/courses/general_requirement_for_halal_products_certification_according_to_gcc_standard_gSO2055_2:2021_and_international_standard_iSO_IEC17065'}>
+                    <Link href={'/courses/general_requirement_for_halal_products_certification_according_to_gcc_standard'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>
                         <figure className={`mt-5 ${styles.postTitleFigre}`}>
@@ -103,8 +103,8 @@ const Courses = () => {
                     <Link href={'/courses/iSO_iEC_17065_2012_certification_requirements'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` mt-5 ${styles.postTitle}`} data-trans="course3">{`ISO/IEC 17065:2012 Certification Requirements`}</span>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course3">{`ISO/IEC 17065:2012 Certification Requirements`}</span>
                         </figure>                       
                          <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>

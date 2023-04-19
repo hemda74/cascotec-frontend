@@ -67,6 +67,11 @@
     align-items: center;
     padding: 0;
   }
+  .liDiv2{
+    margin-left:-0.3rem;
+    margin-right: -0.3rem;
+    
+  }
   /* .iconHolder2{
     margin: 0 0.5rem  0 0rem ;
     padding: 0.35rem 0.65rem  ;

@@ -57,7 +57,7 @@ const CoursesSectionHomePage = () => {
                                             </Link>
                                         </div>
                                     </div>
-                                    <div className='ms-5 me-5'><a href={'/courses'}> <button className={`myInfo-outline m-auto  ${styles.SearchButton}`}>VIEW ALL</button></a></div>
+                                    <div className='ms-5 me-5'><a href={'/courses'}> <button className={`myInfo-outline m-auto ${styles.SearchButton}`}>VIEW ALL</button></a></div>
                                 </div>
                             </div>
                         </div>

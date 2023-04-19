@@ -56,7 +56,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                     <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
                     <Link href={"/courses"}><a className="text-white fw-semibold mb-4">{` > Courses`}</a></Link>
                 </div>
-        <h3 className={`text-white col-lg-5 m-auto fw-bold mb-5`}data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</h3>
+        <h3 className={`text-white col-lg-5 m-auto fw-bold mb-5`} data-trans="course3">{`ISO/IEC 17065:2012 Certification Requirements`}</h3>
         <div className={''}>
             {partyTime ? 
             (
@@ -123,32 +123,48 @@ const Course:NextPageWithLayout = (props:Props) => {
             <div className="description" id='description'>
                 <span className='fs-5 fw-bold' data-trans="Description">Description</span>
                 <p className='mt-4 mb-2 text-black-50' data-trans="TRAININGPROGRAM">TRAINING PROGRAM INTRODUCTION:</p>
-                <small className='text-black-50 mt-2 d-inline-block' data-trans="course1Desc">{`This course is designed to provide an understanding of Food Safety Management Systems (FSMS) and their role in ensuring the safety and quality of food products. It covers the key principles of FSMS, including risk-based approaches, hazard analysis, control measures, and validation, surveillance and verification. The course also covers the broader context of food companies, including the expectations of interested parties, leadership, and performance and improvement.`}</small>
+                <small className='text-black-50 mt-2 d-inline-block' data-trans="course3Desc">{``}</small>
               </div>
             <div className="outline mt-4" id='outline'>
                 <span className='fs-5 fw-bold d-block' data-trans="OutLine">Course Outlines:</span>
-                <small className='text-black-50 mt-3 d-inline-block'>{`The site of FSMS in quality systems`}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{``}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{``}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{``}</small>
-                <small className='text-black-50 mt-3 d-inline-block'>{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline1">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline2">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline3">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline4">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline5">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline6">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline7">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline8">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline9">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline10">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline11">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline12">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline13">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline14">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline15">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline16">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline17">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3outline18">{``}</small>
              </div>
+             <div className="objective mt-4" id='objective'>
+                    <span className='fs-5 fw-bold d-block' data-trans="CourseObjectives">Course Objectives:</span>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3objctive1">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3objctive2">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3objctive3">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3objctive4">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3objctive5">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3objctive6">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3objctive7">{``}</small>
+                </div>
              <div className="audience mt-4" id='audience'>
                 <span className='fs-5 fw-bold d-block' data-trans="Audience">Audience</span>
-                <ul>
-                  <li className='text-black-50'>
-                      <small className='text-black-50 mt-3 d-inline-block'>{`Those who work in different inspection bodies.`}</small>
-                  </li>
-                  <li className='text-black-50'>
-                      <small className='text-black-50 mt-3 d-inline-block'>{`Those who carry out inspection procedures for inspection bodies.`}</small>
-                  </li>
-                  <li className='text-black-50'>
-                      <small className='text-black-50 mt-3 d-inline-block'>{`Inspection officials in governmental or private bodies concerned with inspection.`}</small>
-                  </li>
-                  <li className='text-black-50'>
-                      <small className='text-black-50 mt-3 d-inline-block'>{`All bodies concerned with inspection services.`}</small>
-                  </li>
-                </ul>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance1">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance2">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance3">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance4">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance5">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance6">{``}</small>
+                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance7">{``}</small>
             </div>
             </div>
             <div className={`col-xl-3 col-lg-3 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0 ${styles.courseDetailesMain}`}>
@@ -169,16 +185,16 @@ const Course:NextPageWithLayout = (props:Props) => {
                             </div>
                             <div className="row">
                                 <small className="text-black-50" data-trans="EstimatedTime">Estimated Time</small>
-                                <small className="fw-bold mt-1" data-trans="Days2">2 Days</small>
+                                <small className="fw-bold mt-1" data-trans="Days3"></small>
                             </div>
                         </li>
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>
                             <div className={`${styles.iconHolder}`}>
                                 <img src="/images/courses_section/pin-2.svg" alt=""/>
                             </div>
-                            <div className="row">
+                            <div className={`${styles.liDiv2} row`}>
                                 <small className="text-black-50" data-trans="Venue">Venue</small>
-                                <small className="fw-bold mt-1" data-trans="Egypt">Egypt</small>
+                                <small className="fw-bold mt-1" data-trans="KSA">KSA</small>
                             </div>
                         </li>					
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>

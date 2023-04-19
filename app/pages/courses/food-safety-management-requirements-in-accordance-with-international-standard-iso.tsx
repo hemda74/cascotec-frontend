@@ -116,7 +116,7 @@ const Course:NextPageWithLayout = (props:Props) => {
     </div>
     <div className="container col-xl-8 col-lg-8 col-md-12 mb-5">
         <div className="row pt-4">
-            <div className={`col-lg-8 col-md-12 p-3 ${styles.courseDetailesMain}`}>
+            <div className={`col-lg-7 col-md-12 p-3 ${styles.courseDetailesMain}`}>
                 <Image src={courseimage} className="img-fluid" alt=""/>
                 <div className="description" id='description'>
                     <span className='fs-5 fw-bold' data-trans="Description">Description</span>
@@ -181,7 +181,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                         <small className='text-black-50 mt-3 d-block' data-trans="course1audiance7">{``}</small>
                 </div>
             </div>
-            <div className={`col-xl-3 col-lg-3 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0 ${styles.courseDetailesMain}`}>
+            <div className={`col-xl-4 col-lg-4 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0 ${styles.courseDetailesMain}`}>
                 <div className={`${styles.courseDetailes}`}>
                     <ul className="list_wideger_desc list-unstyled p-0 ">
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>

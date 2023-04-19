@@ -925,6 +925,10 @@ const indexTrans: translataionContainer = {
         en:'COURSES',
         ar:'الدورات التدريبية'
     },
+    Findyourperfectprogram:{
+        en:'Findyour perfect program',
+        ar:'الدورات التدريبة'
+    },
     course1:{
         en:'Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018',
         ar:'متطلبات إدارة سلامة الغذاء وفقاً للمواصفة القياسية الدولية ISO 22000:2018'
@@ -1218,13 +1222,365 @@ const indexTrans: translataionContainer = {
         en:'●	Consultants and researchers involved in food safety.',
         ar:'●	المستشارين والباحثين المشتركين في سلامة الأغذية.'
     },
-
-
-
-
-
-
-
+////////////////////////////////////< course 2 page >/////////////////////////////////////////////////////////////////////
+    course2Desc:{
+        en:`This course focuses on the general requirements for Halal product certification according to the GCC Standard GSO2055-2:2021 and the International Standard ISO/IEC17065. Participants will learn about the concepts of accreditation, halal certification standards, legal and contractual matters, liability and financing, organizational structure, and top management. They will also gain an understanding of certification body personnel, resources for evaluation, management of impartiality, quality policy and objectives, documentation of management system, mechanisms for improvement, communication and relationship with interested parties, requirements for audits, Halal scheme, and evaluation test for participants.`,
+        ar:'تركز هذه الدورة على المتطلبات العامة للحصول على شهادة المنتجات الحلال وفقًا للمواصفة الخليجية GSO2055-2:2021 والمواصفة الدولية ISO/IEC17065. سيتعلم المشاركون عن مفاهيم الاعتماد، ومعايير شهادة الحلال، والأمور القانونية والعقودية، والمسؤولية والتمويل، والهيكل التنظيمي، والإدارة العليا. كما سيحصلون على فهم لشخصي المؤسسة الشهادات، ومصادر التقييم، وإدارة الحيادية، وسياسة الجودة والأهداف، وتوثيق نظام الإدارة، وآليات التحسين، والتواصل والعلاقات مع الأطراف المعنية، ومتطلبات التدقيق، ومخطط الحلال، واختبار التقييم للمشاركين.'
+    },
+    course2outline1:{
+        en:'●	Introduction to Halal product certification',
+        ar:'●	مقدمة في شهادة المنتجات الحلال'
+    },
+    course2outline2:{
+        en:'●	Concepts of accreditation',
+        ar:'●	مفاهيم الاعتماد'
+    },
+    course2outline3:{
+        en:'●	Halal certification standards: content and requirements',
+        ar:'●	معايير شهادة الحلال: المحتوى والمتطلبات'
+    },
+    course2outline4:{
+        en:'●	Legal and contractual matters for Halal certification',
+        ar:'●	القضايا القانونية والعقودية المتعلقة بشهادة الحلال'
+    },
+    course2outline5:{
+        en:'●	Liability and financing in Halal certification',
+        ar:'●	المسؤولية والتمويل في شهادة الحلال'
+    },
+    course2outline6:{
+        en:'●	Organizational structure and top management for Halal certification',
+        ar:'●	الهيكل التنظيمي والإدارة العليا المطلوبة لشهادة الحلال'
+    },
+    course2outline7:{
+        en:'●	Certification body personnel and resources for evaluation',
+        ar:'●	شخصية هيئة الشهادة والموارد للتقييم'
+    },
+    course2outline8:{
+        en:'●	Management of impartiality in Halal certification',
+        ar:'●	إدارة النزاهة في شهادة الحلال'
+    },
+    course2outline9:{
+        en:'●	Quality Policy and Objectives for Halal Certification',
+        ar:'●	سياسة الجودة والأهداف لشهادة الحلال'
+    },
+    course2outline10:{
+        en:'●	Documentation of management system for Halal certification',
+        ar:'●	توثيق نظام الإدارة لشهادة الحلال'
+    },
+    course2outline11:{
+        en:'●	Mechanisms for improvement in Halal certification',
+        ar:'●	آليات التحسين في شهادة الحلال'
+    },
+    course2outline12:{
+        en:'●	Communication and relationship with interested parties in Halal certification',
+        ar:'●	الاتصال والعلاقات مع الأطراف المعنية في شهادة الحلال'
+    },
+    course2outline13:{
+        en:'●	Requirements for audits in Halal certification',
+        ar:'●	متطلبات التدقيق في شهادة الحلال'
+    },
+    course2outline14:{
+        en:'●	Halal scheme and its requirements',
+        ar:'●	نظام الحلال ومتطلباته'
+    },
+    course2outline15:{
+        en:'●	Evaluation test for participants in Halal certification',
+        ar:'●	اختبار التقييم للمشاركين في شهادة الحلال'
+    },
+    course2objctive1:{
+        en:'●	Understand the concepts of accreditation and Halal certification standards',
+        ar:'●	فهم مفاهيم الاعتماد ومعايير شهادة الحلال'
+    },
+    course2objctive2:{
+        en:'●	Learn about the legal and contractual matters related to Halal certification',
+        ar:'●	التعرف على القضايا القانونية والعقدية المتعلقة بشهادة الحلال'
+    },
+    course2objctive3:{
+        en:'●	Gain an understanding of liability and financing in Halal certification',
+        ar:'●	اكتساب فهم للمسؤولية والتمويل في شهادة الحلال'
+    },
+    course2objctive4:{
+        en:'●	Understand the organizational structure and top management required for Halal certification',
+        ar:'●	فهم الهيكل التنظيمي والإدارة العليا المطلوبة لشهادة الحلال'
+    },
+    course2objctive5:{
+        en:'●	Learn about certification body personnel and resources for evaluation',
+        ar:'●	التعرف على الموظفين والموارد المتاحة للجهة المعتمدة لتقييم شهادة الحلال'
+    },
+    course2objctive6:{
+        en:'●	Understand the management of impartiality in Halal certification',
+        ar:'●	فهم إدارة الحيادية في شهادة الحلال'
+    },
+    course2objctive7:{
+        en:'●	Learn about quality policy and objectives for Halal certification',
+        ar:'●	التعرف على سياسات الجودة والأهداف لشهادة الحلال'
+    },
+    course2objctive8:{
+        en:'●	Understand the documentation of the management system for Halal certification',
+        ar:'●	فهم وثائق نظام الإدارة لشهادة الحلال'
+    },
+    course2objctive9:{
+        en:'●	Learn about mechanisms for improvement in Halal certification',
+        ar:'●	التعرف على آليات التحسين في شهادة الحلال'
+    },
+    course2objctive10:{
+        en:'●	Understand the communication and relationship with interested parties in Halal certification',
+        ar:'●	فهم الاتصال والعلاقة مع الأطراف المعنية في شهادة الحلال'
+    },
+    course2objctive11:{
+        en:'●	Learn about requirements for audits in Halal certification',
+        ar:'●	التعرف على متطلبات التدقيق في شهادة الحلال'
+    },
+    course2objctive12:{
+        en:'●	Understand the Halal scheme and its requirements',
+        ar:'●	فهم مخطط الحلال ومتطلباته'
+    },
+    course2objctive13:{
+        en:'●	Prepare for the evaluation test for participants in the Halal certification',
+        ar:'●	الاستعداد للاختبار التقييمي للمشاركين في شهادة الحلال'
+    },
+    course2audiance1:{
+        en:`This course is designed for individuals who are interested in becoming Halal certification auditors, consultants, or managers. It is also suitable for those who want to gain a deeper understanding of Halal product certification according to the GCC Standard GSO2055-2:2021 and the International Standard ISO/IEC17065.`,
+        ar:`يتم تصميم هذه الدورة التدريبية للأفراد الذين يهتمون بأن يصبحوا مدققين أو مستشارين أو مديرين لشهادات الحلال. كما أنها مناسبة لأولئك الذين يرغبون في الحصول على فهم أعمق لشهادات منتجات الحلال وفقًا للمعيار الخليجي GSO2055-2:2021 والمعيار الدولي ISO/IEC17065.`
+    },
+    ///////////////////////////////////////< course 3 >//////////////////////////////////////////////////////////////////////
+    course3Desc:{
+        en:'This course will provide an in-depth understanding of the requirements for bodies certifying products, processes, and services according to ISO/IEC 17065:2012. Participants will learn about the accreditation process, legal and contractual matters, management of impartiality, documentation control, and auditing requirements.',
+        ar:'يوفر هذا الدورة فهمًا شاملاً لمتطلبات الهيئات التي تصدر شهادات للمنتجات والعمليات والخدمات وفقًا لمواصفات ISO/IEC 17065:2012. سيتعلم المشاركون عن العملية التحقق من الاعتماد ، والمسائل القانونية والعقودية ، وإدارة الحيادية ، ومراقبة الوثائق ، ومتطلبات التدقيق.'
+    },
+    course3outline1:{
+        en:'●	Introduction to ISO/IEC 17065:2012',
+        ar:'●	مقدمة في ISO/IEC 17065:2012'
+    },
+    course3outline2:{
+        en:'●	Accreditation and its concept',
+        ar:'●	الاعتماد ومفهومه'
+    },
+    course3outline3:{
+        en:'●	Legal and contractual matters',
+        ar:'●	المسائل القانونية والعقودية'
+    },
+    course3outline4:{
+        en:'●	Liability and financing',
+        ar:'●	المسؤولية والتمويل'
+    },
+    course3outline5:{
+        en:'●	Organizational structure and top management',
+        ar:'●	الهيكل التنظيمي والإدارة العليا'
+    },
+    course3outline6:{
+        en:'●	Certification body personnel',
+        ar:'●	العاملون في هيئات الشهادات'
+    },
+    course3outline7:{
+        en:'●	Resources for evaluation',
+        ar:'●	الموارد للتقييم'
+    },
+    course3outline8:{
+        en:'●	Management of impartiality',
+        ar:'●	إدارة الحيادية'
+    },
+    course3outline9:{
+        en:'●	The mechanism for safeguarding impartiality',
+        ar:'●	آلية حماية الحيادية'
+    },
+    course3outline10:{
+        en:'●	Quality policy, objectives, and indicators',
+        ar:'●	السياسة والأهداف والمؤشرات الجودة'
+    },
+    course3outline11:{
+        en:'●	General documentation of the management system',
+        ar:'●	الوثائق العامة لنظام الإدارة'
+    },
+    course3outline12:{
+        en:'●	Control of documents/ control of records',
+        ar:'●	مراقبة الوثائق / مراقبة السجلات'
+    },
+    course3outline13:{
+        en:'●	Mechanisms for improvement',
+        ar:'●	آليات التحسين'
+    },
+    course3outline14:{
+        en:'●	Communication and relationship with interested parties',
+        ar:'●	التواصل والعلاقات مع الأطراف المعنية'
+    },
+    course3outline15:{
+        en:'●	Requirements for audits: Key Functions',
+        ar:'●	متطلبات التدقيق: الوظائف الرئيسية'
+    },
+    course3outline16:{
+        en:'●	Scheme type based on ISO 17067 ',
+        ar:'●	نوع المخطط القائم على ISO 17067'
+    },
+    course3outline17:{
+        en:'●	Assessment of Halal Certification Bodies',
+        ar:''
+    },
+    course3outline18:{
+        en:'●	Mechanisms and ways for the assessment of Scheme types ',
+        ar:'●	آليات وطرق تقييم أنواع المخططات'
+    },
+    course3objctive1:{
+        en:`●	Understand the requirements of ISO/IEC 17065:2012`,
+        ar:`●	فهم متطلبات ISO/IEC 17065:2012`
+    },
+    course3objctive2:{
+        en:`●	Understand the accreditation process and legal and contractual matters`,
+        ar:`●	فهم عملية الاعتماد والقضايا القانونية والتعاقدية`
+    },
+    course3objctive3:{
+        en:`●	Understand the management of impartiality and the mechanism for safeguarding impartiality`,
+        ar:`●	فهم إدارة الحيادية وآلية حماية الحيادية`
+    },
+    course3objctive4:{
+        en:`●	Understand the documentation control and auditing requirements`,
+        ar:`●	فهم التحكم في الوثائق ومتطلبات المراجعة`
+    },
+    course3objctive5:{
+        en:`●	Understand the requirements for audits and the Schemes`,
+        ar:`●	فهم متطلبات المراجعة والخطط`
+    },
+    course3objctive6:{
+        en:`●	Understand the assessment of scheme Certification Bodies`,
+        ar:`●	فهم تقييم جهات الاعتماد وفقًا لنظام ISO 17067`
+    },
+    course3objctive7:{
+        en:`●	Prepare for the evaluation test for participants`,
+        ar:`●	التحضير للاختبار التقييمي للمشاركين`
+    },
+    course3audiance1:{
+        en:'●	Quality Managers',
+        ar:'●	مدراء الجودة'
+    },
+    course3audiance2:{
+        en:'●	Auditors and Assessors',
+        ar:'●	المراجعين والمقيّمون'
+    },
+    course3audiance3:{
+        en:'●	Certification Body Personnel',
+        ar:'●	المسؤولون عن جهات الاعتماد'
+    },
+    course3audiance4:{
+        en:'●	Accreditation Body Personnel',
+        ar:'●	المسؤولون عن جهات الاعتماد'
+    },
+    course3audiance5:{
+        en:'●	Regulators',
+        ar:'●   المنظمون'
+    },
+    course3audiance6:{
+        en:'●	Consultants',
+        ar:'●	الاستشاريون'
+    },
+    course3audiance7:{
+        en:'●	Researchers',
+        ar:'●	الباحثون'
+    },
+    //////////////////////////////////////< course 4 >////////////////////////////////////////////////////////////
+    course4Desc:{
+        en:'This course provides an interactive and practical foundation on the ISO/IEC 17025:2017 standard. It aims to acquaint participants with the requirements of the standard, providing a thorough understanding of the laboratory accreditation process and an implementation strategy in the context of other standards (e.g. ISO 9001).',
+        ar:'توفر هذه الدورة أساسًا تفاعليًا وعمليًا حول معيار ISO/IEC 17025:2017. وتهدف إلى تعريف المشاركين بمتطلبات المعيار، وتوفير فهم شامل لعملية الاعتماد المختبري واستراتيجية التنفيذ في سياق المعايير الأخرى (مثل ISO 9001).'
+    },
+    course4outline1:{
+        en:'●	Introduction to ISO/IEC 17025:2017',
+        ar:'●	مقدمة حول المواصفة ISO/IEC 17025:2017'
+    },
+    course4outline2:{
+        en:'●	General requirements for the competence of testing and calibration laboratories',
+        ar:'●	المتطلبات العامة لكفاءة مختبرات الاختبار والمعايرة'
+    },
+    course4outline3:{
+        en:'●	Management requirements',
+        ar:'●	المتطلبات الإدارية'
+    },
+    course4outline4:{
+        en:'●	Technical requirements',
+        ar:'●	المتطلبات الفنية'
+    },
+    course4outline5:{
+        en:'●	Impartiality and confidentiality',
+        ar:'●	الحيادية والسرية'
+    },
+    course4outline6:{
+        en:'●	Laboratory personnel',
+        ar:'●	العاملون في المختبر'
+    },
+    course4outline7:{
+        en:'●	Equipment, calibration and measurement traceability',
+        ar:'●	المعدات، والمعايرة، وتتبع القياس'
+    },
+    course4outline8:{
+        en:'●	Sampling and testing/calibration methods',
+        ar:'●	أساليب العينات والاختبار/المعايرة'
+    },
+    course4outline9:{
+        en:'●	Handling of test and calibration items',
+        ar:'●	التعامل مع عناصر الاختبار والمعايرة'
+    },
+    course4outline10:{
+        en:'●	Ensuring the quality of test and calibration results',
+        ar:'●	ضمان جودة نتائج الاختبار والمعايرة'
+    },
+    course4outline11:{
+        en:'●	Reporting of results',
+        ar:'●	تقرير النتائج'
+    },
+    course4objctivesubtitle:{
+        en:'Upon completion of the course, participants should be able to:',
+        ar:'بعد الانتهاء من الدورة، يجب أن يكون المشاركون قادرين على:'
+    },
+    course4objctive1:{
+        en:'●	Understand the structure, scope, and application of ISO/IEC 17025:2017',
+        ar:'●	فهم هيكل ونطاق وتطبيق المواصفة ISO/IEC 17025:2017'
+    },
+    course4objctive2:{
+        en:'●	Discuss the main clauses of ISO/IEC 17025:2017',
+        ar:'●	مناقشة الفقرات الرئيسية للمواصفة ISO/IEC 17025:2017'
+    },
+    course4objctive3:{
+        en:'●	Understand the requirements of ISO/IEC 17025:2017',
+        ar:'●	فهم متطلبات المواصفة ISO/IEC 17025:2017'
+    },
+    course4objctive4:{
+        en:'●	Develop an implementation strategy for the laboratory accreditation process',
+        ar:'●	وضع استراتيجية تنفيذ لعملية الاعتماد المختبري'
+    },
+    course4objctive5:{
+        en:'●	Enhance the confidence of the market for the testing and calibration results',
+        ar:'●	تعزيز ثقة السوق في نتائج الاختبار والمعايرة'
+    },
+    course4audiancsubtitle:{
+        en:'This course is designed for individuals who:',
+        ar:'تم تصميم هذه الدورة للأفراد الذين:'
+    },
+    course4audiance2:{
+        en:'●	Manage laboratories',
+        ar:'●	يديرون المختبرات'
+    },
+    course4audiance3:{
+        en:'●	Participate in the operation of the laboratories quality systems',
+        ar:'●	يشاركون في تشغيل أنظمة جودة المختبرات'
+    },
+    course4audiance4:{
+        en:'●	Conduct tests or calibrations',
+        ar:'●	يجرون الاختبارات أو المعايرات'
+    },
+    course4audiance5:{
+        en:'●	Train laboratory staff',
+        ar:'●	يقومون بتدريب العاملين في المختبر'
+    },
+    course4audiance6:{
+        en:'●	Provide consultancy for laboratory accreditation',
+        ar:''
+    },
+    course4audiance7:{
+        en:'●	Are responsible for procurement and evaluation of laboratory services',
+        ar:''
+    },
+    course4audiance8:{
+        en:'●	Use calibration and test services',
+        ar:''
+    },
 
 
 
