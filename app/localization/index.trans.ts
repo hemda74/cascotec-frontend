@@ -131,6 +131,16 @@ const indexTrans: translataionContainer = {
         en:'Apply now',
         ar:'قدم الان'
     },
+    /////////////////////////////////// Recogention Section //////////////////////////////////////////////
+    Internationalrecognition:{
+        en:'International recognition',
+        ar:'الإعتراف الدولي'
+    },
+    InternationalrecognitionParagraph:{
+        en:'CASCO is distinguished by its technical expertise in the 17000 family standards, whether in qualification, training, or independent evaluation. Additionally, the company provides product management and branding systems through the iCASCO platform, which enables SASO, SFDA, and SABER trademark issuers to easily and efficiently manage conformity certification COC processes.',
+        ar:'تتميز شركة كاسكو بتخصصها التقني والفني في معايير الأسرة 17000، سواءً في التأهيل أو التدريب أو التقييم المستقل. كما تتميز الشركة بتقديم أنظمة إدارة المنتجات والعلامات التجارية من خلال منصة iCASCO، والتي تمكِّن الجهات المانحة لعلامات SASO وSFDA وSABER من إدارة عمليات منح شهادات المطابقة بسهولة وفعالية.'
+    },
+
     /////////////////////////////////// services section //////////////////////////////////////////////////
     servicesTitle:{
         en:'OUR SERVICES',
@@ -350,7 +360,7 @@ const indexTrans: translataionContainer = {
     },
     CoursesFooter:{
         en:'Courses',
-        ar:'الكورسات'
+        ar:'الدورات التدريبية'
     },
     DocumentsFooter:{
         en:'Documents',
@@ -904,12 +914,17 @@ const indexTrans: translataionContainer = {
         en:' > Our Clients',
         ar:' > عملائنا'    
     },
+////////////////////////////// Courses Section in Home Page /////////////////////////////////////////
+    cousesParageph:{
+        en:'CASCO is known for its provision of courses, seminars, and training programs through online technology to adapt to any situation and keep up with advancements in information technology. Furthermore, we also offer in-person classroom courses.',
+        ar:'تُعتبر CASCO معروفًة بتقديمها دورات وندوات وبرامج تدريبية من خلال التكنولوجيا الحديثة عبر الإنترنت لتكييفها مع أي ظرف ومتابعة التطورات في تقنية المعلومات. وعلاوة على ذلك، نقدم أيضًا دورات في الفصل الدراسي وجهًا لوجه.'
+    },
 ////////////////////////////// Courses Page /////////////////////////////////////////
+    
     COURSES:{
         en:'COURSES',
         ar:'الدورات التدريبية'
     },
-
     course1:{
         en:'Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018',
         ar:'متطلبات إدارة سلامة الغذاء وفقاً للمواصفة القياسية الدولية ISO 22000:2018'
@@ -999,6 +1014,10 @@ const indexTrans: translataionContainer = {
         en:'Course Outlines:',
         ar:'الخطوط العريضة للدورة:'
     },
+    CourseObjectives:{
+        en:'Course Objectives:',
+        ar:'أهداف الدورة:'
+    },
     Audience:{
         en:'Audience',
         ar:'الجمهور المستهدف:'
@@ -1006,6 +1025,198 @@ const indexTrans: translataionContainer = {
     course1Desc:{
         en:`This course is designed to provide an understanding of Food Safety Management Systems (FSMS) and their role in ensuring the safety and quality of food products. It covers the key principles of FSMS, including risk-based approaches, hazard analysis, control measures, and validation, surveillance and verification. The course also covers the broader context of food companies, including the expectations of interested parties, leadership, and performance and improvement.`,
         ar:`تم تصميم هذه الدورة لتوفير فهم لأنظمة إدارة سلامة الأغذية (FSMS) ودورها في ضمان سلامة وجودة المنتجات الغذائية. ويغطي المبادئ الرئيسية لنظام إدارة سلامة الأغذية ، بما في ذلك النهج القائمة على المخاطر ، وتحليل المخاطر ، وتدابير التحكم ، والمصادقة ، والمراقبة والتحقق. تغطي الدورة أيضًا السياق الأوسع لشركات الأغذية ، بما في ذلك توقعات الأطراف المعنية والقيادة والأداء والتحسين.`
+    },
+    course1outline1:{
+        en:'●	The site of FSMS in quality systems',
+        ar:'●	موقع نظم إدارة سلامة الأغذية في نظم الجودة'
+    },
+    course1outline2:{
+        en:'●	The concept of quality in food industries',     
+        ar:'●	مفهوم الجودة في صناعات الأغذية'
+    },
+    course1outline3:{
+        en:'●	The concept of PRPs, of HACCP and of FSMS',
+        ar:'●	مفهوم PRPs و HACCP و FSMS'
+    },
+    course1outline4:{
+        en:'●	Health Master Plan',
+        ar:'●	خطة الماستر للصحة'
+    },
+    course1outline5:{
+        en:'●	Guides to good hygiene practices',
+        ar:'●	دلائل لممارسات النظافة الجيدة'
+    },
+    course1outline6:{
+        en:'●	The family of ISO 22002 standards',
+        ar:'●	عائلة معايير ISO 22002'
+    },
+    course1outline7:{
+        en:'●	Risk-based approach',
+        ar:'●	النهج القائم على المخاطر'
+    },
+    course1outline8:{
+        en:'●	Preliminary steps to enable hazard analysis',
+        ar:'●	الخطوات الأولية لتمكين تحليل المخاطر'
+    },
+    course1outline9:{
+        en:'●	Hazard analysis',
+        ar:'●	تحليل المخاطر'
+    },
+    course1outline10:{
+        en:'●	Combinations of control measures',
+        ar:'●	مجموعات من تدابير السيطرة'
+    },
+    course1outline11:{
+        en:'●	Hazard control plan (CCPs/OPRPs)',
+        ar:'●	خطة السيطرة على المخاطر (CCPs / OPRPs)'
+    },
+    course1outline12:{
+        en:'●	Food Defense and Food Fraud',
+        ar:'●	الدفاع عن الأغذية والغش الغذائي'
+    },
+    course1outline13:{
+        en:'●	Context of Food Companies',
+        ar:'●	سياق شركات الأغذية'
+    },
+    course1outline14:{
+        en:'●	The needs and expectations of interested parties',
+        ar:'●	احتياجات وتوقعات الأطراف المعنية'
+    },
+    course1outline15:{
+        en:'●	Determining the scope of the food safety management system',
+        ar:'●	تحديد نطاق نظام إدارة سلامة الأغذية'
+    },
+    course1outline16:{
+        en:'●	Commitments',
+        ar:'●	مفهوم القيادة'
+    },
+    course1outline17:{
+        en:'●	Commitments',
+        ar:'●	التزامات'
+    },
+    course1outline18:{
+        en:'●	Organizational roles, responsibilities and authorities',
+        ar:'●	الأدوار والمسؤوليات والسلطات التنظيمية'
+    },
+    course1outline19:{
+        en:'●	Planning',
+        ar:'●	التخطيط'
+    },
+    course1outline20:{
+        en:'●	Risks and opportunities',
+        ar:'●	المخاطر والفرص'
+    },
+    course1outline21:{
+        en:'●	Objectives of the FSMS',
+        ar:'●	أهداف نظام إدارة سلامة الأغذية'
+    },
+    course1outline22:{
+        en:'●	Resources',
+        ar:'●	الموارد'
+    },
+    course1outline23:{
+        en:'●	Competence',
+        ar:'●	الكفاءة'
+    },
+    course1outline24:{
+        en:'●	Communication',
+        ar:'●	الاتصالات'
+    },
+    course1outline25:{
+        en:'●	Documented information',
+        ar:'●	المعلومات الموثقة'
+    },
+    course1outline26:{
+        en:'●	Operation',
+        ar:'●	التشغيل'
+    },
+    course1outline27:{
+        en:'●	Traceability system',
+        ar:'●	نظام التتبع'
+    },
+    course1outline28:{
+        en:'●	Emergency preparedness and response',
+        ar:'●	الاستعداد للطوارئ والاستجابة'
+    },
+    course1outline29:{
+        en:'●	Concept of validation, surveillance and verification (V/S/V)',
+        ar:'●	مفهوم التحقق والمراقبة والتحقق (V / S / V)'
+    },
+    course1outline30:{
+        en:'●	The contribution of the analysis laboratory',
+        ar:'●	مساهمة مختبر التحليل'
+    },
+    course1outline31:{
+        en:'●	Performance and improvement',
+        ar:'●	الأداء والتحسين'
+    },
+    course1outline32:{
+        en:'●	Monitoring and measurement',
+        ar:'●	الرصد والقياس'
+    },
+    course1outline33:{
+        en:'●	Internal audit',
+        ar:'●	التدقيق الداخلي'
+    },
+    course1outline34:{
+        en:'●	Management review',
+        ar:'●	استعراض الإدارة'
+    },
+    course1outline35:{
+        en:'●	Nonconformity, corrective action and update of the FSMS',
+        ar:'●	العدم المطابقة والتصحيح وتحديث نظام إدارة سلامة الأغذية.'
+    },
+    course1objctive1:{
+        en:'●	Understand the key principles of FSMS and their role in ensuring the safety and quality of food products',
+        ar:'●	فهم المبادئ الرئيسية لنظم إدارة سلامة الأغذية ودورها في ضمان سلامة وجودة المنتجات الغذائية'
+    },
+    course1objctive2:{
+        en:'●	Learn the risk-based approach to hazard analysis and control measures',
+        ar:'●	تعلم النهج القائم على المخاطر في تحليل المخاطر وتدابير السيطرة'
+    },
+    course1objctive3:{
+        en:'●	Understand the concept of leadership and its role in implementing effective FSMS',
+        ar:'●	فهم مفهوم القيادة ودورها في تنفيذ نظام إدارة سلامة الأغذية فعال'
+    },
+    course1objctive4:{
+        en:'●	Develop skills in planning, communication, and documented information',
+        ar:'●	تنمية مهارات التخطيط والاتصال والمعلومات الموثقة'
+    },
+    course1objctive5:{
+        en:'●	Learn how to implement and maintain a FSMS and conduct internal audits',
+        ar:'●	تعلم كيفية تنفيذ وصيانة نظام إدارة سلامة الأغذية وإجراء التدقيقات الداخلية'
+    },
+    course1objctive6:{
+        en:'●	Understand the contribution of analytical laboratories in food safety',
+        ar:'●	فهم مساهمة مختبرات التحليل في سلامة الأغذية'
+    },
+    course1objctive7:{
+        en:'●	Understand how to monitor and measure FSMS performance and implement improvements',
+        ar:'●	فهم كيفية رصد وقياس أداء نظام إدارة سلامة الأغذية وتنفيذ التحسينات'
+    },
+    course1audiance2:{
+        en:'●	Auditors and employees of certification bodies',
+        ar:'●	المدققين وموظفي جهات الشهادة',
+    },
+    course1audiance3:{
+        en:'●	Assessors of accreditation bodies',
+        ar:'●	المقيّمون في جهات الاعتماد'
+    },
+    course1audiance4:{
+        en:'●	Food safety experts',
+        ar:'●	خبراء سلامة الأغذية'
+    },
+    course1audiance5:{
+        en:'●	Food safety managers and their teams',
+        ar:'●	مديرو فرق سلامة الأغذية وفرقهم'
+    },
+    course1audiance6:{
+        en:'●	Food laboratory managers and technicians',
+        ar:'●	مديرو مختبرات الأغذية والفنيين'
+    },
+    course1audiance7:{
+        en:'●	Consultants and researchers involved in food safety.',
+        ar:'●	المستشارين والباحثين المشتركين في سلامة الأغذية.'
     },
 
 
