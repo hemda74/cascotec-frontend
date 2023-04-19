@@ -1,5 +1,5 @@
 .sectionCoursesHead{
-    margin-top: 2rem;
+    margin: 0rem;
     padding:0.7777777778rem 0;
     background: #f9f9f9;
   }
@@ -12,12 +12,12 @@
     font-weight: 600;
     color: #666d78;
     line-height: 1.8333333333rem;
+    margin-top: 1rem;
   }
 .postBox {
     transition: 0.3s;
     height: 95%;
     max-width: 35rem;
-     /* margin: 1rem;  */
     overflow: hidden;
     position: relative;
     cursor: pointer;
