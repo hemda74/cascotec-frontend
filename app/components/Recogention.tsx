@@ -10,9 +10,9 @@ const Recogention = () => {
                         <div className="">
                             <div className="">
                                 <div className={`${styles.cardRecognition} `}>
-                        <span className='fs-4 fw-bold'>International recognition</span>
-                        <p className='text-black-50'>The GCC was distinguished by providing courses, seminars, and training programs via online technology in line with the circumstances that may arise, and in keeping with the progress and development of information technology. In addition, we offer offline courses. </p>
-                        <div  className={`${styles.listImages}`}>
+                        <span className='fs-4 fw-bold' data-trans="Internationalrecognition">International recognition</span>
+                        <p className=' text-black-50 fw-semibold' data-trans="InternationalrecognitionParagraph">{`CASCO is distinguished by its technical expertise in the 17000 family standards, whether in qualification, training, or independent evaluation. Additionally, the company provides product management and branding systems through the iCASCO platform, which enables SASO, SFDA, and SABER trademark issuers to easily and efficiently manage conformity certification COC processes.`}</p>
+                        {/* <div  className={`${styles.listImages}`}>
                              <div  className={`${styles.itemImages}`}>
                                 <img src="https://gac.org.sa/wp-content/uploads/2022/05/ILAC.png" alt="" />
                             </div> 
@@ -28,7 +28,7 @@ const Recogention = () => {
                             <div  className={`${styles.itemImages}`}>
                                 <img src="https://gac.org.sa/wp-content/uploads/2022/05/APAC_logo.png" alt="" />
                             </div>  
-                        </div>
+                        </div> */}
                                 </div>
                             </div>  
                         </div>
