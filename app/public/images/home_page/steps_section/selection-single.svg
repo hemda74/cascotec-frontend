@@ -1,4 +1,1 @@
-<svg id="selection-single" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
-  <path id="selection-single-2" data-name="selection-single" d="M16.7,7.175a.836.836,0,0,0-1.212,0L9.129,13.743,6.457,10.978A.854.854,0,0,0,5.223,11a.92.92,0,0,0,.021,1.272l3.279,3.381a.836.836,0,0,0,1.212,0L16.7,8.469a.9.9,0,0,0,0-1.294Z" transform="translate(-4.978 -5.414)" fill="#be1f24"/>
-  <rect id="container" width="12" height="12" fill="none"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.cls-1{fill:#3b97cb;}</style></defs><title>TICK</title><path class="cls-1" d="M4.54,31.7l17.8,25.65c10.82-18,21.8-36,37.38-50.9-1.55,0-2.93.07-4.32,0a4.59,4.59,0,0,0-3.06,1,134.64,134.64,0,0,0-24.8,23.49c-1.82,2.17-3.56,4.41-5.38,6.68L8.48,27.78Z"/><path class="cls-1" d="M4.54,31.7l3.94-3.92,13.68,9.79c1.82-2.27,3.56-4.51,5.38-6.68A134.64,134.64,0,0,1,52.34,7.4a4.59,4.59,0,0,1,3.06-1c1.39.09,2.77,0,4.32,0C44.14,21.3,33.16,39.31,22.34,57.35Z"/></svg>

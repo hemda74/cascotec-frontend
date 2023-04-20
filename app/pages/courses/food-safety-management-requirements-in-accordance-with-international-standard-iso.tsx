@@ -222,6 +222,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                         </li>
                     </ul>
                 </div>
+                
             </div>
         </div>
     </div>   

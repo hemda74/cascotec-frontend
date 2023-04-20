@@ -11,29 +11,29 @@ function SendLinkByMail(a) {
       , t = $("#floatingEmailInput").val()
       , e = $("#emailBodyTextarea").val();
     if ("" == n && "" == t && "" == e)
-        $("#contactNameWarning").html('<i class="fas fa-info-circle"></i> <span data-trans="contactNameWarning">Please enter your name.</span>'),
-        $("#contactEmailAddressWarning").html('<i class="fas fa-info-circle"></i> <span data-trans="contactEmailWarning">Please enter a valid email address.</span>'),
-        $("#contactEmailBodyWarning").html('<i class="fas fa-info-circle"></i> <span data-trans="contactMessageWarning">Please enter your message.</span>'),
+        $("#contactNameWarning").html('<i class="fas fa-info-circle"></i> <span >Please enter your name.</span>'),
+        $("#contactEmailAddressWarning").html('<i class="fas fa-info-circle"></i> <span >Please enter a valid email address.</span>'),
+        $("#contactEmailBodyWarning").html('<i class="fas fa-info-circle"></i> <span >Please enter your message.</span>'),
         translate("#contactNameWarning", indexTrans),
         translate("#contactEmailAddressWarning", indexTrans),
         translate("#contactEmailBodyWarning", indexTrans);
     else if ("" != t && validateEmail(t))
         if ("" == n)
-            $("#contactNameWarning").html('<i class="fas fa-info-circle"></i> <span data-trans="contactNameWarning">Please enter your name.</span>'),
+            $("#contactNameWarning").html('<i class="fas fa-info-circle"></i> <span >Please enter your name.</span>'),
             translate("#contactNameWarning", indexTrans);
         else if ("" == e)
-            $("#contactEmailBodyWarning").html('<i class="fas fa-info-circle"></i> <span data-trans="contactMessageWarning">Please enter your message.</span>'),
+            $("#contactEmailBodyWarning").html('<i class="fas fa-info-circle"></i> <span ">Please enter your message.</span>'),
             translate("#contactEmailBodyWarning", indexTrans);
         else {
             var l = "Hello, this is " + n + ", " + e + ", My email is " + t
-              , s = "mailto:Info@cascotec.com?subject=";
+              , s = "mailto:Mohamed@cascotec.com?subject=Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018";
             s += encodeURIComponent("Contact From " + n),
             s += "&body=",
             s += encodeURIComponent(l),
             window.open(s)
         }
     else
-        $("#contactEmailAddressWarning").html('<i class="fas fa-info-circle"></i> <span data-trans="contactEmailWarning">Please enter a valid email address.</span>'),
+        $("#contactEmailAddressWarning").html('<i class="fas fa-info-circle"></i> <span >Please enter a valid email address.</span>'),
         translate("#contactEmailAddressWarning", indexTrans)
 }
 $(document).ready(function() {
