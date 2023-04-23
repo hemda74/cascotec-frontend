@@ -920,9 +920,16 @@ const indexTrans: translataionContainer = {
         ar:'تُعتبر CASCO معروفًة بتقديمها دورات وندوات وبرامج تدريبية من خلال التكنولوجيا الحديثة عبر الإنترنت لتكييفها مع أي ظرف ومتابعة التطورات في تقنية المعلومات. وعلاوة على ذلك، نقدم أيضًا دورات في الفصل الدراسي وجهًا لوجه.'
     },
 ////////////////////////////// Courses Page /////////////////////////////////////////
-    
+    CourseNav2:{
+        en:' > Courses',
+        ar:' > الدورات التدريبية'
+    },
     COURSES:{
         en:'COURSES',
+        ar:'الدورات التدريبية'
+    },
+    Courses:{
+        en:'Courses',
         ar:'الدورات التدريبية'
     },
     Findyourperfectprogram:{
@@ -944,6 +951,58 @@ const indexTrans: translataionContainer = {
     course4:{
         en:'Understanding ISO/IEC 17025:2017 for Testing and Calibration Laboratories',
         ar:'فهم المواصفة ISO/IEC 17025:2017 للمختبرات الخاصة بالاختبار والمعايرة'
+    },
+    course5:{
+        en:`General Requirements For Halal Food In Accordance With Gulf Standard Specification GSO 2055-1 And Animal Zakat Requirements In Accordance With Islamic Sharia GSO 993`,
+        ar:'المتطلبات العامة للأغذية الحلال وفقًا لمواصفات المواصفة الخليجية GSO 2055-1 ومتطلبات زكاة الحيوانات وفقًا للشريعة الإسلامية GSO 993'
+    },
+    course6:{
+        en:'Guidelines For Auditing Management Systems According To ISO19011:2018 based on Halal Scheme',
+        ar:'دليل لتدقيق أنظمة الإدارة وفقًا لمعيار ISO 19011:2018 المستندة إلى النظام الحلال'
+    },
+    course7:{
+        en:'Accreditation Requirements For Inspection Bodies In Accordance With International StandardISO/IEC 17020:2012',
+        ar:'متطلبات الاعتماد لجهات التفتيش وفقًا للمعيار الدولي ISO/IEC 17020:2012'
+    },
+    course8:{
+        en:'Accreditation Requirements For Bodies Certifying Halal In Accordance With GSO 2055-2',
+        ar:'متطلبات الاعتماد لهيئات الشهادة الحلال وفقًا للمواصفة الدولية GSO 2055-2'
+    },
+    course9:{
+        en:'Requirements For Accreditation Of Medical Laboratories According To ISO 15189: 2012',
+        ar:'متطلبات اعتماد المختبرات الطبية وفقًا لمعيار ISO 15189: 2012'
+    },
+    course10:{
+        en:'Accreditation Requirements For Testing And Calibration Laboratories According To ISO/IEC 17025:2017 And Guidelines For Auditing Management Systems Internal Auditor - ISO 19011: 2018',
+        ar:'متطلبات الاعتماد لمختبرات الاختبار والمعايرة وفقًا لمعيار ISO/IEC 17025:2017 وإرشادات لمراجعة أنظمة الإدارة المراجع الداخلي - ISO 19011: 2018'
+    },
+    course11:{
+        en:'Measurement Uncertainty and ISO/IEC 17025:2017 Compliance for Laboratories',
+        ar:'عدم اليقين في القياس وامتثال ISO/IEC 17025:2017 للمختبرات'
+    },
+    course12:{
+        en:'ISO/IEC 17024 Requirements for Personnel Certification Bodies',
+        ar:'متطلبات ISO / IEC 17024 لهيئات تدقيق وشهادة الأفراد'
+    },
+    course13:{
+        en:'Requirements For Accreditation of Medical Laboratories According To ISO 15189:2012',
+        ar:'متطلبات الاعتماد للمختبرات الطبية وفقًا لمواصفة ISO 15189: 2012'
+    },
+    course14:{
+        en:'Requirements For Accreditation Of Risk Management Systems Certification Bodies-Guidelines ISO 31000:2018',
+        ar:'متطلبات الاعتماد لجهات تصديق أنظمة إدارة المخاطر - دليل ISO 31000:2018'
+    },
+    course15:{
+        en:'Food Safety Management Requirements in Accordance with International Standard ISO 22000:2018',
+        ar:'متطلبات إدارة سلامة الغذاء وفقًا للمعيار الدولي ISO 22000: 2018'
+    },
+    course16:{
+        en:'Global Standard for Food Safety Issue 9: Sites Training',
+        ar:'تدريب المواقع  Global Standard for Food Safety Issue 9'
+    },
+    course17:{
+        en:'Global Standard for Food Safety Issue 9: Lead Auditor',
+        ar:'المعيار العالمي لسلامة الأغذية الإصدار 9: المدقق الرائد'
     },
     coursedate1jun:{
         en:'01-Jun-2023',
@@ -987,12 +1046,16 @@ const indexTrans: translataionContainer = {
         ar:'مدة الدورة'
     },
     Days2:{
-        en:'2 Days',
-        ar:'يومان'
+        en:'The course duration is 2 days.',
+        ar:'تستغرق الدورة يومين.'
     },
     Days3:{
-        en:'3 Days',
-        ar:'3 ايام'
+        en:'The course duration is 3 days.',
+        ar:'تستغرق الدورة ثلاثة ايام.'
+    },
+    Days16hour:{
+        en:'The course duration is 2 days (16 hours) of interactive training sessions, including group discussions, case studies, and practical exercises.',
+        ar:'مدة الدورة هي يومين (16 ساعة) من جلسات التدريب التفاعلية، بما في ذلك المناقشات الجماعية ودراسات الحالة والتمارين العملية.'
     },
     Venue:{
         en:'Venue',
@@ -1591,7 +1654,19 @@ const indexTrans: translataionContainer = {
 
 
 
-
+// course subscr form
+    Name:{
+        en:'Name',
+        ar:'الاسم'
+    },
+    Email:{
+        en:'Email',
+        ar:'البريد الالكتروني'
+    },
+    Phone:{
+        en:'Phone',
+        ar:'الهاتف'
+    },
 
     // Login page
     welcomeBack: {

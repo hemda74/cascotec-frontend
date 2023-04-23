@@ -126,13 +126,13 @@ const ContactUs = () => {
         <div className={` container ${styles.formConatiner}`}>
             <div className="row gy-5 gx-lg-5">
                 <div className={`col-lg-12 ${styles.contactCard}`}>
-                    <form action="" method="post" role="form" className={`${styles.phpEmailForm}`}>
+                    <form action="" method="post" role="form" >
                         <div className="row">
                           <p data-trans="pleasefillform">Please fill out the form below, and one of our representatives will contact you within 24 hours.</p>
                           <div className={`col-md-6 form-group mt-4 ${styles.formGroup}`}>
                               <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Your Name" required/>
                           </div>
-                          <div className={`col-md-6 form-group mt-4  ${styles.formGroup}`}>
+                          <div className={`col-md-6 form-group mt-4 ${styles.formGroup}`}>
                               <input type="email" className={`form-control ${styles.formControl}`} name="email" id="email" placeholder="Your Email" required/>
                           </div>
                           <div className={`col-md-6 form-group mt-4 ${styles.formGroup}`}>

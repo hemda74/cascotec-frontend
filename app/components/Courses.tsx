@@ -10,39 +10,38 @@ import {FaMapMarkerAlt} from 'react-icons/fa'
 import Example from './Example'
 const Courses = () => {
     return (
-        <>
-         <div className={`text-center ${styles.titleWord}`}>
-         <div className={`container mb-4`}>
-                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
-                    <Link href={"/courses"}><a className="text-white fw-semibold mb-4">{` > Courses`}</a></Link>
-                </div>
-            <h2 className={`text-white fw-bold mb-5`} >Courses</h2>
+    <>
+        <div className={`text-center ${styles.titleWord}`}>
+            <div className={`container mb-4`}>
+                <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
+                <Link href={"/courses"}><a className="text-white fw-semibold mb-4" data-trans="CourseNav2">{` > Courses`}</a></Link>
+            </div>  
+        <h2 className={`text-white fw-bold mb-5`} data-trans="Courses"></h2>
         </div>
         <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
             <div className="row ">
-               <div className={`col-lg-12  justify-content-between ${styles.coursesCard}`}>
+               <div className={`col-lg-12 justify-content-between ${styles.coursesCard}`}>
                     <div className={`${styles.cardImage}`}>
-                        <Image src={courses} width={1200} height={1200}  alt=""/>
+                        <Image src={courses} width={1200} height={1200} alt="courses_image"/>
                     </div>
                     <div className={`${styles.coursesHead}`}>
-                        <span className={` ms-auto fs-4 fw-semibold mb-3 ${styles.cardSubTitle}`}  data-trans="COURSES">COURSES</span> 
+                        <span className={`ms-auto fs-4 fw-semibold mb-3 ${styles.cardSubTitle}`} data-trans="COURSES">COURSES</span> 
                         <span className="fw-semibold d-block mt-3" data-trans="cousesParageph">{``}</span>
                     </div>
                </div>
             </div>
         </div>
-        {/* <div className={` container col-xl-8 col-lg-10 col-md-12  ${styles.formConatiner}`}>
+         {/* <div className={` container col-xl-8 col-lg-10 col-md-12  ${styles.formConatiner}`}>
         <span className={`me-3 ms-3`} >25  Upcoming Course </span>
         <div className="row gy-5 gx-lg-5">
-          <div className={`col-lg-12 m-0 `}>
-            <form action="forms/contact.php" method="post" role="form" className={` php-email-form ${styles.searchCard}`}>
-               
+          <div className={`col-lg-12 m-0`}>
+            <form action="forms/contact.php" method="post" role="form" className={`php-email-form ${styles.searchCard}`}>
               <div className="row">
                 <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-6 mt-3 form-group  ${styles.formGroup}`}>
                   <input type="text" name="name" className={`form-control ${styles.formControl}`} id="name" placeholder="Search..." required/>
                 </div>
-                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-12 form-group mt-3  ${styles.formGroup}`}>
-                  <div  className={` ${styles.formControl}`}   >
+                <div className={`col-md-4 col-lg-4 col-sm-6 col-xs-12 form-group mt-3 ${styles.formGroup}`}>
+                  <div  className={`${styles.formControl}`}>
                    <Example/>
                    </div>
                   </div>
@@ -56,21 +55,21 @@ const Courses = () => {
                   <div className={`form-group d-flex justify-content-between mt-4 ${styles.formGroup}`}>
                     <div className='col-md-4 col-lg-4 col-sm-6 col-xs-6'>
                     </div>
-                    <div><button className={` myInfo  rounded ${styles.SearchButton}`} type="submit"> Search </button></div>
+                    <div><button className={`myInfo rounded ${styles.SearchButton}`} type="submit"> Search </button></div>
                   </div>
                   </div>
             </form>
           </div>
         </div>
-        </div> */}
-        <div className={`container col-xl-8 col-lg-10 col-md-12 ${styles.coursesConainer} ` }>
+        </div>  */}
+        <div className={`container col-xl-8 col-lg-10 col-md-12 ${styles.coursesConainer}`}>
             <div className="row">
                 <div className="col-lg-4 col-md-6 p-1">
                     <Link href={'/courses/food-safety-management-requirements-in-accordance-with-international-standard-iso'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={`mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` mt-5 ${styles.postTitle}`} data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</span>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</span>
                         </figure>                        
                         <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
@@ -135,102 +134,231 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
-                    <Link href={'/courses/1'}>
+                <div className="col-lg-4 col-md-6 p-1">
+                    <Link href={'/courses/General-Requirements-For-Halal-Food-In-Accordance-With-Gulf-Standard-Specification-GSO-2055-1-And-Animal-Zakat-Requirements-In-Accordance-With-Islamic-Sharia-GSO-993'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` mt-5 ${styles.postTitle}`}> </span>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course5"></span>
                         </figure>
                         <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
-                            <small className='text-black me-1 ms-1 mt-1'>01-Jun-2023</small>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
-                            <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="KSA"></small>
                         </span>
                     </div>
                     </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 p-1" >
-                    <Link href={'/courses/1'}>
+                    <Link href={'/courses/guidelines-for-auditing-management-systems-according'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>
-                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` mt-5 ${styles.postTitle}`}> </span>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course6"> </span>
                         
                         </figure>
                         <span className={`${styles.iconDate}`}>
                             <CgCalendarDates size={20}/>
-                            <small className='text-black me-1 ms-1 mt-1'>01-Jun-2023</small>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}>
                             <FaMapMarkerAlt size={20} className='mb-1'/>
-                            <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="KSA"></small>
                         </span>
                     </div>
                     </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 p-1" >
-                    <Link href={'/courses/1'}>
+                    <Link href={'/courses/Accreditation-Requirements-or-Inspection-Bodies-In-Accordance-With-International-StandardISO'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` mt-5 ${styles.postTitle}`}> </span>
-                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
-                            <small className='text-black me-1 ms-1 mt-1'>01-Jun-2023</small>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course7"></span>
+                        </figure>                        
+                        <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
-                            <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="Egypt"></small>
                         </span>
                     </div>
                     </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 p-1" >
-                    <Link href={'/courses/1'}>
+                    <Link href={'/courses/Accreditation-Requirements-For-Bodies-Certifying-Halal-In-Accordance-With-GSO-2055-2'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
                         <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` mt-5 ${styles.postTitle}`}> </span>
-                        </figure>                        <span className={`${styles.iconDate}`}>
+                        <span className={` mt-5 ${styles.postTitle}`} data-trans="course8"></span>
+                        </figure>                        
+                        <span className={`${styles.iconDate}`}>
                             <CgCalendarDates size={20}/>
-                            <small className='text-black me-1 ms-1 mt-1'>01-Jun-2023</small>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}>
                             <FaMapMarkerAlt size={20} className='mb-1'/>
-                            <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="UAE"></small>
                         </span>
                     </div>
                     </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 p-1" >
-                    <Link href={'/courses/1'}>
+                    <Link href={'/courses/Requirements-For-Accreditation-Of-Medical-Laboratories-According-To-ISO'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` mt-5 ${styles.postTitle}`}> </span>
-                        </figure>                        <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
-                            <small className='text-black me-1 ms-1 mt-1'>01-Jun-2023</small>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course9"></span>
+                        </figure>                       
+                         <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
-                            <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="KSA"></small>
                         </span>
                     </div>
                     </Link>
                 </div>
                 <div className="col-lg-4 col-md-6 p-1" >
-                    <Link href={'/courses/1'}>
+                    <Link href={'/courses/Accreditation-Requirements-For-Testing-And-Calibration-Laboratories-According'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={` pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
-                        <span className={` mt-5 ${styles.postTitle}`}> </span>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course10"></span>
                         </figure>           
-                                     <span className={`${styles.iconDate}`}>
+                        <span className={`${styles.iconDate}`}>
                             <CgCalendarDates size={20}/>
-                            <small className='text-black me-1 ms-1 mt-1'>01-Jun-2023</small>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
                         </span>
                         <span className={`${styles.iconDate}`}>
                             <FaMapMarkerAlt size={20} className='mb-1'/>
-                            <small className='text-black me-1 ms-1 pt-3'>Dubai</small>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="KSA"></small>
+                        </span>
+                    </div>
+                    </Link>
+                </div>
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/Measurement-Uncertainty-and-ISO-IEC-Compliance-for-labs'}>
+                    <div className={`${styles.postBox}`}>
+                        <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course11"></span>
+                        </figure>           
+                        <span className={`${styles.iconDate}`}>
+                            <CgCalendarDates size={20}/>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
+                        </span>
+                        <span className={`${styles.iconDate}`}>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="Egypt"></small>
+                        </span>
+                    </div>
+                    </Link>
+                </div>
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/ISO-IEC-17024-Requirements-for-Personnel-Certification-Bodies'}>
+                    <div className={`${styles.postBox}`}>
+                        <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course12"></span>
+                        </figure>           
+                        <span className={`${styles.iconDate}`}>
+                            <CgCalendarDates size={20}/>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
+                        </span>
+                        <span className={`${styles.iconDate}`}>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="UAE"></small>
+                        </span>
+                    </div>
+                    </Link>
+                </div>
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/Requirements-of-Accreditation-of-Medical-Laboratories-According-To-ISO'}>
+                    <div className={`${styles.postBox}`}>
+                        <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course13"></span>
+                        </figure>           
+                        <span className={`${styles.iconDate}`}>
+                            <CgCalendarDates size={20}/>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
+                        </span>
+                        <span className={`${styles.iconDate}`}>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="Egypt"></small>
+                        </span>
+                    </div>
+                    </Link>
+                </div>
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/Requirements-For-Accreditation-Of-Risk-Management-Systems-Certification-Bodies-Guidelines'}>
+                    <div className={`${styles.postBox}`}>
+                        <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course14"></span>
+                        </figure>           
+                        <span className={`${styles.iconDate}`}>
+                            <CgCalendarDates size={20}/>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
+                        </span>
+                        <span className={`${styles.iconDate}`}>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="KSA"></small>
+                        </span>
+                    </div>
+                    </Link>
+                </div>
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/Food-Safety-Management-Requirements-in-Accordance-with-International-Standard'}>
+                    <div className={`${styles.postBox}`}>
+                        <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course15"></span>
+                        </figure>           
+                        <span className={`${styles.iconDate}`}>
+                            <CgCalendarDates size={20}/>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
+                        </span>
+                        <span className={`${styles.iconDate}`}>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="KSA"></small>
+                        </span>
+                    </div>
+                    </Link>
+                </div>
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/Global-Standard-for-Food-Safety-Issue-9-Sites-Training'}>
+                    <div className={`${styles.postBox}`}>
+                        <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course16"></span>
+                        </figure>           
+                        <span className={`${styles.iconDate}`}>
+                            <CgCalendarDates size={20}/>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
+                        </span>
+                        <span className={`${styles.iconDate}`}>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="Egypt"></small>
+                        </span>
+                    </div>
+                    </Link>
+                </div>
+                <div className="col-lg-4 col-md-6 p-1" >
+                    <Link href={'/courses/Global-Standard-for-Food-Safety-Issue-9-Lead-Auditor'}>
+                    <div className={`${styles.postBox}`}>
+                        <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
+                        <figure className={`pe-1 ps-2 mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course17"> </span>
+                        </figure>           
+                        <span className={`${styles.iconDate}`}>
+                            <CgCalendarDates size={20}/>
+                            <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
+                        </span>
+                        <span className={`${styles.iconDate}`}>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
+                            <small className='text-black me-1 ms-1 pt-3' data-trans="UAE"></small>
                         </span>
                     </div>
                     </Link>

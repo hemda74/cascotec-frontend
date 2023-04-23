@@ -19,7 +19,7 @@ const CoursesSectionHomePage = () => {
                                     <div className="section_services_head pb-sm-5">
                                         <span className={`fw-bold fs-4 mt-2 ${styles.spanFeature}`} data-trans="COURSES">{`COURSES`}</span>
                                         <p className={`${styles.cousesParageph}`} data-trans="cousesParageph">{`CASCO is known for its provision of courses, seminars, and training programs through online technology to adapt to any situation and keep up with advancements in information technology. Furthermore, we also offer in-person classroom courses.`}</p>
-                                        <img src="/images/home_page/section_courses/section_courses.png" className="img_blog" alt="course_image" />
+                                        <img src="/images/home_page/section_courses/section_courses.svg" className="img_blog" alt="course_image"/>
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-8 col-md-12">

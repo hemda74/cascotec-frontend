@@ -50,12 +50,12 @@ const Course:NextPageWithLayout = (props:Props) => {
     <Head>
         <title>Course Details | CASCO</title>
     </Head>
-    
+    <main className={`${styles.bodyContainer}`}>
     <div className={`text-center row ${styles.titleWord}`}>
-    <div className={`container mb-4`}>
-                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
-                    <Link href={"/courses"}><a className="text-white fw-semibold mb-4">{` > Courses`}</a></Link>
-                </div>
+        <div className={`container mb-4`}>
+            <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
+            <Link href={"/courses"}><a className="text-white fw-semibold mb-4" data-trans="CourseNav2">{` > Courses`}</a></Link>
+        </div>
         <h3 className={`text-white col-lg-5 m-auto fw-bold mb-5`}data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</h3>
         <div className={''}>
             {partyTime ? 
@@ -195,6 +195,7 @@ const Course:NextPageWithLayout = (props:Props) => {
             </div>
         </div>
     </div>   
+    </main>
   </>
   )
 }

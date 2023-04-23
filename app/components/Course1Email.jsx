@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import styles from '../styles/ContactUs.module.css'
  const ContactUs = () => {
   const form = useRef();
 
@@ -16,14 +16,22 @@ import emailjs from '@emailjs/browser';
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
+    <form ref={form} className={` p-4 ${styles.contactCard}`} onSubmit={sendEmail}>
+       <p data-trans="pleasefillform">Please fill out the form below, and one of our representatives will contact you within 24 hours.</p>
+    <div className={`${styles.formGroup}`}>
+      <label data-trans="Name">Name</label>
+      <input className={`form-control  ${styles.formControl}`} type="text" name="user_name" required/>
+      </div>
+      <div className={`${styles.formGroup}`}>
+      <label data-trans="Email">Email</label>
+      <input className={`form-control ${styles.formControl}`} type="email" name="user_email" required/>
+      </div>
+      <div className={`${styles.formGroup}`}>
+      <label data-trans="Phone">Phone</label>
+      <input className={` form-control ${styles.formControl}`} type='text' name="message" />
+      </div>
+      <button className={`myInfo p-2 rounded fs-6 ${styles.btnClass}`} type="submit" value="Send" data-trans="sendmessage"></button>
+      
     </form>
   );
 };
