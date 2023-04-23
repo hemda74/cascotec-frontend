@@ -75,10 +75,10 @@ const Login: NextPage = () => {
     <ApplyAcc/> 
     <CoursesSectionHomePage/>
     <Recogention/> 
+    <AssessorOrCAB/>
     <AccreditedBodiesCompaines/>  
-    {/* <AccreditedBodiesCompainesRtl/> */}
-    <AssessorOrCAB/> 
-    <NewsHomePage/> 
+    {/* <AccreditedBodiesCompainesRtl/> */} 
+    {/* <NewsHomePage/>  */}
     <Footer/>
    </main>
    </>

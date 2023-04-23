@@ -7,7 +7,6 @@ import coursesimage2 from '../public/imagess/coursesimage2.png'
 import courses from '../public/images/home_page/section_courses/section_courses.svg'
 import {CgCalendarDates} from 'react-icons/cg'
 import {FaMapMarkerAlt} from 'react-icons/fa'
-import Example from './Example'
 const Courses = () => {
     return (
     <>
@@ -21,12 +20,12 @@ const Courses = () => {
         <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
             <div className="row ">
                <div className={`col-lg-12 justify-content-between ${styles.coursesCard}`}>
+                    <div className={`${styles.coursesHead}`}>
+                        <span className={`fs-4 fw-semibold mb-3 ${styles.cardSubTitle}`} data-trans="COURSES">COURSES</span> 
+                        <span className="fw-semibold d-block mt-3" data-trans="cousesParageph">{``}</span>
+                    </div>
                     <div className={`${styles.cardImage}`}>
                         <Image src={courses} width={1200} height={1200} alt="courses_image"/>
-                    </div>
-                    <div className={`${styles.coursesHead}`}>
-                        <span className={`ms-auto fs-4 fw-semibold mb-3 ${styles.cardSubTitle}`} data-trans="COURSES">COURSES</span> 
-                        <span className="fw-semibold d-block mt-3" data-trans="cousesParageph">{``}</span>
                     </div>
                </div>
             </div>

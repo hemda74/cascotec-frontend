@@ -50,7 +50,7 @@ export default class SwipeToSlide extends Component {
     };
     return (
       <div className={`${styles.mainDiv}`}>
-        <div className="fs-3 text-center fw-bold mb-4"><span className={`${styles.spanNumber}`}>Our Previous Clients</span></div>
+        <div className="fs-2 text-center fw-bold mb-4"><span className={`${styles.spanNumber}`}>Our Previous Clients</span></div>
         <Slider {...settings}>
         <div className={`${styles.bigDiv}`}>
               <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image1.png" alt=" " />

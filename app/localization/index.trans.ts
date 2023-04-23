@@ -333,6 +333,18 @@ const indexTrans: translataionContainer = {
         en:'APPLY NOW',
         ar:'تقدم الان'
     },
+    AssessororCAB:{
+        en:'Assessor or CAB?',
+        ar:'مقيم أو جهة تقييم مطابقة؟'
+    },
+    APPLYASASSESSOR:{
+        en:'APPLY AS ASSESSOR',
+        ar:'التقدم ك مقيم'
+    },
+    APPLYASCAB:{
+        en:'APPLY AS CAB',
+        ar:'التقدم للاعتماد'
+    },
 // footer 
     aboutCascoFooter:{
         en:'Trust in the Conformity Assessment Bodies',
