@@ -8,18 +8,18 @@ const About = () => {
   return (
     <>
         <div className={`text-center ${styles.titleWord}`}>
-            <div className={`container `}>
+            <div className={`container`}>
                 <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="homepageurl">{`Home`}</a></Link>
                 <Link href={"/about"}><a className="text-white fw-semibold mb-4" data-trans="aboutpageurl">{` > About CASCO`}</a></Link>
             </div>
-            <h2 className={`text-white fw-bold mb-5 mt-4 `} data-trans="AboutUsTitle">About Us</h2>
+            <h2 className={`text-white fw-bold mb-5 mt-4`} data-trans="AboutUsTitle">About Us</h2>
         </div>
         {/* Objective Section */}
         <div className={`row m-auto container p-0 `} >
             <div className={`d-flex justify-content-around align-items-center`}>
                 <div className={` d-flex ${styles.objectiveCard2}`} >
                     <div className={`col-lg-6 p-0  `}>
-                        <Image src={card_objective} className={`${styles.objImage} `} alt="" />
+                        <Image src={card_objective} className={`${styles.objImage}`} alt="" />
                     </div>
                     <div className={`col-lg-6 p-5 d-flex flex-column justify-content-center align-items-start`}>
                         <h4 className="fw-bold" data-trans='Ourobjective'>Our Objective</h4> 
@@ -29,7 +29,7 @@ const About = () => {
             </div>
         </div>
         {/* vision and mission  */}
-        <div className={`row m-auto container pe-lg-5 ps-lg-5 pt-3 `} >
+        <div className={`row m-auto container pe-lg-5 ps-lg-5 pt-3`} >
             <div className={`d-flex justify-content-around align-items-center`}>
                 <div className="row">
                     <div className={`card-body col-xl-4 col-lg-4 col-md-6 col-sm-12 ${styles.visionCard}`}>
@@ -95,7 +95,7 @@ const About = () => {
         </div>
     </section>
     <section className={`${styles.sectionEstablishment}`}>
-        <div className={`row m-auto container col-lg-9 pe-lg-5 ps-lg-5  `} >
+        <div className={`row m-auto container col-lg-9 pe-lg-5 ps-lg-5`} >
             <div className="col-sm-12">
                 <div className="row">
                     <div className="wpb_column vc_column_container col-sm-12">
@@ -150,15 +150,15 @@ const About = () => {
                     <p><FcCheckmark size={16} className='mb-2'/></p>
                     <small data-trans="budgetP1" className='me-2 ms-2'>{`Fees charged by CASCO in exchange for its services.`}</small>
                 </li>	
-                <li className={`${styles.itemCheckTage}  d-flex`}>
+                <li className={`${styles.itemCheckTage} d-flex`}>
                     <p><FcCheckmark size={15} className='mb-2'/></p>
                     <small data-trans="budgetP2" className='me-2 ms-2'>{`Financial contributions from Member States`}</small>
                 </li>
-                <li className={`${styles.itemCheckTage2}  d-flex`}>
+                <li className={`${styles.itemCheckTage2} d-flex`}>
                     <p><FcCheckmark size={15} className='mb-2'/></p>
                     <small data-trans="budgetP3" className='me-2 ms-2 '>{`Grants and donations that do not compromise the independence and impartiality of CASCO, approved by the Board of Directors.`}</small>
                 </li>
-                <li className={`${styles.itemCheckTage}  d-flex`}>
+                <li className={`${styles.itemCheckTage} d-flex`}>
                     <p><FcCheckmark size={15} className='mb-0'/></p>
                     <small data-trans="budgetP4" className='me-2 mt-1 ms-2'>{`Other sources determined by the Board of Directors.`}</small>
                 </li>
