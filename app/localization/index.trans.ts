@@ -1656,6 +1656,322 @@ const indexTrans: translataionContainer = {
         en:'●	Use calibration and test services',
         ar:''
     },
+    course5Desc:{
+        en:'This course aims to provide participants with a comprehensive understanding of the general requirements for Halal food certification according to Gulf Standard Specification GSO 2055-1:2015 and animal slaughtering requirements in accordance with Islamic Sharia GSO 993:2015. The course will also cover the audit methods for certifying halal products.',
+        ar:'تهدف هذه الدورة إلى تزويد المشاركين بفهم شامل للمتطلبات العامة لشهادة الأغذية الحلال وفقًا للمواصفة الخليجية GSO 2055-1:2015 ومتطلبات ذبح الحيوانات وفقًا للشريعة الإسلامية GSO 993:2015. ستغطي الدورة أيضًا طرق المراجعة لشهادة المنتجات الحلال.'
+    },
+    course5outline1:{
+        en:'●	Introduction to Halal food and its specificities',
+        ar:'●	مقدمة في الأغذية الحلال وخصائصها'
+    },
+    course5outline2:{
+        en:'●	Classification of food as specified in standard 2055-2 (2015) and ISO 22003:2013',
+        ar:'●	تصنيف الأغذية حسب المواصفة 2055-2 (2015) و ISO 22003:2013'
+    },
+    course5outline3:{
+        en:'●	Concept of Accreditation and Certification',
+        ar:'●	مفهوم الاعتماد والشهادة'
+    },
+    course5outline4:{
+        en:'●	Halal certification schemes and related Gulf Standards for certification of Halal Food',
+        ar:'●	مخططات شهادة الحلال ومعايير الخليج المتعلقة بشهادة الأغذية الحلال'
+    },
+    course5outline5:{
+        en:'●	General requirements for Halal Food according to GSO 2055-1:2015',
+        ar:'●	المتطلبات العامة للأغذية الحلال وفقًا للمواصفة GSO 2055-1:2015'
+    },
+    course5outline6:{
+        en:'●	Maximum limits for residues of ethyl alcohol and extraction solvents in food production',
+        ar:'●	الحدود القصوى لبقايا الكحول الإيثيلي ومذيبات الاستخراج في إنتاج الأغذية'
+    },
+    course5outline7:{
+        en:'●	Animal slaughtering requirements according to Islamic rules and GSO 993:2015',
+        ar:'●	متطلبات ذبح الحيوانات وفقًا للشريعة الإسلامية والمواصفة GSO 993:2015 '
+    },
+    course5outline8:{
+        en:'●	Sharea tazkeya requirements and morals',
+        ar:'●	متطلبات شريعة التزكية والأخلاق'
+    },
+    course5outline9:{
+        en:'●	Slaughtering procedure, devices and tools',
+        ar:'●	إجراءات الذبح والأجهزة والأدوات المستخدمة'
+    },
+    course5outline10:{
+        en:'●	Slaughtering place requirements',
+        ar:'●	متطلبات مكان الذبح'
+    },
+    course5outline11:{
+        en:'●	Supervision, monitored and labelling',
+        ar:'●	الإشراف والمراقبة والتسمية'
+    },
+    //////////course five  objective///////////////////
+    course5objctive1:{
+        en:'●	Understand the requirements for certification of Halal food according to Gulf Standards GSO 2055-1:2015 and GSO 993:2015',
+        ar:'●	فهم متطلبات شهادة الحلال وفقًا لمعايير الخليج GSO 2055-1: 2015 و GSO 993: 2015'
+    },
+    course5objctive2:{
+        en:'●	Understand the audit methods for certifying Halal products',
+        ar:'●	فهم طرق المراجعة لتصديق المنتجات الحلال'
+    },
+    course5objctive3:{
+        en:'●	Understand the classification of food and its specificities',
+        ar:'●	فهم تصنيف الأغذية وخصوصياتها'
+    },
+    course5objctive4:{
+        en:'●	Learn about the concept of accreditation and certification',
+        ar:'●	التعرف على مفهوم الاعتماد والشهادة'
+    },
+    course5objctive5:{
+        en:'●	Learn about the maximum limits for residues of ethyl alcohol and extraction solvents in food production',
+        ar:'●	التعرف على الحد الأقصى لبقايا الكحول الإيثيلي ومذيبات الاستخراج في إنتاج الأغذية'
+    },
+    course5objctive6:{
+        en:'●	Understand the requirements for animal slaughtering according to Islamic rules and GSO 993:2015',
+        ar:'●	فهم متطلبات ذبح الحيوانات وفقًا للقواعد الإسلامية و GSO 993: 2015'
+    },
+    course5audiance1:{
+        en:'●	Auditors and employees of Halal certification bodies',
+        ar:'•	المراجعون وموظفو جهات تصديق الحلال'
+    },
+    course5audiance2:{
+        en:'●	Assessors of accreditation bodies',
+        ar:'•	المقيمون في جهات الاعتماد'
+    },
+    course5audiance3:{
+        en:'●	Managers/Owners/Management teams from laboratory and food industries concerned with developing and maintaining Halal food',
+        ar:'•	مدراء / أصحاب / فرق الإدارة من صناع الأغذية والمختبرات المعنية بتطوير والحفاظ على الأغذية الحلال'
+    },
+//////////////////////////////////////  course 6   ////////////////////////////////////////////////////
+    course6Desc:{
+        en:'This training course is designed to provide participants with an understanding of the guidelines for auditing management systems according to ISO 19011:2018 in the context of halal food processing and preservation. The course covers the key concepts, principles, and methods for conducting effective and efficient audits of halal food management systems.',
+        ar:'صممت هذه الدورة التدريبية لتزويد المشاركين بفهم دليل تدقيق أنظمة الإدارة وفقًا لمعيار ISO 19011:2018 في سياق معالجة وحفظ الأغذية الحلال. تغطي الدورة المفاهيم والمبادئ والأساليب الرئيسية لإجراء تدقيقات فعالة وفعالة لأنظمة إدارة الأغذية الحلال.'
+    },
+    course6outline1:{
+        en:'●	Introduction to ISO 19011:2018',
+        ar:'•	مقدمة عن معيار ISO 19011:2018'
+    },
+    course6outline2:{
+        en:'●	Overview of Halal Food Processing Steps',
+        ar:'•	نظرة عامة على خطوات معالجة الأغذية الحلال'
+    },
+    course6outline3:{
+        en:'●	Principles of Halal Food Preservation',
+        ar:'•	مبادئ حفظ الأغذية الحلال'
+    },
+    course6outline4:{
+        en:'●	Halal Food Management System Auditing',
+        ar:'•	تدقيق نظام إدارة الأغذية الحلال'
+    },
+    course6outline5:{
+        en:'●	Planning and Preparation of Halal Food Audits',
+        ar:'•	التخطيط والإعداد لتدقيقات الأغذية الحلال'
+    },
+    course6outline6:{
+        en:'●	Conducting Halal Food Audits',
+        ar:'•	إجراء تدقيقات الأغذية الحلال'
+    },
+    course6outline7:{
+        en:'●	Reporting and Follow-up of Halal Food Audits',
+        ar:'•	التقرير ومتابعة تدقيقات الأغذية الحلال'
+    },
+    ///////////////////// objectives  ////////////////////////
+    course6objctive1:{
+        en:'●	Understand the requirements of ISO 19011:2018 for auditing management systems',
+        ar:'•	فهم متطلبات معيار ISO 19011:2018 لتدقيق أنظمة الإدارة'
+    },
+    course6objctive2:{
+        en:'●	Develop an understanding of Halal food processing and preservation',
+        ar:'•	تطوير فهم لمعالجة وحفظ الأغذية الحلال'
+    },
+    course6objctive3:{
+        en:'●	Learn how to plan and prepare for Halal food audits',
+        ar:'•	تعلم كيفية التخطيط والإعداد لتدقيقات الأغذية الحلال'
+    },
+    course6objctive4:{
+        en:'●	Learn how to conduct effective and efficient Halal food audits',
+        ar:'•	تعلم كيفية إجراء تدقيقات فعالة وفعالة للأغذية الحلال'
+    },
+    course6objctive5:{
+        en:'●	Learn how to report and follow up on Halal food audits',
+        ar:'•	تعلم كيفية التقرير ومتابعة تدقيقات الأغذية الحلال'
+    },
+    course6objctive6:{
+        en:'●	Understand the certification and accreditation requirements for Halal food auditors',
+        ar:'•	فهم متطلبات الاعتماد والشهادة لمدققي الأغذية الحلال'
+    },
+    course6audiance1:{
+        en:'●	Auditors and employees of Halal Certification Bodies',
+        ar:'•	المدققون والموظفون في جهات تصديق الحلال'
+    },
+    course6audiance2:{
+        en:'●	Assessors and employees of Accreditation Bodies',
+        ar:'•	المقيمون والموظفون في جهات الاعتماد'
+    },
+    course6audiance3:{
+        en:'●	Halal Product Manufacturing Managers',
+        ar:'•	مدراء تصنيع المنتجات الحلال'
+    },
+    course6audiance4:{
+        en:'●	Halal food industries',
+        ar:'•	صناع الأغذية الحلال'
+    },
+    /////////////////////////course 7 ////////////////////////////////
+    course7Desc:{
+        en:`This training program is designed to provide participants with the knowledge and skills required for accreditation of inspection bodies according to the ISO/IEC 17020:2012 standard. Participants will gain an understanding of the requirements for quality management and the technical competence of inspection bodies. The program includes lectures, group discussions, and case studies`,
+        ar:'هذه الدورة التدريبية مصممة لتزويد المشاركين بالمعرفة والمهارات اللازمة لاعتماد جهات التفتيش وفقًا للمعيار الدولي ISO/IEC 17020:2012. سيحصل المشاركون على فهم لمتطلبات إدارة الجودة والكفاءة الفنية لجهات التفتيش. تتضمن الدورة محاضرات ومناقشات جماعية ودراسات حالة.'
+    },
+    course7outline1:{
+        en:'●	Introduction to the concept of inspection and its classifications',
+        ar:'•	مقدمة عن مفهوم التفتيش وتصنيفاته'
+    },
+    course7outline2:{
+        en:'●	Preparation of workers in inspection bodies to meet ISO/IEC 17020:2012 requirements',
+        ar:'•	تجهيز العاملين في جهات التفتيش لتلبية متطلبات ISO/IEC 17020:2012'
+    },
+    course7outline3:{
+        en:'●	Understanding international requirements for inspection bodies',
+        ar:'•	فهم المتطلبات الدولية لجهات التفتيش'
+    },
+    course7outline4:{
+        en:'●	Establishment of a quality management system in accordance with international requirements',
+        ar:'•	إنشاء نظام لإدارة الجودة وفقًا للمتطلبات الدولية'
+    },
+    course7outline5:{
+        en:'●	Exchange of knowledge and skills through case studies and discussions',
+        ar:'•	تبادل المعرفة والمهارات من خلال دراسات الحالة والمناقشات الجماعية'
+    },
+    //// objctives course 7
+    course7objctive1:{
+        en:'●	Understand the concept of inspection and its different classifications',
+        ar:'•	فهم مفهوم التفتيش وتصنيفاته المختلفة'
+    },
+    course7objctive2:{
+        en:'●	Meet the requirements of ISO/IEC 17020:2012 for inspection bodies',
+        ar:'•	تلبية متطلبات ISO/IEC 17020:2012 لجهات التفتيش'
+    },
+    course7objctive3:{
+        en:'●	Understand international requirements for inspection bodies',
+        ar:'•	فهم المتطلبات الدولية لجهات التفتيش'
+    },
+    course7objctive4:{
+        en:'●	Establish a system for quality management in accordance with international requirements',
+        ar:'•	إنشاء نظام لإدارة الجودة وفقًا للمتطلبات الدولية'
+    },
+    course7objctive5:{
+        en:'●	Exchange knowledge and skills with other participants through case studies and discussions',
+        ar:'•	تبادل المعرفة والمهارات مع المشاركين الآخرين من خلال دراسات الحالة والمناقشات الجماعية'
+    },
+    // course 7 audiance 
+    course7audiance1:{
+        en:'●	Employees of inspection bodies',
+        ar:'•	موظفي هيئات التفتيش'
+    },
+    course7audiance2:{
+        en:'●	Those who carry out inspection procedures for inspection bodies',
+        ar:'•	أولئك الذين يقومون بإجراء إجراءات التفتيش لهيئات التفتيش'
+    },
+    course7audiance3:{
+        en:'●	Inspection officials in governmental or private bodies concerned with inspection',
+        ar:'•	المسؤولون عن التفتيش في الهيئات الحكومية أو الخاصة المعنية بالتفتيش'
+    },
+    course7audiance4:{
+        en:'●	All bodies concerned with inspection services',
+        ar:'•	جميع الهيئات المعنية بخدمات التفتيش'
+    },
+    /////////// course 8 ////////////
+    course8Desc:{
+        en:`This online course is designed to provide participants with an in-depth understanding of the accreditation requirements for bodies certifying Halal in accordance with GSO 2055-2. The course covers the concepts of conformity assessment for Halal certification of products, processes, and services, as defined in ISO/IEC 17065, ISO/TS 22003, and GSO 2055-2. Through practical examples, case studies, and class exercises, participants will gain knowledge of the standard's requirements, benefits, and the GCC accreditation process.`,
+        ar:`هذه الدورة التدريبية عبر الإنترنت مصممة لتزويد المشاركين بفهم عميق لمتطلبات الاعتماد لهيئات الشهادة الحلال وفقًا للمواصفة GSO 2055-2. تغطي الدورة مفاهيم التقييم للحصول على شهادة الحلال للمنتجات والعمليات والخدمات، كما هو محدد في المواصفات الدولية ISO/IEC 17065 و ISO/TS 22003 و GSO 2055-2. من خلال أمثلة عملية ودراسات الحالة وتمارين الصف، سيكتسب المشاركون المعرفة بمتطلبات المعيار وفوائده وعملية الاعتماد في دول مجلس التعاون الخليجي.`
+    },
+    course8outline1:{
+        en:'●	Introduction to Halal Certification and its Importance',
+        ar:'•	مقدمة في شهادة الحلال وأهميتها'
+    },
+    course8outline2:{
+        en:'●	Overview of ISO/IEC 17065, ISO/TS 22003, and GSO 2055-2',
+        ar:'•	نظرة عامة على ISO/IEC 17065 و ISO/TS 22003 و GSO 2055-2'
+    },
+    course8outline3:{
+        en:'●	Legal and contractual requirements for Halal certification bodies',
+        ar:'•	المتطلبات القانونية والتعاقدية لهيئات الشهادة الحلال'
+    },
+    course8outline4:{
+        en:'●	Organizational structure and top management of a Halal certification body',
+        ar:'•	الهيكل التنظيمي والإدارة العليا لهيئة الشهادة الحلال'
+    },
+    course8outline5:{
+        en:'●	Competence required for certification body personnel',
+        ar:'•	الكفاءة المطلوبة لموظفي هيئة الشهادة'
+    },
+    course8outline6:{
+        en:'●	Requirements for the management of impartiality and the mechanism for safeguarding impartiality',
+        ar:'•	متطلبات إدارة النزاهة وآلية حماية النزاهة'
+    },
+    course8outline7:{
+        en:'●	Mechanisms for improvement',
+        ar:'•	آليات التحسين'
+    },
+    course8outline8:{
+        en:'●	Requirements for the Halal certification process',
+        ar:'•	متطلبات عملية الشهادة الحلال'
+    },
+    course8outline9:{
+        en:'●	Requirements for the certifier management system',
+        ar:'•	متطلبات نظام إدارة المصدقين'
+    },
+    course8outline10:{
+        en:'●	Overview of mandatory documents and international organizations (IAF) concerned documents',
+        ar:'•	نظرة عامة على الوثائق الإلزامية ومنظمات دولية (IAF) المعنية'
+    },
+    /// course objective
+    course8objctive1:{
+        en:'●	Review the accreditation requirements of ISO/IEC 17065, ISO/TS 22003, and GSO 2055-2',
+        ar:'•	مراجعة متطلبات الاعتماد المتعلقة بـ ISO/IEC 17065 و ISO/TS 22003 و GSO 2055-2'
+    },
+    course8objctive2:{
+        en:'●	Identify content that may be helpful in demonstrating compliance with each requirement and how this content is reviewed during an assessment',
+        ar:'•	تحديد المحتوى الذي يمكن أن يساعد في إثبات الامتثال لكل متطلب وكيف يتم مراجعة هذا المحتوى خلال التقييم'
+    },
+    course8objctive3:{
+        en:'●	Define terminology and identify documents, best practices, and other resources that can be helpful in building an understanding of the standard',
+        ar:'•	تعريف المصطلحات وتحديد الوثائق وأفضل الممارسات وغيرها من الموارد التي يمكن أن تساعد في بناء فهم للمعيار'
+    },
+    course8objctive4:{
+        en:'●	Become familiar with the GCC accreditation process and its reliance on not only ISO/IEC 17065 and GSO 2055-2 but also other Regional and International Standards',
+        ar:'•	التعرف على عملية الاعتماد في مجلس التعاون الخليجي واعتماده على ليس فقط ISO/IEC 17065 و GSO 2055-2 ولكن أيضًا المعايير الإقليمية والدولية الأخرى'
+    },
+    course8objctive5:{
+        en:`●	Initiate a self-assessment process that will identify strengths as well as possible gaps in their organization's internal policies and procedures.`,
+        ar:'•	البدء في عملية التقييم الذاتي التي تحدد النقاط القوية وكذلك الفجوات المحتملة في سياسات وإجراءات المؤسسة الداخلية.'
+    },
+    course8audiance1:{
+        en:'This course is designed for representatives of corporations, organizations, scheme owners, government agencies, and others interested in Halal certification.',
+        ar:'هذه الدورة مصممة لممثلي الشركات والمؤسسات ومالكي الأنظمة والجهات الحكومية والآخرين المهتمين بشهادة الحلال.'
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2149,12 +2465,12 @@ const indexTrans: translataionContainer = {
     },
     // tenant card Component
     dotActiveTenant: {
-        en: '• Active Tenant',
-        ar: '• المستأجر النشط'
+        en: '● Active Tenant',
+        ar: '● المستأجر النشط'
     },
     dotDisabledTenant: {
-        en: '• Disabled Tenant',
-        ar: '• مستأجر معطل'
+        en: '● Disabled Tenant',
+        ar: '● مستأجر معطل'
     },
     createdBy: {
         en: 'Created By',

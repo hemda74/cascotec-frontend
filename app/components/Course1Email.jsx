@@ -16,7 +16,7 @@ import styles from '../styles/ContactUs.module.css'
   };
 
   return (
-    <form ref={form} className={` p-4 ${styles.contactCard}`} onSubmit={sendEmail}>
+    <form ref={form} className={` p-4 mt-5 ${styles.contactCard}`} onSubmit={sendEmail}>
        <p data-trans="pleasefillform">Please fill out the form below, and one of our representatives will contact you within 24 hours.</p>
     <div className={`${styles.formGroup}`}>
       <label data-trans="Name">Name</label>

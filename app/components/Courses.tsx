@@ -61,9 +61,9 @@ const Courses = () => {
           </div>
         </div>
         </div>  */}
-        <div className={`container col-xl-8 col-lg-10 col-md-12 ${styles.coursesConainer}`}>
-            <div className="row">
-                <div className="col-lg-4 col-md-6 p-1">
+        <div className="container col-xl-8 col-lg-10 col-md-12 mb-3 mt-1 p-0 ">
+            <div className="row ms-1 me-1 p-0">
+                <div className="col-lg-4 col-md-6">
                     <Link href={'/courses/food-safety-management-requirements-in-accordance-with-international-standard-iso'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>

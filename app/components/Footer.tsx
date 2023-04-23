@@ -3,7 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styels from '../styles/Footer.module.css'
 import logo from '../public/logo.png'
-import {BsFacebook,BsTwitter,BsLinkedin,BsFillArrowUpRightCircleFill, BsYoutube, BsInstagram} from 'react-icons/bs';
+import {BsFacebook,BsTwitter,BsLinkedin,BsYoutube, BsInstagram} from 'react-icons/bs';
+import {RiSendPlaneFill} from 'react-icons/ri'
 // footer Component design
 const Footer = () => {
   return (
@@ -56,14 +57,14 @@ const Footer = () => {
                                 <div className="form-group">
                                     <div className={`input-group mb-1 `}>
                                     <input type="email" className={`form-control ${styels.emailInput}`} aria-label="" placeholder='Your Email Adrress...'/>
-                                    <span className={`input-group-text ${styels.subsIcon}`}><BsFillArrowUpRightCircleFill/></span>
+                                    <span className={`input-group-text ${styels.subsIcon}`}><RiSendPlaneFill/></span>
                                 </div>
                             <div className={` mt-2 ${styels.iconsSocial}`}>
-                                <Link href={"/"}><a className={` me-3 ms-3 ${styels.footerA}`}> <BsTwitter size={15}/></a></Link> 
-                                <Link href={"/"}><a className={` me-3 ms-3 ${styels.footerA}`}> <BsFacebook size={15}/></a></Link>
-                                <Link href={'/'}><a className={` me-3 ms-3 ${styels.footerA}`}> <BsLinkedin size={14}/></a></Link>
-                                <Link href={'/'}><a className={` me-3 ms-3 ${styels.footerA}`}> <BsInstagram size={14}/></a></Link>
-                                <Link href={"/"}><a className={` me-3 ms-3 ${styels.footerA}`}><BsYoutube size={16}/></a></Link> 
+                                <Link href={"/"}><a className={` me-2 ms-2 ${styels.footerA}`}> <BsTwitter size={15}/></a></Link> 
+                                <Link href={"/"}><a className={` me-2 ms-2 ${styels.footerA}`}> <BsFacebook size={15}/></a></Link>
+                                <Link href={'/'}><a className={` me-2 ms-2 ${styels.footerA}`}> <BsLinkedin size={14}/></a></Link>
+                                <Link href={'/'}><a className={` me-2 ms-2 ${styels.footerA}`}> <BsInstagram size={14}/></a></Link>
+                                <Link href={"/"}><a className={` me-2 ms-2 ${styels.footerA}`}><BsYoutube size={16}/></a></Link> 
                             </div>
                         </div>
                     </div>
