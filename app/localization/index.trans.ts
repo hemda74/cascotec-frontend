@@ -833,28 +833,24 @@ const indexTrans: translataionContainer = {
         ar:'واجبات المركز '
     },
     duiets1:{
-        en:'To timely plan and conduct due assessments for the CABs to determine its competence',
-        ar:'التخطيط في الوقت المناسب وإجراء التقييمات الواجبة لجهات تقييم المطابقة لتحديد كفاءتها'
+        en:`As a consulting firm, we are committed to providing timely and thorough assessments of our client's technical capabilities and helping them achieve compliance with relevant standards.`,
+        ar:'نحن كشركة استشارية، نلتزم بتقديم تقييمات دقيقة وفورية لقدرات عملائنا التقنية ومساعدتهم على تحقيق الامتثال للمعايير ذات الصلة.'
     },
     duiets2:{
-        en:'To ensure confidentiality of CAB’s information and their documents unless required by the law/regulation to disclose it in a way required.',
-        ar:'ضمان سرية معلومات جهات تقويم المطابقة ووثائقها ما لم يطلب القانون / اللائحة الكشف عنها بالطرق النظامية.'
+        en:`We prioritize confidentiality and impartiality in our consultations and ensure that our client’s information and documents are kept secure and private.`,
+        ar:'نحرص على السرية والحياد في استشاراتنا، ونضمن حفظ سرية معلومات ومستندات عملائنا.'
     },
     duiets3:{
-        en:'GAC will make publicly available information about the current status of the accreditations that it has granted to the CABs, this information is updated regularly and in line with ISO/IEC 17011 requirements.',
-        ar:`يتيح المركز للجمهور المعلومات حول الوضع الحالي للاعتمادات التي منحها إلى جهات تقويم المطابقة، ويتم تحديث هذه المعلومات بانتظام وبما يتماشى مع متطلبات ISO / IEC 17011.`
+        en:`In line with our commitment to excellence, we regularly update our clients on changes to accreditation requirements and provide guidance on best practices for conformity assessment bodies.`,
+        ar:`بما يتماشى مع التزامنا بالتميز، نقوم بتحديث عملائنا بشكل منتظم حول التغييرات في متطلبات الاعتماد وتوفير إرشادات حول أفضل الممارسات لهيئات التقييس.`
     },
     duiets4:{
-        en:'To ensure impartiality of its services',
-        ar:'ضمان حيادية خدماته'
+        en:`Our consultations are aimed at empowering our clients to achieve growth and success, and we are dedicated to helping them stay ahead of the curve in their respective fields.`,
+        ar:'تهدف استشاراتنا إلى تمكين عملائنا من تحقيق النمو والنجاح، ونحن ملتزمون بمساعدتهم على البقاء على رأس الأمور في مجالاتهم المختلفة.'
     },
     duiets5:{
-        en:'To inform its accredited CABs about any changes in the accreditation requirements and timelines as applicable, to ensure the implementation of changes it could be covered through next due assessment or by asking CABs to provide some immediate evidences of implementation.',
-        ar:'إبلاغ جهات تقييم المطابقة المعتمده بالتغييرات في متطلبات الاعتماد والجداول الزمنية حسب الاقتضاء، لضمان تنفيذ التغييرات التي يمكن تغطيتها من خلال التقييم التالي الواجب أو عن طريق مطالبة الجهات بتقديم بعض الأدلة الفورية للتنفيذ.'
-    },
-    duiets6:{
-        en:'To provide information about suitable ways to obtain tractability of measurement results in relation to the scope for which accreditation is provided. This is detailed in the Technical Note TN 2.0.',
-        ar:'توفير معلومات حول الطرق المناسبة للحصول على إمكانية تتبع نتائج القياس فيما يتعلق بالنطاق الذي يتم تقديم الاعتماد من أجله. هذا مفصل في الدليل الفني TN 2.0.'
+        en:'In addition to technical compliance, we also emphasize sustainability and social responsibility in our consultations and work with our clients to address issues such as risk management, green development, and urban growth.',
+        ar:'بالإضافة إلى الامتثال التقني، نركز أيضًا على الاستدامة والمسؤولية الاجتماعية في استشاراتنا، ونعمل مع عملائنا على معالجة قضايا مثل إدارة المخاطر والتنمية الخضراء والنمو الحضري.'
     },
 //////////////////////////////////////< Contact Us >////////////////////////////////////////////////////////////////////////
     ContactUsHeadLink:{
