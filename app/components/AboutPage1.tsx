@@ -131,9 +131,6 @@ const About = () => {
                                             The Ethics Committee is responsible for enforcing the Code of Ethics, receiving reports of unethical behavior, and ensuring compliance with anti-corruption laws.
                                             `}
                                         </p>
-                                        <p className='text-center mt-3'>
-                                            <img loading="lazy" className="wp-image-797" src="https://gac.org.sa/wp-content/uploads/2022/10/GSO-Logo-300x93.png" alt="" width="162" height="50"  sizes="(max-width: 162px) 100vw, 162px"/>
-                                        </p>
 		                            </div>
 	                            </div>
                             </div>
