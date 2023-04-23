@@ -63,17 +63,21 @@ const Courses = () => {
         </div>  */}
         <div className="container col-xl-8 col-lg-10 col-md-12 mb-3 mt-1 p-0 ">
             <div className="row ms-1 me-1 p-0">
-                <div className="col-lg-4 col-md-6">
+                <div className="col-lg-4 col-md-6 col-sm-12  p-1">
                     <Link href={'/courses/food-safety-management-requirements-in-accordance-with-international-standard-iso'}>
                     <div className={`${styles.postBox}`}>
-                        <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt=""/></div>
-                        <figure className={`mt-5 ${styles.postTitleFigre}`}>
-                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</span>
-                        </figure>                        
-                        <span className={`${styles.iconDate}`}><CgCalendarDates size={20}/>
+                        <div className={`${styles.postImage}`}>
+                            <Image src={coursesimage2} className="img-fluid" alt=""/>
+                        </div>
+                        <figure className={` mt-5 ${styles.postTitleFigre}`}>
+                        <span className={`mt-5 ${styles.postTitle}`} data-trans="course1">{``}</span>
+                        </figure>                      
+                        <span className={`${styles.iconDate}`}>
+                            <CgCalendarDates size={20}/>
                             <small className='text-black me-1 ms-1 mt-1' data-trans="coursedate1jun">01-Jun-2023</small>
                         </span>
-                        <span className={`${styles.iconDate}`}><FaMapMarkerAlt size={20} className='mb-1'/>
+                        <span className={`${styles.iconDate}`}>
+                            <FaMapMarkerAlt size={20} className='mb-1'/>
                             <small className='text-black me-1 ms-1 pt-3' data-trans="Egypt">Egypt</small>
                         </span>
                     </div>
@@ -82,7 +86,8 @@ const Courses = () => {
                 <div className="col-lg-4 col-md-6 col-sm-12  p-1" >
                     <Link href={'/courses/general_requirement_for_halal_products_certification_according_to_gcc_standard'}>
                     <div className={`${styles.postBox}`}>
-                        <div className={`${styles.postImage}`}><Image src={coursesimage2} className="img-fluid" alt=""/></div>
+                        <div className={`${styles.postImage}`}>
+                            <Image src={coursesimage2} className="img-fluid" alt=""/></div>
                         <figure className={`mt-5 ${styles.postTitleFigre}`}>
                         <span  className={` mt-5 ${styles.postTitle}`} data-trans="course2">{`General Requirement For Halal Products Certification According To GCC Standard GSO2055-2:2021 And International Standard ISO/IEC17065`}</span>
                         </figure>                
