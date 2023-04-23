@@ -135,14 +135,14 @@ const ContactUs = () => {
                           <div className={`col-md-6 form-group mt-4 ${styles.formGroup}`}>
                               <input type="email" className={`form-control ${styles.formControl}`} name="email" id="email" placeholder="Your Email" required/>
                           </div>
-                          <div className={`col-md-6 form-group mt-4 ${styles.formGroup}`}>
+                          {/* <div className={`col-md-6 form-group mt-4 ${styles.formGroup}`}>
                               <select  className={`form-select ${styles.formControl}`}>
                                   <option data-trans="Contactoption">Contact</option>
                                   <option data-trans="Inquiryoption">Inquiry</option>
                                   <option data-trans="ComplaintsSeggestionsoption">Complaints & Seggestions</option>
                                   <option data-trans="TechnicalSupportoption">Technical Support</option>
                               </select>                
-                            </div>
+                            </div> */}
                             {/* <div className={`col-md-6 form-group mt-4 ${styles.formGroup}`}>
                             <select  className={`form-select ${styles.formControl}`} >
                               <option>Your Country</option>
@@ -399,10 +399,10 @@ const ContactUs = () => {
                               <option value="ZM">Zambia</option>
                               <option value="ZW">Zimbabwe</option>
                             </select>              
-                            </div> */}
-                            <div className={`col-md-6 form-group mt-3 mt-4 ${styles.formGroup}`}>
+                            </div>  */}
+                            {/* <div className={`col-md-6 form-group mt-3 mt-4 ${styles.formGroup}`}>
                                 <input type="text" name="subject" data-trans="Subject" className={`form-control ${styles.formControl}`} id="subject" placeholder="Subject" required/>
-                            </div>
+                            </div> */}
                         </div>
                       <div className={`form-group mt-4 ${styles.formGroup}`}>
                             <textarea className="form-control" name="message" placeholder="Message" rows={5} required></textarea>
