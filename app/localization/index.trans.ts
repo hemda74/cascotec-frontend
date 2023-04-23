@@ -347,8 +347,8 @@ const indexTrans: translataionContainer = {
     },
 // footer 
     aboutCascoFooter:{
-        en:'Trust in the Conformity Assessment Bodies',
-        ar:'الثقة في جهات التحقق من المطابقة'
+        en:'Building a safer world through innovative solutions.',
+        ar:'بناء عالم أكثر أمانًا من خلال الحلول المبتكرة.'
     },
     supportFooter:{
         en:'Support',

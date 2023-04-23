@@ -19,9 +19,7 @@ const Footer = () => {
                             width={250}
                             height={100}
                         />         
-                        <small className={`mt-4 text-black  d-inline-block ${styels.companybrief}`} data-trans="aboutCascoFooter">
-                        Trust in the Conformity Assessment Bodies
-                        </small>
+                        <small className={`mt-4 text-black d-inline-block ${styels.companybrief}`} data-trans="aboutCascoFooter"></small>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-2 pt-3">
