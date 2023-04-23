@@ -13,6 +13,7 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import deleteCookie from '../helper/deleteCookie';
 import getCookie from '../helper/getCookie';
+import OpeningSoon from '../components/OpeningSoon';
 
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
@@ -53,8 +54,7 @@ const Login: NextPage = () => {
       <Head>
         <title>CASCO | Login</title>
       </Head>
-      
-      <div
+      {/* <div
         id="login-holder"
         className={`container-fluid d-flex align-items-center justify-content-center vh-100  ${styles.containerLogin}`}> 
         <div
@@ -64,7 +64,7 @@ const Login: NextPage = () => {
             <div className="card border-primary">
               <div className="card-body p-0">
               <div className="d-flex align-items-center justify-content-between mt-3 me-5 ms-5">
-                  {/* width and height */}
+                  {/* width and height 
                   {Logo(200, 100)}
                 <div className={``}>
                  <LocalizationBtn />
@@ -145,7 +145,8 @@ const Login: NextPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <OpeningSoon/>
     </>
   );
 };

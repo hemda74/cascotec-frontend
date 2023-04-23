@@ -13,8 +13,9 @@ const NavBar = () => {
 <>
   <nav className={`navbar navbar-expand-lg sticky-top bg-white ${styles.navBar}`}>
     <div className={`container-fluid d-flex justify-content-between align-items-center ms-4 `}>
-        <Link href={'/'} className="navbar-brand ">
+        <Link href={'/'} className="navbar-brand me-5 mb-0 mt-0 ms-5">
             <a><Image
+                className="me-0 mb-0 mt-0 ms-1"
                 alt="casco logo"
                 src={logo}
                 width={150}
@@ -94,12 +95,12 @@ const NavBar = () => {
                 </li>        
             </ul>
             <div className={`d-flex me-4 ms-4`}>
-                    <span className={`${styles.searchIcon} me-2 ms-2 mt-3`}>
+                    {/* <span className={`${styles.searchIcon} me-2 ms-2 mt-3`}>
                     <a data-bs-toggle="modal"
-                data-bs-target="#SearchModal">
+                        data-bs-target="#SearchModal">
                         <AiOutlineSearch size={30}/>
                         </a>
-                    </span>
+                    </span> */}
             
                 <div className='me-3 ms-3'>
                     <LoginBtn />

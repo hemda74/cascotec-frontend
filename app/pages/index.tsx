@@ -63,24 +63,24 @@ const Login: NextPage = () => {
   return (
     <>
       <Head>
-      <title>CASCO</title>
-   </Head>
-   <main className={`${styles.bodyContainer}`}>
-    <WhatsLink/>
-    <NavBar/>
-    <Hero/>
-    <FlagesSection/>
-    <ServicesSlider/>
-    <Steps/> 
-    <ApplyAcc/> 
-    <CoursesSectionHomePage/>
-    <Recogention/> 
-    <AssessorOrCAB/>
-    <AccreditedBodiesCompaines/>  
-    {/* <AccreditedBodiesCompainesRtl/> */} 
-    {/* <NewsHomePage/>  */}
-    <Footer/>
-   </main>
+          <title>CASCO</title>
+      </Head>
+      <main className={`${styles.bodyContainer}`}>
+          <WhatsLink/>
+          <NavBar/>
+          <Hero/>
+          <FlagesSection/>
+          <ServicesSlider/>
+          <Steps/> 
+          <ApplyAcc/> 
+          <CoursesSectionHomePage/>
+          <Recogention/> 
+          <AssessorOrCAB/>
+          <AccreditedBodiesCompaines/>  
+          {/* <AccreditedBodiesCompainesRtl/> */} 
+          {/* <NewsHomePage/>  */}
+          <Footer/>
+      </main>
    </>
   );
 };

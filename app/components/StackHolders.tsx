@@ -10,14 +10,15 @@ const StackHolders = () => {
                 <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
                 <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
                 <Link href={"/about/stakeholders-advisory-committee"}><a className="text-white fw-semibold mb-4" >{` > Stakeholders Advisory Committee`}</a></Link>
-            </div>          <h2 className={`text-white fw-bold mb-5 `} data-trans="StakeholdersAdvisoryCommitteeTitle">Stakeholders Advisory Committee</h2>
+            </div>         
+            <h2 className={`text-white fw-bold mb-5 `} data-trans="StakeholdersAdvisoryCommitteeTitle">Stakeholders Advisory Committee</h2>
         </div>
         <div className="container">
             <div className="section-header text-center">
                 <p className='fs-1' data-trans="Responsibilitiesofthecommittee">Responsibilities of the committee</p>
                 <p className="fs-5" data-trans="Responsibilitiesofthecommitteeb1">The committee is in charge of the implementation of the following tasks and functions</p>
             </div>
-            <div className=" row mt-5  ">
+            <div className="row mt-5">
                 <div className="col-lg-2"></div>
                 <div className={` ${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
                     <div className={`${styles.biggerCircle}`}>
