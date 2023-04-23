@@ -13,6 +13,9 @@
     position: relative;
     overflow-x: hidden;
   }
+  .mainContainer{
+    width: 99%;
+  }
   .sectionOurObjective{
     padding-bottom: 3.7222222222rem;
   }

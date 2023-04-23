@@ -7,6 +7,7 @@ import Link from 'next/link'
 const About = () => {
   return (
     <>
+    <div className={`${styles.mainContainer}`}>
         <div className={`text-center ${styles.titleWord}`}>
             <div className={`container`}>
                 <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="homepageurl">{`Home`}</a></Link>
@@ -15,7 +16,7 @@ const About = () => {
             <h2 className={`text-white fw-bold mb-5 mt-4`} data-trans="AboutUsTitle">About Us</h2>
         </div>
         {/* Objective Section */}
-        <div className={`row m-auto container p-0 `} >
+        <div className={`row m-auto container p-0`} >
             <div className={`d-flex justify-content-around align-items-center`}>
                 <div className={` d-flex ${styles.objectiveCard2}`} >
                     <div className={`col-lg-6 p-0  `}>
@@ -164,6 +165,7 @@ const About = () => {
                 </li>
             </ul>
         </div>
+    </div>
     </div>
     </>     
   )

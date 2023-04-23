@@ -13,7 +13,7 @@ const index:NextPageWithLayout = (props:Props) => {
     <Head>
         <title>About Us | CASCO</title>
    </Head>
-   <main >
+   <main>
     <About/>
     </main>
     </>
