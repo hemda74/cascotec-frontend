@@ -12,7 +12,7 @@ const stakeholdersadvisorycommittee:NextPageWithLayout = (props:Props) => {
     <Head>
         <title>stakeholders advisory committee | CASCO</title>
     </Head>
-    <main className={`${styles.bodyContainer}`}>
+    <main >
        <StackHolders /> 
     </main>
     </>

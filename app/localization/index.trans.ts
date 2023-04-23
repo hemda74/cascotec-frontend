@@ -735,65 +735,53 @@ const indexTrans: translataionContainer = {
         en:'Review annual reports on the activities and achievements of the CASCO Group and provide opinions and recommendations.',
         ar:'مراجعة التقارير السنوية عن أنشطة وإنجازات مجموعة كاسكو وإبداء الآراء والتوصيات.'
     },
-    Compositionofthe:{
-        en:'Composition of the stakeholders advisory committee',
-        ar:'تكوين اللجنة الاستشارية للجهات ذات العلاقة'
-    },
+    // Compositionofthe:{
+    //     en:'Composition of the stakeholders advisory committee',
+    //     ar:'تكوين اللجنة الاستشارية للجهات ذات العلاقة'
+    // },
     TheAdvisory:{
-        en:'The Advisory Committee is composed of 3 groups of interested parties represented as follows',
-        ar:'تتكون اللجنة الاستشارية من ثلاث مجموعات للجهات ذات العلاقة بالاعتماد، كما يلي:'
+        en:'The Stakeholders Advisory Technical team consists of three groups of interested parties, represented as follows:',
+        ar:'يتكون فريق المستشارين المعنيين من ثلاث مجموعات من الأطراف المعنية، يتم تمثيلها على النحو التالي:'
     },
     Governmentauthorities:{
-        en:'Government authorities',
+        en:'Government Authorities',
         ar:'الجهات الحكومية'
     },
     ConformityAssessmentBodies:{
         en:'Conformity Assessment Bodies',
-        ar:'جهات تقويم المطابقة'
+        ar:'هيئات التقييس والمطابقة'
     },
     GCCorganizationsIndustryandconsumers:{
-        en:'GCC organizations, Industry and consumers',
-        ar:'المستفيدون من خدمات الاعتماد'
+        en:'Local organizations, industries, and consumers',
+        ar:'المنظمات المحلية والصناعات والمستهلكين '
     },
     Onerepresentativeofagovernment:{
-        en:'One representative of a government authority (ministry) in each of the Member States (7 members).',
-        ar:"ممثل واحد عن الجهات المختصة في كل من الدول الأعضاء (7 أعضاء)."
+        en:'Each Member State is required to appoint one representative from a government authority (i.e., ministry) to be a part of the committee.',
+        ar:" تُلزم كل دولة عضوة بتعيين ممثلاً واحدًا من السلطة الحكومية (أي وزارة) ليكون جزءًا من اللجنة."
     },
     Onerepresentativefromtheconformity:{
-        en:'One representative from the conformity assessment bodies accredited by the GAC (up to 6 members)',
-        ar:'ستة ممثلين لجهات تقويم المطابقة المعتمدة من المركز يمثلون كل النشاطات المعتمدة.'
+        en:'The committee includes one representative from each of the conformity assessment bodies that have been accredited as well as one representative from the associations of conformity assessment bodies.',
+        ar:'تتضمن اللجنة ممثلاً واحدًا من كل هيئة تقييس ومطابقة حصلت على الاعتماد، بالإضافة إلى ممثل واحد من جمعيات هيئات التقييس والمطابقة.'
     },
-    Onerepresentativefromtheconformity2:{
-        en:'One representative from the conformity assessment bodies associations.',
-        ar:'ممثل واحد عن تجمعات جهات تقويم المطابقة.'
-    },
+    // Onerepresentativefromtheconformity2:{
+    //     en:'One representative from the conformity assessment bodies associations.',
+    //     ar:'ممثل واحد عن تجمعات جهات تقويم المطابقة.'
+    // },
     Onerepresentative1:{
-        en:'One representative of the chambers of commerce and industry of the Member States',
-        ar:'ممثل واحد عن إتحاد الغرف التجارية والصناعية في الدول الأعضاء.'
+        en:'One representative from the Egyptian Chambers of Commerce and Industry for each of the Member States',
+        ar:'ممثل واحد من الغرف التجارية والصناعية المصرية لكل دولة عضوية. '
     },
     Onerepresentative2:{
-        en:'One representative of the consumer protection organizations',
-        ar:'ممثل واحد عن الجمعيات الأهلية لحماية المستهلك في الدول الأعضاء.'
+        en:'One representative from organizations dedicated to protecting consumer rights',
+        ar:'ممثل واحد من المنظمات المكرسة لحماية حقوق المستهلكين. '
     },
     Onerepresentative3:{
-        en:'One representative of the Secretariat-general of the Cooperation Council',
-        ar:'ممثل واحد عن الأمانة العامة لمجلس التعاون على أن يكون من لجنة الاتحاد الجمركي.'
+        en:'One representative from the Egyptian Organization for Standardization and Quality (EOS)',
+        ar:'ممثل واحد من المنظمة المصرية للتقييس والجودة'
     },
     Onerepresentative4:{
-        en:'One representative of the GCC Standardization Organization',
-        ar:'ممثل واحد عن الأمانة العامة لهيئة التقييس لدول مجلس التعاون.'
-    },
-    Onerepresentative5:{
-        en:'One representative of the regional metrology organization GULFMET',
-        ar:'ممثل واحد عن التجمع الخليجي للمترولوجيا.'
-    },
-    Onerepresentative6:{
-        en:'One representative from NGOs representing beneficiaries of conformity assessment activities',
-        ar:'ممثل واحد عن الجهات الأهلية الممثلة للمستفيدين من أنشطة تقويم المطابقة.'
-    },
-    Onerepresentative7:{
-        en:'One representative of the General Direction of the GCC accreditation Center.',
-        ar:'ممثل واحد عن الإدارة العامة للمركز.'
+        en:'One representative from non-governmental organizations (NGOs) that represent the beneficiaries of conformity assessment activities.',
+        ar:'ممثل واحد من المنظمات غير الحكومية (NGOs) التي تمثل المستفيدين من أنشطة التقييس والمطابقة.'
     },
 /////////////////////////////////////////// < Rights And Duties > //////////////////////////////////////////////////
     routeCASCORightsAndDuties:{

@@ -4,14 +4,14 @@ import styles from '../styles/StackHolders.module.css'
 const StackHolders = () => {
   return (
 <>
-    <section>
+    <section className={`${styles.mainContainer}`}>
         <div className={`text-center ${styles.titleWord}`}>
         <div className={`container mb-4`}>
                 <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
                 <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
                 <Link href={"/about/stakeholders-advisory-committee"}><a className="text-white fw-semibold mb-4" >{` > Stakeholders Advisory Committee`}</a></Link>
-            </div>         
-            <h2 className={`text-white fw-bold mb-5 `} data-trans="StakeholdersAdvisoryCommitteeTitle">Stakeholders Advisory Committee</h2>
+            </div>   
+            <h2 className={`text-white fw-bold mb-5`} data-trans="StakeholdersAdvisoryCommitteeTitle">Stakeholders Advisory Committee</h2>
         </div>
         <div className="container">
             <div className="section-header text-center">
@@ -53,8 +53,7 @@ const StackHolders = () => {
             <div className="row">
                 <div className="col-xl-2 col-lg-2"></div>
                     <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ms-2 text-lg-center mt-5">
-                        <p className={`fs-2 fw-semibold ${styles.titleStackH}`} data-trans="Compositionofthe" >Composition of the stakeholders advisory committee</p>
-                        <p className='fs-6 text-white' data-trans="TheAdvisory">The Advisory Committee is composed of 3 groups of interested parties represented as follows</p>
+                        <p className={`fs-3 fw-semibold ${styles.titleStackH}`} data-trans="TheAdvisory"></p>
                     </div>
                 <div className="row col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 ms-2 text-lg-center mt-5">
                     <div className={`d-flex align-items-start ${styles.listContainer}`}>
@@ -66,13 +65,12 @@ const StackHolders = () => {
                         <div className={`tab-content ${styles.listinnerContainer2}`} id="v-pills-tabContent">
                             <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabIndex={0}>
                                 <ul className="text-white">
-                                <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentativeofagovernment">{`One representative of a government authority (ministry) in each of the Member States (7 members).`}</li>
+                                <li className={`mt-2 ${styles.listGroupItem}`} data-trans="Onerepresentativeofagovernment">{`One representative of a government authority (ministry) in each of the Member States (7 members).`}</li>
                                  </ul>
                             </div>
                             <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabIndex={0}>
                                 <ul className="text-white">
-                                <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentativefromtheconformity">{`One representative from the conformity assessment bodies accredited by the GAC (up to 6 members)`}</li>
-                                <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentativefromtheconformity2">{`One representative from the conformity assessment bodies associations.`}</li>
+                                <li className={`mt-2 ${styles.listGroupItem}`} data-trans="Onerepresentativefromtheconformity">{`One representative from the conformity assessment bodies accredited by the GAC (up to 6 members)`}</li>
                                 </ul>
                             </div>
                             <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabIndex={0}>
@@ -81,9 +79,6 @@ const StackHolders = () => {
                                     <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative2">{`One representative of the consumer protection organizations`}</li>
                                     <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative3">{`One representative of the Secretariat-general of the Cooperation Council`}</li>
                                     <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative4">{`One representative of the GCC Standardization Organization`}</li>
-                                    <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative5">{`One representative of the regional metrology organization GULFMET`}</li>
-                                    <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative6">{`One representative from NGOs representing beneficiaries of conformity assessment activities`}</li>
-                                    <li className={`mt-2  ${styles.listGroupItem}`} data-trans="Onerepresentative7">{`One representative of the General Direction of the GCC accreditation Center.`} </li> 
                                 </ul>       
                             </div>
                         </div>
