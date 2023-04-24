@@ -2227,7 +2227,99 @@ const indexTrans: translataionContainer = {
         en:'This training course is intended for technical and management staff in calibration and testing laboratories.',
         ar:'هذا الدورة التدريبية مخصصة للموظفين التقنيين والإداريين في مختبرات الكاليبريشن والاختبار.'
     },
-
+    ////// course 12 /////////
+    course12Desc:{
+        en:'This course provides a comprehensive understanding of ISO/IEC 17024 requirements for personnel certification bodies (P-CBs) and the mechanisms and ways to implement the requirements. Participants will gain knowledge about the values, principles, and general requirements for P-CBs, certification schemes, certification process requirements, structural requirements, resource requirements, records and information requirements, and management system requirements for P-CBs.',
+        ar:'توفر هذه الدورة فهمًا شاملاً لمتطلبات ISO / IEC 17024 لهيئات تدقيق وشهادة الأفراد (P-CBs) والآليات والطرق لتنفيذ المتطلبات. سيكتسب المشاركون معرفة حول القيم والمبادئ والمتطلبات العامة لـ P-CBs ومخططات الشهادة ومتطلبات عملية الشهادة ومتطلبات الهيكلية ومتطلبات الموارد ومتطلبات السجلات والمعلومات ومتطلبات نظام الإدارة لـ P-CBs.'
+    },
+    course12outline1:{
+        en:'●	Introduction to accreditation of CBs that certify persons',
+        ar:'•	مقدمة حول الاعتماد لدى هيئات التدقيق التي تصدر شهادات للأفراد'
+    },
+    course12outline2:{
+        en:'●	ISO/IEC 17024: The content',
+        ar:'•	ISO / IEC 17024: المحتوى'
+    },
+    course12outline3:{
+        en:'●	Scope / Normative References / Terms and Definitions',
+        ar:'•	نطاق / المراجع الأساسية / المصطلحات والتعاريف'
+    },
+    course12outline4:{
+        en:'●	General Requirements',
+        ar:'•	المتطلبات العامة'
+    },
+    course12outline5:{
+        en:'●	Certification Schemes',
+        ar:'•	مخططات الشهادة'
+    },
+    course12outline6:{
+        en:'●	Certification Process Requirements',
+        ar:'•	متطلبات عملية الشهادة'
+    },
+    course12outline7:{
+        en:'●	Structural Requirements',
+        ar:'•	متطلبات الهيكلية'
+    },
+    course12outline8:{
+        en:'●	Resource Requirements',
+        ar:'•	متطلبات الموارد'
+    },
+    course12outline9:{
+        en:'●	Records and Information Requirements',
+        ar:'•	متطلبات السجلات والمعلومات'
+    },
+    course12outline10:{
+        en:'●	Management System Requirements for P-CBs',
+        ar:'•	متطلبات نظام الإدارة لـ P-CBs'
+    },
+    course12outline11:{
+        en:'●	Review of frequent non-conformities',
+        ar:'•	استعراض عدم التطابق الشائع'
+    },
+    course12objctive1:{
+        en:'●	Understand ISO/IEC 17024 requirements for P-CBs',
+        ar:'•	فهم متطلبات ISO / IEC 17024 لـ P-CBs'
+    },
+    course12objctive2:{
+        en:'●	Implement the requirements for P-CBs',
+        ar:'•	تنفيذ متطلبات P-CBs'
+    },
+    course12objctive3:{
+        en:'●	Develop and maintain management systems for P-CBs',
+        ar:'•	تطوير وصيانة نظم الإدارة لـ P-CBs'
+    },
+    course12objctive4:{
+        en:'●	Ensure compliance with ISO/IEC 17024 requirements',
+        ar:'•	ضمان الامتثال لمتطلبات ISO / IEC 17024'
+    },
+    course12objctive5:{
+        en:'●	Identify and mitigate nonconformities in P-CBs',
+        ar:'•	التعرف على العدم التطابق والحد منه في P-CBs'
+    },
+    course12audiance1:{
+        en:'●	Employees of P-certification bodies',
+        ar:'•	موظفو هيئات تدقيق الشهادات الشخصية'
+    },
+    course12audiance2:{
+        en:'●	Assessors of accreditation bodies',
+        ar:'•	المقيمون في هيئات الاعتماد'
+    },
+    course12audiance3:{
+        en:'●	Quality experts',
+        ar:'•	خبراء الجودة'
+    },
+    course12audiance4:{
+        en:'●	Personnel of corporations and government agencies operating certification programs',
+        ar:'•	الموظفون في الشركات والجهات الحكومية التي تدير برامج الشهادات'
+    },
+    course12audiance5:{
+        en:'●	Organizations considering developing a personnel certification program',
+        ar:'•	المؤسسات التي تفكر في تطوير برنامج لشهادة الأفراد'
+    },
+    course12audiance6:{
+        en:'●	Organizations that support certification programs (through testing, IT and marketing)',
+        ar:'•	المؤسسات التي تدعم برامج الشهادات (عبر الاختبارات وتقنية المعلومات والتسويق)'
+    },
 
 
 
