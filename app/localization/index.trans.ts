@@ -2320,7 +2320,180 @@ const indexTrans: translataionContainer = {
         en:'●	Organizations that support certification programs (through testing, IT and marketing)',
         ar:'•	المؤسسات التي تدعم برامج الشهادات (عبر الاختبارات وتقنية المعلومات والتسويق)'
     },
-
+    
+    ////// courses 13 ////////
+    course13Desc:{
+        en:'This training course focuses on the requirements for competence and quality that are particular to medical laboratories according to the international standard ISO 15189: 2012. The course is organized by the CASCO to disseminate the importance of accreditation and the requirements of the international system for laboratory accreditation. The training course is carried out through presentations, group discussions, and case studies with the participation of all delegates. Upon completion of the course, certificates will be delivered by CASCO representatives to all participants.',
+        ar:'تركز هذه الدورة التدريبية على متطلبات الكفاءة والجودة الخاصة بالمختبرات الطبية وفقًا للمعيار الدولي ISO 15189: 2012. تنظم الدورة التدريبية من قبل CASCO لنشر أهمية الاعتماد ومتطلبات النظام الدولي لاعتماد المختبرات. تتم الدورة التدريبية من خلال العروض التقديمية والمناقشات الجماعية ودراسات الحالات مع مشاركة جميع المشاركين. عند اكتمال الدورة التدريبية، سيتم تسليم الشهادات من قبل ممثلي CASCO لجميع المشاركين.'
+    },
+    course13outline1:{
+        en:'Introduction to ISO 15189:2012 and the International System of Laboratories Accreditation',
+        ar:'•	مقدمة في ISO 15189: 2012 والنظام الدولي لاعتماد المختبرات'
+    },
+    course13outline2:{
+        en:'●	The purpose of laboratory accreditation',
+        ar:'•	الغرض من الاعتماد المختبري'
+    },
+    course13outline3:{
+        en:'●	Overview of the International System of Laboratories Accreditation',
+        ar:'•	نظرة عامة على النظام الدولي لاعتماد المختبرات'
+    },
+    course13outline4:{
+        en:'●	Introduction to ISO 15189:2012',
+        ar:'•	مقدمة في ISO 15189: 2012'
+    },
+    course13outline5:{
+        en:'●	Management Requirements of the Standard',
+        ar:'•	متطلبات إدارية للمعيار'
+    },
+    course13outline6:{
+        en:'●	Organization and management responsibilities',
+        ar:'•	المسؤوليات التنظيمية والإدارية'
+    },
+    course13outline7:{
+        en:'●	Quality management system',
+        ar:'•	نظام إدارة الجودة'
+    },
+    course13outline8:{
+        en:'●	Document control',
+        ar:'•	مراقبة المستندات'
+    },
+    course13outline9:{
+        en:'●	Service agreements',
+        ar:'•	اتفاقيات الخدمة'
+    },
+    course13outline10:{
+        en:'●	Examination by referral laboratories',
+        ar:'•	الفحص عن طريق مختبرات الإحالة'
+    },
+    course13outline11:{
+        en:'●	External services and supplies',
+        ar:'•	الخدمات الخارجية واللوازم'
+    },
+    course13outline12:{
+        en:'●	Advisory services',
+        ar:'•	الخدمات الاستشارية'
+    },
+    course13outline13:{
+        en:'●	Resolution of complaints',
+        ar:'•	حل الشكاوى'
+    },
+    course13outline14:{
+        en:'●	Identification and control of non-conformities',
+        ar:'•	تحديد ومراقبة عدم المطابقة'
+    },
+    course13outline15:{
+        en:'●	Corrective action',
+        ar:'•	الإجراءات الإصلاحية'
+    },
+    course13outline16:{
+        en:'●	Preventive action',
+        ar:'•	الإجراءات الوقائية'
+    },
+    course13outline17:{
+        en:'●	Continual improvement',
+        ar:'•	التحسين المستمر'
+    },
+    course13outline18:{
+        en:'●	Control of records',
+        ar:'•	التحكم في السجلات'
+    },
+    course13outline19:{
+        en:'●	Evaluation and audits',
+        ar:'•	التقييم والتدقيقات'
+    },
+    course13outline20:{
+        en:'●	Management review',
+        ar:'•	استعراض الإدارة'
+    },
+    course13outline21:{
+        en:'●	Technical Requirements of the Standard',
+        ar:'•	المتطلبات الفنية للمعيار'
+    },
+    course13outline23:{
+        en:'●	Personnel',
+        ar:'•	الموظفون'
+    },
+    course13outline24:{
+        en:'●	Accommodation and environmental conditions',
+        ar:'•	مساكن وظروف البيئة'
+    },
+    course13outline25:{
+        en:'●	Laboratory equipment, reagents, and consumables',
+        ar:'•	معدات المختبر والمواد الكيميائية والمستهلكات'
+    },
+    course13outline26:{
+        en:'●	 Pre-examination processes',
+        ar:''
+    },
+    course13outline27:{
+        en:'●	Examination processes',
+        ar:''
+    },
+    course13outline28:{
+        en:'●	 Ensuring the quality of examination results',
+        ar:''
+    },
+    course13outline29:{
+        en:'●	Post examination processes',
+        ar:''
+    },
+    course13outline30:{
+        en:'●	 Reporting of results',
+        ar:''
+    },
+    course13outline31:{
+        en:'●	 Release of results',
+        ar:''
+    },
+    course13outline32:{
+        en:'●	 Laboratory information management',
+        ar:''
+    },
+    course13outline33:{
+        en:'●	Implementation of the Standard',
+        ar:''
+    },
+    course13outline34:{
+        en:'●	 Developing a quality management system for medical laboratories',
+        ar:''
+    },
+    course13outline35:{
+        en:'●	 Key concepts and requirements of the standard',
+        ar:''
+    },
+    course13outline36:{
+        en:'●	 Effective implementation strategies',
+        ar:''
+    },
+    course13outline37:{
+        en:'●	 Ensuring ongoing compliance with the standard',
+        ar:''
+    },
+    course13objctive1:{
+        en:'●	Understand the international system for laboratories accreditation and ISO 15189 requirements',
+        ar:'•	فهم النظام الدولي لاعتماد المختبرات ومتطلبات المعيار ISO 15189'
+    },
+    course13objctive2:{
+        en:'●	Gain an understanding of the requirements for the technical competence of medical laboratories',
+        ar:'•	الحصول على فهم لمتطلبات الكفاءة التقنية للمختبرات الطبية'
+    },
+    course13objctive3:{
+        en:'●	Learn how a laboratory quality management system is designed and operated and learn all elements of the standard and the important concepts',
+        ar:'•	التعرف على كيفية تصميم وتشغيل نظام إدارة الجودة للمختبرات الطبية وفهم جميع عناصر المعيار والمفاهيم الهامة'
+    },
+    course13objctive4:{
+        en:'●	Increase confidence in the performance of staff who implement the requirements',
+        ar:'•	زيادة الثقة في أداء العاملين الذين ينفذون المتطلبات'
+    },
+    course13objctive5:{
+        en:'●	Exchange experience and take benefits from the case studies and the group discussions',
+        ar:'•	تبادل الخبرات والاستفادة من دراسات الحالة والنقاشات الجماعية'
+    },
+    course13audiance1:{
+        en:'Technical and management staff in medical laboratories',
+        ar:'الموظفون التقنيون والإداريون في المختبرات الطبية'
+    },
 
 
 
