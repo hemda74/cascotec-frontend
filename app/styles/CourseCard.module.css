@@ -1,7 +1,7 @@
 /* Course Card Style */
 .titleWord{
-    margin-top: -23rem;
-    margin-bottom: 4rem;
+    margin-top: -20rem;
+    margin-bottom: 2rem;
 }
 .bodyContainer{
   box-sizing: border-box;
@@ -16,11 +16,13 @@
 .timeSegment{
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    padding: 0.8rem;
     border-radius: 0.5rem;
+    font-size: 1.1rem;
     margin: 0.5rem;
-    width: 3rem;
-    background: var(--color-cyan);
+    height: 5rem;
+    width: 5rem;
+    background: #6ed2f6;
 }
 .courseDetailesMain{
   margin: 4rem 0 3rem 0;
