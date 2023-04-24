@@ -604,7 +604,36 @@ const indexTrans: translataionContainer = {
         en:'Dr .Kossai',
         ar:'د. قسي'
     },
-    /////////////////////< The director general1 >/////////////////////////
+    QualityFoodSafetyConsultant:{
+        en:'Quality & Food Safety Consultant',
+        ar:'مستشار الجودة وسلامة الغذاء'
+    },
+    DrShriefGalal:{
+        en:'Dr .Shrief Galal',
+        ar:'د .شريف جلال'
+    },
+    DrMaiTag:{
+        en:'Dr.Mai Tag',
+        ar:'د .مي تاج'
+    },
+    DrMohamedHossam:{
+        en:'Dr .Mohamed Hossam',
+        ar:'د .محمد حسام'
+    },
+    DrAhmedAbdo:{
+        en:'Dr.Ahmed Abdo',
+        ar:'د . احمد عبده'
+    },
+    DrAhmedAbdelaziem:{
+        en:'Dr.Ahmed Abdelaziem',
+        ar:'د .احمد عبد العظيم'
+    },
+    DrMohamedMosaad:{
+        en:'Dr.Mohamed Mosaad',
+        ar:'د .محمد مسعد'
+    },
+
+    /////////////////////< The director general1 >///////////////////////
     routeDirctorGeneral:{
         en:'Home > About Us > Director General',
         ar:' الرئيسية  >  عن كاسكو  >  المدير العام'
@@ -618,36 +647,24 @@ const indexTrans: translataionContainer = {
         ar:'السيرة الذاتية :-'
     },
     Thedirectorgeneral2:{
-        en:'Ensuring appropriate representation at national, regional and international levels',
-        ar:'ضمان التمثيل المناسب على المستويات الوطنية والإقليمية والدولية'
+        en:'Ahmed Mahrous Shehata is a seasoned human resource professional with a wealth of experience in the hotel industry. He has worked in various capacities, including as Human Resources Director at United Registrar of Systems, a leading certification body operating in over 45 countries. Prior to this, he held a similar position at Veri-Tech International, an Egyptian company that provides engineering technical consultancy services',
+        ar:'أحمد محروس شحاتة هو محترف في مجال الموارد البشرية لديه خبرة واسعة في صناعة الفنادق. عمل في مراكز مختلفة بما في ذلك مدير الموارد البشرية في شركة يونايتد ريجيستر أوف سيستمز، الجهة الرائدة في مجال الشهادات تعمل في أكثر من 45 دولة. وقبل ذلك، شغل نفس المنصب في شركة فيري-تك الدولية، وهي شركة مصرية توفر خدمات استشارية هندسية وفنية.'
     },
     Thedirectorgeneral3:{
-        en:'Signing mutual recognition arrangements',
-        ar:'توقيع اتفاقيات الاعتراف المتبادل'
+        en:`One of Ahmed's notable achievements was during his tenure as Cluster Human Resources Manager at Sol Hotels Melia Hotels, where he led a team of 20 employees responsible for HR, Personnel, and Training activities. Under his leadership, the team won the Excellence Award in Employee Engagement in 2014, and the hotel was recognized as the best hotel to work in. Additionally, they established an Internet café for the hotel’s employees and won the first football championship in Sharm El Shiekh among 24 hotels.`,
+        ar:'ومن بين إنجازات أحمد البارزة كانت خلال فترة عمله كمدير للموارد البشرية لمجموعة فنادق سول ميليا، حيث قاد فريقًا مكونًا من 20 موظفًا مسؤولًا عن أنشطة الموارد البشرية والشؤون الشخصية والتدريب. وتحت قيادته، فاز الفريق بجائزة التميز في إشراك الموظفين في عام 2014، وتم تكريم الفندق كأفضل فندق للعمل فيه. بالإضافة إلى ذلك، أسسوا مقهى إنترنت للموظفين في الفندق وفازوا ببطولة كرة القدم الأولى في شرم الشيخ بين 24 فندقًا.'
     },
     Thedirectorgeneral4:{
-        en:'Supporting GAC presence in regional and international institutions in accordance with relevant laws and regulations, international standards and conventions',
-        ar:'دعم حضور المركز في المؤسسات الإقليمية والدولية وفقا للقوانين واللوائح ذات الصلة، والمعايير والاتفاقيات الدولية'
+        en:'At Sofitel Karnak Luxor Accor Company, Ahmed managed a team of 12 employees and was responsible for planning HR and Training for all departments of the hotel. He significantly increased training hours and trainee numbers, set clear rules, established strong communication channels between the HR department and employees, and achieved a score of 92% in the SGS inspection.',
+        ar:'وفي فندق سوفيتيل كارناك لوكسور من فئة أكور، قاد أحمد فريقًا مكونًا من 12 موظفًا وكان مسؤولًا عن تخطيط الموارد البشرية والتدريب لجميع أقسام الفندق. زاد بشكل كبير ساعات التدريب وأعداد المتدربين، وأنشأ قواعد واضحة، وأسس قنوات اتصال قوية بين قسم الموارد البشرية والموظفين، وحقق درجة 92% في تفتيش SGS'
     },
     Thedirectorgeneral5:{
-        en:'Develop relationships with stakeholders of accreditation activity',
-        ar:'تطوير العلاقات مع أصحاب العلاقة بنشاط الاعتماد'
+        en:'Before that, Ahmed served as Cluster Human Resources & Training Manager at Movenpick Floating Hotels Movenpick Hotels & Resorts, where he was in charge of all HR and Training activities. He successfully implemented talent management, built a second and third line for each department head, and created a loyalty environment by continuing task force and cross-exposure missions for talented employees.',
+        ar:'قبل ذلك، عمل أحمد كمدير تدريب وموارد بشرية لعدة فنادق تابعة لشركة موفنبيك للفنادق والمنتجعات، حيث كان مسؤولاً عن جميع أنشطة الموارد البشرية والتدريب. نجح في تنفيذ إدارة المواهب بنجاح، وبناء خط ثاني وثالث لكل رئيس قسم، وخلق بيئة ولاء من خلال متابعة مهام الفرق الخاصة والمهام المشتركة للموظفين الموهوبين.'
     },
     Thedirectorgeneral6:{
-        en:'Head of evaluation teams for the accreditation of laboratories, inspection bodies, Halal certification bodies, and product certification bodies',
-        ar:'رئيس فرق التقييم لاعتماد المختبرات وجهات التفتيش وجهات اصدار شهادات الحلال وجهات اصدار شهادات المنتجات'
-    },
-    Thedirectorgeneral7:{
-        en:'A peer reviewer in each of the International Organization for Accreditation of Asia and the Pacific Countries (APAC) and the International Organization',
-        ar:'مقيم نظراء في كل من المنظمة الدولية للاعتماد لدول آسيا والمحيط الهادي APAC و المنظمة الدولية'
-    },
-    Thedirectorgeneral8:{
-        en:'Vice President of the Arab Regional Accreditation Agency (ARAC).',
-        ar:'نائب رئيس الجهاز الإقليمي العربي للاعتماد ARAC'
-    },
-    Thedirectorgeneral9:{
-        en:'An international trainer and certification expert since 2015',
-        ar:'مدرب دولي وخبير اعتماد منذ 2015'
+        en:'With his extensive experience and achievements, Ahmed is now the General Manager of CASCO, where he brings his expertise in human resources to drive the growth of the company.',
+        ar:'وبفضل خبرته الواسعة وإنجازاته، يشغل أحمد الآن منصب المدير العام لشركة كاسكو، حيث يجلب خبرته في الموارد البشرية لدفع نمو الشركة.'
     },
 //////////////////< Our Values >////////////////////////
     routeourvalues:{

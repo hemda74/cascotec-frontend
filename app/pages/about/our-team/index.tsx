@@ -8,7 +8,7 @@ const boardofdirectors:NextPageWithLayout = (props:Props) => {
   return (
    <>
    <Head>
-    <title>CASCO | Board Of Directors</title>
+    <title>CASCO | Our Team</title>
    </Head>
    <BoardOfDirectors/>
    </>

@@ -72,7 +72,8 @@ const ServicesPage = (props:Props) => {
             <div className={`${styles.accreditationThumbnailFirst}`}>
                 <span className={`${styles.serviceTitle}`} data-trans='Services5'>Management System Certification Body Consultation</span>
                 <p className={`${styles.servicepargraph}`} data-trans="ServicesBrief5">{`At CASCO, we provide consultation services in the field of management system certification body accreditation, in accordance with the international standard ISO/IEC 17021-1:2015.`}</p> 
-                <Link href="/services/management-system-certification-body-consultation"  ><span className={`${styles.btnContainer}`} data-trans="Applynow">Apply now</span></Link>
+                <Link href="/services/management-system-certification-body-consultation">
+                    <span className={`${styles.btnContainer}`} data-trans="Applynow">Apply now</span></Link>
             </div>
         </div>
         <div className={`${styles.cardccreditation2} d-flex mb-5 `}>

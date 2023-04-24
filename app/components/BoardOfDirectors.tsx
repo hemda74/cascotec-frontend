@@ -118,8 +118,8 @@ const BoardOfDirectors = () => {
                                         <Image src={hammad} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
-                                                <p className='fs-3'>Dr.Ahmed Hammad</p>
-                                                <p className='fs-5'>Need Title</p>
+                                                <p className='fs-3' data-trans="AhmedHammad">Dr.Ahmed Hammad</p>
+                                                <p className='fs-5' data-trans="QualityFoodSafetyConsultant"></p>
                                             </div>
                                               <div className='d-flex justify-content-end'>
                                                   {/* <Image src={qater} alt="" className={`${styles.flagImage}`} /> */}
@@ -154,8 +154,8 @@ const BoardOfDirectors = () => {
                                         <Image src={sheif} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
-                                                <p className='fs-3'>Dr .Shrief Galal </p>
-                                                <p className='fs-5'>Need Title</p>
+                                                <p className='fs-3'data-trans="DrShriefGalal"></p>
+                                                <p className='fs-5' data-trans="QualityFoodSafetyConsultant"></p>
                                             </div>
                                               <div className='d-flex justify-content-end'>
                                                   {/* <Image src={qater} alt="" className={`${styles.flagImage}`} /> */}
@@ -172,8 +172,8 @@ const BoardOfDirectors = () => {
                                         <Image src={mai} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
-                                                <p className='fs-3'>Dr.Mai Tag</p>
-                                                <p className='fs-5'>Need Title</p>
+                                                <p className='fs-3' data-trans="DrMaiTag"></p>
+                                                <p className='fs-5' data-trans="QualityFoodSafetyConsultant"></p>
                                             </div>
                                               <div className='d-flex justify-content-end'>
                                                   {/* <Image src={qater} alt="" className={`${styles.flagImage}`} /> */}
@@ -190,8 +190,8 @@ const BoardOfDirectors = () => {
                                         <Image src={hossam} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
-                                                <p className='fs-3'>Dr.Mohamed Hossam</p>
-                                                <p className='fs-5'>Need Title</p>
+                                                <p className='fs-3' data-trans="DrMohamedHossam"></p>
+                                                <p className='fs-5' data-trans="QualityFoodSafetyConsultant"></p>
                                             </div>
                                               <div className='d-flex justify-content-end'>
                                                   {/* <Image src={qater} alt="" className={`${styles.flagImage}`} /> */}
@@ -208,8 +208,8 @@ const BoardOfDirectors = () => {
                                         <Image src={ahmed_abdo} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
-                                                <p className='fs-3'>Dr.Ahmed Abdo</p>
-                                                <p className='fs-5'>Need Title</p>
+                                                <p className='fs-3' data-trans="DrAhmedAbdo"></p>
+                                                <p className='fs-5' data-trans="QualityFoodSafetyConsultant"></p>
                                             </div>
                                               <div className='d-flex justify-content-end'>
                                                   {/* <Image src={qater} alt="" className={`${styles.flagImage}`} /> */}
@@ -226,8 +226,8 @@ const BoardOfDirectors = () => {
                                         <Image src={ahmed_abdelazim} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
-                                                <p className='fs-3'>Dr.Ahmed Abdelaziem</p>
-                                                <p className='fs-5'>Need Title</p>
+                                                <p className='fs-3' data-trans="DrAhmedAbdelaziem"></p>
+                                                <p className='fs-5' data-trans="QualityFoodSafetyConsultant"></p>
                                             </div>
                                               <div className='d-flex justify-content-end'>
                                                   {/* <Image src={qater} alt="" className={`${styles.flagImage}`} /> */}
@@ -244,8 +244,8 @@ const BoardOfDirectors = () => {
                                         <Image src={mossad} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
-                                                <p className='fs-3'>Dr.Mohamed Mosaad</p>
-                                                <p className='fs-5'>Need Title</p>
+                                                <p className='fs-3' data-trans="DrMohamedMosaad"></p>
+                                                <p className='fs-5' data-trans="QualityFoodSafetyConsultant"></p>
                                             </div>
                                               <div className='d-flex justify-content-end'>
                                                   {/* <Image src={qater} alt="" className={`${styles.flagImage}`} /> */}
@@ -262,104 +262,13 @@ const BoardOfDirectors = () => {
                                         <Image src={kossai} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
-                                                <p className='fs-3'>Dr.Kossai</p>
-                                                <p className='fs-5'>Need Title</p>
+                                                <p className='fs-3' data-trans="DrKossai"></p>
+                                                <p className='fs-5' data-trans="QualityFoodSafetyConsultant"></p>
                                             </div>
                                               <div className='d-flex justify-content-end'>
                                                   {/* <Image src={qater} alt="" className={`${styles.flagImage}`} /> */}
                                               </div>
                                           </figcaption>
-                                      </figure>
-                                  </div>
-                              </a>
-                        </div>
-                        <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
-                                  <div className={`${styles.teamMember2}`}>
-                                      <figure className={`${styles.teamMemberFigure}`}>
-                                            <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
-                                            <figcaption className={`${styles.figCaption} text-center`}>
-                                              <div className='mt-5'>
-                                                  <p className='fs-3' data-trans="ProfDrMagdyElMahdy">Prof Dr. Magdy El Mahdy</p>
-                                                  <p className='fs-5' data-trans="ChiefInspectorOfficerCIO">Chief Inspector Officer (CIO)</p>
-                                              </div>
-                                              <div className='d-flex justify-content-end'>
-                                                  {/* <Image src={egypt} alt="" className={`${styles.flagImage}`} /> */}
-                                              </div>
-                                            </figcaption>
-                                      </figure>
-                                  </div>
-                              </a>
-                        </div>
-                        <div className="col-xl-4 col-md-6 d-flex" >
-                                <a>
-                                    <div className={`${styles.teamMember2}`}>
-                                        <figure className={`${styles.teamMemberFigure}`}>
-                                            <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
-                                            <figcaption className={`${styles.figCaption} text-center`}>
-                                                <div className='mt-5'>
-                                                    <p className='fs-3' data-trans="DrFred">Dr. Fred</p>
-                                                    <p className='fs-5' data-trans="InformationSecurityBCMDirector">Information Security & BCM Director</p>
-                                                </div>
-                                                <div className='d-flex justify-content-end'>
-                                                    {/* <Image src={bahreen} alt=""  className={`${styles.flagImage}`} /> */}
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </a>
-
-                        </div>
-                        <div className="col-xl-4 col-md-6 d-flex" >
-                                <a>
-                                    <div className={`${styles.teamMember2}`}>
-                                        <figure className={`${styles.teamMemberFigure}`}>
-                                            <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
-                                            <figcaption className={`${styles.figCaption} text-center`}>
-                                                <div className='mt-5'>
-                                                    <p className='fs-3'data-trans="ShehabAlAref">Shehab Al Aref</p>
-                                                    <p className='fs-5'data-trans="DigitalTransformationDirector">Digital Transformation Director</p>
-                                                </div>
-                                                <div className='d-flex justify-content-end'>
-                                                    {/* <Image src={kuwiat} alt="" className={`${styles.flagImage}`} /> */}
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </a>
-                        </div>
-                        <div className="col-xl-4 col-md-6 d-flex" >
-                                <a>
-                                    <div className={`${styles.teamMember2}`}>
-                                        <figure className={`${styles.teamMemberFigure}`}>
-                                            <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
-                                            <figcaption className={`${styles.figCaption} text-center`}>
-                                                <div className='mt-5'>
-                                                    <p className='fs-3'data-trans="DinaMohi">Dina Mohi</p>
-                                                    <p className='fs-5'data-trans="ArchitecturalGraphicDirector">Architectural Graphic Director</p>
-                                                </div>
-                                                <div className='d-flex justify-content-end'>
-                                                    {/* <Image src={uae}  alt="" className={`${styles.flagImage}`} /> */}
-                                                </div>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                </a>
-                        </div>
-                        <div className="col-xl-4 col-md-6 d-flex">
-                              <a>
-                                  <div className={`${styles.teamMember2}`}>
-                                      <figure className={`${styles.teamMemberFigure}`}>
-                                        <Image src={mohamed} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
-                                        <figcaption className={`${styles.figCaption} text-center`}>
-                                            <div className='mt-5'>
-                                                <p className='fs-3' data-trans="MrsEsraaAbdelHafez">Mrs. Esraa Abdel Hafez</p>
-                                                <p className='fs-5' data-trans="HumanResourcesDirector">Human Resources Director</p>
-                                            </div>
-                                            <div className='d-flex justify-content-end'>
-                                                {/* <Image src={egypt} alt=""  className={`${styles.flagImage}`} /> */}
-                                            </div>
-                                        </figcaption>
                                       </figure>
                                   </div>
                               </a>

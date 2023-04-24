@@ -52,6 +52,12 @@
 .driectorGeneralText{
   display: inline-flex !important;
 }
+.btnContainer{
+  padding: 0.5rem 2rem  0.5rem 2rem;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 0.5rem;
+}
 
 @media (max-width: 978px) {
   .cardImage {
