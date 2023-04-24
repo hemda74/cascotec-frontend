@@ -2082,7 +2082,98 @@ const indexTrans: translataionContainer = {
         ar:'هذه الدورة التدريبية مصممة للموظفين الفنيين والإداريين في المختبرات الطبية الذين يتحملون مسؤولية تنفيذ والحفاظ على نظام إدارة جودة المختبر وفقًا للمواصفة الدولية ISO 15189: 2012.'
     },
 /////////////// course 10 //////////////////
-
+    course10Desc:{
+        en:'This two-day course provides a comprehensive understanding of the requirements for accreditation of testing and calibration laboratories according to ISO/IEC 17025:2017. The course covers the basic principles of quality management systems and the ISO 19011:2018 guidelines for auditing management systems.',
+        ar:'توفر هذه الدورة المدتها يومان فهماً شاملاً لمتطلبات الاعتماد لمختبرات الاختبار والمعايرة وفقًا لمعيار ISO/IEC 17025:2017. تغطي الدورة المبادئ الأساسية لأنظمة إدارة الجودة وإرشادات ISO 19011:2018 لمراجعة أنظمة الإدارة.'
+    },
+    Day1:{
+        en:'Day 1',
+        ar:'اليوم الاول'
+    },
+    course10outline1:{
+        en:'●	Introduction to ISO/IEC 17025:2017 and laboratory accreditation process',
+        ar:'•	مقدمة في معيار ISO/IEC 17025:2017 وعملية الاعتماد للمختبرات'
+    },
+    course10outline2:{
+        en:'●	General requirements for the competence of testing and calibration laboratories',
+        ar:'•	المتطلبات العامة لكفاءة مختبرات الاختبار والمعايرة'
+    },
+    course10outline3:{
+        en:'●	Structural Requirements for a laboratory management system',
+        ar:'•	المتطلبات الهيكلية لنظام إدارة المختبر'
+    },
+    course10outline4:{
+        en:'●	Resource requirements including personnel and equipment',
+        ar:'•	متطلبات الموارد بما في ذلك الأفراد والمعدات'
+    },
+    course10outline5:{
+        en:'●	Process requirements for testing and calibration activities',
+        ar:'•	متطلبات العمليات لأنشطة الاختبار والمعايرة'
+    },
+    course10outline6:{
+        en:'●	Management system documentation and record-keeping requirements',
+        ar:'•	متطلبات الوثائق والحفاظ عليها لنظام الإدارة'
+    },
+    SecondDay:{
+        en:'Day 2',
+        ar:'اليوم الثاني'
+    },
+    course10outline7:{
+        en:'●	ISO 19011:2018 Guidelines for auditing management systems',
+        ar:'•	إرشادات ISO 19011:2018 لمراجعة أنظمة الإدارة'
+    },
+    course10outline8:{
+        en:'●	Planning, conducting, and reporting internal audits',
+        ar:'•	التخطيط والتنفيذ والإبلاغ عن المراجعات الداخلية'
+    },
+    course10outline9:{
+        en:'●	Practical exercises and case studies on auditing laboratory management systems',
+        ar:'•	تمارين عملية ودراسات حالة حول مراجعة أنظمة إدارة المختبر'
+    },
+    course10outline10:{
+        en:'●	Corrective actions and continual improvement',
+        ar:'•	الإجراءات التصحيحية والتحسين المستمر'
+    },
+    course10objctive1:{
+        en:'●	Gain a comprehensive understanding of the ISO/IEC 17025:2017 standard and the laboratory accreditation process',
+        ar:'•	اكتساب فهم شامل لمعيار ISO/IEC 17025:2017 وعملية اعتماد المختبرات.'
+    },
+    course10objctive2:{
+        en:'●	Understand the basic principles of quality management systems and the ISO 19011:2018 guidelines for auditing management systems',
+        ar:'•	فهم المبادئ الأساسية لنظم إدارة الجودة ومبادئ ISO 19011:2018 لتدقيق نظم الإدارة.'
+    },
+    course10objctive3:{
+        en:'●	Learn how to apply ISO/IEC 17025:2017 requirements to laboratory operations and management systems',
+        ar:'•	تعلم كيفية تطبيق متطلبات ISO/IEC 17025:2017 على عمليات ونظم إدارة المختبر.'
+    },
+    course10objctive4:{
+        en:'●	Acquire the skills to plan, conduct, and report internal audits of laboratory management systems',
+        ar:'•	اكتساب المهارات اللازمة لتخطيط وتنفيذ وتقديم تقارير التدقيق الداخلي لنظم إدارة المختبرات.'
+    },
+    course10objctive5:{
+        en:'●	Develop strategies for implementing corrective actions and continual improvement in laboratory operations',
+        ar:'•	وضع استراتيجيات لتنفيذ الإجراءات التصحيحية والتحسين المستمر في عمليات المختبرات.'
+    },
+    course10audiance1:{
+        en:'●	Managers of testing and calibration laboratories',
+        ar:'•	مديري مختبرات الاختبار والمعايرة.'
+    },
+    course10audiance2:{
+        en:'●	Laboratory quality system personnel',
+        ar:'•	الشخصيات المسؤولة عن نظم جودة المختبر.'
+    },
+    course10audiance3:{
+        en:'●	Testing and calibration personnel and trainers of laboratory staff',
+        ar:'•	الشخصيات المسؤولة عن الاختبار والمعايرة ومدربي موظفي المختبر.'
+    },
+    course10audiance4:{
+        en:'●	Consultants providing laboratory accreditation services',
+        ar:'•	المستشارين الذين يقدمون خدمات اعتماد المختبرات.'
+    },
+    course10audiance5:{
+        en:'●	Personnel responsible for procurement and evaluation of laboratory services',
+        ar:'•	الشخصيات المسؤولة عن شراء وتقييم خدمات المختبر.'
+    },
 
 
 
