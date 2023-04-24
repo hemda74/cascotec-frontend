@@ -2118,6 +2118,10 @@ const indexTrans: translataionContainer = {
         en:'Day 2',
         ar:'اليوم الثاني'
     },
+    ThiredDay:{
+        en:'Day 3',
+        ar:'اليوم الثالث'
+    },
     course10outline7:{
         en:'●	ISO 19011:2018 Guidelines for auditing management systems',
         ar:'•	إرشادات ISO 19011:2018 لمراجعة أنظمة الإدارة'
@@ -2494,11 +2498,139 @@ const indexTrans: translataionContainer = {
         en:'Technical and management staff in medical laboratories',
         ar:'الموظفون التقنيون والإداريون في المختبرات الطبية'
     },
-
-
-
-
-
+    ///////// course 14 ////////
+    course14Desc:{
+        en:'This 3-day training course is designed to provide an understanding of the risk management system based on ISO 31000:2018, including its principles and guidelines, accreditation requirements, and fundamental risk management strategies and methods. Participants will gain knowledge and skills in performing risk assessments, risk identification, risk analysis and risk evaluation, as well as effectively allocating and covering all types of risks.',
+        ar:'تهدف هذه الدورة التدريبية التي تستمر لمدة 3 أيام إلى توفير فهم لنظام إدارة المخاطر القائم على مواصفة ISO 31000:2018، بما في ذلك مبادئها ودلائلها ومتطلبات الاعتماد واستراتيجيات وطرق إدارة المخاطر الأساسية. سيكتسب المشاركون المعرفة والمهارات في إجراء تقييمات المخاطر وتحديد المخاطر وتحليل المخاطر وتقييمها، بالإضافة إلى توزيع وتغطية جميع أنواع المخاطر بشكل فعال.'
+    },
+    course14outline1:{
+        en:'●	 Introduction to Risk Management and ISO 31000:2018',
+        ar:'•	مقدمة لإدارة المخاطر ومواصفة ISO 31000:2018'
+    },
+    course14outline2:{
+        en:'●	 Concepts and definitions related to risk management ISO 31000:2018',
+        ar:'•	المفاهيم والتعريفات المتعلقة بإدارة المخاطر ISO 31000:2018'
+    },
+    course14outline3:{
+        en:'●	 The fundamental risk management strategies and methods based on ISO 31000:2018',
+        ar:'•	استراتيجيات وطرق إدارة المخاطر الأساسية القائمة على مواصفة ISO 31000:2018'
+    },
+    course14outline4:{
+        en:'●	 Risk management standards, and frameworks according to ISO 31000:2018',
+        ar:'•	معايير وأطر إدارة المخاطر وفقًا لمواصفة ISO 31000:2018'
+    },
+    course14outline5:{
+        en:'●	 The main differences between ISO 3100:2018 and the previous version ISO 3100:2009',
+        ar:'•	الاختلافات الرئيسية بين ISO 3100:2018 والإصدار السابق ISO 3100:2009'
+    },
+    course14outline6:{
+        en:'●	Principles and Guidelines of ISO 31000:2018',
+        ar:'•	مبادئ وإرشادات ISO 31000: 2018'
+    },
+    course14outline7:{
+        en:'●	 Scope',
+        ar:'•	النطاق'
+    },
+    course14outline8:{
+        en:'●	Terms and Definitions',
+        ar:'•	المصطلحات والتعريفات'
+    },
+    course14outline9:{
+        en:'●	 Risk management principles',
+        ar:'•	مبادئ إدارة المخاطر'
+    },
+    course14outline10:{
+        en:'●	 Framework',
+        ar:'•	إطار العمل'
+    },
+    course14outline11:{
+        en:'●	Risk management process',
+        ar:'•	عملية إدارة المخاطر'
+    },
+    course14outline12:{
+        en:'●	 Implementing a risk management process',
+        ar:'•	تنفيذ عملية إدارة المخاطر'
+    },
+    course14outline13:{
+        en:'●	 Implementing a risk management process',
+        ar:'•	دراسات الحالة والمناقشات الجماعية'
+    },
+    course14outline14:{
+        en:'●	 Accreditation requirements of ISO 31000:2018',
+        ar:'•	متطلبات الاعتماد ISO 31000: 2018'
+    },
+    course14outline15:{
+        en:'●	Roles and Responsibilities of Management Systems Certification Bodies',
+        ar:'•	أدوار ومسؤوليات جهات اعتماد أنظمة إدارة المخاطر'
+    },
+    course14outline16:{
+        en:'●	Quality and internal control management',
+        ar:'•	إدارة الجودة والتحكم الداخلي'
+    },
+    course14outline17:{
+        en:'●	Quality and internal control management',
+        ar:'•	إدارة المشاريع والعمليات'
+    },
+    course14outline18:{
+        en:'●	Executive management and risk analysis',
+        ar:'•	إدارة التنفيذية وتحليل المخاطر'
+    },
+    course14outline19:{
+        en:'●	 Internal auditors and operational risk officers',
+        ar:'•	المدققون الداخليون وضباط مخاطر العمليات'
+    },
+    course14outline20:{
+        en:'●	Managers responsible for establishing a risk management policy  ',
+        ar:'•	المديرين المسؤولين عن وضع سياسة إدارة المخاطر'
+    },
+    course14objctive1:{
+        en:'• Understand the principles and guidelines of ISO 31000:2018.',
+        ar:'•	مقدمة لإدارة المخاطر ومواصفة ISO 31000:2018'
+    },
+    course14objctive2:{
+        en:'• Gain an understanding of risk management systems based on ISO 31000:2018.',
+        ar:'•	المفاهيم والتعريفات المتعلقة بإدارة المخاطر ISO 31000:2018'
+    },
+    course14objctive3:{
+        en:'• Understand the accreditation requirements of ISO 31000:2018.',
+        ar:'•	استراتيجيات وطرق إدارة المخاطر الأساسية القائمة على مواصفة ISO 31000:2018'
+    },
+    course14objctive4:{
+        en:'• Learn the importance and relevance of ISO 31000: 2018.',
+        ar:'•	معايير وأطر إدارة المخاطر وفقًا لمواصفة ISO 31000:2018'
+    },
+    course14objctive5:{
+        en:'• Understand the basic elements of implementing risk management processes.',
+        ar:'•	الاختلافات الرئيسية بين ISO 3100:2018 والإصدار السابق ISO 3100:2009'
+    },
+    course14audiance1:{
+        en:'●	 Management Systems Certification Bodies',
+        ar:'•	جهات اعتماد أنظمة إدارة المخاطر'
+    },
+    course14audiance2:{
+        en:'●	 Quality and internal control managers',
+        ar:'•	مديرون إدارة الجودة والتحكم الداخلي'
+    },
+    course14audiance3:{
+        en:'●	 Project and operation managers',
+        ar:'•	مديرون المشاريع والعمليات'
+    },
+    course14audiance4:{
+        en:'●	 Executive managers and risk analysts',
+        ar:'•	المديرين التنفيذيين ومحللو المخاطر'
+    },
+    course14audiance5:{
+        en:'●	Internal auditors and operational risk officers',
+        ar:'•	المدققون الداخليون وضباط مخاطر العمليات'
+    },
+    course14audiance6:{
+        en:'●	Managers responsible for establishing a risk management policy',
+        ar:'•	المديرين المسؤولين عن وضع سياسة إدارة المخاطر'
+    },
+    Days3Destailes:{
+        en:'The course duration is 3 days of interactive training sessions, including group discussions, case studies, and practical exercises.',
+        ar:'تستغرق مدة الدورة 3 أيام من الجلسات التدريبية التفاعلية، بما في ذلك دراسات الحالة والمناقشات الجماعية والتمارين العملية.'
+    },
 
 
 
