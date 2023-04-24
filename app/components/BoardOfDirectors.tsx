@@ -76,7 +76,7 @@ const BoardOfDirectors = () => {
 
                         </div>  
                         <div className="col-xl-4 col-md-6 d-flex" >
-                            <a>
+                            <Link href={'/about/our-team/mostafa_farag'}>
                                 <div className={`${styles.teamMember2}`}>
                                     <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={mostafa} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -91,7 +91,7 @@ const BoardOfDirectors = () => {
                                         </figcaption>
                                     </figure>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
                               <a>

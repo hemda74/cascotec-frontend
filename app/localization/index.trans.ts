@@ -682,7 +682,27 @@ const indexTrans: translataionContainer = {
         en:'Overall, Dr. Ahmed Bedewi is a highly competent and accomplished expert in the business world, with a proven track record of success in various leadership and consulting roles.',
         ar:'بشكل عام، يعد الدكتور أحمد بدوي خبيرًا متميزًا ومتألقًا في عالم الأعمال، حيث لديه سجل حافل بالنجاحات في مختلف المناصب القيادية والاستشارية التي شغلها.'
     },
-    
+    // mostafa farag
+    mostafafarag2:{
+        en:'Mostafa is the Chief Financial Officer (CFO) of our company. He brings over 15 years of experience in finance and accounting, specializing in financial planning and analysis, budgeting, and corporate strategy.',
+        ar:'مصطفى هو مدير المالية (CFO) في شركتنا. ويتمتع بأكثر من 15 عامًا من الخبرة في المالية والمحاسبة، متخصصًا في التخطيط المالي والتحليل والميزانية والاستراتيجية الشركاتية. '
+    },
+    mostafafarag3:{
+        en:'Prior to joining our team, Mostafa held various senior finance positions in leading multinational companies, where he successfully managed complex financial operations and contributed to the growth and profitability of the businesses.',
+        ar:'قبل الانضمام إلى فريقنا، شغل مصطفى مناصب مالية كبيرة في الشركات المتعددة الجنسيات الرائدة، حيث أدار بنجاح العمليات المالية المعقدة وساهم في نمو وربحية الأعمال. '
+    },
+    mostafafarag4:{
+        en:'Mostafa is a graduate of a top business school, where he earned his MBA in Finance. He also holds a bachelor’s degree in accounting and is a Certified Public Accountant (CPA).',
+        ar:'وقد حصل مصطفى على درجة الماجستير في المالية من إحدى أفضل المدارس العليا للأعمال، كما حصل على شهادة البكالوريوس في المحاسبة وهو محاسب معتمد (CPA). '
+    },
+    mostafafarag5:{
+        en:'As our CFO, Mostafa oversees all financial aspects of our company, including budgeting, forecasting, financial reporting, and risk management. He works closely with our leadership team to develop and implement strategic plans that align with our business objectives and drive sustainable growth.',
+        ar:'وبصفته مدير المالية لدينا، يشرف مصطفى على جميع الجوانب المالية لشركتنا، بما في ذلك التخطيط الميزاني والتنبؤات والتقارير المالية وإدارة المخاطر. كما يعمل عن كثب مع فريق القيادة لدينا لتطوير وتنفيذ الخطط الاستراتيجية التي تتماشى مع أهدافنا التجارية وتعزز النمو المستدام'
+    },
+    mostafafarag6:{
+        en:`Mostafa's expertise and leadership have been instrumental in guiding our company through significant financial challenges and ensuring our long-term success. We are proud to have him on our team and look forward to his continued contributions to our company's growth and success.`,
+        ar:'وقد كانت خبرة مصطفى وقيادته حاسمة في توجيه شركتنا خلال التحديات المالية الكبيرة وضمان نجاحنا على المدى الطويل. نحن فخورون بوجوده في فريقنا ونتطلع إلى مساهماته المستمرة في نمو ونجاح شركتنا.'
+    },
 //////////////////< Our Values >////////////////////////
     routeourvalues:{
         en:'Home > About Us > Our Values',
