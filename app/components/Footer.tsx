@@ -55,7 +55,7 @@ const Footer = () => {
                                 <div className="form-group">
                                     <div className={`input-group mb-1 `}>
                                     <input type="email" className={`form-control ${styels.emailInput}`} aria-label="" placeholder='Your Email Adrress...'/>
-                                    <span className={`input-group-text ${styels.subsIcon}`}><RiSendPlaneFill/></span>
+                                    <span className={`input-group-text ${styels.subsIcon}`}><RiSendPlaneFill size={30}/></span>
                                 </div>
                             <div className={` mt-2 ${styels.iconsSocial}`}>
                                 <Link href={"/"}><a className={` me-2 ms-2 ${styels.footerA}`}> <BsTwitter size={15}/></a></Link> 
