@@ -2081,6 +2081,8 @@ const indexTrans: translataionContainer = {
         en:'This training course is designed for technical and management staff in medical laboratories who are responsible for implementing and maintaining laboratory quality management systems in accordance with ISO 15189: 2012.',
         ar:'هذه الدورة التدريبية مصممة للموظفين الفنيين والإداريين في المختبرات الطبية الذين يتحملون مسؤولية تنفيذ والحفاظ على نظام إدارة جودة المختبر وفقًا للمواصفة الدولية ISO 15189: 2012.'
     },
+/////////////// course 10 //////////////////
+
 
 
 

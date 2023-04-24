@@ -51,7 +51,7 @@ const Course:NextPageWithLayout = (props:Props) => {
         <title>Course Details | CASCO</title>
     </Head>
     <main className={`${styles.bodyContainer}`}>
-    <div className={`text-center row ${styles.titleWord}`}>
+    <div className={`text-center row ${styles.titleWord2}`}>
         <div className={`container mb-4`}>
             <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
             <Link href={"/courses"}><a className="text-white fw-semibold mb-4" data-trans="CourseNav2">{` > Courses`}</a></Link>
@@ -156,16 +156,20 @@ const Course:NextPageWithLayout = (props:Props) => {
                     <small className='text-black-50 mt-3 d-block' data-trans="course3objctive6">{``}</small>
                     <small className='text-black-50 mt-3 d-block' data-trans="course3objctive7">{``}</small>
                 </div>
-             <div className="audience mt-4" id='audience'>
-                <span className='fs-5 fw-bold d-block' data-trans="Audience">Audience</span>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance1">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance2">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance3">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance4">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance5">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance6">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course3audiance7">{``}</small>
-            </div>
+                <div className="audience mt-4" id='audience'>
+                    <span className='fs-5 fw-bold d-block' data-trans="Audience">Audience</span>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course3audiance1">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course3audiance2">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course3audiance3">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course3audiance4">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course3audiance5">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course3audiance6">{``}</small>
+                        <small className='text-black-50 mt-3 d-block' data-trans="course3audiance7">{``}</small>
+                </div>
+                <div className="estimated-time mt-4" id='estimated-time'>
+                    <span className='fs-5 fw-bold d-block' data-trans="EstimatedTime">Estimated Time</span>
+                         <small className="text-black-50 mt-3 d-block" data-trans="Days3"></small>
+                </div>
             </div>
             <div className={`col-xl-3 col-lg-3 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0 ${styles.courseDetailesMain}`}>
                 <div className={`${styles.courseDetailes}`}>
@@ -179,7 +183,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                                   <small className="fw-bold mt-1" data-trans="coursedate1jun">01-Jun-2023</small>
                               </div>
                         </li>
-                        <li className={`d-flex mt-2 ${styles.liDiv}`}>
+                        {/* <li className={`d-flex mt-2 ${styles.liDiv}`}>
                             <div className={`${styles.iconHolder}`}>
                                 <img src="/images/courses_section/clock-fill2.svg" alt=""/>
                             </div>
@@ -187,7 +191,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                                 <small className="text-black-50" data-trans="EstimatedTime">Estimated Time</small>
                                 <small className="fw-bold mt-1" data-trans="Days3"></small>
                             </div>
-                        </li>
+                        </li> */}
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>
                             <div className={`${styles.iconHolder}`}>
                                 <img src="/images/courses_section/pin-2.svg" alt=""/>

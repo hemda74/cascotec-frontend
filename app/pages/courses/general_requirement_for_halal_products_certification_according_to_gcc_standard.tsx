@@ -162,6 +162,10 @@ const Course:NextPageWithLayout = (props:Props) => {
                     <span className='fs-5 fw-bold d-block' data-trans="Audience">Audience</span>
                         <small className='text-black-50 mt-3 d-block' data-trans="course2audiance1">{``}</small>
                 </div>
+                <div className="estimated-time mt-4" id='estimated-time'>
+                    <span className='fs-5 fw-bold d-block' data-trans="EstimatedTime">Estimated Time</span>
+                         <small className="text-black-50 mt-3 d-block" data-trans="Days2"></small>
+                </div>
             </div>
             <div className={`col-xl-4 col-lg-4 col-md-8 col-sm-12 offset-xl-1 offset-lg-1 offset-md-0 ${styles.courseDetailesMain}`}>
                 <div className={`${styles.courseDetailes}`}>
@@ -175,7 +179,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                                   <small className="fw-bold mt-1" data-trans="coursedate1jun">01-Jun-2023</small>
                               </div>
                         </li>
-                        <li className={`d-flex mt-2 ${styles.liDiv}`}>
+                        {/* <li className={`d-flex mt-2 ${styles.liDiv}`}>
                             <div className={`${styles.iconHolder}`}>
                                 <img src="/images/courses_section/clock-fill2.svg" alt=""/>
                             </div>
@@ -183,7 +187,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                                 <small className="text-black-50" data-trans="EstimatedTime">Estimated Time</small>
                                 <small className="fw-bold mt-1" data-trans="Days3"></small>
                             </div>
-                        </li>
+                        </li> */}
                         <li className={`d-flex mt-2 ${styles.liDiv}`}>
                             <div className={`${styles.iconHolder}`}>
                                 <img src="/images/courses_section/pin-2.svg" alt=""/>

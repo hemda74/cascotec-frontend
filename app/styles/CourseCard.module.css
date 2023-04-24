@@ -1,7 +1,11 @@
 /* Course Card Style */
 .titleWord{
-    margin-top: -20rem;
-    margin-bottom: 2rem;
+    margin-top: -23rem;
+    margin-bottom: 0rem;
+}
+.titleWord2{
+  margin-top: -23rem;
+  margin-bottom: 3rem;
 }
 .bodyContainer{
   box-sizing: border-box;
