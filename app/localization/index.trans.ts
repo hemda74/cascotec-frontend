@@ -1932,7 +1932,155 @@ const indexTrans: translataionContainer = {
         en:'This course is designed for representatives of corporations, organizations, scheme owners, government agencies, and others interested in Halal certification.',
         ar:'هذه الدورة مصممة لممثلي الشركات والمؤسسات ومالكي الأنظمة والجهات الحكومية والآخرين المهتمين بشهادة الحلال.'
     },
-
+    ////////// course 9 ////////////
+    course9Desc:{
+        en:`This training course covers the requirements for the accreditation of medical laboratories according to the international standard ISO 15189: 2012. The course provides an overview of the standard's management and technical requirements, which are essential to ensure the competence and quality of medical laboratories. The course includes presentations, group discussions, and case studies to provide participants with practical insights into the implementation of the standard.`,
+        ar:'تغطي هذه الدورة التدريبية متطلبات اعتماد المختبرات الطبية وفقًا للمعيار الدولي ISO 15189: 2012. توفر الدورة نظرة عامة على متطلبات الإدارة والفنية للمعيار، والتي تعد أساسية لضمان كفاءة وجودة المختبرات الطبية. تتضمن الدورة عروضًا ومناقشات جماعية ودراسات حالة لتوفير رؤى عملية للمشاركين في تنفيذ المعيار.'
+    },
+    course9outline1:{
+        en:'●	Introduction to the international system of laboratories accreditation and ISO 15189 requirements:',
+        ar:'•	مقدمة عن نظام الاعتماد الدولي للمختبرات ومتطلبات ISO 15189: 2012.',
+    },
+    course9outline2:{
+        en:'●	Overview of laboratory accreditation',
+        ar:'•	نظرة عامة على اعتماد المختبرات.'
+    },
+    course9outline3:{
+        en:'●	Understanding ISO 15189: 2012 and its Importance for medical laboratories',
+        ar:'•	فهم ISO 15189: 2012 وأهميته للمختبرات الطبية.'
+    },
+    Managementrequirements:{
+        en:'Management requirements of the standard:',
+        ar:'متطلبات الإدارة للمعيار:'
+    },
+    course9requirements1:{
+        en:'●	Organization and management responsibilities',
+        ar:'o	المسؤوليات التنظيمية والإدارية.'
+    },
+    course9requirements2:{
+        en:'●	Quality management system',
+        ar:'o	نظام إدارة الجودة.'
+    },
+    course9requirements3:{
+        en:'●	Document control',
+        ar:'o	التحكم في المستندات.'
+    },
+    course9requirements4:{
+        en:'●	Service agreements',
+        ar:'o	اتفاقات الخدمة.'
+    },
+    course9requirements5:{
+        en:'●	Examination by referral laboratories',
+        ar:'o	الفحوصات بواسطة مختبرات الإحالة.'
+    },
+    course9requirements6:{
+        en:'●	External services and supplies',
+        ar:'o	الخدمات واللوازم الخارجية.'
+    },
+    course9requirements7:{
+        en:'●	Advisory services',
+        ar:'o	الخدمات الاستشارية.'
+    },
+    course9requirements8:{
+        en:'●	Resolution of complaints',
+        ar:'o	حل الشكاوى.'
+    },
+    course9requirements9:{
+        en:'●	Identification and control of non-conformities',
+        ar:'o	تحديد والتحكم في عدم المطابقة.'
+    },
+    course9requirements10:{
+        en:'●	Corrective action',
+        ar:'o	التصحيح الوقائي.'
+    },
+    course9requirements11:{
+        en:'●	Preventive action',
+        ar:'o	التحسين المستمر.'
+    },
+    course9requirements12:{
+        en:'●	Continual improvement',
+        ar:'o	التحكم في السجلات.'
+    },
+    course9requirements13:{
+        en:'●	Control of records',
+        ar:'o	التقييم والتدقيقات.'
+    },
+    course9requirements14:{
+        en:'●	Evaluation and audits',
+        ar:'o	مراجعة الإدارة.'
+    },
+    course9requirements15:{
+        en:'●	Management review',
+        ar:''
+    },
+    course9requirements16:{
+        en:'●	Technical requirements of the standard:',
+        ar:''
+    },
+    course9requirements17:{
+        en:'●	Personnel',
+        ar:'•	الشخصيات.'
+    },
+    course9requirements18:{
+        en:'●	Accommodation and environmental conditions',
+        ar:'•	المرافق والظروف البيئية.'
+    },
+    course9requirements19:{
+        en:'●	Laboratory equipment, reagents, and consumables',
+        ar:'•	معدات المختبر والمواد الكيميائية والمستهلكات.'
+    },
+    course9requirements20:{
+        en:'●	Pre-examination processes',
+        ar:'•	عمليات الفحص الأولية.'
+    },
+    course9requirements21:{
+        en:'●	Examination processes',
+        ar:'•	عمليات الفحص.'
+    },
+    course9requirements22:{
+        en:'●	Ensuring the quality of examination results',
+        ar:'•	ضمان جودة نتائج الفحص.'
+    },
+    course9requirements23:{
+        en:'●	Post-examination processes',
+        ar:'•	عمليات ما بعد الفحص.'
+    },
+    course9requirements24:{
+        en:'●	Reporting of results',
+        ar:'•	تقارير النتائج.'
+    },
+    course9requirements25:{
+        en:'●	Release of results',
+        ar:''
+    },
+    course9requirements26:{
+        en:'●	Laboratory information management',
+        ar:''
+    },
+    course9objctive1:{
+        en:'●	Understand the international system of laboratories accreditation and the requirements of ISO 15189: 2012',
+        ar:'o	فهم النظام الدولي لإعتماد المختبرات ومتطلبات المواصفة الدولية ISO 15189: 2012.'
+    },
+    course9objctive2:{
+        en:'●	Understand the technical competence requirements of medical laboratories',
+        ar:'o	فهم متطلبات الكفاءة الفنية للمختبرات الطبية.'
+    },
+    course9objctive3:{
+        en:'●	Learn how to design and operate a laboratory quality management system in accordance with the standard',
+        ar:'o	تعلم كيفية تصميم وتشغيل نظام إدارة جودة المختبر وفقًا للمواصفة.'
+    },
+    course9objctive4:{
+        en:'●	Gain confidence in implementing the requirements of the standard',
+        ar:'o	اكتساب الثقة في تنفيذ متطلبات المواصفة.'
+    },
+    course9objctive5:{
+        en:'●	Exchange experiences and benefit from group discussions and case studies',
+        ar:'o	تبادل الخبرات والاستفادة من المناقشات الجماعية ودراسات الحالة.'
+    },
+    course9audiance1:{
+        en:'This training course is designed for technical and management staff in medical laboratories who are responsible for implementing and maintaining laboratory quality management systems in accordance with ISO 15189: 2012.',
+        ar:'هذه الدورة التدريبية مصممة للموظفين الفنيين والإداريين في المختبرات الطبية الذين يتحملون مسؤولية تنفيذ والحفاظ على نظام إدارة جودة المختبر وفقًا للمواصفة الدولية ISO 15189: 2012.'
+    },
 
 
 
