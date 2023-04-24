@@ -2174,8 +2174,59 @@ const indexTrans: translataionContainer = {
         en:'●	Personnel responsible for procurement and evaluation of laboratory services',
         ar:'•	الشخصيات المسؤولة عن شراء وتقييم خدمات المختبر.'
     },
-
-
+/////////course 11 ///////////
+    course11Desc:{
+        en:'This training course focuses on the estimation of measurement uncertainty, which is a crucial technical requirement for laboratories seeking accreditation. The course is designed for laboratory personnel responsible for implementing uncertainty analysis methods and procedures for ISO/IEC 17025:2017 compliance. Participants will gain an understanding of the detailed steps required, accepted practices, and types of uncertainties that need to be considered by laboratories to report valid results.',
+        ar:'تركز هذه الدورة التدريبية على تقدير عدم اليقين في القياس، والذي هو متطلب فني حاسم للمختبرات التي تسعى للحصول على الاعتماد. تم تصميم الدورة لموظفي المختبر المسؤولين عن تنفيذ طرق وإجراءات تحليل عدم اليقين للامتثال لـ ISO/IEC 17025:2017. سيكتسب المشاركون فهمًا للخطوات التفصيلية المطلوبة والممارسات المقبولة وأنواع العدم اليقين التي يجب النظر فيها من قبل المختبرات لتقديم نتائج صحيحة.'
+    },
+    course11outline1:{
+        en:'●	Understanding the statistical concepts required for the estimation of measurement uncertainty',
+        ar:'•	فهم المفاهيم الإحصائية المطلوبة لتقدير عدم اليقين في القياس'
+    },
+    course11outline2:{
+        en:'●	Implementation of the requirements of ISO/IEC 17025:2017 related to measurement uncertainty',
+        ar:'•	تنفيذ متطلبات ISO/IEC 17025:2017 المتعلقة بعدم اليقين في القياس'
+    },
+    course11outline3:{
+        en:'●	Estimating measurement uncertainty from start to finish to ensure the validity of laboratory results',
+        ar:'•	تقدير عدم اليقين في القياس من البداية إلى النهاية لضمان صحة نتائج المختبر'
+    },
+    course11outline4:{
+        en:'●	Introduction to the international requirements for estimation of uncertainty',
+        ar:'•	مقدمة للمتطلبات الدولية لتقدير عدم اليقين'
+    },
+    course11outline5:{
+        en:'●	Use of case studies and practical exercises with group discussions of results to develop skills in the estimation of measurement uncertainty',
+        ar:'•	استخدام دراسات الحالة والتمارين العملية مع مناقشات جماعية للنتائج لتطوير المهارات في تقدير عدم اليقين في القياس'
+    },
+    course11objctive1:{
+        en:'●	Explain the statistical principles of the measurement process',
+        ar:'•	شرح المبادئ الإحصائية لعملية القياس'
+    },
+    course11objctive2:{
+        en:'●	Understand the sources of measurement uncertainty',
+        ar:'•	فهم مصادر عدم اليقين في القياس'
+    },
+    course11objctive3:{
+        en:'●	Calculate measurement uncertainty using the traditional and top-down approaches',
+        ar:'•	حساب عدم اليقين في القياس باستخدام الطريقتين التقليدية والعلوية'
+    },
+    course11objctive4:{
+        en:'●	Determine expanded uncertainty and effective degree of freedom',
+        ar:'•	تحديد العدم الموسع ودرجة الحرية الفعالة'
+    },
+    course11objctive5:{
+        en:'●	Report measurement uncertainty',
+        ar:'•	تقرير عدم اليقين في القياسات'
+    },
+    course11objctive6:{
+        en:'●	Apply ILAC policies for measurement uncertainty',
+        ar:'•	تطبيق سياسات ILAC لعدم اليقين في القياسات'
+    },
+    course1audiance1:{
+        en:'This training course is intended for technical and management staff in calibration and testing laboratories.',
+        ar:'هذا الدورة التدريبية مخصصة للموظفين التقنيين والإداريين في مختبرات الكاليبريشن والاختبار.'
+    },
 
 
 
