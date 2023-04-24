@@ -51,7 +51,7 @@ const Course:NextPageWithLayout = (props:Props) => {
         <title>Course Details | CASCO</title>
     </Head>
     <main className={`${styles.bodyContainer}`}>
-    <div className={`text-center row ${styles.titleWord}`}>
+    <div className={`text-center row ${styles.titleWord3}`}>
         <div className={`container mb-4`}>
             <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
             <Link href={"/courses"}><a className="text-white fw-semibold mb-4" data-trans="CourseNav2">{` > Courses`}</a></Link>
@@ -123,45 +123,48 @@ const Course:NextPageWithLayout = (props:Props) => {
                 <div className="description" id='description'>
                     <span className='fs-5 fw-bold' data-trans="Description">Description</span>
                     <p className='mt-4 mb-2 text-black-50' data-trans="TRAININGPROGRAM">TRAINING PROGRAM INTRODUCTION:</p>
-                    <small className='text-black-50 mt-2 d-inline-block' data-trans="course1Desc">{`This course is designed to provide an understanding of Food Safety Management Systems (FSMS) and their role in ensuring the safety and quality of food products. It covers the key principles of FSMS, including risk-based approaches, hazard analysis, control measures, and validation, surveillance and verification. The course also covers the broader context of food companies, including the expectations of interested parties, leadership, and performance and improvement.`}</small>
+                    <small className='text-black-50 mt-2 d-inline-block' data-trans="course15Desc">{``}</small>
                 </div>
                 <div className="outline mt-4" id='outline'>
                     <span className='fs-5 fw-bold d-block' data-trans="OutLine">Course Outlines:</span>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline1">{`The site of FSMS in quality systems`}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline2">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline3">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline4">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline5">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline6">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline7">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline8">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline9">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline10">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline11">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline12">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline13">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline14">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline15">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline16">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline17">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline18">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline19">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline20">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline21">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline22">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline23">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline24">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline25">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline26">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline27">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline28">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline29">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline30">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline31">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline32">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline33">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline34">{``}</small>
-                    <small className='text-black-50 mt-3 d-block' data-trans="course1outline35">{``}</small>
+                        <span className='fw-bold d-block mt-3 mb-3' data-trans="Day1"></span>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline1">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline2">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline3">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline4">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline5">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline6">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline7">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline8">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline9">{``}</small>
+                        <span className='fw-bold d-block mt-3 mb-3' data-trans="SecondDay"></span>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline10">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline11">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline12">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline13">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline14">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline15">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline16">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline17">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline18">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline19">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline20">{``}</small>
+                        <span className='fw-bold d-block mt-3 mb-3' data-trans="ThiredDay"></span>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline21">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline22">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline23">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline24">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline25">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline26">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline27">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline28">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline29">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline30">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline31">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline32">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline33">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline34">{``}</small>
+                            <small className='text-black-50 mt-3 d-block' data-trans="course15outline35">{``}</small>
                 </div>
                 <div className="objective mt-4" id='objective'>
                     <span className='fs-5 fw-bold d-block' data-trans="CourseObjectives">Course Objectives:</span>

@@ -2631,7 +2631,152 @@ const indexTrans: translataionContainer = {
         en:'The course duration is 3 days of interactive training sessions, including group discussions, case studies, and practical exercises.',
         ar:'تستغرق مدة الدورة 3 أيام من الجلسات التدريبية التفاعلية، بما في ذلك دراسات الحالة والمناقشات الجماعية والتمارين العملية.'
     },
-
+    ///// course 15 //////
+    course15Desc:{
+        en:'This course provides a comprehensive understanding of the principles and requirements of the ISO 22000:2018 standard for food safety management systems (FSMS). The course covers the key elements of the standard including hazard analysis, hazard control plans, food defence, food fraud, validation, surveillance, and verification. Participants will also learn about the implementation and compliance requirements for the standard.',
+        ar:'تهدف هذه الدورة التدريبية إلى توفير فهم شامل لمبادئ ومتطلبات معيار ISO 22000:2018 لأنظمة إدارة سلامة الغذاء. تغطي الدورة العناصر الرئيسية للمعيار بما في ذلك تحليل المخاطر وخطط السيطرة على المخاطر والدفاع عن الغذاء والتحايل الغذائي والتحقق من الصحة والمراقبة. سيتعلم المشاركون أيضًا عن متطلبات التطبيق والامتثال للمعيار.'
+    },
+    course15outline1:{
+        en:'●	Introduction to ISO 22000:2018 and its Role in food safety management',
+        ar:'•	مقدمة لمعيار ISO 22000:2018 ودوره في إدارة سلامة الغذاء'
+    },
+    course15outline2:{
+        en:'●	The site of FSMS in quality systems',
+        ar:'•	موقع أنظمة إدارة سلامة الغذاء في أنظمة الجودة'
+    },
+    course15outline3:{
+        en:'●	The concept of quality in food industries',
+        ar:'•	مفهوم الجودة في صناعات الأغذية'
+    },
+    course15outline4:{
+        en:'●	The concept of PRPs, of HACCP, and of FSMS',
+        ar:'•	مفهوم PRPs و HACCP و FSMS'
+    },
+    course15outline5:{
+        en:'●	Health Master Plan',
+        ar:'•	خطة السيد الصحي'
+    },
+    course15outline6:{
+        en:'●	Guides to good hygiene practices',
+        ar:'•	دلائل الممارسات الصحية الجيدة'
+    },
+    course15outline7:{
+        en:'●	The family of ISO 22002 standards',
+        ar:'•	عائلة معايير ISO 22002'
+    },
+    course15outline8:{
+        en:'●	Preliminary steps to enable hazard analysis',
+        ar:'•	الخطوات الأولية لتمكين تحليل المخاطر'
+    },
+    course15outline9:{
+        en:'●	Hazard analysis',
+        ar:'•	تحليل المخاطر'
+    },
+    course15outline10:{
+        en:'●	Combinations of control measures',
+        ar:'•	مزيج من تدابير السيطرة'
+    },
+    course15outline11:{
+        en:'●	Hazard control plan (CCPs/OPRPs)',
+        ar:'•	خطة السيطرة على المخاطر (CCPs / OPRPs)'
+    },
+    course15outline12:{
+        en:'●	Food defence',
+        ar:'•	الدفاع عن الغذاء'
+    },
+    course15outline13:{
+        en:'●	Food Fraud',
+        ar:'•	التحايل الغذائي'
+    },
+    course15outline14:{
+        en:'●	Context of Food Companies',
+        ar:'•	سياق شركات الأغذية'
+    },
+    course15outline15:{
+        en:'●	The needs and expectations of interested parties',
+        ar:'•	احتياجات وتوقعات الأطراف المعنية'
+    },
+    course15outline16:{
+        en:'●	Determining the scope of the food safety management system',
+        ar:'•	تحديد نطاق نظام إدارة سلامة الغذاء'
+    },
+    course15outline17:{
+        en:'●	Concept of Leadership',
+        ar:'•	مفهوم القيادة'
+    },
+    course15outline18:{
+        en:'●	Commitments',
+        ar:'•	التزامات'
+    },
+    course15outline19:{
+        en:'●	Organizational roles, responsibilities, and authorities',
+        ar:'•	الأدوار والمسؤوليات والسلطات التنظيمية'
+    },
+    course15outline20:{
+        en:'●	Risks and opportunities',
+        ar:'•	المخاطر والفرص'
+    },
+    course15outline21:{
+        en:'●	Objectives of the FSMS',
+        ar:'•	أهداف نظام إدارة سلامة الغذاء'
+    },
+    course15outline22:{
+        en:'●	Resources',
+        ar:'•	الموارد'
+    },
+    course15outline23:{
+        en:'●	Competence',
+        ar:'•	الكفاءة'
+    },
+    course15outline24:{
+        en:'●	Communication',
+        ar:'•	الاتصال'
+    },
+    course15outline25:{
+        en:'●	Documented information',
+        ar:'•	المعلومات الموثقة'
+    },
+    course15outline26:{
+        en:'●	Operation',
+        ar:'•	العملية'
+    },
+    course15outline27:{
+        en:'●	Traceability system',
+        ar:'•	نظام التتبع'
+    },
+    course15outline28:{
+        en:'●	Emergency preparedness and response',
+        ar:'•	الاستعداد للطوارئ والاستجابة'
+    },
+    course15outline29:{
+        en:'●	Concept of validation, surveillance, and verification (V/S/V)',
+        ar:'•	مفهوم التحقق والمراقبة والتحقق (V/S/V)'
+    },
+    course15outline30:{
+        en:'●	The contribution of the analysis laboratory',
+        ar:'•	مساهمة مختبر التحليل'
+    },
+    course15outline31:{
+        en:'●	Performance and improvement',
+        ar:'•	الأداء والتحسين'
+    },
+    course15outline32:{
+        en:'●	Monitoring and measurement',
+        ar:'•	المراقبة والقياس'
+    },
+    course15outline33:{
+        en:'●	Internal audit',
+        ar:'•	التدقيق الداخلي'
+    },
+    course15outline34:{
+        en:'●	Management review',
+        ar:'•	المراجعة الإدارية'
+    },
+    course15outline35:{
+        en:'●	Nonconformity, corrective action, and Update of the FSMS',
+        ar:'•	عدم الامتثال والإجراء التصحيحي وتحديث نظام إدارة سلامة الغذاء'
+    },
+   
 
 
 
