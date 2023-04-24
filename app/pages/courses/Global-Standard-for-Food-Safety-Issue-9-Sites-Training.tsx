@@ -177,7 +177,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                                       <small className="fw-bold mt-1" data-trans="coursedate1jun">01-Jun-2023</small>
                                   </div>
                             </li>
-                            <li className={`d-flex mt-2 ${styles.liDiv}`}>
+                            {/* <li className={`d-flex mt-2 ${styles.liDiv}`}>
                                 <div className={`${styles.iconHolder}`}>
                                     <img src="/images/courses_section/clock-fill2.svg" alt=""/>
                                 </div>
@@ -185,7 +185,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                                     <small className="text-black-50" data-trans="EstimatedTime">Estimated Time</small>
                                     <small className="fw-bold mt-1" data-trans="Days2">2 Days</small>
                                 </div>
-                            </li>
+                            </li> */}
                             <li className={`d-flex mt-2 ${styles.liDiv}`}>
                                 <div className={`${styles.iconHolder}`}>
                                     <img src="/images/courses_section/pin-2.svg" alt=""/>

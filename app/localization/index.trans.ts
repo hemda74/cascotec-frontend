@@ -2893,9 +2893,67 @@ const indexTrans: translataionContainer = {
         en:'The course duration is 2 days of interactive training sessions, including group discussions, case studies, and practical exercises.',
         ar:'تستغرق الدورة يومين من جلسات التدريب التفاعلية، بما في ذلك المناقشات الجماعية والدراسات الحالة والتمارين العملية.'
     },
-
-
-
+    //////// course 17 //////////
+    course17Desc:{
+        en:'This 5-day course provides participants with an in-depth understanding of the Standard, protocol, requirements and how to audit effectively. Participants will gain the necessary skills to assess compliance with the requirements of the Standard, including fundamental clauses, statements of intent, how to undertake a BRCGS audit, planning of the audit and reporting of the audit. The course covers auditing fundamentals and techniques including the auditor competency skills required of auditors auditing against Global Food Safety Initiative (GFSI) recognised certification programmes.',
+        ar:'توفر هذه الدورة المدتها 5 أيام للمشاركين فهمًا عميقًا للمعيار والبروتوكول والمتطلبات وكيفية التدقيق بفعالية. سيكتسب المشاركون المهارات اللازمة لتقييم الامتثال لمتطلبات المعيار، بما في ذلك الشروط الأساسية وبيانات النوايا وكيفية إجراء تدقيق BRCGS وتخطيط التدقيق وتقديم تقرير التدقيق. تغطي الدورة الأساسيات والتقنيات اللازمة للتدقيق بما في ذلك المهارات المطلوبة للمدققين المدققين ضد برامج الشهادة المعترف بها من قبل مبادرة السلامة الغذائية العالمية (GFSI).'  
+    },
+    course17outline1:{
+        en:'●	Introduction to the Standard',
+        ar:'•	مقدمة في المعيار'
+    },
+    course17outline2:{
+        en:'●	BRCGS Audit and Certification Process',
+        ar:'•	عملية تدقيق وشهادة BRCGS'
+    },
+    course17outline3:{
+        en:'●	Audit Planning and Conducting an Audit',
+        ar:'•	تخطيط التدقيق وإجراء التدقيق'
+    },
+    course17outline4:{
+        en:'●	Audit Reporting and Corrective Action',
+        ar:'•	تقرير التدقيق واتخاذ إجراءات تصحيحية'
+    },
+    course17outline5:{
+        en:'●	Auditor Competencies',
+        ar:'•	مهارات المدققين'
+    },
+    course17outline6:{
+        en:'●	Assessment Examination',
+        ar:'•	امتحان التقييم'
+    },
+    course17objctive1:{
+        en:'●	Explain the steps to managing an audit programme',
+        ar:'•	شرح خطوات إدارة برنامج التدقيق'
+    },
+    course17objctive2:{
+        en:'●	Describe auditing fundamentals and techniques',
+        ar:'•	وصف الأسس والتقنيات المتعلقة بالتدقيق'
+    },
+    course17objctive3:{
+        en:'●	Assess compliance to the requirements of the Standard and explain how compliance can be demonstrated to maintain food safety, quality, legality, and authenticity',
+        ar:'•	تقييم الامتثال لمتطلبات المعيار وشرح كيفية إثبات الامتثال للحفاظ على سلامة الأغذية وجودتها وقانونيتها وأصالتها'
+    },
+    course17objctive4:{
+        en:'●	Describe the scope of companies and products covered by the Standard',
+        ar:'•	وصف نطاق الشركات والمنتجات التي تغطيها المعيار'
+    },
+    course17objctive5:{
+        en:'●	Describe the steps to conduct a BRCGS audit including the preparation, planning, and reporting of the audit',
+        ar:'•	وصف خطوات إجراء تدقيق BRCGS بما في ذلك التحضير والتخطيط وتقديم تقرير التدقيق'
+    },
+    course17objctive6:{
+        en:'●	Utilise and explain resource tools available for compliance and beneficial support from BRCGS',
+        ar:'•	استخدام وشرح الأدوات المتاحة للامتثال والدعم المفيد من BRCGS'
+    },
+    course17audiance1:{
+        en:'This course is designed for those who wish to become BRCGS auditors, as well as existing auditors looking to enhance their skills and knowledge.',
+        ar:'صمم هذا الدورة التدريبية لأولئك الذين يرغبون في أن يصبحوا مدققين في BRCGS، بالإضافة إلى المدققين الحاليين الذين يرغبون في تعزيز مهاراتهم ومعرفتهم.'
+    },
+    Days5Destailes:{
+        en:'The course duration is 5 days of interactive training sessions, including group discussions, case studies, and practical exercises.',
+        ar:'تستمر المدة الزمنية للدورة التدريبية لمدة 5 أيام من جلسات التدريب التفاعلية، بما في ذلك المناقشات الجماعية ودراسات الحالة والتمارين العملية. '
+    },
 
 
 
