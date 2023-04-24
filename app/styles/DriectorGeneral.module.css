@@ -16,14 +16,14 @@
 .innerCont{
   background: #ffff;
   border-radius: 1rem;
-  box-shadow: 0px 30px 40px -20px #8787b2;
+  box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
   padding-top: 5rem;
 }
 .ethicCard3{
   max-width: 50.2777777778rem;
   margin-top: auto;
   margin-bottom: 0;
-  box-shadow: 0px 30px 40px -20px #8787b2;
+  box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
   padding: 1rem;
   background: #f6f6f9;  
   border-radius: 1rem;

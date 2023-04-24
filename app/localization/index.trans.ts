@@ -632,7 +632,6 @@ const indexTrans: translataionContainer = {
         en:'Dr.Mohamed Mosaad',
         ar:'د .محمد مسعد'
     },
-
     /////////////////////< The director general1 >///////////////////////
     routeDirctorGeneral:{
         en:'Home > About Us > Director General',
@@ -666,6 +665,24 @@ const indexTrans: translataionContainer = {
         en:'With his extensive experience and achievements, Ahmed is now the General Manager of CASCO, where he brings his expertise in human resources to drive the growth of the company.',
         ar:'وبفضل خبرته الواسعة وإنجازاته، يشغل أحمد الآن منصب المدير العام لشركة كاسكو، حيث يجلب خبرته في الموارد البشرية لدفع نمو الشركة.'
     },
+    // ahmed badawy
+    ahmedbadway2:{
+        en:'Dr. Ahmed Bedewi is a highly experienced business manager, consultant, and lecturer with a diverse skill set and knowledge base. He has gained extensive expertise in various business functions, including strategic management, compliance management, continuity, and risk management, project management, human resources management, sales, and marketing management, and management consulting services.',
+        ar:'الدكتور أحمد بدوي هو مدير أعمال، مستشار، ومحاضر ذو خبرة عالية ومجموعة متنوعة من المهارات والمعارف. اكتسب خبرة واسعة في مجالات الأعمال المختلفة، بما في ذلك الإدارة الاستراتيجية وإدارة الامتثال والاستمرارية وإدارة المخاطر، وإدارة المشاريع وإدارة الموارد البشرية وإدارة المبيعات والتسويق وخدمات الاستشارات الإدارية.'
+    },
+    ahmedbadway3:{
+        en:'Dr. Bedewi has also worked across several industries, including pharmaceutical promotion and manufacturing, certification and inspection services, and training and education services.',
+        ar:'عمل الدكتور بدوي أيضًا في عدة صناعات، بما في ذلك صناعة الترويج الدوائي والتصنيع وخدمات الشهادة والتفتيش وخدمات التدريب والتعليم.'
+    },
+    ahmedbadway4:{
+        en:`Additionally, Dr. Bedewi served as the Business Development & Training Academy Manager at SGS Egypt Ltd., where he launched the global SGS Academy concept in Egypt and achieved annually agreed objectives, including target revenues of 4,000,000 USD per annum. He has also held positions at YAT LEARNING SOLUTIONS, Egypt's leading training provider, where he managed multiple branches and developed the company's business training product portfolio.`,
+        ar:'كما شغل الدكتور بدوي منصب مدير تطوير الأعمال وأكاديمية التدريب في شركة SGS مصر المحدودة، حيث أطلق مفهوم أكاديمية SGS العالمية في مصر وحقق الأهداف المتفق عليها سنويًا، بما في ذلك تحقيق إيرادات هدف بلغت 4،000،000 دولار سنويًا. وقد شغل الدكتور بدوي أيضًا مناصب في شركة YAT LEARNING SOLUTIONS، الشركة الرائدة في مجال تقديم الدورات التدريبية في مصر، حيث قام بإدارة عدة فروع وتطوير محفظة منتجات التدريب في الشركة.'
+    },
+    ahmedbadway5:{
+        en:'Overall, Dr. Ahmed Bedewi is a highly competent and accomplished expert in the business world, with a proven track record of success in various leadership and consulting roles.',
+        ar:'بشكل عام، يعد الدكتور أحمد بدوي خبيرًا متميزًا ومتألقًا في عالم الأعمال، حيث لديه سجل حافل بالنجاحات في مختلف المناصب القيادية والاستشارية التي شغلها.'
+    },
+    
 //////////////////< Our Values >////////////////////////
     routeourvalues:{
         en:'Home > About Us > Our Values',

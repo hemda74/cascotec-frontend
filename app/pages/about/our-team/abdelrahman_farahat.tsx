@@ -21,13 +21,13 @@ const ahmed_hammad:NextPageWithLayout = (props:Props) => {
               <div className={`container mb-4`}>
                   <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
                   <Link href={"/about"}><a className="text-white fw-semibold mb-4" data-trans="AboutCascoNav2">{` > About CASCO`}</a></Link>
-                  <Link href={"/about/board-of-directors"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{` > Board Of Directors`}</a></Link>
+                  <Link href={"/about/board-of-directors"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{``}</a></Link>
               </div>
             <h2 className={`text-white fw-bold mb-5`} data-trans="ProfDrAbdelrhamanFarahat">Prof. Dr. Abdelrhaman Farahat</h2>
           </div>
           <div className={`container row m-auto`} >
               <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-3 mb-3">
-                  <Image src={hammad} className={`${styles.cardImage} rounded`} width={500} height={600}   alt="ahmed_hammad"/>
+                  <Image src={hammad} className={`${styles.cardImage} rounded`} width={500} height={600} alt="ahmed_hammad"/>
               </div>
               <div className={`${styles.ethicCard3} col-lg-7 col-md-8 col-sm-12 mt-5 mb-3`}>
                   <span className='fs-4 fw-bold m-2' data-trans="Responsibilities">Roles and Responsibilities</span>

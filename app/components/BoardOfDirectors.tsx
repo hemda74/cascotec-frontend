@@ -57,7 +57,7 @@ const BoardOfDirectors = () => {
                                 </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                              <Link href={'/about/our-team/ahmed_badawy'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={badwy} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -72,7 +72,7 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
 
                         </div>  
                         <div className="col-xl-4 col-md-6 d-flex" >

@@ -12,12 +12,13 @@ const DriectorGeneral = (props:Props) => {
   return (
  <>
     <div className={`text-center ${styles.titleWord}`}>
-    <div className={`container mb-4`}>
-        <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
-        <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
-        <Link href={"/director-general"}><a className="text-white fw-semibold mb-4">{` > Director General`}</a></Link>
+        <div className={`container mb-4`}>
+            <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
+            <Link href={"/about"}><a className="text-white fw-semibold mb-4" data-trans="AboutCascoNav2">{` > About CASCO`}</a></Link>
+            <Link href={"/about/board-of-directors"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{``}</a></Link>
         </div>
-      <h2 className={`text-white fw-bold mb-5 `} data-trans="DirectorManger">Director General</h2>
+      <h3 className={`text-white fw-bold mb-2 `} data-trans="DirectorManger">Director General</h3>
+      <h2 className={`text-white fw-bold mb-0`} data-trans="MrAhmedMahrous">Mr. Ahmed Mahrous</h2>
     </div>
     <div className={`container row m-auto`} >
         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-3 mb-3">
@@ -32,19 +33,19 @@ const DriectorGeneral = (props:Props) => {
                 </li>	
                 <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
-                    <span data-trans="Thedirectorgeneral3" className='me-4 ms-4'>{`Signing mutual recognition arrangements`}</span>
+                    <span data-trans="Thedirectorgeneral3" className='me-4 ms-4'>{``}</span>
                 </li>
                 <li className={`${styles.itemCheckTage} mt-2 mb-0 d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
-                    <span  className='ms-4 me-4' data-trans="Thedirectorgeneral4">{`Supporting GAC presence in regional and international institutions in accordance with relevant laws and regulations, international standards and conventions`}</span>
+                    <span  className='ms-4 me-4' data-trans="Thedirectorgeneral4">{``}</span>
                 </li>
                 <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
-                    <span data-trans="Thedirectorgeneral5" className='me-4 ms-4'>{`Develop relationships with stakeholders of accreditation activity`}</span>
+                    <span data-trans="Thedirectorgeneral5" className='me-4 ms-4'>{``}</span>
                 </li>
                 <li className={`${styles.itemCheckTage} mt-2 d-flex`}>
                     <p><FcCheckmark size={20} className=''/></p>
-                    <span data-trans="Thedirectorgeneral6" className='me-4 ms-4'>{`Head of evaluation teams for the accreditation of laboratories, inspection bodies, Halal certification bodies, and product certification bodies`}</span>
+                    <span data-trans="Thedirectorgeneral6" className='me-4 ms-4'>{``}</span>
                 </li>
             </ul>
             <div className='text-center mt-4'>

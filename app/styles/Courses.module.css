@@ -6,7 +6,7 @@
   }
   .coursesCard
   {
-    box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
+      box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
       padding: 0.5rem;
       border-radius: 1rem;
       border: none;
