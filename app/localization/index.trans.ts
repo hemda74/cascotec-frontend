@@ -2788,9 +2788,111 @@ const indexTrans: translataionContainer = {
         en:'●	Understand the implementation and compliance requirements for the standard',
         ar:'•	فهم متطلبات التنفيذ والامتثال للمعيار'
     },
-///////// course 16 ////////
-    
-
+    ///////// course 16 ////////
+    course16Desc:{
+        en:'This 2-day course provides participants with a comprehensive understanding of the general principles of the requirements of the Global Standard for Food Safety Issue 9. The course is designed to equip delegates with the knowledge and skills necessary to successfully implement the requirements of the Standard on-site. Participants will discuss activities that develop a culture of compliance and learn what to expect during the certification process, including actions needed prior to, during, and after the audit.The course uses active learning methods and case study-based activities to encourage critical thinking and help explain how sites will implement the Standard. In preparation for the course, participants are required to read and review a copy of the Standard, including the glossary, which is available as a free download from the BRCGS Store. Participants are advised to have a working knowledge of HACCP.At the end of the course, participants will be assessed with an exam. ',
+        ar:'توفر هذه الدورة المدتها يومين للمشاركين فهمًا شاملا للمبادئ العامة لمتطلبات Global Standard for Food Safety Issue 9. تم تصميم الدورة لتزويد المشاركين بالمعرفة والمهارات اللازمة لتنفيذ متطلبات المعيار بنجاح على الموقع. سيناقش المشاركون الأنشطة التي تطور ثقافة الامتثال ويتعلمون ما يجب توقعه خلال عملية التصديق، بما في ذلك الإجراءات المطلوبة قبل وأثناء وبعد الفحص.  تستخدم الدورة أساليب التعلم النشط وأنشطة قائمة على دراسات الحالة لتشجيع التفكير النقدي والمساعدة في شرح كيفية تنفيذ المعيار في المواقع. وبالإعداد للدورة، يُطلب من المشاركين قراءة ومراجعة نسخة من المعيار، بما في ذلك المعجم، الذي يتوفر كتنزيل مجاني من متجر BRCGS. ينصح المشاركون بأن يكونوا على دراية بـ HACCP.	في نهاية الدورة، سيتم تقييم المشاركين بامتحان.'
+    },
+    course16outline1:{
+        en:'●	Introduction to the Global Standard for Food Safety Issue 9',
+        ar:'•	مقدمة في المعيار العالمي لسلامة الأغذية الإصدار 9'
+    },
+    course16outline2:{
+        en:'●	Scope of the Standard',
+        ar:'•	نطاق المعيار'
+    },
+    course16outline3:{
+        en:'●	Overview of the requirements of the Standard',
+        ar:'•	نظرة عامة على متطلبات المعيار'
+    },
+    course16outline4:{
+        en:'●	Requirements for senior management commitment and continual improvement',
+        ar:'•	متطلبات الالتزام الإدارة العليا والتحسين المستمر'
+    },
+    course16outline5:{
+        en:'●	Preparing for a BRCGS audit',
+        ar:'•	التحضير لتدقيق BRCGS'
+    },
+    course16outline6:{
+        en:'●	Audit planning and preparation',
+        ar:'•	تخطيط وإعداد التدقيق'
+    },
+    course16outline7:{
+        en:'●	On-site implementation of the Standard',
+        ar:'•	تنفيذ المعيار في الموقع'
+    },
+    course16outline8:{
+        en:'●	Control of operations',
+        ar:'•	السيطرة على العمليات'
+    },
+    course16outline9:{
+        en:'●	Management of food safety hazards',
+        ar:'•	إدارة مخاطر سلامة الأغذية'
+    },
+    course16outline10:{
+        en:'●	Site standards, layout, and product flow',
+        ar:'•	معايير الموقع والتصميم وتدفق المنتجات'
+    },
+    course16outline11:{
+        en:'●	Personnel and training',
+        ar:'•	الموظفين والتدريب'
+    },
+    course16outline12:{
+        en:'●	Maintenance and cleaning',
+        ar:'•	الصيانة والتنظيف'
+    },
+    course16outline13:{
+        en:'●	Validation, verification, and improvement of the Food Safety Management System',
+        ar:'•	التحقق والتحسين المستمر لنظام إدارة سلامة الأغذية'
+    },
+    course16outline14:{
+        en:'●	Examination and assessment',
+        ar:'•	الامتحان والتقييم'
+    },
+    course16objctive1:{
+        en:'●	Explain what is required to comply with the requirements of the Global Standard for Food Safety Issue 9',
+        ar:'•	شرح ما هو مطلوب للامتثال لمتطلبات Global Standard for Food Safety Issue 9'
+    },
+    course16objctive2:{
+        en:'●	Describe the scope of companies and products covered by the Standard',
+        ar:'•	وصف نطاق الشركات والمنتجات المشمولة بالمعيار'
+    },
+    course16objctive3:{
+        en:'●	Describe what to expect from your BRCGS audit',
+        ar:'•	وصف ما يمكن توقعه من تصديق BRCGS'
+    },
+    course16objctive4:{
+        en:'●	Prepare for an audit of the Standard',
+        ar:'•	الاستعداد لفحص المعيار'
+    },
+    course16objctive5:{
+        en:'●	Apply resource tools available for compliance and support from BRCGS',
+        ar:'•	تطبيق أدوات الموارد المتاحة للامتثال والدعم من BRCGS'
+    },
+    course16audiance1:{
+        en:'●	Food safety managers and team members',
+        ar:'•	مديري سلامة الأغذية وأعضاء الفريق'
+    },
+    course16audiance2:{
+        en:'●	Internal auditors',
+        ar:'•	المدققون الداخليون'
+    },
+    course16audiance3:{
+        en:'●	Quality assurance personnel',
+        ar:'•	موظفو ضمان الجودة'
+    },
+    course16audiance4:{
+        en:'●	Consultants and trainers',
+        ar:'•	المستشارون والمدربون'
+    },
+    course16audiance5:{
+        en:'●	Anyone involved in the implementation or maintenance of a Food Safety Management System',
+        ar:'•	أي شخص مشارك في تنفيذ أو صيانة نظام إدارة سلامة الأغذية'
+    },
+    Days2Destailes:{
+        en:'The course duration is 2 days of interactive training sessions, including group discussions, case studies, and practical exercises.',
+        ar:'تستغرق الدورة يومين من جلسات التدريب التفاعلية، بما في ذلك المناقشات الجماعية والدراسات الحالة والتمارين العملية.'
+    },
 
 
 
