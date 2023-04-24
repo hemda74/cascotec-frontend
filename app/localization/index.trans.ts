@@ -2776,8 +2776,20 @@ const indexTrans: translataionContainer = {
         en:'●	Nonconformity, corrective action, and Update of the FSMS',
         ar:'•	عدم الامتثال والإجراء التصحيحي وتحديث نظام إدارة سلامة الغذاء'
     },
-   
-
+    course15objctive1:{
+        en:'●	Gain a comprehensive understanding of the principles and requirements of the ISO 22000:2018 standard',
+        ar:'•	تحقيق فهم شامل لمبادئ ومتطلبات معيار ISO 22000:2018'
+    },
+    course15objctive2:{
+        en:'●	Learn about hazard analysis and hazard control plans, food defence, food fraud, validation, surveillance, and verification',
+        ar:'•	التعرف على تحليل المخاطر وخطط مراقبة المخاطر والدفاع عن الغذاء والغش الغذائي والتحقق والمراقبة والتحقق'
+    },
+    course15objctive3:{
+        en:'●	Understand the implementation and compliance requirements for the standard',
+        ar:'•	فهم متطلبات التنفيذ والامتثال للمعيار'
+    },
+///////// course 16 ////////
+    
 
 
 
