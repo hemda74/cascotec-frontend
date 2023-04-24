@@ -1715,15 +1715,15 @@ const indexTrans: translataionContainer = {
     },
     course5audiance1:{
         en:'●	Auditors and employees of Halal certification bodies',
-        ar:'•	المراجعون وموظفو جهات تصديق الحلال'
+        ar:'●	المراجعون وموظفو جهات تصديق الحلال'
     },
     course5audiance2:{
         en:'●	Assessors of accreditation bodies',
-        ar:'•	المقيمون في جهات الاعتماد'
+        ar:'●	المقيمون في جهات الاعتماد'
     },
     course5audiance3:{
         en:'●	Managers/Owners/Management teams from laboratory and food industries concerned with developing and maintaining Halal food',
-        ar:'•	مدراء / أصحاب / فرق الإدارة من صناع الأغذية والمختبرات المعنية بتطوير والحفاظ على الأغذية الحلال'
+        ar:'●	مدراء / أصحاب / فرق الإدارة من صناع الأغذية والمختبرات المعنية بتطوير والحفاظ على الأغذية الحلال'
     },
 //////////////////////////////////////  course 6   ////////////////////////////////////////////////////
     course6Desc:{
@@ -1732,72 +1732,72 @@ const indexTrans: translataionContainer = {
     },
     course6outline1:{
         en:'●	Introduction to ISO 19011:2018',
-        ar:'•	مقدمة عن معيار ISO 19011:2018'
+        ar:'●	مقدمة عن معيار ISO 19011:2018'
     },
     course6outline2:{
         en:'●	Overview of Halal Food Processing Steps',
-        ar:'•	نظرة عامة على خطوات معالجة الأغذية الحلال'
+        ar:'●	نظرة عامة على خطوات معالجة الأغذية الحلال'
     },
     course6outline3:{
         en:'●	Principles of Halal Food Preservation',
-        ar:'•	مبادئ حفظ الأغذية الحلال'
+        ar:'●	مبادئ حفظ الأغذية الحلال'
     },
     course6outline4:{
         en:'●	Halal Food Management System Auditing',
-        ar:'•	تدقيق نظام إدارة الأغذية الحلال'
+        ar:'●	تدقيق نظام إدارة الأغذية الحلال'
     },
     course6outline5:{
         en:'●	Planning and Preparation of Halal Food Audits',
-        ar:'•	التخطيط والإعداد لتدقيقات الأغذية الحلال'
+        ar:'●	التخطيط والإعداد لتدقيقات الأغذية الحلال'
     },
     course6outline6:{
         en:'●	Conducting Halal Food Audits',
-        ar:'•	إجراء تدقيقات الأغذية الحلال'
+        ar:'●	إجراء تدقيقات الأغذية الحلال'
     },
     course6outline7:{
         en:'●	Reporting and Follow-up of Halal Food Audits',
-        ar:'•	التقرير ومتابعة تدقيقات الأغذية الحلال'
+        ar:'●	التقرير ومتابعة تدقيقات الأغذية الحلال'
     },
     ///////////////////// objectives  ////////////////////////
     course6objctive1:{
         en:'●	Understand the requirements of ISO 19011:2018 for auditing management systems',
-        ar:'•	فهم متطلبات معيار ISO 19011:2018 لتدقيق أنظمة الإدارة'
+        ar:'●	فهم متطلبات معيار ISO 19011:2018 لتدقيق أنظمة الإدارة'
     },
     course6objctive2:{
         en:'●	Develop an understanding of Halal food processing and preservation',
-        ar:'•	تطوير فهم لمعالجة وحفظ الأغذية الحلال'
+        ar:'●	تطوير فهم لمعالجة وحفظ الأغذية الحلال'
     },
     course6objctive3:{
         en:'●	Learn how to plan and prepare for Halal food audits',
-        ar:'•	تعلم كيفية التخطيط والإعداد لتدقيقات الأغذية الحلال'
+        ar:'●	تعلم كيفية التخطيط والإعداد لتدقيقات الأغذية الحلال'
     },
     course6objctive4:{
         en:'●	Learn how to conduct effective and efficient Halal food audits',
-        ar:'•	تعلم كيفية إجراء تدقيقات فعالة وفعالة للأغذية الحلال'
+        ar:'●	تعلم كيفية إجراء تدقيقات فعالة وفعالة للأغذية الحلال'
     },
     course6objctive5:{
         en:'●	Learn how to report and follow up on Halal food audits',
-        ar:'•	تعلم كيفية التقرير ومتابعة تدقيقات الأغذية الحلال'
+        ar:'●	تعلم كيفية التقرير ومتابعة تدقيقات الأغذية الحلال'
     },
     course6objctive6:{
         en:'●	Understand the certification and accreditation requirements for Halal food auditors',
-        ar:'•	فهم متطلبات الاعتماد والشهادة لمدققي الأغذية الحلال'
+        ar:'●	فهم متطلبات الاعتماد والشهادة لمدققي الأغذية الحلال'
     },
     course6audiance1:{
         en:'●	Auditors and employees of Halal Certification Bodies',
-        ar:'•	المدققون والموظفون في جهات تصديق الحلال'
+        ar:'●	المدققون والموظفون في جهات تصديق الحلال'
     },
     course6audiance2:{
         en:'●	Assessors and employees of Accreditation Bodies',
-        ar:'•	المقيمون والموظفون في جهات الاعتماد'
+        ar:'●	المقيمون والموظفون في جهات الاعتماد'
     },
     course6audiance3:{
         en:'●	Halal Product Manufacturing Managers',
-        ar:'•	مدراء تصنيع المنتجات الحلال'
+        ar:'●	مدراء تصنيع المنتجات الحلال'
     },
     course6audiance4:{
         en:'●	Halal food industries',
-        ar:'•	صناع الأغذية الحلال'
+        ar:'●	صناع الأغذية الحلال'
     },
     /////////////////////////course 7 ////////////////////////////////
     course7Desc:{
@@ -1806,61 +1806,61 @@ const indexTrans: translataionContainer = {
     },
     course7outline1:{
         en:'●	Introduction to the concept of inspection and its classifications',
-        ar:'•	مقدمة عن مفهوم التفتيش وتصنيفاته'
+        ar:'●	مقدمة عن مفهوم التفتيش وتصنيفاته'
     },
     course7outline2:{
         en:'●	Preparation of workers in inspection bodies to meet ISO/IEC 17020:2012 requirements',
-        ar:'•	تجهيز العاملين في جهات التفتيش لتلبية متطلبات ISO/IEC 17020:2012'
+        ar:'●	تجهيز العاملين في جهات التفتيش لتلبية متطلبات ISO/IEC 17020:2012'
     },
     course7outline3:{
         en:'●	Understanding international requirements for inspection bodies',
-        ar:'•	فهم المتطلبات الدولية لجهات التفتيش'
+        ar:'●	فهم المتطلبات الدولية لجهات التفتيش'
     },
     course7outline4:{
         en:'●	Establishment of a quality management system in accordance with international requirements',
-        ar:'•	إنشاء نظام لإدارة الجودة وفقًا للمتطلبات الدولية'
+        ar:'●	إنشاء نظام لإدارة الجودة وفقًا للمتطلبات الدولية'
     },
     course7outline5:{
         en:'●	Exchange of knowledge and skills through case studies and discussions',
-        ar:'•	تبادل المعرفة والمهارات من خلال دراسات الحالة والمناقشات الجماعية'
+        ar:'●	تبادل المعرفة والمهارات من خلال دراسات الحالة والمناقشات الجماعية'
     },
     //// objctives course 7
     course7objctive1:{
         en:'●	Understand the concept of inspection and its different classifications',
-        ar:'•	فهم مفهوم التفتيش وتصنيفاته المختلفة'
+        ar:'●	فهم مفهوم التفتيش وتصنيفاته المختلفة'
     },
     course7objctive2:{
         en:'●	Meet the requirements of ISO/IEC 17020:2012 for inspection bodies',
-        ar:'•	تلبية متطلبات ISO/IEC 17020:2012 لجهات التفتيش'
+        ar:'●	تلبية متطلبات ISO/IEC 17020:2012 لجهات التفتيش'
     },
     course7objctive3:{
         en:'●	Understand international requirements for inspection bodies',
-        ar:'•	فهم المتطلبات الدولية لجهات التفتيش'
+        ar:'●	فهم المتطلبات الدولية لجهات التفتيش'
     },
     course7objctive4:{
         en:'●	Establish a system for quality management in accordance with international requirements',
-        ar:'•	إنشاء نظام لإدارة الجودة وفقًا للمتطلبات الدولية'
+        ar:'●	إنشاء نظام لإدارة الجودة وفقًا للمتطلبات الدولية'
     },
     course7objctive5:{
         en:'●	Exchange knowledge and skills with other participants through case studies and discussions',
-        ar:'•	تبادل المعرفة والمهارات مع المشاركين الآخرين من خلال دراسات الحالة والمناقشات الجماعية'
+        ar:'●	تبادل المعرفة والمهارات مع المشاركين الآخرين من خلال دراسات الحالة والمناقشات الجماعية'
     },
     // course 7 audiance 
     course7audiance1:{
         en:'●	Employees of inspection bodies',
-        ar:'•	موظفي هيئات التفتيش'
+        ar:'●	موظفي هيئات التفتيش'
     },
     course7audiance2:{
         en:'●	Those who carry out inspection procedures for inspection bodies',
-        ar:'•	أولئك الذين يقومون بإجراء إجراءات التفتيش لهيئات التفتيش'
+        ar:'●	أولئك الذين يقومون بإجراء إجراءات التفتيش لهيئات التفتيش'
     },
     course7audiance3:{
         en:'●	Inspection officials in governmental or private bodies concerned with inspection',
-        ar:'•	المسؤولون عن التفتيش في الهيئات الحكومية أو الخاصة المعنية بالتفتيش'
+        ar:'●	المسؤولون عن التفتيش في الهيئات الحكومية أو الخاصة المعنية بالتفتيش'
     },
     course7audiance4:{
         en:'●	All bodies concerned with inspection services',
-        ar:'•	جميع الهيئات المعنية بخدمات التفتيش'
+        ar:'●	جميع الهيئات المعنية بخدمات التفتيش'
     },
     /////////// course 8 ////////////
     course8Desc:{
@@ -1869,64 +1869,64 @@ const indexTrans: translataionContainer = {
     },
     course8outline1:{
         en:'●	Introduction to Halal Certification and its Importance',
-        ar:'•	مقدمة في شهادة الحلال وأهميتها'
+        ar:'●	مقدمة في شهادة الحلال وأهميتها'
     },
     course8outline2:{
         en:'●	Overview of ISO/IEC 17065, ISO/TS 22003, and GSO 2055-2',
-        ar:'•	نظرة عامة على ISO/IEC 17065 و ISO/TS 22003 و GSO 2055-2'
+        ar:'●	نظرة عامة على ISO/IEC 17065 و ISO/TS 22003 و GSO 2055-2'
     },
     course8outline3:{
         en:'●	Legal and contractual requirements for Halal certification bodies',
-        ar:'•	المتطلبات القانونية والتعاقدية لهيئات الشهادة الحلال'
+        ar:'●	المتطلبات القانونية والتعاقدية لهيئات الشهادة الحلال'
     },
     course8outline4:{
         en:'●	Organizational structure and top management of a Halal certification body',
-        ar:'•	الهيكل التنظيمي والإدارة العليا لهيئة الشهادة الحلال'
+        ar:'●	الهيكل التنظيمي والإدارة العليا لهيئة الشهادة الحلال'
     },
     course8outline5:{
         en:'●	Competence required for certification body personnel',
-        ar:'•	الكفاءة المطلوبة لموظفي هيئة الشهادة'
+        ar:'●	الكفاءة المطلوبة لموظفي هيئة الشهادة'
     },
     course8outline6:{
         en:'●	Requirements for the management of impartiality and the mechanism for safeguarding impartiality',
-        ar:'•	متطلبات إدارة النزاهة وآلية حماية النزاهة'
+        ar:'●	متطلبات إدارة النزاهة وآلية حماية النزاهة'
     },
     course8outline7:{
         en:'●	Mechanisms for improvement',
-        ar:'•	آليات التحسين'
+        ar:'●	آليات التحسين'
     },
     course8outline8:{
         en:'●	Requirements for the Halal certification process',
-        ar:'•	متطلبات عملية الشهادة الحلال'
+        ar:'●	متطلبات عملية الشهادة الحلال'
     },
     course8outline9:{
         en:'●	Requirements for the certifier management system',
-        ar:'•	متطلبات نظام إدارة المصدقين'
+        ar:'●	متطلبات نظام إدارة المصدقين'
     },
     course8outline10:{
         en:'●	Overview of mandatory documents and international organizations (IAF) concerned documents',
-        ar:'•	نظرة عامة على الوثائق الإلزامية ومنظمات دولية (IAF) المعنية'
+        ar:'●	نظرة عامة على الوثائق الإلزامية ومنظمات دولية (IAF) المعنية'
     },
     /// course objective
     course8objctive1:{
         en:'●	Review the accreditation requirements of ISO/IEC 17065, ISO/TS 22003, and GSO 2055-2',
-        ar:'•	مراجعة متطلبات الاعتماد المتعلقة بـ ISO/IEC 17065 و ISO/TS 22003 و GSO 2055-2'
+        ar:'●	مراجعة متطلبات الاعتماد المتعلقة بـ ISO/IEC 17065 و ISO/TS 22003 و GSO 2055-2'
     },
     course8objctive2:{
         en:'●	Identify content that may be helpful in demonstrating compliance with each requirement and how this content is reviewed during an assessment',
-        ar:'•	تحديد المحتوى الذي يمكن أن يساعد في إثبات الامتثال لكل متطلب وكيف يتم مراجعة هذا المحتوى خلال التقييم'
+        ar:'●	تحديد المحتوى الذي يمكن أن يساعد في إثبات الامتثال لكل متطلب وكيف يتم مراجعة هذا المحتوى خلال التقييم'
     },
     course8objctive3:{
         en:'●	Define terminology and identify documents, best practices, and other resources that can be helpful in building an understanding of the standard',
-        ar:'•	تعريف المصطلحات وتحديد الوثائق وأفضل الممارسات وغيرها من الموارد التي يمكن أن تساعد في بناء فهم للمعيار'
+        ar:'●	تعريف المصطلحات وتحديد الوثائق وأفضل الممارسات وغيرها من الموارد التي يمكن أن تساعد في بناء فهم للمعيار'
     },
     course8objctive4:{
         en:'●	Become familiar with the GCC accreditation process and its reliance on not only ISO/IEC 17065 and GSO 2055-2 but also other Regional and International Standards',
-        ar:'•	التعرف على عملية الاعتماد في مجلس التعاون الخليجي واعتماده على ليس فقط ISO/IEC 17065 و GSO 2055-2 ولكن أيضًا المعايير الإقليمية والدولية الأخرى'
+        ar:'●	التعرف على عملية الاعتماد في مجلس التعاون الخليجي واعتماده على ليس فقط ISO/IEC 17065 و GSO 2055-2 ولكن أيضًا المعايير الإقليمية والدولية الأخرى'
     },
     course8objctive5:{
         en:`●	Initiate a self-assessment process that will identify strengths as well as possible gaps in their organization's internal policies and procedures.`,
-        ar:'•	البدء في عملية التقييم الذاتي التي تحدد النقاط القوية وكذلك الفجوات المحتملة في سياسات وإجراءات المؤسسة الداخلية.'
+        ar:'●	البدء في عملية التقييم الذاتي التي تحدد النقاط القوية وكذلك الفجوات المحتملة في سياسات وإجراءات المؤسسة الداخلية.'
     },
     course8audiance1:{
         en:'This course is designed for representatives of corporations, organizations, scheme owners, government agencies, and others interested in Halal certification.',
@@ -1939,15 +1939,15 @@ const indexTrans: translataionContainer = {
     },
     course9outline1:{
         en:'●	Introduction to the international system of laboratories accreditation and ISO 15189 requirements:',
-        ar:'•	مقدمة عن نظام الاعتماد الدولي للمختبرات ومتطلبات ISO 15189: 2012.',
+        ar:'●	مقدمة عن نظام الاعتماد الدولي للمختبرات ومتطلبات ISO 15189: 2012.',
     },
     course9outline2:{
         en:'●	Overview of laboratory accreditation',
-        ar:'•	نظرة عامة على اعتماد المختبرات.'
+        ar:'●	نظرة عامة على اعتماد المختبرات.'
     },
     course9outline3:{
         en:'●	Understanding ISO 15189: 2012 and its Importance for medical laboratories',
-        ar:'•	فهم ISO 15189: 2012 وأهميته للمختبرات الطبية.'
+        ar:'●	فهم ISO 15189: 2012 وأهميته للمختبرات الطبية.'
     },
     Managementrequirements:{
         en:'Management requirements of the standard:',
@@ -2019,35 +2019,35 @@ const indexTrans: translataionContainer = {
     },
     course9requirements17:{
         en:'●	Personnel',
-        ar:'•	الشخصيات.'
+        ar:'●	الشخصيات.'
     },
     course9requirements18:{
         en:'●	Accommodation and environmental conditions',
-        ar:'•	المرافق والظروف البيئية.'
+        ar:'●	المرافق والظروف البيئية.'
     },
     course9requirements19:{
         en:'●	Laboratory equipment, reagents, and consumables',
-        ar:'•	معدات المختبر والمواد الكيميائية والمستهلكات.'
+        ar:'●	معدات المختبر والمواد الكيميائية والمستهلكات.'
     },
     course9requirements20:{
         en:'●	Pre-examination processes',
-        ar:'•	عمليات الفحص الأولية.'
+        ar:'●	عمليات الفحص الأولية.'
     },
     course9requirements21:{
         en:'●	Examination processes',
-        ar:'•	عمليات الفحص.'
+        ar:'●	عمليات الفحص.'
     },
     course9requirements22:{
         en:'●	Ensuring the quality of examination results',
-        ar:'•	ضمان جودة نتائج الفحص.'
+        ar:'●	ضمان جودة نتائج الفحص.'
     },
     course9requirements23:{
         en:'●	Post-examination processes',
-        ar:'•	عمليات ما بعد الفحص.'
+        ar:'●	عمليات ما بعد الفحص.'
     },
     course9requirements24:{
         en:'●	Reporting of results',
-        ar:'•	تقارير النتائج.'
+        ar:'●	تقارير النتائج.'
     },
     course9requirements25:{
         en:'●	Release of results',
@@ -2092,27 +2092,27 @@ const indexTrans: translataionContainer = {
     },
     course10outline1:{
         en:'●	Introduction to ISO/IEC 17025:2017 and laboratory accreditation process',
-        ar:'•	مقدمة في معيار ISO/IEC 17025:2017 وعملية الاعتماد للمختبرات'
+        ar:'●	مقدمة في معيار ISO/IEC 17025:2017 وعملية الاعتماد للمختبرات'
     },
     course10outline2:{
         en:'●	General requirements for the competence of testing and calibration laboratories',
-        ar:'•	المتطلبات العامة لكفاءة مختبرات الاختبار والمعايرة'
+        ar:'●	المتطلبات العامة لكفاءة مختبرات الاختبار والمعايرة'
     },
     course10outline3:{
         en:'●	Structural Requirements for a laboratory management system',
-        ar:'•	المتطلبات الهيكلية لنظام إدارة المختبر'
+        ar:'●	المتطلبات الهيكلية لنظام إدارة المختبر'
     },
     course10outline4:{
         en:'●	Resource requirements including personnel and equipment',
-        ar:'•	متطلبات الموارد بما في ذلك الأفراد والمعدات'
+        ar:'●	متطلبات الموارد بما في ذلك الأفراد والمعدات'
     },
     course10outline5:{
         en:'●	Process requirements for testing and calibration activities',
-        ar:'•	متطلبات العمليات لأنشطة الاختبار والمعايرة'
+        ar:'●	متطلبات العمليات لأنشطة الاختبار والمعايرة'
     },
     course10outline6:{
         en:'●	Management system documentation and record-keeping requirements',
-        ar:'•	متطلبات الوثائق والحفاظ عليها لنظام الإدارة'
+        ar:'●	متطلبات الوثائق والحفاظ عليها لنظام الإدارة'
     },
     SecondDay:{
         en:'Day 2',
@@ -2124,59 +2124,59 @@ const indexTrans: translataionContainer = {
     },
     course10outline7:{
         en:'●	ISO 19011:2018 Guidelines for auditing management systems',
-        ar:'•	إرشادات ISO 19011:2018 لمراجعة أنظمة الإدارة'
+        ar:'●	إرشادات ISO 19011:2018 لمراجعة أنظمة الإدارة'
     },
     course10outline8:{
         en:'●	Planning, conducting, and reporting internal audits',
-        ar:'•	التخطيط والتنفيذ والإبلاغ عن المراجعات الداخلية'
+        ar:'●	التخطيط والتنفيذ والإبلاغ عن المراجعات الداخلية'
     },
     course10outline9:{
         en:'●	Practical exercises and case studies on auditing laboratory management systems',
-        ar:'•	تمارين عملية ودراسات حالة حول مراجعة أنظمة إدارة المختبر'
+        ar:'●	تمارين عملية ودراسات حالة حول مراجعة أنظمة إدارة المختبر'
     },
     course10outline10:{
         en:'●	Corrective actions and continual improvement',
-        ar:'•	الإجراءات التصحيحية والتحسين المستمر'
+        ar:'●	الإجراءات التصحيحية والتحسين المستمر'
     },
     course10objctive1:{
         en:'●	Gain a comprehensive understanding of the ISO/IEC 17025:2017 standard and the laboratory accreditation process',
-        ar:'•	اكتساب فهم شامل لمعيار ISO/IEC 17025:2017 وعملية اعتماد المختبرات.'
+        ar:'●	اكتساب فهم شامل لمعيار ISO/IEC 17025:2017 وعملية اعتماد المختبرات.'
     },
     course10objctive2:{
         en:'●	Understand the basic principles of quality management systems and the ISO 19011:2018 guidelines for auditing management systems',
-        ar:'•	فهم المبادئ الأساسية لنظم إدارة الجودة ومبادئ ISO 19011:2018 لتدقيق نظم الإدارة.'
+        ar:'●	فهم المبادئ الأساسية لنظم إدارة الجودة ومبادئ ISO 19011:2018 لتدقيق نظم الإدارة.'
     },
     course10objctive3:{
         en:'●	Learn how to apply ISO/IEC 17025:2017 requirements to laboratory operations and management systems',
-        ar:'•	تعلم كيفية تطبيق متطلبات ISO/IEC 17025:2017 على عمليات ونظم إدارة المختبر.'
+        ar:'●	تعلم كيفية تطبيق متطلبات ISO/IEC 17025:2017 على عمليات ونظم إدارة المختبر.'
     },
     course10objctive4:{
         en:'●	Acquire the skills to plan, conduct, and report internal audits of laboratory management systems',
-        ar:'•	اكتساب المهارات اللازمة لتخطيط وتنفيذ وتقديم تقارير التدقيق الداخلي لنظم إدارة المختبرات.'
+        ar:'●	اكتساب المهارات اللازمة لتخطيط وتنفيذ وتقديم تقارير التدقيق الداخلي لنظم إدارة المختبرات.'
     },
     course10objctive5:{
         en:'●	Develop strategies for implementing corrective actions and continual improvement in laboratory operations',
-        ar:'•	وضع استراتيجيات لتنفيذ الإجراءات التصحيحية والتحسين المستمر في عمليات المختبرات.'
+        ar:'●	وضع استراتيجيات لتنفيذ الإجراءات التصحيحية والتحسين المستمر في عمليات المختبرات.'
     },
     course10audiance1:{
         en:'●	Managers of testing and calibration laboratories',
-        ar:'•	مديري مختبرات الاختبار والمعايرة.'
+        ar:'●	مديري مختبرات الاختبار والمعايرة.'
     },
     course10audiance2:{
         en:'●	Laboratory quality system personnel',
-        ar:'•	الشخصيات المسؤولة عن نظم جودة المختبر.'
+        ar:'●	الشخصيات المسؤولة عن نظم جودة المختبر.'
     },
     course10audiance3:{
         en:'●	Testing and calibration personnel and trainers of laboratory staff',
-        ar:'•	الشخصيات المسؤولة عن الاختبار والمعايرة ومدربي موظفي المختبر.'
+        ar:'●	الشخصيات المسؤولة عن الاختبار والمعايرة ومدربي موظفي المختبر.'
     },
     course10audiance4:{
         en:'●	Consultants providing laboratory accreditation services',
-        ar:'•	المستشارين الذين يقدمون خدمات اعتماد المختبرات.'
+        ar:'●	المستشارين الذين يقدمون خدمات اعتماد المختبرات.'
     },
     course10audiance5:{
         en:'●	Personnel responsible for procurement and evaluation of laboratory services',
-        ar:'•	الشخصيات المسؤولة عن شراء وتقييم خدمات المختبر.'
+        ar:'●	الشخصيات المسؤولة عن شراء وتقييم خدمات المختبر.'
     },
 /////////course 11 ///////////
     course11Desc:{
@@ -2185,47 +2185,47 @@ const indexTrans: translataionContainer = {
     },
     course11outline1:{
         en:'●	Understanding the statistical concepts required for the estimation of measurement uncertainty',
-        ar:'•	فهم المفاهيم الإحصائية المطلوبة لتقدير عدم اليقين في القياس'
+        ar:'●	فهم المفاهيم الإحصائية المطلوبة لتقدير عدم اليقين في القياس'
     },
     course11outline2:{
         en:'●	Implementation of the requirements of ISO/IEC 17025:2017 related to measurement uncertainty',
-        ar:'•	تنفيذ متطلبات ISO/IEC 17025:2017 المتعلقة بعدم اليقين في القياس'
+        ar:'●	تنفيذ متطلبات ISO/IEC 17025:2017 المتعلقة بعدم اليقين في القياس'
     },
     course11outline3:{
         en:'●	Estimating measurement uncertainty from start to finish to ensure the validity of laboratory results',
-        ar:'•	تقدير عدم اليقين في القياس من البداية إلى النهاية لضمان صحة نتائج المختبر'
+        ar:'●	تقدير عدم اليقين في القياس من البداية إلى النهاية لضمان صحة نتائج المختبر'
     },
     course11outline4:{
         en:'●	Introduction to the international requirements for estimation of uncertainty',
-        ar:'•	مقدمة للمتطلبات الدولية لتقدير عدم اليقين'
+        ar:'●	مقدمة للمتطلبات الدولية لتقدير عدم اليقين'
     },
     course11outline5:{
         en:'●	Use of case studies and practical exercises with group discussions of results to develop skills in the estimation of measurement uncertainty',
-        ar:'•	استخدام دراسات الحالة والتمارين العملية مع مناقشات جماعية للنتائج لتطوير المهارات في تقدير عدم اليقين في القياس'
+        ar:'●	استخدام دراسات الحالة والتمارين العملية مع مناقشات جماعية للنتائج لتطوير المهارات في تقدير عدم اليقين في القياس'
     },
     course11objctive1:{
         en:'●	Explain the statistical principles of the measurement process',
-        ar:'•	شرح المبادئ الإحصائية لعملية القياس'
+        ar:'●	شرح المبادئ الإحصائية لعملية القياس'
     },
     course11objctive2:{
         en:'●	Understand the sources of measurement uncertainty',
-        ar:'•	فهم مصادر عدم اليقين في القياس'
+        ar:'●	فهم مصادر عدم اليقين في القياس'
     },
     course11objctive3:{
         en:'●	Calculate measurement uncertainty using the traditional and top-down approaches',
-        ar:'•	حساب عدم اليقين في القياس باستخدام الطريقتين التقليدية والعلوية'
+        ar:'●	حساب عدم اليقين في القياس باستخدام الطريقتين التقليدية والعلوية'
     },
     course11objctive4:{
         en:'●	Determine expanded uncertainty and effective degree of freedom',
-        ar:'•	تحديد العدم الموسع ودرجة الحرية الفعالة'
+        ar:'●	تحديد العدم الموسع ودرجة الحرية الفعالة'
     },
     course11objctive5:{
         en:'●	Report measurement uncertainty',
-        ar:'•	تقرير عدم اليقين في القياسات'
+        ar:'●	تقرير عدم اليقين في القياسات'
     },
     course11objctive6:{
         en:'●	Apply ILAC policies for measurement uncertainty',
-        ar:'•	تطبيق سياسات ILAC لعدم اليقين في القياسات'
+        ar:'●	تطبيق سياسات ILAC لعدم اليقين في القياسات'
     },
     course1audiance1:{
         en:'This training course is intended for technical and management staff in calibration and testing laboratories.',
@@ -2238,91 +2238,91 @@ const indexTrans: translataionContainer = {
     },
     course12outline1:{
         en:'●	Introduction to accreditation of CBs that certify persons',
-        ar:'•	مقدمة حول الاعتماد لدى هيئات التدقيق التي تصدر شهادات للأفراد'
+        ar:'●	مقدمة حول الاعتماد لدى هيئات التدقيق التي تصدر شهادات للأفراد'
     },
     course12outline2:{
         en:'●	ISO/IEC 17024: The content',
-        ar:'•	ISO / IEC 17024: المحتوى'
+        ar:'●	ISO / IEC 17024: المحتوى'
     },
     course12outline3:{
         en:'●	Scope / Normative References / Terms and Definitions',
-        ar:'•	نطاق / المراجع الأساسية / المصطلحات والتعاريف'
+        ar:'●	نطاق / المراجع الأساسية / المصطلحات والتعاريف'
     },
     course12outline4:{
         en:'●	General Requirements',
-        ar:'•	المتطلبات العامة'
+        ar:'●	المتطلبات العامة'
     },
     course12outline5:{
         en:'●	Certification Schemes',
-        ar:'•	مخططات الشهادة'
+        ar:'●	مخططات الشهادة'
     },
     course12outline6:{
         en:'●	Certification Process Requirements',
-        ar:'•	متطلبات عملية الشهادة'
+        ar:'●	متطلبات عملية الشهادة'
     },
     course12outline7:{
         en:'●	Structural Requirements',
-        ar:'•	متطلبات الهيكلية'
+        ar:'●	متطلبات الهيكلية'
     },
     course12outline8:{
         en:'●	Resource Requirements',
-        ar:'•	متطلبات الموارد'
+        ar:'●	متطلبات الموارد'
     },
     course12outline9:{
         en:'●	Records and Information Requirements',
-        ar:'•	متطلبات السجلات والمعلومات'
+        ar:'●	متطلبات السجلات والمعلومات'
     },
     course12outline10:{
         en:'●	Management System Requirements for P-CBs',
-        ar:'•	متطلبات نظام الإدارة لـ P-CBs'
+        ar:'●	متطلبات نظام الإدارة لـ P-CBs'
     },
     course12outline11:{
         en:'●	Review of frequent non-conformities',
-        ar:'•	استعراض عدم التطابق الشائع'
+        ar:'●	استعراض عدم التطابق الشائع'
     },
     course12objctive1:{
         en:'●	Understand ISO/IEC 17024 requirements for P-CBs',
-        ar:'•	فهم متطلبات ISO / IEC 17024 لـ P-CBs'
+        ar:'●	فهم متطلبات ISO / IEC 17024 لـ P-CBs'
     },
     course12objctive2:{
         en:'●	Implement the requirements for P-CBs',
-        ar:'•	تنفيذ متطلبات P-CBs'
+        ar:'●	تنفيذ متطلبات P-CBs'
     },
     course12objctive3:{
         en:'●	Develop and maintain management systems for P-CBs',
-        ar:'•	تطوير وصيانة نظم الإدارة لـ P-CBs'
+        ar:'●	تطوير وصيانة نظم الإدارة لـ P-CBs'
     },
     course12objctive4:{
         en:'●	Ensure compliance with ISO/IEC 17024 requirements',
-        ar:'•	ضمان الامتثال لمتطلبات ISO / IEC 17024'
+        ar:'●	ضمان الامتثال لمتطلبات ISO / IEC 17024'
     },
     course12objctive5:{
         en:'●	Identify and mitigate nonconformities in P-CBs',
-        ar:'•	التعرف على العدم التطابق والحد منه في P-CBs'
+        ar:'●	التعرف على العدم التطابق والحد منه في P-CBs'
     },
     course12audiance1:{
         en:'●	Employees of P-certification bodies',
-        ar:'•	موظفو هيئات تدقيق الشهادات الشخصية'
+        ar:'●	موظفو هيئات تدقيق الشهادات الشخصية'
     },
     course12audiance2:{
         en:'●	Assessors of accreditation bodies',
-        ar:'•	المقيمون في هيئات الاعتماد'
+        ar:'●	المقيمون في هيئات الاعتماد'
     },
     course12audiance3:{
         en:'●	Quality experts',
-        ar:'•	خبراء الجودة'
+        ar:'●	خبراء الجودة'
     },
     course12audiance4:{
         en:'●	Personnel of corporations and government agencies operating certification programs',
-        ar:'•	الموظفون في الشركات والجهات الحكومية التي تدير برامج الشهادات'
+        ar:'●	الموظفون في الشركات والجهات الحكومية التي تدير برامج الشهادات'
     },
     course12audiance5:{
         en:'●	Organizations considering developing a personnel certification program',
-        ar:'•	المؤسسات التي تفكر في تطوير برنامج لشهادة الأفراد'
+        ar:'●	المؤسسات التي تفكر في تطوير برنامج لشهادة الأفراد'
     },
     course12audiance6:{
         en:'●	Organizations that support certification programs (through testing, IT and marketing)',
-        ar:'•	المؤسسات التي تدعم برامج الشهادات (عبر الاختبارات وتقنية المعلومات والتسويق)'
+        ar:'●	المؤسسات التي تدعم برامج الشهادات (عبر الاختبارات وتقنية المعلومات والتسويق)'
     },
     
     ////// courses 13 ////////
@@ -2332,99 +2332,99 @@ const indexTrans: translataionContainer = {
     },
     course13outline1:{
         en:'Introduction to ISO 15189:2012 and the International System of Laboratories Accreditation',
-        ar:'•	مقدمة في ISO 15189: 2012 والنظام الدولي لاعتماد المختبرات'
+        ar:'●	مقدمة في ISO 15189: 2012 والنظام الدولي لاعتماد المختبرات'
     },
     course13outline2:{
         en:'●	The purpose of laboratory accreditation',
-        ar:'•	الغرض من الاعتماد المختبري'
+        ar:'●	الغرض من الاعتماد المختبري'
     },
     course13outline3:{
         en:'●	Overview of the International System of Laboratories Accreditation',
-        ar:'•	نظرة عامة على النظام الدولي لاعتماد المختبرات'
+        ar:'●	نظرة عامة على النظام الدولي لاعتماد المختبرات'
     },
     course13outline4:{
         en:'●	Introduction to ISO 15189:2012',
-        ar:'•	مقدمة في ISO 15189: 2012'
+        ar:'●	مقدمة في ISO 15189: 2012'
     },
     course13outline5:{
         en:'●	Management Requirements of the Standard',
-        ar:'•	متطلبات إدارية للمعيار'
+        ar:'●	متطلبات إدارية للمعيار'
     },
     course13outline6:{
         en:'●	Organization and management responsibilities',
-        ar:'•	المسؤوليات التنظيمية والإدارية'
+        ar:'●	المسؤوليات التنظيمية والإدارية'
     },
     course13outline7:{
         en:'●	Quality management system',
-        ar:'•	نظام إدارة الجودة'
+        ar:'●	نظام إدارة الجودة'
     },
     course13outline8:{
         en:'●	Document control',
-        ar:'•	مراقبة المستندات'
+        ar:'●	مراقبة المستندات'
     },
     course13outline9:{
         en:'●	Service agreements',
-        ar:'•	اتفاقيات الخدمة'
+        ar:'●	اتفاقيات الخدمة'
     },
     course13outline10:{
         en:'●	Examination by referral laboratories',
-        ar:'•	الفحص عن طريق مختبرات الإحالة'
+        ar:'●	الفحص عن طريق مختبرات الإحالة'
     },
     course13outline11:{
         en:'●	External services and supplies',
-        ar:'•	الخدمات الخارجية واللوازم'
+        ar:'●	الخدمات الخارجية واللوازم'
     },
     course13outline12:{
         en:'●	Advisory services',
-        ar:'•	الخدمات الاستشارية'
+        ar:'●	الخدمات الاستشارية'
     },
     course13outline13:{
         en:'●	Resolution of complaints',
-        ar:'•	حل الشكاوى'
+        ar:'●	حل الشكاوى'
     },
     course13outline14:{
         en:'●	Identification and control of non-conformities',
-        ar:'•	تحديد ومراقبة عدم المطابقة'
+        ar:'●	تحديد ومراقبة عدم المطابقة'
     },
     course13outline15:{
         en:'●	Corrective action',
-        ar:'•	الإجراءات الإصلاحية'
+        ar:'●	الإجراءات الإصلاحية'
     },
     course13outline16:{
         en:'●	Preventive action',
-        ar:'•	الإجراءات الوقائية'
+        ar:'●	الإجراءات الوقائية'
     },
     course13outline17:{
         en:'●	Continual improvement',
-        ar:'•	التحسين المستمر'
+        ar:'●	التحسين المستمر'
     },
     course13outline18:{
         en:'●	Control of records',
-        ar:'•	التحكم في السجلات'
+        ar:'●	التحكم في السجلات'
     },
     course13outline19:{
         en:'●	Evaluation and audits',
-        ar:'•	التقييم والتدقيقات'
+        ar:'●	التقييم والتدقيقات'
     },
     course13outline20:{
         en:'●	Management review',
-        ar:'•	استعراض الإدارة'
+        ar:'●	استعراض الإدارة'
     },
     course13outline21:{
         en:'●	Technical Requirements of the Standard',
-        ar:'•	المتطلبات الفنية للمعيار'
+        ar:'●	المتطلبات الفنية للمعيار'
     },
     course13outline23:{
         en:'●	Personnel',
-        ar:'•	الموظفون'
+        ar:'●	الموظفون'
     },
     course13outline24:{
         en:'●	Accommodation and environmental conditions',
-        ar:'•	مساكن وظروف البيئة'
+        ar:'●	مساكن وظروف البيئة'
     },
     course13outline25:{
         en:'●	Laboratory equipment, reagents, and consumables',
-        ar:'•	معدات المختبر والمواد الكيميائية والمستهلكات'
+        ar:'●	معدات المختبر والمواد الكيميائية والمستهلكات'
     },
     course13outline26:{
         en:'●	 Pre-examination processes',
@@ -2476,23 +2476,23 @@ const indexTrans: translataionContainer = {
     },
     course13objctive1:{
         en:'●	Understand the international system for laboratories accreditation and ISO 15189 requirements',
-        ar:'•	فهم النظام الدولي لاعتماد المختبرات ومتطلبات المعيار ISO 15189'
+        ar:'●	فهم النظام الدولي لاعتماد المختبرات ومتطلبات المعيار ISO 15189'
     },
     course13objctive2:{
         en:'●	Gain an understanding of the requirements for the technical competence of medical laboratories',
-        ar:'•	الحصول على فهم لمتطلبات الكفاءة التقنية للمختبرات الطبية'
+        ar:'●	الحصول على فهم لمتطلبات الكفاءة التقنية للمختبرات الطبية'
     },
     course13objctive3:{
         en:'●	Learn how a laboratory quality management system is designed and operated and learn all elements of the standard and the important concepts',
-        ar:'•	التعرف على كيفية تصميم وتشغيل نظام إدارة الجودة للمختبرات الطبية وفهم جميع عناصر المعيار والمفاهيم الهامة'
+        ar:'●	التعرف على كيفية تصميم وتشغيل نظام إدارة الجودة للمختبرات الطبية وفهم جميع عناصر المعيار والمفاهيم الهامة'
     },
     course13objctive4:{
         en:'●	Increase confidence in the performance of staff who implement the requirements',
-        ar:'•	زيادة الثقة في أداء العاملين الذين ينفذون المتطلبات'
+        ar:'●	زيادة الثقة في أداء العاملين الذين ينفذون المتطلبات'
     },
     course13objctive5:{
         en:'●	Exchange experience and take benefits from the case studies and the group discussions',
-        ar:'•	تبادل الخبرات والاستفادة من دراسات الحالة والنقاشات الجماعية'
+        ar:'●	تبادل الخبرات والاستفادة من دراسات الحالة والنقاشات الجماعية'
     },
     course13audiance1:{
         en:'Technical and management staff in medical laboratories',
@@ -2505,127 +2505,127 @@ const indexTrans: translataionContainer = {
     },
     course14outline1:{
         en:'●	 Introduction to Risk Management and ISO 31000:2018',
-        ar:'•	مقدمة لإدارة المخاطر ومواصفة ISO 31000:2018'
+        ar:'●	مقدمة لإدارة المخاطر ومواصفة ISO 31000:2018'
     },
     course14outline2:{
         en:'●	 Concepts and definitions related to risk management ISO 31000:2018',
-        ar:'•	المفاهيم والتعريفات المتعلقة بإدارة المخاطر ISO 31000:2018'
+        ar:'●	المفاهيم والتعريفات المتعلقة بإدارة المخاطر ISO 31000:2018'
     },
     course14outline3:{
         en:'●	 The fundamental risk management strategies and methods based on ISO 31000:2018',
-        ar:'•	استراتيجيات وطرق إدارة المخاطر الأساسية القائمة على مواصفة ISO 31000:2018'
+        ar:'●	استراتيجيات وطرق إدارة المخاطر الأساسية القائمة على مواصفة ISO 31000:2018'
     },
     course14outline4:{
         en:'●	 Risk management standards, and frameworks according to ISO 31000:2018',
-        ar:'•	معايير وأطر إدارة المخاطر وفقًا لمواصفة ISO 31000:2018'
+        ar:'●	معايير وأطر إدارة المخاطر وفقًا لمواصفة ISO 31000:2018'
     },
     course14outline5:{
         en:'●	 The main differences between ISO 3100:2018 and the previous version ISO 3100:2009',
-        ar:'•	الاختلافات الرئيسية بين ISO 3100:2018 والإصدار السابق ISO 3100:2009'
+        ar:'●	الاختلافات الرئيسية بين ISO 3100:2018 والإصدار السابق ISO 3100:2009'
     },
     course14outline6:{
         en:'●	Principles and Guidelines of ISO 31000:2018',
-        ar:'•	مبادئ وإرشادات ISO 31000: 2018'
+        ar:'●	مبادئ وإرشادات ISO 31000: 2018'
     },
     course14outline7:{
         en:'●	 Scope',
-        ar:'•	النطاق'
+        ar:'●	النطاق'
     },
     course14outline8:{
         en:'●	Terms and Definitions',
-        ar:'•	المصطلحات والتعريفات'
+        ar:'●	المصطلحات والتعريفات'
     },
     course14outline9:{
         en:'●	 Risk management principles',
-        ar:'•	مبادئ إدارة المخاطر'
+        ar:'●	مبادئ إدارة المخاطر'
     },
     course14outline10:{
         en:'●	 Framework',
-        ar:'•	إطار العمل'
+        ar:'●	إطار العمل'
     },
     course14outline11:{
         en:'●	Risk management process',
-        ar:'•	عملية إدارة المخاطر'
+        ar:'●	عملية إدارة المخاطر'
     },
     course14outline12:{
         en:'●	 Implementing a risk management process',
-        ar:'•	تنفيذ عملية إدارة المخاطر'
+        ar:'●	تنفيذ عملية إدارة المخاطر'
     },
     course14outline13:{
         en:'●	 Implementing a risk management process',
-        ar:'•	دراسات الحالة والمناقشات الجماعية'
+        ar:'●	دراسات الحالة والمناقشات الجماعية'
     },
     course14outline14:{
         en:'●	 Accreditation requirements of ISO 31000:2018',
-        ar:'•	متطلبات الاعتماد ISO 31000: 2018'
+        ar:'●	متطلبات الاعتماد ISO 31000: 2018'
     },
     course14outline15:{
         en:'●	Roles and Responsibilities of Management Systems Certification Bodies',
-        ar:'•	أدوار ومسؤوليات جهات اعتماد أنظمة إدارة المخاطر'
+        ar:'●	أدوار ومسؤوليات جهات اعتماد أنظمة إدارة المخاطر'
     },
     course14outline16:{
         en:'●	Quality and internal control management',
-        ar:'•	إدارة الجودة والتحكم الداخلي'
+        ar:'●	إدارة الجودة والتحكم الداخلي'
     },
     course14outline17:{
         en:'●	Quality and internal control management',
-        ar:'•	إدارة المشاريع والعمليات'
+        ar:'●	إدارة المشاريع والعمليات'
     },
     course14outline18:{
         en:'●	Executive management and risk analysis',
-        ar:'•	إدارة التنفيذية وتحليل المخاطر'
+        ar:'●	إدارة التنفيذية وتحليل المخاطر'
     },
     course14outline19:{
         en:'●	 Internal auditors and operational risk officers',
-        ar:'•	المدققون الداخليون وضباط مخاطر العمليات'
+        ar:'●	المدققون الداخليون وضباط مخاطر العمليات'
     },
     course14outline20:{
         en:'●	Managers responsible for establishing a risk management policy  ',
-        ar:'•	المديرين المسؤولين عن وضع سياسة إدارة المخاطر'
+        ar:'●	المديرين المسؤولين عن وضع سياسة إدارة المخاطر'
     },
     course14objctive1:{
-        en:'• Understand the principles and guidelines of ISO 31000:2018.',
-        ar:'•	مقدمة لإدارة المخاطر ومواصفة ISO 31000:2018'
+        en:'● Understand the principles and guidelines of ISO 31000:2018.',
+        ar:'●	مقدمة لإدارة المخاطر ومواصفة ISO 31000:2018'
     },
     course14objctive2:{
-        en:'• Gain an understanding of risk management systems based on ISO 31000:2018.',
-        ar:'•	المفاهيم والتعريفات المتعلقة بإدارة المخاطر ISO 31000:2018'
+        en:'● Gain an understanding of risk management systems based on ISO 31000:2018.',
+        ar:'●	المفاهيم والتعريفات المتعلقة بإدارة المخاطر ISO 31000:2018'
     },
     course14objctive3:{
-        en:'• Understand the accreditation requirements of ISO 31000:2018.',
-        ar:'•	استراتيجيات وطرق إدارة المخاطر الأساسية القائمة على مواصفة ISO 31000:2018'
+        en:'● Understand the accreditation requirements of ISO 31000:2018.',
+        ar:'●	استراتيجيات وطرق إدارة المخاطر الأساسية القائمة على مواصفة ISO 31000:2018'
     },
     course14objctive4:{
-        en:'• Learn the importance and relevance of ISO 31000: 2018.',
-        ar:'•	معايير وأطر إدارة المخاطر وفقًا لمواصفة ISO 31000:2018'
+        en:'● Learn the importance and relevance of ISO 31000: 2018.',
+        ar:'●	معايير وأطر إدارة المخاطر وفقًا لمواصفة ISO 31000:2018'
     },
     course14objctive5:{
-        en:'• Understand the basic elements of implementing risk management processes.',
-        ar:'•	الاختلافات الرئيسية بين ISO 3100:2018 والإصدار السابق ISO 3100:2009'
+        en:'● Understand the basic elements of implementing risk management processes.',
+        ar:'●	الاختلافات الرئيسية بين ISO 3100:2018 والإصدار السابق ISO 3100:2009'
     },
     course14audiance1:{
         en:'●	 Management Systems Certification Bodies',
-        ar:'•	جهات اعتماد أنظمة إدارة المخاطر'
+        ar:'●	جهات اعتماد أنظمة إدارة المخاطر'
     },
     course14audiance2:{
         en:'●	 Quality and internal control managers',
-        ar:'•	مديرون إدارة الجودة والتحكم الداخلي'
+        ar:'●	مديرون إدارة الجودة والتحكم الداخلي'
     },
     course14audiance3:{
         en:'●	 Project and operation managers',
-        ar:'•	مديرون المشاريع والعمليات'
+        ar:'●	مديرون المشاريع والعمليات'
     },
     course14audiance4:{
         en:'●	 Executive managers and risk analysts',
-        ar:'•	المديرين التنفيذيين ومحللو المخاطر'
+        ar:'●	المديرين التنفيذيين ومحللو المخاطر'
     },
     course14audiance5:{
         en:'●	Internal auditors and operational risk officers',
-        ar:'•	المدققون الداخليون وضباط مخاطر العمليات'
+        ar:'●	المدققون الداخليون وضباط مخاطر العمليات'
     },
     course14audiance6:{
         en:'●	Managers responsible for establishing a risk management policy',
-        ar:'•	المديرين المسؤولين عن وضع سياسة إدارة المخاطر'
+        ar:'●	المديرين المسؤولين عن وضع سياسة إدارة المخاطر'
     },
     Days3Destailes:{
         en:'The course duration is 3 days of interactive training sessions, including group discussions, case studies, and practical exercises.',
@@ -2638,155 +2638,155 @@ const indexTrans: translataionContainer = {
     },
     course15outline1:{
         en:'●	Introduction to ISO 22000:2018 and its Role in food safety management',
-        ar:'•	مقدمة لمعيار ISO 22000:2018 ودوره في إدارة سلامة الغذاء'
+        ar:'●	مقدمة لمعيار ISO 22000:2018 ودوره في إدارة سلامة الغذاء'
     },
     course15outline2:{
         en:'●	The site of FSMS in quality systems',
-        ar:'•	موقع أنظمة إدارة سلامة الغذاء في أنظمة الجودة'
+        ar:'●	موقع أنظمة إدارة سلامة الغذاء في أنظمة الجودة'
     },
     course15outline3:{
         en:'●	The concept of quality in food industries',
-        ar:'•	مفهوم الجودة في صناعات الأغذية'
+        ar:'●	مفهوم الجودة في صناعات الأغذية'
     },
     course15outline4:{
         en:'●	The concept of PRPs, of HACCP, and of FSMS',
-        ar:'•	مفهوم PRPs و HACCP و FSMS'
+        ar:'●	مفهوم PRPs و HACCP و FSMS'
     },
     course15outline5:{
         en:'●	Health Master Plan',
-        ar:'•	خطة السيد الصحي'
+        ar:'●	خطة السيد الصحي'
     },
     course15outline6:{
         en:'●	Guides to good hygiene practices',
-        ar:'•	دلائل الممارسات الصحية الجيدة'
+        ar:'●	دلائل الممارسات الصحية الجيدة'
     },
     course15outline7:{
         en:'●	The family of ISO 22002 standards',
-        ar:'•	عائلة معايير ISO 22002'
+        ar:'●	عائلة معايير ISO 22002'
     },
     course15outline8:{
         en:'●	Preliminary steps to enable hazard analysis',
-        ar:'•	الخطوات الأولية لتمكين تحليل المخاطر'
+        ar:'●	الخطوات الأولية لتمكين تحليل المخاطر'
     },
     course15outline9:{
         en:'●	Hazard analysis',
-        ar:'•	تحليل المخاطر'
+        ar:'●	تحليل المخاطر'
     },
     course15outline10:{
         en:'●	Combinations of control measures',
-        ar:'•	مزيج من تدابير السيطرة'
+        ar:'●	مزيج من تدابير السيطرة'
     },
     course15outline11:{
         en:'●	Hazard control plan (CCPs/OPRPs)',
-        ar:'•	خطة السيطرة على المخاطر (CCPs / OPRPs)'
+        ar:'●	خطة السيطرة على المخاطر (CCPs / OPRPs)'
     },
     course15outline12:{
         en:'●	Food defence',
-        ar:'•	الدفاع عن الغذاء'
+        ar:'●	الدفاع عن الغذاء'
     },
     course15outline13:{
         en:'●	Food Fraud',
-        ar:'•	التحايل الغذائي'
+        ar:'●	التحايل الغذائي'
     },
     course15outline14:{
         en:'●	Context of Food Companies',
-        ar:'•	سياق شركات الأغذية'
+        ar:'●	سياق شركات الأغذية'
     },
     course15outline15:{
         en:'●	The needs and expectations of interested parties',
-        ar:'•	احتياجات وتوقعات الأطراف المعنية'
+        ar:'●	احتياجات وتوقعات الأطراف المعنية'
     },
     course15outline16:{
         en:'●	Determining the scope of the food safety management system',
-        ar:'•	تحديد نطاق نظام إدارة سلامة الغذاء'
+        ar:'●	تحديد نطاق نظام إدارة سلامة الغذاء'
     },
     course15outline17:{
         en:'●	Concept of Leadership',
-        ar:'•	مفهوم القيادة'
+        ar:'●	مفهوم القيادة'
     },
     course15outline18:{
         en:'●	Commitments',
-        ar:'•	التزامات'
+        ar:'●	التزامات'
     },
     course15outline19:{
         en:'●	Organizational roles, responsibilities, and authorities',
-        ar:'•	الأدوار والمسؤوليات والسلطات التنظيمية'
+        ar:'●	الأدوار والمسؤوليات والسلطات التنظيمية'
     },
     course15outline20:{
         en:'●	Risks and opportunities',
-        ar:'•	المخاطر والفرص'
+        ar:'●	المخاطر والفرص'
     },
     course15outline21:{
         en:'●	Objectives of the FSMS',
-        ar:'•	أهداف نظام إدارة سلامة الغذاء'
+        ar:'●	أهداف نظام إدارة سلامة الغذاء'
     },
     course15outline22:{
         en:'●	Resources',
-        ar:'•	الموارد'
+        ar:'●	الموارد'
     },
     course15outline23:{
         en:'●	Competence',
-        ar:'•	الكفاءة'
+        ar:'●	الكفاءة'
     },
     course15outline24:{
         en:'●	Communication',
-        ar:'•	الاتصال'
+        ar:'●	الاتصال'
     },
     course15outline25:{
         en:'●	Documented information',
-        ar:'•	المعلومات الموثقة'
+        ar:'●	المعلومات الموثقة'
     },
     course15outline26:{
         en:'●	Operation',
-        ar:'•	العملية'
+        ar:'●	العملية'
     },
     course15outline27:{
         en:'●	Traceability system',
-        ar:'•	نظام التتبع'
+        ar:'●	نظام التتبع'
     },
     course15outline28:{
         en:'●	Emergency preparedness and response',
-        ar:'•	الاستعداد للطوارئ والاستجابة'
+        ar:'●	الاستعداد للطوارئ والاستجابة'
     },
     course15outline29:{
         en:'●	Concept of validation, surveillance, and verification (V/S/V)',
-        ar:'•	مفهوم التحقق والمراقبة والتحقق (V/S/V)'
+        ar:'●	مفهوم التحقق والمراقبة والتحقق (V/S/V)'
     },
     course15outline30:{
         en:'●	The contribution of the analysis laboratory',
-        ar:'•	مساهمة مختبر التحليل'
+        ar:'●	مساهمة مختبر التحليل'
     },
     course15outline31:{
         en:'●	Performance and improvement',
-        ar:'•	الأداء والتحسين'
+        ar:'●	الأداء والتحسين'
     },
     course15outline32:{
         en:'●	Monitoring and measurement',
-        ar:'•	المراقبة والقياس'
+        ar:'●	المراقبة والقياس'
     },
     course15outline33:{
         en:'●	Internal audit',
-        ar:'•	التدقيق الداخلي'
+        ar:'●	التدقيق الداخلي'
     },
     course15outline34:{
         en:'●	Management review',
-        ar:'•	المراجعة الإدارية'
+        ar:'●	المراجعة الإدارية'
     },
     course15outline35:{
         en:'●	Nonconformity, corrective action, and Update of the FSMS',
-        ar:'•	عدم الامتثال والإجراء التصحيحي وتحديث نظام إدارة سلامة الغذاء'
+        ar:'●	عدم الامتثال والإجراء التصحيحي وتحديث نظام إدارة سلامة الغذاء'
     },
     course15objctive1:{
         en:'●	Gain a comprehensive understanding of the principles and requirements of the ISO 22000:2018 standard',
-        ar:'•	تحقيق فهم شامل لمبادئ ومتطلبات معيار ISO 22000:2018'
+        ar:'●	تحقيق فهم شامل لمبادئ ومتطلبات معيار ISO 22000:2018'
     },
     course15objctive2:{
         en:'●	Learn about hazard analysis and hazard control plans, food defence, food fraud, validation, surveillance, and verification',
-        ar:'•	التعرف على تحليل المخاطر وخطط مراقبة المخاطر والدفاع عن الغذاء والغش الغذائي والتحقق والمراقبة والتحقق'
+        ar:'●	التعرف على تحليل المخاطر وخطط مراقبة المخاطر والدفاع عن الغذاء والغش الغذائي والتحقق والمراقبة والتحقق'
     },
     course15objctive3:{
         en:'●	Understand the implementation and compliance requirements for the standard',
-        ar:'•	فهم متطلبات التنفيذ والامتثال للمعيار'
+        ar:'●	فهم متطلبات التنفيذ والامتثال للمعيار'
     },
     ///////// course 16 ////////
     course16Desc:{
@@ -2795,99 +2795,99 @@ const indexTrans: translataionContainer = {
     },
     course16outline1:{
         en:'●	Introduction to the Global Standard for Food Safety Issue 9',
-        ar:'•	مقدمة في المعيار العالمي لسلامة الأغذية الإصدار 9'
+        ar:'●	مقدمة في المعيار العالمي لسلامة الأغذية الإصدار 9'
     },
     course16outline2:{
         en:'●	Scope of the Standard',
-        ar:'•	نطاق المعيار'
+        ar:'●	نطاق المعيار'
     },
     course16outline3:{
         en:'●	Overview of the requirements of the Standard',
-        ar:'•	نظرة عامة على متطلبات المعيار'
+        ar:'●	نظرة عامة على متطلبات المعيار'
     },
     course16outline4:{
         en:'●	Requirements for senior management commitment and continual improvement',
-        ar:'•	متطلبات الالتزام الإدارة العليا والتحسين المستمر'
+        ar:'●	متطلبات الالتزام الإدارة العليا والتحسين المستمر'
     },
     course16outline5:{
         en:'●	Preparing for a BRCGS audit',
-        ar:'•	التحضير لتدقيق BRCGS'
+        ar:'●	التحضير لتدقيق BRCGS'
     },
     course16outline6:{
         en:'●	Audit planning and preparation',
-        ar:'•	تخطيط وإعداد التدقيق'
+        ar:'●	تخطيط وإعداد التدقيق'
     },
     course16outline7:{
         en:'●	On-site implementation of the Standard',
-        ar:'•	تنفيذ المعيار في الموقع'
+        ar:'●	تنفيذ المعيار في الموقع'
     },
     course16outline8:{
         en:'●	Control of operations',
-        ar:'•	السيطرة على العمليات'
+        ar:'●	السيطرة على العمليات'
     },
     course16outline9:{
         en:'●	Management of food safety hazards',
-        ar:'•	إدارة مخاطر سلامة الأغذية'
+        ar:'●	إدارة مخاطر سلامة الأغذية'
     },
     course16outline10:{
         en:'●	Site standards, layout, and product flow',
-        ar:'•	معايير الموقع والتصميم وتدفق المنتجات'
+        ar:'●	معايير الموقع والتصميم وتدفق المنتجات'
     },
     course16outline11:{
         en:'●	Personnel and training',
-        ar:'•	الموظفين والتدريب'
+        ar:'●	الموظفين والتدريب'
     },
     course16outline12:{
         en:'●	Maintenance and cleaning',
-        ar:'•	الصيانة والتنظيف'
+        ar:'●	الصيانة والتنظيف'
     },
     course16outline13:{
         en:'●	Validation, verification, and improvement of the Food Safety Management System',
-        ar:'•	التحقق والتحسين المستمر لنظام إدارة سلامة الأغذية'
+        ar:'●	التحقق والتحسين المستمر لنظام إدارة سلامة الأغذية'
     },
     course16outline14:{
         en:'●	Examination and assessment',
-        ar:'•	الامتحان والتقييم'
+        ar:'●	الامتحان والتقييم'
     },
     course16objctive1:{
         en:'●	Explain what is required to comply with the requirements of the Global Standard for Food Safety Issue 9',
-        ar:'•	شرح ما هو مطلوب للامتثال لمتطلبات Global Standard for Food Safety Issue 9'
+        ar:'●	شرح ما هو مطلوب للامتثال لمتطلبات Global Standard for Food Safety Issue 9'
     },
     course16objctive2:{
         en:'●	Describe the scope of companies and products covered by the Standard',
-        ar:'•	وصف نطاق الشركات والمنتجات المشمولة بالمعيار'
+        ar:'●	وصف نطاق الشركات والمنتجات المشمولة بالمعيار'
     },
     course16objctive3:{
         en:'●	Describe what to expect from your BRCGS audit',
-        ar:'•	وصف ما يمكن توقعه من تصديق BRCGS'
+        ar:'●	وصف ما يمكن توقعه من تصديق BRCGS'
     },
     course16objctive4:{
         en:'●	Prepare for an audit of the Standard',
-        ar:'•	الاستعداد لفحص المعيار'
+        ar:'●	الاستعداد لفحص المعيار'
     },
     course16objctive5:{
         en:'●	Apply resource tools available for compliance and support from BRCGS',
-        ar:'•	تطبيق أدوات الموارد المتاحة للامتثال والدعم من BRCGS'
+        ar:'●	تطبيق أدوات الموارد المتاحة للامتثال والدعم من BRCGS'
     },
     course16audiance1:{
         en:'●	Food safety managers and team members',
-        ar:'•	مديري سلامة الأغذية وأعضاء الفريق'
+        ar:'●	مديري سلامة الأغذية وأعضاء الفريق'
     },
     course16audiance2:{
         en:'●	Internal auditors',
-        ar:'•	المدققون الداخليون'
+        ar:'●	المدققون الداخليون'
     },
     course16audiance3:{
         en:'●	Quality assurance personnel',
-        ar:'•	موظفو ضمان الجودة'
+        ar:'●	موظفو ضمان الجودة'
     },
     course16audiance4:{
         en:'●	Consultants and trainers',
-        ar:'•	المستشارون والمدربون'
+        ar:'●	المستشارون والمدربون'
     },
     course16audiance5:{
         en:'●	Anyone involved in the implementation or maintenance of a Food Safety Management System',
-        ar:'•	أي شخص مشارك في تنفيذ أو صيانة نظام إدارة سلامة الأغذية'
+        ar:'●	أي شخص مشارك في تنفيذ أو صيانة نظام إدارة سلامة الأغذية'
     },
     Days2Destailes:{
         en:'The course duration is 2 days of interactive training sessions, including group discussions, case studies, and practical exercises.',
@@ -2900,51 +2900,51 @@ const indexTrans: translataionContainer = {
     },
     course17outline1:{
         en:'●	Introduction to the Standard',
-        ar:'•	مقدمة في المعيار'
+        ar:'●	مقدمة في المعيار'
     },
     course17outline2:{
         en:'●	BRCGS Audit and Certification Process',
-        ar:'•	عملية تدقيق وشهادة BRCGS'
+        ar:'●	عملية تدقيق وشهادة BRCGS'
     },
     course17outline3:{
         en:'●	Audit Planning and Conducting an Audit',
-        ar:'•	تخطيط التدقيق وإجراء التدقيق'
+        ar:'●	تخطيط التدقيق وإجراء التدقيق'
     },
     course17outline4:{
         en:'●	Audit Reporting and Corrective Action',
-        ar:'•	تقرير التدقيق واتخاذ إجراءات تصحيحية'
+        ar:'●	تقرير التدقيق واتخاذ إجراءات تصحيحية'
     },
     course17outline5:{
         en:'●	Auditor Competencies',
-        ar:'•	مهارات المدققين'
+        ar:'●	مهارات المدققين'
     },
     course17outline6:{
         en:'●	Assessment Examination',
-        ar:'•	امتحان التقييم'
+        ar:'●	امتحان التقييم'
     },
     course17objctive1:{
         en:'●	Explain the steps to managing an audit programme',
-        ar:'•	شرح خطوات إدارة برنامج التدقيق'
+        ar:'●	شرح خطوات إدارة برنامج التدقيق'
     },
     course17objctive2:{
         en:'●	Describe auditing fundamentals and techniques',
-        ar:'•	وصف الأسس والتقنيات المتعلقة بالتدقيق'
+        ar:'●	وصف الأسس والتقنيات المتعلقة بالتدقيق'
     },
     course17objctive3:{
         en:'●	Assess compliance to the requirements of the Standard and explain how compliance can be demonstrated to maintain food safety, quality, legality, and authenticity',
-        ar:'•	تقييم الامتثال لمتطلبات المعيار وشرح كيفية إثبات الامتثال للحفاظ على سلامة الأغذية وجودتها وقانونيتها وأصالتها'
+        ar:'●	تقييم الامتثال لمتطلبات المعيار وشرح كيفية إثبات الامتثال للحفاظ على سلامة الأغذية وجودتها وقانونيتها وأصالتها'
     },
     course17objctive4:{
         en:'●	Describe the scope of companies and products covered by the Standard',
-        ar:'•	وصف نطاق الشركات والمنتجات التي تغطيها المعيار'
+        ar:'●	وصف نطاق الشركات والمنتجات التي تغطيها المعيار'
     },
     course17objctive5:{
         en:'●	Describe the steps to conduct a BRCGS audit including the preparation, planning, and reporting of the audit',
-        ar:'•	وصف خطوات إجراء تدقيق BRCGS بما في ذلك التحضير والتخطيط وتقديم تقرير التدقيق'
+        ar:'●	وصف خطوات إجراء تدقيق BRCGS بما في ذلك التحضير والتخطيط وتقديم تقرير التدقيق'
     },
     course17objctive6:{
         en:'●	Utilise and explain resource tools available for compliance and beneficial support from BRCGS',
-        ar:'•	استخدام وشرح الأدوات المتاحة للامتثال والدعم المفيد من BRCGS'
+        ar:'●	استخدام وشرح الأدوات المتاحة للامتثال والدعم المفيد من BRCGS'
     },
     course17audiance1:{
         en:'This course is designed for those who wish to become BRCGS auditors, as well as existing auditors looking to enhance their skills and knowledge.',
