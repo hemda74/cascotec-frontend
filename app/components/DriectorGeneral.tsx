@@ -49,7 +49,7 @@ const DriectorGeneral = (props:Props) => {
                 </li>
             </ul>
             <div className='text-center mt-4'>
-                <a href="https://www.linkedin.com/in/ahmed-mahrous-b714a825/" target='_blank' rel='noreferre'>
+                <a href="https://www.linkedin.com/in/ahmed-mahrous-b714a825/" target="_blank" rel="noreferrer">
                     <span className={`${styles.btnContainer} myInfo`}><BsLinkedin size={25}/></span>
                 </a>
             </div>
