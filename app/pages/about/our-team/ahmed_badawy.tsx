@@ -21,7 +21,7 @@ const ahmed_hammad:NextPageWithLayout = (props:Props) => {
               <div className={`container mb-4`}>
                   <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
                   <Link href={"/about"}><a className="text-white fw-semibold mb-4" data-trans="AboutCascoNav2">{` > About CASCO`}</a></Link>
-                  <Link href={"/about/board-of-directors"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{` > Board Of Directors`}</a></Link>
+                  <Link href={"/about/our-team"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{` > Board Of Directors`}</a></Link>
               </div>
             <h2 className={`text-white fw-bold mb-5`} data-trans="DrAhmedBedawi">Dr. Ahmed Bedawi</h2>
           </div>

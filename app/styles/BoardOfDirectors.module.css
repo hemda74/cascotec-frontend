@@ -10,6 +10,7 @@
   /* third card */
   .teamMember2{
     margin: 15px 0;
+    cursor: pointer;
     padding: 0;
   }
   .teamMemberFigure{

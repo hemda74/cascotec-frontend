@@ -601,8 +601,8 @@ const indexTrans: translataionContainer = {
         ar:'د .احمد حماد'
     },
     DrKossai:{
-        en:'Dr .Kossai',
-        ar:'د. قسي'
+        en:'Dr .Kossai Ezzat',
+        ar:'د. قُسَيّ عزت '    
     },
     QualityFoodSafetyConsultant:{
         en:'Quality & Food Safety Consultant',
@@ -621,8 +621,8 @@ const indexTrans: translataionContainer = {
         ar:'د .محمد حسام'
     },
     DrAhmedAbdo:{
-        en:'Dr.Ahmed Abdo',
-        ar:'د . احمد عبده'
+        en:'Eng.Ahmed Abdo',
+        ar:'المهندس. احمد عبده'
     },
     DrAhmedAbdelaziem:{
         en:'Dr.Ahmed Abdelaziem',
@@ -703,6 +703,173 @@ const indexTrans: translataionContainer = {
         en:`Mostafa's expertise and leadership have been instrumental in guiding our company through significant financial challenges and ensuring our long-term success. We are proud to have him on our team and look forward to his continued contributions to our company's growth and success.`,
         ar:'وقد كانت خبرة مصطفى وقيادته حاسمة في توجيه شركتنا خلال التحديات المالية الكبيرة وضمان نجاحنا على المدى الطويل. نحن فخورون بوجوده في فريقنا ونتطلع إلى مساهماته المستمرة في نمو ونجاح شركتنا.'
     },
+    // abdelrahman farhat
+    abdelrahmanfarahatl2:{
+        en:`Prof. Dr. Abdelrahman Farhat is a seasoned Sustainability and Environmental Manager with extensive experience in driving sustainable initiatives and promoting environmental stewardship in various industries. As the Sustainability and Environmental Manager at CASCO, he oversees the development and implementation of sustainable strategies, policies, and programs to minimize the company's impact on the environment while enhancing its social and economic performance.`,
+        ar:'الأستاذ الدكتور عبد الرحمن فرحات هو مدير الاستدامة والبيئة ذو الخبرة الواسعة في تعزيز المبادرات المستدامة وتعزيز الحفاظ على البيئة في مختلف الصناعات. يشرف كمدير للاستدامة والبيئة في كاسكو على تطوير وتنفيذ استراتيجيات وسياسات وبرامج مستدامة لتقليل تأثير الشركة على البيئة وتحسين أدائها الاجتماعي والاقتصادي.'
+    },
+    abdelrahmanfarahatl3:{
+        en:'Dr. Farhat is a globally recognized expert in sustainability and environmental management with a Ph.D. in Environmental Sciences from a top-ranked university. He is also a certified Global Gap Assessor and Organic professional, with a deep understanding of sustainable agriculture practices and organic farming standards.',
+        ar:'الدكتور فرحات هو خبير معترف به دولياً في مجال الاستدامة وإدارة البيئة، حاصل على درجة الدكتوراه في علوم البيئة من جامعة مرموقة. كما أنه مدقق عالمي معتمد لـ "Global Gap" ومحترف عضوي، ولديه فهم عميق لممارسات الزراعة المستدامة ومعايير الزراعة العضوية.'
+    },
+    abdelrahmanfarahatl4:{
+        en:'Dr. Farhat has worked with numerous organizations, both in the private and public sectors, to help them achieve their sustainability goals and improve their environmental performance. He has been involved in various projects related to sustainable agriculture, water management, waste reduction, energy efficiency, and carbon footprint reduction.',
+        ar:'عمل الدكتور فرحات مع العديد من المنظمات، سواء في القطاع الخاص أو العام، لمساعدتهم في تحقيق أهدافهم المستدامة وتحسين أدائهم البيئي. ولقد شارك في العديد من المشاريع المتعلقة بالزراعة المستدامة وإدارة المياه وتقليل النفايات وتحسين كفاءة الطاقة وتقليل بصمة الكربون.'
+    },
+    abdelrahmanfarahatl5:{
+        en:'At CASCO, Dr. Farhat brings his expertise and passion for sustainability to help the company achieve its environmental and social goals. He is dedicated to creating a culture of sustainability within the organization, encouraging employees to adopt sustainable practices,',
+        ar:'يعمل الدكتور فرحات في كاسكو لتقديم خبرته وشغفه بالاستدامة لمساعدة الشركة على تحقيق أهدافها البيئية والاجتماعية. وهو ملتزم بخلق ثقافة الاستدامة داخل المنظمة، وتشجيع الموظفين على اعتماد الممارسات المستدامة.'
+    },
+    // ahmed hammad
+    ahmedhammad2:{
+        en:`Dr. Ahmed Hammad is a highly experienced professional in the field of food packaging, safety, and hygiene with over 17 years of experience. He is currently serving as the General Manager of ISOQAR's Egypt office. Dr. Hammad has a comprehensive understanding of the certification process for various ISO standards such as ISO 900, ISO 14000, ISO 22000, and OHSAS 18001, among others.`,
+        ar:'الدكتور أحمد حماد هو محترف ذو خبرة عالية في مجال التعبئة والتغليف الغذائي والسلامة والنظافة بأكثر من 17 عامًا من الخبرة. يعمل حالياً كمدير عام لمكتب ISOQAR في مصر. يتمتع الدكتور حماد بفهم شامل لعملية الشهادة لمختلف معايير ISO مثل ISO 900 و ISO 14000 و ISO 22000 و OHSAS 18001 وغيرها.'
+    },
+    ahmedhammad3:{
+        en:`Moreover, he is a certified Lead Auditor for various ISO standards, including ISO 17021, ISO 9001, ISO 14001, ISO 22001, as well as the BRCGS Standards for Food Safety and Packaging & Packaging Materials, and HACCP. Dr. Hammad has delivered training courses to more than 2,000 delegates and is approved to deliver specialized courses in food safety. He is also an IRCA-approved course designer for Quality/Environmental and Occupational Health and Safety.`,
+        ar:'وعلاوة على ذلك ، فهو مدقق رئيسي معتمد لمختلف معايير ISO ، بما في ذلك ISO 17021 و ISO 9001 و ISO 14001 و ISO 22001 ، وكذلك معايير BRCGS للسلامة الغذائية والتعبئة والتغليف و HACCP. قدم الدكتور حماد دورات تدريبية لأكثر من 2000 متدرب وهو موافق عليه لتقديم دورات متخصصة في السلامة الغذائية. كما أنه مصمم دورات معتمد من IRCA للجودة / البيئة والصحة والسلامة المهنية.'
+    },
+    ahmedhammad4:{
+        en:`As our Food Safety technical expert in BRC & FSSC, Dr. Hammad conducts numerous audits for different management systems, including about 900 audits in various countries such as Egypt, Saudi Arabia, Kuwait, Sudan, the UK, Italy, Ethiopia, and Libya. Dr. Hammad's extensive knowledge and expertise in food safety, packaging, and hygiene make him an invaluable asset to our team.`,
+        ar:'بصفته خبيرًا فنيًا في السلامة الغذائية في معايير BRC & FSSC، يجري الدكتور حماد العديد من العمليات التدقيقية لمختلف أنظمة الإدارة ، بما في ذلك حوالي 900 عملية تدقيق في دول مختلفة مثل مصر والمملكة العربية السعودية والكويت والسودان والمملكة المتحدة وإيطاليا وإثيوبيا وليبيا. تجعل معرفته وخبرته الشاملة في السلامة الغذائية والتعبئة والتغليف والنظافة منه قيمة لا تقدر بثمن لفريقنا.'
+    },
+    ahmedhammad5:{
+        en:'Dr. Hammad can bring significant value to CASCO as its Food Safety Technical Expert for CASCO. ',
+        ar:'يمكن للدكتور حماد أن يضيف قيمة كبيرة لشركة CASCO بصفته الخبير الفني في السلامة الغذائية لشركة CAS'
+    },
+    // jihad mohamed
+    jihadmohamed2:{
+        en:`Jihad Mohamed is a highly experienced operations advisor and consultant with a Master's degree in crisis and Risk Management, a higher diploma in Operations Research and Decision Support, and a bachelor's degree in English Language and Literature from Cairo University. With her expertise in organizational and operational excellence, organizational training and capacity building, and employee empowerment, Jihad can bring significant value to CASCO as its Chief Operating Officer (COO).`,
+        ar:'جهاد محمد هي مستشارة ومستشارة عمليات ذات خبرة عالية وحاصلة على درجة الماجستير في إدارة الأزمات والمخاطر ودبلوم عالي في الأبحاث ودعم القرارات التشغيلية، ودرجة البكالوريوس في اللغة الإنجليزية وآدابها من جامعة القاهرة. باستخدام خبرتها في التميز التنظيمي والتشغيلي، التدريب التنظيمي وبناء القدرات وتمكين الموظفين، يمكن لجهاد أن تضيف قيمة كبيرة لـ CASCO كمديرة تشغيلية رئيسية.'
+    },
+    jihadmohamed3:{
+        en:`Jihad's background in disaster management responses can offer valuable insights and best practices to help CASCO respond effectively to unforeseen challenges and crises. In her role as COO, she can collaborate with the leadership team to identify areas for improvement and implement strategies to enhance organizational performance, such as streamlining processes, optimizing resource allocation, and increasing employee empowerment and capacity building.`,
+        ar:'يمكن لخلفيتها في استجابة إدارة الكوارث أن تقدم نصائح وأفضل الممارسات القيمة لمساعدة CASCO على الاستجابة بفعالية للتحديات والأزمات غير المتوقعة. بصفتها مديرة تشغيلية، يمكنها التعاون مع فريق القيادة لتحديد مجالات التحسين وتنفيذ استراتيجيات لتعزيز الأداء التنظيمي، مثل تبسيط العمليات، وتحسين تخصيص الموارد، وزيادة تمكين الموظفين وبناء القدرات.'
+    },
+    jihadmohamed4:{
+        en:`Jihad's interpersonal and leadership qualities can play a pivotal role in fostering a culture of innovation and change within the company. She can work with employees at all levels to encourage collaboration, creativity, and continuous improvement, ultimately helping CASCO achieve excellence in its operations and services.`,
+        ar:'يمكن لصفات جهاد بين الأشخاص والقيادة أن تلعب دورًا حاسمًا في تعزيز ثقافة الابتكار والتغيير داخل الشركة. يمكنها العمل مع الموظفين على جميع المستويات لتشجيع التعاون والإبداع والتحسين المستمر، مما يساعد في نهاية المطاف CASCO على تحقيق التميز في عملياتها وخدماتها.'
+    },
+    jihadmohamed5:{
+        en:`Overall, Jihad's unique set of skills, knowledge, and experience can make her an invaluable asset to CASCO. As COO, she can leverage her expertise to help the company achieve its goals and objectives, while also navigating the challenges and uncertainties of the modern business world.`,
+        ar:'بشكل عام، يمكن أن تجعل مجموعة مهارات ومعرفة جهاد وخبرتها الفريدة لها أهمية كبيرة لـ CASCO. بصفتها مديرة تشغيلية رئيسية، يمكنها استغل'
+    },
+    // shreif galal
+    shriefgalal2:{
+        en:`Dr. Sherif Galal is a highly accomplished and respected COO, lecturer, and technical consultant in the field of information security. He holds numerous professional certifications, including CRISC, CCAK, GRCP, GRCA, IPMP, IDPP, COBIT19, ITIL, TTT, CKPIP, CPMP, ISO27001 SLA&SLI, ISO9001 SLA, ISO37301 SLA&SLI, ISO22301 SLI, ISO27005, and ISO27002 SLM, demonstrating his exceptional expertise and knowledge in this critical field.`,
+        ar:'الدكتور شريف جلال هو مدير تشغيلي ومحاضر ومستشار فني محترم ومتميز في مجال أمن المعلومات. يحمل العديد من الشهادات المهنية، بما في ذلك CRISC وCCAK وGRCP وGRCA وIPMP وIDPP وCOBIT19 وITIL وTTT وCKPIP وCPMP وISO27001 SLA&SLI وISO9001 SLA وISO37301 SLA&SLI وISO22301 SLI وISO27005 وISO27002 SLM، مما يدل على خبرته ومعرفته الاستثنائية في هذا المجال الحيوي.'
+    },
+    shriefgalal3:{
+        en:`As a COO, Dr. Galal has a proven track record of leading and managing high-performing teams, optimizing operational processes, and driving business growth and profitability. As a lecturer, he shares his wealth of knowledge and experience with the next generation of information security professionals, providing them with the skills and insights they need to succeed in this fast-paced and ever-changing field.`,
+        ar:'بصفته مدير تشغيلي، لديه سجل حافل في قيادة وإدارة فرق عالية الأداء، وتحسين العمليات التشغيلية، ودفع نمو الأعمال والربحية. وبصفته محاضر، يشارك ثروته من المعرفة والخبرة مع الجيل القادم من محترفي أمن المعلومات، ويزودهم بالمهارات والإلمام اللازمين للنجاح في هذا المجال السريع التطور والمتغير باستمرار.'
+    },
+    shriefgalal4:{
+        en:`In addition, Dr. Galal serves as a technical consultant for CASCO, a leading provider of information security solutions. In this role, he leverages his deep understanding of information security standards and best practices to help organizations across a range of industries strengthen their security posture and protect their valuable assets from cyber threats.`,
+        ar:'بصفة عامة، الدكتور شريف جلال هو خبير حقيقي في مجال أمن المعلومات، بخبرة واسعة وشغف لنشر معرفته ومساعدة الآخرين على النجاح.'
+    },
+    shriefgalal5:{
+        en:`Overall, Dr. Sherif Galal is a true expert in the field of information security, with a wealth of experience and a passion for sharing his knowledge and helping others succeed.`,
+        ar:'بصفة عامة، الدكتور شريف جلال هو خبير حقيقي في مجال أمن المعلومات، بخبرة واسعة وشغف لنشر معرفته ومساعدة الآخرين على النجاح.'
+    },
+    // mai tag
+    maitag2:{
+        en:`Dr. Mai Tag Eldien is an experienced food safety consultant with a proven track record of success in the international trade and development industry. With a Bachelor's Degree focused in Food Quality and Control Program from veterinary medicine, Dr. Mai TagEldien has developed a deep understanding of the complexities of food safety and quality control.`,
+        ar:`الدكتورة مي تاج الدين هي مستشارة خبيرة في مجال سلامة الأغذية بخبرة مثبتة في صناعة التجارة الدولية والتنمية. مع درجة البكالوريوس المركزة في برنامج جودة الأغذية والسيطرة من كلية الطب البيطري ، طورت الدكتورة  مي تاج الدين فهمًا عميقًا لتعقيدات سلامة الأغذية ومراقبة الجودة.`
+    },
+    maitag3:{
+        en:`As a FIFA Food Inspector and Approved Tutor Highfield, Mai TagEldien has worked tirelessly to promote best practices and ensure that food safety standards are maintained at the highest level. In addition, she has demonstrated expertise in ISO 22000 lead auditing and BRC lead auditing, providing invaluable insights and recommendations to clients around the world.`,
+        ar:`بصفتها مفتشة في الأغذية ومدربة معتمدة من FIFA Food Inspector و Highfield، عملت الدكتورة مي تاج الدين بلا كلل لتعزيز الممارسات الأفضل وضمان الحفاظ على معايير سلامة الأغذية على أعلى مستوى. بالإضافة إلى ذلك، قدمت الدكتورة مي تاج الدين خبرتها في تدقيق المراجعة الرائدة في ISO 22000 وتدقيق BRC lead، مما يوفر نصائح وتوصيات لا تقدر بثمن للعملاء في جميع أنحاء العالم.`
+    },
+    maitag4:{
+        en:`Dr. Mai TagEldien is also the Founder of Food Zone, a platform designed to provide expert guidance and support to food safety professionals. Her dedication and passion for the industry have earned her a reputation as a respected leader in the field, and she is widely recognized for her expertise and commitment to excellence.`,
+        ar:`كمؤسس لمنصة Food Zone، قامت الدكتورة مي تاج الدين بتصميم منصة تهدف إلى تزويد المهنيين في مجال سلامة الأغذية بالإرشادات والدعم الخبير اللازمين. حققت التفاني والشغف الذي يتميز به الدكتورة تاج الدين للصناعة سمعة كقائد محترم في المجال، وهي تتمتع بسمعة واسعة في الخبرة والالتزام بالتميز.`
+    },
+    maitag5:{
+        en:`As a valued member of the CASCO team, Dr. Mai TagEldien brings her extensive knowledge and experience to every project she works on, providing clients with the guidance and support they need to achieve their goals and maintain the highest standards of food safety and quality control.`,
+        ar:`كعضو قيم في فريق CASCO، تجلب الدكتورة مي تاج الدين معها معرفتها وخبرتها الشاملة في كل مشروع تعمل عليه، مما يوفر للعملاء التوجيه والدعم الذي يحتاجونه لتحقيق أهدافهم والحفاظ على أعلى مستويات سلامة الأغذية ومراقبة الجودة.`
+    },
+    // mohamed hossam
+    mohamedhossam2:{
+        en:`Dr. Mohamed Hossam El-Din is an experienced and highly skilled Lead Auditor with extensive knowledge in food safety and quality management systems. As a Lead Auditor and tutor, he has played a key role in the development and implementation of food safety and quality programs for a range of clients.`,
+        ar:'الدكتور محمد حسام الدين هو مدقق رئيسي ذو خبرة ومهارة عالية في نظم إدارة سلامة الأغذية والجودة. وقد لعب دوراً حيوياً في تطوير وتنفيذ برامج سلامة الأغذية والجودة لمجموعة من العملاء كمدقق رئيسي ومعلم.'
+    },
+    mohamedhossam3:{
+        en:`Dr. Hossam El-Din is a certified HABC Level 4 (Highfield) and has worked with a variety of food safety and quality management systems, including FSSC 22000, BRCGS/Food Safety, BRCGS/Packaging Material, ISO 22000, IFS, ISO 9001, ISO 45001, ISO 14001, ISO 13485, Global G.A.P, and organic regulations.`,
+        ar:'الدكتور حسام الدين حاصل على شهادة HABC Level 4 (Highfield) المعتمدة وقد عمل مع مجموعة متنوعة من نظم إدارة سلامة الأغذية والجودة، بما في ذلك FSSC 22000 و BRCGS / Food Safety و BRCGS / Packaging Material و ISO 22000 و IFS و ISO 9001 و ISO 45001 و ISO 14001 و ISO 13485 و Global G.A.P واللوائح العضوية.'
+    },
+    mohamedhossam4:{
+        en:`In addition to his expertise in food safety and quality management systems, Dr. Hossam El-Din has also worked with accreditation standards such as ISO 17025, ISO 17021, ISO 17024, and ISO 17065, providing clients with comprehensive guidance and support throughout the certification process.`,
+        ar:'بالإضافة إلى خبرته في نظم إدارة سلامة الأغذية والجودة، عمل الدكتور حسام الدين أيضاً مع معايير الاعتماد مثل ISO 17025 و ISO 17021 و ISO 17024 و ISO 17065، وقدم للعملاء إرشادات ودعماً شاملاً طوال عملية الشهادة.'
+    },
+    mohamedhossam5:{
+        en:`Dr. Hossam El-Din is a valued member of the CASCO team, bringing his extensive knowledge and experience to every project he works on. His dedication to excellence and commitment to ensuring the highest standards of food safety and quality have earned him a reputation as a trusted leader in the industry. Clients rely on his expertise and guidance to help them achieve their goals and maintain compliance with relevant regulations and standards.`,
+        ar:'الدكتور حسام الدين هو عضو قيم في فريق CASCO، ويجلب خبرته ومعرفته الواسعة إلى كل مشروع يعمل عليه. وقد حظيت التفانيه في التميز والتزامه بضمان أعلى معايير سلامة الأغذية والجودة باحترام كبير في الصناعة. يعتمد العملاء على خبرته وإرشاداته لمساعدتهم على تحقيق أهدافهم والامتثال للوائح والمعايير ذات الصلة.'
+    },
+    /// ahmed abdo
+    ahmedabdo3:{
+        en:`Ahmed Abdo is a highly qualified and experienced food safety and packaging material consultant at CASCO. With a Bachelor's degree in Biology (Chemist & Plant) from Al Azhar University and several certifications in quality assurance and control, including ISO 9001:2015 and ISO 22000:2018, he brings a wealth of knowledge and expertise to his role.`,
+        ar:'أحمد عبده هو خبير استشاري عالي الكفاءة في مجال سلامة الأغذية ومواد التعبئة والتغليف في شركة كاسكو. وبحوزته درجة البكالوريوس في الأحياء (الكيمياء والنبات) من جامعة الأزهر وعدد من الشهادات في ضمان الجودة والتحكم، بما في ذلك ISO 9001: 2015 و ISO 22000: 2018 ، يجلب العديد من المعرفة والخبرة إلى دوره.'
+    },
+    ahmedabdo4:{
+        en:'Ahmed has also completed training in several areas, such as 5 S Japanese systems, communication skills, strategic management, and lean manufacturing. He is a certified lead auditor for ISO 9001:2015, ISO 22000:2018, Lead auditor BRCGS V.9 and FSSC V 5.1 2020, among other qualifications.',
+        ar:'أكمل أحمد أيضًا تدريبًا في العديد من المجالات ، مثل أنظمة 5 S اليابانية ، مهارات الاتصال ، الإدارة الاستراتيجية ، والتصنيع النحيل. كما أنه مدقق رئيسي معتمد لـ ISO 9001: 2015 و ISO 22000: 2018 ، ومدقق رئيسي لـ BRCGS V.9 و FSSC V 5.1 2020 ، وغيرها من الشهادات.'
+    },
+    ahmedabdo5:{
+        en:`Ahmed's professional experience includes several roles in quality management, starting from his time as Quality Section Head at UIC EL Sewedy Cables. He has also held positions as Head of Quality & Q.M.R at Energya Magnet Wire EL Sewedy, Quality Manager at Ameco Technology for Medical Industries, QA Section Head at Afri Medical for Medical Industries, and Q.A Manager at United Engineering and Alrowad Foods. His experience has given him the opportunity to manage projects and teams, allowing him to develop excellent leadership and management skills.`,
+        ar:'تتضمن خبرة أحمد الاحترافية عدة أدوار في إدارة الجودة ، بدءًا من وقته كرئيس قسم الجودة في UIC EL Sewedy Cables. كما شغل مناصب رئيس قسم الجودة وإدارة الجودة والمراجع الداخلي في Energya Magnet Wire EL Sewedy ، ومدير جودة في Ameco Technology for Medical Industries ، ورئيس قسم ضمان الجودة في Afri Medical for Medical Industries ، ومدير ضمان الجودة في United Engineering و Alrowad Foods. قدمت له تجربته فرصة إدارة المشاريع والفرق، مما سمح له بتطوير مهارات القيادة والإدارة الممتازة.'
+    },
+    ahmedabdo6:{
+        en:'In addition to his work in the food safety and packaging material consulting field, Ahmed is also proficient in several software programs, including Microsoft Office package, Odoo ERP system, Asana, and ClickUp.',
+        ar:'بالإضافة إلى عمله في مجال استشارات سلامة الأغذية ومواد التعبئة والتغليف ، فإن أحمد ماهر في عدة برامج البرامج ، بما في ذلك حزمة Microsoft Office ونظام Odoo ERP و Asana و ClickUp.'
+    },
+    ahmedabdo7:{
+        en:'Ahmed is a fluent Arabic speaker and has excellent proficiency in written and spoken English. His dedication to his work and his passion for quality management make him a valuable asset to the team at CASCO',
+        ar:'يتحدث أحمد اللغة العربية بطلاقة ولديه إجادة ممتازة في اللغة الإنجليزية تحدثًا وكتابة. إن تفانيه في عمله وشغفه بإدارة الجودة يجعله رصيدًا قيمًا للفريق في CASCO'
+    },
+    // ahmed abdelaziem
+    ahmedabdelaziem2:{
+        en:`Dr. Ahmed Abdelaziem is an accomplished technical manager at CASCO with over 30 years of experience in auditing and consulting projects in the food sector. He also served as the general manager of the EOS Food Sector Committee.`,
+        ar:'د أحمد هو مدير فني متميز في شركة كاسكو للتدقيق والاستشارات في قطاع الأغذية، يتمتع بأكثر من 30 عامًا من الخبرة في التدقيق والاستشارات في قطاع الأغذية.'
+    },
+    ahmedabdelaziem3:{
+        en:`Dr. Abdelaziem holds a Ph.D. in Food Science and Technology, as well as several certifications in quality management and food safety, including ISO 22000:2018 Lead Auditor and FSSC 22000 V5 Lead Auditor.`,
+        ar:'كما تولى أيضًا منصب المدير العام للجنة قطاع الأغذية في EOS. يحمل الدكتور عبد العظيم درجة الدكتوراه في علوم وتكنولوجيا الأغذية، بالإضافة إلى عدة شهادات في إدارة الجودة والسلامة الغذائية، بما في ذلك ISO 22000:2018 Lead Auditor و FSSC 22000 V5 Lead Auditor.'
+    },
+    ahmedabdelaziem4:{
+        en:`Throughout his career, Dr. Abdelaziem has worked with a wide range of food industries, including dairy, meat, poultry, and confectionery, providing technical and regulatory support.`,
+        ar:' طوال حياته المهنية .عمل الدكتور عبد العظيم مع مجموعة واسعة من صناعات الأغذية، بما في ذلك صناعة الألبان واللحوم والدواجن والحلويات، حيث قدم الدعم التقني والتنظيمي. '
+    },
+    ahmedabdelaziem5:{
+        en:`He has also served as a trainer and lecturer on food safety and quality management topics in various institutions, including the Arab Academy for Science, Technology & Maritime Transport.`,
+        ar:'كما عمل كمدرب ومحاضر في مواضيع السلامة الغذائية وإدارة الجودة في مؤسسات مختلفة، بما في ذلك الأكاديمية العربية للعلوم والتكنولوجيا والنقل البحري'
+    },
+    ahmedabdelaziem6:{
+        en:`Dr. Abdelaziem is a member of several professional organizations, including the International Association for Food Protection (IAFP) and the Egyptian Society for Food Science and Technology (ESFST).`,
+        ar:'. يعد الدكتور عبد العظيم عضوًا في العديد من المنظمات المهنية، بما في ذلك الجمعية الدولية لحماية الأغذية (IAFP) والجمعية المصرية لعلوم وتكنولوجيا الأغذية (ESFST).'
+    },
+    ahmedabdelaziem7:{
+        en:`In addition to his technical expertise, Dr. Abdelaziem is known for his strong leadership skills and ability to manage and motivate teams to achieve their goals.`,
+        ar:'بالإضافة إلى خبرته التقنية، يتميز الدكتور عبد العظيم بمهارات قيادية قوية وقدرته على إدارة وتحفيز الفرق لتحقيق أهدافها'
+    },
+    // mohamed mossad
+    mohamed_mosaad2:{
+        en:`Mohamed Mosaad is a highly experienced and knowledgeable professional in the field of food safety and packaging materials. He has a proven track record of delivering successful outcomes in various roles related to quality management, process improvement, auditing, and sustainability.Mohamed Mosaad is a highly experienced and knowledgeable professional in the field of food safety and packaging materials. He has a proven track record of delivering successful outcomes in various roles related to quality management, process improvement, auditing, and sustainability.In addition, Mohamed has obtained an MSU (Michigan State University) certificate in packaging materials sustainability and recycling regulations workshop.Mohamed possesses a broad spectrum of knowledge and skills that allow him to tackle complex challenges and deliver innovative solutions.Mohamed's technical expertise in packaging materials and processes, including extrusion, thermoforming, printing, lamination, and coating, is second to none. He has worked with various materials such as plastics, paper, glass, metal, and wood, and has extensive experience in monitoring traceability and conducting internal and external audits of major customers in the MEA/Europe regions, such as McDonald's, YUM, KFC, Al-Maraie, Nestle, and DANONE.Besides his technical skills, Mohamed possesses strong hard and soft skills, such as proficiency in Microsoft Office and ERP systems, excellent communication skills, analytical thinking, and leadership abilities.`,
+        ar:'هو محترف ذو خبرة عالية ومعرفة واسعة في مجال سلامة الأغذية ومواد التغليف. لديه سجل حافل في تحقيق النتائج الناجحة في مختلف الأدوار المتعلقة بإدارة الجودة وتحسين العمليات والتدقيق والاستدامة. يحمل محمد درجة الماجستير في إدارة الجودة، بالإضافة إلى العديد من الدبلومات في علوم البيئة والكيمياء الحيوية وعلم الأحياء المجهري. كما حصل محمد على شهادة من جامعة ميشيغان الحكومية بشأن ورشة عمل في استدامة مواد التغليف والتنظيمات الخاصة بإعادة التدوير. يمتلك محمد طيفًا واسعًا من المعرفة والمهارات التي تمكنه من مواجهة التحديات المعقدة وتقديم حلول مبتكرة. تقنيات محمد في مجال مواد التغليف والعمليات، بما في ذلك الشد والتشكيل والطباعة والتغليف والتغطية، تعتبر الأفضل في فئتها. لقد عمل محمد مع مواد مختلفة مثل البلاستيك والورق والزجاج والمعدن والخشب، ولديه خبرة واسعة في مراقبة التتبع وإجراء التدقيق الداخلي والخارجي للعملاء الرئيسيين في منطقة الشرق الأوسط وأوروبا، مثل ماكدونالدز ويوم وكنتاكي والمراعي ونستله ودانون. بالإضافة إلى مهاراته التقنية، يتميز محمد بمهارات قوية في التفكير التحليلي والقدرة على الاتصال الفعال والقيادة الفعالة واستخدام برامج Microsoft Office ونظم ERP. تغطي خبرة محمد المهنية أكثر من عقد من الزمن،'
+    },
+    mohamed_mosaad3:{
+        en:`Mohamed's professional experience spans over a decade, during which he held various positions in leading companies in the food packaging industry, such as KRNO for Plastics, PET for FOOD PACKAGING MATERIALS, GULFPACK PACKAGING, FLEX P.FILMS for Packaging films, and GSF for Foods (Golden State Foods).Mohamed has undergone extensive training and courses, including FSSC 22000 Lead Auditor and EMS Internal Auditor, TOT and ISO 19011:2018 for Auditing Management System, Internal Audit of AIB and BRC-IOP Requirements & Food Contact Packaging Manufacturing Facilities, and SPSS Program & Lean Six Sigma, among others.As a food safety and packaging material consultant at CASCO, Mohamed's expertise and experience make him a valuable asset to the team. His passion for delivering excellence and his dedication to quality and sustainability ensures that his clients receive the best solutions that meet their needs and exceed their expectations.`,
+        ar:'تمتد خبرة محمد المهنية على مدى عقد من الزمن، خلالها شغل عدة مناصب في شركات رائدة في صناعة تغليف الأغذية، مثل KRNO for Plastics، وPET for FOOD PACKAGING MATERIALS، وGULFPACK PACKAGING، وFLEX P.FILMS for Packaging films، وGSF for Foods (Golden State Foods). خضع محمد لتدريب ودورات شاملة، بما في ذلك FSSC 22000 Lead Auditor و EMS Internal Auditor و TOT و ISO 19011: 2018 لإدارة التدقيق والتدقيق الداخلي لمتطلبات AIB و BRC-IOP ومنشآت تصنيع العبوات الغذائية و SPSS Program و Lean Six Sigma، وغيرها. بصفته مستشارًا في السلامة الغذائية ومواد التعبئة والتغليف في CASCO، تجعل خبرة وخبرة محمد منه قيمة مضافة للفريق. يضمن شغفه بتقديم التميز وتفانيه في الجودة والاستدامة أن يتلقى عملاؤه الحلول الأفضل التي تلبي احتياجاتهم وتتجاوز توقعاتهم.'
+    },
+    // kossai 
+    kossai2:{
+        en:`Dr. Kosai Ezzat is a highly experienced and well-educated Director of Quality with a deep understanding of the hospitality, retail, and food processing industry. With over 11 years of management experience, Dr. Kosai has proven leadership skills and a comprehensive understanding of the motivators and challenges faced by individuals at each point in their career.Dr. Kosai has a Master's degree in Quality Assurance and Food Safety management systems from the Faculty of Agriculture at Cairo University, as well as a Postgraduate Diploma in Food Safety and Quality Assurance from Ain Shams University. He is also a certified FSSC Lead Auditor and a certified Trainer of Trainers from Hilton University.Throughout his career, Dr. Kosai has gained extensive experience working with various audit techniques and manuals in the Quality and Food Safety field, including E-Cristal, Intertek, SGS, Privirisk, URS, and TUV. He has successfully qualified numerous properties for ISO 22000, 9001, 45001, 14001, and FSSC certificates.Dr. Kosai has also worked on developing and implementing HACCP manuals for Hilton, IHG, and Luver, as well as brand standards for Hilton and Concorde. He is a Training Consultant for Hospitality F&B services, Food Safety and Hygiene, Health and safety, and Quality of service.`,
+        ar:'هو مدير جودة ذو خبرة عالية وتعليم شامل في صناعة الضيافة والتجزئة ومعالجة الأغذية. وبخبرة تزيد عن 11 عامًا في الإدارة، أثبت الدكتور كُسَيّ مهارات القيادة وفهمًا شاملاً للدوافع والتحديات التي يواجهها الأفراد في كل نقطة في حياتهم المهنية. حاصل الدكتور كُسَيّ على درجة الماجستير في نظم ضمان الجودة وسلامة الأغذية من كلية الزراعة في جامعة القاهرة، بالإضافة إلى دبلوم ما بعد الدراسات في سلامة وجودة الأغذية من جامعة عين شمس. كما أنه مدقق رئيسي معتمد لنظام FSSC ومدرب معتمد من جامعة هيلتون لتدريب المدربين. طوال حياته المهنية، اكتسب الدكتور كُسَيّ خبرة واسعة في العمل مع مختلف تقنيات التدقيق والدلائل في مجال الجودة وسلامة الأغذية، بما في ذلك E-Cristal و Intertek و SGS و Privirisk و URS و TUV. وقد حصل على شهادات ISO 22000 و 9001 و 45001 و 14001 و FSSC لعدد كبير من الممتلكات. عمل الدكتور كُسَيّ أيضًا على تطوير وتنفيذ دلائل HACCP لـ Hilton و IHG و Luver، بالإضافة إلى معايير العلامة التجارية لـ Hilton و Concorde. وهو مستشار تدريبي لخدمات الضيافة والأغذية وسلامة الصحة والسلامة وجودة الخدمة.'
+    },
+    kossai3:{
+        en:`With his diverse background in management concepts and operational processes, Dr. Kosai has developed a unique and effective management methodology that enables him to make complex operating, administrative, and procedural decisions while always keeping an eye on the bottom line and ensuring efficiency in all operations.As a Food Safety & Hospitality consultant at CASCO, Dr. Kosai brings his wealth of experience and expertise to help clients achieve their goals in the food safety and hospitality industry.`,
+        ar:'بفضل خلفيته المتنوعة في مفاهيم الإدارة والعمليات التشغيلية، وضع الدكتور كوساي منهجية إدارة فريدة وفعالة تمكنه من اتخاذ قرارات تشغيلية وإدارية وإجرائية معقدة مع الحرص الدائم على المحافظة على الأرباح وضمان الكفاءة في جميع العمليات. وكمستشار لسلامة الأغذية والضيافة في CASCO، يجلب الدكتور قُسَيّ عزت ثروة من الخبرة والتخصص لمساعدة العملاء على تحقيق أهدافهم في صناعة السلامة الغذائية والضيافة.'
+    },
+
 //////////////////< Our Values >////////////////////////
     routeourvalues:{
         en:'Home > About Us > Our Values',

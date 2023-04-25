@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../styles/BoardOfDirectors.module.css'
-import mohamed from '../public/images/borad_of_directors/directors/mohamedhamdy.jpg'
 import Link from 'next/link'
 import Image from 'next/image'
 import ahmed_mahrous from '../public/images/borad_of_directors/Roles/01 Ahmed Mahrous/Ahmed Mahrous.jpeg'
@@ -16,13 +15,6 @@ import kossai from "../public/images/borad_of_directors/Roles/13 Dr Kossai/kossa
 import ahmed_abdo from "../public/images/borad_of_directors/Roles/10 Dr Ahmed Abdo/Ahmed Abdo.jpeg"
 import ahmed_abdelazim from "../public/images/borad_of_directors/Roles/11 Dr Ahmed Abdelaziem/Ahmed Abelaziem.jpeg"
 import mossad from "../public/images/borad_of_directors/Roles/12 Dr Mohamed Mossad/Mossad.jpeg"
-// import uae from '../public/images/borad_of_directors/directors_flags/uae.png'
-// import qater from '../public/images/borad_of_directors/directors_flags/qater.png'
-// import ksa from '../public/images/borad_of_directors/directors_flags/ksa.png'
-// import egypt from '../public/images/borad_of_directors/directors_flags/egypt.png'
-// import bahreen from '../public/images/borad_of_directors/directors_flags/bahreen.png'
-// import kuwiat from '../public/images/borad_of_directors/directors_flags/kuwait.png'
-// import oman from '../public/images/borad_of_directors/directors_flags/oman.png'
 const BoardOfDirectors = () => {
   return (
     <>
@@ -73,7 +65,6 @@ const BoardOfDirectors = () => {
                                       </figure>
                                   </div>
                               </Link>
-
                         </div>  
                         <div className="col-xl-4 col-md-6 d-flex" >
                             <Link href={'/about/our-team/mostafa_farag'}>
@@ -94,7 +85,7 @@ const BoardOfDirectors = () => {
                             </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                            <Link href={'/about/our-team/abdelrahman_farahat'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                           <Image src={abdelrahman} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -109,10 +100,10 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                              <Link href={'/about/our-team/ahmed_hammad'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={hammad} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -127,10 +118,10 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                            <a>
+                            <Link href={'/about/our-team/jihad_mohamed'}>
                                 <div className={`${styles.teamMember2}`}>
                                     <figure className={`${styles.teamMemberFigure}`}>
                                     <Image src={jihad} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -145,16 +136,16 @@ const BoardOfDirectors = () => {
                                     </figcaption>
                                     </figure>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                              <Link href={'/about/our-team/shreif_galal'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={sheif} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
                                           <figcaption className={`${styles.figCaption} text-center`}>
                                             <div className='mt-5'>
-                                                <p className='fs-3'data-trans="DrShriefGalal"></p>
+                                                <p className='fs-3' data-trans="DrShriefGalal"></p>
                                                 <p className='fs-5' data-trans="QualityFoodSafetyConsultant"></p>
                                             </div>
                                               <div className='d-flex justify-content-end'>
@@ -163,10 +154,10 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                              <Link href={'/about/our-team/mai-tag'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={mai} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -181,10 +172,10 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                              <Link href={'/about/our-team/mohamed_hossam'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={hossam} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -199,10 +190,10 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                              <Link href={'/about/our-team/ahmed_abdo'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={ahmed_abdo} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -217,10 +208,10 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                              <Link href={'/about/our-team/ahmed_abdelaziem'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={ahmed_abdelazim} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -235,10 +226,10 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                              <Link href={'/about/our-team/mohamed_mossad'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={mossad} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -253,10 +244,10 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
                         </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
-                              <a>
+                              <Link href={'/about/our-team/kossai'}>
                                   <div className={`${styles.teamMember2}`}>
                                       <figure className={`${styles.teamMemberFigure}`}>
                                         <Image src={kossai} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
@@ -271,7 +262,7 @@ const BoardOfDirectors = () => {
                                           </figcaption>
                                       </figure>
                                   </div>
-                              </a>
+                              </Link>
                         </div>
                     </div>
                 </div>

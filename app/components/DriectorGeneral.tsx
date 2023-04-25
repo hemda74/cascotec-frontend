@@ -15,7 +15,7 @@ const DriectorGeneral = (props:Props) => {
         <div className={`container mb-4`}>
             <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
             <Link href={"/about"}><a className="text-white fw-semibold mb-4" data-trans="AboutCascoNav2">{` > About CASCO`}</a></Link>
-            <Link href={"/about/board-of-directors"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{``}</a></Link>
+            <Link href={"/about/our-team"}><a className="text-white fw-semibold mb-4" data-trans="BoardOfDirectorsNav2" >{``}</a></Link>
         </div>
       <h3 className={`text-white fw-bold mb-2 `} data-trans="DirectorManger">Director General</h3>
       <h2 className={`text-white fw-bold mb-0`} data-trans="MrAhmedMahrous">Mr. Ahmed Mahrous</h2>
