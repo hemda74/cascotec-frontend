@@ -1075,6 +1075,18 @@ const indexTrans: translataionContainer = {
         en:'Contact Us',
         ar:'تواصل معنا'
     },
+    EgyptBranchPhone:{
+        en:`+20 23963913`,
+        ar:`23963913 02+ `
+    },
+    UAEBranchPhone:{
+        en:`+971 52 526 1012`,
+        ar:`1012 526 52 917+`
+    },
+    KSABranchPhone:{
+        en:`+966 50 195 1017`,
+        ar:'1017 195 50 966+'
+    },
     EgyptBranch:{
         en:'Egypt Branch',
         ar:'فرع مصر'

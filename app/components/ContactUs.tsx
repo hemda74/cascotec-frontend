@@ -25,7 +25,7 @@ const ContactUs = () => {
                     <p className={`${styles.iconsColor}`}>
                         <BsFillTelephoneFill  size={33}/>
                     </p>
-                    <p className=''>+20 23963913</p>
+                    <p className='' data-trans='EgyptBranchPhone'>+20 23963913</p>
                     <p className={`${styles.iconsColor}`}>
                         <FiMail  size={30}/>
                     </p>
@@ -52,7 +52,7 @@ const ContactUs = () => {
                     <p className={`${styles.iconsColor}`}>
                         <BsFillTelephoneFill  size={33}/>
                     </p>
-                    <p className=''>+971 52 526 1012</p>
+                    <p className='' data-trans='UAEBranchPhone'>+971 52 526 1012</p>
                     <p className={`${styles.iconsColor}`}>
                         <FiMail  size={30}/>
                     </p>
@@ -75,11 +75,11 @@ const ContactUs = () => {
               </div>
               <div className="col-lg-4 col-md-6 p-3">
                   <div className={`${styles.firstIcons}`}>
-                      <p className={`fs-4 mb-4 ${styles.postTitle}`}data-trans="KSABranch">KSA Branch</p>
+                      <p className={`fs-4 mb-4 ${styles.postTitle}`} data-trans="KSABranch">KSA Branch</p>
                       <p className={`${styles.iconsColor}`}>
                           <BsFillTelephoneFill  size={33}/>
                       </p>
-                      <p className=''>+966 50 195 1017</p>
+                      <p className='' data-trans="KSABranchPhone">+966 50 195 1017</p>
                       <p className={`${styles.iconsColor}`}>
                           <FiMail  size={30}/>
                       </p>
