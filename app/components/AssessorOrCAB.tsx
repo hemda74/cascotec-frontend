@@ -18,7 +18,7 @@ const AssessorOrCAB = () => {
                                         <img src="/images/home_page/assessor-illustration.png" alt=""/>
                                         <button className={`myInfo rounded ${styles.btnClassAssessor}`} data-trans="APPLYASASSESSOR">{`APPLY AS ASSESSOR`}</button>
                                     </div>
-                                    <div className={` col-md-6 col-sm-12 col-xs-12 col-xl-6 col-lg-6 ${styles.cardCertificate2}`}>
+                                    <div className={`col-md-6 col-sm-12 col-xs-12 col-xl-6 col-lg-6 ${styles.cardCertificate2}`}>
                                         <img src="/images/home_page/cab-illustration.png" alt=""/>
                                         <button className={`myInfo rounded ${styles.btnClassCab}`} data-trans="APPLYASCAB">{`APPLY AS CAB`}</button>
                                     </div>

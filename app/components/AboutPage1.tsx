@@ -61,29 +61,29 @@ const About = () => {
                                         <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
                                             <img src="https://gac.org.sa/wp-content/uploads/2022/05/accredited-bodies-ic2.png" alt=""/>
                                                 <div className={`${styles.itemFeaturesBoxContent}`}>
-                                                <h4>324</h4>
-                                                <p>Accredited bodies</p>
+                                                <h4>10</h4>
+                                                <p data-trans="AccreditedBodiesAbout"></p>
                                             </div>
                                         </div>
                                         <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
                                             <img  className="" src="https://gac.org.sa/wp-content/uploads/2022/05/assessors-and-experts-ic2.png" alt=""/>
                                             <div className={`${styles.itemFeaturesBoxContent}`}>
-                                                <h4>1785</h4>
-                                                <p className=''>Assessors and experts</p>
+                                                <h4>50</h4>
+                                                <p className='' data-trans="AssessorsandExperts"></p>
                                             </div>
                                         </div>
                                         <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
                                             <img src="https://gac.org.sa/wp-content/uploads/2022/05/trainees-ic2.png" alt=""/>
                                             <div className={`${styles.itemFeaturesBoxContent}`}>
-                                                <h4>666</h4>
-                                                <p>Trainees during 2022</p>
+                                                <h4>40</h4>
+                                                <p data-trans="Traineesduring2022"></p>
                                             </div>
                                         </div>
                                         <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
                                             <img src="https://gac.org.sa/wp-content/uploads/2022/05/agreements_ic.png" alt=""/>
                                             <div className={`${styles.itemFeaturesBoxContent}`}>
-                                                <h4>37</h4>
-                                                <p>CASCO agreements</p>
+                                                <h4>2</h4>
+                                                <p data-trans="CASCOAgreements"></p>
                                             </div>
                                         </div> 
                                     </div>

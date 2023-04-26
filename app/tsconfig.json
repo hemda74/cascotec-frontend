@@ -15,6 +15,18 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Slider.tsx", "components/Slider.js", "components/ServicesSlider.tsx", "components/NewsHomePage.js", "components/GalleryImages.js", "components/AccrediedsBodies.js", "pages/courses/...understanding_iso_ise_17025_2017_for_testing_and_calibration_laboratories.tsx", "components/Course1Email.jsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/Slider.tsx",
+    "components/Slider.js",
+    "components/ServicesSlider.tsx",
+    "components/NewsHomePage.js",
+    "components/GalleryImages.js",
+    "components/AccrediedsBodies.js",
+    "pages/courses/...understanding_iso_ise_17025_2017_for_testing_and_calibration_laboratories.tsx",
+    "components/Courses Forms/Course1Email.jsx"
+  ],
   "exclude": ["node_modules"]
 }

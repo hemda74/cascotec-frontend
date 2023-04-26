@@ -452,20 +452,20 @@ const indexTrans: translataionContainer = {
         ar:'إنجازات المركز'
     },
     AccreditedBodiesAbout:{
-        en:'Accredited Bodies',
-        ar:'جهة معتمدة'
+        en:'Clients',
+        ar:'العملاء '
     },
     AssessorsandExperts:{
-        en:'Assessors and Experts',
-        ar:'مقيمين وخبراء'
+        en:'Consultants & Trainers',
+        ar:'الاستشارين و المحاضرين '
     },
     Traineesduring2022:{
-        en:"2022's Trainees",
-        ar:'متدربين  2022'
+        en:"Training Record",
+        ar:'السجل التدريبي'
     },
     CASCOAgreements:{
-        en:'CASCOAgreements',
-        ar:'اتفاقيات المركز'
+        en:'CASCO Agreements',
+        ar:'اتفاقيات مٌبرمة'
     },
     Ethics:{
         en:'Ethics are central to CASCO’s actions',
@@ -502,6 +502,11 @@ const indexTrans: translataionContainer = {
     budgetP4:{
         en:`The company's mission is to provide innovative and effective solutions to its clients and to achieve growth and success in all entities it works with. The company relies on its independent budget to meet its financial needs and enable it to achieve these goals.`,
         ar:'تتمثل مهمة الشركة في تقديم حلول مبتكرة وفعالة لعملائها، وتحقيق النمو والنجاح في جميع الجهات التي تعمل معها. وتعتمد الشركة على الميزانية المستقلة لتلبية احتياجاتها المالية وتمكينها من تحقيق هذه الأهداف.'
+    },
+    /// back to casco under construction
+    BackToCASCO:{
+        en:'Back To CASCO',
+        ar:'العودة الي كاسكو'
     },
 ////////////////////< Board of Directors >//////////////////////////////////
     BoardOfDirectorsNav2:{

@@ -170,14 +170,15 @@
     padding: 1.1111111111rem 1.6666666667rem;
   }
   .itemFeaturesBoxContent h4{
-    font-size: 1.5555555556rem;
+    font-size: 1.555555556rem;
     font-weight: 700;
     color: #fff;
     line-height: 2.8888888889rem;
   }
   .itemFeaturesBoxContent p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
+    padding: 0.3rem;
     color: #f7f9fd;
   }
   /*      end section        */

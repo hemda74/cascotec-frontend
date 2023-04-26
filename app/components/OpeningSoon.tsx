@@ -1,7 +1,9 @@
 import React from 'react';
 import type { NextPage } from 'next';
 import Image from 'next/image';
+import Link from 'next/link'
 import soon from '../public/soon.svg'
+import styles from '../styles/AssessorOrCAB.module.css'
 type Props = {};
 // a customized 404 page.
 const FourOhFour: NextPage = (props: Props) => {
@@ -19,13 +21,18 @@ const FourOhFour: NextPage = (props: Props) => {
               </h4>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center ">
+          <div className="d-flex align-items-center justify-content-center">
             <Image
               alt="ComingSoonImage"
               src={soon}
-              width={550}
-              height={550}
+              width={500}
+              height={500}
             />
+          </div>
+          <div className="d-flex align-items-center justify-content-center">
+            <Link href={'/'}>
+          <button className={`myInfo rounded ${styles.btnClassCab}`} data-trans="BackToCASCO">{``}</button>
+          </Link>
           </div>
         </div>
         <style jsx>{`
