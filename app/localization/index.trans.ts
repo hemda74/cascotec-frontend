@@ -1147,6 +1147,10 @@ const indexTrans: translataionContainer = {
         en:`Enroll Now`,
         ar:'سجل الآن'
     },
+    RequestNow:{
+        en:`Request Now`,
+        ar:'اطلب الان'
+    },
 /////////////////////////////////////////////////our Cients//////////////////////////////////////////////////////////////////////////////
     ourclientsnav:{
         en:' > Our Clients',
