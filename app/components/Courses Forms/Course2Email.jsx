@@ -9,7 +9,7 @@ import styles from '../../styles/ContactUs.module.css'
   const sendEmail = (e) => {
     e.preventDefault();
      
-    emailjs.sendForm('service_5qqa4i3', 'template_ibedz4l', form.current, 'tMN89qaA4jrvOzV4Q')
+    emailjs.sendForm('service_5qqa4i3', 'template_nwr9qcl', form.current, 'tMN89qaA4jrvOzV4Q')
       .then((result) => {
           console.log(result.text);
           alert("Your request has been sent successfully... Please check your email for more information");
@@ -24,7 +24,7 @@ import styles from '../../styles/ContactUs.module.css'
   return (
     <>
     
-    <form ref={form} className={` p-4  mt-5 ${styles.contactCard}`} onSubmit={sendEmail}>
+    <form ref={form} className={`p-4 mt-5 ${styles.contactCard}`} onSubmit={sendEmail}>
     <div className='text-center mb-4'>
        <span className={`myInfo rounded fw-bold ${styles.enrollButton}`} data-trans="EnrollNow">Enroll Now</span>
        </div>

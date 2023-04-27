@@ -1143,6 +1143,10 @@ const indexTrans: translataionContainer = {
         en:'Send Message',
         ar:'إرسال'
     },
+    EnrollNow:{
+        en:`Enroll Now`,
+        ar:'سجل الآن'
+    },
 /////////////////////////////////////////////////our Cients//////////////////////////////////////////////////////////////////////////////
     ourclientsnav:{
         en:' > Our Clients',

@@ -6,6 +6,7 @@ import CourseLayout from '../../layouts/CourseLayout';
 import Link from "next/link"
 import { NextPageWithLayout } from '../_app';
 import courseimage from '../../public/imagess/coursesimage.png'
+import ContactUs from '../../components/Courses Forms/Course4Email';
 type Props = {};
 // dymmy data for ui till handle working with api
 const Course:NextPageWithLayout = (props:Props) => {
@@ -204,6 +205,7 @@ const Course:NextPageWithLayout = (props:Props) => {
                         </li>
                     </ul>
                 </div>
+                <ContactUs/>
             </div>
         </div>
     </div>   

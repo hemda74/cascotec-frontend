@@ -102,6 +102,10 @@
     -webkit-animation: animate-loading 1s linear infinite;
     animation: animate-loading 1s linear infinite;
   }
+  .enrollButton{
+    padding: 0.4rem 3rem 0.4rem ;
+    border: none;
+  }
   
   .contact .php-email-form input[type=text],
   .contact .php-email-form input[type=email],

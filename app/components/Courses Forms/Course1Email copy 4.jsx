@@ -25,8 +25,8 @@ import styles from '../../styles/ContactUs.module.css'
     <>
     
     <form ref={form} className={` p-4  mt-5 ${styles.contactCard}`} onSubmit={sendEmail}>
-    <div className='text-center mb-4'>
-       <span className={`myInfo rounded fw-bold ${styles.enrollButton}`} data-trans="EnrollNow">Enroll Now</span>
+    <div className='text-center mb-3'>
+       <span className={`myInfo rounded fw-bold ${styles.enrollButton}`}>Enroll Now</span>
        </div>
        <p data-trans="pleasefillform">Please fill out the form below, and one of our representatives will contact you within 24 hours.</p>
     <div className={`${styles.formGroup}`}>
