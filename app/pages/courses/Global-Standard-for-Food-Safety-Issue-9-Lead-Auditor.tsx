@@ -16,7 +16,7 @@ const Course:NextPageWithLayout = (props:Props) => {
   const [hours, setHours] = useState(0);
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(0);
-/////////////// add counter section ///////////////////////
+  /////////////// add counter section ///////////////////////
   useEffect(() => {
     const target = new Date("06/01/2023 09:00:00");
     const interval = setInterval(() => {

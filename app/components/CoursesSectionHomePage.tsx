@@ -25,7 +25,7 @@ const CoursesSectionHomePage = () => {
                                 <div className="col-xl-8 col-lg-8 col-md-12">
                                     <div className="row justify-content-between">
                                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 p-4 p-4" >
-                                    <Link href={'/courses/global-standard-for-food-safety-issue-9'}>
+                                            <Link href={'/courses/Global-Standard-for-Food-Safety-Issue-9-Sites-Training'}>
                                     <div className={`${styles.postBox} p-1`}>
                                         <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt="course_image"/></div>
                                         <figure className={`mt-4 ${styles.postTitleFigre}`}>
