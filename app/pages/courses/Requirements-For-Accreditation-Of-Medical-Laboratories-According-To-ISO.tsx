@@ -6,7 +6,7 @@ import CourseLayout from '../../layouts/CourseLayout';
 import Link from "next/link"
 import { NextPageWithLayout } from '../_app';
 import courseimage from '../../public/imagess/coursesimage.png'
-import ContactUs from '../../components/Courses Forms/Course1Email';
+import ContactUs from '../../components/Courses Forms/Course9Email';
 
 type Props = {};
 // dymmy data for ui till handle working with api
@@ -51,7 +51,7 @@ const Course:NextPageWithLayout = (props:Props) => {
         <title>Course Details | CASCO</title>
     </Head>
     <main className={`${styles.bodyContainer}`}>
-    <div className={`text-center row ${styles.titleWord}`}>
+    <div className={`text-center row ${styles.titleWord3}`}>
         <div className={`container mb-4`}>
             <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
             <Link href={"/courses"}><a className="text-white fw-semibold mb-4" data-trans="CourseNav2">{` > Courses`}</a></Link>

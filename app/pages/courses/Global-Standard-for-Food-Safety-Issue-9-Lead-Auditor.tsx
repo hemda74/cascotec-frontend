@@ -6,7 +6,7 @@ import CourseLayout from '../../layouts/CourseLayout';
 import Link from "next/link"
 import { NextPageWithLayout } from '../_app';
 import courseimage from '../../public/imagess/coursesimage.png'
-import ContactUs from '../../components/Courses Forms/Course1Email';
+import ContactUs from '../../components/Courses Forms/Course17Email';
 
 type Props = {};
 // dymmy data for ui till handle working with api

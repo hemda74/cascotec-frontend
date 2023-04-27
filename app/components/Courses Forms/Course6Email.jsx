@@ -24,14 +24,14 @@ import styles from '../../styles/ContactUs.module.css'
   return (
     <>
     
-    <form ref={form} className={` p-4  mt-5 ${styles.contactCard}`} onSubmit={sendEmail}>
+    <form ref={form} className={`p-4 mt-5 ${styles.contactCard}`} onSubmit={sendEmail}>
     <div className='text-center mb-3'>
-       <span className={`myInfo rounded fw-bold ${styles.enrollButton}`}>Enroll Now</span>
+       <span className={`myInfo rounded fw-bold ${styles.enrollButton}`} data-trans="EnrollNow" >Enroll Now</span>
        </div>
        <p data-trans="pleasefillform">Please fill out the form below, and one of our representatives will contact you within 24 hours.</p>
     <div className={`${styles.formGroup}`}>
       <label data-trans="Name">Name</label>
-      <input className={`form-control ${styles.formControl}`} ref={name1}  name="user_name" required/>
+      <input className={`form-control ${styles.formControl}`} ref={name1} name="user_name" required/>
       </div>
        <div className={`${styles.formGroup}`}>
       <label data-trans="Email">Email</label>

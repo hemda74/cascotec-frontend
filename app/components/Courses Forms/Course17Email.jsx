@@ -9,7 +9,7 @@ import styles from '../../styles/ContactUs.module.css'
   const sendEmail = (e) => {
     e.preventDefault();
      
-    emailjs.sendForm('service_5qqa4i3', 'template_ibedz4l', form.current, 'tMN89qaA4jrvOzV4Q')
+    emailjs.sendForm('service_5qqa4i3', 'template_55rmk1q', form.current, 'tMN89qaA4jrvOzV4Q')
       .then((result) => {
           console.log(result.text);
           alert("Your request has been sent successfully... Please check your email for more information");
