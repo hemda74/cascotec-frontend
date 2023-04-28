@@ -27,6 +27,6 @@
     "components/AccrediedsBodies.js",
     "pages/courses/...understanding_iso_ise_17025_2017_for_testing_and_calibration_laboratories.tsx",
     "components/Courses Forms/Course1Email.jsx"
-, "components/Services Forms/Ser1Modal.jsx"  ],
+, "components/Services Forms/Ser1Modal.jsx", "components/Footer.jsx"  ],
   "exclude": ["node_modules"]
 }
