@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import styles from '../../styles/FormCourseModal.module.css';
 // Service Modal component
-const Ser10Modal = () => {
+const Ser14Modal = () => {
     const form = useRef();
     const name1 = useRef(null);
     const phone1 = useRef(null);
@@ -10,7 +10,7 @@ const Ser10Modal = () => {
    const sendEmail = (e) => {
      e.preventDefault();
       
-     emailjs.sendForm('service_5qqa4i3', 'template_frs33t1', form.current, 'tMN89qaA4jrvOzV4Q')
+     emailjs.sendForm('service_5qqa4i3', 'template_mxoupuh', form.current, 'tMN89qaA4jrvOzV4Q')
        .then((result) => {
            console.log(result.text);
            alert("Your request has been sent successfully... Please check your email for more information");
@@ -23,7 +23,7 @@ const Ser10Modal = () => {
        });
    };
   return (
-    <div className="modal fade" id="Ser10Modal" data-bs-keyboard="false" tabIndex={-1} aria-labelledby="Ser10Modal" aria-hidden="true">
+    <div className="modal fade" id="Ser14Modal" data-bs-keyboard="false" tabIndex={-1} aria-labelledby="Ser14Modal" aria-hidden="true">
         <div className={`modal-dialog modal-lg modal-dialog-centered ${styles.modalWidth}`}>
             <div className="modal-content">
                 <div className="modal-header">
@@ -55,4 +55,4 @@ const Ser10Modal = () => {
     </div>
   );
 };
-export default Ser10Modal;
+export default Ser14Modal;
