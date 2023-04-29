@@ -77,9 +77,6 @@ export default class SwipeToSlide extends Component {
               <img className={`${styles.imageDiv}`} src="/images/clients/Picture8.png" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}> 
-              <img className={`${styles.imageDiv}`} src="/images/clients/Picture7.jpg" alt=" " />
-          </div>
-          <div className={`${styles.bigDiv}`}> 
               <img className={`${styles.imageDiv}`} src="/images/clients/Picture9.png" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}> 
@@ -90,9 +87,6 @@ export default class SwipeToSlide extends Component {
           </div>
           <div className={`${styles.bigDiv}`}> 
               <img className={`${styles.imageDiv}`} src="/images/clients/Picture12.png" alt=" " />
-          </div>
-          <div className={`${styles.bigDiv}`}> 
-              <img className={`${styles.imageDiv}`} src="/images/clients/Picture15.png" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}>
               <img className={`${styles.imageDiv}`} src="/images/clients/Picture13.jpg" alt=" " />
