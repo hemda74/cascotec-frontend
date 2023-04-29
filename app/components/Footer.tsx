@@ -5,6 +5,7 @@ import styels from '../styles/Footer.module.css'
 import logo from '../public/logo.png'
 import {BsFacebook,BsTwitter,BsLinkedin,BsYoutube, BsInstagram} from 'react-icons/bs';
 import {RiSendPlaneFill} from 'react-icons/ri'
+import NewsLetter from './Other Forms/NewsLetterForm'
 // footer Component design
 const Footer = () => {
   return (
@@ -49,14 +50,15 @@ const Footer = () => {
                             <small className=" fw-bold fs-5" data-trans='NewsletterSubscriptionFooter'>
                             Newsletter Subscription
                             </small>
-                            <small className="ln-lg mt-3 mb-3 fw-semibold d-inline-block" data-trans='NewsletterSubscriptionFooterberif'>
+                            <small className="ln-lg mt-3 mb-2 fw-semibold d-inline-block" data-trans='NewsletterSubscriptionFooterberif'>
                             Join our mailing list and receive our latest updates, recent CABs, training programs and etc. straight to your inbox</small>
                             <div className="form-group">
                                 <div className="form-group">
-                                    <div className={`input-group mb-1 `}>
+                                    {/* <div className={`input-group mb-1 `}>
                                     <input type="email" className={`form-control ${styels.emailInput}`} aria-label="" placeholder='Your Email Adrress...'/>
                                     <span className={`input-group-text ${styels.subsIcon}`}><RiSendPlaneFill size={30}/></span>
-                                </div>
+                                </div> */}
+                                <NewsLetter/>
                             <div className={` mt-2 ${styels.iconsSocial}`}>
                                 <Link href={"/"}><a className={` me-2 ms-2 ${styels.footerA}`}> <BsTwitter size={15}/></a></Link> 
                                 <Link href={"/"}><a className={` me-2 ms-2 ${styels.footerA}`}> <BsFacebook size={15}/></a></Link>

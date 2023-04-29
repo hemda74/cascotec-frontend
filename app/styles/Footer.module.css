@@ -50,9 +50,12 @@
     cursor: pointer;
     border: none;
     border-radius: 0;
+    padding: 0;
+    background: none;
+
 }
-.emailInput{
-    border-radius: 0;
+.formControl{
+    border-radius: none !important;
 }
 .iconsSocial{
     display: inline-flex;

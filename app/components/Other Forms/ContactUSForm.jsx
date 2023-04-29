@@ -25,9 +25,9 @@ import styles from '../../styles/ContactUs.module.css'
     <>
         <div className="row gy-5 gx-lg-5">
             <div className={`col-lg-12 ${styles.contactCard}`}>
+            <h6 data-trans="pleasefillform">Please fill out the form below, and one of our representatives will contact you within 24 hours.</h6>
                 <form ref={form} className={`p-4`} onSubmit={sendEmail}>
                     <div className="row">
-                        <p data-trans="pleasefillform">Please fill out the form below, and one of our representatives will contact you within 24 hours.</p>
                         <div className={`${styles.formGroup} col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-6`}>
                           <label data-trans="Name">Name</label>
                           <input className={`form-control mt-2 ${styles.formControl}`} ref={name1}  name="user_name" required/>
@@ -39,7 +39,6 @@ import styles from '../../styles/ContactUs.module.css'
                       <div className={`${styles.formGroup}`}>
                           <label data-trans="Message"></label>
                           <textarea className={`mt-2 form-control`} name="message" ref={phone1} rows={5} required></textarea>
-                          {/* <input className={` form-control ${styles.formControl}`} ref={phone1} type='text' name="message" /> */}
                       </div>
                       <div className="text-center">
                           <button className={`myInfo p-3 rounded fs-6 ${styles.btnClass}`} type="submit" data-trans="sendmessage">Send Message</button>

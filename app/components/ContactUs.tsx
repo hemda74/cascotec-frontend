@@ -124,7 +124,7 @@ const ContactUs = () => {
           </div>
         </div>
         {/* form contact Us */}
-        <div className={` container ${styles.formConatiner}`}>
+        <div className={` container ${styles.formConatiner} col-xl-10 col-lg-12 col-md-12 `}>
             {/* <div className="row gy-5 gx-lg-5">
                 <div className={`col-lg-12 ${styles.contactCard}`}>
                     <form action="" method="post" role="form" >
