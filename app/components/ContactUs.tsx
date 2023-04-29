@@ -2,6 +2,7 @@ import React from 'react'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 import {BiWorld} from 'react-icons/bi'
 import {FiMail} from 'react-icons/fi'
+import ContactUsf from './Other Forms/ContactUSForm'
 import styles from '../styles/ContactUs.module.css'
 import Link from 'next/link'
 import { FaFax, FaMapMarkerAlt } from 'react-icons/fa'
@@ -124,7 +125,7 @@ const ContactUs = () => {
         </div>
         {/* form contact Us */}
         <div className={` container ${styles.formConatiner}`}>
-            <div className="row gy-5 gx-lg-5">
+            {/* <div className="row gy-5 gx-lg-5">
                 <div className={`col-lg-12 ${styles.contactCard}`}>
                     <form action="" method="post" role="form" >
                         <div className="row">
@@ -399,10 +400,10 @@ const ContactUs = () => {
                               <option value="ZM">Zambia</option>
                               <option value="ZW">Zimbabwe</option>
                             </select>              
-                            </div>  */}
+                            </div>  *
                             {/* <div className={`col-md-6 form-group mt-3 mt-4 ${styles.formGroup}`}>
                                 <input type="text" name="subject" data-trans="Subject" className={`form-control ${styles.formControl}`} id="subject" placeholder="Subject" required/>
-                            </div> */}
+                            </div> 
                         </div>
                       <div className={`form-group mt-4 ${styles.formGroup}`}>
                             <textarea className="form-control" name="message" placeholder="Message" rows={5} required></textarea>
@@ -417,7 +418,8 @@ const ContactUs = () => {
                       </div>
                     </form>
                 </div>
-            </div>
+            </div> */}
+            <ContactUsf/>
         </div>
       </section>
    </>
