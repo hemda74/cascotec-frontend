@@ -171,14 +171,14 @@ const ServicesPage = (props:Props) => {
             </div>
         </div>
         <div className={`${styles.cardccreditation2} d-flex mb-5 `}>
-            <div className={`${styles.accreditationThumbnailSecond}`}>
-                <span className={`${styles.serviceTitle}`} data-trans='Services12'>Consultation for Obtaining Forest Stewardship Council (FSC) Certification</span>
+        <div className={`${styles.accreditationThumbnailSecondd}`}>
+                <span className={`${styles.serviceTitle} mt-0 pt-0`} data-trans='Services12'>Consultation for Obtaining Forest Stewardship Council (FSC) Certification</span>
                 <p className={`${styles.servicepargraph}`} data-trans="ServicesBrief12">{`At CASCO, we offer consulting services in the field of responsible forest management to ensure that wood products originating from forests are managed in a responsible and sustainable manner, in accordance with the international standard of the Forest Stewardship Council (FSC), Programme for the Endorsement of Forest Certification (PEFC), Keurhout, and the European Union Timber Regulation (EU TR).`}</p>
                 <a data-bs-toggle="modal" data-bs-target="#Ser12Modal">
-                    <span className={`${styles.btnContainer}`} data-trans="Applynow">Apply now</span>
+                    <span className={`${styles.btnContainer} mt-0 `} data-trans="Applynow">Apply now</span>
                 </a>
             </div>
-            <div className={` mt-5 ${styles.accreditationThumbnail2div}`}>
+            <div className={`mt-5 ${styles.accreditationThumbnail2div}`}>
                 <img src="/images/services_images/12.png" className='rounded' alt=""/>
             </div>
         </div>
@@ -186,7 +186,7 @@ const ServicesPage = (props:Props) => {
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
                 <img src="/images/services_images/13.png" className='rounded' alt=""/>
             </div>
-            <div className={`${styles.accreditationThumbnailFirst}`}>
+            <div className={`${styles.accreditationThumbnailFirstt}`}>
                 <span className={`${styles.serviceTitle}`} data-trans='Services13'>Consultation for Obtaining FSSC 22000 Scheme Certification</span>
                 <p className={`${styles.servicepargraph}`} data-trans="ServicesBrief13">{`At CASCO, we provide consulting services in the field of FSSC 22000 - Food and Feed Safety Management System and Quality Management System accreditation, in compliance with ISO 22000/9001 requirements, the Basic Requirements for Sector Program, and additional program requirements as applicable, according to the FSSC 22000 Version 6.0 international standard for obtaining GFSI (Global Food Safety Initiative) accreditation.`}</p>
                 <a data-bs-toggle="modal" data-bs-target="#Ser13Modal">
@@ -202,7 +202,7 @@ const ServicesPage = (props:Props) => {
                     <span className={`${styles.btnContainer}`} data-trans="Applynow">Apply now</span>
                 </a>
             </div>
-            <div className={` mt-4 mb-5 ${styles.accreditationThumbnail2div}`}>
+            <div className={`mt-4 mb-5 ${styles.accreditationThumbnail2div}`}>
                 <img src="/images/services_images/14.png" className='rounded' alt=""/>
             </div>
         </div> 

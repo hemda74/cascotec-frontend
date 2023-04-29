@@ -52,32 +52,56 @@ export default class SwipeToSlide extends Component {
       <div className={`${styles.mainDiv}`}>
         <div className="fs-2 text-center fw-bold mb-4"><span className={`${styles.spanNumber}`}>Our Previous Clients</span></div>
         <Slider {...settings}>
-        <div className={`${styles.bigDiv}`}>
-              <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image1.png" alt=" " />
+          <div className={`${styles.bigDiv}`}>
+              <img className={`${styles.imageDiv}`}src="/images/clients/Picture1.jpg" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}>
-              <img className={`${styles.imageDiv}`}src="/images/home_page/Companies_Section/image2.png" alt=" " />
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture2.png" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}>
-              <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image3.png" alt=" " />
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture3.png" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}>
-              <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image4.jpg" alt=" " />
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture4.png" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}>
-              <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image5.jpg" alt=" " />
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture5.png" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}>
-              <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image6.png" alt=" " />
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture6.jpg" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}>
-              <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image7.jpg" alt=" " />
-          </div>
-          <div className={`${styles.bigDiv}`}>
-              <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image8.png" alt=" " />
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture7.jpg" alt=" " />
           </div>
           <div className={`${styles.bigDiv}`}> 
-              <img className={`${styles.imageDiv}`} src="/images/home_page/Companies_Section/image9.png" alt=" " />
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture8.png" alt=" " />
+          </div>
+          <div className={`${styles.bigDiv}`}> 
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture7.jpg" alt=" " />
+          </div>
+          <div className={`${styles.bigDiv}`}> 
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture9.png" alt=" " />
+          </div>
+          <div className={`${styles.bigDiv}`}> 
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture10.jpg" alt=" " />
+          </div>
+          <div className={`${styles.bigDiv}`}> 
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture11.png" alt=" " />
+          </div>
+          <div className={`${styles.bigDiv}`}> 
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture12.png" alt=" " />
+          </div>
+          <div className={`${styles.bigDiv}`}> 
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture15.png" alt=" " />
+          </div>
+          <div className={`${styles.bigDiv}`}>
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture13.jpg" alt=" " />
+          </div>
+          <div className={`${styles.bigDiv}`}>
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture14.png" alt=" " />
+          </div>
+          <div className={`${styles.bigDiv}`}>
+              <img className={`${styles.imageDiv}`} src="/images/clients/Picture15.png" alt=" " />
           </div>
         </Slider>
       </div>

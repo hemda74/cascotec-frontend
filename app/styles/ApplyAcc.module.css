@@ -1,6 +1,6 @@
 .mainContanier {
     margin-top: 0rem;
-    background: linear-gradient(rgba(122, 163, 210, 0.9), rgba(29, 94, 205, 0.9));
+    background: url('../public/images/home_page/icasco.png');
     background-size: cover;
     display: flex;
     flex-direction: column;

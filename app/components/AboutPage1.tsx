@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import styles from '../styles/AboutPage1.module.css'
 import {FcCheckmark} from 'react-icons/fc'
-import card_objective from '../public/imagess/card_objective.jpg';
+import card_objective from '../public/images/about_page/card_objective.png';
 import Link from 'next/link'
 const About = () => {
   return (

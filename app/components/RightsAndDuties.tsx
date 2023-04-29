@@ -2,7 +2,7 @@ import React from 'react'
 import { FcCheckmark } from 'react-icons/fc'
 import styles from '../styles/RightsAndDuties.module.css'
 import Image from 'next/image'
-import dutes from '../public/imagess/duties.png'
+import dutes from '../public/images/R&D/duties.png'
 import { GiCheckMark } from 'react-icons/gi'
 import Link from 'next/link'
 
@@ -87,5 +87,4 @@ const RightsAndDuties = () => {
 </>
   )
 }
-
 export default RightsAndDuties
