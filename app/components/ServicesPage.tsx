@@ -40,7 +40,7 @@ const ServicesPage = (props:Props) => {
     <div className="container col-xl-7 col-lg-8 col-md-12 col-sm-12 col-xs-12 mb-5">
          <div className={`${styles.cardccreditation} d-flex mb-5 mb-5`}>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/1.png" className='rounded' alt=""/>
             </div>
             <div className={`${styles.accreditationThumbnailFirst}`}>
                 <span className={`${styles.serviceTitle}`} data-trans='Services1'>Laboratory Testing Consultation</span>
@@ -59,12 +59,12 @@ const ServicesPage = (props:Props) => {
                 </a>
             </div>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/2.png" className='rounded' alt=""/>
             </div>
         </div>
         <div className={`${styles.cardccreditation} d-flex mb-5`}>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/3.png" className='rounded' alt=""/>
             </div>
             <div className={`${styles.accreditationThumbnailFirst}`}>
                 <span className={`${styles.serviceTitle}`} data-trans='Services3'>Inspection Certification Body Consultation</span>
@@ -83,12 +83,12 @@ const ServicesPage = (props:Props) => {
                 </a>
             </div>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/4.png" className='rounded' alt=""/>
             </div>
         </div>
         <div className={`${styles.cardccreditation} d-flex mb-5`}>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/5.png" className='rounded' alt=""/>
             </div>
             <div className={`${styles.accreditationThumbnailFirst}`}>
                 <span className={`${styles.serviceTitle}`} data-trans='Services5'>Management System Certification Body Consultation</span>
@@ -107,12 +107,12 @@ const ServicesPage = (props:Props) => {
                 </a>
             </div>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/6.png" className='rounded' alt=""/>
             </div>
         </div>
         <div className={`${styles.cardccreditation} d-flex mb-5`}>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/7.png" className='rounded' alt=""/>
             </div>
             <div className={`${styles.accreditationThumbnailFirst}`}>
                 <span className={`${styles.serviceTitle}`} data-trans='Services7'>Halal Certification Consultation</span>
@@ -131,12 +131,12 @@ const ServicesPage = (props:Props) => {
                 </a>
             </div>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/8.png" className='rounded' alt=""/>
             </div>
         </div>
         <div className={`${styles.cardccreditation} d-flex mb-5`}>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/9.png" className='rounded' alt=""/>
             </div>
             <div className={`${styles.accreditationThumbnailFirst}`}>
                 <span className='fs-4 fw-bold' data-trans='Services9'>Consultation for Proficiency Testing Providers</span> 
@@ -155,12 +155,12 @@ const ServicesPage = (props:Props) => {
                 </a>
             </div>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/10.png" className='rounded' alt=""/>
             </div>
         </div>
         <div className={`${styles.cardccreditation} d-flex mb-5 `}>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/11.png" className='rounded' alt=""/>
             </div>
             <div className={`${styles.accreditationThumbnailFirst}`}>
                 <span className={`${styles.serviceTitle}`} data-trans='Services11'>Consultation for Obtaining BRCGS Certification</span>
@@ -179,12 +179,12 @@ const ServicesPage = (props:Props) => {
                 </a>
             </div>
             <div className={` mt-5 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/12.png" className='rounded' alt=""/>
             </div>
         </div>
         <div className={`${styles.cardccreditation} d-flex mb-5 `}>
             <div className= {`mt-3 mb-3 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/13.png" className='rounded' alt=""/>
             </div>
             <div className={`${styles.accreditationThumbnailFirst}`}>
                 <span className={`${styles.serviceTitle}`} data-trans='Services13'>Consultation for Obtaining FSSC 22000 Scheme Certification</span>
@@ -203,7 +203,7 @@ const ServicesPage = (props:Props) => {
                 </a>
             </div>
             <div className={` mt-4 mb-5 ${styles.accreditationThumbnail2div}`}>
-                <img src="/imagess/servicesimage.jpg" className='rounded' alt=""/>
+                <img src="/images/services_images/14.png" className='rounded' alt=""/>
             </div>
         </div> 
 </div>

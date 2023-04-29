@@ -12,27 +12,27 @@ const Hero = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="5000">
-      <img src="/images/home_page/hero/hero_1.jpg" className="d-block w-100" alt="..."/>
-      <div className={`carousel-caption text-white d-md-block `}>
+      <img src="/images/home_page/hero/hero_1.png" className="d-block w-100" alt="..."/>
+      <div className={`carousel-caption text-white d-md-block ${styles.carouselCaption}`}>
         <h1>Services</h1>
         <p>Some representative placeholder content for the first slide.</p>
-        <button className={` myInfo rounded ${styles.SearchButton}`} type="submit">Go To Services</button>
+        <button className={` myInfo rounded ${styles.LinkButton}`}>Go To Services</button>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="5000">
-      <img src="/images/home_page/hero/hero_2.jpg" className="d-block w-100" alt="..."/>
+      <img src="/images/home_page/hero/hero_2.png" className="d-block w-100" alt="..."/>
       <div className="carousel-caption text-white d-md-block">
         <h1>Courses</h1>
         <p>Some representative placeholder content for the second slide.</p>
-        <button className={` myInfo rounded ${styles.SearchButton}`} type="submit">Go To Courses</button>
+        <button className={` myInfo rounded ${styles.LinkButton}`} type="submit">Go To Courses</button>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="5000">
-      <img src="/images/home_page/hero/hero_3.jpg" className="d-block w-100" alt="..."/>
+      <img src="/images/home_page/hero/hero_3.png" className="d-block w-100" alt="..."/>
       <div className="carousel-caption text-white d-md-block">
         <h1>Accredited Bodies</h1>
         <p>Some representative placeholder content for the third slide.</p>
-        <button className={` myInfo d-inline rounded ${styles.SearchButton}`} type="submit">Go To Accredited Bodies</button>
+        <button className={` myInfo d-inline rounded ${styles.LinkButton}`} type="submit">Go To Accredited Bodies</button>
       </div>
     </div>
   </div>

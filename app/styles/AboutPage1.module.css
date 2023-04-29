@@ -94,7 +94,7 @@
     padding-bottom: 1rem;
     padding-top: 5rem;
     padding-right: 0.2rem;
-    background:url('../public//imagess/budget_center.jpg');
+    background:url('../public/images/about_page/budget/budget.png');
     border-radius: 1rem;
   }
   .budgetCard{
@@ -119,8 +119,8 @@
   }
   /*   our achivment section   */
   .sectionOurAchievements{
-    background: linear-gradient(rgba(138, 181, 230, 0.9), rgba(73, 131, 232, 0.9));
-    padding: 4.4444444444rem 0;
+    background: url('../public/images/about_page/our-achievements.png');
+   background-position: 100%;
   }
   .innerSectionOurAchievements{
     display: flex;

@@ -59,30 +59,30 @@ const About = () => {
                                 <div className={`${styles.featuresBoxes} col-xl-8 col-lg-8 col-md-12`}>
                                     <div className={`${styles.featuresBoxesInner}`}>
                                         <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
-                                            <img src="https://gac.org.sa/wp-content/uploads/2022/05/accredited-bodies-ic2.png" alt=""/>
+                                            <img src="/images/about_page/achivs_icons/accreditation-bodies.png" alt=""/>
                                                 <div className={`${styles.itemFeaturesBoxContent}`}>
-                                                <h4>10</h4>
+                                                <h4 className='mb-0'>10</h4>
                                                 <p data-trans="AccreditedBodiesAbout"></p>
                                             </div>
                                         </div>
                                         <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
-                                            <img  className="" src="https://gac.org.sa/wp-content/uploads/2022/05/assessors-and-experts-ic2.png" alt=""/>
+                                            <img  className="" src="/images/about_page/achivs_icons/assessor-and-experts.png" alt=""/>
                                             <div className={`${styles.itemFeaturesBoxContent}`}>
-                                                <h4>50</h4>
+                                                <h4 className='mb-0'>50</h4>
                                                 <p className='' data-trans="AssessorsandExperts"></p>
                                             </div>
                                         </div>
                                         <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
-                                            <img src="https://gac.org.sa/wp-content/uploads/2022/05/trainees-ic2.png" alt=""/>
+                                            <img src="/images/about_page/achivs_icons/trainees-during.png" alt=""/>
                                             <div className={`${styles.itemFeaturesBoxContent}`}>
-                                                <h4>40</h4>
+                                                <h4 className='mb-0'>40</h4>
                                                 <p data-trans="Traineesduring2022"></p>
                                             </div>
                                         </div>
                                         <div className={`${styles.itemFeatures} col-xl-6 col-lg-6 col-md-12`}>
-                                            <img src="https://gac.org.sa/wp-content/uploads/2022/05/agreements_ic.png" alt=""/>
+                                            <img src="/images/about_page/achivs_icons/casco-agreements.png" alt=""/>
                                             <div className={`${styles.itemFeaturesBoxContent}`}>
-                                                <h4>2</h4>
+                                                <h4 className='mb-0'>2</h4>
                                                 <p data-trans="CASCOAgreements"></p>
                                             </div>
                                         </div> 
