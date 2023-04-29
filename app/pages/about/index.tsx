@@ -1,7 +1,7 @@
 import React, { ReactElement } from 'react'
 import Head from 'next/head';
 import About from '../../components/AboutPage1'
-import ViewerLayout from '../../layouts/ViewerLayout';
+import ViewerLayout from '../../layouts/ViewerLayout7';
 import styles from '../../styles/Main.module.css'
 import { NextPageWithLayout } from '../_app';
 type Props = {};

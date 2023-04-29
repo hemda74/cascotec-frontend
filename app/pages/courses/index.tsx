@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
 import Head from 'next/head';
-import ViewerLayout from '../../layouts/ViewerLayout';
+import ViewerLayout from '../../layouts/ViewerLayout5';
 import { NextPageWithLayout } from '../_app';
 import Courses from '../../components/Courses';
 type Props = {};

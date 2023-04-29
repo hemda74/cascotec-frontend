@@ -1,7 +1,7 @@
 import StackHolders from '../../components/StackHolders'
 import React, { ReactElement } from 'react'
 import Head from 'next/head';
-import ViewerLayout from '../../layouts/ViewerLayout';
+import ViewerLayout from '../../layouts/ViewerLayout10';
 import { NextPageWithLayout } from '../_app';
 import styles from '../../styles/Main.module.css'
 type Props = {};

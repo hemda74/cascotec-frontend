@@ -1,5 +1,5 @@
 import React, { ReactElement } from 'react'
-import ViewerLayout from '../../../layouts/ViewerLayout';
+import ViewerLayout from '../../../layouts/ViewerLayout6';
 import styles  from '../../../styles/DriectorGeneral.module.css';
 import { NextPageWithLayout } from '../../_app';
 import Head from 'next/head';

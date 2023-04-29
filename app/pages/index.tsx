@@ -20,6 +20,7 @@ import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 import Recogention from '../components/Recogention';
 import AssessorOrCAB from '../components/AssessorOrCAB';
 import ServicesSlider from '../components/ServicesSlider';
+import ServicesSliderRTL from '../components/ServicesSliderRTL';
 import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines'
 import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl'
 import NewsHomePage from '../components/NewsHomePage';
@@ -59,7 +60,16 @@ const Login: NextPage = () => {
     // handleUserRedirect();
     // }
   }, [userData]);
- 
+  let choise = 0;
+  useEffect(() => {
+    let lang = localStorage.getItem('lang');
+    if (lang === null || lang === undefined) {
+      localStorage.setItem('lang', 'en');
+    } else {
+      choise = 1;
+  }
+  });
+
   return (
     <>
       <Head>
@@ -70,7 +80,12 @@ const Login: NextPage = () => {
           <NavBar/>
           <Hero/>
           <FlagesSection/>
-          <ServicesSlider/>
+          {choise === 0 && (
+        <ServicesSlider/>
+      )}
+      { choise!== 0 && (
+        <ApplyAcc/> 
+      )}
           <Steps/> 
           <ApplyAcc/> 
           <CoursesSectionHomePage/>

@@ -9,7 +9,7 @@ import image4 from '../public/images/home_page/sevices_section/image4.jpg';
 import image5 from '../public/images/home_page/sevices_section/image5.jpg';
 import image6 from '../public/images/home_page/sevices_section/image6.jpg';
 import image7 from '../public/images/home_page/sevices_section/image7.jpg';
-export default class AsNavFor extends Component {
+export default class AsNav extends Component {
     
   constructor(props) {
     super(props);
