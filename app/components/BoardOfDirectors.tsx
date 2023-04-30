@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../styles/BoardOfDirectors.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import ahmed_mahrous from '../public/images/borad_of_directors/Roles/01 Ahmed Mahrous/Ahmed Mahrous.jpeg'
+// import ahmed_mahrous from '../public/images/borad_of_directors/Roles/01 Ahmed Mahrous/Ahmed Mahrous.jpeg'
 import mostafa from '../public/images/borad_of_directors/Roles/03 Mostafa Farg/Mostafa Frag.jpeg'
 import jihad from '../public/images/borad_of_directors/Roles/06 Jihad Mohamed/Jihad.jpeg'
 import abdelrahman from "../public/images/borad_of_directors/Roles/04 Dr Abdelrahamn Faraht/farahat.jpeg"
@@ -30,24 +30,6 @@ const BoardOfDirectors = () => {
                 </div>
                 <div className={`container ${styles.imgsHolder}`}>
                     <div className="row col-lg-9 m-auto justify-content-center">
-                        <div className="col-xl-4 col-md-6 d-flex" >
-                                <Link href={'/about/director-general'}>
-                                    <div className={`${styles.teamMember2}`}>
-                                        <figure className={`${styles.teamMemberFigure}`}>
-                                          <Image src={ahmed_mahrous} height={500} width={400} alt="" className={`${styles.imgStyle}`}/>
-                                          <figcaption className={`${styles.figCaption} text-center`}>
-                                              <div className='mt-5'>
-                                                  <p className='fs-3' data-trans="MrAhmedMahrous">Mr. Ahmed Mahrous</p>
-                                                  <p className='fs-5' data-trans='BusinessDevelopmentManager'>Business Development Manager</p>
-                                              </div>
-                                              <div className='d-flex justify-content-end'>
-                                                  {/* <Image src={oman} alt="" className={`${styles.flagImage}`} /> */}
-                                              </div>
-                                          </figcaption>
-                                        </figure>
-                                    </div>
-                                </Link>
-                        </div>
                         <div className="col-xl-4 col-md-6 d-flex" >
                               <Link href={'/about/our-team/ahmed_badawy'}>
                                   <div className={`${styles.teamMember2}`}>

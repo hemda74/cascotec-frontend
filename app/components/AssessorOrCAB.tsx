@@ -17,13 +17,13 @@ const AssessorOrCAB = () => {
                             <div className={`container ${styles.innerContainer} `}>
                                 <div className={`row justify-content-center  ${styles.mainDivContainer}`}>
                                     <div className={`col-md-6 col-sm-12 col-xl-6 col-xs-12 col-lg-6 ${styles.cardCertificate} me-lg-4 ms-lg-4 `}>
-                                        <img src="/images/home_page/assessor-illustration.png" alt=""/>
+                                        <img src="/images/home_page/assessor.png" alt=""/>
                                         <a data-bs-toggle="modal" data-bs-target="#ASSESSORModal">
                                         <button className={`myInfo rounded ${styles.btnClassAssessor}`} data-trans="APPLYASASSESSOR">{`APPLY AS ASSESSOR`}</button>
                                         </a>
                                     </div>
                                     <div className={`col-md-6 col-sm-12 col-xs-12 col-xl-6 col-lg-6 ${styles.cardCertificate2}`}>
-                                        <img src="/images/home_page/cab-illustration.png" alt=""/>
+                                        <img src="/images/home_page/cab.png" alt=""/>
                                         <a data-bs-toggle="modal" data-bs-target="#CABModal">
                                         <button className={`myInfo rounded ${styles.btnClassCab}`} data-trans="APPLYASCAB">{`APPLY AS CAB`}</button>
                                         </a>

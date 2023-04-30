@@ -32,7 +32,7 @@ const indexTrans: translataionContainer = {
         ar:'فريقنا'
     },
     DirectorMangerNav:{
-        en:'Director General',
+        en:'Managing Director',
         ar:'المدير العام'
     },
     OurValuesNav:{
