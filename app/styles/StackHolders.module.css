@@ -31,7 +31,7 @@
     margin-bottom: 3rem;
   }
   .titleStackH{
-    color: #eee;;
+    color: #eee;
   }
   .listGroupItem{
     background: none;
@@ -47,6 +47,7 @@
     margin-bottom: 0.5555555556rem;
     display: block;
     width: 100%;
+    color: #eee !important;
 }
   .navLink:hover{
     color: #eee !important;

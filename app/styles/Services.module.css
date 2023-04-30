@@ -123,12 +123,12 @@
     @media (max-width: 480px)
     {
       .secondContainer{
-        margin: 1rem 0rem  2rem 0;
+        margin: auto;
         background: #fff;
         border-radius: 0.5rem;
-        max-width: 8rem;
-        height: 19rem;
-        padding: 0.8rem 0.8rem 1rem 0.8rem;
+        max-width: 6rem;
+        height: 15rem;
+        padding: 0.8rem 0.8rem 5.8rem 0.8rem;
         box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
       }
       .mainCard
@@ -138,7 +138,7 @@
         border-radius: 1rem;
         width: 100%;
         display: flex;
-        margin-bottom: -5rem;
+        margin-bottom: -12rem;
         flex-direction: column;
       } 
   }
