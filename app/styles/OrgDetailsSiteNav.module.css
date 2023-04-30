@@ -1,0 +1,9 @@
+/* Tenant Admin Orgnatization details SiteNav */
+.mainContainer {
+    margin-top: 2rem;
+}
+
+.siteNavContainer {
+    min-height: 3rem;
+    max-height: 3rem;
+}

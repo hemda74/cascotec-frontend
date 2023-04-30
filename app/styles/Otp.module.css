@@ -1,0 +1,32 @@
+/* customized Submit Button */
+.submitOtpCodeBtn {
+    padding-top: 0.797rem !important;
+    padding-bottom: 0.797rem !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+/* localication Btn at Login page */
+.localizationBtn {
+    padding-top: 0.336rem;
+    padding-bottom: 0.336rem;
+    padding-left: 1.797rem;
+    padding-right: 1.797rem;
+    color: white;
+    border: 2px solid #f8f9fa !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+.localizationBtn:hover {
+    color: black;
+}
+.otpContainer{
+    background:url('../public/login-background-image.jpg') ;
+}

@@ -1,0 +1,42 @@
+/* Create New department page style sheet */
+.mainHeadingUnderLine {
+    width: 10%;
+    color: #306778;
+    border-top: 1.5px solid #306778;
+    opacity: unset !important;
+}
+.operHourNameInputContainer {
+    margin-top: 0.75rem;
+    max-width: 24.688rem;
+    min-width: 24.688rem;
+}
+
+.setOperHoursContainer {
+    margin-top: 2rem;
+}
+
+.textArea {
+    resize: none !important;
+    border-color: #DBDBDB;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+.btnsContainer {
+    margin-top: 12rem;
+}
+
+.confirmBtn {
+    padding-top: 0.475rem;
+    padding-bottom: 0.475rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}

@@ -1,0 +1,20 @@
+/* license Analytics component */
+.cardConatiner {
+    margin-top: 2.125rem;
+    box-shadow: none !important;
+}
+.cardBodyContainer {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.headerContainr {
+    margin-bottom: 1.75rem;
+}
+
+.progressbarContainer {
+    margin-bottom: 2.25rem;
+}

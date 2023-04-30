@@ -1,0 +1,38 @@
+/* View Holidays group Events landing component style sheet */
+.cardBodyContainer {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.landingPageHeader {
+    font-size: 1.875rem;
+}
+
+.newHolidayBtn {
+    margin-top: 2.625rem;
+}
+
+.newHolidayGroupBtn {
+    width: 11.625rem;
+    height: 3rem;
+}
+
+.newWord {
+    font-size: 1.125rem;
+}
+
+.holidaysNameGroup {
+    width: 22rem;
+}
+
+.confirmBtn {
+    padding-top: 0.475rem;
+    padding-bottom: 0.475rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}

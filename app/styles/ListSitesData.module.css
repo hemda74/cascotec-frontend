@@ -1,0 +1,54 @@
+.mainContainer{
+    margin-right: 2.81rem;
+}
+.cardBodyContainer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2.375rem;
+    margin-bottom: 2.375rem;
+}
+
+/* design form container div */
+.headingSection{
+position: absolute;
+}
+.headingSection::before{
+    content : "";
+  position: absolute;
+  left    : 0;
+  bottom  : -10px;
+  height  : 1px;
+  width   : 50%;  /* or 100px */
+  border-bottom:2px solid #306778;
+}
+.cardBodyContainer h3{
+    padding-bottom: 5px;
+    display: inline ;
+    color:#306778;
+    height: 2.25rem;
+    width: 11.5rem;
+}
+/* .headingArea{
+    flex-direction: column;
+} */
+.sitesList{
+    margin-top: 3.5rem;
+}
+.sitesListLi{
+  list-style-position:inside;
+  border-left: solid 8px #F3B10E;
+  height: 9.6rem;
+  
+}
+
+.siteHeading{
+    color: #767676;
+}
+
+.editText {
+    font-size: 1.125rem;
+}
+
+.locationSiteDiv {
+    margin-left: 0.875rem;
+}

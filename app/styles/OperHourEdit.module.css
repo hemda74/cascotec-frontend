@@ -1,0 +1,36 @@
+/* Operational Hour Edit page */
+.operHourNameInputContainer {
+    margin-top: 0.75rem;
+    max-width: 24.688rem;
+}
+.setOperHoursContainer {
+    margin-top: 2rem;
+}
+
+.btnsContainer {
+    margin-top: 4rem;
+}
+
+.confirmBtn {
+    min-width: 11.625rem ;
+    max-width: 11.625rem ;
+    padding-top: 0.475rem;
+    padding-bottom: 0.475rem;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+
+.setAsDeafultBtn {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}

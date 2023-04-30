@@ -1,0 +1,19 @@
+/* Tenant admin home page card links */
+.TALinkCard {
+    min-height: 23rem !important;
+}
+.iconContainer {
+    min-height: 10rem !important;
+}
+
+.orgnizationDetailsBg {
+    background-color: #F4F4FF;
+}
+
+.userManagementsBg {
+    background-color: #F1FFFD;
+}
+
+.mailServerSettingsBg {
+    background-color: #FBF3FF;
+}

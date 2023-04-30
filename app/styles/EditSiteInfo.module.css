@@ -1,0 +1,129 @@
+.mainContainer{
+    margin-right: 2.81rem;
+}
+.cardBodyContainer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2.375rem;
+    margin-bottom: 2.375rem;
+}
+
+/* design form container div */
+.deleteButton{
+    padding: 0;
+    margin-right: -3.8rem;
+}
+/* design form container div */
+.headingSection{
+    position: absolute;
+    }
+    .headingSection::before{
+        content : "";
+      position: absolute;
+      left    : 0;
+      bottom  : -10px;
+      height  : 1px;
+      width   : 50%;  /* or 100px */
+      border-bottom:2px solid #306778;
+    }
+    .cardBodyContainer h3{
+        padding-bottom: 5px;
+        display: inline ;
+        color:#306778;
+        height: 2.25rem;
+        width: 11.5rem;
+    }
+.colFormLabel{
+    height:2.5rem;
+    padding-top: 0;
+    /* margin: 8px 0; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.inputLabel{
+    color: #757575;
+}
+.inputWidth{
+    width: 35.625rem;
+    height: 2.9rem;
+
+}
+.timeZonesList{
+    width: 35.625rem;
+    height: 2.9rem;
+}
+.colFormLabel2{
+    height:9.5rem;
+    padding-top: 0;
+    /* margin: 8px 0; */
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: white;
+    color: black;
+}
+.textAreainput{
+    width: 35.625rem;
+    height: 8.125rem;
+    resize: none;
+}
+/* style placeholder with each broswer */
+.colFormLabel::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#ccc;
+    opacity: 1; /* Firefox */
+}
+.colFormLabel:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#ccc;
+
+}
+
+.colFormLabel::-ms-input-placeholder { /* Microsoft Edge */
+    color:#ccc;
+
+}
+.smallDescription{
+    color: #999;
+    font-size: 0.844rem;
+
+}
+.formSelection option{
+    color:#ccc;
+}
+
+.formSelection{
+    color:#BBB9B9;
+}
+/* style confirm and cancel */
+.confirmBtn2 {
+    background:#D8E9EE ;
+    height: 3.113rem;
+    padding-top: 0;
+    padding-bottom: 0.475rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+.confirmBtn{
+    height: 3.113rem;
+    padding-top: 0.475rem;
+    padding-bottom: 0.475rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+.confirmBtn div {
+    left: 50%;
+    top: 50%;
+
+}

@@ -1,0 +1,12 @@
+/* DepartmentsList Component style sheeet used in departments page. */
+.selectNewBtnsContainer {
+    margin-top: 4.5rem;
+}
+
+.cardsContainer {
+    margin-top: 2rem;
+}
+
+.cardMargin {
+    margin-bottom: 2rem;
+}
