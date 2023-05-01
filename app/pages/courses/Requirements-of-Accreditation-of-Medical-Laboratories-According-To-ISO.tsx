@@ -5,7 +5,7 @@ import styles from '../../styles/CourseCard.module.css'
 import CourseLayout from '../../layouts/CourseLayout';
 import Link from "next/link"
 import { NextPageWithLayout } from '../_app';
-import courseimage from '../../public/imagess/coursesimage.png'
+import courseimage from '../../public/images/courses_section/courses_images/Requirements-For-Accreditation-of-Medical-Laboratories-According-To-ISO-15189-2012.png'
 import ContactUs from '../../components/Courses Forms/Course13Email';
 
 type Props = {};

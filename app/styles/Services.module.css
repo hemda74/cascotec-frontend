@@ -39,7 +39,7 @@
       z-index: 1;
       -webkit-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
       -moz-box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
-      box-shadow: inset 200px -12px 129px 14px rgba(217,230,255,1);
+      box-shadow: 200px -12px 129px 14px rgba(217,230,255,1);
     }
     .itemContent{
       z-index: -1;

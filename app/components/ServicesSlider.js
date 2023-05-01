@@ -2,13 +2,20 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import styles from '../styles/Services.module.css'
 import Image from 'next/image'
-import image1 from '../public/images/home_page/sevices_section/image1.jpg';
-import image2 from '../public/images/home_page/sevices_section/image2.jpg';
-import image3 from '../public/images/home_page/sevices_section/image3.jpg';
-import image4 from '../public/images/home_page/sevices_section/image4.jpg';
-import image5 from '../public/images/home_page/sevices_section/image5.jpg';
-import image6 from '../public/images/home_page/sevices_section/image6.jpg';
-import image7 from '../public/images/home_page/sevices_section/image7.jpg';
+import image1 from '../public/images/services_images/1.png';
+import image2 from '../public/images/services_images/2.png';
+import image3 from '../public/images/services_images/3.png';
+import image4 from '../public/images/services_images/4.png';
+import image5 from '../public/images/services_images/5.png';
+import image6 from '../public/images/services_images/6.png';
+import image7 from '../public/images/services_images/7.png';
+import image8 from '../public/images/services_images/8.png';
+import image9 from '../public/images/services_images/9.png';
+import image10 from '../public/images/services_images/10.png';
+import image11 from '../public/images/services_images/11.png';
+import image12 from '../public/images/services_images/12.png';
+import image13 from '../public/images/services_images/13.png';
+import image14 from '../public/images/services_images/14.png';
 export default class AsNavFor extends Component {
     
   constructor(props) {
@@ -148,9 +155,9 @@ export default class AsNavFor extends Component {
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
                                           <Image src={image5} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
-                                      <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
+                                      <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services5'>Management System Certification Body Consultation</span> 
-                                          <p className={` ${styles.itemText}`} data-trans="ServicesBrief5">{`At CASCO, we provide consultation services in the field of management system certification body accreditation, in accordance with the international standard ISO/IEC 17021-1:2015.`}</p>
+                                          <p className={`${styles.itemText}`} data-trans="ServicesBrief5">{`At CASCO, we provide consultation services in the field of management system certification body accreditation, in accordance with the international standard ISO/IEC 17021-1:2015.`}</p>
                                       </div>
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
@@ -173,7 +180,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
-                                          <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image8} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services8'>Personal Certification Consultation</span> 
@@ -182,7 +189,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image9} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services9'>Consultation for Proficiency Testing Providers</span> 
@@ -191,7 +198,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image10} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services10'>Technical Consultation for Notification Purposes</span> 
@@ -200,7 +207,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image11} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={`${styles.itemTitle} fs-3 fw-bold`} data-trans='Services11'>Consultation for Obtaining BRCGS Certification</span> 
@@ -209,7 +216,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image12} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services12'>Consultation for Obtaining Forest Stewardship Council (FSC) Certification</span> 
@@ -218,16 +225,16 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image13} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
-                                      <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
+                                      <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services13'>Consultation for Obtaining FSSC 22000 Scheme Certification</span> 
                                           <p className={` ${styles.itemText}`} data-trans="ServicesBrief13">{`At CASCO, we provide consulting services in the field of FSSC 22000 - Food and Feed Safety Management System and Quality Management System accreditation, in compliance with ISO 22000/9001 requirements, the Basic Requirements for Sector Program, and additional program requirements as applicable, according to the FSSC 22000 Version 6.0 international standard for obtaining GFSI (Global Food Safety Initiative) accreditation.`}</p>
                                       </div>
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image7} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image14} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={`${styles.itemTitle} fs-3 fw-bold`} data-trans='Services14'>ESG Report Service</span> 
@@ -272,32 +279,32 @@ export default class AsNavFor extends Component {
                                       <Image src={image7} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services7'>Halal Certification Consultation</span> 
                                   </div>
-                                  <div className={` ${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image1} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+                                  <div className={`${styles.secondContainer} d-flex flex-column`}>
+                                      <Image src={image8} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services8'>Personal Certification Consultation</span> 
                                   </div>
-                                  <div className={` ${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image2} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+                                  <div className={`${styles.secondContainer} d-flex flex-column`}>
+                                      <Image src={image9} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services9'>Consultation for Proficiency Testing Providers</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image3} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image10} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services10'>Technical Consultation for Notification Purposes</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image4} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image11} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services11'>Consultation for Obtaining BRCGS Certification </span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image5} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image12} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services12'>Consultation for Obtaining Forest Stewardship Council (FSC) Certification </span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image6} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image13} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services13'>Consultation for Obtaining FSSC 22000 Scheme Certification</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image7} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image14} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services14'>ESG Report Service</span> 
                                   </div>
                               </Slider>

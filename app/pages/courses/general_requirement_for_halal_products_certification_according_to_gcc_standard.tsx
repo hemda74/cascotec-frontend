@@ -5,7 +5,7 @@ import styles from '../../styles/CourseCard.module.css'
 import CourseLayout from '../../layouts/CourseLayout';
 import Link from "next/link"
 import { NextPageWithLayout } from '../_app';
-import courseimage from '../../public/imagess/coursesimage.png'
+import courseimage from '../../public/images/courses_section/courses_images/General-Requirement-For-Halal-Products-Certification-According-To-GCC-Standard-GSO2055-2-2021-And-International-Standard-ISO-IEC17065.png'
 import ContactUs from '../../components/Courses Forms/Course2Email';
 
 type Props = {};

@@ -2,7 +2,8 @@ import React from 'react'
 import styles from '../styles/CoursesSectionHomePage.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import courseimage from '../public/imagess/coursesimage.png'
+import courseimage from '../public/images/courses_section/courses_images/Global-Standard-for-Food-Safety-Issue-9-Sites-Training.png'
+import courseimage2 from '../public/images/courses_section/courses_images/Food-Safety-Management-Requirements-in-Accordance-with-International-Standard-ISO-22000-2018.png'
 import {CgCalendarDates} from 'react-icons/cg'
 import {FaMapMarkerAlt} from 'react-icons/fa'
 const CoursesSectionHomePage = () => {
@@ -27,7 +28,9 @@ const CoursesSectionHomePage = () => {
                                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 p-4 p-4" >
                                             <Link href={'/courses/Global-Standard-for-Food-Safety-Issue-9-Sites-Training'}>
                                     <div className={`${styles.postBox} p-1`}>
-                                        <div className={`${styles.postImage}`}><Image src={courseimage} className="img-fluid" alt="course_image"/></div>
+                                        <div className={`${styles.postImage}`}>
+                                            <Image src={courseimage} className="img-fluid" alt="course_image"/>
+                                        </div>
                                         <figure className={`mt-4 ${styles.postTitleFigre}`}>
                                         <span className={`${styles.postTitle}`}>Global Standard for Food Safety Issue 9: Sites Training</span>
                                         </figure>                        
@@ -43,8 +46,10 @@ const CoursesSectionHomePage = () => {
                                         <div className={`col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 p-4 p-4 ${styles.courseCard}`} >
                                             <Link href={'/courses/food-safety-management-requirements-in-accordance-with-international-standard-iso'}>
                                             <div className={`${styles.postBox} p-1`}>
-                                                <div className={`${styles.postImage}`}><Image src={courseimage} className="d-block" alt="course_image"/></div>
-                                                <figure className={`mt-5 ${styles.postTitleFigre}`}>
+                                                <div className={`${styles.postImage}`}>
+                                                <Image src={courseimage2} className="img-fluid" alt="course_image"/>
+                                                </div>
+                                                <figure className={`mt-4 ${styles.postTitleFigre}`}>
                                                 <span className={`${styles.postTitle}`} data-trans="course1">{`Food Safety Management Requirements In Accordance With International Standard ISO 22000:2018`}</span>
                                                 </figure>                        
                                                 <span className={`${styles.iconDate}`}><CgCalendarDates size={25}/>
@@ -57,7 +62,8 @@ const CoursesSectionHomePage = () => {
                                             </Link>
                                         </div>
                                     </div>
-                                    <div className='ms-5 me-5'><a href={'/courses'}> <button className={`myInfo-outline m-auto ${styles.SearchButton}`}>VIEW ALL</button></a></div>
+                                    <div className='ms-5 me-5'><a href={'/courses'}> 
+                                    <button className={`myInfo-outline m-auto ${styles.SearchButton}`}>VIEW ALL</button></a></div>
                                 </div>
                             </div>
                         </div>

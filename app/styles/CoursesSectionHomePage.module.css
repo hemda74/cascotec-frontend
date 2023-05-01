@@ -16,7 +16,7 @@
   }
 .postBox {
     transition: 0.3s;
-    height: 95%;
+    height: 100%;
     max-width: 35rem;
     overflow: hidden;
     position: relative;
@@ -27,7 +27,6 @@
     padding-bottom: 2rem;
   }
   .postImage {
-    overflow: hidden;
     width: 100%;
     position: relative;
     border-radius: 10px;
@@ -64,7 +63,7 @@
     transition: all 0.5s ease-in-out;
   }
   .postTitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--color-secondary);
     font-weight: 700;
     margin: 15px 0 0 0;

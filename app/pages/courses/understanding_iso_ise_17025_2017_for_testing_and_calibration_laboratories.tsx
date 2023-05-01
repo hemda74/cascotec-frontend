@@ -5,7 +5,7 @@ import styles from '../../styles/CourseCard.module.css'
 import CourseLayout from '../../layouts/CourseLayout';
 import Link from "next/link"
 import { NextPageWithLayout } from '../_app';
-import courseimage from '../../public/imagess/coursesimage.png'
+import courseimage from '../../public/images/courses_section/courses_images/Understanding-ISO-IEC-17025-2017-for-Testing-and-Calibration-Laboratories.png'
 import ContactUs from '../../components/Courses Forms/Course4Email';
 type Props = {};
 // dymmy data for ui till handle working with api
