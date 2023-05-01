@@ -6,7 +6,7 @@ import courseimage from '../public/images/courses_section/courses_images/Food-Sa
 import coursesimage2 from '../public/images/courses_section/courses_images/General-Requirement-For-Halal-Products-Certification-According-To-GCC-Standard-GSO2055-2-2021-And-International-Standard-ISO-IEC17065.png'
 import coursesimage3 from '../public/images/courses_section/courses_images/ISO-IEC-17065-2012-Certification-Requirements.png'
 import coursesimage4 from '../public/images/courses_section/courses_images/Understanding-ISO-IEC-17025-2017-for-Testing-and-Calibration-Laboratories.png'
-import coursesimage5 from '../public/images/courses_section/courses_images/General-Requirements-For-Halal-Food-In-Accordance-With-Gulf-Standard-Specification-GSO-2055-1-And-Animal-Zakat-Requirements-In-Accordance-With-Islamic-Sharia-GSO-993.png'
+import coursesimage5 from '../public/images/courses_section/courses_images/General-GSO-993.png'
 import coursesimage6 from '../public/images/courses_section/courses_images/Guidelines-For-Auditing-Management-Systems-According-To-ISO190112018-based-on-Halal-Scheme.png'
 import coursesimage7 from '../public/images/courses_section/courses_images/Accreditation-Requirements-For-Inspection-Bodies-In-Accordance-With-International-StandardISO-IEC-17020-2012.png'
 import coursesimage8 from '../public/images/courses_section/courses_images/Accreditation-GSO-2055-2.png'
