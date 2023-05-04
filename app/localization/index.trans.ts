@@ -1132,6 +1132,10 @@ const indexTrans: translataionContainer = {
         en:'Please fill out the form below, and one of our representatives will contact you within 24 hours.',
         ar:'يرجى ملء النموذج أدناه ، وسيتصل بك أحد ممثلينا في غضون 24 ساعة.'
     },
+    pleasefillform2:{
+        en:'For Registration Please fill in the information',
+        ar:'للتسجيل برجاء استكمال بيناتك'
+    },
     Contactoption:{
         en:'Contact',
         ar:'اتصل بنا'

@@ -34,8 +34,7 @@ const Ser3Modal = () => {
                         <div className='text-center mb-4'>
                             <span className={` fs-5 rounded mt-0 fw-bold `} data-trans="RequestNow" >Request Now</span>
                         </div>
-                        <p data-trans="pleasefillform">Please fill out the form below, and one of our representatives will contact you within 24 hours.</p>
-                        <div className={`${styles.formGroup}`}>
+                        <p data-trans="pleasefillform2"></p>                        <div className={`${styles.formGroup}`}>
                             <label data-trans="Name">Name</label>
                             <input className={`form-control mb-3  ${styles.formControl}`} ref={name1}  name="user_name" required/>
                         </div>

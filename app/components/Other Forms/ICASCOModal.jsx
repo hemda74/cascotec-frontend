@@ -36,8 +36,7 @@ const ICASCOModal = () => {
                          Ready to be Digital Transformation with iCASCO?
                     </span>
                         </div>
-                        <p data-trans="pleasefillform">Please fill out the form below, and one of our representatives will contact you within 24 hours.</p>
-                        <div className={`${styles.formGroup}`}>
+                        <p data-trans="pleasefillform2"></p>                        <div className={`${styles.formGroup}`}>
                             <label data-trans="Name">Name</label>
                             <input className={`form-control mb-3 p-3 mt-2 ${styles.formControl}`} ref={name1}  name="user_name" required/>
                         </div>
