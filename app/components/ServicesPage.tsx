@@ -26,10 +26,10 @@ const ServicesPage = (props:Props) => {
   return (
 <>
     <div className={`text-center ${styles.titleWord}`}>
-    <div className={`container mb-4`}>
-                    <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
-                    <Link href={"/services"}><a className="text-white fw-semibold mb-4" data-trans="ServicesNav2">{` > Services`}</a></Link>
-                </div>
+        <div className={`container mb-4`}>
+            <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
+            <Link href={"/services"}><a className="text-white fw-semibold mb-4" data-trans="ServicesNav2">{` > Services`}</a></Link>
+        </div>
         <h2 className={`text-white fw-bold mb-5`} data-trans="ServicesNav">Services</h2>
     </div>
     <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
@@ -206,7 +206,7 @@ const ServicesPage = (props:Props) => {
                 <img src="/images/services_images/14.png" className='rounded' alt=""/>
             </div>
         </div> 
-</div>
+    </div>
 <Ser1Modal/> <Ser2Modal/> <Ser3Modal/> <Ser4Modal/> <Ser5Modal/> <Ser6Modal/> <Ser7Modal/> <Ser8Modal/> <Ser9Modal/> <Ser10Modal/> <Ser11Modal/> <Ser12Modal/> <Ser13Modal/> <Ser14Modal/>
 
    

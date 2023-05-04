@@ -9,7 +9,7 @@ const WhatsLink = () => {
            <BsWhatsapp size={30} className={`${styles.iconStyle}`}/>
         </a>
         <div className={`tooltip fade bs-tooltip-top show ${styles.secondDiv}`}>
-            </div>
+        </div>
     </div>
     </>
   )

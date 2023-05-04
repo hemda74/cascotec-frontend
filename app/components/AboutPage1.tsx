@@ -53,8 +53,8 @@ const About = () => {
                         <div className="col-xl-8 col-lg-10 col-md-12">
                             <div className={`${styles.innerSectionOurAchievements}`}>
                                 <div className="col-xl-4 col-lg-4 col-md-12">
-                                    <span className={`${styles.spanFeature}`}>Success indicators</span>
-                                    <h4 className={`${styles.headFeature}`}>Our achievements</h4>
+                                    <span className={`${styles.spanFeature}`} data-trans="SUCCESSINDICATORS"></span>
+                                    <h4 className={`${styles.headFeature}`} data-trans="OurAchievements"></h4>
                                 </div>
                                 <div className={`${styles.featuresBoxes} col-xl-8 col-lg-8 col-md-12`}>
                                     <div className={`${styles.featuresBoxesInner}`}>

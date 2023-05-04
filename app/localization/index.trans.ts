@@ -444,12 +444,12 @@ const indexTrans: translataionContainer = {
         ar:'نحن شركة "كاسكو" نسعى لتقديم خدمات استشارية عالية الجودة والمهنية لجميع الجهات التي ترغب في الحصول على الاعتماد وتطبيق المواصفات الفنية، بما يساهم في تحسين أدائها وتحقيق نموها ونجاحها.'
     },
     SUCCESSINDICATORS:{
-        en:'SUCCESSINDICATORS',
+        en:'SUCCESS INDICATORS',
         ar:'مؤشرات النجاح'
     },
     OurAchievements:{
-        en:'OurAchievements',
-        ar:'إنجازات المركز'
+        en:'Our Achievements',
+        ar:'إنجازات كاسكو'
     },
     AccreditedBodiesAbout:{
         en:'Clients',

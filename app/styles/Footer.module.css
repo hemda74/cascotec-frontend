@@ -1,52 +1,49 @@
 .footerCont{
-    background: #cfddfa71; 
+    background: var(--color-secondary);
     padding:  0 2rem 0;
     
 }
 .footerLink{
-    color: #000 !important;
+    color: #fff !important;
     font-size: 1rem;
     font-weight: 500;
     padding: 0;
-    color: #666d78;
+    
 }
 .footerA{
-    background:#76b2fc93 ;
+    background:#76b2fc00 ;
     padding: 0.2rem 0.4rem 0.2rem;
     border-radius: 0.5rem;
-    color: #1a63d7 ;
+    color: #fff;
 }
 .footerA:hover{
     color: #FFF !important;
 }
 .footerAhmed1{
-    color: #555;
     font-size: 1rem;
     font-weight: 600;
-    color: #666d78;
-   flex-wrap: wrap;
+    color: #999;
+    flex-wrap: wrap;
 }
 .footerAhmed{
-    color: #555;
+    color: #ccc;
 }
 .footerAhmed:hover{
-   color: #1a63d7 !important;
+   color: #ffff !important;
    cursor: pointer;
    font-size: 1rem;
-    font-weight: 600;
-    color: #666d78;
+   font-weight: 600;
 }
 
 .companybrief{
     font-size: 1rem;
     font-weight: 300;
-    color: #666d78;
+    color: #fff !important;
     font-size: 1rem;
     font-weight: 600;
-    color: #666d78;
 }
 .subsIcon{
-    color: #082149 !important;
+    color: #fff !important;
     cursor: pointer;
     border: none;
     border-radius: 0;

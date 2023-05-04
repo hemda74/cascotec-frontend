@@ -6,7 +6,7 @@ const StackHolders = () => {
 <>
     <section className={`${styles.mainContainer}`}>
         <div className={`text-center ${styles.titleWord}`}>
-        <div className={`container mb-4`}>
+            <div className={`container mb-4`}>
                 <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
                 <Link href={"/about"}><a className="text-white fw-semibold mb-4">{` > About CASCO`}</a></Link>
                 <Link href={"/about/stakeholders-advisory-committee"}><a className="text-white fw-semibold mb-4" >{` > Stakeholders Advisory Committee`}</a></Link>
@@ -22,38 +22,38 @@ const StackHolders = () => {
                 <div className="col-lg-2"></div>
                 <div className={` ${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
                     <div className="d-flex mb-3">
-                    <div className={`${styles.biggerCircle}`}>
-                        <span className={`${styles.numbersCircle}`}>1</span>
-                    </div>
-                    <h6 className='mt-3 me-2 ms-2'data-trans='Examininganddiscussingsubjectstitle'></h6>
+                        <div className={`${styles.biggerCircle}`}>
+                            <span className={`${styles.numbersCircle}`}>1</span>
+                        </div>
+                        <h6 className='mt-3 me-2 ms-2'data-trans='Examininganddiscussingsubjectstitle'></h6>
                     </div>
                     <small className='pt-3 mt-5' data-trans="Examininganddiscussingsubjects">{``}</small>
                 </div>
                 <div className={`${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
                     <div className="d-flex mb-3">
-                    <div className={`${styles.biggerCircle}`}>
-                    <span className={` ${styles.numbersCircle}`}>2</span>
-                    </div>
-                    <h6 className='mt-3 me-2 ms-2' data-trans='Assessingthepoliciestitle'></h6>
+                        <div className={`${styles.biggerCircle}`}>
+                            <span className={` ${styles.numbersCircle}`}>2</span>
+                        </div>
+                        <h6 className='mt-3 me-2 ms-2' data-trans='Assessingthepoliciestitle'></h6>
                     </div>
                     <small className='pt-3 mt-5'data-trans="Assessingthepolicies">{``}</small>
                 </div>
                 <div className={`${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
-                <div className="d-flex mb-3">
-                    <div className={`${styles.biggerCircle}`}>
-                    <span className={` ${styles.numbersCircle}`}>3</span>
-                    </div>
-                    <h6 className='mt-3 me-2 ms-2' data-trans='Evaluatingtheplanstitle'></h6>
+                    <div className="d-flex mb-3">
+                        <div className={`${styles.biggerCircle}`}>
+                            <span className={` ${styles.numbersCircle}`}>3</span>
+                        </div>
+                        <h6 className='mt-3 me-2 ms-2' data-trans='Evaluatingtheplanstitle'></h6>
                     </div>
                     <small className='pt-3 mt-5' data-trans="Evaluatingtheplans">{``}</small>
                 </div>
                 <div className={`${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
                     <div className={`${styles.itemOne}`}>
                         <div className="d-flex mb-3">
-                        <div className={`${styles.biggerCircle}`}>
-                        <span className={` ${styles.numbersCircle}`}>4</span>
-                        </div>
-                        <h6 className='mt-3 me-2 ms-2' data-trans='Reviewannualreportstitle'></h6>
+                            <div className={`${styles.biggerCircle}`}>
+                                <span className={` ${styles.numbersCircle}`}>4</span>
+                            </div>
+                            <h6 className='mt-3 me-2 ms-2' data-trans='Reviewannualreportstitle'></h6>
                         </div>
                         <small className='pt-3 mt-5' data-trans="Reviewannualreports">{``}</small>
                     </div>
@@ -77,12 +77,12 @@ const StackHolders = () => {
                         <div className={`tab-content ${styles.listinnerContainer2}`} id="v-pills-tabContent">
                             <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabIndex={0}>
                                 <ul className="text-white">
-                                <li className={`mt-2 ${styles.listGroupItem}`} data-trans="Onerepresentativeofagovernment">{`One representative of a government authority (ministry) in each of the Member States (7 members).`}</li>
-                                 </ul>
+                                    <li className={`mt-2 ${styles.listGroupItem}`} data-trans="Onerepresentativeofagovernment">{`One representative of a government authority (ministry) in each of the Member States (7 members).`}</li>
+                                </ul>
                             </div>
                             <div className="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabIndex={0}>
                                 <ul className="text-white">
-                                <li className={`mt-2 ${styles.listGroupItem}`} data-trans="Onerepresentativefromtheconformity">{`One representative from the conformity assessment bodies accredited by the GAC (up to 6 members)`}</li>
+                                    <li className={`mt-2 ${styles.listGroupItem}`} data-trans="Onerepresentativefromtheconformity">{`One representative from the conformity assessment bodies accredited by the GAC (up to 6 members)`}</li>
                                 </ul>
                             </div>
                             <div className="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabIndex={0}>

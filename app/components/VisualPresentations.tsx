@@ -8,11 +8,11 @@ const VisualPresentations= () => {
 return(
 <>
     <div className={`text-center ${styles.titleWord}`}>
-    <div className={`container mb-4`}>
-                    <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
-                    <Link href={"/visual-presentations"}><a className="text-white fw-semibold mb-4">{` > Visual Presentations`}</a></Link>
-                </div>
-      <h2 className={`text-white fw-bold mb-5 `} >Visual Presentations</h2>
+        <div className={`container mb-4`}>
+            <Link href={"/"}><a className="text-white fw-semibold mb-4">{`Home`}</a></Link>
+            <Link href={"/visual-presentations"}><a className="text-white fw-semibold mb-4">{` > Visual Presentations`}</a></Link>
+        </div>
+      <h2 className={`text-white fw-bold mb-5 `}>Visual Presentations</h2>
     </div>
     <div className={` container mt-5 mb-5 `}>
         <div className="row gy-5 gx-lg-5 ">
@@ -28,106 +28,128 @@ return(
                   </div>
               </form>
           </div>
-          <div className={` container mt-5  `}>
-        <div className="row gy-5 gx-lg-5">
-          <div className={`col-lg-10 m-auto row `}>
-          <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
-          <div className={``}>
-                            <figure className={`${styles.teamMemberFigure} `}>
-                              <div className='p-2 '>
-                              <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
-                              </div>
-                              <figcaption className={`${styles.figCaption}  d-flex `}>
-                                <div className={` ${styles.accretiedCaption}`}>
-                                    <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
-                                        <span className="text-white">
-                                            <BsPlayFill className='m-0' size={45}/></span>
-                                    </a>
-                                </div> 
-                              </figcaption>
-                            </figure>
-                            <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
-                        </div>
+          <div className={`container mt-5`}>
+              <div className="row gy-5 gx-lg-5">
+                  <div className={`col-lg-10 m-auto row `}>
+                      <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
+                          <div className={``}>
+                              <figure className={`${styles.teamMemberFigure} `}>
+                                  <div className='p-2 '>
+                                      <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
+                                  </div>
+                                  <figcaption className={`${styles.figCaption}d-flex`}>
+                                      <div className={` ${styles.accretiedCaption}`}>
+                                          <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
+                                              <span className="text-white">
+                                                  <BsPlayFill className='m-0' size={45}/>
+                                              </span>
+                                          </a>
+                                      </div> 
+                                  </figcaption>
+                              </figure>
+                              <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
+                          </div>
+                      </div>
+                      <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
+                          <div className={``}>
+                              <figure className={`${styles.teamMemberFigure} `}>
+                                  <div className='p-2 '>
+                                      <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
+                                  </div>
+                                  <figcaption className={`${styles.figCaption}d-flex`}>
+                                      <div className={` ${styles.accretiedCaption}`}>
+                                          <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
+                                              <span className="text-white">
+                                                  <BsPlayFill className='m-0' size={45}/>
+                                              </span>
+                                          </a>
+                                      </div> 
+                                  </figcaption>
+                              </figure>
+                              <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
+                          </div>
+                      </div>
+                      <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
+                          <div className={``}>
+                              <figure className={`${styles.teamMemberFigure} `}>
+                                  <div className='p-2 '>
+                                      <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
+                                  </div>
+                                  <figcaption className={`${styles.figCaption}d-flex`}>
+                                      <div className={` ${styles.accretiedCaption}`}>
+                                          <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
+                                              <span className="text-white">
+                                                  <BsPlayFill className='m-0' size={45}/>
+                                              </span>
+                                          </a>
+                                      </div> 
+                                  </figcaption>
+                              </figure>
+                              <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
+                          </div>
+                      </div>
+                      <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
+                          <div className={``}>
+                              <figure className={`${styles.teamMemberFigure} `}>
+                                  <div className='p-2 '>
+                                      <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
+                                  </div>
+                                  <figcaption className={`${styles.figCaption}d-flex`}>
+                                      <div className={` ${styles.accretiedCaption}`}>
+                                          <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
+                                              <span className="text-white">
+                                                  <BsPlayFill className='m-0' size={45}/>
+                                              </span>
+                                          </a>
+                                      </div> 
+                                  </figcaption>
+                              </figure>
+                              <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
+                          </div>
+                      </div>
+                      <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
+                          <div className={``}>
+                              <figure className={`${styles.teamMemberFigure} `}>
+                                  <div className='p-2 '>
+                                      <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
+                                  </div>
+                                  <figcaption className={`${styles.figCaption}d-flex`}>
+                                      <div className={` ${styles.accretiedCaption}`}>
+                                          <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
+                                              <span className="text-white">
+                                                  <BsPlayFill className='m-0' size={45}/>
+                                              </span>
+                                          </a>
+                                      </div> 
+                                  </figcaption>
+                              </figure>
+                              <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
+                          </div>
+                      </div>
+                      <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
+                          <div className={``}>
+                              <figure className={`${styles.teamMemberFigure} `}>
+                                  <div className='p-2 '>
+                                      <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
+                                  </div>
+                                  <figcaption className={`${styles.figCaption}d-flex`}>
+                                      <div className={` ${styles.accretiedCaption}`}>
+                                          <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
+                                              <span className="text-white">
+                                                  <BsPlayFill className='m-0' size={45}/>
+                                              </span>
+                                          </a>
+                                      </div> 
+                                  </figcaption>
+                              </figure>
+                              <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
-          <div className={``}>
-                            <figure className={`${styles.teamMemberFigure} `}>
-                              <div className='p-2 '>
-                              <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
-                              </div>
-                              <figcaption className={`${styles.figCaption}  d-flex `}>
-                                <div className={` ${styles.accretiedCaption}`}>
-                                    <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
-                                        <span className="text-white">
-                                            <BsPlayFill className='m-0' size={45}/></span>
-                                    </a>
-                                </div> 
-                              </figcaption>
-                            </figure>
-                            <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
-                        </div>
-          </div>
-          <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
-          <div className={``}>
-                            <figure className={`${styles.teamMemberFigure} `}>
-                              <div className='p-2 '>
-                              <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
-                              </div>
-                              <figcaption className={`${styles.figCaption}  d-flex `}>
-                                <div className={` ${styles.accretiedCaption}`}>
-                                    <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
-                                        <span className="text-white">
-                                            <BsPlayFill className='m-0' size={45}/></span>
-                                    </a>
-                                </div> 
-                              </figcaption>
-                            </figure>
-                            <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
-                        </div>
-          </div>
-          <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
-          <div className={``}>
-                            <figure className={`${styles.teamMemberFigure} `}>
-                              <div className='p-2 '>
-                              <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
-                              </div>
-                              <figcaption className={`${styles.figCaption}  d-flex `}>
-                                <div className={` ${styles.accretiedCaption}`}>
-                                    <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
-                                        <span className="text-white">
-                                            <BsPlayFill className='m-0' size={45}/></span>
-                                    </a>
-                                </div> 
-                              </figcaption>
-                            </figure>
-                            <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
-                        </div>
-          </div>
-          <div className={`col-xl-4 col-lg-6 col-md-6 col-sm-12 ${styles.teamMember2}`}>
-          <div className={`m-0 p-0`}>
-                            <figure className={`${styles.teamMemberFigure} `}>
-                              <div className='p-2 '>
-                              <Image src={vp} layout='fill' alt="" className={`${styles.cardImage} p-3 `}/>
-                              </div>
-                              <figcaption className={`${styles.figCaption}  d-flex `}>
-                                <div className={` ${styles.accretiedCaption}`}>
-                                    <a href="https://www.youtube.com/embed/tv-8cJfQbqc" target="_blank" rel="noreferrer" >
-                                        <span className="text-white">
-                                            <BsPlayFill className='m-0' size={45}/></span>
-                                    </a>
-                                </div> 
-                              </figcaption>
-                            </figure>
-                            <span className={`${styles.textCard} fw-bold`}>Introducing the Gulf Accreditation Center from some members</span>
-                        </div>
-          </div>    
-                     
-        </div>
+      </div>
     </div>
-    </div>
-    </div>
-    </div>
-    
 </>
 )
 }
