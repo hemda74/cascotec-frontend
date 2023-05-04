@@ -20,7 +20,6 @@ import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 import Recogention from '../components/Recogention';
 import AssessorOrCAB from '../components/AssessorOrCAB';
 import ServicesSlider from '../components/ServicesSlider';
-import ServicesSliderRTL from '../components/ServicesSliderRTL';
 import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines'
 import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl'
 import NewsHomePage from '../components/NewsHomePage';
@@ -80,12 +79,8 @@ const Login: NextPage = () => {
           <NavBar/>
           <Hero/>
           <FlagesSection/>
-          {choise === 0 && (
-        <ServicesSlider/>
-      )}
-      { choise!== 0 && (
-        <ApplyAcc/> 
-      )}
+          <ServicesSlider/>
+          <ApplyAcc/> 
           <Steps/> 
           <ApplyAcc/> 
           <CoursesSectionHomePage/>
