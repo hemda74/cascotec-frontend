@@ -78,7 +78,7 @@ const Courses = () => {
         </div>  */}
         <div className="container col-xl-8 col-lg-10 col-md-12 mb-3 mt-1 p-0 ">
             <div className="row ms-1 me-1 p-0">
-                <div className="col-lg-4 col-md-6 col-sm-12  p-1">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1">
                     <Link href={'/courses/food-safety-management-requirements-in-accordance-with-international-standard-iso'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -98,7 +98,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 col-sm-12  p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/general_requirement_for_halal_products_certification_according_to_gcc_standard'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -117,7 +117,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/iSO_iEC_17065_2012_certification_requirements'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -134,7 +134,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/understanding_iso_ise_17025_2017_for_testing_and_calibration_laboratories'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -154,7 +154,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1">
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1">
                     <Link href={'/courses/General-Requirements-For-Halal-Food-In-Accordance-With-Gulf-Standard-Specification-GSO-2055-1-And-Animal-Zakat-Requirements-In-Accordance-With-Islamic-Sharia-GSO-993'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -172,7 +172,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/guidelines-for-auditing-management-systems-according'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}><Image src={coursesimage6} className="img-fluid" alt=""/></div>
@@ -191,7 +191,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Accreditation-Requirements-or-Inspection-Bodies-In-Accordance-With-International-StandardISO'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -209,7 +209,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Accreditation-Requirements-For-Bodies-Certifying-Halal-In-Accordance-With-GSO-2055-2'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -229,7 +229,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Requirements-For-Accreditation-Of-Medical-Laboratories-According-To-ISO'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -247,7 +247,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Accreditation-Requirements-For-Testing-And-Calibration-Laboratories-According'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -267,7 +267,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Measurement-Uncertainty-and-ISO-IEC-Compliance-for-labs'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -287,7 +287,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/ISO-IEC-17024-Requirements-for-Personnel-Certification-Bodies'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -307,7 +307,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Requirements-of-Accreditation-of-Medical-Laboratories-According-To-ISO'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -327,7 +327,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Requirements-For-Accreditation-Of-Risk-Management-Systems-Certification-Bodies-Guidelines'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -347,7 +347,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Food-Safety-Management-Requirements-in-Accordance-with-International-Standard'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -367,7 +367,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Global-Standard-for-Food-Safety-Issue-9-Sites-Training'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
@@ -387,7 +387,7 @@ const Courses = () => {
                     </div>
                     </Link>
                 </div>
-                <div className="col-lg-4 col-md-6 p-1" >
+                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 p-1" >
                     <Link href={'/courses/Global-Standard-for-Food-Safety-Issue-9-Lead-Auditor'}>
                     <div className={`${styles.postBox}`}>
                         <div className={`${styles.postImage}`}>
