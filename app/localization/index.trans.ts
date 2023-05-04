@@ -21,7 +21,7 @@ const indexTrans: translataionContainer = {
     },
     AboutCascoNav:{
         en:"About CASCO",
-        ar:"عن المركز"
+        ar:"عن كاسكو"
     },
     AboutUsNav:{
         en:'About Us',
@@ -938,29 +938,46 @@ const indexTrans: translataionContainer = {
         ar:'اللجنة الاستشارية للجهات ذات العلاقة'
     },
     Responsibilitiesofthecommittee:{
-        en:'Responsibilities of the committee',
-        ar:'اختصاصات اللجنة الاستشارية'
+        en:'Responsibilities of the CASCO Technical Team',
+        ar:'مسؤوليات فريق كاسكو الفني'
     },
     Responsibilitiesofthecommitteeb1:{
-        en:'The committee is in charge of the implementation of the following tasks and functions',
-        ar:'تعمل اللجنة الاستشارية لتنفيذ المهام والاختصاصات التالية:'
+        en:'As a consulting firm, CASCO recognizes the importance of a systematic approach to continuous improvement. To ensure the effectiveness of our accreditation activities and maintain high standards, we follow the PDCA (Plan, Do, Check, Act) cycle.The committee responsible for overseeing these activities is tasked with the following:',
+        ar:"كشركة استشارية، تدرك CASCO أهمية النهج النظامي للتحسين المستمر. ولضمان فعالية أنشطة الاعتماد الخاصة بنا والحفاظ على معايير عالية، نتبع دورة PDCA (التخطيط، التنفيذ، التحقق، التصحيح).ومن المسؤول عن مراقبة هذه الأنشطة هي اللجنة المكلفة بهذه المهمة والتي يتم تكليفها بما يلي:"
     },
+    Examininganddiscussingsubjectstitle:{
+        en:'Plan:',
+        ar:'التخطيط:'
+    },  
     Examininganddiscussingsubjects:{
-        en:'Examining and discussing subjects related to the accreditation activities of the CASCO Group and providing relevant recommendations.',
-        ar:'دراسة ومناقشة الموضوعات المتعلقة بأنشطة الاعتماد لمجموعة كاسكو وتقديم التوصيات ذات الصلة.'
+        en:'Examining and discussing subjects related to the accreditation activities of the CASCO Group and providing relevant recommendations.Assessing the policies and strategies of the CASCO Group and offering opinions and recommendations to the Technical Manager.Evaluating the plans and programs proposed by the Technical Manager of the CASCO Group and making recommendations accordingly.',
+        ar:'فحص ومناقشة الموضوعات المتعلقة بأنشطة الاعتماد في مجموعة CASCO وتقديم التوصيات المناسبة. تقييم سياسات واستراتيجيات مجموعة CASCO وتقديم آرائها وتوصياتها لمدير التقنية.	تقييم الخطط والبرامج المقترحة من قبل مدير التقنية في مجموعة CASCO واتخاذ التوصيات اللازمة وفقًا لذلك.'
+    },
+    Assessingthepoliciestitle:{
+        en:'Do:',
+        ar:'التنفيذ:'
     },
     Assessingthepolicies:{
-        en:'Assessing the policies and strategies of the CASCO Group and offering opinions and recommendations to the General Director.',
-        ar:'تقييم سياسات واستراتيجيات مجموعة كاسكو وتقديم الآراء والتوصيات إلى المدير العام.'
+        en:'Implementing the plans and programs proposed by the Technical Manager.',
+        ar:'تنفيذ الخطط والبرامج المقترحة من قبل مدير التقنية.'
+    },
+    Evaluatingtheplanstitle:{
+        en:'Check:',
+        ar:'التحقق:'
     },
     Evaluatingtheplans:{
-        en:'Evaluating the plans and programs proposed by the General Director of the CASCO Group and making recommendations accordingly.',
-        ar:' تقييم الخطط والبرامج المقترحة من قبل المدير العام لمجموعة كاسكو وتقديم التوصيات وفقًا لذلك.'
+        en:'Review Gap analysis reports on the activities and achievements of the CASCO Group and provides opinions and recommendations.',
+        ar:'مراجعة تقارير تحليل الفجوات حول أنشطة وإنجازات مجموعة CASCO وتقديم الآراء والتوصيات.'
+    },
+    Reviewannualreportstitle:{
+        en:'Act:',
+        ar:'التصحيح:'
     },
     Reviewannualreports:{
-        en:'Review annual reports on the activities and achievements of the CASCO Group and provide opinions and recommendations.',
-        ar:'مراجعة التقارير السنوية عن أنشطة وإنجازات مجموعة كاسكو وإبداء الآراء والتوصيات.'
+        en:'Taking corrective and preventive actions based on the recommendations provided by the technical team to continuously improve the effectiveness of our consultation activities.',
+        ar:'اتخاذ إجراءات تصحيحية ووقائية بناءً على التوصيات التي يقدمها الفريق التقني لتحسين فعالية أنشطة الاستشارة لدينا بشكل مستمر.'
     },
+
     // Compositionofthe:{
     //     en:'Composition of the stakeholders advisory committee',
     //     ar:'تكوين اللجنة الاستشارية للجهات ذات العلاقة'

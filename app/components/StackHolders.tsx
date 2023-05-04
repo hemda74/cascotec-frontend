@@ -15,35 +15,47 @@ const StackHolders = () => {
         </div>
         <div className="container">
             <div className="section-header text-center">
-                <p className='fs-1' data-trans="Responsibilitiesofthecommittee">Responsibilities of the committee</p>
-                <p className="fs-5" data-trans="Responsibilitiesofthecommitteeb1">The committee is in charge of the implementation of the following tasks and functions</p>
+                <p className='fs-1' data-trans="Responsibilitiesofthecommittee"></p>
+                <p className="fs-5" data-trans="Responsibilitiesofthecommitteeb1"></p>
             </div>
             <div className="row mt-5">
                 <div className="col-lg-2"></div>
                 <div className={` ${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
+                    <div className="d-flex mb-3">
                     <div className={`${styles.biggerCircle}`}>
-                        <span className={` ${styles.numbersCircle}`}>1</span>
+                        <span className={`${styles.numbersCircle}`}>1</span>
                     </div>
-                    <small className='pt-3' data-trans="Examininganddiscussingsubjects">{`Examining and discussing subjects related to the accreditation activities of the CASCO Group and providing relevant recommendations.`}</small>
+                    <h6 className='mt-3 me-2 ms-2'data-trans='Examininganddiscussingsubjectstitle'></h6>
+                    </div>
+                    <small className='pt-3 mt-5' data-trans="Examininganddiscussingsubjects">{``}</small>
                 </div>
-                <div className={` ${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
+                <div className={`${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
+                    <div className="d-flex mb-3">
                     <div className={`${styles.biggerCircle}`}>
                     <span className={` ${styles.numbersCircle}`}>2</span>
                     </div>
-                    <small className='pt-3'data-trans="Assessingthepolicies">{`Assessing the policies and strategies of the CASCO Group and offering opinions and recommendations to the General Director.`}</small>
+                    <h6 className='mt-3 me-2 ms-2' data-trans='Assessingthepoliciestitle'></h6>
+                    </div>
+                    <small className='pt-3 mt-5'data-trans="Assessingthepolicies">{``}</small>
                 </div>
-                <div className={` ${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
+                <div className={`${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
+                <div className="d-flex mb-3">
                     <div className={`${styles.biggerCircle}`}>
                     <span className={` ${styles.numbersCircle}`}>3</span>
                     </div>
-                    <small className='pt-3' data-trans="Evaluatingtheplans">{`Evaluating the plans and programs proposed by the General Director of the CASCO Group and making recommendations accordingly.`}</small>
+                    <h6 className='mt-3 me-2 ms-2' data-trans='Evaluatingtheplanstitle'></h6>
+                    </div>
+                    <small className='pt-3 mt-5' data-trans="Evaluatingtheplans">{``}</small>
                 </div>
-                <div className={` ${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
+                <div className={`${styles.innerContainer} col-lg-2 col-md-6 col-sm-12 col-xs-12`}>
                     <div className={`${styles.itemOne}`}>
+                        <div className="d-flex mb-3">
                         <div className={`${styles.biggerCircle}`}>
                         <span className={` ${styles.numbersCircle}`}>4</span>
                         </div>
-                        <small className='pt-3' data-trans="Reviewannualreports">{`Review annual reports on the activities and achievements of the CASCO Group and provide opinions and recommendations.`}</small>
+                        <h6 className='mt-3 me-2 ms-2' data-trans='Reviewannualreportstitle'></h6>
+                        </div>
+                        <small className='pt-3 mt-5' data-trans="Reviewannualreports">{``}</small>
                     </div>
                 </div>
                 <div className="col-lg-2"></div>
