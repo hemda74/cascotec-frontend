@@ -30,10 +30,10 @@ const ServicesPage = (props:Props) => {
             <Link href={"/"}><a className="text-white fw-semibold mb-4" data-trans="HomeNav">{`Home`}</a></Link>
             <Link href={"/services"}><a className="text-white fw-semibold mb-4" data-trans="ServicesNav2">{` > Services`}</a></Link>
         </div>
-        <h2 className={`text-white fw-bold mb-5`} data-trans="ServicesNav">Services</h2>
+        <h2 className={`text-white fw-bold mb-5`} data-trans="ServicesNav"></h2>
     </div>
     <div className="container col-xl-8 col-lg-10 col-md-12 mb-5">
-        <span className={`fw-bold`} data-trans="ServicesNav">SERVICES</span>
+        <span className={`fw-bold`} data-trans="ServicesNav"></span>
         <p className={` mt-2 fw-bold ${styles.subtitleWord}`} data-trans="servicesSubTitle">{`Professionalism in providing technical consulting services for obtaining accreditations and upgrading quality infrastructure to comply with legislative, mandatory, and technical regulations is crucial.`}</p>
         <span className='fw-semibold fs-6' data-trans="servicesbrief">{`Our services aim to enhance mutual trust between conformity assessment providers and consumers, as well as raise awareness of the importance of accreditation in strengthening the quality infrastructure worldwide.`}</span>
     </div>

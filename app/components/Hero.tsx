@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="carousel-caption text-white d-md-block">
         <h1>Courses</h1>
         <p>Some representative placeholder content for the second slide.</p>
-        <button className={` myInfo rounded ${styles.LinkButton}`} type="submit">Go To Courses</button>
+        <button className={` myInfo rounded ${styles.LinkButton}`}>Go To Courses</button>
       </div>
     </div>
     <div className="carousel-item" data-bs-interval="1500">
@@ -32,7 +32,7 @@ const Hero = () => {
       <div className="carousel-caption text-white d-md-block">
         <h1>Accredited Bodies</h1>
         <p>Some representative placeholder content for the third slide.</p>
-        <button className={` myInfo d-inline rounded ${styles.LinkButton}`} type="submit">Go To Accredited Bodies</button>
+        <button className={` myInfo d-inline rounded ${styles.LinkButton}`}>Go To Accredited Bodies</button>
       </div>
     </div>
   </div>
@@ -86,19 +86,35 @@ const Hero = () => {
 </div> */}
 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="1000">
-    <img src="/images/home_page/hero/hero_2.png" className="d-block w-100" alt="..."/>
-      <div className="carousel-caption text-white d-md-block">
-        <h1>Courses</h1>
-        <p>Some representative placeholder content for the second slide.</p>
-        <button className={` myInfo rounded ${styles.LinkButton}`} type="submit">Go To Courses</button>
+    <div className="carousel-item active" data-bs-interval="3000">
+    <img src="/images/home_page/hero/hero_1.png" className="d-block w-100" alt="..."/>
+      <div className={`carousel-caption text-white d-md-block ${styles.carouselCaption}`}>
+        <h1 data-trans="ServicesNav"></h1>
+        <p className='fw-semibold text-white fs-4' data-trans="servicesbrief"></p>
+        <Link href={'/services'}>
+        <button className={`myInfo rounded ${styles.LinkButton}`} data-trans="ServicesNav"></button>
+        </Link>
       </div>
     </div>
-    <div className="carousel-item" data-bs-interval="2000">
+    <div className="carousel-item" data-bs-interval="3000">
     <img src="/images/home_page/hero/hero_2.png" className="d-block w-100" alt="..."/>
+      <div className="carousel-caption text-white d-md-block">
+        <h1 data-trans="AboutUsTitle"></h1>
+        <p className='fw-semibold text-white fs-4' data-trans="OurobjectiveP"></p>
+        <Link href={'/about'}>
+        <button className={`myInfo rounded ${styles.LinkButton}`} data-trans="AboutUsTitle"></button>
+        </Link>
+      </div>
     </div>
-    <div className="carousel-item" data-bs-interval="2000">
-    <img src="/images/home_page/hero/hero_2.png" className="d-block w-100" alt="..."/>
+    <div className="carousel-item" data-bs-interval="3000">
+    <img src="/images/home_page/hero/hero_3.png" className="d-block w-100" alt="..."/>
+      <div className="carousel-caption text-white d-md-block">
+        <h1 data-trans="Courses"></h1>
+        <p className='fw-semibold text-white fs-4' data-trans="cousesParageph"></p>
+        <Link href={'/courses'}>
+        <button className={`myInfo d-inline rounded ${styles.LinkButton}`} data-trans="Courses"></button>
+        </Link>
+      </div>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
