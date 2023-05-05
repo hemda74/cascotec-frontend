@@ -2,6 +2,20 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import styles from '../styles/Services.module.css'
 import Image from 'next/image'
+import image_1 from '../public/images/services_images/500/1.png';
+import image_2 from '../public/images/services_images/500/2.png';
+import image_3 from '../public/images/services_images/500/3.png';
+import image_4 from '../public/images/services_images/500/4.png';
+import image_5 from '../public/images/services_images/500/5.png';
+import image_6 from '../public/images/services_images/500/6.png';
+import image_7 from '../public/images/services_images/500/7.png';
+import image_8 from '../public/images/services_images/500/8.png';
+import image_9 from '../public/images/services_images/500/9.png';
+import image_10 from '../public/images/services_images/500/10.png';
+import image_11 from '../public/images/services_images/500/11.png';
+import image_12 from '../public/images/services_images/500/12.png';
+import image_13 from '../public/images/services_images/500/13.png';
+import image_14 from '../public/images/services_images/500/14.png';
 import image1 from '../public/images/services_images/1.png';
 import image2 from '../public/images/services_images/2.png';
 import image3 from '../public/images/services_images/3.png';
@@ -117,7 +131,7 @@ export default class AsNavFor extends Component {
                               >
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image1} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_1} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services1'>Laboratory Testing Consultation</span> 
@@ -126,16 +140,16 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image2} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_2} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 ${styles.itemContent}`}>
-                                          <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services2'>Calibration Laboratory Consultation</span> 
-                                          <p className={` ${styles.itemText}`} data-trans="ServicesBrief2">{`At CASCO, we provide consultation services in the field of calibration laboratories, in accordance with the international standard ISO/IEC 17025:2017.`}</p>
+                                          <span className={`${styles.itemTitle} fs-3 fw-bold`} data-trans='Services2'>Calibration Laboratory Consultation</span> 
+                                          <p className={`${styles.itemText}`} data-trans="ServicesBrief2">{`At CASCO, we provide consultation services in the field of calibration laboratories, in accordance with the international standard ISO/IEC 17025:2017.`}</p>
                                       </div>
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
-                                          <Image src={image3} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_3} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={`${styles.itemTitle} fs-3 fw-bold`} data-trans='Services3'>Inspection Certification Body Consultation</span> 
@@ -144,7 +158,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image4} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_4} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 p-5 ${styles.itemContent}`}>
                                           <span className={`${styles.itemTitle} fs-3 fw-bold`} data-trans='Services4'>Product Certification Body Consultation</span> 
@@ -153,7 +167,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image5} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_5} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services5'>Management System Certification Body Consultation</span> 
@@ -162,7 +176,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image6} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_6} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12  ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold `} data-trans='Services6'>Medical Laboratory Consultation</span> 
@@ -180,16 +194,16 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5 `}>
-                                          <Image src={image8} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_8} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
-                                          <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services8'>Personal Certification Consultation</span> 
-                                          <p className={` ${styles.itemText}`} data-trans="ServicesBrief8">{`At CASCO, we provide consultation services in the field of Personal certification, in accordance with the international standard ISO/IEC 17024:2012.`}</p>
+                                          <span className={`${styles.itemTitle} fs-3 fw-bold`} data-trans='Services8'>Personal Certification Consultation</span> 
+                                          <p className={`${styles.itemText}`} data-trans="ServicesBrief8">{`At CASCO, we provide consultation services in the field of Personal certification, in accordance with the international standard ISO/IEC 17024:2012.`}</p>
                                       </div>
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image9} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_9} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services9'>Consultation for Proficiency Testing Providers</span> 
@@ -198,7 +212,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image10} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_10} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`  col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services10'>Technical Consultation for Notification Purposes</span> 
@@ -207,7 +221,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image11} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_11} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={`${styles.itemTitle} fs-3 fw-bold`} data-trans='Services11'>Consultation for Obtaining BRCGS Certification</span> 
@@ -216,7 +230,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image12} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_12} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services12'>Consultation for Obtaining Forest Stewardship Council (FSC) Certification</span> 
@@ -225,7 +239,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image13} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_13} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={` ${styles.itemTitle} fs-3 fw-bold`} data-trans='Services13'>Consultation for Obtaining FSSC 22000 Scheme Certification</span> 
@@ -234,7 +248,7 @@ export default class AsNavFor extends Component {
                                   </div>
                                   <div className={`d-flex ${styles.mainCard}`}>
                                       <div className={`col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 p-5`}>
-                                          <Image src={image14} className={`${styles.objImage}`} width={550} height={450} alt=""/>
+                                          <Image src={image_14} className={`${styles.objImage}`} width={550} height={450} alt=""/>
                                       </div>
                                       <div className={`col-lg-5 col-xl-5 col-md-5 col-sm-12 col-xs-12 ${styles.itemContent}`}>
                                           <span className={`${styles.itemTitle} fs-3 fw-bold`} data-trans='Services14'>ESG Report Service</span> 
