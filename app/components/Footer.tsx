@@ -16,7 +16,7 @@ const Footer = () => {
                         <Image
                             alt="casco logo"
                             src={logo}
-                            width={250}
+                            width={200}
                             height={100}
                         />         
                         <small className={`mt-4 d-inline-block ${styels.companybrief}`} data-trans="aboutCascoFooter"></small>
