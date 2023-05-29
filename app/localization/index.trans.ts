@@ -508,6 +508,10 @@ const indexTrans: translataionContainer = {
         en:'Back To CASCO',
         ar:'العودة الي كاسكو'
     },
+    pageunderconstruction:{
+        en:'Page Under Construction',
+        ar:'الصفحة تخت الانشاء'
+    },
 ////////////////////< Board of Directors >//////////////////////////////////
     BoardOfDirectorsNav2:{
         en:' > Our Team',

@@ -13,7 +13,7 @@ const FourOhFour: NextPage = (props: Props) => {
         <div className=" row align-items-center justify-content-center">
           <div className="">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h1 className="fw-bold">
+              <h1 className="fw-bold" data-trans="pageunderconstruction">
                 Page Under Construction
               </h1>
               <h4 className="myPrimary-Text mt-3">
