@@ -266,59 +266,59 @@ export default class AsNavFor extends Component {
                                 focusOnSelect={true}
                               >
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image1} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+                                      <Image src={image1} className={`me-1 ms-1 `} alt=""/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services1'>Laboratory Testing Consultation</span>
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image2} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+                                      <Image src={image2} className={`me-1 ms-1 `} alt=""/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services2'>Calibration Laboratory Consultation</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image3} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image3} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services3'>Inspection Certification Body Consultation</span>
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image4} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image4} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services4'>Product Certification Body Consultation</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image5} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image5} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services5'>Management System Certification Body Consultation</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image6} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image6} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services6'>Medical Laboratory Consultation</span>
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image7} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image7} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services7'>Halal Certification Consultation</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image8} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
+                                      <Image src={image8} className={`me-1 ms-1 `}  alt=""/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services8'>Personal Certification Consultation</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image9} className={`${styles.objImage} me-1 ms-1 `} width={170} height={210} alt=""/>
-                                      <span className="fw-bold mt-3 text-start" data-trans='Services9'>Consultation for Proficiency Testing Providers</span> 
+                                      <Image src={image9} className={`me-1 ms-1 `}  alt=""/>
+                                      <span className="fw-bold mt-5 text-start" data-trans='Services9'>Consultation for Proficiency Testing Providers</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image10} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image10} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services10'>Technical Consultation for Notification Purposes</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image11} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image11} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services11'>Consultation for Obtaining BRCGS Certification </span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image12} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image12} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services12'>Consultation for Obtaining Forest Stewardship Council (FSC) Certification </span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image13} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image13} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services13'>Consultation for Obtaining FSSC 22000 Scheme Certification</span> 
                                   </div>
                                   <div className={`${styles.secondContainer} d-flex flex-column`}>
-                                      <Image src={image14} className={`${styles.objImage} me-1 ms-1`} width={170} height={210} alt="service_image"/>
+                                      <Image src={image14} className={`me-1 ms-1`}  alt="service_image"/>
                                       <span className="fw-bold mt-3 text-start" data-trans='Services14'>ESG Report Service</span> 
                                   </div>
                               </Slider>
