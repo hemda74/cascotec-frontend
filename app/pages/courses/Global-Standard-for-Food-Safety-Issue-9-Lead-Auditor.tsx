@@ -18,7 +18,7 @@ const Course:NextPageWithLayout = (props:Props) => {
   const [seconds, setSeconds] = useState(0);
   /////////////// add counter section ///////////////////////
   useEffect(() => {
-    const target = new Date("06/01/2023 09:00:00");
+    const target = new Date("12/30/2023 09:00:00");
     const interval = setInterval(() => {
       const now = new Date();
       var difference = target.getTime() - now.getTime();

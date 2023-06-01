@@ -1,10 +1,11 @@
 {
-  "name": "ticosys",
+  "name": "casco",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -32,6 +33,7 @@
     "react-redux": "^8.0.2",
     "react-select": "^5.7.2",
     "react-slick": "^0.29.0",
+    "sharp": "^0.32.1",
     "slick-carousel": "^1.8.1",
     "webpack": "^5.76.3",
     "yup": "^1.1.1"
