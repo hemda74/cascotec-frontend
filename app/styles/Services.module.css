@@ -126,11 +126,18 @@
         margin: auto;
         background: #fff;
         border-radius: 0.5rem;
-        max-width: 6rem;
+        max-width: 5rem;
         height: 15rem;
         padding: 0.8rem 0.8rem 5.8rem 0.8rem;
         box-shadow: 0 0.8333333333rem 1.1111111111rem rgba(0,0,0,.1);
       }
+      .divImage{
+        width:2rem !important;
+        height:100%; 
+        margin: auto;
+        background: #ffff;
+        align-self: center;
+        }
       .mainCard
       {
     /* box-shadow: 0 0.8333333333rem 0 0.7111111111rem rgba(0,0,0,.1); */
