@@ -387,8 +387,8 @@ const indexTrans: translataionContainer = {
         ar:'انضم إلى قائمتنا البريدية واحصل على آخر تحديثاتنا ، وأحدث برامج المركز، وبرامج التدريب وما إلى ذلك مباشرة إلى صندوق الوارد الخاص بك'
     },
     CreatedByFooter:{
-        en:'Created By',
-        ar:' التطوير بواسطة'
+        en:'Developed By',
+        ar:'تم التطوير بواسطة'
     },
     AhmedHemdan:{
         en:'Ahmed Hemdan',
