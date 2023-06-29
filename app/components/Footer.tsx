@@ -78,7 +78,7 @@ const Footer = () => {
                     <span className={`${styels.footerAhmed} me-1 ms-1`} data-trans='Cascocopyright'>CASCO</span>
                 </p>
                 <div className={`${styels.copyRightsDiv}`}>
-                    <span data-trans="CreatedByFooter" className='text-white'>Created By</span> 
+                    <span data-trans="CreatedByFooter" className='text-white'>Developed By</span> 
                     <span className='me-1 ms-1'>
                         <a href="https://portoflio-drab.vercel.app/" target="_blank" rel="noreferrer" className={` ${styels.footerAhmed}`} data-trans="AhmedHemdan"><span>Ahmed Hemdan</span></a>
                     </span>
