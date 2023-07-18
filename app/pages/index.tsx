@@ -82,10 +82,9 @@ const Login: NextPage = () => {
           <ServicesSlider/>
           <ApplyAcc/> 
           <Steps/> 
-          <ApplyAcc/> 
+          <AssessorOrCAB/>
           <CoursesSectionHomePage/>
           <Recogention/> 
-          <AssessorOrCAB/>
           <AccreditedBodiesCompaines/>  
           {/* <AccreditedBodiesCompainesRtl/> */} 
           {/* <NewsHomePage/>  */}
