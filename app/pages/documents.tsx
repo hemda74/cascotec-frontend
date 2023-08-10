@@ -77,8 +77,8 @@ const services:NextPageWithLayout = (props:Props) => {
         <title>Documents | CASCO</title>
     </Head>
     <main>
-      {/* <Documents ducoments={dummyData.ducoments} /> */}
-      <OpeningSoon/>
+       <Documents ducoments={dummyData.ducoments} /> 
+      {/* <OpeningSoon/> */}
     </main>
     </>
   )

@@ -509,8 +509,8 @@ const indexTrans: translataionContainer = {
         ar:'العودة الي كاسكو'
     },
     pageunderconstruction:{
-        en:'Page Under Construction',
-        ar:'الصفحة تخت الانشاء'
+        en:'Site Under Construction',
+        ar:'الموقع تحت الانشاء'
     },
 ////////////////////< Board of Directors >//////////////////////////////////
     BoardOfDirectorsNav2:{

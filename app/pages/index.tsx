@@ -26,6 +26,7 @@ import NewsHomePage from '../components/NewsHomePage';
 import Steps from '../components/Steps';
 import FlagesSection from '../components/FlagesSection';
 import WhatsLink from '../components/WhatsLink';
+import FourOhFour from '../components/OpeningSoon2';
 const Login: NextPage = () => {
   // binding useDispatch to dispatch.
   const dispatch = useAppDispatch();
@@ -75,7 +76,7 @@ const Login: NextPage = () => {
           <title>CASCO</title>
       </Head>
       <main className={`${styles.bodyContainer}`}>
-          <WhatsLink/>
+          {/* <WhatsLink/>
           <NavBar/>
           <Hero/>
           <FlagesSection/>
@@ -87,9 +88,11 @@ const Login: NextPage = () => {
           <Recogention/> 
           <AccreditedBodiesCompaines/>  
           {/* <AccreditedBodiesCompainesRtl/> */} 
-          {/* <NewsHomePage/>  */}
-          <Footer/>
-      </main>
+          {/* <NewsHomePage/>  
+          <Footer/>*/}
+
+<FourOhFour/>
+      </main> 
    </>
   );
 };
