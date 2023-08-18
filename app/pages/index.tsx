@@ -76,7 +76,7 @@ const Login: NextPage = () => {
           <title>CASCO</title>
       </Head>
       <main className={`${styles.bodyContainer}`}>
-          {/* <WhatsLink/>
+          <WhatsLink/>
           <NavBar/>
           <Hero/>
           <FlagesSection/>
@@ -87,11 +87,9 @@ const Login: NextPage = () => {
           <CoursesSectionHomePage/>
           <Recogention/> 
           <AccreditedBodiesCompaines/>  
-          {/* <AccreditedBodiesCompainesRtl/> */} 
-          {/* <NewsHomePage/>  
-          <Footer/>*/}
-
-<FourOhFour/>
+          <AccreditedBodiesCompainesRtl/>  
+          <NewsHomePage/>  
+          <Footer/>
       </main> 
    </>
   );
