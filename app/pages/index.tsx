@@ -87,7 +87,7 @@ const Login: NextPage = () => {
         <CoursesSectionHomePage />
         <Recogention />
         <AccreditedBodiesCompaines />
-        <AccreditedBodiesCompainesRtl />
+        {/* <AccreditedBodiesCompainesRtl /> */}
         <Footer />
       </main>
     </>
