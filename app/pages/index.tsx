@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styles from '../styles/Main.module.css'
+import styles from '../styles/Main.module.css';
 import Logo from '../components/Logo';
-import logo from '../public/logo.png'
+import logo from '../public/logo.png';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useAppDispatch, useAppSelector } from '../app/hooks';
@@ -20,8 +20,8 @@ import CoursesSectionHomePage from '../components/CoursesSectionHomePage';
 import Recogention from '../components/Recogention';
 import AssessorOrCAB from '../components/AssessorOrCAB';
 import ServicesSlider from '../components/ServicesSlider';
-import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines'
-import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl'
+import AccreditedBodiesCompaines from '../components/AccreditedBodiesCompaines';
+import AccreditedBodiesCompainesRtl from '../components/AccreditedBodiesCompainesRtl';
 import NewsHomePage from '../components/NewsHomePage';
 import Steps from '../components/Steps';
 import FlagesSection from '../components/FlagesSection';
@@ -67,31 +67,30 @@ const Login: NextPage = () => {
       localStorage.setItem('lang', 'en');
     } else {
       choise = 1;
-  }
+    }
   });
 
   return (
     <>
       <Head>
-          <title>CASCO</title>
+        <title>CASCO</title>
       </Head>
       <main className={`${styles.bodyContainer}`}>
-          <WhatsLink/>
-          <NavBar/>
-          <Hero/>
-          <FlagesSection/>
-          <ServicesSlider/>
-          <ApplyAcc/> 
-          <Steps/> 
-          <AssessorOrCAB/>
-          <CoursesSectionHomePage/>
-          <Recogention/> 
-          <AccreditedBodiesCompaines/>  
-          <AccreditedBodiesCompainesRtl/>  
-          <NewsHomePage/>  
-          <Footer/>
-      </main> 
-   </>
+        <WhatsLink />
+        <NavBar />
+        <Hero />
+        <FlagesSection />
+        <ServicesSlider />
+        <ApplyAcc />
+        <Steps />
+        <AssessorOrCAB />
+        <CoursesSectionHomePage />
+        <Recogention />
+        <AccreditedBodiesCompaines />
+        <AccreditedBodiesCompainesRtl />
+        <Footer />
+      </main>
+    </>
   );
 };
 
