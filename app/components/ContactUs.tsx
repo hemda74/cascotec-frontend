@@ -147,7 +147,7 @@ const ContactUs = () => {
             </div>
             <div className="col-lg-4 col-md-6 p-3">
               <div className={`${styles.mapContact}`}>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1377.5245954970412!2d55.37754646020215!3d25.3141902703356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5b8c60f62301%3A0xe89411747b8d1984!2sVictoria%20building!5e0!3m2!1sen!2ssa!4v1681100863947!5m2!1sen!2ssa"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.951759199128!2d55.2707828!3d25.204849300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43441ac9738b%3A0xa1e10db4aea8c490!2sCASCO%20Middle%20East%20L.L.C!5e0!3m2!1sen!2seg!4v1697741716826!5m2!1sen!2seg"></iframe>{' '}
               </div>
             </div>
             <div className="col-lg-4 col-md-6 p-3">
