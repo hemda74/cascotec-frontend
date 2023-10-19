@@ -1121,8 +1121,8 @@ const indexTrans: translataionContainer = {
         ar:'فرع الإمارات'
     },
     uaeadress:{
-        en:'Floor #14 flat #1401 Victoria Building 31 new al taawun road Sharjah - UAE. land Mark Oriana Hospital',
-        ar:'دور 14 مكتب 1401 مبنى فيكتوريا رقم 31 طريق التعاون الجديد الشارقة الإمارات'
+        en:'13th Floors, Millennium Plaza Tower - Dubai - United Arab Emirates',
+        ar:'دور 13  برج ميلينيوم بلازا - دبي - الإمارات'
     },
     KSABranch:{
         en:'KSA Branch',
