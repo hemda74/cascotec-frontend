@@ -82,7 +82,7 @@ const ContactUs = () => {
                 <p className={`${styles.iconsColor}`}>
                   <FiMail size={30} />
                 </p>
-                <p className="mt-0 me-2">uae@casco.com.eg</p>
+                <p className="mt-0 me-2">me@cascotec.com</p>
                 <div className={``}>
                   {/* <div className=" col-sm-12">
                     <p className={`${styles.iconsColor}`}>
@@ -115,7 +115,7 @@ const ContactUs = () => {
                 <p className={`${styles.iconsColor}`}>
                   <FiMail size={30} />
                 </p>
-                <p className="mt-0 me-2">ksa@casco.com.eg</p>
+                <p className="mt-0 me-2">me@cascotec.com</p>
                 <div className={``}>
                   {/* <div className=" col-sm-12">
                     <p className={`${styles.iconsColor}`}>
